@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Census Handbook Archive - District Census Handbook Tracking</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: system-ui, -apple-system, 'Segoe UI', sans-serif; background: #f0f2f5; color: #1a1a2e; line-height: 1.6; }
+.header { background: linear-gradient(135deg, #1a1a2e, #16213e); color: white; padding: 2rem 0; text-align: center; }
+.header h1 { font-size: 1.8rem; font-weight: 700; margin-bottom: 0.3rem; }
+.header p { opacity: 0.8; font-size: 0.95rem; }
+.container { max-width: 1300px; margin: 0 auto; padding: 1.5rem; }
+
+.tab-nav { display: flex; gap: 0; margin-bottom: 1.5rem; background: white; border-radius: 12px; padding: 0.3rem; box-shadow: 0 2px 8px rgba(0,0,0,0.06); }
+.tab-btn { flex: 1; padding: 0.7rem 1.5rem; border: none; background: transparent; font-size: 1rem; font-weight: 600; cursor: pointer; border-radius: 10px; transition: all 0.2s; color: #666; }
+.tab-btn.active { background: #1a1a2e; color: white; }
+.tab-btn:hover:not(.active) { background: #f0f2f5; }
+
+.cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin-bottom: 1.5rem; }
+.card { background: white; border-radius: 12px; padding: 1.3rem; box-shadow: 0 2px 8px rgba(0,0,0,0.06); transition: transform 0.2s; }
+.card:hover { transform: translateY(-2px); }
+.card-label { font-size: 0.8rem; text-transform: uppercase; color: #888; font-weight: 600; letter-spacing: 0.5px; margin-bottom: 0.3rem; }
+.card-value { font-size: 2rem; font-weight: 700; }
+.card-sub { font-size: 0.85rem; color: #888; margin-top: 0.2rem; }
+.card.green .card-value { color: #16a34a; }
+.card.red .card-value { color: #dc2626; }
+.card.blue .card-value { color: #2563eb; }
+.card.amber .card-value { color: #d97706; }
+.card.purple .card-value { color: #7c3aed; }
+
+.filter-bar { display: flex; gap: 0.8rem; margin-bottom: 1rem; flex-wrap: wrap; align-items: center; }
+.filter-bar input, .filter-bar select { padding: 0.6rem 1rem; border: 1.5px solid #e0e0e0; border-radius: 8px; font-size: 0.9rem; outline: none; transition: border-color 0.2s; }
+.filter-bar input:focus, .filter-bar select:focus { border-color: #2563eb; }
+.filter-bar input { flex: 1; min-width: 250px; }
+.filter-bar select { min-width: 200px; }
+.result-count { font-size: 0.85rem; color: #888; }
+
+.table-wrapper { background: white; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); overflow: hidden; }
+.table-scroll { overflow-x: auto; max-height: 60vh; overflow-y: auto; }
+table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+th { background: #f8f9fa; padding: 0.8rem 1rem; text-align: left; font-weight: 600; color: #555; position: sticky; top: 0; z-index: 1; border-bottom: 2px solid #e0e0e0; cursor: pointer; user-select: none; white-space: nowrap; }
+th:hover { background: #eef0f2; }
+th .sort-icon { margin-left: 0.3rem; font-size: 0.7rem; }
+td { padding: 0.7rem 1rem; border-bottom: 1px solid #f0f0f0; }
+tr:hover td { background: #f8faff; }
+.badge { display: inline-block; padding: 0.2rem 0.7rem; border-radius: 20px; font-size: 0.8rem; font-weight: 600; }
+.badge-yes { background: #dcfce7; color: #15803d; }
+.badge-no { background: #fee2e2; color: #b91c1c; }
+.badge-nopdf { background: #f3f4f6; color: #6b7280; }
+.badge-hindi { background: #fef3c7; color: #92400e; }
+.badge-english { background: #dbeafe; color: #1d4ed8; }
+
+.state-section { margin-bottom: 1.5rem; }
+.state-header { background: #1a1a2e; color: white; padding: 1rem 1.5rem; border-radius: 10px 10px 0 0; display: flex; align-items: center; gap: 1rem; flex-wrap: wrap; }
+.state-header h2 { font-size: 1.1rem; }
+.state-meta { display: flex; gap: 1.2rem; flex-wrap: wrap; font-size: 0.85rem; opacity: 0.9; }
+.state-meta span { display: flex; align-items: center; gap: 0.3rem; }
+.state-body { background: white; border-radius: 0 0 10px 10px; padding: 0; box-shadow: 0 2px 8px rgba(0,0,0,0.06); }
+
+.progress-bar-wrap { display: flex; align-items: center; gap: 0.5rem; min-width: 140px; }
+.progress-bar { flex: 1; height: 8px; background: #e5e7eb; border-radius: 4px; overflow: hidden; }
+.progress-fill { height: 100%; border-radius: 4px; transition: width 0.3s; }
+.progress-fill.green { background: #16a34a; }
+.progress-fill.red { background: #dc2626; }
+
+.footer { text-align: center; padding: 2rem; color: #888; font-size: 0.85rem; }
+.footer a { color: #2563eb; text-decoration: none; }
+
+#topBtn { position: fixed; bottom: 2rem; right: 2rem; width: 44px; height: 44px; border-radius: 50%; background: #1a1a2e; color: white; border: none; cursor: pointer; font-size: 1.3rem; box-shadow: 0 4px 12px rgba(0,0,0,0.2); opacity: 0; transition: opacity 0.3s; z-index: 100; }
+#topBtn.visible { opacity: 1; }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>District Census Handbook (DCHB) Archive</h1>
+  <p>Tracking availability and language of digitized Census Handbooks — 1971 & 1981</p>
+</div>
+
+<div class="container">
+
+<div class="tab-nav">
+  <button class="tab-btn active" data-year="all">All Years</button>
+  <button class="tab-btn" data-year="1971">1971</button>
+  <button class="tab-btn" data-year="1981">1981</button>
+</div>
+
+<div class="cards" id="cards"></div>
+
+<div class="filter-bar">
+  <input type="text" id="searchInput" placeholder="Search by state or district...">
+  <select id="langFilter">
+    <option value="">All Languages</option>
+    <option value="Yes">English</option>
+    <option value="No">Hindi</option>
+    <option value="No PDF">No PDF</option>
+  </select>
+  <select id="availFilter">
+    <option value="">All Availability</option>
+    <option value="Yes">Available</option>
+    <option value="No">Not Available</option>
+  </select>
+  <span class="result-count" id="resultCount"></span>
+</div>
+
+<div id="content"></div>
+
+</div>
+
+<button id="topBtn" onclick="window.scrollTo({top:0,behavior:'smooth'})">&#8593;</button>
+
+<div class="footer">
+  <p>Archival Digitisation Project &middot; Data sourced from Census of India &middot; Last updated: <span id="lastUpdated"></span></p>
+  <p><a href="https://github.com/MohdSadiq8447/Archival-Digitisation-Project" target="_blank">GitHub Repository</a></p>
+</div>
+
+<script>
+let allData = [];
+let statsData = {};
+let currentYear = 'all';
+let sortCol = null;
+let sortDir = 1;
+
+async function loadData() {
+  const [dataRes, statsRes] = await Promise.all([
+    fetch('data.json'),
+    fetch('stats.json')
+  ]);
+  allData = await dataRes.json();
+  statsData = await statsRes.json();
+  document.getElementById('lastUpdated').textContent = new Date().toISOString().split('T')[0];
+  renderAll();
+}
+
+function renderAll() {
+  renderCards();
+  renderContent();
+  updateResultCount();
+}
+
+function renderCards() {
+  const cards = document.getElementById('cards');
+  let s;
+  if (currentYear === 'all') {
+    s = {
+      total: statsData['1971'].total + statsData['1981'].total,
+      available: statsData['1971'].available + statsData['1981'].available,
+      not_available: statsData['1971'].not_available + statsData['1981'].not_available,
+      english: statsData['1971'].english + statsData['1981'].english,
+      hindi: statsData['1971'].hindi + statsData['1981'].hindi,
+      no_pdf: statsData['1971'].no_pdf + statsData['1981'].no_pdf,
+      availability_pct: ((statsData['1971'].available + statsData['1981'].available) / (statsData['1971'].total + statsData['1981'].total) * 100).toFixed(1)
+    };
+  } else {
+    s = statsData[currentYear];
+  }
+  cards.innerHTML = `
+    <div class="card blue"><div class="card-label">Total Districts</div><div class="card-value">${s.total}</div><div class="card-sub">Across ${s.states_count || Object.keys(statsData[currentYear === 'all' ? '1971' : currentYear].state_stats || {}).length} states</div></div>
+    <div class="card green"><div class="card-label">Handbooks Available</div><div class="card-value">${s.available}</div><div class="card-sub">${s.availability_pct}% digitised</div></div>
+    <div class="card red"><div class="card-label">Not Available</div><div class="card-value">${s.not_available}</div><div class="card-sub">Missing from archive</div></div>
+    <div class="card blue"><div class="card-label">English Language</div><div class="card-value">${s.english}</div><div class="card-sub">Handbooks in English</div></div>
+    <div class="card amber"><div class="card-label">Hindi Language</div><div class="card-value">${s.hindi}</div><div class="card-sub">Handbooks in Hindi</div></div>
+    <div class="card purple"><div class="card-label">No PDF</div><div class="card-value">${s.no_pdf}</div><div class="card-sub">PDF not in folder</div></div>
+  `;
+}
+
+function filterData() {
+  const search = document.getElementById('searchInput').value.toLowerCase();
+  const lang = document.getElementById('langFilter').value;
+  const avail = document.getElementById('availFilter').value;
+  let data = currentYear === 'all' ? allData : allData.filter(d => d.year == currentYear);
+  if (search) data = data.filter(d => d.state.toLowerCase().includes(search) || d.district.toLowerCase().includes(search));
+  if (lang) data = data.filter(d => d.language === lang);
+  if (avail) data = data.filter(d => d.available === avail);
+  return data;
+}
+
+function renderContent() {
+  const content = document.getElementById('content');
+  const filtered = filterData();
+  const showAll = !document.getElementById('searchInput').value && !document.getElementById('langFilter').value && !document.getElementById('availFilter').value;
+
+  if (showAll && (currentYear === '1971' || currentYear === '1981')) {
+    renderGroupedView(content, filtered);
+  } else {
+    renderFlatTable(content, filtered);
+  }
+}
+
+function renderGroupedView(content, filtered) {
+  const byState = {};
+  filtered.forEach(d => {
+    if (!byState[d.state]) byState[d.state] = [];
+    byState[d.state].push(d);
+  });
+  const states = Object.keys(byState).sort();
+  let html = '';
+  states.forEach(st => {
+    const rows = byState[st];
+    const avail = rows.filter(r => r.available === 'Yes').length;
+    const eng = rows.filter(r => r.language === 'Yes').length;
+    const hin = rows.filter(r => r.language === 'No').length;
+    const npdf = rows.filter(r => r.language === 'No PDF').length;
+    const pct = (avail / rows.length * 100).toFixed(1);
+    html += `<div class="state-section">
+      <div class="state-header">
+        <h2>${st}</h2>
+        <div class="state-meta">
+          <span>Districts: <strong>${rows.length}</strong></span>
+          <span>Available: <strong>${avail}</strong></span>
+          <span>English: <strong>${eng}</strong></span>
+          ${hin > 0 ? `<span>Hindi: <strong>${hin}</strong></span>` : ''}
+          <span>No PDF: <strong>${npdf}</strong></span>
+          <div class="progress-bar-wrap">
+            <div class="progress-bar"><div class="progress-fill green" style="width:${pct}%"></div></div>
+            <span style="font-size:0.85rem">${pct}%</span>
+          </div>
+        </div>
+      </div>
+      <div class="state-body">
+        <table>
+          <thead><tr>
+            <th>District</th>
+            <th>Available in Folder</th>
+            <th>English Language</th>
+          </tr></thead>
+          <tbody>${rows.map(r => `
+            <tr>
+              <td>${r.district}</td>
+              <td>${renderBadge(r.available, 'available')}</td>
+              <td>${renderBadge(r.language, 'language')}</td>
+            </tr>`).join('')}</tbody>
+        </table>
+      </div>
+    </div>`;
+  });
+  content.innerHTML = html;
+}
+
+function renderFlatTable(content, filtered) {
+  let html = `<div class="table-wrapper"><div class="table-scroll"><table>
+    <thead><tr>
+      <th onclick="doSort(0)">State<span class="sort-icon">${sortIcon(0)}</span></th>
+      <th onclick="doSort(1)">District<span class="sort-icon">${sortIcon(1)}</span></th>
+      <th onclick="doSort(2)">Year<span class="sort-icon">${sortIcon(2)}</span></th>
+      <th onclick="doSort(3)">Available in Folder<span class="sort-icon">${sortIcon(3)}</span></th>
+      <th onclick="doSort(4)">English Language<span class="sort-icon">${sortIcon(4)}</span></th>
+    </tr></thead>
+    <tbody>`;
+  filtered.forEach(d => {
+    html += `<tr>
+      <td>${d.state}</td>
+      <td>${d.district}</td>
+      <td>${d.year}</td>
+      <td>${renderBadge(d.available, 'available')}</td>
+      <td>${renderBadge(d.language, 'language')}</td>
+    </tr>`;
+  });
+  html += '</tbody></table></div></div>';
+  content.innerHTML = html;
+}
+
+function renderBadge(value, type) {
+  if (type === 'available') {
+    return value === 'Yes' ? '<span class="badge badge-yes">Available</span>' : '<span class="badge badge-no">Not Available</span>';
+  }
+  if (value === 'Yes') return '<span class="badge badge-english">English</span>';
+  if (value === 'No') return '<span class="badge badge-hindi">Hindi</span>';
+  return '<span class="badge badge-nopdf">No PDF</span>';
+}
+
+function doSort(col) {
+  if (sortCol === col) sortDir *= -1;
+  else { sortCol = col; sortDir = 1; }
+  const fields = ['state', 'district', 'year', 'available', 'language'];
+  allData.sort((a, b) => {
+    let va = a[fields[col]], vb = b[fields[col]];
+    if (typeof va === 'number') return (va - vb) * sortDir;
+    return String(va).localeCompare(String(vb)) * sortDir;
+  });
+  renderContent();
+}
+
+function sortIcon(col) { return sortCol === col ? (sortDir === 1 ? '&#9650;' : '&#9660;') : ''; }
+
+function updateResultCount() {
+  const filtered = filterData();
+  document.getElementById('resultCount').textContent = `${filtered.length} district${filtered.length !== 1 ? 's' : ''}`;
+}
+
+document.querySelectorAll('.tab-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    currentYear = btn.dataset.year;
+    renderAll();
+  });
+});
+
+document.getElementById('searchInput').addEventListener('input', () => { renderContent(); updateResultCount(); });
+document.getElementById('langFilter').addEventListener('change', () => { renderContent(); updateResultCount(); });
+document.getElementById('availFilter').addEventListener('change', () => { renderContent(); updateResultCount(); });
+
+window.addEventListener('scroll', () => {
+  document.getElementById('topBtn').classList.toggle('visible', window.scrollY > 300);
+});
+
+loadData();
+</script>
+
+</body>
+</html>

@@ -1,0 +1,648 @@
+{
+  "1971": {
+    "total": 357,
+    "available": 281,
+    "not_available": 76,
+    "availability_pct": 78.7,
+    "english": 262,
+    "hindi": 19,
+    "no_pdf": 76,
+    "unknown": 0,
+    "states_count": 31,
+    "state_stats": [
+      {
+        "state": "Andaman and Nicobar Islands",
+        "total": 1,
+        "available": 0,
+        "not_available": 1,
+        "english": 0,
+        "hindi": 0,
+        "no_pdf": 1,
+        "availability_pct": 0.0
+      },
+      {
+        "state": "Andhra Pradesh",
+        "total": 21,
+        "available": 21,
+        "not_available": 0,
+        "english": 21,
+        "hindi": 0,
+        "no_pdf": 0,
+        "availability_pct": 100.0
+      },
+      {
+        "state": "Arunachal Pradesh",
+        "total": 5,
+        "available": 5,
+        "not_available": 0,
+        "english": 5,
+        "hindi": 0,
+        "no_pdf": 0,
+        "availability_pct": 100.0
+      },
+      {
+        "state": "Assam",
+        "total": 9,
+        "available": 0,
+        "not_available": 9,
+        "english": 0,
+        "hindi": 0,
+        "no_pdf": 9,
+        "availability_pct": 0.0
+      },
+      {
+        "state": "Bihar",
+        "total": 17,
+        "available": 1,
+        "not_available": 16,
+        "english": 1,
+        "hindi": 0,
+        "no_pdf": 16,
+        "availability_pct": 5.9
+      },
+      {
+        "state": "Chandigarh",
+        "total": 1,
+        "available": 0,
+        "not_available": 1,
+        "english": 0,
+        "hindi": 0,
+        "no_pdf": 1,
+        "availability_pct": 0.0
+      },
+      {
+        "state": "Dadra and Nagar Haveli",
+        "total": 1,
+        "available": 0,
+        "not_available": 1,
+        "english": 0,
+        "hindi": 0,
+        "no_pdf": 1,
+        "availability_pct": 0.0
+      },
+      {
+        "state": "Delhi",
+        "total": 1,
+        "available": 0,
+        "not_available": 1,
+        "english": 0,
+        "hindi": 0,
+        "no_pdf": 1,
+        "availability_pct": 0.0
+      },
+      {
+        "state": "Goa, Daman and Diu",
+        "total": 3,
+        "available": 2,
+        "not_available": 1,
+        "english": 2,
+        "hindi": 0,
+        "no_pdf": 1,
+        "availability_pct": 66.7
+      },
+      {
+        "state": "Gujarat",
+        "total": 19,
+        "available": 19,
+        "not_available": 0,
+        "english": 19,
+        "hindi": 0,
+        "no_pdf": 0,
+        "availability_pct": 100.0
+      },
+      {
+        "state": "Haryana",
+        "total": 7,
+        "available": 5,
+        "not_available": 2,
+        "english": 5,
+        "hindi": 0,
+        "no_pdf": 2,
+        "availability_pct": 71.4
+      },
+      {
+        "state": "Himachal Pradesh",
+        "total": 10,
+        "available": 1,
+        "not_available": 9,
+        "english": 1,
+        "hindi": 0,
+        "no_pdf": 9,
+        "availability_pct": 10.0
+      },
+      {
+        "state": "Jammu and Kashmir",
+        "total": 10,
+        "available": 10,
+        "not_available": 0,
+        "english": 10,
+        "hindi": 0,
+        "no_pdf": 0,
+        "availability_pct": 100.0
+      },
+      {
+        "state": "Kerala",
+        "total": 10,
+        "available": 10,
+        "not_available": 0,
+        "english": 10,
+        "hindi": 0,
+        "no_pdf": 0,
+        "availability_pct": 100.0
+      },
+      {
+        "state": "Laccadive, Minicoy and Amindivi Islands",
+        "total": 1,
+        "available": 0,
+        "not_available": 1,
+        "english": 0,
+        "hindi": 0,
+        "no_pdf": 1,
+        "availability_pct": 0.0
+      },
+      {
+        "state": "Madhya Pradesh",
+        "total": 43,
+        "available": 42,
+        "not_available": 1,
+        "english": 23,
+        "hindi": 19,
+        "no_pdf": 1,
+        "availability_pct": 97.7
+      },
+      {
+        "state": "Maharashtra",
+        "total": 26,
+        "available": 25,
+        "not_available": 1,
+        "english": 25,
+        "hindi": 0,
+        "no_pdf": 1,
+        "availability_pct": 96.2
+      },
+      {
+        "state": "Manipur",
+        "total": 5,
+        "available": 4,
+        "not_available": 1,
+        "english": 4,
+        "hindi": 0,
+        "no_pdf": 1,
+        "availability_pct": 80.0
+      },
+      {
+        "state": "Meghalaya",
+        "total": 2,
+        "available": 2,
+        "not_available": 0,
+        "english": 2,
+        "hindi": 0,
+        "no_pdf": 0,
+        "availability_pct": 100.0
+      },
+      {
+        "state": "Mizoram",
+        "total": 1,
+        "available": 0,
+        "not_available": 1,
+        "english": 0,
+        "hindi": 0,
+        "no_pdf": 1,
+        "availability_pct": 0.0
+      },
+      {
+        "state": "Mysore",
+        "total": 19,
+        "available": 17,
+        "not_available": 2,
+        "english": 17,
+        "hindi": 0,
+        "no_pdf": 2,
+        "availability_pct": 89.5
+      },
+      {
+        "state": "Nagaland",
+        "total": 3,
+        "available": 3,
+        "not_available": 0,
+        "english": 3,
+        "hindi": 0,
+        "no_pdf": 0,
+        "availability_pct": 100.0
+      },
+      {
+        "state": "Orissa",
+        "total": 13,
+        "available": 1,
+        "not_available": 12,
+        "english": 1,
+        "hindi": 0,
+        "no_pdf": 12,
+        "availability_pct": 7.7
+      },
+      {
+        "state": "Pondicherry",
+        "total": 4,
+        "available": 0,
+        "not_available": 4,
+        "english": 0,
+        "hindi": 0,
+        "no_pdf": 4,
+        "availability_pct": 0.0
+      },
+      {
+        "state": "Punjab",
+        "total": 11,
+        "available": 8,
+        "not_available": 3,
+        "english": 8,
+        "hindi": 0,
+        "no_pdf": 3,
+        "availability_pct": 72.7
+      },
+      {
+        "state": "Rajasthan",
+        "total": 26,
+        "available": 25,
+        "not_available": 1,
+        "english": 25,
+        "hindi": 0,
+        "no_pdf": 1,
+        "availability_pct": 96.2
+      },
+      {
+        "state": "Sikkim",
+        "total": 1,
+        "available": 1,
+        "not_available": 0,
+        "english": 1,
+        "hindi": 0,
+        "no_pdf": 0,
+        "availability_pct": 100.0
+      },
+      {
+        "state": "Tamil Nadu",
+        "total": 14,
+        "available": 11,
+        "not_available": 3,
+        "english": 11,
+        "hindi": 0,
+        "no_pdf": 3,
+        "availability_pct": 78.6
+      },
+      {
+        "state": "Tripura",
+        "total": 3,
+        "available": 0,
+        "not_available": 3,
+        "english": 0,
+        "hindi": 0,
+        "no_pdf": 3,
+        "availability_pct": 0.0
+      },
+      {
+        "state": "Uttar Pradesh",
+        "total": 54,
+        "available": 53,
+        "not_available": 1,
+        "english": 53,
+        "hindi": 0,
+        "no_pdf": 1,
+        "availability_pct": 98.1
+      },
+      {
+        "state": "West Bengal",
+        "total": 16,
+        "available": 15,
+        "not_available": 1,
+        "english": 15,
+        "hindi": 0,
+        "no_pdf": 1,
+        "availability_pct": 93.8
+      }
+    ]
+  },
+  "1981": {
+    "total": 412,
+    "available": 284,
+    "not_available": 128,
+    "availability_pct": 68.9,
+    "english": 284,
+    "hindi": 0,
+    "no_pdf": 128,
+    "unknown": 0,
+    "states_count": 31,
+    "state_stats": [
+      {
+        "state": "Andaman and Nicobar Islands",
+        "total": 2,
+        "available": 0,
+        "not_available": 2,
+        "english": 0,
+        "hindi": 0,
+        "no_pdf": 2,
+        "availability_pct": 0.0
+      },
+      {
+        "state": "Andhra Pradesh",
+        "total": 23,
+        "available": 20,
+        "not_available": 3,
+        "english": 20,
+        "hindi": 0,
+        "no_pdf": 3,
+        "availability_pct": 87.0
+      },
+      {
+        "state": "Arunachal Pradesh",
+        "total": 9,
+        "available": 6,
+        "not_available": 3,
+        "english": 6,
+        "hindi": 0,
+        "no_pdf": 3,
+        "availability_pct": 66.7
+      },
+      {
+        "state": "Assam",
+        "total": 10,
+        "available": 0,
+        "not_available": 10,
+        "english": 0,
+        "hindi": 0,
+        "no_pdf": 10,
+        "availability_pct": 0.0
+      },
+      {
+        "state": "Bihar",
+        "total": 31,
+        "available": 1,
+        "not_available": 30,
+        "english": 1,
+        "hindi": 0,
+        "no_pdf": 30,
+        "availability_pct": 3.2
+      },
+      {
+        "state": "Chandigarh",
+        "total": 1,
+        "available": 0,
+        "not_available": 1,
+        "english": 0,
+        "hindi": 0,
+        "no_pdf": 1,
+        "availability_pct": 0.0
+      },
+      {
+        "state": "Dadra and Nagar Haveli",
+        "total": 1,
+        "available": 0,
+        "not_available": 1,
+        "english": 0,
+        "hindi": 0,
+        "no_pdf": 1,
+        "availability_pct": 0.0
+      },
+      {
+        "state": "Delhi",
+        "total": 1,
+        "available": 0,
+        "not_available": 1,
+        "english": 0,
+        "hindi": 0,
+        "no_pdf": 1,
+        "availability_pct": 0.0
+      },
+      {
+        "state": "Goa, Daman and Diu",
+        "total": 3,
+        "available": 2,
+        "not_available": 1,
+        "english": 2,
+        "hindi": 0,
+        "no_pdf": 1,
+        "availability_pct": 66.7
+      },
+      {
+        "state": "Gujarat",
+        "total": 19,
+        "available": 18,
+        "not_available": 1,
+        "english": 18,
+        "hindi": 0,
+        "no_pdf": 1,
+        "availability_pct": 94.7
+      },
+      {
+        "state": "Haryana",
+        "total": 12,
+        "available": 0,
+        "not_available": 12,
+        "english": 0,
+        "hindi": 0,
+        "no_pdf": 12,
+        "availability_pct": 0.0
+      },
+      {
+        "state": "Himachal Pradesh",
+        "total": 12,
+        "available": 2,
+        "not_available": 10,
+        "english": 2,
+        "hindi": 0,
+        "no_pdf": 10,
+        "availability_pct": 16.7
+      },
+      {
+        "state": "Jammu and Kashmir",
+        "total": 14,
+        "available": 13,
+        "not_available": 1,
+        "english": 13,
+        "hindi": 0,
+        "no_pdf": 1,
+        "availability_pct": 92.9
+      },
+      {
+        "state": "Karnataka",
+        "total": 19,
+        "available": 17,
+        "not_available": 2,
+        "english": 17,
+        "hindi": 0,
+        "no_pdf": 2,
+        "availability_pct": 89.5
+      },
+      {
+        "state": "Kerala",
+        "total": 12,
+        "available": 11,
+        "not_available": 1,
+        "english": 11,
+        "hindi": 0,
+        "no_pdf": 1,
+        "availability_pct": 91.7
+      },
+      {
+        "state": "Lakshadweep",
+        "total": 1,
+        "available": 0,
+        "not_available": 1,
+        "english": 0,
+        "hindi": 0,
+        "no_pdf": 1,
+        "availability_pct": 0.0
+      },
+      {
+        "state": "Madhya Pradesh",
+        "total": 45,
+        "available": 45,
+        "not_available": 0,
+        "english": 45,
+        "hindi": 0,
+        "no_pdf": 0,
+        "availability_pct": 100.0
+      },
+      {
+        "state": "Maharashtra",
+        "total": 26,
+        "available": 24,
+        "not_available": 2,
+        "english": 24,
+        "hindi": 0,
+        "no_pdf": 2,
+        "availability_pct": 92.3
+      },
+      {
+        "state": "Manipur",
+        "total": 6,
+        "available": 3,
+        "not_available": 3,
+        "english": 3,
+        "hindi": 0,
+        "no_pdf": 3,
+        "availability_pct": 50.0
+      },
+      {
+        "state": "Meghalaya",
+        "total": 5,
+        "available": 3,
+        "not_available": 2,
+        "english": 3,
+        "hindi": 0,
+        "no_pdf": 2,
+        "availability_pct": 60.0
+      },
+      {
+        "state": "Mizoram",
+        "total": 3,
+        "available": 2,
+        "not_available": 1,
+        "english": 2,
+        "hindi": 0,
+        "no_pdf": 1,
+        "availability_pct": 66.7
+      },
+      {
+        "state": "Nagaland",
+        "total": 7,
+        "available": 6,
+        "not_available": 1,
+        "english": 6,
+        "hindi": 0,
+        "no_pdf": 1,
+        "availability_pct": 85.7
+      },
+      {
+        "state": "Orissa",
+        "total": 13,
+        "available": 12,
+        "not_available": 1,
+        "english": 12,
+        "hindi": 0,
+        "no_pdf": 1,
+        "availability_pct": 92.3
+      },
+      {
+        "state": "Pondicherry",
+        "total": 4,
+        "available": 0,
+        "not_available": 4,
+        "english": 0,
+        "hindi": 0,
+        "no_pdf": 4,
+        "availability_pct": 0.0
+      },
+      {
+        "state": "Punjab",
+        "total": 12,
+        "available": 11,
+        "not_available": 1,
+        "english": 11,
+        "hindi": 0,
+        "no_pdf": 1,
+        "availability_pct": 91.7
+      },
+      {
+        "state": "Rajasthan",
+        "total": 26,
+        "available": 10,
+        "not_available": 16,
+        "english": 10,
+        "hindi": 0,
+        "no_pdf": 16,
+        "availability_pct": 38.5
+      },
+      {
+        "state": "Sikkim",
+        "total": 4,
+        "available": 0,
+        "not_available": 4,
+        "english": 0,
+        "hindi": 0,
+        "no_pdf": 4,
+        "availability_pct": 0.0
+      },
+      {
+        "state": "Tamil Nadu",
+        "total": 16,
+        "available": 14,
+        "not_available": 2,
+        "english": 14,
+        "hindi": 0,
+        "no_pdf": 2,
+        "availability_pct": 87.5
+      },
+      {
+        "state": "Tripura",
+        "total": 3,
+        "available": 0,
+        "not_available": 3,
+        "english": 0,
+        "hindi": 0,
+        "no_pdf": 3,
+        "availability_pct": 0.0
+      },
+      {
+        "state": "Uttar Pradesh",
+        "total": 56,
+        "available": 51,
+        "not_available": 5,
+        "english": 51,
+        "hindi": 0,
+        "no_pdf": 5,
+        "availability_pct": 91.1
+      },
+      {
+        "state": "West Bengal",
+        "total": 16,
+        "available": 13,
+        "not_available": 3,
+        "english": 13,
+        "hindi": 0,
+        "no_pdf": 3,
+        "availability_pct": 81.2
+      }
+    ]
+  }
+}

@@ -1,0 +1,5385 @@
+[
+  {
+    "state": "Andhra Pradesh",
+    "district": "Srikakulam",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Andhra Pradesh",
+    "district": "Visakhapatnam",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Andhra Pradesh",
+    "district": "East Godavari",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Andhra Pradesh",
+    "district": "West Godavari",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Andhra Pradesh",
+    "district": "Krishna",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Andhra Pradesh",
+    "district": "Guntur",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Andhra Pradesh",
+    "district": "Ongole",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Andhra Pradesh",
+    "district": "Nellore",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Andhra Pradesh",
+    "district": "Chittoor",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Andhra Pradesh",
+    "district": "Cuddapah",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Andhra Pradesh",
+    "district": "Anantapur",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Andhra Pradesh",
+    "district": "Kurnool",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Andhra Pradesh",
+    "district": "Mahbubnagar",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Andhra Pradesh",
+    "district": "Hyderabad",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Andhra Pradesh",
+    "district": "Medak",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Andhra Pradesh",
+    "district": "Nizamabad",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Andhra Pradesh",
+    "district": "Adilabad",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Andhra Pradesh",
+    "district": "Karimnagar",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Andhra Pradesh",
+    "district": "Warangal",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Andhra Pradesh",
+    "district": "Khammam",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Andhra Pradesh",
+    "district": "Nalgonda",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Assam",
+    "district": "Goalpara",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1971
+  },
+  {
+    "state": "Assam",
+    "district": "Kamrup",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1971
+  },
+  {
+    "state": "Assam",
+    "district": "Darrang",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1971
+  },
+  {
+    "state": "Assam",
+    "district": "Nowgong",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1971
+  },
+  {
+    "state": "Assam",
+    "district": "Sibsagar",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1971
+  },
+  {
+    "state": "Assam",
+    "district": "Lakhimpur",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1971
+  },
+  {
+    "state": "Assam",
+    "district": "Mikir Hills",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1971
+  },
+  {
+    "state": "Assam",
+    "district": "North Cachar Hills",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1971
+  },
+  {
+    "state": "Assam",
+    "district": "Cachar",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1971
+  },
+  {
+    "state": "Bihar",
+    "district": "Patna",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1971
+  },
+  {
+    "state": "Bihar",
+    "district": "Gaya",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1971
+  },
+  {
+    "state": "Bihar",
+    "district": "Shahabad",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1971
+  },
+  {
+    "state": "Bihar",
+    "district": "Saran",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Bihar",
+    "district": "Champaran",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1971
+  },
+  {
+    "state": "Bihar",
+    "district": "Muzaffarpur",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1971
+  },
+  {
+    "state": "Bihar",
+    "district": "Darbhanga",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1971
+  },
+  {
+    "state": "Bihar",
+    "district": "Monghyr",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1971
+  },
+  {
+    "state": "Bihar",
+    "district": "Bhagalpur",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1971
+  },
+  {
+    "state": "Bihar",
+    "district": "Saharsa",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1971
+  },
+  {
+    "state": "Bihar",
+    "district": "Purnea",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1971
+  },
+  {
+    "state": "Bihar",
+    "district": "Santal Parganas",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1971
+  },
+  {
+    "state": "Bihar",
+    "district": "Palamau",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1971
+  },
+  {
+    "state": "Bihar",
+    "district": "Hazaribagh",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1971
+  },
+  {
+    "state": "Bihar",
+    "district": "Ranchi",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1971
+  },
+  {
+    "state": "Bihar",
+    "district": "Dhanbad",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1971
+  },
+  {
+    "state": "Bihar",
+    "district": "Singhbhum",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1971
+  },
+  {
+    "state": "Gujarat",
+    "district": "Jamnagar",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Gujarat",
+    "district": "Rajkot",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Gujarat",
+    "district": "Surendranagar",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Gujarat",
+    "district": "Bhavnagar",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Gujarat",
+    "district": "Amreli",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Gujarat",
+    "district": "Junagadh",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Gujarat",
+    "district": "Kutch",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Gujarat",
+    "district": "Banas Kantha",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Gujarat",
+    "district": "Sabar Kantha",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Gujarat",
+    "district": "Mahesana",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Gujarat",
+    "district": "Gandhinagar",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Gujarat",
+    "district": "Ahmadabad",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Gujarat",
+    "district": "Kheda",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Gujarat",
+    "district": "Panch Mahals",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Gujarat",
+    "district": "Vadodara",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Gujarat",
+    "district": "Bharuch",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Gujarat",
+    "district": "Surat",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Gujarat",
+    "district": "Valsad",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Gujarat",
+    "district": "The Dangs",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Haryana",
+    "district": "Ambala",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1971
+  },
+  {
+    "state": "Haryana",
+    "district": "Karnal",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1971
+  },
+  {
+    "state": "Haryana",
+    "district": "Rohtak",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Haryana",
+    "district": "Gurgaon",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Haryana",
+    "district": "Mahendragarh",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Haryana",
+    "district": "Hisar",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Haryana",
+    "district": "Jind",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Himachal Pradesh",
+    "district": "Chamba",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1971
+  },
+  {
+    "state": "Himachal Pradesh",
+    "district": "Kangra",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1971
+  },
+  {
+    "state": "Himachal Pradesh",
+    "district": "Mandi",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1971
+  },
+  {
+    "state": "Himachal Pradesh",
+    "district": "Kulu",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1971
+  },
+  {
+    "state": "Himachal Pradesh",
+    "district": "Lahul and Spiti",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1971
+  },
+  {
+    "state": "Himachal Pradesh",
+    "district": "Bilaspur",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Himachal Pradesh",
+    "district": "Mahasu",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1971
+  },
+  {
+    "state": "Himachal Pradesh",
+    "district": "Simla",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1971
+  },
+  {
+    "state": "Himachal Pradesh",
+    "district": "Sirmaur",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1971
+  },
+  {
+    "state": "Himachal Pradesh",
+    "district": "Kinnaur",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1971
+  },
+  {
+    "state": "Jammu and Kashmir",
+    "district": "Anantnag",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Jammu and Kashmir",
+    "district": "Srinagar",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Jammu and Kashmir",
+    "district": "Baramula",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Jammu and Kashmir",
+    "district": "Ladakh",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Jammu and Kashmir",
+    "district": "Doda",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Jammu and Kashmir",
+    "district": "Udhampur",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Jammu and Kashmir",
+    "district": "Jammu",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Jammu and Kashmir",
+    "district": "Kathua",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Jammu and Kashmir",
+    "district": "Rajauri",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Jammu and Kashmir",
+    "district": "Punch",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Kerala",
+    "district": "Cannanore",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Kerala",
+    "district": "Kozhikode",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Kerala",
+    "district": "Malappuram",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Kerala",
+    "district": "Palghat",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Kerala",
+    "district": "Trichur",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Kerala",
+    "district": "Ernakulam",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Kerala",
+    "district": "Kottayam",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Kerala",
+    "district": "Alleppey",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Kerala",
+    "district": "Quilon",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Kerala",
+    "district": "Trivandrum",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Madhya Pradesh",
+    "district": "Morena",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Madhya Pradesh",
+    "district": "Bhind",
+    "available": "Yes",
+    "language": "No",
+    "year": 1971
+  },
+  {
+    "state": "Madhya Pradesh",
+    "district": "Gwalior",
+    "available": "Yes",
+    "language": "No",
+    "year": 1971
+  },
+  {
+    "state": "Madhya Pradesh",
+    "district": "Datia",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Madhya Pradesh",
+    "district": "Shivpuri",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1971
+  },
+  {
+    "state": "Madhya Pradesh",
+    "district": "Guna",
+    "available": "Yes",
+    "language": "No",
+    "year": 1971
+  },
+  {
+    "state": "Madhya Pradesh",
+    "district": "Tikamgarh",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Madhya Pradesh",
+    "district": "Chhatarpur",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Madhya Pradesh",
+    "district": "Panna",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Madhya Pradesh",
+    "district": "Satna",
+    "available": "Yes",
+    "language": "No",
+    "year": 1971
+  },
+  {
+    "state": "Madhya Pradesh",
+    "district": "Rewa",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Madhya Pradesh",
+    "district": "Shahdol",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Madhya Pradesh",
+    "district": "Sidhi",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Madhya Pradesh",
+    "district": "Mandsaur",
+    "available": "Yes",
+    "language": "No",
+    "year": 1971
+  },
+  {
+    "state": "Madhya Pradesh",
+    "district": "Ratlam",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Madhya Pradesh",
+    "district": "Ujjain",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Madhya Pradesh",
+    "district": "Jhabua",
+    "available": "Yes",
+    "language": "No",
+    "year": 1971
+  },
+  {
+    "state": "Madhya Pradesh",
+    "district": "Dhar",
+    "available": "Yes",
+    "language": "No",
+    "year": 1971
+  },
+  {
+    "state": "Madhya Pradesh",
+    "district": "Indore",
+    "available": "Yes",
+    "language": "No",
+    "year": 1971
+  },
+  {
+    "state": "Madhya Pradesh",
+    "district": "Dewas",
+    "available": "Yes",
+    "language": "No",
+    "year": 1971
+  },
+  {
+    "state": "Madhya Pradesh",
+    "district": "Khargone",
+    "available": "Yes",
+    "language": "No",
+    "year": 1971
+  },
+  {
+    "state": "Madhya Pradesh",
+    "district": "Khandwa",
+    "available": "Yes",
+    "language": "No",
+    "year": 1971
+  },
+  {
+    "state": "Madhya Pradesh",
+    "district": "Shajapur",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Madhya Pradesh",
+    "district": "Rajgarh",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Madhya Pradesh",
+    "district": "Vidisha",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Madhya Pradesh",
+    "district": "Sehore",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Madhya Pradesh",
+    "district": "Raisen",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Madhya Pradesh",
+    "district": "Hoshangabad",
+    "available": "Yes",
+    "language": "No",
+    "year": 1971
+  },
+  {
+    "state": "Madhya Pradesh",
+    "district": "Betul",
+    "available": "Yes",
+    "language": "No",
+    "year": 1971
+  },
+  {
+    "state": "Madhya Pradesh",
+    "district": "Sagar",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Madhya Pradesh",
+    "district": "Damoh",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Madhya Pradesh",
+    "district": "Jabalpur",
+    "available": "Yes",
+    "language": "No",
+    "year": 1971
+  },
+  {
+    "state": "Madhya Pradesh",
+    "district": "Narsimhapur",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Madhya Pradesh",
+    "district": "Mandla",
+    "available": "Yes",
+    "language": "No",
+    "year": 1971
+  },
+  {
+    "state": "Madhya Pradesh",
+    "district": "Chhindwara",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Madhya Pradesh",
+    "district": "Seoni",
+    "available": "Yes",
+    "language": "No",
+    "year": 1971
+  },
+  {
+    "state": "Madhya Pradesh",
+    "district": "Balaghat",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Madhya Pradesh",
+    "district": "Surguja",
+    "available": "Yes",
+    "language": "No",
+    "year": 1971
+  },
+  {
+    "state": "Madhya Pradesh",
+    "district": "Bilaspur",
+    "available": "Yes",
+    "language": "No",
+    "year": 1971
+  },
+  {
+    "state": "Madhya Pradesh",
+    "district": "Raigarh",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Madhya Pradesh",
+    "district": "Durg",
+    "available": "Yes",
+    "language": "No",
+    "year": 1971
+  },
+  {
+    "state": "Madhya Pradesh",
+    "district": "Raipur",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Madhya Pradesh",
+    "district": "Bastar",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Maharashtra",
+    "district": "Greater Bombay",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Maharashtra",
+    "district": "Thana",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Maharashtra",
+    "district": "Kolaba",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Maharashtra",
+    "district": "Ratnagiri",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Maharashtra",
+    "district": "Nasik",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Maharashtra",
+    "district": "Dhulia",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Maharashtra",
+    "district": "Jalgaon",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Maharashtra",
+    "district": "Ahmednagar",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Maharashtra",
+    "district": "Poona",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Maharashtra",
+    "district": "Satara",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Maharashtra",
+    "district": "Sangli",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Maharashtra",
+    "district": "Sholapur",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Maharashtra",
+    "district": "Kolhapur",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Maharashtra",
+    "district": "Aurangabad",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1971
+  },
+  {
+    "state": "Maharashtra",
+    "district": "Parbhani",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Maharashtra",
+    "district": "Bhir",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Maharashtra",
+    "district": "Nanded",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Maharashtra",
+    "district": "Osmanabad",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Maharashtra",
+    "district": "Buldhana",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Maharashtra",
+    "district": "Akola",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Maharashtra",
+    "district": "Amravati",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Maharashtra",
+    "district": "Yeotmal",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Maharashtra",
+    "district": "Wardha",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Maharashtra",
+    "district": "Nagpur",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Maharashtra",
+    "district": "Bhandara",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Maharashtra",
+    "district": "Chandrapur",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Manipur",
+    "district": "Manipur North",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Manipur",
+    "district": "Manipur West",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Manipur",
+    "district": "Manipur South",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Manipur",
+    "district": "Manipur Central",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Manipur",
+    "district": "Manipur East",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1971
+  },
+  {
+    "state": "Meghalaya",
+    "district": "Garo Hills",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Meghalaya",
+    "district": "United Khasi and Jaintia Hills",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Mysore",
+    "district": "Bangalore",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Mysore",
+    "district": "Belgaum",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Mysore",
+    "district": "Bellary",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Mysore",
+    "district": "Bidar",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1971
+  },
+  {
+    "state": "Mysore",
+    "district": "Bijapur",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Mysore",
+    "district": "Chikmagalur",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Mysore",
+    "district": "Chitradurga",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Mysore",
+    "district": "Coorg",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Mysore",
+    "district": "Dharwar",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1971
+  },
+  {
+    "state": "Mysore",
+    "district": "Gulbarga",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Mysore",
+    "district": "Hassan",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Mysore",
+    "district": "Kolar",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Mysore",
+    "district": "Mandya",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Mysore",
+    "district": "Mysore",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Mysore",
+    "district": "North Kanara",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Mysore",
+    "district": "Raichur",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Mysore",
+    "district": "Shimoga",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Mysore",
+    "district": "South Kanara",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Mysore",
+    "district": "Tumkur",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Nagaland",
+    "district": "Kohima",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Nagaland",
+    "district": "Mokokchung",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Nagaland",
+    "district": "Tuensang",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Orissa",
+    "district": "Sambalpur",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1971
+  },
+  {
+    "state": "Orissa",
+    "district": "Sundargarh",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1971
+  },
+  {
+    "state": "Orissa",
+    "district": "Keonjhar",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1971
+  },
+  {
+    "state": "Orissa",
+    "district": "Mayurbhanj",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1971
+  },
+  {
+    "state": "Orissa",
+    "district": "Balasore",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1971
+  },
+  {
+    "state": "Orissa",
+    "district": "Cuttack",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1971
+  },
+  {
+    "state": "Orissa",
+    "district": "Dhenkanal",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1971
+  },
+  {
+    "state": "Orissa",
+    "district": "Baudh Khondmals",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1971
+  },
+  {
+    "state": "Orissa",
+    "district": "Bolangir",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1971
+  },
+  {
+    "state": "Orissa",
+    "district": "Kalahandi",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1971
+  },
+  {
+    "state": "Orissa",
+    "district": "Koraput",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1971
+  },
+  {
+    "state": "Orissa",
+    "district": "Ganjam",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1971
+  },
+  {
+    "state": "Orissa",
+    "district": "Puri",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Punjab",
+    "district": "Gurdaspur",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1971
+  },
+  {
+    "state": "Punjab",
+    "district": "Amritsar",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1971
+  },
+  {
+    "state": "Punjab",
+    "district": "Firozpur",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Punjab",
+    "district": "Ludhiana",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Punjab",
+    "district": "Jullundur",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Punjab",
+    "district": "Kapurthala",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Punjab",
+    "district": "Hoshiarpur",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Punjab",
+    "district": "Ropar",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Punjab",
+    "district": "Patiala",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Punjab",
+    "district": "Sangrur",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Punjab",
+    "district": "Bhatinda",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1971
+  },
+  {
+    "state": "Rajasthan",
+    "district": "Ganganagar",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Rajasthan",
+    "district": "Bikaner",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Rajasthan",
+    "district": "Churu",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Rajasthan",
+    "district": "Jhunjhunun",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Rajasthan",
+    "district": "Alwar",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Rajasthan",
+    "district": "Bharatpur",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Rajasthan",
+    "district": "Sawai Madhopur",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Rajasthan",
+    "district": "Jaipur",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Rajasthan",
+    "district": "Sikar",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Rajasthan",
+    "district": "Ajmer",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Rajasthan",
+    "district": "Tonk",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Rajasthan",
+    "district": "Jaisalmer",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Rajasthan",
+    "district": "Jodhpur",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Rajasthan",
+    "district": "Nagaur",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Rajasthan",
+    "district": "Pali",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Rajasthan",
+    "district": "Barmer",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Rajasthan",
+    "district": "Jalor",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1971
+  },
+  {
+    "state": "Rajasthan",
+    "district": "Sirohi",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Rajasthan",
+    "district": "Bhilwara",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Rajasthan",
+    "district": "Udaipur",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Rajasthan",
+    "district": "Chittaurgarh",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Rajasthan",
+    "district": "Dungarpur",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Rajasthan",
+    "district": "Banswara",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Rajasthan",
+    "district": "Bundi",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Rajasthan",
+    "district": "Kota",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Rajasthan",
+    "district": "Jhalawar",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Sikkim",
+    "district": "Sikkim",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Tamil Nadu",
+    "district": "Madras",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1971
+  },
+  {
+    "state": "Tamil Nadu",
+    "district": "Chengalpattu",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Tamil Nadu",
+    "district": "North Arcot",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Tamil Nadu",
+    "district": "South Arcot",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Tamil Nadu",
+    "district": "Dharmapuri",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Tamil Nadu",
+    "district": "Salem",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Tamil Nadu",
+    "district": "Coimbatore",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Tamil Nadu",
+    "district": "Nilgiris",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Tamil Nadu",
+    "district": "Madurai",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1971
+  },
+  {
+    "state": "Tamil Nadu",
+    "district": "Tiruchirapalli",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Tamil Nadu",
+    "district": "Thanjavur",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Tamil Nadu",
+    "district": "Ramanathapuram",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Tamil Nadu",
+    "district": "Tirunelveli",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Tamil Nadu",
+    "district": "Kanniyakumari",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1971
+  },
+  {
+    "state": "Tripura",
+    "district": "West Tripura",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1971
+  },
+  {
+    "state": "Tripura",
+    "district": "North Tripura",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1971
+  },
+  {
+    "state": "Tripura",
+    "district": "South Tripura",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1971
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Uttar Kashi",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Chamoli",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Tehri Garhwal",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Garhwal",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Pithoragarh",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Almora",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Naini Tal",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Bijnor",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Moradabad",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Budaun",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Rampur",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Bareilly",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Pilibhit",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Shahjahanpur",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Dehra Dun",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Saharanpur",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Muzaffarnagar",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Meerut",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Bulandshahr",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Aligarh",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Mathura",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Agra",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Etah",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Mainpuri",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Farrukhabad",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Etawah",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Kanpur",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Fatehpur",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Allahabad",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Jhansi",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Jalaun",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Hamirpur",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Banda",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Kheri",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Sitapur",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Hardoi",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Unnao",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Lucknow",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Rae Bareli",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Bahraich",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Gonda",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Bara Banki",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Faizabad",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Sultanpur",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Pratapgarh",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Basti",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Gorakhpur",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Deoria",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Azamgarh",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Jaunpur",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Ballia",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Ghazipur",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1971
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Varanasi",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Mirzapur",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "West Bengal",
+    "district": "Darjeeling",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "West Bengal",
+    "district": "Jalpaiguri",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "West Bengal",
+    "district": "Cooch Behar",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "West Bengal",
+    "district": "West Dinajpur",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1971
+  },
+  {
+    "state": "West Bengal",
+    "district": "Malda",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "West Bengal",
+    "district": "Murshidabad",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "West Bengal",
+    "district": "Nadia",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "West Bengal",
+    "district": "Twenty Four Parganas",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "West Bengal",
+    "district": "Howrah",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "West Bengal",
+    "district": "Calcutta",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "West Bengal",
+    "district": "Hooghly",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "West Bengal",
+    "district": "Burdwan",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "West Bengal",
+    "district": "Birbhum",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "West Bengal",
+    "district": "Bankura",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "West Bengal",
+    "district": "Midnapore",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "West Bengal",
+    "district": "Purulia",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Andaman and Nicobar Islands",
+    "district": "Andaman and Nicobar Islands",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1971
+  },
+  {
+    "state": "Arunachal Pradesh",
+    "district": "Kameng",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Arunachal Pradesh",
+    "district": "Subansiri",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Arunachal Pradesh",
+    "district": "Siang",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Arunachal Pradesh",
+    "district": "Lohit",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Arunachal Pradesh",
+    "district": "Tirap",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Chandigarh",
+    "district": "Chandigarh",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1971
+  },
+  {
+    "state": "Dadra and Nagar Haveli",
+    "district": "Dadra and Nagar Haveli",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1971
+  },
+  {
+    "state": "Delhi",
+    "district": "Delhi",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1971
+  },
+  {
+    "state": "Goa, Daman and Diu",
+    "district": "Goa",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1971
+  },
+  {
+    "state": "Goa, Daman and Diu",
+    "district": "Daman",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Goa, Daman and Diu",
+    "district": "Diu",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1971
+  },
+  {
+    "state": "Laccadive, Minicoy and Amindivi Islands",
+    "district": "Laccadive, Minicoy and Amindivi Islands",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1971
+  },
+  {
+    "state": "Mizoram",
+    "district": "Mizoram",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1971
+  },
+  {
+    "state": "Pondicherry",
+    "district": "Pondicherry",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1971
+  },
+  {
+    "state": "Pondicherry",
+    "district": "Karaikal",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1971
+  },
+  {
+    "state": "Pondicherry",
+    "district": "Mahe",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1971
+  },
+  {
+    "state": "Pondicherry",
+    "district": "Yanam",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1971
+  },
+  {
+    "state": "Andhra Pradesh",
+    "district": "Srikakulam",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Andhra Pradesh",
+    "district": "Vizianagaram",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1981
+  },
+  {
+    "state": "Andhra Pradesh",
+    "district": "Vishakhapatnam",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1981
+  },
+  {
+    "state": "Andhra Pradesh",
+    "district": "East Godavari",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Andhra Pradesh",
+    "district": "West Godavari",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1981
+  },
+  {
+    "state": "Andhra Pradesh",
+    "district": "Krishna",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Andhra Pradesh",
+    "district": "Guntur",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Andhra Pradesh",
+    "district": "Prakasam",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Andhra Pradesh",
+    "district": "Nellore",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Andhra Pradesh",
+    "district": "Chittoor",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Andhra Pradesh",
+    "district": "Cuddapah",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Andhra Pradesh",
+    "district": "Anantapur",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Andhra Pradesh",
+    "district": "Kurnool",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Andhra Pradesh",
+    "district": "Mahbubnagar",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Andhra Pradesh",
+    "district": "Rangareddi",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Andhra Pradesh",
+    "district": "Hyderabad",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Andhra Pradesh",
+    "district": "Medak",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Andhra Pradesh",
+    "district": "Nizamabad",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Andhra Pradesh",
+    "district": "Adilabad",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Andhra Pradesh",
+    "district": "Karimnagar",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Andhra Pradesh",
+    "district": "Warangal",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Andhra Pradesh",
+    "district": "Khammam",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Andhra Pradesh",
+    "district": "Nalgonda",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Arunachal Pradesh",
+    "district": "West Kameng",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Arunachal Pradesh",
+    "district": "East Kameng",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Arunachal Pradesh",
+    "district": "Lower Subansiri",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Arunachal Pradesh",
+    "district": "Upper Subansiri",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1981
+  },
+  {
+    "state": "Arunachal Pradesh",
+    "district": "West Siang",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Arunachal Pradesh",
+    "district": "East Siang",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1981
+  },
+  {
+    "state": "Arunachal Pradesh",
+    "district": "Dibang Valley",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1981
+  },
+  {
+    "state": "Arunachal Pradesh",
+    "district": "Lohit",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Arunachal Pradesh",
+    "district": "Tirap",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Assam",
+    "district": "Goalpara",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1981
+  },
+  {
+    "state": "Assam",
+    "district": "Kamrup",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1981
+  },
+  {
+    "state": "Assam",
+    "district": "Darrang",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1981
+  },
+  {
+    "state": "Assam",
+    "district": "Lakhimpur",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1981
+  },
+  {
+    "state": "Assam",
+    "district": "Dibrugarh",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1981
+  },
+  {
+    "state": "Assam",
+    "district": "Sibsagar",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1981
+  },
+  {
+    "state": "Assam",
+    "district": "Karbi Anglong",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1981
+  },
+  {
+    "state": "Assam",
+    "district": "Nagaon",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1981
+  },
+  {
+    "state": "Assam",
+    "district": "North Cachar Hills",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1981
+  },
+  {
+    "state": "Assam",
+    "district": "Cachar",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1981
+  },
+  {
+    "state": "Bihar",
+    "district": "Patna",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1981
+  },
+  {
+    "state": "Bihar",
+    "district": "Nalanda",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1981
+  },
+  {
+    "state": "Bihar",
+    "district": "Nawada",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1981
+  },
+  {
+    "state": "Bihar",
+    "district": "Gaya",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1981
+  },
+  {
+    "state": "Bihar",
+    "district": "Aurangabad",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1981
+  },
+  {
+    "state": "Bihar",
+    "district": "Rohtas",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1981
+  },
+  {
+    "state": "Bihar",
+    "district": "Bhojpur",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1981
+  },
+  {
+    "state": "Bihar",
+    "district": "Saran",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1981
+  },
+  {
+    "state": "Bihar",
+    "district": "Siwan",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1981
+  },
+  {
+    "state": "Bihar",
+    "district": "Gopalganj",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1981
+  },
+  {
+    "state": "Bihar",
+    "district": "Pashchim Champaran",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1981
+  },
+  {
+    "state": "Bihar",
+    "district": "Purba Champaran",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1981
+  },
+  {
+    "state": "Bihar",
+    "district": "Sitamarhi",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1981
+  },
+  {
+    "state": "Bihar",
+    "district": "Muzaffarpur",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1981
+  },
+  {
+    "state": "Bihar",
+    "district": "Vaishali",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1981
+  },
+  {
+    "state": "Bihar",
+    "district": "Begusarai",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1981
+  },
+  {
+    "state": "Bihar",
+    "district": "Samastipur",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1981
+  },
+  {
+    "state": "Bihar",
+    "district": "Darbhanga",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1981
+  },
+  {
+    "state": "Bihar",
+    "district": "Madhubani",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1981
+  },
+  {
+    "state": "Bihar",
+    "district": "Saharsa",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1981
+  },
+  {
+    "state": "Bihar",
+    "district": "Purnia",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1981
+  },
+  {
+    "state": "Bihar",
+    "district": "Katihar",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1981
+  },
+  {
+    "state": "Bihar",
+    "district": "Munger",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1981
+  },
+  {
+    "state": "Bihar",
+    "district": "Bhagalpur",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Bihar",
+    "district": "Santhal Pargana",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1981
+  },
+  {
+    "state": "Bihar",
+    "district": "Dhanbad",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1981
+  },
+  {
+    "state": "Bihar",
+    "district": "Giridih",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1981
+  },
+  {
+    "state": "Bihar",
+    "district": "Hazaribag",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1981
+  },
+  {
+    "state": "Bihar",
+    "district": "Palamu",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1981
+  },
+  {
+    "state": "Bihar",
+    "district": "Ranchi",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1981
+  },
+  {
+    "state": "Bihar",
+    "district": "Singhbhum",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1981
+  },
+  {
+    "state": "Goa, Daman and Diu",
+    "district": "Goa",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1981
+  },
+  {
+    "state": "Goa, Daman and Diu",
+    "district": "Daman",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Goa, Daman and Diu",
+    "district": "Diu",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Gujarat",
+    "district": "Jamnagar",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1981
+  },
+  {
+    "state": "Gujarat",
+    "district": "Rajkot",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Gujarat",
+    "district": "Surendranagar",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Gujarat",
+    "district": "Bhavnagar",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Gujarat",
+    "district": "Amreli",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Gujarat",
+    "district": "Junagadh",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Gujarat",
+    "district": "Kachchh",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Gujarat",
+    "district": "Banas Kantha",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Gujarat",
+    "district": "Sabar Kantha",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Gujarat",
+    "district": "Mahesana",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Gujarat",
+    "district": "Gandhinagar",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Gujarat",
+    "district": "Ahmadabad",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Gujarat",
+    "district": "Kheda",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Gujarat",
+    "district": "Panch Mahals",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Gujarat",
+    "district": "Vadodara",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Gujarat",
+    "district": "Bharuch",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Gujarat",
+    "district": "Surat",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Gujarat",
+    "district": "Valsad",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Gujarat",
+    "district": "The Dangs",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Haryana",
+    "district": "Ambala",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1981
+  },
+  {
+    "state": "Haryana",
+    "district": "Kurukshetra",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1981
+  },
+  {
+    "state": "Haryana",
+    "district": "Karnal",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1981
+  },
+  {
+    "state": "Haryana",
+    "district": "Jind",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1981
+  },
+  {
+    "state": "Haryana",
+    "district": "Sonipat",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1981
+  },
+  {
+    "state": "Haryana",
+    "district": "Rohtak",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1981
+  },
+  {
+    "state": "Haryana",
+    "district": "Faridabad",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1981
+  },
+  {
+    "state": "Haryana",
+    "district": "Gurgaon",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1981
+  },
+  {
+    "state": "Haryana",
+    "district": "Mahendragarh",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1981
+  },
+  {
+    "state": "Haryana",
+    "district": "Bhiwani",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1981
+  },
+  {
+    "state": "Haryana",
+    "district": "Hisar",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1981
+  },
+  {
+    "state": "Haryana",
+    "district": "Sirsa",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1981
+  },
+  {
+    "state": "Himachal Pradesh",
+    "district": "Chamba",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1981
+  },
+  {
+    "state": "Himachal Pradesh",
+    "district": "Kangra",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1981
+  },
+  {
+    "state": "Himachal Pradesh",
+    "district": "Hamirpur",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Himachal Pradesh",
+    "district": "Una",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1981
+  },
+  {
+    "state": "Himachal Pradesh",
+    "district": "Bilaspur",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Himachal Pradesh",
+    "district": "Mandi",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1981
+  },
+  {
+    "state": "Himachal Pradesh",
+    "district": "Kullu",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1981
+  },
+  {
+    "state": "Himachal Pradesh",
+    "district": "Lahul and Spiti",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1981
+  },
+  {
+    "state": "Himachal Pradesh",
+    "district": "Shimla",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1981
+  },
+  {
+    "state": "Himachal Pradesh",
+    "district": "Solan",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1981
+  },
+  {
+    "state": "Himachal Pradesh",
+    "district": "Sirmaur",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1981
+  },
+  {
+    "state": "Himachal Pradesh",
+    "district": "Kinnaur",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1981
+  },
+  {
+    "state": "Jammu and Kashmir",
+    "district": "Anantnag",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Jammu and Kashmir",
+    "district": "Pulwama",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Jammu and Kashmir",
+    "district": "Srinagar",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Jammu and Kashmir",
+    "district": "Badgam",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Jammu and Kashmir",
+    "district": "Baramula",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Jammu and Kashmir",
+    "district": "Kupwara",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Jammu and Kashmir",
+    "district": "Kargil",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Jammu and Kashmir",
+    "district": "Ladakh",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Jammu and Kashmir",
+    "district": "Doda",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Jammu and Kashmir",
+    "district": "Udhampur",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1981
+  },
+  {
+    "state": "Jammu and Kashmir",
+    "district": "Kathua",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Jammu and Kashmir",
+    "district": "Jammu",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Jammu and Kashmir",
+    "district": "Rajauri",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Jammu and Kashmir",
+    "district": "Punch",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Karnataka",
+    "district": "Bangalore",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Karnataka",
+    "district": "Belgaum",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Karnataka",
+    "district": "Bellary",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Karnataka",
+    "district": "Bidar",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Karnataka",
+    "district": "Bijapur",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Karnataka",
+    "district": "Chikmagalur",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Karnataka",
+    "district": "Chitradurga",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Karnataka",
+    "district": "Dakshin Kannad",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Karnataka",
+    "district": "Dharwad",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Karnataka",
+    "district": "Gulbarga",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Karnataka",
+    "district": "Hassan",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Karnataka",
+    "district": "Kodagu",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Karnataka",
+    "district": "Kolar",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Karnataka",
+    "district": "Mandya",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Karnataka",
+    "district": "Mysore",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1981
+  },
+  {
+    "state": "Karnataka",
+    "district": "Raichur",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Karnataka",
+    "district": "Shimoga",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Karnataka",
+    "district": "Tumkur",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1981
+  },
+  {
+    "state": "Karnataka",
+    "district": "Uttar Kannad",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Kerala",
+    "district": "Cannanore",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Kerala",
+    "district": "Wayanad",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Kerala",
+    "district": "Kozhikode",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Kerala",
+    "district": "Malappuram",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Kerala",
+    "district": "Palghat",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1981
+  },
+  {
+    "state": "Kerala",
+    "district": "Trichur",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Kerala",
+    "district": "Ernakulam",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Kerala",
+    "district": "Idukki",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Kerala",
+    "district": "Kottayam",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Kerala",
+    "district": "Alleppey",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Kerala",
+    "district": "Quilon",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Kerala",
+    "district": "Trivandrum",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Madhya Pradesh",
+    "district": "Morena",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Madhya Pradesh",
+    "district": "Bhind",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Madhya Pradesh",
+    "district": "Gwalior",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Madhya Pradesh",
+    "district": "Datia",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Madhya Pradesh",
+    "district": "Shivpuri",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Madhya Pradesh",
+    "district": "Guna",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Madhya Pradesh",
+    "district": "Tikamgarh",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Madhya Pradesh",
+    "district": "Chhatarpur",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Madhya Pradesh",
+    "district": "Panna",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Madhya Pradesh",
+    "district": "Sagar",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Madhya Pradesh",
+    "district": "Damoh",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Madhya Pradesh",
+    "district": "Satna",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Madhya Pradesh",
+    "district": "Rewa",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Madhya Pradesh",
+    "district": "Shahdol",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Madhya Pradesh",
+    "district": "Sidhi",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Madhya Pradesh",
+    "district": "Mandsaur",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Madhya Pradesh",
+    "district": "Ratlam",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Madhya Pradesh",
+    "district": "Ujjain",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Madhya Pradesh",
+    "district": "Shajapur",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Madhya Pradesh",
+    "district": "Dewas",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Madhya Pradesh",
+    "district": "Jhabua",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Madhya Pradesh",
+    "district": "Dhar",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Madhya Pradesh",
+    "district": "Indore",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Madhya Pradesh",
+    "district": "West Nimar",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Madhya Pradesh",
+    "district": "East Nimar",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Madhya Pradesh",
+    "district": "Rajgarh",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Madhya Pradesh",
+    "district": "Vidisha",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Madhya Pradesh",
+    "district": "Bhopal",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Madhya Pradesh",
+    "district": "Sehore",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Madhya Pradesh",
+    "district": "Raisen",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Madhya Pradesh",
+    "district": "Betul",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Madhya Pradesh",
+    "district": "Hoshangabad",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Madhya Pradesh",
+    "district": "Jabalpur",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Madhya Pradesh",
+    "district": "Narsimhapur",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Madhya Pradesh",
+    "district": "Mandla",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Madhya Pradesh",
+    "district": "Chhindwara",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Madhya Pradesh",
+    "district": "Seoni",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Madhya Pradesh",
+    "district": "Balaghat",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Madhya Pradesh",
+    "district": "Surguja",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Madhya Pradesh",
+    "district": "Bilaspur",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Madhya Pradesh",
+    "district": "Raigarh",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Madhya Pradesh",
+    "district": "Raj Nandgaon",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Madhya Pradesh",
+    "district": "Durg",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Madhya Pradesh",
+    "district": "Raipur",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Madhya Pradesh",
+    "district": "Bastar",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Maharashtra",
+    "district": "Greater Bombay",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Maharashtra",
+    "district": "Thane",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Maharashtra",
+    "district": "Raigarh",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1981
+  },
+  {
+    "state": "Maharashtra",
+    "district": "Ratnagiri",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Maharashtra",
+    "district": "Nashik",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Maharashtra",
+    "district": "Dhule",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Maharashtra",
+    "district": "Jalgaon",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Maharashtra",
+    "district": "Ahmadnagar",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Maharashtra",
+    "district": "Pune",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Maharashtra",
+    "district": "Satara",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Maharashtra",
+    "district": "Sangli",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Maharashtra",
+    "district": "Solapur",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Maharashtra",
+    "district": "Kolhapur",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Maharashtra",
+    "district": "Aurangabad",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1981
+  },
+  {
+    "state": "Maharashtra",
+    "district": "Parbhani",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Maharashtra",
+    "district": "Bid",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Maharashtra",
+    "district": "Nanded",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Maharashtra",
+    "district": "Osmanabad",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Maharashtra",
+    "district": "Buldana",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Maharashtra",
+    "district": "Akola",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Maharashtra",
+    "district": "Amravati",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Maharashtra",
+    "district": "Yavatmal",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Maharashtra",
+    "district": "Wardha",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Maharashtra",
+    "district": "Nagpur",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Maharashtra",
+    "district": "Bhandara",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Maharashtra",
+    "district": "Chandrapur",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Manipur",
+    "district": "Manipur North",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Manipur",
+    "district": "Manipur West",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1981
+  },
+  {
+    "state": "Manipur",
+    "district": "Manipur South",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1981
+  },
+  {
+    "state": "Manipur",
+    "district": "Tengnoupal",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Manipur",
+    "district": "Manipur Central",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Manipur",
+    "district": "Manipur East",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1981
+  },
+  {
+    "state": "Meghalaya",
+    "district": "Jaintia Hills",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1981
+  },
+  {
+    "state": "Meghalaya",
+    "district": "East Khasi Hills",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1981
+  },
+  {
+    "state": "Meghalaya",
+    "district": "West Khasi Hills",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Meghalaya",
+    "district": "East Garo Hills",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Meghalaya",
+    "district": "West Garo Hills",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Mizoram",
+    "district": "Aizawl",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Mizoram",
+    "district": "Lunglei",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1981
+  },
+  {
+    "state": "Mizoram",
+    "district": "Chhimtuipui",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Nagaland",
+    "district": "Kohima",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Nagaland",
+    "district": "Phek",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Nagaland",
+    "district": "Wokha",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1981
+  },
+  {
+    "state": "Nagaland",
+    "district": "Zunheboto",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Nagaland",
+    "district": "Mokokchung",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Nagaland",
+    "district": "Tuensang",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Nagaland",
+    "district": "Mon",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Orissa",
+    "district": "Sambalpur",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Orissa",
+    "district": "Sundargarh",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Orissa",
+    "district": "Kendujhar",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Orissa",
+    "district": "Mayurbhanj",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Orissa",
+    "district": "Baleshwar",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Orissa",
+    "district": "Cuttack",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Orissa",
+    "district": "Dhenkanal",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Orissa",
+    "district": "Phulabani",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Orissa",
+    "district": "Balangir",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Orissa",
+    "district": "Kalahandi",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Orissa",
+    "district": "Koraput",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1981
+  },
+  {
+    "state": "Orissa",
+    "district": "Ganjam",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Orissa",
+    "district": "Puri",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Punjab",
+    "district": "Gurdaspur",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Punjab",
+    "district": "Amritsar",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Punjab",
+    "district": "Firozpur",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Punjab",
+    "district": "Ludhiana",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Punjab",
+    "district": "Jalandhar",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Punjab",
+    "district": "Kapurthala",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Punjab",
+    "district": "Hoshiarpur",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1981
+  },
+  {
+    "state": "Punjab",
+    "district": "Rupnagar",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Punjab",
+    "district": "Patiala",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Punjab",
+    "district": "Sangrur",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Punjab",
+    "district": "Bathinda",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Punjab",
+    "district": "Faridkot",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Rajasthan",
+    "district": "Ganganagar",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1981
+  },
+  {
+    "state": "Rajasthan",
+    "district": "Bikaner",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Rajasthan",
+    "district": "Churu",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Rajasthan",
+    "district": "Jhunjhunun",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Rajasthan",
+    "district": "Alwar",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1981
+  },
+  {
+    "state": "Rajasthan",
+    "district": "Bharatpur",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1981
+  },
+  {
+    "state": "Rajasthan",
+    "district": "Sawai Madhopur",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1981
+  },
+  {
+    "state": "Rajasthan",
+    "district": "Jaipur",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1981
+  },
+  {
+    "state": "Rajasthan",
+    "district": "Sikar",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1981
+  },
+  {
+    "state": "Rajasthan",
+    "district": "Ajmer",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1981
+  },
+  {
+    "state": "Rajasthan",
+    "district": "Tonk",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1981
+  },
+  {
+    "state": "Rajasthan",
+    "district": "Jaisalmer",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Rajasthan",
+    "district": "Jodhpur",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1981
+  },
+  {
+    "state": "Rajasthan",
+    "district": "Nagaur",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Rajasthan",
+    "district": "Pali",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1981
+  },
+  {
+    "state": "Rajasthan",
+    "district": "Barmer",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1981
+  },
+  {
+    "state": "Rajasthan",
+    "district": "Jalor",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Rajasthan",
+    "district": "Sirohi",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Rajasthan",
+    "district": "Bhilwara",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Rajasthan",
+    "district": "Udaipur",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1981
+  },
+  {
+    "state": "Rajasthan",
+    "district": "Chittaurgarh",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1981
+  },
+  {
+    "state": "Rajasthan",
+    "district": "Dungarpur",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Rajasthan",
+    "district": "Banswara",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1981
+  },
+  {
+    "state": "Rajasthan",
+    "district": "Bundi",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Rajasthan",
+    "district": "Kota",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1981
+  },
+  {
+    "state": "Rajasthan",
+    "district": "Jhalawar",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1981
+  },
+  {
+    "state": "Sikkim",
+    "district": "North District",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1981
+  },
+  {
+    "state": "Sikkim",
+    "district": "East District",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1981
+  },
+  {
+    "state": "Sikkim",
+    "district": "South District",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1981
+  },
+  {
+    "state": "Sikkim",
+    "district": "West District",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1981
+  },
+  {
+    "state": "Tamil Nadu",
+    "district": "Madras",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Tamil Nadu",
+    "district": "Chengalpattu",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Tamil Nadu",
+    "district": "North Arcot",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1981
+  },
+  {
+    "state": "Tamil Nadu",
+    "district": "South Arcot",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Tamil Nadu",
+    "district": "Dharmapuri",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Tamil Nadu",
+    "district": "Salem",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Tamil Nadu",
+    "district": "Periyar",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Tamil Nadu",
+    "district": "Coimbatore",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Tamil Nadu",
+    "district": "Nilgiri",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Tamil Nadu",
+    "district": "Madurai",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Tamil Nadu",
+    "district": "Tiruchchirappalli",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Tamil Nadu",
+    "district": "Thanjavur",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Tamil Nadu",
+    "district": "Pudukkottai",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1981
+  },
+  {
+    "state": "Tamil Nadu",
+    "district": "Ramanathapuram",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Tamil Nadu",
+    "district": "Tirunelveli",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Tamil Nadu",
+    "district": "Kanniyakumari",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Tripura",
+    "district": "West Tripura",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1981
+  },
+  {
+    "state": "Tripura",
+    "district": "North Tripura",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1981
+  },
+  {
+    "state": "Tripura",
+    "district": "South Tripura",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1981
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Uttarkashi",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Chamoli",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Tehri Garhwal",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Dehra Dun",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Garhwal",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Pithoragarh",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Almora",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Nainital",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Saharanpur",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Muzaffarnagar",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Bijnor",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Meerut",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Ghaziabad",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Bulandshahr",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Moradabad",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Rampur",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Budaun",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Bareilly",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Pilibhit",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Shahjahanpur",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Aligarh",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Mathura",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Agra",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Etah",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1981
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Mainpuri",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Farrukhabad",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Etawah",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Kanpur",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Fatehpur",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Allahabad",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Jalaun",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Jhansi",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Lalitpur",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Hamirpur",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Banda",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Kheri",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Sitapur",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Hardoi",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Unnao",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Lucknow",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Rae Bareli",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Bahraich",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Gonda",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Bara Banki",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1981
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Faizabad",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Sultanpur",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Pratapgarh",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1981
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Basti",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Gorakhpur",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Deoria",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Azamgarh",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Jaunpur",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Ballia",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1981
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Ghazipur",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Varanasi",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Mirzapur",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1981
+  },
+  {
+    "state": "West Bengal",
+    "district": "Koch Bihar",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "West Bengal",
+    "district": "Jalpaiguri",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "West Bengal",
+    "district": "Darjiling",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "West Bengal",
+    "district": "West Dinajpur",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1981
+  },
+  {
+    "state": "West Bengal",
+    "district": "Maldah",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "West Bengal",
+    "district": "Murshidabad",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "West Bengal",
+    "district": "Nadia",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "West Bengal",
+    "district": "Twenty Four Parganas",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "West Bengal",
+    "district": "Calcutta",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "West Bengal",
+    "district": "Haora",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1981
+  },
+  {
+    "state": "West Bengal",
+    "district": "Hugli",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "West Bengal",
+    "district": "Medinipur",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "West Bengal",
+    "district": "Bankura",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "West Bengal",
+    "district": "Puruliya",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1981
+  },
+  {
+    "state": "West Bengal",
+    "district": "Barddhaman",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "West Bengal",
+    "district": "Birbhum",
+    "available": "Yes",
+    "language": "Yes",
+    "year": 1981
+  },
+  {
+    "state": "Andaman and Nicobar Islands",
+    "district": "Andaman",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1981
+  },
+  {
+    "state": "Andaman and Nicobar Islands",
+    "district": "Nicobar",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1981
+  },
+  {
+    "state": "Chandigarh",
+    "district": "Chandigarh",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1981
+  },
+  {
+    "state": "Dadra and Nagar Haveli",
+    "district": "Dadra and Nagar Haveli",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1981
+  },
+  {
+    "state": "Delhi",
+    "district": "Delhi",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1981
+  },
+  {
+    "state": "Lakshadweep",
+    "district": "Lakshadweep",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1981
+  },
+  {
+    "state": "Pondicherry",
+    "district": "Pondicherry",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1981
+  },
+  {
+    "state": "Pondicherry",
+    "district": "Karaikal",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1981
+  },
+  {
+    "state": "Pondicherry",
+    "district": "Mahe",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1981
+  },
+  {
+    "state": "Pondicherry",
+    "district": "Yanam",
+    "available": "No",
+    "language": "No PDF",
+    "year": 1981
+  }
+]
