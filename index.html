@@ -67,6 +67,31 @@ tr:hover td { background: #f8faff; }
 .footer { text-align: center; padding: 2rem; color: #888; font-size: 0.85rem; }
 .footer a { color: #2563eb; text-decoration: none; }
 
+.state-table-wrapper { background: white; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); overflow: hidden; }
+.state-table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+.state-table th { background: #f8f9fa; padding: 0.75rem 1rem; text-align: left; font-weight: 600; color: #555; border-bottom: 2px solid #e0e0e0; position: sticky; top: 0; z-index: 2; cursor: pointer; user-select: none; white-space: nowrap; }
+.state-table td { padding: 0.6rem 1rem; border-bottom: 1px solid #f0f0f0; vertical-align: middle; }
+.state-row { cursor: pointer; transition: background 0.15s; }
+.state-row:hover td { background: #f8faff; }
+.state-row.expanded td { background: #eef2ff; font-weight: 500; }
+.expand-icon { display: inline-block; width: 20px; text-align: center; font-size: 0.75rem; transition: transform 0.2s; margin-right: 0.3rem; color: #888; }
+.state-row.expanded .expand-icon { transform: rotate(90deg); }
+
+.district-panel { display: none; }
+.district-panel.open { display: table-row; }
+.district-panel td { padding: 0 !important; border-bottom: 2px solid #e0e0e0; background: #fafbfc; }
+.district-inner { padding: 0.5rem 1rem 0.8rem 3rem; }
+.district-inner table { width: 100%; border-collapse: collapse; font-size: 0.85rem; }
+.district-inner th { background: #eef0f5; padding: 0.4rem 0.8rem; font-size: 0.8rem; border-bottom: 1px solid #dde; }
+.district-inner td { padding: 0.35rem 0.8rem; border-bottom: 1px solid #eee; }
+
+.progress-mini { display: flex; align-items: center; gap: 0.4rem; }
+.progress-mini .bar { width: 80px; height: 6px; background: #e5e7eb; border-radius: 3px; overflow: hidden; }
+.progress-mini .bar .fill { height: 100%; border-radius: 3px; }
+.progress-mini .bar .fill.green { background: #16a34a; }
+.progress-mini .bar .fill.amber { background: #d97706; }
+.progress-mini .bar .fill.red { background: #dc2626; }
+
 #topBtn { position: fixed; bottom: 2rem; right: 2rem; width: 44px; height: 44px; border-radius: 50%; background: #1a1a2e; color: white; border: none; cursor: pointer; font-size: 1.3rem; box-shadow: 0 4px 12px rgba(0,0,0,0.2); opacity: 0; transition: opacity 0.3s; z-index: 100; }
 #topBtn.visible { opacity: 1; }
 </style>
@@ -119,8 +144,6 @@ tr:hover td { background: #f8faff; }
 let allData = [];
 let statsData = {};
 let currentYear = 'all';
-let sortCol = null;
-let sortDir = 1;
 
 async function loadData() {
   const [dataRes, statsRes] = await Promise.all([
@@ -176,89 +199,92 @@ function filterData() {
   return data;
 }
 
+function computeStateStats(rows) {
+  const byState = {};
+  rows.forEach(d => {
+    if (!byState[d.state]) byState[d.state] = { total: 0, avail: 0, english: 0, hindi: 0, nopdf: 0, districts: [] };
+    const st = byState[d.state];
+    st.total++;
+    if (d.available === 'Yes') st.avail++;
+    if (d.language === 'Yes') st.english++;
+    if (d.language === 'No') st.hindi++;
+    if (d.language === 'No PDF') st.nopdf++;
+    st.districts.push(d);
+  });
+  return Object.entries(byState).sort((a, b) => a[0].localeCompare(b[0]));
+}
+
 function renderContent() {
   const content = document.getElementById('content');
   const filtered = filterData();
-  const showAll = !document.getElementById('searchInput').value && !document.getElementById('langFilter').value && !document.getElementById('availFilter').value;
+  const isFiltered = document.getElementById('searchInput').value || document.getElementById('langFilter').value || document.getElementById('availFilter').value;
 
-  if (showAll && (currentYear === '1971' || currentYear === '1981')) {
-    renderGroupedView(content, filtered);
-  } else {
+  if (isFiltered) {
     renderFlatTable(content, filtered);
+  } else {
+    renderStateOverview(content, filtered);
   }
 }
 
-function renderGroupedView(content, filtered) {
-  const byState = {};
-  filtered.forEach(d => {
-    if (!byState[d.state]) byState[d.state] = [];
-    byState[d.state].push(d);
+function renderStateOverview(content, filtered) {
+  const stateStats = computeStateStats(filtered);
+  let html = `<div class="state-table-wrapper"><table class="state-table">
+    <thead><tr>
+      <th>State</th>
+      <th>Districts</th>
+      <th>Available</th>
+      <th>English</th>
+      <th>Hindi</th>
+      <th>No PDF</th>
+      <th>Coverage</th>
+    </tr></thead><tbody>`;
+  stateStats.forEach(([state, st]) => {
+    const pct = st.total > 0 ? (st.avail / st.total * 100).toFixed(0) : 0;
+    const fillClass = pct >= 80 ? 'green' : pct >= 40 ? 'amber' : 'red';
+    html += `<tr class="state-row" onclick="toggleState(this, '${state.replace(/'/g, "\\'")}')">
+      <td><span class="expand-icon">&#9654;</span><strong>${state}</strong></td>
+      <td>${st.total}</td>
+      <td>${st.avail}</td>
+      <td>${st.english}</td>
+      <td>${st.hindi || '-'}</td>
+      <td>${st.nopdf || '-'}</td>
+      <td><div class="progress-mini"><div class="bar"><div class="fill ${fillClass}" style="width:${pct}%"></div></div><span style="font-size:0.8rem">${pct}%</span></div></td>
+    </tr>`;
+    html += `<tr class="district-panel" id="panel-${state.replace(/[^a-z0-9]/gi, '')}"><td colspan="7"><div class="district-inner">
+      <table><thead><tr><th>District</th><th>Available</th><th>Language</th></tr></thead><tbody>`;
+    st.districts.sort((a, b) => a.district.localeCompare(b.district)).forEach(d => {
+      html += `<tr><td>${d.district}</td><td>${renderBadge(d.available, 'available')}</td><td>${renderBadge(d.language, 'language')}</td></tr>`;
+    });
+    html += `</tbody></table></div></td></tr>`;
   });
-  const states = Object.keys(byState).sort();
-  let html = '';
-  states.forEach(st => {
-    const rows = byState[st];
-    const avail = rows.filter(r => r.available === 'Yes').length;
-    const eng = rows.filter(r => r.language === 'Yes').length;
-    const hin = rows.filter(r => r.language === 'No').length;
-    const npdf = rows.filter(r => r.language === 'No PDF').length;
-    const pct = (avail / rows.length * 100).toFixed(1);
-    html += `<div class="state-section">
-      <div class="state-header">
-        <h2>${st}</h2>
-        <div class="state-meta">
-          <span>Districts: <strong>${rows.length}</strong></span>
-          <span>Available: <strong>${avail}</strong></span>
-          <span>English: <strong>${eng}</strong></span>
-          ${hin > 0 ? `<span>Hindi: <strong>${hin}</strong></span>` : ''}
-          <span>No PDF: <strong>${npdf}</strong></span>
-          <div class="progress-bar-wrap">
-            <div class="progress-bar"><div class="progress-fill green" style="width:${pct}%"></div></div>
-            <span style="font-size:0.85rem">${pct}%</span>
-          </div>
-        </div>
-      </div>
-      <div class="state-body">
-        <table>
-          <thead><tr>
-            <th>District</th>
-            <th>Available in Folder</th>
-            <th>English Language</th>
-          </tr></thead>
-          <tbody>${rows.map(r => `
-            <tr>
-              <td>${r.district}</td>
-              <td>${renderBadge(r.available, 'available')}</td>
-              <td>${renderBadge(r.language, 'language')}</td>
-            </tr>`).join('')}</tbody>
-        </table>
-      </div>
-    </div>`;
-  });
+  html += '</tbody></table></div>';
   content.innerHTML = html;
 }
 
 function renderFlatTable(content, filtered) {
   let html = `<div class="table-wrapper"><div class="table-scroll"><table>
     <thead><tr>
-      <th onclick="doSort(0)">State<span class="sort-icon">${sortIcon(0)}</span></th>
-      <th onclick="doSort(1)">District<span class="sort-icon">${sortIcon(1)}</span></th>
-      <th onclick="doSort(2)">Year<span class="sort-icon">${sortIcon(2)}</span></th>
-      <th onclick="doSort(3)">Available in Folder<span class="sort-icon">${sortIcon(3)}</span></th>
-      <th onclick="doSort(4)">English Language<span class="sort-icon">${sortIcon(4)}</span></th>
-    </tr></thead>
-    <tbody>`;
+      <th>State</th><th>District</th><th>Year</th><th>Available</th><th>Language</th>
+    </tr></thead><tbody>`;
   filtered.forEach(d => {
     html += `<tr>
-      <td>${d.state}</td>
-      <td>${d.district}</td>
-      <td>${d.year}</td>
-      <td>${renderBadge(d.available, 'available')}</td>
-      <td>${renderBadge(d.language, 'language')}</td>
+      <td>${d.state}</td><td>${d.district}</td><td>${d.year}</td>
+      <td>${renderBadge(d.available, 'available')}</td><td>${renderBadge(d.language, 'language')}</td>
     </tr>`;
   });
   html += '</tbody></table></div></div>';
   content.innerHTML = html;
+}
+
+function toggleState(row, state) {
+  const panel = document.getElementById('panel-' + state.replace(/[^a-z0-9]/gi, ''));
+  const isOpen = panel.classList.contains('open');
+  document.querySelectorAll('.district-panel.open').forEach(p => p.classList.remove('open'));
+  document.querySelectorAll('.state-row.expanded').forEach(r => r.classList.remove('expanded'));
+  if (!isOpen) {
+    panel.classList.add('open');
+    row.classList.add('expanded');
+  }
 }
 
 function renderBadge(value, type) {
@@ -269,20 +295,6 @@ function renderBadge(value, type) {
   if (value === 'No') return '<span class="badge badge-hindi">Hindi</span>';
   return '<span class="badge badge-nopdf">No PDF</span>';
 }
-
-function doSort(col) {
-  if (sortCol === col) sortDir *= -1;
-  else { sortCol = col; sortDir = 1; }
-  const fields = ['state', 'district', 'year', 'available', 'language'];
-  allData.sort((a, b) => {
-    let va = a[fields[col]], vb = b[fields[col]];
-    if (typeof va === 'number') return (va - vb) * sortDir;
-    return String(va).localeCompare(String(vb)) * sortDir;
-  });
-  renderContent();
-}
-
-function sortIcon(col) { return sortCol === col ? (sortDir === 1 ? '&#9650;' : '&#9660;') : ''; }
 
 function updateResultCount() {
   const filtered = filterData();
