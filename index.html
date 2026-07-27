@@ -180,7 +180,7 @@ function renderCards() {
   }
   cards.innerHTML = `
     <div class="card blue"><div class="card-label">Total Districts</div><div class="card-value">${s.total}</div><div class="card-sub">Across ${s.states_count || Object.keys(statsData[currentYear === 'all' ? '1971' : currentYear].state_stats || {}).length} states</div></div>
-    <div class="card green"><div class="card-label">Handbooks Available</div><div class="card-value">${s.available}</div><div class="card-sub">${s.availability_pct}% digitised</div></div>
+    <div class="card green"><div class="card-label">Handbooks Available</div><div class="card-value">${s.available}</div><div class="card-sub">${s.availability_pct}% of total</div></div>
     <div class="card red"><div class="card-label">Not Available</div><div class="card-value">${s.not_available}</div><div class="card-sub">Missing from archive</div></div>
     <div class="card blue"><div class="card-label">English Language</div><div class="card-value">${s.english}</div><div class="card-sub">Handbooks in English</div></div>
     <div class="card amber"><div class="card-label">Hindi Language</div><div class="card-value">${s.hindi}</div><div class="card-sub">Handbooks in Hindi</div></div>
