@@ -144,6 +144,8 @@ tr:hover td { background: #f8faff; }
 let allData = [];
 let statsData = {};
 let currentYear = 'all';
+let stateSortCol = -1;
+let stateSortDir = 1;
 
 async function loadData() {
   const [dataRes, statsRes] = await Promise.all([
@@ -227,16 +229,30 @@ function renderContent() {
 }
 
 function renderStateOverview(content, filtered) {
-  const stateStats = computeStateStats(filtered);
+  let stateStats = computeStateStats(filtered);
+
+  if (stateSortCol >= 0) {
+    const fields = ['state', 'total', 'avail', 'english', 'hindi', 'nopdf', 'pct'];
+    const field = fields[stateSortCol];
+    stateStats.sort((a, b) => {
+      let va, vb;
+      if (field === 'state') { va = a[0]; vb = b[0]; return va.localeCompare(vb) * stateSortDir; }
+      if (field === 'pct') { va = a[1].total ? a[1].avail / a[1].total : 0; vb = b[1].total ? b[1].avail / b[1].total : 0; }
+      else { va = a[1][field] || 0; vb = b[1][field] || 0; }
+      return (va - vb) * stateSortDir;
+    });
+  }
+
+  const sortArrow = (col) => stateSortCol === col ? (stateSortDir === 1 ? ' &#9650;' : ' &#9660;') : '';
   let html = `<div class="state-table-wrapper"><table class="state-table">
     <thead><tr>
-      <th>State</th>
-      <th>Districts</th>
-      <th>Available</th>
-      <th>English</th>
-      <th>Hindi</th>
-      <th>No PDF</th>
-      <th>Coverage</th>
+      <th onclick="sortState(0)">State${sortArrow(0)}</th>
+      <th onclick="sortState(1)">Districts${sortArrow(1)}</th>
+      <th onclick="sortState(2)">Available${sortArrow(2)}</th>
+      <th onclick="sortState(3)">English${sortArrow(3)}</th>
+      <th onclick="sortState(4)">Hindi${sortArrow(4)}</th>
+      <th onclick="sortState(5)">No PDF${sortArrow(5)}</th>
+      <th onclick="sortState(6)">Coverage${sortArrow(6)}</th>
     </tr></thead><tbody>`;
   stateStats.forEach(([state, st]) => {
     const pct = st.total > 0 ? (st.avail / st.total * 100).toFixed(0) : 0;
@@ -285,6 +301,12 @@ function toggleState(row, state) {
     panel.classList.add('open');
     row.classList.add('expanded');
   }
+}
+
+function sortState(col) {
+  if (stateSortCol === col) stateSortDir *= -1;
+  else { stateSortCol = col; stateSortDir = 1; }
+  renderContent();
 }
 
 function renderBadge(value, type) {
