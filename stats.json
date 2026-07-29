@@ -1,12 +1,12 @@
 {
   "1971": {
     "total": 357,
-    "available": 281,
-    "not_available": 76,
-    "availability_pct": 78.7,
-    "english": 262,
+    "available": 296,
+    "not_available": 61,
+    "availability_pct": 82.9,
+    "english": 277,
     "hindi": 19,
-    "no_pdf": 76,
+    "no_pdf": 61,
     "unknown": 0,
     "states_count": 31,
     "state_stats": [
@@ -53,12 +53,12 @@
       {
         "state": "Bihar",
         "total": 17,
-        "available": 1,
-        "not_available": 16,
-        "english": 1,
+        "available": 16,
+        "not_available": 1,
+        "english": 16,
         "hindi": 0,
-        "no_pdf": 16,
-        "availability_pct": 5.9
+        "no_pdf": 1,
+        "availability_pct": 94.1
       },
       {
         "state": "Chandigarh",
@@ -324,12 +324,12 @@
   },
   "1981": {
     "total": 412,
-    "available": 284,
-    "not_available": 128,
-    "availability_pct": 68.9,
-    "english": 284,
+    "available": 307,
+    "not_available": 105,
+    "availability_pct": 74.5,
+    "english": 307,
     "hindi": 0,
-    "no_pdf": 128,
+    "no_pdf": 105,
     "unknown": 0,
     "states_count": 31,
     "state_stats": [
@@ -376,12 +376,12 @@
       {
         "state": "Bihar",
         "total": 31,
-        "available": 1,
-        "not_available": 30,
-        "english": 1,
+        "available": 24,
+        "not_available": 7,
+        "english": 24,
         "hindi": 0,
-        "no_pdf": 30,
-        "availability_pct": 3.2
+        "no_pdf": 7,
+        "availability_pct": 77.4
       },
       {
         "state": "Chandigarh",
