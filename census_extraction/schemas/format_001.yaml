@@ -1,0 +1,161 @@
+format_id: format_001
+aliases:
+  - TS-IV
+  - UP1971_CIVIC
+
+name: town_statement_iv_civic_amenities_1971
+
+page_relationship: column_continuation
+
+source: >
+  "Town Statement — Civic and Other" (columns 1–8) followed by
+  "Directory IV — Amenities, 1969" (columns 9–16). One row per town.
+
+row_identity:
+  - town_name
+
+row_types:
+  - ordinary_row
+  - aggregate_row
+  - component_row
+  - cross_reference_row
+
+categories:
+  - id: number_of_latrines
+    name: Number of Latrines
+    columns: [5, 6, 7]
+  - id: protected_water_supply
+    name: Protected Water Supply
+    columns: [9, 10]
+  - id: electrification
+    name: Electrification (number of connections)
+    columns: [12, 13, 14, 15, 16]
+
+anchor_page:
+  columns:
+    - id: serial_no
+      printed_column: 1
+      type: identifier
+      label: Sl. No.
+
+    - id: town_name
+      printed_column: 2
+      type: string
+      label: Name of Town
+
+    - id: road_length_pr_kr
+      printed_column: 3
+      type: string
+      label: "Road length (in Km.) — PR (Pucca Road) / KR (Kachcha Road)"
+
+    - id: sewerage_drainage
+      printed_column: 4
+      type: string
+      label: System of Sewerage / Drainage
+
+    - id: latrines_water_borne
+      printed_column: 5
+      type: numeric
+      label: "Number of Latrines — Water Borne"
+      category: number_of_latrines
+
+    - id: latrines_service
+      printed_column: 6
+      type: numeric
+      label: "Number of Latrines — Service"
+      category: number_of_latrines
+
+    - id: latrines_other
+      printed_column: 7
+      type: numeric
+      label: "Number of Latrines — Others"
+      category: number_of_latrines
+
+    - id: night_soil_disposal
+      printed_column: 8
+      type: string
+      label: Method of Disposal of Night-soil
+
+continuation_page:
+  relationship_to_anchor: same_rows
+
+  columns:
+    - id: protected_water_source
+      printed_column: 9
+      type: string
+      label: "Protected Water Supply — Source"
+      category: protected_water_supply
+
+    - id: protected_water_capacity
+      printed_column: 10
+      type: string
+      label: "Protected Water Supply — Capacity"
+      category: protected_water_supply
+
+    - id: fire_fighting_service
+      printed_column: 11
+      type: boolean
+      label: Fire Fighting Service (Yes/No)
+
+    - id: electricity_domestic
+      printed_column: 12
+      type: numeric
+      label: "Electrification — Domestic"
+      category: electrification
+
+    - id: electricity_industrial
+      printed_column: 13
+      type: numeric
+      label: "Electrification — Industrial"
+      category: electrification
+
+    - id: electricity_commercial
+      printed_column: 14
+      type: numeric
+      label: "Electrification — Commercial"
+      category: electrification
+
+    - id: electricity_road_lighting
+      printed_column: 15
+      type: numeric
+      label: "Electrification — Road Lighting (points)"
+      category: electrification
+
+    - id: electricity_other
+      printed_column: 16
+      type: numeric
+      label: "Electrification — Others"
+      category: electrification
+
+patterns:
+  road_length_pr_kr:
+    examples:
+      - "PR (12)"
+      - "KR (7)"
+      - "PR (403) KR (58)"
+
+  component_label:
+    examples:
+      - "(i)"
+      - "(ii)"
+      - "(iii)"
+      - "(iv)"
+
+  cross_reference:
+    contains:
+      - "See"
+      - "Urban Agglomeration"
+
+notes: >
+  Town-level civic amenities table. The anchor page (Town Statement IV)
+  contains columns 1–8 and identifies the towns (Sl. No. + Name of Town).
+  The continuation page (Directory IV) contains columns 9–16 for the same
+  rows. Three parent headings span multiple sub-columns: Number of Latrines
+  (5–7), Protected Water Supply (9–10), and Electrification (12–16). Rows
+  include urban-agglomeration aggregate rows (e.g. "Agra City Urban
+  Agglomeration"), component rows marked (i), (ii), …, and cross-reference
+  rows of the form "See … Urban Agglomeration". Road length combines a Pucca
+  Road (PR) and Kachcha Road (KR) figure in one cell. In many districts the
+  two-page spread also carries Statement III (municipal finance) above the
+  civic table; the civic table itself still spans columns 1–8 (anchor) and
+  9–16 (continuation), so the extractor must ignore the co-located statement.

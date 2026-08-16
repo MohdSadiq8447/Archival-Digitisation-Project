@@ -1,0 +1,158 @@
+pdf_id,file_name,state,district,year,format_id,source_pdf,source_page_start,source_page_end
+agra_civic_1971,agra_civic_1971.pdf,Uttar Pradesh,Agra,1971,format_001,1971 Agra.pdf,28,29
+agra_mededu_1971,agra_mededu_1971.pdf,Uttar Pradesh,Agra,1971,format_002,1971 Agra.pdf,30,31
+agra_tehsil_1971,agra_tehsil_1971.pdf,Uttar Pradesh,Agra,1971,format_003,1971 Agra.pdf,170,171
+aligarh_civic_1971,aligarh_civic_1971.pdf,Uttar Pradesh,Aligarh,1971,format_001,1971 Aligarh.pdf,24,25
+aligarh_mededu_1971,aligarh_mededu_1971.pdf,Uttar Pradesh,Aligarh,1971,format_002,1971 Aligarh.pdf,26,27
+aligarh_tehsil_1971,aligarh_tehsil_1971.pdf,Uttar Pradesh,Aligarh,1971,format_003,1971 Aligarh.pdf,214,215
+allahabad_civic_1971,allahabad_civic_1971.pdf,Uttar Pradesh,Allahabad,1971,format_001,1971 Allahabad.pdf,25,26
+allahabad_mededu_1971,allahabad_mededu_1971.pdf,Uttar Pradesh,Allahabad,1971,format_002,1971 Allahabad.pdf,27,28
+allahabad_tehsil_1971,allahabad_tehsil_1971.pdf,Uttar Pradesh,Allahabad,1971,format_003,1971 Allahabad.pdf,413,414
+almora_civic_1971,almora_civic_1971.pdf,Uttar Pradesh,Almora,1971,format_001,1971 Almora.pdf,21,22
+almora_mededu_1971,almora_mededu_1971.pdf,Uttar Pradesh,Almora,1971,format_002,1971 Almora.pdf,21,22
+almora_tehsil_1971,almora_tehsil_1971.pdf,Uttar Pradesh,Almora,1971,format_003,1971 Almora.pdf,329,330
+azamgarh_civic_1971,azamgarh_civic_1971.pdf,Uttar Pradesh,Azamgarh,1971,format_001,1971 Azamgarh.pdf,23,24
+azamgarh_mededu_1971,azamgarh_mededu_1971.pdf,Uttar Pradesh,Azamgarh,1971,format_002,1971 Azamgarh.pdf,25,26
+azamgarh_tehsil_1971,azamgarh_tehsil_1971.pdf,Uttar Pradesh,Azamgarh,1971,format_003,1971 Azamgarh.pdf,549,550
+bahraich_civic_1971,bahraich_civic_1971.pdf,Uttar Pradesh,Bahraich,1971,format_001,1971 Bahraich.pdf,25,26
+bahraich_mededu_1971,bahraich_mededu_1971.pdf,Uttar Pradesh,Bahraich,1971,format_002,1971 Bahraich.pdf,25,26
+bahraich_tehsil_1971,bahraich_tehsil_1971.pdf,Uttar Pradesh,Bahraich,1971,format_003,1971 Bahraich.pdf,209,210
+baliya_civic_1971,baliya_civic_1971.pdf,Uttar Pradesh,Baliya,1971,format_001,1971 Baliya.pdf,27,28
+baliya_mededu_1971,baliya_mededu_1971.pdf,Uttar Pradesh,Baliya,1971,format_002,1971 Baliya.pdf,27,28
+baliya_tehsil_1971,baliya_tehsil_1971.pdf,Uttar Pradesh,Baliya,1971,format_003,1971 Baliya.pdf,271,272
+banda_civic_1971,banda_civic_1971.pdf,Uttar Pradesh,Banda,1971,format_001,1971 Banda.pdf,22,23
+banda_mededu_1971,banda_mededu_1971.pdf,Uttar Pradesh,Banda,1971,format_002,1971 Banda.pdf,22,23
+banda_tehsil_1971,banda_tehsil_1971.pdf,Uttar Pradesh,Banda,1971,format_003,1971 Banda.pdf,160,161
+bara_banki_civic_1971,bara_banki_civic_1971.pdf,Uttar Pradesh,Bara Banki,1971,format_001,1971 Bara Banki.pdf,24,25
+bara_banki_mededu_1971,bara_banki_mededu_1971.pdf,Uttar Pradesh,Bara Banki,1971,format_002,1971 Bara Banki.pdf,26,27
+bara_banki_tehsil_1971,bara_banki_tehsil_1971.pdf,Uttar Pradesh,Bara Banki,1971,format_003,1971 Bara Banki.pdf,228,229
+bareilly_civic_1971,bareilly_civic_1971.pdf,Uttar Pradesh,Bareilly,1971,format_001,1971 Bareilly.pdf,24,25
+bareilly_mededu_1971,bareilly_mededu_1971.pdf,Uttar Pradesh,Bareilly,1971,format_002,1971 Bareilly.pdf,26,27
+bareilly_tehsil_1971,bareilly_tehsil_1971.pdf,Uttar Pradesh,Bareilly,1971,format_003,1971 Bareilly.pdf,236,237
+basti_civic_1971,basti_civic_1971.pdf,Uttar Pradesh,Basti,1971,format_001,1971 Basti.pdf,26,27
+basti_mededu_1971,basti_mededu_1971.pdf,Uttar Pradesh,Basti,1971,format_002,1971 Basti.pdf,28,29
+basti_tehsil_1971,basti_tehsil_1971.pdf,Uttar Pradesh,Basti,1971,format_003,1971 Basti.pdf,726,727
+bijnor_civic_1971,bijnor_civic_1971.pdf,Uttar Pradesh,Bijnor,1971,format_001,1971 Bijnor.pdf,33,34
+bijnor_mededu_1971,bijnor_mededu_1971.pdf,Uttar Pradesh,Bijnor,1971,format_002,1971 Bijnor.pdf,35,36
+bijnor_tehsil_1971,bijnor_tehsil_1971.pdf,Uttar Pradesh,Bijnor,1971,format_003,1971 Bijnor.pdf,325,326
+budaun_civic_1971,budaun_civic_1971.pdf,Uttar Pradesh,Budaun,1971,format_001,1971 Budaun.pdf,24,25
+budaun_mededu_1971,budaun_mededu_1971.pdf,Uttar Pradesh,Budaun,1971,format_002,1971 Budaun.pdf,26,27
+budaun_tehsil_1971,budaun_tehsil_1971.pdf,Uttar Pradesh,Budaun,1971,format_003,1971 Budaun.pdf,236,237
+bulandshahr_civic_1971,bulandshahr_civic_1971.pdf,Uttar Pradesh,Bulandshahr,1971,format_001,1971 Bulandshahr.pdf,23,24
+bulandshahr_mededu_1971,bulandshahr_mededu_1971.pdf,Uttar Pradesh,Bulandshahr,1971,format_002,1971 Bulandshahr.pdf,25,26
+bulandshahr_tehsil_1971,bulandshahr_tehsil_1971.pdf,Uttar Pradesh,Bulandshahr,1971,format_003,1971 Bulandshahr.pdf,177,178
+chamoli_civic_1971,chamoli_civic_1971.pdf,Uttar Pradesh,Chamoli,1971,format_001,1971 Chamoli.pdf,24,25
+chamoli_mededu_1971,chamoli_mededu_1971.pdf,Uttar Pradesh,Chamoli,1971,format_002,1971 Chamoli.pdf,24,25
+chamoli_tehsil_1971,chamoli_tehsil_1971.pdf,Uttar Pradesh,Chamoli,1971,format_003,1971 Chamoli.pdf,168,169
+dehra_dun_civic_1971,dehra_dun_civic_1971.pdf,Uttar Pradesh,Dehra Dun,1971,format_001,1971 Dehra Dun.pdf,31,32
+dehra_dun_mededu_1971,dehra_dun_mededu_1971.pdf,Uttar Pradesh,Dehra Dun,1971,format_002,1971 Dehra Dun.pdf,33,34
+dehra_dun_tehsil_1971,dehra_dun_tehsil_1971.pdf,Uttar Pradesh,Dehra Dun,1971,format_003,1971 Dehra Dun.pdf,117,118
+deoria_civic_1971,deoria_civic_1971.pdf,Uttar Pradesh,Deoria,1971,format_001,1971 Deoria.pdf,25,26
+deoria_mededu_1971,deoria_mededu_1971.pdf,Uttar Pradesh,Deoria,1971,format_002,1971 Deoria.pdf,25,26
+deoria_tehsil_1971,deoria_tehsil_1971.pdf,Uttar Pradesh,Deoria,1971,format_003,1971 Deoria.pdf,381,382
+etah_civic_1971,etah_civic_1971.pdf,Uttar Pradesh,Etah,1971,format_001,1971 Etah.pdf,25,26
+etah_mededu_1971,etah_mededu_1971.pdf,Uttar Pradesh,Etah,1971,format_002,1971 Etah.pdf,27,28
+etah_tehsil_1971,etah_tehsil_1971.pdf,Uttar Pradesh,Etah,1971,format_003,1971 Etah.pdf,189,190
+etawah_civic_1971,etawah_civic_1971.pdf,Uttar Pradesh,Etawah,1971,format_001,1971 Etawah.pdf,24,25
+etawah_mededu_1971,etawah_mededu_1971.pdf,Uttar Pradesh,Etawah,1971,format_002,1971 Etawah.pdf,24,25
+etawah_tehsil_1971,etawah_tehsil_1971.pdf,Uttar Pradesh,Etawah,1971,format_003,1971 Etawah.pdf,180,181
+faizabad_civic_1971,faizabad_civic_1971.pdf,Uttar Pradesh,Faizabad,1971,format_001,1971 Faizabad.pdf,26,27
+faizabad_mededu_1971,faizabad_mededu_1971.pdf,Uttar Pradesh,Faizabad,1971,format_002,1971 Faizabad.pdf,28,29
+faizabad_tehsil_1971,faizabad_tehsil_1971.pdf,Uttar Pradesh,Faizabad,1971,format_003,1971 Faizabad.pdf,296,297
+farrukhabad_civic_1971,farrukhabad_civic_1971.pdf,Uttar Pradesh,Farrukhabad,1971,format_001,1971 Farrukhabad.pdf,18,19
+farrukhabad_mededu_1971,farrukhabad_mededu_1971.pdf,Uttar Pradesh,Farrukhabad,1971,format_002,1971 Farrukhabad.pdf,20,21
+farrukhabad_tehsil_1971,farrukhabad_tehsil_1971.pdf,Uttar Pradesh,Farrukhabad,1971,format_003,1971 Farrukhabad.pdf,190,191
+fatehpur_civic_1971,fatehpur_civic_1971.pdf,Uttar Pradesh,Fatehpur,1971,format_001,1971 Fatehpur.pdf,28,29
+fatehpur_mededu_1971,fatehpur_mededu_1971.pdf,Uttar Pradesh,Fatehpur,1971,format_002,1971 Fatehpur.pdf,28,29
+fatehpur_tehsil_1971,fatehpur_tehsil_1971.pdf,Uttar Pradesh,Fatehpur,1971,format_003,1971 Fatehpur.pdf,178,179
+garhwal_civic_1971,garhwal_civic_1971.pdf,Uttar Pradesh,Garhwal,1971,format_001,1971 Garhwal.pdf,25,26
+garhwal_mededu_1971,garhwal_mededu_1971.pdf,Uttar Pradesh,Garhwal,1971,format_002,1971 Garhwal.pdf,27,28
+garhwal_tehsil_1971,garhwal_tehsil_1971.pdf,Uttar Pradesh,Garhwal,1971,format_003,1971 Garhwal.pdf,355,356
+gonda_civic_1971,gonda_civic_1971.pdf,Uttar Pradesh,Gonda,1971,format_001,1971 Gonda.pdf,23,24
+gonda_mededu_1971,gonda_mededu_1971.pdf,Uttar Pradesh,Gonda,1971,format_002,1971 Gonda.pdf,23,24
+gonda_tehsil_1971,gonda_tehsil_1971.pdf,Uttar Pradesh,Gonda,1971,format_003,1971 Gonda.pdf,293,294
+gorakhpur_civic_1971,gorakhpur_civic_1971.pdf,Uttar Pradesh,Gorakhpur,1971,format_001,1971 Gorakhpur.pdf,28,29
+gorakhpur_mededu_1971,gorakhpur_mededu_1971.pdf,Uttar Pradesh,Gorakhpur,1971,format_002,1971 Gorakhpur.pdf,28,29
+gorakhpur_tehsil_1971,gorakhpur_tehsil_1971.pdf,Uttar Pradesh,Gorakhpur,1971,format_003,1971 Gorakhpur.pdf,456,457
+hamirpur_civic_1971,hamirpur_civic_1971.pdf,Uttar Pradesh,Hamirpur,1971,format_001,1971 Hamirpur.pdf,26,27
+hamirpur_mededu_1971,hamirpur_mededu_1971.pdf,Uttar Pradesh,Hamirpur,1971,format_002,1971 Hamirpur.pdf,26,27
+hamirpur_tehsil_1971,hamirpur_tehsil_1971.pdf,Uttar Pradesh,Hamirpur,1971,format_003,1971 Hamirpur.pdf,154,155
+hardoi_civic_1971,hardoi_civic_1971.pdf,Uttar Pradesh,Hardoi,1971,format_001,1971 Hardoi.pdf,30,31
+hardoi_mededu_1971,hardoi_mededu_1971.pdf,Uttar Pradesh,Hardoi,1971,format_002,1971 Hardoi.pdf,32,33
+hardoi_tehsil_1971,hardoi_tehsil_1971.pdf,Uttar Pradesh,Hardoi,1971,format_003,1971 Hardoi.pdf,228,229
+jalaun_civic_1971,jalaun_civic_1971.pdf,Uttar Pradesh,Jalaun,1971,format_001,1971 Jalaun.pdf,25,26
+jalaun_mededu_1971,jalaun_mededu_1971.pdf,Uttar Pradesh,Jalaun,1971,format_002,1971 Jalaun.pdf,27,28
+jalaun_tehsil_1971,jalaun_tehsil_1971.pdf,Uttar Pradesh,Jalaun,1971,format_003,1971 Jalaun.pdf,149,150
+jaunpur_civic_1971,jaunpur_civic_1971.pdf,Uttar Pradesh,Jaunpur,1971,format_001,1971 Jaunpur.pdf,27,28
+jaunpur_mededu_1971,jaunpur_mededu_1971.pdf,Uttar Pradesh,Jaunpur,1971,format_002,1971 Jaunpur.pdf,29,30
+jaunpur_tehsil_1971,jaunpur_tehsil_1971.pdf,Uttar Pradesh,Jaunpur,1971,format_003,1971 Jaunpur.pdf,354,355
+jhansi_civic_1971,jhansi_civic_1971.pdf,Uttar Pradesh,Jhansi,1971,format_001,1971 Jhansi.pdf,35,36
+jhansi_mededu_1971,jhansi_mededu_1971.pdf,Uttar Pradesh,Jhansi,1971,format_002,1971 Jhansi.pdf,37,38
+jhansi_tehsil_1971,jhansi_tehsil_1971.pdf,Uttar Pradesh,Jhansi,1971,format_003,1971 Jhansi.pdf,209,210
+kanpur_civic_1971,kanpur_civic_1971.pdf,Uttar Pradesh,Kanpur,1971,format_001,1971 Kanpur.pdf,31,32
+kanpur_mededu_1971,kanpur_mededu_1971.pdf,Uttar Pradesh,Kanpur,1971,format_002,1971 Kanpur.pdf,33,34
+kanpur_tehsil_1971,kanpur_tehsil_1971.pdf,Uttar Pradesh,Kanpur,1971,format_003,1971 Kanpur.pdf,243,244
+kheri_civic_1971,kheri_civic_1971.pdf,Uttar Pradesh,Kheri,1971,format_001,1971 Kheri.pdf,27,28
+kheri_mededu_1971,kheri_mededu_1971.pdf,Uttar Pradesh,Kheri,1971,format_002,1971 Kheri.pdf,27,28
+kheri_tehsil_1971,kheri_tehsil_1971.pdf,Uttar Pradesh,Kheri,1971,format_003,1971 Kheri.pdf,197,198
+lucknow_civic_1971,lucknow_civic_1971.pdf,Uttar Pradesh,Lucknow,1971,format_001,1971 Lucknow.pdf,24,25
+lucknow_mededu_1971,lucknow_mededu_1971.pdf,Uttar Pradesh,Lucknow,1971,format_002,1971 Lucknow.pdf,26,27
+lucknow_tehsil_1971,lucknow_tehsil_1971.pdf,Uttar Pradesh,Lucknow,1971,format_003,1971 Lucknow.pdf,124,125
+mainpuri_civic_1971,mainpuri_civic_1971.pdf,Uttar Pradesh,Mainpuri,1971,format_001,1971 Mainpuri.pdf,21,22
+mainpuri_mededu_1971,mainpuri_mededu_1971.pdf,Uttar Pradesh,Mainpuri,1971,format_002,1971 Mainpuri.pdf,23,24
+mainpuri_tehsil_1971,mainpuri_tehsil_1971.pdf,Uttar Pradesh,Mainpuri,1971,format_003,1971 Mainpuri.pdf,175,176
+mathura_civic_1971,mathura_civic_1971.pdf,Uttar Pradesh,Mathura,1971,format_001,1971 Mathura.pdf,25,26
+mathura_mededu_1971,mathura_mededu_1971.pdf,Uttar Pradesh,Mathura,1971,format_002,1971 Mathura.pdf,27,28
+mathura_tehsil_1971,mathura_tehsil_1971.pdf,Uttar Pradesh,Mathura,1971,format_003,1971 Mathura.pdf,133,134
+meerut_civic_1971,meerut_civic_1971.pdf,Uttar Pradesh,Meerut,1971,format_001,1971 Meerut.pdf,30,31
+meerut_mededu_1971,meerut_mededu_1971.pdf,Uttar Pradesh,Meerut,1971,format_002,1971 Meerut.pdf,32,33
+meerut_tehsil_1971,meerut_tehsil_1971.pdf,Uttar Pradesh,Meerut,1971,format_003,1971 Meerut.pdf,214,215
+mirzapur_civic_1971,mirzapur_civic_1971.pdf,Uttar Pradesh,Mirzapur,1971,format_001,1971 Mirzapur.pdf,27,28
+mirzapur_mededu_1971,mirzapur_mededu_1971.pdf,Uttar Pradesh,Mirzapur,1971,format_002,1971 Mirzapur.pdf,29,30
+moradabad_civic_1971,moradabad_civic_1971.pdf,Uttar Pradesh,Moradabad,1971,format_001,1971 Moradabad.pdf,28,29
+moradabad_mededu_1971,moradabad_mededu_1971.pdf,Uttar Pradesh,Moradabad,1971,format_002,1971 Moradabad.pdf,30,31
+moradabad_tehsil_1971,moradabad_tehsil_1971.pdf,Uttar Pradesh,Moradabad,1971,format_003,1971 Moradabad.pdf,320,321
+muzaffarnagar_civic_1971,muzaffarnagar_civic_1971.pdf,Uttar Pradesh,Muzaffarnagar,1971,format_001,1971 Muzaffarnagar.pdf,22,23
+muzaffarnagar_mededu_1971,muzaffarnagar_mededu_1971.pdf,Uttar Pradesh,Muzaffarnagar,1971,format_002,1971 Muzaffarnagar.pdf,24,25
+muzaffarnagar_tehsil_1971,muzaffarnagar_tehsil_1971.pdf,Uttar Pradesh,Muzaffarnagar,1971,format_003,1971 Muzaffarnagar.pdf,138,139
+nainital_civic_1971,nainital_civic_1971.pdf,Uttar Pradesh,Nainital,1971,format_001,1971 Nainital.pdf,25,26
+nainital_mededu_1971,nainital_mededu_1971.pdf,Uttar Pradesh,Nainital,1971,format_002,1971 Nainital.pdf,27,28
+nainital_tehsil_1971,nainital_tehsil_1971.pdf,Uttar Pradesh,Nainital,1971,format_003,1971 Nainital.pdf,213,214
+parthpgad_civic_1971,parthpgad_civic_1971.pdf,Uttar Pradesh,Parthpgad,1971,format_001,1971 Parthpgad.pdf,25,26
+parthpgad_mededu_1971,parthpgad_mededu_1971.pdf,Uttar Pradesh,Parthpgad,1971,format_002,1971 Parthpgad.pdf,25,26
+parthpgad_tehsil_1971,parthpgad_tehsil_1971.pdf,Uttar Pradesh,Parthpgad,1971,format_003,1971 Parthpgad.pdf,237,238
+peelibhit_civic_1971,peelibhit_civic_1971.pdf,Uttar Pradesh,Peelibhit,1971,format_001,1971 Peelibhit.pdf,25,26
+peelibhit_mededu_1971,peelibhit_mededu_1971.pdf,Uttar Pradesh,Peelibhit,1971,format_002,1971 Peelibhit.pdf,25,26
+peelibhit_tehsil_1971,peelibhit_tehsil_1971.pdf,Uttar Pradesh,Peelibhit,1971,format_003,1971 Peelibhit.pdf,155,156
+pithoragarh_civic_1971,pithoragarh_civic_1971.pdf,Uttar Pradesh,Pithoragarh,1971,format_001,1971 Pithoragarh.pdf,24,25
+pithoragarh_mededu_1971,pithoragarh_mededu_1971.pdf,Uttar Pradesh,Pithoragarh,1971,format_002,1971 Pithoragarh.pdf,24,25
+pithoragarh_tehsil_1971,pithoragarh_tehsil_1971.pdf,Uttar Pradesh,Pithoragarh,1971,format_003,1971 Pithoragarh.pdf,182,183
+rae_bareli_civic_1971,rae_bareli_civic_1971.pdf,Uttar Pradesh,Rae Bareli,1971,format_001,1971 Rae Bareli.pdf,25,26
+rae_bareli_mededu_1971,rae_bareli_mededu_1971.pdf,Uttar Pradesh,Rae Bareli,1971,format_002,1971 Rae Bareli.pdf,25,26
+rae_bareli_tehsil_1971,rae_bareli_tehsil_1971.pdf,Uttar Pradesh,Rae Bareli,1971,format_003,1971 Rae Bareli.pdf,201,202
+rampur_civic_1971,rampur_civic_1971.pdf,Uttar Pradesh,Rampur,1971,format_001,1971 Rampur.pdf,25,26
+rampur_mededu_1971,rampur_mededu_1971.pdf,Uttar Pradesh,Rampur,1971,format_002,1971 Rampur.pdf,25,26
+rampur_tehsil_1971,rampur_tehsil_1971.pdf,Uttar Pradesh,Rampur,1971,format_003,1971 Rampur.pdf,151,152
+saharanpur_civic_1971,saharanpur_civic_1971.pdf,Uttar Pradesh,Saharanpur,1971,format_001,1971 Saharanpur.pdf,32,33
+saharanpur_mededu_1971,saharanpur_mededu_1971.pdf,Uttar Pradesh,Saharanpur,1971,format_002,1971 Saharanpur.pdf,34,35
+saharanpur_tehsil_1971,saharanpur_tehsil_1971.pdf,Uttar Pradesh,Saharanpur,1971,format_003,1971 Saharanpur.pdf,246,247
+shahjahanpur_civic_1971,shahjahanpur_civic_1971.pdf,Uttar Pradesh,Shahjahanpur,1971,format_001,1971 Shahjahanpur.pdf,26,27
+shahjahanpur_mededu_1971,shahjahanpur_mededu_1971.pdf,Uttar Pradesh,Shahjahanpur,1971,format_002,1971 Shahjahanpur.pdf,28,29
+shahjahanpur_tehsil_1971,shahjahanpur_tehsil_1971.pdf,Uttar Pradesh,Shahjahanpur,1971,format_003,1971 Shahjahanpur.pdf,262,263
+sitapur_civic_1971,sitapur_civic_1971.pdf,Uttar Pradesh,Sitapur,1971,format_001,1971 Sitapur.pdf,26,27
+sitapur_mededu_1971,sitapur_mededu_1971.pdf,Uttar Pradesh,Sitapur,1971,format_002,1971 Sitapur.pdf,28,29
+sitapur_tehsil_1971,sitapur_tehsil_1971.pdf,Uttar Pradesh,Sitapur,1971,format_003,1971 Sitapur.pdf,260,261
+sultanpur_civic_1971,sultanpur_civic_1971.pdf,Uttar Pradesh,Sultanpur,1971,format_001,1971 Sultanpur.pdf,27,28
+sultanpur_mededu_1971,sultanpur_mededu_1971.pdf,Uttar Pradesh,Sultanpur,1971,format_002,1971 Sultanpur.pdf,27,28
+sultanpur_tehsil_1971,sultanpur_tehsil_1971.pdf,Uttar Pradesh,Sultanpur,1971,format_003,1971 Sultanpur.pdf,271,272
+tehri_garhwal_civic_1971,tehri_garhwal_civic_1971.pdf,Uttar Pradesh,Tehri Garhwal,1971,format_001,1971 Tehri Garhwal.pdf,33,34
+tehri_garhwal_mededu_1971,tehri_garhwal_mededu_1971.pdf,Uttar Pradesh,Tehri Garhwal,1971,format_002,1971 Tehri Garhwal.pdf,35,36
+tehri_garhwal_tehsil_1971,tehri_garhwal_tehsil_1971.pdf,Uttar Pradesh,Tehri Garhwal,1971,format_003,1971 Tehri Garhwal.pdf,231,232
+unnao_civic_1971,unnao_civic_1971.pdf,Uttar Pradesh,Unnao,1971,format_001,1971 Unnao.pdf,22,23
+unnao_mededu_1971,unnao_mededu_1971.pdf,Uttar Pradesh,Unnao,1971,format_002,1971 Unnao.pdf,24,25
+unnao_tehsil_1971,unnao_tehsil_1971.pdf,Uttar Pradesh,Unnao,1971,format_003,1971 Unnao.pdf,202,203
+uttar_kashi_civic_1971,uttar_kashi_civic_1971.pdf,Uttar Pradesh,Uttar Kashi,1971,format_001,1971 Uttar Kashi.pdf,25,26
+uttar_kashi_mededu_1971,uttar_kashi_mededu_1971.pdf,Uttar Pradesh,Uttar Kashi,1971,format_002,1971 Uttar Kashi.pdf,25,26
+uttar_kashi_tehsil_1971,uttar_kashi_tehsil_1971.pdf,Uttar Pradesh,Uttar Kashi,1971,format_003,1971 Uttar Kashi.pdf,103,104
+varanasi_civic_1971,varanasi_civic_1971.pdf,Uttar Pradesh,Varanasi,1971,format_001,1971 Varanasi.pdf,31,32
+varanasi_mededu_1971,varanasi_mededu_1971.pdf,Uttar Pradesh,Varanasi,1971,format_002,1971 Varanasi.pdf,33,34

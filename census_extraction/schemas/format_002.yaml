@@ -1,0 +1,177 @@
+format_id: format_002
+aliases:
+  - TS-V
+  - UP1971_MEDEDU
+
+name: town_statement_v_medical_educational_cultural_1971
+
+page_relationship: column_continuation
+
+source: >
+  "Town Statement — Medical, Educational, Recreational and" (columns 1–9)
+  followed by "Directory V — Cultural Facilities in Towns, 1969"
+  (columns 10–17). One row per town.
+
+row_identity:
+  - town_name
+
+row_types:
+  - ordinary_row
+  - aggregate_row
+  - component_row
+  - cross_reference_row
+
+categories:
+  - id: medical_facilities
+    name: Medical Facilities
+    columns: [3, 4]
+
+sections:
+  - id: medical
+    name: MEDICAL
+    columns: [3, 4]
+  - id: educational
+    name: EDUCATIONAL
+    columns: [5, 13]
+  - id: recreational_cultural
+    name: RECREATIONAL & CULTURAL FACILITIES
+    columns: [14, 17]
+
+anchor_page:
+  columns:
+    - id: serial_no
+      printed_column: 1
+      type: identifier
+      label: Sl. No.
+
+    - id: town_name
+      printed_column: 2
+      type: string
+      label: Name of Town
+
+    - id: medical_hospitals_dispensaries
+      printed_column: 3
+      type: numeric
+      label: "Hospitals / Dispensaries / T.B. Clinics / Health Centres / Nursing Homes"
+      category: medical_facilities
+      section: medical
+
+    - id: medical_beds
+      printed_column: 4
+      type: numeric
+      label: Beds in Medical Institutions noted in Col. No. 3
+      category: medical_facilities
+      section: medical
+
+    - id: colleges_arts_science_commerce
+      printed_column: 5
+      type: numeric
+      label: Arts / Science / Commerce Colleges
+      section: educational
+
+    - id: colleges_medical
+      printed_column: 6
+      type: numeric
+      label: Medical Colleges
+      section: educational
+
+    - id: colleges_engineering
+      printed_column: 7
+      type: numeric
+      label: Engineering Colleges
+      section: educational
+
+    - id: polytechnics
+      printed_column: 8
+      type: numeric
+      label: Polytechnics
+      section: educational
+
+    - id: vocational_training_institutes
+      printed_column: 9
+      type: numeric
+      label: Recognised Shorthand, Typewriting and other Vocational Training Institutes
+      section: educational
+
+continuation_page:
+  relationship_to_anchor: same_rows
+
+  columns:
+    - id: higher_secondary_schools
+      printed_column: 10
+      type: numeric
+      label: Higher Secondary or Secondary Schools
+      section: educational
+
+    - id: junior_secondary_middle_schools
+      printed_column: 11
+      type: numeric
+      label: Junior Secondary / Middle Schools
+      section: educational
+
+    - id: primary_schools
+      printed_column: 12
+      type: numeric
+      label: Primary Schools
+      section: educational
+
+    - id: other_educational_institutions
+      printed_column: 13
+      type: numeric
+      label: Others (Educational)
+      section: educational
+
+    - id: stadia
+      printed_column: 14
+      type: numeric
+      label: Stadia
+      section: recreational_cultural
+
+    - id: cinemas
+      printed_column: 15
+      type: numeric
+      label: Cinemas
+      section: recreational_cultural
+
+    - id: auditoria_drama_halls
+      printed_column: 16
+      type: numeric
+      label: Auditoria / Drama Halls
+      section: recreational_cultural
+
+    - id: public_libraries_reading_rooms
+      printed_column: 17
+      type: numeric
+      label: Public Libraries and Reading Rooms
+      section: recreational_cultural
+
+patterns:
+  component_label:
+    examples:
+      - "(i)"
+      - "(ii)"
+      - "(iii)"
+      - "(iv)"
+
+  cross_reference:
+    contains:
+      - "See"
+      - "Urban Agglomeration"
+
+  footnote_marker:
+    examples:
+      - "*"
+    note: "* denotes Maternity and Child Welfare Centre / T.B. Sanatorium"
+
+notes: >
+  Town-level medical, educational and recreational/cultural amenities table.
+  The anchor page (Town Statement V) contains columns 1–9 and identifies the
+  towns. The continuation page (Directory V) contains columns 10–17 for the
+  same rows. "Medical Facilities" is a parent heading spanning sub-columns
+  3–4 (institutions / beds); the EDUCATIONAL and RECREATIONAL & CULTURAL
+  groups are section labels over otherwise standalone columns. Rows include
+  urban-agglomeration aggregate rows, component rows (i), (ii), …, and
+  cross-reference rows, as in the civic table (format_001). In compressed
+  handbooks the two-page spread may also carry Statement III (municipal
+  finance); the medical/educational table still spans columns 1–9 (anchor)
+  and 10–17 (continuation).
