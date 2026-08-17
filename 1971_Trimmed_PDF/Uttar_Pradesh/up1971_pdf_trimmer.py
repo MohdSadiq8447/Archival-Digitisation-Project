@@ -1,25 +1,78 @@
 """
 UP 1971 District Census Handbook — Town & Tahsil page trimmer (reproducible).
 
-Trims the Town Statement IV (civic amenities), Town Statement V (medical/
-education), and the Tahsil appendix out of each district PDF *by detecting the
-section headers inside the PDF itself*. No external spreadsheet is used.
+What it does
+------------
+For every English-language district volume in a source PDF folder, this script
+trims out three two-page tables and saves each one as its own small PDF:
 
-The embedded OCR text layer is noisy and the "APPENDIX" heading is often
-garbled (APPEN / APPE / DIX / NDIX), so section boundaries are located by
-stable keywords rather than by fuzzy continuation matching:
+  * civic  -> Town Statement IV "CIVIC AND OTHER"           (cols 1-8 + 9-16)
+  * mededu -> Town Statement V "MEDICAL / EDUCATIONAL / ..." (cols 1-9 + 10-17)
+  * tehsil -> the "Tahsil-wise Abstract" appendix at the end of the volume
 
-  * civic  -> "TOWN STATEMENT ... CIVIC AND OTHER" (Statement IV)
-              continued by "DIRECTORY IV ... AMENITIES"
-  * mededu -> "TOWN STATEMENT ... MEDICAL" (Statement V)
-              continued by "CULTURAL FACILITIES IN TOWNS"
-  * appendix -> "TAHSIL-WISE ABSTRACT OF EDUCATIONAL ..." / "APPENDIX ..."
-                (always the final 2 pages of a complete volume)
+Each output PDF has exactly 2 pages: page 1 is the ANCHOR page (row identities
++ first block of columns) and page 2 is the CONTINUATION page (remaining
+columns for the same rows). These trimmed PDFs are the inputs consumed by the
+census_extraction/ metadata + schema stage.
 
-Usage:
-  python up1971_pdf_trimmer.py                 # all English districts in pdf-root
-  python up1971_pdf_trimmer.py --district Agra # one district
-  python up1971_pdf_trimmer.py --output .\out  # custom output dir
+Section boundaries are found by matching stable keywords in the PDF's embedded
+OCR text layer (no external spreadsheet is used). The OCR layer is noisy
+("APPENDIX" appears as APPEN/APPE/DIX/NDIX, "latrines" as "T.atrin~s"), so the
+matchers key off distinctive table columns rather than exact titles.
+
+How to reproduce the output (exact steps)
+-----------------------------------------
+1. Install the single dependency:
+
+       pip install pypdf
+
+2. Point the script at the source archive. The UP 1971 district PDFs live in a
+   folder containing one file per district named "1971 <District>.pdf", e.g.:
+
+       <pdf-root>/
+         1971 Agra.pdf
+         1971 Aligarh.pdf
+         1971 Allahabad.pdf
+         ...
+         1971 Varanasi.pdf
+
+   On this machine the archive is at:
+
+       D:\\Date 6-aug\\1971-20260725T134344Z-1-001\\1971\\Uttar Pradesh
+
+3. Run (all English districts):
+
+       python up1971_pdf_trimmer.py ^
+           --pdf-root "D:\\Date 6-aug\\1971-20260725T134344Z-1-001\\1971\\Uttar Pradesh" ^
+           --output  "D:\\New folder (2)\\output-final"
+
+   Or a single district:
+
+       python up1971_pdf_trimmer.py --district Agra --pdf-root "..." --output "..."
+
+4. Result (inside the --output directory):
+
+       Civic Amenities\\    <district>_civic_1971.pdf
+       Medical_Education\\  <district>_mededu_1971.pdf
+       Tehsil_Appendix\\    <district>_tehsil_1971.pdf
+       reports\\trim-report.json     <- per-district status, page ranges, warnings
+
+   For the full archive this yields 157 trimmed PDFs (53 districts x 3, minus
+   Varanasi and Mirzapur whose appendixes are missing from truncated volumes).
+
+Reproducibility notes
+---------------------
+* Only `pypdf` is required (pure Python, no native binaries).
+* A full-archive run takes ~15-20 minutes: pypdf extracts the text layer from
+  ~57 pages per volume (first 45 + last 12) to locate each section. To trim a
+  subset, use `--district <Name>` repeatedly.
+* Four Hindi-language volumes are auto-excluded (Devanagari text layer):
+  1971 Aajmgrah.pdf, 1971 Badha.pdf, 1971 Bhrich.pdf, 1971 Mirzapur (Hindi).pdf
+* Three districts have heavily-garbled town-statement pages, so their page
+  ranges are hard-coded as verified overrides (the appendix is still detected):
+  Jhansi, Uttar Kashi, Mirzapur.
+* Detection warnings are written to reports/trim-report.json so any skipped or
+  overridden table is visible and auditable.
 """
 
 from __future__ import annotations
@@ -32,18 +85,13 @@ from pathlib import Path
 
 from pypdf import PdfReader, PdfWriter
 
-import pdf_inspector
-
 PROJECT_ROOT = Path(__file__).resolve().parent
-WORKSPACE_ROOT = (
-    PROJECT_ROOT
-    if (PROJECT_ROOT / "1971-20260725T134344Z-1-001").exists()
-    else PROJECT_ROOT.parent
-)
-DEFAULT_PDF_ROOT = WORKSPACE_ROOT / "1971-20260725T134344Z-1-001" / "1971" / "Uttar Pradesh"
-DEFAULT_OUTPUT = WORKSPACE_ROOT / "output-final"
 
-# Hindi Part X-B volumes (Devanagari text layer) — skipped, per the plan.
+# Defaults. Override with --pdf-root / --output, or edit these paths.
+DEFAULT_PDF_ROOT = Path(r"D:\Date 6-aug\1971-20260725T134344Z-1-001\1971\Uttar Pradesh")
+DEFAULT_OUTPUT = PROJECT_ROOT.parent / "output-final"
+
+# Hindi Part X-B volumes (Devanagari text layer) — skipped.
 EXCLUDE_FILES = {
     "1971 Aajmgrah.pdf",        # Hindi Azamgarh
     "1971 Badha.pdf",           # Hindi Budaun
@@ -52,8 +100,8 @@ EXCLUDE_FILES = {
 }
 
 # Districts whose town-statement pages are OCR'd too heavily for reliable
-# auto-detection. These are manual reads of the actual scan (1-indexed pages);
-# the appendix range is still auto-detected.
+# auto-detection. These are manual reads of the scan (1-indexed pages); the
+# appendix range is still auto-detected.
 VERIFIED_OVERRIDES: dict[str, dict] = {
     "jhansi":      {"civic": (35, 36), "mededu": (37, 38)},
     "uttar kashi": {"civic": (25, 26), "mededu": (25, 26)},
@@ -170,9 +218,8 @@ def is_appendix(text: str) -> bool:
 
 # --- text extraction -------------------------------------------------------- #
 
-def build_page_texts(pdf_path: Path, pages: list[int]) -> dict[int, str]:
+def build_page_texts(reader: PdfReader, pages: list[int]) -> dict[int, str]:
     """Return {1-indexed page: normalized text} for the given pages."""
-    reader = PdfReader(str(pdf_path))
     result: dict[int, str] = {}
     for page in pages:
         if page < 1 or page > len(reader.pages):
@@ -279,12 +326,12 @@ def process_district(district: str, filename: str, pdf_root: Path, output_root: 
     if not pdf_path.exists():
         return {"district": district, "source_pdf": filename, "error": "pdf missing"}
 
-    classification = pdf_inspector.classify_pdf(str(pdf_path))
-    page_count = int(classification.page_count)
+    reader = PdfReader(str(pdf_path))
+    page_count = len(reader.pages)
 
     scan_pages = sorted(set(range(1, min(page_count, FRONT_PAGES) + 1))
                         | set(range(max(1, page_count - TAIL_PAGES + 1), page_count + 1)))
-    page_texts = build_page_texts(pdf_path, scan_pages)
+    page_texts = build_page_texts(reader, scan_pages)
 
     ranges = detect_ranges(page_texts, page_count)
 
@@ -296,11 +343,14 @@ def process_district(district: str, filename: str, pdf_root: Path, output_root: 
             ranges.mededu = [tuple(override["mededu"])]
         ranges.warnings.append("used verified override for town statements")
 
+    # Report whether the scanned pages carried a usable OCR text layer.
+    pdf_type = "text_based" if any(t.strip() for t in page_texts.values()) else "scanned"
+
     report: dict = {
         "district": district,
         "source_pdf": filename,
         "page_count": page_count,
-        "pdf_type": classification.pdf_type,
+        "pdf_type": pdf_type,
         "outputs": {},
         "warnings": ranges.warnings,
     }
@@ -329,10 +379,13 @@ def process_district(district: str, filename: str, pdf_root: Path, output_root: 
 # --- CLI -------------------------------------------------------------------- #
 
 def build_parser() -> argparse.ArgumentParser:
-    parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--pdf-root", type=Path, default=DEFAULT_PDF_ROOT)
-    parser.add_argument("--output", type=Path, default=DEFAULT_OUTPUT)
-    parser.add_argument("--district", type=str, default=None)
+    parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
+    parser.add_argument("--pdf-root", type=Path, default=DEFAULT_PDF_ROOT,
+                        help="Folder of source district PDFs (default: %(default)s)")
+    parser.add_argument("--output", type=Path, default=DEFAULT_OUTPUT,
+                        help="Output folder (default: %(default)s)")
+    parser.add_argument("--district", type=str, default=None,
+                        help="Process a single district (e.g. 'Agra') instead of all")
     return parser
 
 
@@ -341,7 +394,7 @@ def main() -> None:
 
     all_districts = discover_districts(args.pdf_root)
     if not all_districts:
-        raise SystemExit("No PDFs found in the pdf-root.")
+        raise SystemExit(f"No PDFs found in --pdf-root: {args.pdf_root}")
 
     if args.district:
         key = normalize(args.district)

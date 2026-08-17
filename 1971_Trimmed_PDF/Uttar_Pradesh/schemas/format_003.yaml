@@ -1,0 +1,156 @@
+format_id: format_003
+name: tahsil_abstract_1971
+
+anchor_page:
+  - column_no: 1
+    column_name: Sl. No.
+    variable: sl_no
+  - column_no: 2
+    column_name: Name of Tahsil
+    variable: tahsil_name
+  - column_no: 3
+    column_name: No. of Villages having Junior Basic Schools
+    variable: junior_basic_villages
+  - column_no: 4
+    column_name: No. of Junior Basic Schools
+    variable: junior_basic_schools
+  - column_no: 5
+    column_name: No. of Villages having Senior Basic Schools
+    variable: senior_basic_villages
+  - column_no: 6
+    column_name: No. of Senior Basic Schools
+    variable: senior_basic_schools
+  - column_no: 7
+    column_name: No. of Villages having Higher Secondary Schools
+    variable: higher_secondary_villages
+  - column_no: 8
+    column_name: No. of Higher Secondary Schools
+    variable: higher_secondary_schools
+  - column_no: 9
+    column_name: No. of Villages having Colleges
+    variable: college_villages
+  - column_no: 10
+    column_name: No. of Colleges
+    variable: colleges
+  - column_no: 11
+    column_name: No. of Villages having Other Educational Institutions
+    variable: other_edu_villages
+  - column_no: 12
+    column_name: No. of Other Educational Institutions
+    variable: other_edu_institutions
+  - column_no: 25
+    column_name: No. of Villages with Power Supply Available
+    variable: power_available_villages
+  - column_no: 26
+    column_name: No. of Villages with Power Supply Not Available
+    variable: power_not_available_villages
+  - column_no: 27
+    column_name: No. of Villages having Tap Water
+    variable: tap_water_villages
+  - column_no: 28
+    column_name: No. of Villages having Hand Pipe
+    variable: hand_pipe_villages
+  - column_no: 29
+    column_name: No. of Villages having Well
+    variable: well_villages
+  - column_no: 30
+    column_name: No. of Villages having Tank
+    variable: tank_villages
+  - column_no: 31
+    column_name: No. of Villages having River
+    variable: river_villages
+  - column_no: 32
+    column_name: No. of Villages having Fountain
+    variable: fountain_villages
+  - column_no: 33
+    column_name: No. of Villages having Canal
+    variable: canal_villages
+  - column_no: 34
+    column_name: No. of Villages having Water Fall
+    variable: water_fall_villages
+  - column_no: 35
+    column_name: No. of Villages having Lake
+    variable: lake_villages
+  - column_no: 36
+    column_name: No. of Villages having Tube-Well
+    variable: tube_well_villages
+  - column_no: 37
+    column_name: No. of Villages having Other Water Source
+    variable: other_water_villages
+  - column_no: 38
+    column_name: No. of Villages with No Water Source
+    variable: no_water_villages
+
+continuation_page:
+  - column_no: 13
+    column_name: No. of Villages having Hospitals
+    variable: hospital_villages
+  - column_no: 14
+    column_name: No. of Hospitals
+    variable: hospitals
+  - column_no: 15
+    column_name: No. of Villages having Dispensaries
+    variable: dispensary_villages
+  - column_no: 16
+    column_name: No. of Dispensaries
+    variable: dispensaries
+  - column_no: 17
+    column_name: No. of Villages having M.C.W. Centres
+    variable: mcw_villages
+  - column_no: 18
+    column_name: No. of M.C.W. Centres
+    variable: mcw_centres
+  - column_no: 19
+    column_name: No. of Villages having Health Centres
+    variable: health_centre_villages
+  - column_no: 20
+    column_name: No. of Health Centres
+    variable: health_centres
+  - column_no: 21
+    column_name: No. of Villages having Family Planning Centres
+    variable: family_planning_villages
+  - column_no: 22
+    column_name: No. of Family Planning Centres
+    variable: family_planning_centres
+  - column_no: 23
+    column_name: No. of Villages having Other Medical Institutions
+    variable: other_med_villages
+  - column_no: 24
+    column_name: No. of Other Medical Institutions
+    variable: other_med_institutions
+  - column_no: 39
+    column_name: No. of Villages having Pucca Road
+    variable: pucca_road_villages
+  - column_no: 40
+    column_name: No. of Villages having Kachcha Road
+    variable: kachcha_road_villages
+  - column_no: 41
+    column_name: No. of Villages having Pucca and Kachcha Road
+    variable: pucca_kachcha_road_villages
+  - column_no: 42
+    column_name: No. of Villages having Other Road
+    variable: other_road_villages
+  - column_no: 43
+    column_name: No. of Villages having Post Office
+    variable: post_office_villages
+  - column_no: 44
+    column_name: No. of Post Offices
+    variable: post_offices
+  - column_no: 45
+    column_name: No. of Villages having Telegraph Office
+    variable: telegraph_office_villages
+  - column_no: 46
+    column_name: No. of Telegraph Offices
+    variable: telegraph_offices
+  - column_no: 47
+    column_name: No. of Villages having Post & Telegraph Office
+    variable: post_telegraph_villages
+  - column_no: 48
+    column_name: No. of Post & Telegraph Offices
+    variable: post_telegraph_offices
+  - column_no: 49
+    column_name: No. of Villages having Telephone
+    variable: telephone_villages
+  - column_no: 50
+    column_name: No. of Telephones
+    variable: telephones

@@ -1,0 +1,57 @@
+format_id: format_002
+name: medical_education_1971
+
+anchor_page:
+  - column_no: 1
+    column_name: Sl. No.
+    variable: sl_no
+  - column_no: 2
+    column_name: Name of Town
+    variable: town_name
+  - column_no: 3
+    column_name: Hospitals/Dispensaries/T.B. Clinics/Health Centres/Nursing Homes
+    variable: hospitals_dispensaries
+  - column_no: 4
+    column_name: Beds in Medical Institutions
+    variable: med_beds
+  - column_no: 5
+    column_name: Arts/Science/Commerce Colleges
+    variable: degree_colleges
+  - column_no: 6
+    column_name: Medical Colleges
+    variable: medical_colleges
+  - column_no: 7
+    column_name: Engineering Colleges
+    variable: engg_colleges
+  - column_no: 8
+    column_name: Polytechnics
+    variable: polytechnics
+  - column_no: 9
+    column_name: Shorthand/Typewriting/Vocational Training Institutes
+    variable: vocational_institutes
+
+continuation_page:
+  - column_no: 10
+    column_name: Higher Secondary or Secondary Schools
+    variable: higher_secondary_schools
+  - column_no: 11
+    column_name: Junior Secondary/Middle Schools
+    variable: middle_schools
+  - column_no: 12
+    column_name: Primary Schools
+    variable: primary_schools
+  - column_no: 13
+    column_name: Other Educational Institutions
+    variable: other_edu_institutions
+  - column_no: 14
+    column_name: Stadia
+    variable: stadia
+  - column_no: 15
+    column_name: Cinemas
+    variable: cinemas
+  - column_no: 16
+    column_name: Auditoria/Drama Halls
+    variable: auditoria
+  - column_no: 17
+    column_name: Public Libraries and Reading Rooms
+    variable: libraries

@@ -1,0 +1,54 @@
+format_id: format_001
+name: civic_amenities_1971
+
+anchor_page:
+  - column_no: 1
+    column_name: Sl. No.
+    variable: sl_no
+  - column_no: 2
+    column_name: Name of Town
+    variable: town_name
+  - column_no: 3
+    column_name: Road Length (km)
+    variable: road_length_km
+  - column_no: 4
+    column_name: System of Sewerage/Drainage
+    variable: sewerage_drainage_system
+  - column_no: 5
+    column_name: Water-Borne Latrines
+    variable: water_borne_latrines
+  - column_no: 6
+    column_name: Service Latrines
+    variable: service_latrines
+  - column_no: 7
+    column_name: Other Latrines
+    variable: other_latrines
+  - column_no: 8
+    column_name: Method of Disposal of Night-Soil
+    variable: night_soil_disposal_method
+
+continuation_page:
+  - column_no: 9
+    column_name: Protected Water Supply - Source
+    variable: water_source
+  - column_no: 10
+    column_name: Protected Water Supply - Capacity
+    variable: water_capacity
+  - column_no: 11
+    column_name: Fire Fighting Service
+    variable: fire_service
+  - column_no: 12
+    column_name: Electrification - Domestic
+    variable: elec_domestic
+  - column_no: 13
+    column_name: Electrification - Industrial
+    variable: elec_industrial
+  - column_no: 14
+    column_name: Electrification - Commercial
+    variable: elec_commercial
+  - column_no: 15
+    column_name: Electrification - Road Lighting
+    variable: elec_road_light
+  - column_no: 16
+    column_name: Electrification - Others
+    variable: elec_other
