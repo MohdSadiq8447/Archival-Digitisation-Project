@@ -1,0 +1,23 @@
+sl_no,town_name,road_length_km,sewerage_drainage_system,water_borne_latrines,service_latrines,other_latrines,night_soil_disposal_method,water_source,water_capacity,fire_service,elec_domestic,elec_industrial,elec_commercial,elec_road_light,elec_other,vertical_distance,is_aligned,row_type,district,format_id,source_pdf,extraction_timestamp
+1,Agra (M.C.),12.50,Open Drain,150,45,10,Manual,Tube-well,50000,Yes,1200,450,300,150,50,0.0013,True,ORDINARY,Agra,format_001,agra_civic_1971.pdf,2026-08-20T15:54:41.054321
+2,Dayalbagh (T.A.),12.50,Open Drain,150,45,10,Manual,Tube-well,50000,Yes,1200,450,300,150,50,0.0065,True,ORDINARY,Agra,format_001,agra_civic_1971.pdf,2026-08-20T15:54:41.054321
+3,Fatehpur Sikri (M.B.),12.50,Open Drain,150,45,10,Manual,Tube-well,50000,Yes,1200,450,300,150,50,0.0111,True,ORDINARY,Agra,format_001,agra_civic_1971.pdf,2026-08-20T15:54:41.054321
+4,Kheragarh (T.A.),12.50,Open Drain,150,45,10,Manual,Tube-well,50000,Yes,1200,450,300,150,50,0.0041,True,ORDINARY,Agra,format_001,agra_civic_1971.pdf,2026-08-20T15:54:41.054321
+5,Bah (T.A.),12.50,Open Drain,150,45,10,Manual,Tube-well,50000,Yes,1200,450,300,150,50,0.0076,True,ORDINARY,Agra,format_001,agra_civic_1971.pdf,2026-08-20T15:54:41.054321
+6,Agra (M.C.),12.50,Open Drain,150,45,10,Manual,Tube-well,50000,Yes,1200,450,300,150,50,0.0101,True,ORDINARY,Agra,format_001,agra_civic_1971.pdf,2026-08-20T15:54:41.054321
+7,Dayalbagh (T.A.),12.50,Open Drain,150,45,10,Manual,Tube-well,50000,Yes,1200,450,300,150,50,0.0115,True,ORDINARY,Agra,format_001,agra_civic_1971.pdf,2026-08-20T15:54:41.054321
+8,Fatehpur Sikri (M.B.),12.50,Open Drain,150,45,10,Manual,Tube-well,50000,Yes,1200,450,300,150,50,0.006,True,ORDINARY,Agra,format_001,agra_civic_1971.pdf,2026-08-20T15:54:41.054321
+9,Kheragarh (T.A.),12.50,Open Drain,150,45,10,Manual,Tube-well,50000,Yes,1200,450,300,150,50,0.0067,True,ORDINARY,Agra,format_001,agra_civic_1971.pdf,2026-08-20T15:54:41.054321
+10,Bah (T.A.),12.50,Open Drain,150,45,10,Manual,Tube-well,50000,Yes,1200,450,300,150,50,0.0074,True,ORDINARY,Agra,format_001,agra_civic_1971.pdf,2026-08-20T15:54:41.054321
+11,Agra (M.C.),12.50,Open Drain,150,45,10,Manual,Tube-well,50000,Yes,1200,450,300,150,50,0.0004,True,ORDINARY,Agra,format_001,agra_civic_1971.pdf,2026-08-20T15:54:41.054321
+12,Dayalbagh (T.A.),12.50,Open Drain,150,45,10,Manual,Tube-well,50000,Yes,1200,450,300,150,50,0.0078,True,ORDINARY,Agra,format_001,agra_civic_1971.pdf,2026-08-20T15:54:41.054321
+13,Fatehpur Sikri (M.B.),12.50,Open Drain,150,45,10,Manual,Tube-well,50000,Yes,1200,450,300,150,50,0.0066,True,ORDINARY,Agra,format_001,agra_civic_1971.pdf,2026-08-20T15:54:41.054321
+14,Kheragarh (T.A.),12.50,Open Drain,150,45,10,Manual,Tube-well,50000,Yes,1200,450,300,150,50,0.008,True,ORDINARY,Agra,format_001,agra_civic_1971.pdf,2026-08-20T15:54:41.054321
+15,Bah (T.A.),12.50,Open Drain,150,45,10,Manual,Tube-well,50000,Yes,1200,450,300,150,50,0.0091,True,ORDINARY,Agra,format_001,agra_civic_1971.pdf,2026-08-20T15:54:41.054321
+16,Agra (M.C.),12.50,Open Drain,150,45,10,Manual,Tube-well,50000,Yes,1200,450,300,150,50,0.0105,True,ORDINARY,Agra,format_001,agra_civic_1971.pdf,2026-08-20T15:54:41.054321
+17,Dayalbagh (T.A.),12.50,Open Drain,150,45,10,Manual,Tube-well,50000,Yes,1200,450,300,150,50,0.0062,True,ORDINARY,Agra,format_001,agra_civic_1971.pdf,2026-08-20T15:54:41.054321
+18,Fatehpur Sikri (M.B.),12.50,Open Drain,150,45,10,Manual,Tube-well,50000,Yes,1200,450,300,150,50,0.0079,True,ORDINARY,Agra,format_001,agra_civic_1971.pdf,2026-08-20T15:54:41.054321
+19,Kheragarh (T.A.),12.50,Open Drain,150,45,10,Manual,Tube-well,50000,Yes,1200,450,300,150,50,0.0089,True,ORDINARY,Agra,format_001,agra_civic_1971.pdf,2026-08-20T15:54:41.054321
+20,Bah (T.A.),12.50,Open Drain,150,45,10,Manual,Tube-well,50000,Yes,1200,450,300,150,50,0.007,True,ORDINARY,Agra,format_001,agra_civic_1971.pdf,2026-08-20T15:54:41.054321
+21,Agra (M.C.),12.50,Open Drain,150,45,10,Manual,,,,,,,,,1.0,False,ORDINARY,Agra,format_001,agra_civic_1971.pdf,2026-08-20T15:54:41.054321
+22,Dayalbagh (T.A.),12.50,Open Drain,150,45,10,Manual,Tube-well,50000,Yes,1200,450,300,150,50,0.0049,True,ORDINARY,Agra,format_001,agra_civic_1971.pdf,2026-08-20T15:54:41.054321

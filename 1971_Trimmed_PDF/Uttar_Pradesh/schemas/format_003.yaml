@@ -1,156 +1,331 @@
 format_id: format_003
 name: tahsil_abstract_1971
+table_description: "Appendix: Tahsil-wise Abstract of Educational, Medical and Other Amenities (1971). Aggregates amenity counts (Junior/Senior Basic schools, Higher Secondary, Colleges, Medical institutions & beds, Power supply, Drinking water sources like Tap/Well/Tube-well/Tank/River, Pucca/Kachcha roads, Post & Telegraph offices, and Telephones) for each Tahsil in the district, concluding with a District Total row."
+
+panels:
+  - panel_id: tahsil_education
+    page: 1
+    printed_columns: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+    identity_columns: [1, 2]
+    headings: ["appendix", "educational"]
+    row_anchor: true
+  - panel_id: tahsil_power_water
+    page: 1
+    printed_columns: [1, 2, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38]
+    identity_columns: [1, 2]
+    headings: ["power supply", "drinking water"]
+    align_to: tahsil_education
+  - panel_id: tahsil_medical
+    page: 2
+    printed_columns: [13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24]
+    headings: ["appendix", "medical"]
+    align_to: tahsil_education
+  - panel_id: tahsil_communications
+    page: 2
+    printed_columns: [39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50]
+    headings: ["roads", "post", "telegraph", "telephone"]
+    align_to: tahsil_education
 
 anchor_page:
   - column_no: 1
     column_name: Sl. No.
     variable: sl_no
+    data_type: integer
+    description: "Serial number of the Tahsil"
+    value_examples: ["1", "2", "3", "4", "5"]
   - column_no: 2
     column_name: Name of Tahsil
     variable: tahsil_name
+    data_type: string
+    description: "Name of the Tahsil or District Total"
+    value_examples: ["Agra", "Fatehabad", "Firozabad", "Kheragarh", "Kiraoli", "Bah", "DISTRICT TOTAL"]
   - column_no: 3
     column_name: No. of Villages having Junior Basic Schools
     variable: junior_basic_villages
+    data_type: integer
+    description: "Count of villages having Junior Basic Schools"
+    value_examples: ["180", "125", "90", "0"]
   - column_no: 4
     column_name: No. of Junior Basic Schools
     variable: junior_basic_schools
+    data_type: integer
+    description: "Total number of Junior Basic Schools"
+    value_examples: ["210", "145", "100", "0"]
   - column_no: 5
     column_name: No. of Villages having Senior Basic Schools
     variable: senior_basic_villages
+    data_type: integer
+    description: "Count of villages having Senior Basic Schools"
+    value_examples: ["45", "28", "12", "0"]
   - column_no: 6
     column_name: No. of Senior Basic Schools
     variable: senior_basic_schools
+    data_type: integer
+    description: "Total number of Senior Basic Schools"
+    value_examples: ["52", "30", "14", "0"]
   - column_no: 7
     column_name: No. of Villages having Higher Secondary Schools
     variable: higher_secondary_villages
+    data_type: integer
+    description: "Count of villages having Higher Secondary Schools"
+    value_examples: ["18", "10", "5", "0"]
   - column_no: 8
     column_name: No. of Higher Secondary Schools
     variable: higher_secondary_schools
+    data_type: integer
+    description: "Total number of Higher Secondary Schools"
+    value_examples: ["22", "12", "6", "0"]
   - column_no: 9
     column_name: No. of Villages having Colleges
     variable: college_villages
+    data_type: integer
+    description: "Count of villages having Colleges"
+    value_examples: ["2", "1", "0"]
   - column_no: 10
     column_name: No. of Colleges
     variable: colleges
+    data_type: integer
+    description: "Total number of Colleges"
+    value_examples: ["2", "1", "0"]
   - column_no: 11
     column_name: No. of Villages having Other Educational Institutions
     variable: other_edu_villages
+    data_type: integer
+    description: "Count of villages having other educational institutions"
+    value_examples: ["5", "2", "0"]
   - column_no: 12
     column_name: No. of Other Educational Institutions
     variable: other_edu_institutions
+    data_type: integer
+    description: "Total number of other educational institutions"
+    value_examples: ["6", "2", "0"]
   - column_no: 25
     column_name: No. of Villages with Power Supply Available
     variable: power_available_villages
+    data_type: integer
+    description: "Count of electrified villages"
+    value_examples: ["95", "60", "40", "0"]
   - column_no: 26
     column_name: No. of Villages with Power Supply Not Available
     variable: power_not_available_villages
+    data_type: integer
+    description: "Count of un-electrified villages"
+    value_examples: ["120", "80", "50", "0"]
   - column_no: 27
     column_name: No. of Villages having Tap Water
     variable: tap_water_villages
+    data_type: integer
+    description: "Count of villages with tap water"
+    value_examples: ["15", "5", "0"]
   - column_no: 28
     column_name: No. of Villages having Hand Pipe
     variable: hand_pipe_villages
+    data_type: integer
+    description: "Count of villages with hand pipes / hand pumps"
+    value_examples: ["85", "40", "0"]
   - column_no: 29
     column_name: No. of Villages having Well
     variable: well_villages
+    data_type: integer
+    description: "Count of villages with well water"
+    value_examples: ["200", "150", "0"]
   - column_no: 30
     column_name: No. of Villages having Tank
     variable: tank_villages
+    data_type: integer
+    description: "Count of villages with water tanks / ponds"
+    value_examples: ["35", "10", "0"]
   - column_no: 31
     column_name: No. of Villages having River
     variable: river_villages
+    data_type: integer
+    description: "Count of villages near river water source"
+    value_examples: ["12", "4", "0"]
   - column_no: 32
     column_name: No. of Villages having Fountain
     variable: fountain_villages
+    data_type: integer
+    description: "Count of villages having fountain / spring water"
+    value_examples: ["2", "0"]
   - column_no: 33
     column_name: No. of Villages having Canal
     variable: canal_villages
+    data_type: integer
+    description: "Count of villages having canal water"
+    value_examples: ["45", "20", "0"]
   - column_no: 34
     column_name: No. of Villages having Water Fall
     variable: water_fall_villages
+    data_type: integer
+    description: "Count of villages having waterfall source"
+    value_examples: ["0", "1"]
   - column_no: 35
     column_name: No. of Villages having Lake
     variable: lake_villages
+    data_type: integer
+    description: "Count of villages having lake water"
+    value_examples: ["8", "0"]
   - column_no: 36
     column_name: No. of Villages having Tube-Well
     variable: tube_well_villages
+    data_type: integer
+    description: "Count of villages having tube-wells"
+    value_examples: ["65", "30", "0"]
   - column_no: 37
     column_name: No. of Villages having Other Water Source
     variable: other_water_villages
+    data_type: integer
+    description: "Count of villages having other water source"
+    value_examples: ["5", "0"]
   - column_no: 38
     column_name: No. of Villages with No Water Source
     variable: no_water_villages
+    data_type: integer
+    description: "Count of villages with no drinking water source"
+    value_examples: ["0", "2"]
 
 continuation_page:
   - column_no: 13
     column_name: No. of Villages having Hospitals
     variable: hospital_villages
+    data_type: integer
+    description: "Count of villages having Hospitals"
+    value_examples: ["8", "4", "1", "0"]
   - column_no: 14
     column_name: No. of Hospitals
     variable: hospitals
+    data_type: integer
+    description: "Total number of Hospitals"
+    value_examples: ["10", "5", "1", "0"]
   - column_no: 15
     column_name: No. of Villages having Dispensaries
     variable: dispensary_villages
+    data_type: integer
+    description: "Count of villages having Dispensaries"
+    value_examples: ["14", "8", "2", "0"]
   - column_no: 16
     column_name: No. of Dispensaries
     variable: dispensaries
+    data_type: integer
+    description: "Total number of Dispensaries"
+    value_examples: ["16", "9", "2", "0"]
   - column_no: 17
     column_name: No. of Villages having M.C.W. Centres
     variable: mcw_villages
+    data_type: integer
+    description: "Count of villages having Maternity & Child Welfare Centres"
+    value_examples: ["12", "6", "1", "0"]
   - column_no: 18
     column_name: No. of M.C.W. Centres
     variable: mcw_centres
+    data_type: integer
+    description: "Total number of M.C.W. Centres"
+    value_examples: ["12", "6", "1", "0"]
   - column_no: 19
     column_name: No. of Villages having Health Centres
     variable: health_centre_villages
+    data_type: integer
+    description: "Count of villages having Primary Health Centres"
+    value_examples: ["5", "3", "1", "0"]
   - column_no: 20
     column_name: No. of Health Centres
     variable: health_centres
+    data_type: integer
+    description: "Total number of Health Centres"
+    value_examples: ["5", "3", "1", "0"]
   - column_no: 21
     column_name: No. of Villages having Family Planning Centres
     variable: family_planning_villages
+    data_type: integer
+    description: "Count of villages having Family Planning Centres"
+    value_examples: ["6", "4", "1", "0"]
   - column_no: 22
     column_name: No. of Family Planning Centres
     variable: family_planning_centres
+    data_type: integer
+    description: "Total number of Family Planning Centres"
+    value_examples: ["6", "4", "1", "0"]
   - column_no: 23
     column_name: No. of Villages having Other Medical Institutions
     variable: other_med_villages
+    data_type: integer
+    description: "Count of villages having other medical institutions"
+    value_examples: ["3", "1", "0"]
   - column_no: 24
     column_name: No. of Other Medical Institutions
     variable: other_med_institutions
+    data_type: integer
+    description: "Total number of other medical institutions"
+    value_examples: ["4", "1", "0"]
   - column_no: 39
     column_name: No. of Villages having Pucca Road
     variable: pucca_road_villages
+    data_type: integer
+    description: "Count of villages connected by Pucca (metalled/paved) road"
+    value_examples: ["65", "40", "20", "0"]
   - column_no: 40
     column_name: No. of Villages having Kachcha Road
     variable: kachcha_road_villages
+    data_type: integer
+    description: "Count of villages connected by Kachcha (unpaved) road"
+    value_examples: ["150", "90", "50", "0"]
   - column_no: 41
     column_name: No. of Villages having Pucca and Kachcha Road
     variable: pucca_kachcha_road_villages
+    data_type: integer
+    description: "Count of villages with both road types"
+    value_examples: ["30", "15", "0"]
   - column_no: 42
     column_name: No. of Villages having Other Road
     variable: other_road_villages
+    data_type: integer
+    description: "Count of villages with other road connections"
+    value_examples: ["10", "2", "0"]
   - column_no: 43
     column_name: No. of Villages having Post Office
     variable: post_office_villages
+    data_type: integer
+    description: "Count of villages having a Post Office"
+    value_examples: ["35", "20", "8", "0"]
   - column_no: 44
     column_name: No. of Post Offices
     variable: post_offices
+    data_type: integer
+    description: "Total number of Post Offices"
+    value_examples: ["38", "22", "8", "0"]
   - column_no: 45
     column_name: No. of Villages having Telegraph Office
     variable: telegraph_office_villages
+    data_type: integer
+    description: "Count of villages having a Telegraph Office"
+    value_examples: ["4", "2", "0"]
   - column_no: 46
     column_name: No. of Telegraph Offices
     variable: telegraph_offices
+    data_type: integer
+    description: "Total number of Telegraph Offices"
+    value_examples: ["4", "2", "0"]
   - column_no: 47
     column_name: No. of Villages having Post & Telegraph Office
     variable: post_telegraph_villages
+    data_type: integer
+    description: "Count of villages having combined Post & Telegraph Office"
+    value_examples: ["5", "3", "0"]
   - column_no: 48
     column_name: No. of Post & Telegraph Offices
     variable: post_telegraph_offices
+    data_type: integer
+    description: "Total number of combined Post & Telegraph Offices"
+    value_examples: ["5", "3", "0"]
   - column_no: 49
     column_name: No. of Villages having Telephone
     variable: telephone_villages
+    data_type: integer
+    description: "Count of villages having telephone connections"
+    value_examples: ["8", "4", "0"]
   - column_no: 50
     column_name: No. of Telephones
     variable: telephones
+    data_type: integer
+    description: "Total number of telephones"
+    value_examples: ["12", "5", "0"]

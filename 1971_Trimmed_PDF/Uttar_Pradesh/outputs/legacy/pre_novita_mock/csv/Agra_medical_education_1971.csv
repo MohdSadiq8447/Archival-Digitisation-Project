@@ -1,0 +1,25 @@
+sl_no,town_name,hospitals_dispensaries,med_beds,degree_colleges,medical_colleges,engg_colleges,polytechnics,vocational_institutes,higher_secondary_schools,middle_schools,primary_schools,other_edu_institutions,stadia,cinemas,auditoria,libraries,vertical_distance,is_aligned,row_type,district,format_id,source_pdf,extraction_timestamp
+1,Agra (M.C.),12.50,Open Drain,150,45,10,Manual,10,Tube-well,50000,Yes,1200,450,300,150,50,0.0096,True,ORDINARY,Agra,format_002,agra_mededu_1971.pdf,2026-08-20T15:47:34.149619
+2,Dayalbagh (T.A.),12.50,Open Drain,150,45,10,Manual,10,Tube-well,50000,Yes,1200,450,300,150,50,0.0328,True,ORDINARY,Agra,format_002,agra_mededu_1971.pdf,2026-08-20T15:47:34.149619
+3,Fatehpur Sikri (M.B.),12.50,Open Drain,150,45,10,Manual,10,Tube-well,50000,Yes,1200,450,300,150,50,0.0203,True,ORDINARY,Agra,format_002,agra_mededu_1971.pdf,2026-08-20T15:47:34.149619
+4,Kheragarh (T.A.),12.50,Open Drain,150,45,10,Manual,10,Tube-well,50000,Yes,1200,450,300,150,50,0.0259,True,ORDINARY,Agra,format_002,agra_mededu_1971.pdf,2026-08-20T15:47:34.149619
+5,Bah (T.A.),12.50,Open Drain,150,45,10,Manual,10,Tube-well,50000,Yes,1200,450,300,150,50,0.0136,True,ORDINARY,Agra,format_002,agra_mededu_1971.pdf,2026-08-20T15:47:34.149619
+6,Agra (M.C.),12.50,Open Drain,150,45,10,Manual,10,Tube-well,50000,Yes,1200,450,300,150,50,0.024,True,ORDINARY,Agra,format_002,agra_mededu_1971.pdf,2026-08-20T15:47:34.149619
+7,Dayalbagh (T.A.),12.50,Open Drain,150,45,10,Manual,10,,,,,,,,,1.0,False,ORDINARY,Agra,format_002,agra_mededu_1971.pdf,2026-08-20T15:47:34.149619
+8,Fatehpur Sikri (M.B.),12.50,Open Drain,150,45,10,Manual,10,Tube-well,50000,Yes,1200,450,300,150,50,0.0006,True,ORDINARY,Agra,format_002,agra_mededu_1971.pdf,2026-08-20T15:47:34.149619
+9,Kheragarh (T.A.),12.50,Open Drain,150,45,10,Manual,10,Tube-well,50000,Yes,1200,450,300,150,50,0.0022,True,ORDINARY,Agra,format_002,agra_mededu_1971.pdf,2026-08-20T15:47:34.149619
+10,Bah (T.A.),12.50,Open Drain,150,45,10,Manual,10,,,,,,,,,1.0,False,ORDINARY,Agra,format_002,agra_mededu_1971.pdf,2026-08-20T15:47:34.149619
+11,Agra (M.C.),12.50,Open Drain,150,45,10,Manual,10,Tube-well,50000,Yes,1200,450,300,150,50,0.0065,True,ORDINARY,Agra,format_002,agra_mededu_1971.pdf,2026-08-20T15:47:34.149619
+12,Dayalbagh (T.A.),12.50,Open Drain,150,45,10,Manual,10,Tube-well,50000,Yes,1200,450,300,150,50,0.0126,True,ORDINARY,Agra,format_002,agra_mededu_1971.pdf,2026-08-20T15:47:34.149619
+13,Fatehpur Sikri (M.B.),12.50,Open Drain,150,45,10,Manual,10,Tube-well,50000,Yes,1200,450,300,150,50,0.0077,True,ORDINARY,Agra,format_002,agra_mededu_1971.pdf,2026-08-20T15:47:34.149619
+14,Kheragarh (T.A.),12.50,Open Drain,150,45,10,Manual,10,Tube-well,50000,Yes,1200,450,300,150,50,0.0113,True,ORDINARY,Agra,format_002,agra_mededu_1971.pdf,2026-08-20T15:47:34.149619
+15,Bah (T.A.),12.50,Open Drain,150,45,10,Manual,10,Tube-well,50000,Yes,1200,450,300,150,50,0.0176,True,ORDINARY,Agra,format_002,agra_mededu_1971.pdf,2026-08-20T15:47:34.149619
+16,Agra (M.C.),12.50,Open Drain,150,45,10,Manual,10,Tube-well,50000,Yes,1200,450,300,150,50,0.0144,True,ORDINARY,Agra,format_002,agra_mededu_1971.pdf,2026-08-20T15:47:34.149619
+17,Dayalbagh (T.A.),12.50,Open Drain,150,45,10,Manual,10,,,,,,,,,1.0,False,ORDINARY,Agra,format_002,agra_mededu_1971.pdf,2026-08-20T15:47:34.149619
+18,Fatehpur Sikri (M.B.),12.50,Open Drain,150,45,10,Manual,10,Tube-well,50000,Yes,1200,450,300,150,50,0.0068,True,ORDINARY,Agra,format_002,agra_mededu_1971.pdf,2026-08-20T15:47:34.149619
+19,Kheragarh (T.A.),12.50,Open Drain,150,45,10,Manual,10,Tube-well,50000,Yes,1200,450,300,150,50,0.0409,True,ORDINARY,Agra,format_002,agra_mededu_1971.pdf,2026-08-20T15:47:34.149619
+20,Bah (T.A.),12.50,Open Drain,150,45,10,Manual,10,Tube-well,50000,Yes,1200,450,300,150,50,0.0408,True,ORDINARY,Agra,format_002,agra_mededu_1971.pdf,2026-08-20T15:47:34.149619
+21,Agra (M.C.),12.50,Open Drain,150,45,10,Manual,10,Tube-well,50000,Yes,1200,450,300,150,50,0.0118,True,ORDINARY,Agra,format_002,agra_mededu_1971.pdf,2026-08-20T15:47:34.149619
+22,Dayalbagh (T.A.),12.50,Open Drain,150,45,10,Manual,10,Tube-well,50000,Yes,1200,450,300,150,50,0.0023,True,ORDINARY,Agra,format_002,agra_mededu_1971.pdf,2026-08-20T15:47:34.149619
+23,Fatehpur Sikri (M.B.),12.50,Open Drain,150,45,10,Manual,10,Tube-well,50000,Yes,1200,450,300,150,50,0.0183,True,ORDINARY,Agra,format_002,agra_mededu_1971.pdf,2026-08-20T15:47:34.149619
+24,Kheragarh (T.A.),12.50,Open Drain,150,45,10,Manual,10,Tube-well,50000,Yes,1200,450,300,150,50,0.0064,True,ORDINARY,Agra,format_002,agra_mededu_1971.pdf,2026-08-20T15:47:34.149619

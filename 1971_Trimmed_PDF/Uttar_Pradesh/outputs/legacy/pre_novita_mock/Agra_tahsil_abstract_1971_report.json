@@ -1,0 +1,158 @@
+{
+  "table_name": "agra_tehsil_1971",
+  "district": "Agra",
+  "format_id": "format_003",
+  "total_rows": 25,
+  "valid_rows_count": 25,
+  "confidence_score": 0.37,
+  "is_valid": true,
+  "issues": [
+    {
+      "row_index": -1,
+      "rule": "row_count_parity",
+      "severity": "WARNING",
+      "message": "Row count mismatch: anchor page has 25 rows, continuation page has 21 rows",
+      "variable": null
+    },
+    {
+      "row_index": 5,
+      "rule": "duplicate_town",
+      "severity": "WARNING",
+      "message": "Duplicate town name 'Agra (M.C.)' (previously at row 0)",
+      "variable": "tahsil_name"
+    },
+    {
+      "row_index": 6,
+      "rule": "duplicate_town",
+      "severity": "WARNING",
+      "message": "Duplicate town name 'Dayalbagh (T.A.)' (previously at row 1)",
+      "variable": "tahsil_name"
+    },
+    {
+      "row_index": 7,
+      "rule": "duplicate_town",
+      "severity": "WARNING",
+      "message": "Duplicate town name 'Fatehpur Sikri (M.B.)' (previously at row 2)",
+      "variable": "tahsil_name"
+    },
+    {
+      "row_index": 8,
+      "rule": "duplicate_town",
+      "severity": "WARNING",
+      "message": "Duplicate town name 'Kheragarh (T.A.)' (previously at row 3)",
+      "variable": "tahsil_name"
+    },
+    {
+      "row_index": 9,
+      "rule": "duplicate_town",
+      "severity": "WARNING",
+      "message": "Duplicate town name 'Bah (T.A.)' (previously at row 4)",
+      "variable": "tahsil_name"
+    },
+    {
+      "row_index": 10,
+      "rule": "duplicate_town",
+      "severity": "WARNING",
+      "message": "Duplicate town name 'Agra (M.C.)' (previously at row 0)",
+      "variable": "tahsil_name"
+    },
+    {
+      "row_index": 11,
+      "rule": "duplicate_town",
+      "severity": "WARNING",
+      "message": "Duplicate town name 'Dayalbagh (T.A.)' (previously at row 1)",
+      "variable": "tahsil_name"
+    },
+    {
+      "row_index": 12,
+      "rule": "duplicate_town",
+      "severity": "WARNING",
+      "message": "Duplicate town name 'Fatehpur Sikri (M.B.)' (previously at row 2)",
+      "variable": "tahsil_name"
+    },
+    {
+      "row_index": 13,
+      "rule": "duplicate_town",
+      "severity": "WARNING",
+      "message": "Duplicate town name 'Kheragarh (T.A.)' (previously at row 3)",
+      "variable": "tahsil_name"
+    },
+    {
+      "row_index": 14,
+      "rule": "duplicate_town",
+      "severity": "WARNING",
+      "message": "Duplicate town name 'Bah (T.A.)' (previously at row 4)",
+      "variable": "tahsil_name"
+    },
+    {
+      "row_index": 15,
+      "rule": "duplicate_town",
+      "severity": "WARNING",
+      "message": "Duplicate town name 'Agra (M.C.)' (previously at row 0)",
+      "variable": "tahsil_name"
+    },
+    {
+      "row_index": 16,
+      "rule": "duplicate_town",
+      "severity": "WARNING",
+      "message": "Duplicate town name 'Dayalbagh (T.A.)' (previously at row 1)",
+      "variable": "tahsil_name"
+    },
+    {
+      "row_index": 17,
+      "rule": "duplicate_town",
+      "severity": "WARNING",
+      "message": "Duplicate town name 'Fatehpur Sikri (M.B.)' (previously at row 2)",
+      "variable": "tahsil_name"
+    },
+    {
+      "row_index": 18,
+      "rule": "duplicate_town",
+      "severity": "WARNING",
+      "message": "Duplicate town name 'Kheragarh (T.A.)' (previously at row 3)",
+      "variable": "tahsil_name"
+    },
+    {
+      "row_index": 19,
+      "rule": "duplicate_town",
+      "severity": "WARNING",
+      "message": "Duplicate town name 'Bah (T.A.)' (previously at row 4)",
+      "variable": "tahsil_name"
+    },
+    {
+      "row_index": 20,
+      "rule": "duplicate_town",
+      "severity": "WARNING",
+      "message": "Duplicate town name 'Agra (M.C.)' (previously at row 0)",
+      "variable": "tahsil_name"
+    },
+    {
+      "row_index": 21,
+      "rule": "duplicate_town",
+      "severity": "WARNING",
+      "message": "Duplicate town name 'Dayalbagh (T.A.)' (previously at row 1)",
+      "variable": "tahsil_name"
+    },
+    {
+      "row_index": 22,
+      "rule": "duplicate_town",
+      "severity": "WARNING",
+      "message": "Duplicate town name 'Fatehpur Sikri (M.B.)' (previously at row 2)",
+      "variable": "tahsil_name"
+    },
+    {
+      "row_index": 23,
+      "rule": "duplicate_town",
+      "severity": "WARNING",
+      "message": "Duplicate town name 'Kheragarh (T.A.)' (previously at row 3)",
+      "variable": "tahsil_name"
+    },
+    {
+      "row_index": 24,
+      "rule": "duplicate_town",
+      "severity": "WARNING",
+      "message": "Duplicate town name 'Bah (T.A.)' (previously at row 4)",
+      "variable": "tahsil_name"
+    }
+  ]
+}

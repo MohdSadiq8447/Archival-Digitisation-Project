@@ -1,57 +1,122 @@
 format_id: format_002
 name: medical_education_1971
+table_description: "Town Statement V / Directory V: Medical, Educational, Recreational and Cultural Facilities in Towns (1969-1971). Contains data on medical institutions (hospitals, dispensaries, TB clinics, health centres), hospital beds, degree colleges (arts/science/commerce), medical/engineering colleges, polytechnics, vocational institutes, secondary/primary schools, stadia, cinemas, auditoria/drama halls, and public libraries per town."
+
+panels:
+  - panel_id: mededu_anchor
+    page: 1
+    printed_columns: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+    identity_columns: [1, 2]
+    headings: ["statement v", "medical", "educational"]
+    row_anchor: true
+  - panel_id: mededu_continuation
+    page: 2
+    printed_columns: [10, 11, 12, 13, 14, 15, 16, 17]
+    headings: ["statement v", "directory v", "medical", "educational"]
+    align_to: mededu_anchor
 
 anchor_page:
   - column_no: 1
     column_name: Sl. No.
     variable: sl_no
+    data_type: integer_or_roman
+    description: "Serial number of the town or roman numeral component (e.g. (i), (ii))"
+    value_examples: ["1", "2", "3", "(i)", "(ii)"]
   - column_no: 2
     column_name: Name of Town
     variable: town_name
+    data_type: string
+    description: "Name of the town, civic status (M.C., M.B., T.A., C.B.), or Urban Agglomeration cross-reference"
+    value_examples: ["Agra (M.C.)", "Dayalbagh (T.A.)", "Fatehpur Sikri (M.B.)", "See Sl. No. 1 Agra (U.A.)"]
   - column_no: 3
     column_name: Hospitals/Dispensaries/T.B. Clinics/Health Centres/Nursing Homes
     variable: hospitals_dispensaries
+    data_type: integer_or_string
+    description: "Number and type of medical institutions"
+    value_examples: ["H(2), D(1)", "H(1)", "D(2)", "HC(1)", "2", "Nil", "-"]
   - column_no: 4
     column_name: Beds in Medical Institutions
     variable: med_beds
+    data_type: integer
+    description: "Total number of beds available in medical institutions"
+    value_examples: ["1200", "450", "25", "0", "Nil", "-"]
   - column_no: 5
     column_name: Arts/Science/Commerce Colleges
     variable: degree_colleges
+    data_type: integer_or_string
+    description: "Number of degree colleges (Arts/Science/Commerce) or code with university name"
+    value_examples: ["A,S,C(4)", "A,S(2)", "A(1)", "1", "0", "Nil", "-"]
   - column_no: 6
     column_name: Medical Colleges
     variable: medical_colleges
+    data_type: integer
+    description: "Number of medical colleges"
+    value_examples: ["1", "0", "Nil", "-"]
   - column_no: 7
     column_name: Engineering Colleges
     variable: engg_colleges
+    data_type: integer
+    description: "Number of engineering colleges"
+    value_examples: ["1", "0", "Nil", "-"]
   - column_no: 8
     column_name: Polytechnics
     variable: polytechnics
+    data_type: integer
+    description: "Number of recognized polytechnic institutes"
+    value_examples: ["1", "2", "0", "Nil", "-"]
   - column_no: 9
     column_name: Shorthand/Typewriting/Vocational Training Institutes
     variable: vocational_institutes
+    data_type: integer_or_string
+    description: "Number of shorthand, typewriting, or vocational training institutions"
+    value_examples: ["SH,TYPE(5)", "TYPE(2)", "3", "0", "Nil", "-"]
 
 continuation_page:
   - column_no: 10
     column_name: Higher Secondary or Secondary Schools
     variable: higher_secondary_schools
+    data_type: integer
+    description: "Number of Higher Secondary, Intermediate, or Secondary schools"
+    value_examples: ["15", "4", "1", "0", "Nil", "-"]
   - column_no: 11
     column_name: Junior Secondary/Middle Schools
     variable: middle_schools
+    data_type: integer
+    description: "Number of Junior Secondary or Middle schools (Senior Basic)"
+    value_examples: ["25", "8", "2", "0", "Nil", "-"]
   - column_no: 12
     column_name: Primary Schools
     variable: primary_schools
+    data_type: integer
+    description: "Number of Primary schools (Junior Basic)"
+    value_examples: ["65", "18", "4", "0", "Nil", "-"]
   - column_no: 13
     column_name: Other Educational Institutions
     variable: other_edu_institutions
+    data_type: integer
+    description: "Number of other educational institutions (Sanskrit pathshalas, madrasas, etc.)"
+    value_examples: ["5", "2", "0", "Nil", "-"]
   - column_no: 14
     column_name: Stadia
     variable: stadia
+    data_type: integer
+    description: "Number of sports stadia"
+    value_examples: ["1", "0", "Nil", "-"]
   - column_no: 15
     column_name: Cinemas
     variable: cinemas
+    data_type: integer
+    description: "Number of cinema theatres"
+    value_examples: ["12", "3", "1", "0", "Nil", "-"]
   - column_no: 16
     column_name: Auditoria/Drama Halls
     variable: auditoria
+    data_type: integer
+    description: "Number of public auditoria or drama halls"
+    value_examples: ["2", "1", "0", "Nil", "-"]
   - column_no: 17
     column_name: Public Libraries and Reading Rooms
     variable: libraries
+    data_type: integer_or_string
+    description: "Number of public libraries and reading rooms"
+    value_examples: ["L(4), RR(8)", "5", "2", "0", "Nil", "-"]

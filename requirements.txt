@@ -1,0 +1,2 @@
+# Compatibility install; packaging and tooling are defined in pyproject.toml.
+-e .

@@ -1,54 +1,116 @@
 format_id: format_001
 name: civic_amenities_1971
+table_description: "Town Statement IV / Directory IV: Civic and Other Amenities (1969-1971). Contains data on road lengths (Pucca/Kutcha), drainage/sewerage systems, latrines count, night-soil disposal, protected water supply sources & storage capacity, fire-fighting service availability, and electrical connections per town."
+
+panels:
+  - panel_id: civic_anchor
+    page: 1
+    printed_columns: [1, 2, 3, 4, 5, 6, 7, 8]
+    identity_columns: [1, 2]
+    headings: ["statement iv", "civic and other amenities"]
+    row_anchor: true
+  - panel_id: civic_continuation
+    page: 2
+    printed_columns: [9, 10, 11, 12, 13, 14, 15, 16]
+    headings: ["statement iv", "directory iv", "civic and other amenities"]
+    align_to: civic_anchor
 
 anchor_page:
   - column_no: 1
     column_name: Sl. No.
     variable: sl_no
+    data_type: integer_or_roman
+    description: "Serial number of the town or roman numeral component (e.g. (i), (ii))"
+    value_examples: ["1", "2", "3", "(i)", "(ii)"]
   - column_no: 2
     column_name: Name of Town
     variable: town_name
+    data_type: string
+    description: "Name of the town, civic status (M.C., M.B., T.A., C.B.), or Urban Agglomeration cross-reference"
+    value_examples: ["Agra (M.C.)", "Dayalbagh (T.A.)", "Fatehpur Sikri (M.B.)", "See Sl. No. 1 Agra (U.A.)"]
   - column_no: 3
     column_name: Road Length (km)
     variable: road_length_km
+    data_type: float_or_code
+    description: "Road length in km, often formatted with PR (Pucca Road) and KR (Kutcha Road) prefixes"
+    value_examples: ["PR 12.50 KR 3.20", "15.00", "PR 8.00", "Nil", "-"]
   - column_no: 4
     column_name: System of Sewerage/Drainage
     variable: sewerage_drainage_system
+    data_type: categorical_string
+    description: "System of drainage/sewerage codes"
+    value_examples: ["O.D. (Open Drainage)", "C.D. (Covered Drainage)", "S. (Sewerage)", "O.D. & C.D.", "Nil", "-"]
   - column_no: 5
     column_name: Water-Borne Latrines
     variable: water_borne_latrines
+    data_type: integer
+    description: "Number of water-borne / flush latrines"
+    value_examples: ["150", "0", "Nil", "-"]
   - column_no: 6
     column_name: Service Latrines
     variable: service_latrines
+    data_type: integer
+    description: "Number of service / dry / conservancy latrines"
+    value_examples: ["45", "0", "Nil", "-"]
   - column_no: 7
     column_name: Other Latrines
     variable: other_latrines
+    data_type: integer
+    description: "Number of other latrines"
+    value_examples: ["10", "0", "Nil", "-"]
   - column_no: 8
     column_name: Method of Disposal of Night-Soil
     variable: night_soil_disposal_method
+    data_type: categorical_string
+    description: "Method of night-soil disposal"
+    value_examples: ["Head loads", "Wheel barrows", "Tractor", "Hand carts", "Truck", "Cart", "Nil", "-"]
 
 continuation_page:
   - column_no: 9
     column_name: Protected Water Supply - Source
     variable: water_source
+    data_type: categorical_string
+    description: "Source of protected drinking water supply"
+    value_examples: ["Tube-well", "Tap", "Well", "River", "Tank", "O.H.T. (Overhead Tank)", "T.W.", "Nil", "-"]
   - column_no: 10
     column_name: Protected Water Supply - Capacity
     variable: water_capacity
+    data_type: float_or_string
+    description: "Storage capacity of water in gallons or litres"
+    value_examples: ["50000", "1.25 lakh", "25000 gallons", "Nil", "-"]
   - column_no: 11
     column_name: Fire Fighting Service
     variable: fire_service
+    data_type: categorical_string
+    description: "Availability of fire-fighting service or nearest station"
+    value_examples: ["Yes", "No", "Available at Agra", "Available at District HQ", "Nil"]
   - column_no: 12
     column_name: Electrification - Domestic
     variable: elec_domestic
+    data_type: integer
+    description: "Number of domestic electrical connections"
+    value_examples: ["1200", "450", "0", "Nil", "-"]
   - column_no: 13
     column_name: Electrification - Industrial
     variable: elec_industrial
+    data_type: integer
+    description: "Number of industrial electrical connections"
+    value_examples: ["450", "80", "0", "Nil", "-"]
   - column_no: 14
     column_name: Electrification - Commercial
     variable: elec_commercial
+    data_type: integer
+    description: "Number of commercial electrical connections"
+    value_examples: ["300", "50", "0", "Nil", "-"]
   - column_no: 15
     column_name: Electrification - Road Lighting
     variable: elec_road_light
+    data_type: integer
+    description: "Number of road lighting points"
+    value_examples: ["150", "35", "0", "Nil", "-"]
   - column_no: 16
     column_name: Electrification - Others
     variable: elec_other
+    data_type: integer
+    description: "Number of other electrical connections"
+    value_examples: ["50", "10", "0", "Nil", "-"]
