@@ -36,6 +36,16 @@ def test_novita_markup_parser_and_explicit_coordinate_system():
     assert result.response_hash
 
 
+def test_novita_ocr2_shorthand_parser():
+    payload = response_payload(
+        "2[[80, 0, 100, 99]] Agra[[120, 0, 163, 111]] Urban Agglomeration[[660, 0, 860, 111]]"
+    )
+    result = NovitaDeepSeekOCRClient.parse_response(payload, 0, 1)
+    assert result.has_usable_boxes
+    assert [token.text for token in result.tokens] == ["2", "Agra", "Urban Agglomeration"]
+    assert result.tokens[2].bbox == [660.0, 0.0, 860.0, 111.0]
+
+
 def test_parser_rejects_unusable_boxes():
     result = NovitaDeepSeekOCRClient.parse_response(
         response_payload("<|ref|>bad<|/ref|><|det|>[[900,0,1100,50]]<|/det|>"), 0, 1
@@ -120,9 +130,53 @@ def test_payload_is_single_turn_single_image(tmp_path):
     )
     assert payload["model"] == "deepseek/deepseek-ocr-2"
     assert len(payload["messages"]) == 1
-    assert sum(item["type"] == "image_url" for item in payload["messages"][0]["content"]) == 1
+    content = payload["messages"][0]["content"]
+    assert [item["type"] for item in content] == ["image_url", "text"]
     assert payload["temperature"] == payload["top_k"] == 0
     assert payload["max_tokens"] == 2048
+
+
+def test_schema_context_uses_system_message_and_exact_user_preset(project_config, tmp_path):
+    config = project_config.with_overrides(output_dir=tmp_path)
+    client = NovitaDeepSeekOCRClient(config)
+    schema = SchemaRegistry(project_config.schemas_dir).require("format_001")
+    prompt = build_row_grounding_prompt(schema, schema.row_anchor_panel)
+    payload = client._payload(client.image_to_png(Image.new("RGB", (5, 5), "white")), prompt)
+
+    assert [message["role"] for message in payload["messages"]] == ["system", "user"]
+    assert "Civic and Other Amenities" in payload["messages"][0]["content"]
+    user_content = payload["messages"][1]["content"]
+    assert [item["type"] for item in user_content] == ["image_url", "text"]
+    assert user_content[1]["text"] == GROUNDING_PROMPT
+
+
+def test_empty_success_response_is_not_cached(tmp_path):
+    calls = 0
+
+    def handler(request: httpx.Request) -> httpx.Response:
+        nonlocal calls
+        calls += 1
+        return httpx.Response(200, json=response_payload(""), request=request)
+
+    config = PipelineConfig(
+        output_dir=tmp_path,
+        cache_path=tmp_path / "cache",
+        novita_api_key="test-key-valid",
+    )
+
+    async def run():
+        async with httpx.AsyncClient(transport=httpx.MockTransport(handler)) as http:
+            client = NovitaDeepSeekOCRClient(config, http)
+            image = Image.new("RGB", (20, 20), "white")
+            context = OCRRequestContext("c" * 64, (0, 0, 20, 20), 0, 1, "panel")
+            first = await client.ocr_crop_async(image, context)
+            second = await client.ocr_crop_async(image, context)
+            return first, second
+
+    first, second = asyncio.run(run())
+    assert first.error == second.error == "Novita returned empty OCR content"
+    assert not first.cache_hit and not second.cache_hit
+    assert calls == 2
 
 
 def test_schema_prompts_explain_table_columns_without_authorizing_inference(

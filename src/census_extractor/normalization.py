@@ -17,6 +17,7 @@ class NormalizedCell:
     raw_value: str
     value: Any
     parse_error: str | None = None
+    review_flag: str | None = None
 
 
 @dataclass(slots=True)
@@ -34,7 +35,14 @@ def normalize_null(raw: str) -> str | None:
 
 
 def _clean_number(value: str) -> str:
-    return value.replace(",", "").replace("O", "0").replace("o", "0").strip()
+    return (
+        value.replace(",", "")
+        .replace("O", "0")
+        .replace("o", "0")
+        .replace(" ", "")
+        .strip()
+        .rstrip(")]}")
+    )
 
 
 def type_value(raw: str, column: ColumnDefinition) -> tuple[Any, str | None]:
@@ -61,12 +69,35 @@ def type_value(raw: str, column: ColumnDefinition) -> tuple[Any, str | None]:
         return None, f"{column.variable}: {exc} for {value!r}"
 
 
+def review_flag(raw: str, column: ColumnDefinition, parse_error: str | None) -> str | None:
+    """Flag uncertain normalization while leaving the exact OCR text untouched."""
+    if parse_error:
+        return "AMBIGUOUS_OCR"
+    if column.variable == "night_soil_disposal_method":
+        value = normalize_null(raw)
+        if value is None:
+            return None
+        codes = r"(?:HC|HL|MT|WB|B|C|T)"
+        if not re.fullmatch(rf"{codes}(?:/{codes})*", value, re.IGNORECASE):
+            return "AMBIGUOUS_HISTORIC_CODE"
+    if column.data_type.casefold() not in {"integer", "float"} or normalize_null(raw) is None:
+        return None
+    flags: list[str] = []
+    if re.search(r"\d\s+\d", raw):
+        flags.append("SPACED_DIGITS")
+    if re.search(r"[Oo]", raw):
+        flags.append("LETTER_O_AS_ZERO")
+    if re.search(r"[)\]}]\s*$", raw):
+        flags.append("TRAILING_MARK_REMOVED")
+    return "|".join(flags) or None
+
+
 def classify_row(identity: str, serial: Any) -> tuple[str, str | None]:
     name, serial_text = identity.strip(), str(serial or "").strip()
     lowered = name.casefold()
-    if re.search(r"\bsee\b", lowered):
-        target_match = re.search(r"\bsee\b\s*(.*)", name, re.IGNORECASE)
-        return "CROSS_REFERENCE", target_match.group(1).strip() if target_match else name
+    target_match = re.search(r"\bse[ec]\b\s*(.*)", name, re.IGNORECASE)
+    if target_match:
+        return "CROSS_REFERENCE", target_match.group(1).strip() or name
     if "district total" in lowered or lowered == "total" or lowered.endswith(" total"):
         return "TOTAL", None
     if re.match(r"^\(?[ivxlcdm]+\)?[.)]?\s", name, re.IGNORECASE) or re.fullmatch(
@@ -103,7 +134,15 @@ def normalize_rows(raw_rows: list[dict[str, str]], schema: TableSchema) -> list[
             raw_value = str(raw_row.get(column.variable, "") or "")
             value, error = type_value(raw_value, column)
             values[column.variable] = value
-            cells.append(NormalizedCell(column.variable, raw_value, value, error))
+            cells.append(
+                NormalizedCell(
+                    column.variable,
+                    raw_value,
+                    value,
+                    error,
+                    review_flag(raw_value, column, error),
+                )
+            )
             if error:
                 errors.append(error)
         row_type, reference_target = classify_row(

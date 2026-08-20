@@ -46,7 +46,7 @@ class PipelineConfig:
     retry_base_delay_sec: float = 1.0
     max_tokens: int = 2048
     quality_threshold: float = 0.95
-    prompt_version: str = "novita-deepseek-ocr2-schema-context-v2"
+    prompt_version: str = "novita-deepseek-ocr2-schema-system-context-v4"
     data_dir: Path = field(init=False)
     metadata_path: Path = field(init=False)
     schemas_dir: Path = field(init=False)

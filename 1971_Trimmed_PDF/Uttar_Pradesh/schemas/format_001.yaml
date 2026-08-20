@@ -62,8 +62,8 @@ anchor_page:
     column_name: Method of Disposal of Night-Soil
     variable: night_soil_disposal_method
     data_type: categorical_string
-    description: "Method of night-soil disposal"
-    value_examples: ["Head loads", "Wheel barrows", "Tractor", "Hand carts", "Truck", "Cart", "Nil", "-"]
+    description: "Method of night-soil disposal, usually printed as a complete slash-separated sequence of historic codes"
+    value_examples: ["HC", "HL", "MT", "B", "HC/MT/B", "MT/HL/B/HC", "MT/HC/B", "B/MT", "B/HC", "B/HL", "MT/HC", "Nil", "-"]
 
 continuation_page:
   - column_no: 9

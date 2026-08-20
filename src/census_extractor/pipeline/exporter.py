@@ -62,6 +62,15 @@ class TableExporter:
         records: list[dict[str, Any]] = []
         for index, row in enumerate(rows):
             record = dict(row.values)
+            identity_variables = {"sl_no", "town_name", "tahsil_name"}
+            for cell in row.cells:
+                record[cell.variable] = (
+                    ""
+                    if row.row_type == "CROSS_REFERENCE" and cell.variable not in identity_variables
+                    else cell.raw_value
+                )
+                record[f"{cell.variable}_flag"] = cell.review_flag
+            record["requires_review"] = any(cell.review_flag for cell in row.cells)
             record.update(
                 {
                     "row_index": index,
@@ -84,8 +93,21 @@ class TableExporter:
             )
             records.append(record)
 
-        ordered_schema = schema.get_all_variables()
-        derived = ["pucca_road_km", "kutcha_road_km", "row_type", "reference_target"]
+        ordered_schema = [
+            field
+            for variable in schema.get_all_variables()
+            for field in (
+                variable,
+                f"{variable}_flag",
+            )
+        ]
+        derived = [
+            "pucca_road_km",
+            "kutcha_road_km",
+            "row_type",
+            "reference_target",
+            "requires_review",
+        ]
         provenance = [
             "row_index",
             "pdf_id",
@@ -143,12 +165,13 @@ class TableExporter:
             if column.variable not in frame:
                 continue
             values = cast(pd.Series, frame[column.variable]).tolist()
-            if column.data_type == "integer":
-                frame[column.variable] = pd.array(values, dtype="Int64")
-            elif column.data_type == "float":
-                frame[column.variable] = pd.array(values, dtype="Float64")
-            else:
-                frame[column.variable] = pd.array(values, dtype="string")
+            flag_variable = f"{column.variable}_flag"
+            flag_values = (
+                cast(pd.Series, frame[flag_variable]).tolist() if flag_variable in frame else []
+            )
+            frame[column.variable] = pd.array(values, dtype="string")
+            if flag_variable in frame:
+                frame[flag_variable] = pd.array(flag_values, dtype="string")
         for variable in ("pucca_road_km", "kutcha_road_km"):
             if variable in frame:
                 values = cast(pd.Series, frame[variable]).tolist()
@@ -164,6 +187,9 @@ class TableExporter:
             if variable in frame:
                 values = cast(pd.Series, frame[variable]).tolist()
                 frame[variable] = pd.array(values, dtype="Int64")
+        if "requires_review" in frame:
+            values = cast(pd.Series, frame["requires_review"]).tolist()
+            frame["requires_review"] = pd.array(values, dtype="boolean")
 
     def write_audit(self, pdf_id: str, records: Iterable[dict[str, Any]]) -> Path:
         path = self.layout.audit / f"{pdf_id}.jsonl"

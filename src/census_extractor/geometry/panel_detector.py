@@ -234,11 +234,6 @@ class PanelDetector:
         gaps = [right - left for left, right in zip(resolved, resolved[1:], strict=False)]
         left_edge = max(0, int(resolved[0] - (gaps[0] if gaps else 30) / 2))
         right_edge = min(page.width, int(resolved[-1] + (gaps[-1] if gaps else 30) / 2))
-        boundaries = [left_edge]
-        boundaries.extend(
-            int((left + right) / 2) for left, right in zip(resolved, resolved[1:], strict=False)
-        )
-        boundaries.append(right_edge)
 
         header_top = min(token.bbox[1] for token in candidate.tokens)
         header_bottom = max(token.bbox[3] for token in candidate.tokens)
@@ -256,6 +251,15 @@ class PanelDetector:
             body_bottom = min(body_bottom, next_title - max(4, page.dpi // 30))
         if body_bottom <= body_top:
             raise PanelDiscoveryError(f"Empty body for panel {panel.panel_id}")
+
+        right_edge = self._expand_last_column_edge(
+            page, resolved, body_top, body_bottom, right_edge
+        )
+        boundaries = [left_edge]
+        boundaries.extend(
+            int((left + right) / 2) for left, right in zip(resolved, resolved[1:], strict=False)
+        )
+        boundaries.append(right_edge)
 
         columns: list[ColumnSpan] = []
         table_width = max(1, right_edge - left_edge)
@@ -287,6 +291,30 @@ class PanelDetector:
             matched_numbers=sorted(tokens_by_value),
             sequence_score=candidate.score,
         )
+
+    @staticmethod
+    def _expand_last_column_edge(
+        page: RenderedPage,
+        centers: list[float],
+        body_top: int,
+        body_bottom: int,
+        current_edge: int,
+    ) -> int:
+        """Keep wide final-column values inside row crops."""
+        if len(centers) < 2:
+            return current_edge
+        last_gap = centers[-1] - centers[-2]
+        last_column_start = (centers[-2] + centers[-1]) / 2
+        content_right = [
+            int(word["bbox"][2])
+            for word in page.pdf_words
+            if word["bbox"][1] < body_bottom
+            and word["bbox"][3] > body_top
+            and word["bbox"][0] >= last_column_start
+        ]
+        safety_edge = int(centers[-1] + last_gap * 0.65)
+        content_edge = max(content_right, default=current_edge) + max(4, page.dpi // 50)
+        return min(page.width, max(current_edge, safety_edge, content_edge))
 
     @staticmethod
     def _align_tokens(expected: list[int], tokens: list[NumberToken]) -> dict[int, NumberToken]:

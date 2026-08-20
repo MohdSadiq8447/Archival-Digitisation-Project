@@ -31,6 +31,22 @@ def test_agra_civic_has_exactly_21_data_rows(project_config):
     assert all(row.bbox[1] > anchor.header_bbox[3] for row in rows)
 
 
+def test_agra_civic_last_column_crop_contains_complete_night_soil_value(project_config):
+    pages = PDFLoader(300, False).render_pdf(project_config.pdfs_dir / "agra_civic_1971.pdf")
+    schema = SchemaRegistry(project_config.schemas_dir).require("format_001")
+    anchor = next(
+        panel for panel in PanelDetector().discover(pages, schema) if panel.definition.row_anchor
+    )
+    last_column = anchor.columns[-1]
+    source_value = next(word for word in pages[0].pdf_words if word["text"] == "HC/MT/B")
+    rows = RowSegmenter().segment_rows(pages[0], boundary(anchor))
+
+    assert last_column.variable == "night_soil_disposal_method"
+    assert last_column.x_start <= source_value["bbox"][0]
+    assert source_value["bbox"][2] < last_column.x_end
+    assert source_value["bbox"][2] < rows[0].bbox[2]
+
+
 def test_agra_tahsil_has_four_panels_and_eight_aligned_rows(project_config, tmp_path):
     config = project_config.with_overrides(output_dir=tmp_path)
     runner = PipelineRunner(config, run_id="geometry")

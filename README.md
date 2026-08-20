@@ -76,7 +76,7 @@ outputs/runs/<run_id>/
 
 Statuses are `SUCCESS`, `QUARANTINED`, `ERROR`, and `DRY_RUN`. A clean table requires every panel and row alignment, no error finding, and a weighted geometry/OCR/parsing/semantic score of at least 0.95. Batch exit code `2` means review is required; exit code `1` means an operational error occurred.
 
-Clean values are typed and nullable. `Nil`, ellipses, dashes, and blanks become null; exact transcription remains in audit JSONL. Cross-reference targets are retained while their data cells are cleared. Civic output adds parsed `pucca_road_km` and `kutcha_road_km`. CSV, Parquet, and JSONL are written from the same typed records with timezone-aware UTC timestamps and workbook provenance.
+Every exported schema field contains the exact OCR transcription for every row; normalization is used for validation but never replaces that source text. Each field has one adjacent `<variable>_flag`, and `requires_review` identifies rows containing ambiguous OCR. For example, `elec_domestic=2-0` is retained exactly with `elec_domestic_flag=AMBIGUOUS_OCR`. Ambiguous tables are quarantined. Cross-reference targets are retained while their data cells are intentionally empty so reference text cannot masquerade as measurements. Exact responses and bounding boxes also remain in audit JSONL. Civic output adds parsed `pucca_road_km` and `kutcha_road_km`. CSV, Parquet, and JSONL are written from the same raw-transcription records with timezone-aware UTC timestamps and workbook provenance.
 
 The prototype's synthetic Agra artifacts are preserved under `outputs/legacy/pre_novita_mock/` and carry a warning marker. They must not be used as extracted census data.
 

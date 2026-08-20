@@ -393,13 +393,22 @@ class PipelineRunner:
             {column.variable: "" for column in schema.get_all_columns()}
             for _ in range(anchor_count)
         ]
-        tasks: list[tuple[PanelGeometry, RowCrop, asyncio.Task[OCRResult]]] = []
+        tasks: list[
+            tuple[
+                PanelGeometry,
+                RowCrop,
+                tuple[int, int, int, int],
+                asyncio.Task[OCRResult],
+            ]
+        ] = []
         for panel in panels:
             prompt = build_row_grounding_prompt(schema, panel.definition)
             for row in panel_rows[panel.definition.panel_id]:
+                ocr_bbox = self._row_ocr_bbox(panel, row)
+                page = pages[panel.page_number - 1]
                 context = OCRRequestContext(
                     pdf_sha256,
-                    row.bbox,
+                    ocr_bbox,
                     row.row_index,
                     panel.page_number,
                     panel.definition.panel_id,
@@ -409,13 +418,14 @@ class PipelineRunner:
                     (
                         panel,
                         row,
+                        ocr_bbox,
                         asyncio.create_task(
-                            self.ocr_client.ocr_crop_async(row.image_crop, context)
+                            self.ocr_client.ocr_crop_async(page.image.crop(ocr_bbox), context)
                         ),
                     )
                 )
         results: list[OCRResult] = []
-        for panel, row, task in tasks:
+        for panel, row, ocr_bbox, task in tasks:
             result = await task
             results.append(result)
             audit.append(
@@ -426,10 +436,14 @@ class PipelineRunner:
                 }
             )
             assigned = (
-                self.column_assigner.assign_tokens_to_columns(result, panel.columns, row.bbox)
+                self.column_assigner.assign_tokens_to_columns(result, panel.columns, ocr_bbox)
                 if result.has_usable_boxes
                 else {}
             )
+            if panel.definition.row_anchor:
+                assigned = self._apply_anchor_identity(schema, panel, ocr_bbox, result, assigned)
+            elif self._is_cross_reference(raw_rows[row.row_index], schema):
+                continue
             if not result.has_usable_boxes:
                 assigned.update(
                     await self._fallback_entire_row(
@@ -441,6 +455,17 @@ class PipelineRunner:
                         audit,
                     )
                 )
+            if panel.definition.row_anchor and not self._is_cross_reference(assigned, schema):
+                await self._refine_night_soil_column(
+                    pages[panel.page_number - 1],
+                    schema,
+                    panel,
+                    row,
+                    result,
+                    assigned,
+                    pdf_sha256,
+                    audit,
+                )
             for variable, value in assigned.items():
                 if not panel.definition.row_anchor and variable in {
                     "sl_no",
@@ -450,6 +475,115 @@ class PipelineRunner:
                     continue
                 raw_rows[row.row_index][variable] = value
         return raw_rows, results
+
+    def _row_ocr_bbox(self, panel: PanelGeometry, row: RowCrop) -> tuple[int, int, int, int]:
+        """Keep whole-row OCR compact while physical edge columns remain complete."""
+        if len(panel.columns) < 2:
+            return row.bbox
+        previous = panel.columns[-2]
+        last = panel.columns[-1]
+        standard_width = previous.x_end - previous.x_start
+        standard_right = last.x_start + standard_width + self.config.crop_padding_px
+        return (row.bbox[0], row.bbox[1], min(row.bbox[2], standard_right), row.bbox[3])
+
+    async def _refine_night_soil_column(
+        self,
+        page: RenderedPage,
+        schema: TableSchema,
+        panel: PanelGeometry,
+        row: RowCrop,
+        row_result: OCRResult,
+        assigned: dict[str, str],
+        pdf_sha256: str,
+        audit: list[dict[str, Any]],
+    ) -> None:
+        column = schema.get_column_by_var("night_soil_disposal_method")
+        if column is None:
+            return
+        span = next((item for item in panel.columns if item.column_no == column.column_no), None)
+        if span is None:
+            return
+        current = assigned.get(column.variable, "").strip()
+        touches_edge = any(
+            token.bbox is not None and token.bbox[2] >= 980 for token in row_result.tokens
+        )
+        if self._valid_night_soil_code(current) and not touches_edge:
+            return
+
+        bbox = (
+            max(0, span.x_start - self.config.crop_padding_px),
+            max(0, row.bbox[1] - self.config.crop_padding_px),
+            min(page.width, span.x_end + self.config.crop_padding_px),
+            min(page.height, row.bbox[3] + self.config.crop_padding_px),
+        )
+        embedded = self._embedded_cell_text(page, bbox)
+        selected, selected_source = current, "row_grounding"
+        if embedded and self._valid_night_soil_code(embedded):
+            selected, selected_source = embedded, "embedded_text"
+        else:
+            context = OCRRequestContext(
+                pdf_sha256,
+                bbox,
+                row.row_index,
+                panel.page_number,
+                f"{panel.definition.panel_id}:{column.variable}:edge_refinement",
+                build_cell_free_ocr_prompt(schema, panel.definition, column),
+            )
+            result = await self.ocr_client.ocr_cell_async(page.image.crop(bbox), context)
+            cell_text = self._cell_text(result)
+            audit.append(
+                {
+                    "record_type": "edge_cell_refinement",
+                    "variable": column.variable,
+                    "row_candidate": current,
+                    "embedded_candidate": embedded,
+                    **self.ocr_client.audit_record(result),
+                }
+            )
+            if cell_text and self._valid_night_soil_code(cell_text):
+                selected, selected_source = cell_text, "cell_free_ocr"
+            elif (
+                cell_text
+                and not self._valid_night_soil_code(current)
+                and len(cell_text) > len(selected)
+            ):
+                selected, selected_source = cell_text, "cell_free_ocr"
+        assigned[column.variable] = selected
+        audit.append(
+            {
+                "record_type": "edge_value_selection",
+                "row_index": row.row_index,
+                "variable": column.variable,
+                "selected_value": selected,
+                "selected_source": selected_source,
+                "row_candidate": current,
+                "embedded_candidate": embedded,
+            }
+        )
+
+    @staticmethod
+    def _embedded_cell_text(page: RenderedPage, bbox: tuple[int, int, int, int]) -> str:
+        x0, y0, x1, y1 = bbox
+        words = [
+            word
+            for word in page.pdf_words
+            if word["bbox"][0] >= x0
+            and word["bbox"][2] <= x1
+            and word["bbox"][1] < y1
+            and word["bbox"][3] > y0
+        ]
+        return " ".join(
+            str(word["text"])
+            for word in sorted(words, key=lambda item: (item["bbox"][1], item["bbox"][0]))
+        ).strip()
+
+    @staticmethod
+    def _valid_night_soil_code(value: str) -> bool:
+        text = " ".join(value.split()).strip()
+        if not text or re.fullmatch(r"(?:nil|[-–—.·…]+)", text, re.IGNORECASE):
+            return True
+        codes = r"(?:HC|HL|MT|WB|B|C|T)"
+        return bool(re.fullmatch(rf"{codes}(?:/{codes})*", text, re.IGNORECASE))
 
     async def _fallback_entire_row(
         self,
@@ -481,6 +615,7 @@ class PipelineRunner:
                 build_cell_free_ocr_prompt(schema, panel.definition, column),
             )
             result = await self.ocr_client.ocr_cell_async(image, context)
+            text = self._cell_text(result)
             audit.append(
                 {
                     "record_type": "cell_fallback",
@@ -488,7 +623,7 @@ class PipelineRunner:
                     **self.ocr_client.audit_record(result),
                 }
             )
-            values[column.variable] = self._plain_text(result.raw_text) if not result.error else ""
+            values[column.variable] = text
         return values
 
     async def _retry_failing_cells(
@@ -507,7 +642,8 @@ class PipelineRunner:
             for finding in report.findings
             if finding.row_index is not None
             and finding.variable
-            and finding.code in {"type_parse", "identity_missing", "ocr_completeness"}
+            and finding.code
+            in {"type_parse", "identity_missing", "ocr_completeness", "serial_progression"}
         }
         if not targets:
             return False
@@ -544,6 +680,7 @@ class PipelineRunner:
                 build_cell_free_ocr_prompt(schema, located.definition, column),
             )
             result = await self.ocr_client.ocr_cell_async(page.image.crop(bbox), context)
+            text = self._cell_text(result)
             audit.append(
                 {
                     "record_type": "validation_cell_retry",
@@ -551,11 +688,90 @@ class PipelineRunner:
                     **self.ocr_client.audit_record(result),
                 }
             )
-            text = self._plain_text(result.raw_text)
             if text and not result.error:
                 raw_rows[row_index][variable] = text
                 changed = True
         return changed
+
+    @staticmethod
+    def _apply_anchor_identity(
+        schema: TableSchema,
+        panel: PanelGeometry,
+        row_bbox: tuple[int, int, int, int],
+        result: OCRResult,
+        assigned: dict[str, str],
+    ) -> dict[str, str]:
+        """Recover left-aligned identity text and spanning cross-references."""
+        identity_numbers = panel.definition.identity_columns
+        if len(identity_numbers) < 2 or not result.has_usable_boxes:
+            return assigned
+        serial_column = schema.get_column_by_no(identity_numbers[0])
+        name_column = schema.get_column_by_no(identity_numbers[1])
+        data_spans = [span for span in panel.columns if span.column_no not in set(identity_numbers)]
+        if serial_column is None or name_column is None or not data_spans:
+            return assigned
+
+        positioned: list[tuple[float, str]] = []
+        for token in result.tokens:
+            if token.bbox is None:
+                continue
+            absolute = ColumnAssigner.scale_bbox_1000(token.bbox, row_bbox)
+            positioned.append(((absolute[0] + absolute[2]) / 2, token.text.strip()))
+        positioned.sort(key=lambda item: item[0])
+        if not positioned:
+            return assigned
+
+        first_data_x = min(span.x_start for span in data_spans)
+        identity_texts = [text for center, text in positioned if center < first_data_x and text]
+        serial_pattern = re.compile(r"(?:\d+|\(?[ivxlcdm]+\)?[.)]?)", re.IGNORECASE)
+        serial = (
+            identity_texts[0]
+            if identity_texts and serial_pattern.fullmatch(identity_texts[0])
+            else ""
+        )
+        name_start = 1 if serial else 0
+        name_parts = identity_texts[name_start:]
+        all_parts = [text for _, text in positioned if text]
+        reference_index = next(
+            (
+                index
+                for index, text in enumerate(all_parts)
+                if re.fullmatch(r"se[ec]", text, re.IGNORECASE)
+            ),
+            None,
+        )
+        if reference_index is not None:
+            name_parts = all_parts[name_start:]
+            for column in schema.columns_for_panel(panel.definition):
+                if column.column_no not in identity_numbers:
+                    assigned[column.variable] = ""
+
+        assigned[serial_column.variable] = serial
+        assigned[name_column.variable] = " ".join(name_parts).strip()
+        return assigned
+
+    @staticmethod
+    def _is_cross_reference(row: dict[str, str], schema: TableSchema) -> bool:
+        identity_var = "town_name" if schema.get_column_by_var("town_name") else "tahsil_name"
+        return bool(re.search(r"\bse[ec]\b", row.get(identity_var, ""), re.IGNORECASE))
+
+    @classmethod
+    def _cell_text(cls, result: OCRResult) -> str:
+        if result.error:
+            return ""
+        text = cls._plain_text(result.raw_text)
+        lowered = text.casefold()
+        leakage_markers = (
+            "<table>",
+            "expected-value examples",
+            "possible printed forms",
+            "return only the visible cell text",
+            "this is an archival 1971",
+        )
+        if len(text) > 250 or any(marker in lowered for marker in leakage_markers):
+            result.parse_issues.append("Rejected probable schema/prompt leakage from cell OCR")
+            return ""
+        return text
 
     def _validate(
         self,

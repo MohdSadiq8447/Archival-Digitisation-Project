@@ -147,6 +147,16 @@ class TableValidator:
                             cell.variable,
                         )
                     )
+                elif cell.review_flag:
+                    findings.append(
+                        ValidationFinding(
+                            "ambiguous_ocr",
+                            FindingSeverity.ERROR,
+                            f"{cell.variable}: {cell.review_flag} for {cell.raw_value!r}",
+                            index,
+                            cell.variable,
+                        )
+                    )
                 if (
                     isinstance(cell.value, (int, float))
                     and cell.variable != "sl_no"

@@ -291,8 +291,11 @@ class NovitaDeepSeekOCRClient:
         result.prompt = context.prompt
         result.prompt_version = self.config.prompt_version
         result.model = self.model
-        # HTTP 200 responses are stable and cacheable even when their OCR markup
-        # has parse issues; transient failures never reach this branch.
+        if not result.raw_text.strip():
+            result.error = "Novita returned empty OCR content"
+            return result
+        # Non-empty HTTP 200 responses are stable and cacheable even when their
+        # OCR markup has parse issues; empty/transient failures are never cached.
         self.cache.store(key, png, response_data)
         return result
 
@@ -349,20 +352,31 @@ class NovitaDeepSeekOCRClient:
 
     def _payload(self, png: bytes, prompt: str) -> dict[str, Any]:
         encoded = base64.b64encode(png).decode("ascii")
+        preset = prompt
+        schema_context = ""
+        for candidate in (GROUNDING_PROMPT, FREE_OCR_PROMPT):
+            if prompt.startswith(candidate):
+                preset = candidate
+                schema_context = prompt[len(candidate) :].strip()
+                break
+        messages: list[dict[str, Any]] = []
+        if schema_context:
+            messages.append({"role": "system", "content": schema_context})
+        messages.append(
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image_url",
+                        "image_url": {"url": f"data:image/png;base64,{encoded}"},
+                    },
+                    {"type": "text", "text": preset},
+                ],
+            }
+        )
         return {
             "model": self.model,
-            "messages": [
-                {
-                    "role": "user",
-                    "content": [
-                        {"type": "text", "text": prompt},
-                        {
-                            "type": "image_url",
-                            "image_url": {"url": f"data:image/png;base64,{encoded}"},
-                        },
-                    ],
-                }
-            ],
+            "messages": messages,
             "temperature": 0,
             "top_k": 0,
             "max_tokens": self.config.max_tokens,
@@ -402,7 +416,16 @@ class NovitaDeepSeekOCRClient:
             for box in boxes:
                 tokens.append(OCRToken(text=text, bbox=box))
         if not tokens:
-            issues.append("No grounded <|ref|>/<|det|> tokens were parsed")
+            shorthand_pattern = re.compile(
+                r"(?:^|\s)([^\[\r\n]+?)\s*(\[\[\s*-?\d+(?:\.\d+)?\s*,\s*-?\d+(?:\.\d+)?\s*,\s*-?\d+(?:\.\d+)?\s*,\s*-?\d+(?:\.\d+)?\s*\]\])"
+            )
+            for match in shorthand_pattern.finditer(content):
+                text = match.group(1).strip()
+                boxes = cls._parse_boxes(match.group(2))
+                for box in boxes:
+                    tokens.append(OCRToken(text=text, bbox=box))
+        if not tokens:
+            issues.append("No grounded markup or shorthand tokens were parsed")
 
         usage_raw = response.get("usage") or {}
         usage = OCRUsage(
