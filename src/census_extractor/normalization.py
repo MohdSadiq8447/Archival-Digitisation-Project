@@ -27,6 +27,9 @@ class NormalizedRow:
     row_type: str
     reference_target: str | None = None
     parse_errors: list[str] = field(default_factory=list)
+    parent_row_index: int | None = None
+    subrow_index: int | None = None
+    subrow_count: int | None = None
 
 
 def normalize_null(raw: str) -> str | None:
@@ -122,11 +125,11 @@ def parse_road_lengths(raw: str) -> dict[str, float | None]:
     return result
 
 
-def normalize_rows(raw_rows: list[dict[str, str]], schema: TableSchema) -> list[NormalizedRow]:
+def normalize_rows(raw_rows: list[dict[str, Any]], schema: TableSchema) -> list[NormalizedRow]:
     normalized: list[NormalizedRow] = []
     columns = schema.get_all_columns()
     identity_var = "town_name" if schema.get_column_by_var("town_name") else "tahsil_name"
-    for raw_row in raw_rows:
+    for row_index, raw_row in enumerate(raw_rows):
         values: dict[str, Any] = {}
         cells: list[NormalizedCell] = []
         errors: list[str] = []
@@ -156,5 +159,23 @@ def normalize_rows(raw_rows: list[dict[str, str]], schema: TableSchema) -> list[
             values.update(parse_road_lengths(str(raw_row.get("road_length_km", ""))))
         values["row_type"] = row_type
         values["reference_target"] = reference_target
-        normalized.append(NormalizedRow(values, cells, row_type, reference_target, errors))
+        parent_row_index = None
+        subrow_index = None
+        subrow_count = None
+        if schema.hierarchy is not None:
+            parent_row_index = int(raw_row.get("__parent_row_index", row_index))
+            subrow_index = int(raw_row.get("__subrow_index", 0))
+            subrow_count = int(raw_row.get("__subrow_count", 1))
+        normalized.append(
+            NormalizedRow(
+                values,
+                cells,
+                row_type,
+                reference_target,
+                errors,
+                parent_row_index,
+                subrow_index,
+                subrow_count,
+            )
+        )
     return normalized

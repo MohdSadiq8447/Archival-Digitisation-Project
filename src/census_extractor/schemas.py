@@ -38,6 +38,24 @@ class PanelDefinition(BaseModel):
         return self
 
 
+class HierarchyDefinition(BaseModel):
+    """Opt-in parent/sub-row expansion for formats with vertically aligned child cells."""
+
+    anchor_variable: str
+    child_variables: list[str]
+    repeat_parent_values: bool = True
+
+    @model_validator(mode="after")
+    def validate_hierarchy(self) -> "HierarchyDefinition":
+        if not self.child_variables:
+            raise ValueError("child_variables cannot be empty")
+        if len(set(self.child_variables)) != len(self.child_variables):
+            raise ValueError("child_variables must be unique")
+        if self.anchor_variable not in self.child_variables:
+            raise ValueError("anchor_variable must be included in child_variables")
+        return self
+
+
 class TableSchema(BaseModel):
     format_id: str
     name: str
@@ -45,6 +63,7 @@ class TableSchema(BaseModel):
     anchor_page: list[ColumnDefinition] = Field(default_factory=list)
     continuation_page: list[ColumnDefinition] = Field(default_factory=list)
     panels: list[PanelDefinition] = Field(default_factory=list)
+    hierarchy: HierarchyDefinition | None = None
 
     @model_validator(mode="after")
     def validate_layout(self) -> "TableSchema":
@@ -62,6 +81,22 @@ class TableSchema(BaseModel):
                 raise ValueError(f"Unknown align_to panel {panel.align_to!r}")
         if sum(panel.row_anchor for panel in self.panels) != 1:
             raise ValueError(f"{self.format_id} must define exactly one row anchor")
+        if self.hierarchy is not None:
+            variables = set(self.get_all_variables())
+            unknown = set(self.hierarchy.child_variables).difference(variables)
+            if unknown:
+                raise ValueError(
+                    f"{self.format_id} hierarchy references unknown variables {sorted(unknown)}"
+                )
+            anchor_panel_variables = {
+                column.variable for column in self.columns_for_panel(self.row_anchor_panel)
+            }
+            misplaced = set(self.hierarchy.child_variables).difference(anchor_panel_variables)
+            if misplaced:
+                raise ValueError(
+                    f"{self.format_id} hierarchy child variables must belong to the row anchor "
+                    f"panel: {sorted(misplaced)}"
+                )
         return self
 
     @property

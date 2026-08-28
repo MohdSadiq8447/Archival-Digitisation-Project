@@ -9,7 +9,7 @@ from PIL import Image, ImageDraw
 
 from census_extractor.geometry.aligner import MatchedRowPair
 from census_extractor.geometry.column_detector import ColumnSpan
-from census_extractor.geometry.row_segmenter import RowCrop
+from census_extractor.geometry.row_segmenter import RowCrop, SubRowCrop
 from census_extractor.preprocessing.boundary_detector import TableBoundary
 from census_extractor.preprocessing.pdf_loader import RenderedPage
 
@@ -25,6 +25,7 @@ class TableVisualizer:
         row_crops: List[RowCrop],
         column_spans: List[ColumnSpan],
         save_path: Optional[Path] = None,
+        subrow_crops: List[SubRowCrop] | None = None,
     ) -> Image.Image:
         """Draws bounding boxes for table, header, columns, and rows on page image."""
         img = page.image.copy()
@@ -47,6 +48,11 @@ class TableVisualizer:
         for row in row_crops:
             rx0, ry0, rx1, ry1 = row.bbox
             draw.rectangle([rx0, ry0, rx1, ry1], outline="red", width=2)
+
+        # 5. Draw hierarchy child crops in magenta within their parent rows.
+        for subrow in subrow_crops or []:
+            sx0, sy0, sx1, sy1 = subrow.bbox
+            draw.rectangle([sx0, sy0, sx1, sy1], outline="magenta", width=3)
 
         if save_path:
             save_path = Path(save_path)

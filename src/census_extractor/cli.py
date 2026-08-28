@@ -12,6 +12,14 @@ from census_extractor.pipeline.runner import ExtractionSummary, PipelineRunner
 from census_extractor.schemas import SchemaRegistry
 
 
+def _configure_console_output() -> None:
+    """Keep Windows consoles from crashing on OCR symbols outside the code page."""
+    for stream in (sys.stdout, sys.stderr):
+        reconfigure = getattr(stream, "reconfigure", None)
+        if callable(reconfigure):
+            reconfigure(errors="backslashreplace")
+
+
 def _common_run_options(parser: argparse.ArgumentParser) -> None:
     parser.add_argument(
         "--output-dir", type=Path, help="Output root (runs and cache are created below it)"
@@ -84,7 +92,8 @@ def _print_summary(summary: ExtractionSummary) -> None:
     print(f"{summary.status}: {summary.pdf_name}")
     print(f"  run={summary.run_id} district={summary.district} format={summary.format_id}")
     print(
-        f"  rows={summary.total_rows} valid={summary.valid_rows} quality={summary.quality_score:.2%}"
+        f"  parent_rows={summary.parent_rows} rows={summary.total_rows} "
+        f"valid={summary.valid_rows} quality={summary.quality_score:.2%}"
     )
     if summary.cache_metrics:
         print(
@@ -105,6 +114,7 @@ def _exit_code(summaries: list[ExtractionSummary]) -> int:
 
 
 def main(argv: list[str] | None = None) -> int:
+    _configure_console_output()
     args = build_parser().parse_args(argv)
     config = _config(args)
     if args.command == "schemas":

@@ -83,6 +83,7 @@ Each schema describes:
 - Historical meaning.
 - Possible printed forms and abbreviations.
 - Physical page and panel placement.
+- Optional hierarchical-row configuration: the anchor variable, child-scoped variables, and whether parent values repeat.
 
 Schema loading is fail-closed in [`src/census_extractor/schemas.py`](src/census_extractor/schemas.py). An unknown format never silently becomes a civic table.
 
@@ -141,11 +142,11 @@ Continuation-panel rows are then matched to anchor rows using their normalized v
 - Unequal counts use monotonic sequence alignment.
 - If matching remains incomplete, anchor row bands are projected affinely onto the continuation panel.
 
-The result is one shared logical row index across every physical panel. See [`src/census_extractor/geometry/row_segmenter.py`](src/census_extractor/geometry/row_segmenter.py) and [`src/census_extractor/geometry/aligner.py`](src/census_extractor/geometry/aligner.py).
+The result is one shared parent-row index across every physical panel. For a hierarchy-enabled schema, child baselines are then detected inside each parent from embedded words in the anchor column, with raster projection as a fallback. Notes and later sections are excluded. MedEdu enables this for columns 3–4; Civic and Tahsil do not. See [`src/census_extractor/geometry/row_segmenter.py`](src/census_extractor/geometry/row_segmenter.py) and [`src/census_extractor/geometry/aligner.py`](src/census_extractor/geometry/aligner.py).
 
 ## 7. Novita row OCR
 
-Every detected row is cropped separately for each physical panel.
+Every detected parent row is cropped separately for each physical panel. Hierarchical tables additionally OCR one columns 3–4 crop for each detected child, then expand the parent before normalization. Parent values—including aligned continuation-panel values—are repeated onto every child.
 
 The prompt includes:
 
@@ -255,6 +256,7 @@ Validation checks:
 - Values match declared types.
 - Serial numbers progress correctly.
 - Ordinary identities are not duplicated.
+- Hierarchical sub-row indexes are contiguous and inherited parent identity is consistent.
 - Counts are nonnegative.
 - Cross-reference rows contain no ordinary data.
 - Rows and columns are not completely empty.
@@ -292,7 +294,7 @@ Each table receives:
 - OCR audit JSONL.
 - Optional geometry visualizations.
 
-The audit includes the exact prompt, raw Novita response, parsed tokens, bounding boxes, attempts, token usage, response hash, model, cache status, and parse issues.
+The audit includes the exact prompt, raw Novita response, parsed tokens, parent and child bounding boxes, hierarchy lineage, attempts, token usage, response hash, model, cache status, and parse issues. Geometry, manifests, validation reports, and extraction summaries record both parent and expanded row totals.
 
 Writes use temporary files followed by atomic replacement, preventing half-written tables after interruption. Export handling is in [`src/census_extractor/pipeline/exporter.py`](src/census_extractor/pipeline/exporter.py).
 

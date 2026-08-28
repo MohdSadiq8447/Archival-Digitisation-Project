@@ -11,14 +11,17 @@ from datetime import UTC, datetime
 from pathlib import Path
 from typing import Any
 
+from PIL import Image, ImageOps
+
 from census_extractor.config import PipelineConfig, default_config
 from census_extractor.geometry.aligner import ContinuationAligner
+from census_extractor.geometry.column_detector import ColumnSpan
 from census_extractor.geometry.panel_detector import (
     PanelDetector,
     PanelDiscoveryError,
     PanelGeometry,
 )
-from census_extractor.geometry.row_segmenter import RowCrop, RowSegmenter
+from census_extractor.geometry.row_segmenter import RowCrop, RowSegmenter, SubRowCrop
 from census_extractor.metadata import DocumentMetadata, MetadataRegistry
 from census_extractor.normalization import NormalizedRow, normalize_rows
 from census_extractor.ocr.client import (
@@ -30,13 +33,14 @@ from census_extractor.ocr.client import (
 from census_extractor.ocr.column_assigner import ColumnAssigner
 from census_extractor.ocr.prompts import (
     build_cell_free_ocr_prompt,
+    build_columns_grounding_prompt,
     build_page_grounding_prompt,
     build_row_grounding_prompt,
 )
 from census_extractor.pipeline.exporter import RunLayout, TableExporter
 from census_extractor.preprocessing.boundary_detector import TableBoundary
 from census_extractor.preprocessing.pdf_loader import PDFLoader, RenderedPage
-from census_extractor.schemas import SchemaRegistry, TableSchema
+from census_extractor.schemas import ColumnDefinition, SchemaRegistry, TableSchema
 from census_extractor.validation.validator import TableValidationReport, TableValidator
 from census_extractor.visualization.overlay import TableVisualizer
 
@@ -52,6 +56,7 @@ class ExtractionSummary:
     format_id: str
     status: str
     total_rows: int
+    parent_rows: int
     valid_rows: int
     quality_score: float
     quality_components: dict[str, float] = field(default_factory=dict)
@@ -146,12 +151,26 @@ class PipelineRunner:
             anchor_count = len(panel_rows[schema.row_anchor_panel.panel_id])
             if anchor_count == 0:
                 raise PanelDiscoveryError("Anchor panel contains zero usable data rows")
+            hierarchy_rows = self._segment_hierarchy_rows(pages, schema, panels, panel_rows)
+            expanded_count = (
+                sum(len(rows) for rows in hierarchy_rows.values())
+                if schema.hierarchy is not None
+                else anchor_count
+            )
             geometry_payload = self._geometry_payload(
-                metadata, schema, pages, panels, panel_rows, pdf_sha256
+                metadata,
+                schema,
+                pages,
+                panels,
+                panel_rows,
+                hierarchy_rows,
+                pdf_sha256,
             )
             geometry_path = self.exporter.write_geometry(metadata.pdf_id, geometry_payload)
             if save_viz:
-                self._save_visualizations(metadata, pages, panels, panel_rows)
+                self._save_visualizations(
+                    metadata, pages, panels, panel_rows, hierarchy_rows
+                )
             if is_dry_run:
                 summary = ExtractionSummary(
                     run_id=self.run_id,
@@ -160,7 +179,8 @@ class PipelineRunner:
                     district=metadata.district,
                     format_id=metadata.format_id,
                     status="DRY_RUN",
-                    total_rows=anchor_count,
+                    total_rows=expanded_count,
+                    parent_rows=anchor_count,
                     valid_rows=0,
                     quality_score=min(self._panel_quality(panel) for panel in panels),
                     quality_components={
@@ -175,11 +195,30 @@ class PipelineRunner:
             raw_rows, panel_results = await self._extract_all_panels(
                 pages, schema, panels, panel_rows, pdf_sha256, audit_records
             )
+            if schema.hierarchy is not None:
+                raw_rows, hierarchy_results = await self._expand_hierarchy_rows(
+                    pages,
+                    schema,
+                    panels,
+                    raw_rows,
+                    hierarchy_rows,
+                    pdf_sha256,
+                    audit_records,
+                )
+                panel_results.extend(hierarchy_results)
             normalized = normalize_rows(raw_rows, schema)
             report = self._validate(schema, metadata, normalized, panels, panel_rows, panel_results)
             if enable_retry and not report.is_valid:
                 changed = await self._retry_failing_cells(
-                    pages, schema, panels, panel_rows, raw_rows, report, pdf_sha256, audit_records
+                    pages,
+                    schema,
+                    panels,
+                    panel_rows,
+                    hierarchy_rows,
+                    raw_rows,
+                    report,
+                    pdf_sha256,
+                    audit_records,
                 )
                 if changed:
                     normalized = normalize_rows(raw_rows, schema)
@@ -205,6 +244,7 @@ class PipelineRunner:
                 format_id=metadata.format_id,
                 status=status,
                 total_rows=report.total_rows,
+                parent_rows=report.parent_rows_count,
                 valid_rows=report.valid_rows_count,
                 quality_score=report.quality.overall,
                 quality_components=quality,
@@ -230,6 +270,7 @@ class PipelineRunner:
                 format_id=metadata.format_id if metadata else (format_id or "unknown"),
                 status="ERROR",
                 total_rows=0,
+                parent_rows=0,
                 valid_rows=0,
                 quality_score=0.0,
                 cache_metrics={
@@ -314,6 +355,25 @@ class PipelineRunner:
         anchor_geometry = by_id[schema.row_anchor_panel.panel_id]
         anchor_page = pages[anchor_geometry.page_number - 1]
         anchor_rows = self.row_segmenter.segment_rows(anchor_page, self._boundary(anchor_geometry))
+        if schema.hierarchy is not None and len(schema.row_anchor_panel.identity_columns) >= 2:
+            serial_number, name_number = schema.row_anchor_panel.identity_columns[:2]
+            serial_span = next(
+                (span for span in anchor_geometry.columns if span.column_no == serial_number),
+                None,
+            )
+            name_span = next(
+                (span for span in anchor_geometry.columns if span.column_no == name_number),
+                None,
+            )
+            if serial_span is not None and name_span is not None:
+                identity_rows = self.row_segmenter.segment_parent_rows_from_identity(
+                    anchor_page,
+                    self._boundary(anchor_geometry),
+                    (serial_span.x_start, serial_span.x_end),
+                    (name_span.x_start, name_span.x_end),
+                )
+                if identity_rows:
+                    anchor_rows = identity_rows
         if not anchor_rows and schema.row_anchor_panel.identity_columns:
             identity_numbers = set(schema.row_anchor_panel.identity_columns)
             identity_spans = [
@@ -337,6 +397,12 @@ class PipelineRunner:
                 anchor_rows = self._widen_rows(
                     anchor_page, identity_rows, anchor_geometry.body_bbox
                 )
+        if schema.hierarchy is not None:
+            anchor_rows = self._exclude_hierarchy_notes(
+                anchor_page, anchor_geometry, anchor_rows
+            )
+        for index, row in enumerate(anchor_rows):
+            row.row_index = index
         result = {schema.row_anchor_panel.panel_id: anchor_rows}
         for definition in schema.panels:
             if definition.row_anchor:
@@ -353,6 +419,90 @@ class PipelineRunner:
             for index, row in enumerate(aligned):
                 row.row_index = index
             result[definition.panel_id] = aligned
+        return result
+
+    @staticmethod
+    def _exclude_hierarchy_notes(
+        page: RenderedPage,
+        anchor_geometry: PanelGeometry,
+        rows: list[RowCrop],
+    ) -> list[RowCrop]:
+        identity_numbers = set(anchor_geometry.definition.identity_columns)
+        identity_spans = [
+            span for span in anchor_geometry.columns if span.column_no in identity_numbers
+        ]
+        if not identity_spans:
+            return rows
+        x0 = min(span.x_start for span in identity_spans)
+        x1 = max(span.x_end for span in identity_spans)
+        retained: list[RowCrop] = []
+        for row in rows:
+            words = [
+                word
+                for word in page.pdf_words
+                if word["bbox"][2] >= x0
+                and word["bbox"][0] <= x1
+                and row.bbox[1]
+                <= (word["bbox"][1] + word["bbox"][3]) / 2
+                <= row.bbox[3]
+            ]
+            text = " ".join(
+                str(word["text"])
+                for word in sorted(words, key=lambda item: (item["bbox"][1], item["bbox"][0]))
+            ).strip()
+            if re.search(r"(?:^|\s)notes?\b|\bdenotes?\b", text, re.IGNORECASE):
+                continue
+            retained.append(row)
+        return retained
+
+    def _segment_hierarchy_rows(
+        self,
+        pages: list[RenderedPage],
+        schema: TableSchema,
+        panels: list[PanelGeometry],
+        panel_rows: dict[str, list[RowCrop]],
+    ) -> dict[int, list[SubRowCrop]]:
+        hierarchy = schema.hierarchy
+        if hierarchy is None:
+            return {}
+        anchor_panel = next(
+            panel for panel in panels if panel.definition.panel_id == schema.row_anchor_panel.panel_id
+        )
+        anchor_page = pages[anchor_panel.page_number - 1]
+        anchor_column = schema.get_column_by_var(hierarchy.anchor_variable)
+        if anchor_column is None:
+            raise PanelDiscoveryError(
+                f"Hierarchy anchor variable {hierarchy.anchor_variable!r} is undefined"
+            )
+        anchor_span = next(
+            (span for span in anchor_panel.columns if span.column_no == anchor_column.column_no),
+            None,
+        )
+        hierarchy_columns = [
+            schema.get_column_by_var(variable) for variable in hierarchy.child_variables
+        ]
+        if any(column is None for column in hierarchy_columns):
+            raise PanelDiscoveryError("Hierarchy child variable is undefined")
+        child_numbers = {
+            column.column_no for column in hierarchy_columns if column is not None
+        }
+        child_spans = [
+            span for span in anchor_panel.columns if span.column_no in child_numbers
+        ]
+        if anchor_span is None or len(child_spans) != len(child_numbers):
+            raise PanelDiscoveryError("Hierarchy columns were not located in the anchor panel")
+        crop_x_range = (
+            min(span.x_start for span in child_spans),
+            max(span.x_end for span in child_spans),
+        )
+        result: dict[int, list[SubRowCrop]] = {}
+        for parent in panel_rows[schema.row_anchor_panel.panel_id]:
+            result[parent.row_index] = self.row_segmenter.segment_subrows(
+                anchor_page,
+                parent,
+                (anchor_span.x_start, anchor_span.x_end),
+                crop_x_range,
+            )
         return result
 
     def _widen_rows(
@@ -387,7 +537,7 @@ class PipelineRunner:
         panel_rows: dict[str, list[RowCrop]],
         pdf_sha256: str,
         audit: list[dict[str, Any]],
-    ) -> tuple[list[dict[str, str]], list[OCRResult]]:
+    ) -> tuple[list[dict[str, Any]], list[OCRResult]]:
         anchor_count = len(panel_rows[schema.row_anchor_panel.panel_id])
         raw_rows = [
             {column.variable: "" for column in schema.get_all_columns()}
@@ -475,6 +625,282 @@ class PipelineRunner:
                     continue
                 raw_rows[row.row_index][variable] = value
         return raw_rows, results
+
+    async def _expand_hierarchy_rows(
+        self,
+        pages: list[RenderedPage],
+        schema: TableSchema,
+        panels: list[PanelGeometry],
+        parent_rows: list[dict[str, Any]],
+        hierarchy_rows: dict[int, list[SubRowCrop]],
+        pdf_sha256: str,
+        audit: list[dict[str, Any]],
+    ) -> tuple[list[dict[str, Any]], list[OCRResult]]:
+        hierarchy = schema.hierarchy
+        if hierarchy is None:
+            return parent_rows, []
+        anchor_panel = next(
+            panel for panel in panels if panel.definition.panel_id == schema.row_anchor_panel.panel_id
+        )
+        page = pages[anchor_panel.page_number - 1]
+        child_columns = [
+            schema.get_column_by_var(variable) for variable in hierarchy.child_variables
+        ]
+        if any(column is None for column in child_columns):
+            raise PanelDiscoveryError("Hierarchy child column is undefined")
+        columns = [column for column in child_columns if column is not None]
+        child_numbers = {column.column_no for column in columns}
+        child_spans = [
+            span for span in anchor_panel.columns if span.column_no in child_numbers
+        ]
+        if len(child_spans) != len(columns):
+            raise PanelDiscoveryError("Hierarchy child column geometry is incomplete")
+        prompt = build_columns_grounding_prompt(columns)
+
+        tasks: dict[tuple[int, int], asyncio.Task[OCRResult]] = {}
+        expanded_index = 0
+        for parent_index, parent in enumerate(parent_rows):
+            for subrow in hierarchy_rows[parent_index]:
+                if not self._is_cross_reference(parent, schema):
+                    context = OCRRequestContext(
+                        pdf_sha256,
+                        subrow.bbox,
+                        expanded_index,
+                        anchor_panel.page_number,
+                        (
+                            f"{anchor_panel.definition.panel_id}:hierarchy:"
+                            f"{parent_index}:{subrow.subrow_index}"
+                        ),
+                        prompt,
+                    )
+                    tasks[(parent_index, subrow.subrow_index)] = asyncio.create_task(
+                        self.ocr_client.ocr_crop_async(
+                            self._prepare_hierarchy_crop(subrow.image_crop), context
+                        )
+                    )
+                expanded_index += 1
+
+        expanded: list[dict[str, Any]] = []
+        results: list[OCRResult] = []
+        for parent_index, parent in enumerate(parent_rows):
+            subrows = hierarchy_rows[parent_index]
+            parent_anchor_candidates = self._parent_hierarchy_anchor_candidates(
+                str(parent.get(hierarchy.anchor_variable, ""))
+            )
+            for subrow in subrows:
+                assigned = {variable: "" for variable in hierarchy.child_variables}
+                task = tasks.get((parent_index, subrow.subrow_index))
+                if task is not None:
+                    result = await task
+                    results.append(result)
+                    audit.append(
+                        {
+                            "record_type": "hierarchy_child_ocr",
+                            "panel_id": anchor_panel.definition.panel_id,
+                            "parent_row_index": parent_index,
+                            "subrow_index": subrow.subrow_index,
+                            "crop_bbox": subrow.bbox,
+                            **self.ocr_client.audit_record(result),
+                        }
+                    )
+                    if result.has_usable_boxes:
+                        assigned.update(
+                            self.column_assigner.assign_tokens_to_columns(
+                                result, child_spans, subrow.bbox
+                            )
+                        )
+                        fallback_columns = [
+                            column
+                            for column in columns
+                            if column.variable == hierarchy.anchor_variable
+                            and self._hierarchy_cell_needs_fallback(
+                                assigned.get(column.variable, ""),
+                                is_anchor=True,
+                                data_type=column.data_type,
+                            )
+                        ]
+                        if fallback_columns:
+                            recovered = await self._fallback_hierarchy_subrow(
+                                page,
+                                schema,
+                                anchor_panel,
+                                subrow,
+                                fallback_columns,
+                                child_spans,
+                                len(expanded),
+                                pdf_sha256,
+                                audit,
+                            )
+                            for variable, text in recovered.items():
+                                if text.strip():
+                                    assigned[variable] = text
+                    else:
+                        assigned.update(
+                            await self._fallback_hierarchy_subrow(
+                                page,
+                                schema,
+                                anchor_panel,
+                                subrow,
+                                columns,
+                                child_spans,
+                                len(expanded),
+                                pdf_sha256,
+                                audit,
+                            )
+                        )
+
+                spans_by_number = {span.column_no: span for span in child_spans}
+                for column in columns:
+                    current = assigned.get(column.variable, "")
+                    is_anchor = column.variable == hierarchy.anchor_variable
+                    if not self._hierarchy_cell_needs_fallback(
+                        current, is_anchor=is_anchor, data_type=column.data_type
+                    ):
+                        continue
+                    span = spans_by_number[column.column_no]
+                    embedded_bbox = (
+                        span.x_start,
+                        subrow.bbox[1],
+                        span.x_end,
+                        subrow.bbox[3],
+                    )
+                    embedded = self._embedded_hierarchy_cell_text(page, embedded_bbox)
+                    if self._hierarchy_cell_needs_fallback(
+                        embedded, is_anchor=is_anchor, data_type=column.data_type
+                    ):
+                        continue
+                    assigned[column.variable] = embedded
+                    audit.append(
+                        {
+                            "record_type": "hierarchy_value_selection",
+                            "parent_row_index": parent_index,
+                            "subrow_index": subrow.subrow_index,
+                            "variable": column.variable,
+                            "selected_source": "embedded_text",
+                            "grounded_or_fallback_candidate": current,
+                            "embedded_candidate": embedded,
+                        }
+                    )
+
+                anchor_value = assigned.get(hierarchy.anchor_variable, "")
+                anchor_column = schema.get_column_by_var(hierarchy.anchor_variable)
+                if (
+                    anchor_column is not None
+                    and self._hierarchy_cell_needs_fallback(
+                        anchor_value,
+                        is_anchor=True,
+                        data_type=anchor_column.data_type,
+                    )
+                    and len(parent_anchor_candidates) == len(subrows)
+                ):
+                    selected = parent_anchor_candidates[subrow.subrow_index]
+                    assigned[hierarchy.anchor_variable] = selected
+                    audit.append(
+                        {
+                            "record_type": "hierarchy_value_selection",
+                            "parent_row_index": parent_index,
+                            "subrow_index": subrow.subrow_index,
+                            "variable": hierarchy.anchor_variable,
+                            "selected_source": "parent_row_ocr",
+                            "grounded_or_fallback_candidate": anchor_value,
+                            "parent_candidate": selected,
+                        }
+                    )
+
+                record: dict[str, Any]
+                if hierarchy.repeat_parent_values:
+                    record = dict(parent)
+                else:
+                    record = {column.variable: "" for column in schema.get_all_columns()}
+                    for identity in ("sl_no", "town_name", "tahsil_name"):
+                        if identity in parent:
+                            record[identity] = parent[identity]
+                    if subrow.subrow_index == 0:
+                        record.update(parent)
+                for variable in hierarchy.child_variables:
+                    record[variable] = assigned.get(variable, "")
+                record["__parent_row_index"] = parent_index
+                record["__subrow_index"] = subrow.subrow_index
+                record["__subrow_count"] = len(subrows)
+                expanded.append(record)
+        return expanded, results
+
+    @staticmethod
+    def _hierarchy_cell_needs_fallback(
+        value: str, *, is_anchor: bool, data_type: str = "string"
+    ) -> bool:
+        text = value.strip()
+        if not text:
+            return True
+        placeholder = r"(?:nil|n\.?a\.?|[-–—.·…]+)"
+        if data_type == "integer":
+            return re.fullmatch(rf"(?:{placeholder}|\d[\d,]*(?:\.\d+)?)", text, re.I) is None
+        if not is_anchor:
+            return False
+        if re.fullmatch(rf"(?:see(?:\s+.*)?|{placeholder}|\d+(?:\.\d+)?)", text, re.I):
+            return False
+        institution_code = r"\*?\s*[A-Za-z]+(?:\s*/\s*[A-Za-z]+)*\s*\(\s*\d+(?:\.\d+)?\s*\)\.?"
+        return re.fullmatch(institution_code, text) is None
+
+    @staticmethod
+    def _parent_hierarchy_anchor_candidates(value: str) -> list[str]:
+        institution_code = r"\*?\s*[A-Za-z]+(?:\s*/\s*[A-Za-z]+)*\s*\(\s*\d+(?:\.\d+)?\s*\)\.?"
+        return [match.group(0).strip() for match in re.finditer(institution_code, value)]
+
+    @staticmethod
+    def _prepare_hierarchy_crop(image: Image.Image) -> Image.Image:
+        """Upscale a thin child row with vertical whitespace but unchanged x proportions."""
+        padding = max(8, image.height // 2)
+        padded = ImageOps.expand(image.convert("RGB"), border=(0, padding, 0, padding), fill="white")
+        return padded.resize((padded.width * 2, padded.height * 2), Image.Resampling.LANCZOS)
+
+    async def _fallback_hierarchy_subrow(
+        self,
+        page: RenderedPage,
+        schema: TableSchema,
+        panel: PanelGeometry,
+        subrow: SubRowCrop,
+        columns: list[ColumnDefinition],
+        spans: list[ColumnSpan],
+        expanded_index: int,
+        pdf_sha256: str,
+        audit: list[dict[str, Any]],
+    ) -> dict[str, str]:
+        values: dict[str, str] = {}
+        spans_by_number = {span.column_no: span for span in spans}
+        for column in columns:
+            span = spans_by_number[column.column_no]
+            bbox = (
+                max(0, span.x_start - self.config.crop_padding_px),
+                subrow.bbox[1],
+                min(page.width, span.x_end + self.config.crop_padding_px),
+                subrow.bbox[3],
+            )
+            context = OCRRequestContext(
+                pdf_sha256,
+                bbox,
+                expanded_index,
+                panel.page_number,
+                (
+                    f"{panel.definition.panel_id}:{column.variable}:hierarchy:"
+                    f"{subrow.parent_row_index}:{subrow.subrow_index}"
+                ),
+                build_cell_free_ocr_prompt(schema, panel.definition, column),
+            )
+            result = await self.ocr_client.ocr_cell_async(
+                self._prepare_hierarchy_crop(page.image.crop(bbox)), context
+            )
+            values[column.variable] = self._cell_text(result)
+            audit.append(
+                {
+                    "record_type": "hierarchy_cell_fallback",
+                    "variable": column.variable,
+                    "parent_row_index": subrow.parent_row_index,
+                    "subrow_index": subrow.subrow_index,
+                    **self.ocr_client.audit_record(result),
+                }
+            )
+        return values
 
     def _row_ocr_bbox(self, panel: PanelGeometry, row: RowCrop) -> tuple[int, int, int, int]:
         """Keep whole-row OCR compact while physical edge columns remain complete."""
@@ -578,6 +1004,23 @@ class PipelineRunner:
         ).strip()
 
     @staticmethod
+    def _embedded_hierarchy_cell_text(
+        page: RenderedPage, bbox: tuple[int, int, int, int]
+    ) -> str:
+        """Read only words whose centres belong to this thin child cell."""
+        x0, y0, x1, y1 = bbox
+        words = [
+            word
+            for word in page.pdf_words
+            if x0 <= (word["bbox"][0] + word["bbox"][2]) / 2 <= x1
+            and y0 <= (word["bbox"][1] + word["bbox"][3]) / 2 <= y1
+        ]
+        return " ".join(
+            str(word["text"])
+            for word in sorted(words, key=lambda item: (item["bbox"][1], item["bbox"][0]))
+        ).strip()
+
+    @staticmethod
     def _valid_night_soil_code(value: str) -> bool:
         text = " ".join(value.split()).strip()
         if not text or re.fullmatch(r"(?:nil|[-–—.·…]+)", text, re.IGNORECASE):
@@ -632,7 +1075,8 @@ class PipelineRunner:
         schema: TableSchema,
         panels: list[PanelGeometry],
         panel_rows: dict[str, list[RowCrop]],
-        raw_rows: list[dict[str, str]],
+        hierarchy_rows: dict[int, list[SubRowCrop]],
+        raw_rows: list[dict[str, Any]],
         report: TableValidationReport,
         pdf_sha256: str,
         audit: list[dict[str, Any]],
@@ -649,6 +1093,8 @@ class PipelineRunner:
             return False
         changed = False
         for row_index, variable in targets:
+            if row_index >= len(raw_rows):
+                continue
             column = schema.get_column_by_var(variable)
             if column is None:
                 continue
@@ -660,16 +1106,28 @@ class PipelineRunner:
                 ),
                 None,
             )
-            if located is None or row_index >= len(panel_rows[located.definition.panel_id]):
+            parent_index = int(raw_rows[row_index].get("__parent_row_index", row_index))
+            subrow_index = int(raw_rows[row_index].get("__subrow_index", 0))
+            child_scoped = bool(
+                schema.hierarchy is not None
+                and variable in set(schema.hierarchy.child_variables)
+            )
+            if located is None or parent_index >= len(panel_rows[located.definition.panel_id]):
                 continue
             span = next(span for span in located.columns if span.column_no == column.column_no)
-            row = panel_rows[located.definition.panel_id][row_index]
             page = pages[located.page_number - 1]
+            if child_scoped:
+                candidates = hierarchy_rows.get(parent_index, [])
+                if subrow_index >= len(candidates):
+                    continue
+                row_bbox = candidates[subrow_index].bbox
+            else:
+                row_bbox = panel_rows[located.definition.panel_id][parent_index].bbox
             bbox = (
                 max(0, span.x_start - 4),
-                max(0, row.bbox[1] - 4),
+                max(0, row_bbox[1] - 4),
                 min(page.width, span.x_end + 4),
-                min(page.height, row.bbox[3] + 4),
+                min(page.height, row_bbox[3] + 4),
             )
             context = OCRRequestContext(
                 pdf_sha256,
@@ -685,11 +1143,22 @@ class PipelineRunner:
                 {
                     "record_type": "validation_cell_retry",
                     "variable": variable,
+                    "parent_row_index": parent_index,
+                    "subrow_index": subrow_index if child_scoped else None,
                     **self.ocr_client.audit_record(result),
                 }
             )
             if text and not result.error:
-                raw_rows[row_index][variable] = text
+                if (
+                    schema.hierarchy is not None
+                    and schema.hierarchy.repeat_parent_values
+                    and not child_scoped
+                ):
+                    for candidate in raw_rows:
+                        if int(candidate.get("__parent_row_index", -1)) == parent_index:
+                            candidate[variable] = text
+                else:
+                    raw_rows[row_index][variable] = text
                 changed = True
         return changed
 
@@ -751,7 +1220,7 @@ class PipelineRunner:
         return assigned
 
     @staticmethod
-    def _is_cross_reference(row: dict[str, str], schema: TableSchema) -> bool:
+    def _is_cross_reference(row: dict[str, Any], schema: TableSchema) -> bool:
         identity_var = "town_name" if schema.get_column_by_var("town_name") else "tahsil_name"
         return bool(re.search(r"\bse[ec]\b", row.get(identity_var, ""), re.IGNORECASE))
 
@@ -794,6 +1263,7 @@ class PipelineRunner:
                 for result in results
             ),
             ocr_row_total=len(results),
+            parent_row_count=len(panel_rows[schema.row_anchor_panel.panel_id]),
         )
 
     def _panel_quality(self, panel: PanelGeometry) -> float:
@@ -827,33 +1297,65 @@ class PipelineRunner:
         pages: list[RenderedPage],
         panels: list[PanelGeometry],
         panel_rows: dict[str, list[RowCrop]],
+        hierarchy_rows: dict[int, list[SubRowCrop]],
         pdf_sha256: str,
     ) -> dict[str, Any]:
+        parent_row_count = len(panel_rows[schema.row_anchor_panel.panel_id])
+        expanded_row_count = (
+            sum(len(rows) for rows in hierarchy_rows.values())
+            if schema.hierarchy is not None
+            else parent_row_count
+        )
+        panel_payloads: list[dict[str, Any]] = []
+        for panel in panels:
+            payload: dict[str, Any] = {
+                "panel_id": panel.definition.panel_id,
+                "page": panel.page_number,
+                "printed_columns": panel.definition.printed_columns,
+                "matched_numbers": panel.matched_numbers,
+                "sequence_score": panel.sequence_score,
+                "source": panel.discovery_source,
+                "table_bbox": panel.table_bbox,
+                "header_bbox": panel.header_bbox,
+                "body_bbox": panel.body_bbox,
+                "row_count": len(panel_rows[panel.definition.panel_id]),
+                "row_bboxes": [row.bbox for row in panel_rows[panel.definition.panel_id]],
+                "column_centers": {
+                    span.column_no: (span.x_start + span.x_end) / 2
+                    for span in panel.columns
+                },
+            }
+            if panel.definition.row_anchor and schema.hierarchy is not None:
+                payload["hierarchy"] = {
+                    "anchor_variable": schema.hierarchy.anchor_variable,
+                    "child_variables": schema.hierarchy.child_variables,
+                    "repeat_parent_values": schema.hierarchy.repeat_parent_values,
+                    "parents": [
+                        {
+                            "parent_row_index": parent_index,
+                            "subrow_count": len(subrows),
+                            "subrows": [
+                                {
+                                    "subrow_index": subrow.subrow_index,
+                                    "bbox": subrow.bbox,
+                                    "source": subrow.source,
+                                }
+                                for subrow in subrows
+                            ],
+                        }
+                        for parent_index, subrows in sorted(hierarchy_rows.items())
+                    ],
+                }
+            panel_payloads.append(payload)
         return {
             "pdf_id": metadata.pdf_id,
             "source_pdf": metadata.file_name,
             "source_pdf_sha256": pdf_sha256,
             "format_id": schema.format_id,
             "page_count": len(pages),
-            "panels": [
-                {
-                    "panel_id": panel.definition.panel_id,
-                    "page": panel.page_number,
-                    "printed_columns": panel.definition.printed_columns,
-                    "matched_numbers": panel.matched_numbers,
-                    "sequence_score": panel.sequence_score,
-                    "source": panel.discovery_source,
-                    "table_bbox": panel.table_bbox,
-                    "header_bbox": panel.header_bbox,
-                    "body_bbox": panel.body_bbox,
-                    "row_count": len(panel_rows[panel.definition.panel_id]),
-                    "row_bboxes": [row.bbox for row in panel_rows[panel.definition.panel_id]],
-                    "column_centers": {
-                        span.column_no: (span.x_start + span.x_end) / 2 for span in panel.columns
-                    },
-                }
-                for panel in panels
-            ],
+            "parent_row_count": parent_row_count,
+            "expanded_row_count": expanded_row_count,
+            "panels": panel_payloads,
             "provenance": metadata.provenance_dict(),
         }
 
@@ -863,6 +1365,7 @@ class PipelineRunner:
         pages: list[RenderedPage],
         panels: list[PanelGeometry],
         panel_rows: dict[str, list[RowCrop]],
+        hierarchy_rows: dict[int, list[SubRowCrop]],
     ) -> None:
         target = self.layout.viz / metadata.pdf_id
         for panel in panels:
@@ -872,6 +1375,11 @@ class PipelineRunner:
                 panel_rows[panel.definition.panel_id],
                 panel.columns,
                 target / f"{panel.definition.panel_id}.png",
+                (
+                    [subrow for rows in hierarchy_rows.values() for subrow in rows]
+                    if panel.definition.row_anchor
+                    else None
+                ),
             )
 
     async def _record_summary(self, summary: ExtractionSummary) -> None:

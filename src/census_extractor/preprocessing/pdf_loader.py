@@ -5,7 +5,7 @@ High-Performance PDF Loader and Image Renderer with High-DPI Support, Fast Deske
 import math
 from dataclasses import dataclass
 from pathlib import Path
-from typing import Any, Dict, List, Tuple
+from typing import Any, Dict, List, Tuple, cast
 
 import numpy as np
 from PIL import Image
@@ -80,11 +80,20 @@ class PDFLoader:
 
             # Extract native PDF words and keep them synchronized with any
             # deskew rotation applied to the raster.
-            pdf_text = page.get_text("text")  # pyright: ignore[reportAttributeAccessIssue]
-            raw_words = page.get_text("words")  # pyright: ignore[reportAttributeAccessIssue]
+            pdf_text = str(
+                page.get_text("text")  # pyright: ignore[reportAttributeAccessIssue]
+            )
+            raw_words = cast(
+                list[tuple[Any, ...]],
+                page.get_text("words"),  # pyright: ignore[reportAttributeAccessIssue]
+            )
             scaled_words = []
             for w in raw_words:
-                x0, y0, x1, y1, text = w[0] * scale, w[1] * scale, w[2] * scale, w[3] * scale, w[4]
+                x0 = float(w[0]) * scale
+                y0 = float(w[1]) * scale
+                x1 = float(w[2]) * scale
+                y1 = float(w[3]) * scale
+                text = str(w[4])
                 if abs(skew_angle) >= 0.25:
                     x0, y0, x1, y1 = self._rotate_bbox(
                         (x0, y0, x1, y1),

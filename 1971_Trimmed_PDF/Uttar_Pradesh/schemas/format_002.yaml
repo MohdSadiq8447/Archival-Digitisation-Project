@@ -2,6 +2,11 @@ format_id: format_002
 name: medical_education_1971
 table_description: "Town Statement V / Directory V: Medical, Educational, Recreational and Cultural Facilities in Towns (1969-1971). Contains data on medical institutions (hospitals, dispensaries, TB clinics, health centres), hospital beds, degree colleges (arts/science/commerce), medical/engineering colleges, polytechnics, vocational institutes, secondary/primary schools, stadia, cinemas, auditoria/drama halls, and public libraries per town."
 
+hierarchy:
+  anchor_variable: hospitals_dispensaries
+  child_variables: [hospitals_dispensaries, med_beds]
+  repeat_parent_values: true
+
 panels:
   - panel_id: mededu_anchor
     page: 1
@@ -33,13 +38,13 @@ anchor_page:
     variable: hospitals_dispensaries
     data_type: integer_or_string
     description: "Number and type of medical institutions"
-    value_examples: ["H(2), D(1)", "H(1)", "D(2)", "HC(1)", "2", "Nil", "-"]
+    value_examples: ["H(2)", "D(1)", "HC(1)", "NH(1)", "TBC(1)", "FC(1)", "*O(1)", "2", "Nil", "...", "-"]
   - column_no: 4
     column_name: Beds in Medical Institutions
     variable: med_beds
     data_type: integer
     description: "Total number of beds available in medical institutions"
-    value_examples: ["1200", "450", "25", "0", "Nil", "-"]
+    value_examples: ["1200", "450", "25", "0", "Nil", "...", "-"]
   - column_no: 5
     column_name: Arts/Science/Commerce Colleges
     variable: degree_colleges

@@ -44,6 +44,7 @@ class TableValidationReport:
     table_name: str
     format_id: str
     total_rows: int
+    parent_rows_count: int
     valid_rows_count: int
     findings: list[ValidationFinding] = field(default_factory=list)
     quality: QualityComponents = field(default_factory=lambda: QualityComponents(0, 0, 0, 0))
@@ -94,9 +95,10 @@ class TableValidator:
         panel_scores: list[float],
         ocr_row_successes: int,
         ocr_row_total: int,
+        parent_row_count: int | None = None,
     ) -> TableValidationReport:
         findings: list[ValidationFinding] = []
-        expected_count = len(rows)
+        expected_count = parent_row_count if parent_row_count is not None else len(rows)
         alignment_complete = bool(rows) and all(
             count == expected_count for count in aligned_row_counts.values()
         )
@@ -132,6 +134,8 @@ class TableValidator:
             for column in schema.get_all_columns()
             if column.variable not in {"sl_no", identity_var}
         ]
+        if schema.hierarchy is not None:
+            self._validate_hierarchy(rows, schema, findings, identity_var)
         for index, row in enumerate(rows):
             for cell in row.cells:
                 if cell.raw_value.strip():
@@ -171,9 +175,10 @@ class TableValidator:
                             cell.variable,
                         )
                     )
+            first_in_parent = row.subrow_index in {None, 0}
             serial = row.values.get("sl_no")
             serial_text = str(serial or "").strip()
-            if re.fullmatch(r"\d+", serial_text):
+            if first_in_parent and re.fullmatch(r"\d+", serial_text):
                 serial_number = int(serial_text)
                 if serial_number <= last_serial:
                     findings.append(
@@ -198,7 +203,7 @@ class TableValidator:
                         identity_var,
                     )
                 )
-            elif row.row_type == "ORDINARY" and normalized_identity in seen:
+            elif first_in_parent and row.row_type == "ORDINARY" and normalized_identity in seen:
                 findings.append(
                     ValidationFinding(
                         "duplicate_identity",
@@ -208,7 +213,7 @@ class TableValidator:
                         identity_var,
                     )
                 )
-            else:
+            elif first_in_parent:
                 seen[normalized_identity] = index
             if row.row_type == "CROSS_REFERENCE":
                 ignored = {
@@ -285,6 +290,7 @@ class TableValidator:
             table_name=table_name,
             format_id=schema.format_id,
             total_rows=len(rows),
+            parent_rows_count=expected_count,
             valid_rows_count=max(0, len(rows) - len(error_rows)),
             findings=findings,
             quality=QualityComponents(geometry_score, ocr_score, parsing_score, semantic_score),
@@ -292,6 +298,86 @@ class TableValidator:
             panels_complete=panels_complete,
             alignment_complete=alignment_complete,
         )
+
+    @staticmethod
+    def _validate_hierarchy(
+        rows: list[NormalizedRow],
+        schema: TableSchema,
+        findings: list[ValidationFinding],
+        identity_var: str,
+    ) -> None:
+        hierarchy = schema.hierarchy
+        if hierarchy is None:
+            return
+        groups: dict[int, list[tuple[int, NormalizedRow]]] = {}
+        for row_index, row in enumerate(rows):
+            if row.parent_row_index is None or row.subrow_index is None or row.subrow_count is None:
+                findings.append(
+                    ValidationFinding(
+                        "hierarchy_lineage",
+                        FindingSeverity.ERROR,
+                        "Hierarchy-enabled row is missing parent/sub-row lineage",
+                        row_index,
+                    )
+                )
+                continue
+            groups.setdefault(row.parent_row_index, []).append((row_index, row))
+
+        expected_parents = list(range(len(groups)))
+        if sorted(groups) != expected_parents:
+            findings.append(
+                ValidationFinding(
+                    "hierarchy_parent_sequence",
+                    FindingSeverity.ERROR,
+                    f"Parent row indexes are not contiguous: {sorted(groups)}",
+                )
+            )
+        child_variables = set(hierarchy.child_variables)
+        for parent_index, group in sorted(groups.items()):
+            actual = [row.subrow_index for _, row in group]
+            expected = list(range(len(group)))
+            if actual != expected or any(row.subrow_count != len(group) for _, row in group):
+                findings.append(
+                    ValidationFinding(
+                        "hierarchy_subrow_sequence",
+                        FindingSeverity.ERROR,
+                        f"Parent {parent_index} has inconsistent sub-row indexes/counts",
+                        group[0][0],
+                    )
+                )
+            first_identity = str(group[0][1].values.get(identity_var) or "").strip()
+            first_serial = str(group[0][1].values.get("sl_no") or "").strip()
+            for row_index, row in group[1:]:
+                if str(row.values.get(identity_var) or "").strip() != first_identity or str(
+                    row.values.get("sl_no") or ""
+                ).strip() != first_serial:
+                    findings.append(
+                        ValidationFinding(
+                            "hierarchy_identity",
+                            FindingSeverity.ERROR,
+                            f"Parent {parent_index} does not repeat a stable identity",
+                            row_index,
+                            identity_var,
+                        )
+                    )
+            if hierarchy.repeat_parent_values:
+                first_raw = {cell.variable: cell.raw_value for cell in group[0][1].cells}
+                for row_index, row in group[1:]:
+                    raw = {cell.variable: cell.raw_value for cell in row.cells}
+                    changed = [
+                        variable
+                        for variable, value in first_raw.items()
+                        if variable not in child_variables and raw.get(variable) != value
+                    ]
+                    if changed:
+                        findings.append(
+                            ValidationFinding(
+                                "hierarchy_parent_values",
+                                FindingSeverity.ERROR,
+                                f"Parent {parent_index} has inconsistent repeated values: {changed}",
+                                row_index,
+                            )
+                        )
 
     @staticmethod
     def _validate_tahsil_totals(

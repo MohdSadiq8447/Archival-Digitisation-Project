@@ -71,6 +71,14 @@ class TableExporter:
                 )
                 record[f"{cell.variable}_flag"] = cell.review_flag
             record["requires_review"] = any(cell.review_flag for cell in row.cells)
+            if schema.hierarchy is not None:
+                record.update(
+                    {
+                        "parent_row_index": row.parent_row_index,
+                        "subrow_index": row.subrow_index,
+                        "subrow_count": row.subrow_count,
+                    }
+                )
             record.update(
                 {
                     "row_index": index,
@@ -107,6 +115,9 @@ class TableExporter:
             "row_type",
             "reference_target",
             "requires_review",
+            "parent_row_index",
+            "subrow_index",
+            "subrow_count",
         ]
         provenance = [
             "row_index",
@@ -149,6 +160,8 @@ class TableExporter:
                 "format_id": report.format_id,
                 "status": status,
                 "total_rows": report.total_rows,
+                "parent_rows": report.parent_rows_count,
+                "expanded_rows": report.total_rows,
                 "valid_rows": report.valid_rows_count,
                 "quality": {**asdict(report.quality), "overall": report.quality.overall},
                 "quality_threshold": report.quality_threshold,
@@ -183,6 +196,9 @@ class TableExporter:
             "source_page_end",
             "anchor_printed_page",
             "continuation_printed_page",
+            "parent_row_index",
+            "subrow_index",
+            "subrow_count",
         ):
             if variable in frame:
                 values = cast(pd.Series, frame[variable]).tolist()
