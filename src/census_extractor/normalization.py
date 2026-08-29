@@ -101,7 +101,12 @@ def classify_row(identity: str, serial: Any) -> tuple[str, str | None]:
     target_match = re.search(r"\bse[ec]\b\s*(.*)", name, re.IGNORECASE)
     if target_match:
         return "CROSS_REFERENCE", target_match.group(1).strip() or name
-    if "district total" in lowered or lowered == "total" or lowered.endswith(" total"):
+    if (
+        "district total" in lowered
+        or lowered == "total"
+        or lowered.endswith(" total")
+        or (not serial_text and lowered.startswith("district "))
+    ):
         return "TOTAL", None
     if re.match(r"^\(?[ivxlcdm]+\)?[.)]?\s", name, re.IGNORECASE) or re.fullmatch(
         r"\(?[ivxlcdm]+\)?", serial_text, re.IGNORECASE

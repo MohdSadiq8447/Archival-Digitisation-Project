@@ -14,6 +14,32 @@ def test_null_and_road_normalization():
     }
 
 
+def test_printed_ellipsis_remains_in_raw_cell_while_typed_value_is_null(project_config):
+    schema = SchemaRegistry(project_config.schemas_dir).require("format_002")
+    row = normalize_rows(
+        [{"sl_no": "1", "town_name": "Aligarh", "med_beds": "..."}], schema
+    )[0]
+    cell = next(cell for cell in row.cells if cell.variable == "med_beds")
+
+    assert cell.raw_value == "..."
+    assert cell.value is None
+    assert row.values["med_beds"] is None
+
+
+def test_named_district_total_with_blank_serial_is_classified_as_total(project_config):
+    schema = SchemaRegistry(project_config.schemas_dir).require("format_003")
+    total, ordinary = normalize_rows(
+        [
+            {"sl_no": "", "tahsil_name": "DISTRICT BAHRAICH"},
+            {"sl_no": "1", "tahsil_name": "District Example"},
+        ],
+        schema,
+    )
+
+    assert total.row_type == "TOTAL"
+    assert ordinary.row_type == "ORDINARY"
+
+
 def test_cross_reference_retains_target_and_clears_data(project_config):
     schema = SchemaRegistry(project_config.schemas_dir).require("format_001")
     rows = normalize_rows(
@@ -168,6 +194,27 @@ def test_invalid_integer_and_duplicate_identity_are_errors(project_config):
     codes = {finding.code for finding in report.findings}
     assert {"type_parse", "serial_progression", "duplicate_identity", "nonnegative"}.issubset(codes)
     assert not report.is_valid
+
+
+def test_low_continuation_alignment_confidence_is_structural_error(project_config):
+    schema = SchemaRegistry(project_config.schemas_dir).require("format_001")
+    normalized = normalize_rows(
+        [{"sl_no": "1", "town_name": "Agra", "road_length_km": "1"}], schema
+    )
+    report = TableValidator(quality_threshold=0).validate(
+        "low-confidence",
+        schema,
+        normalized,
+        panels_complete=True,
+        aligned_row_counts={"anchor": 1, "continuation": 1},
+        alignment_confidences={"anchor": 1.0, "continuation": 0.2},
+        panel_scores=[1, 1],
+        ocr_row_successes=2,
+        ocr_row_total=2,
+    )
+
+    assert not report.alignment_complete
+    assert any(finding.code == "panel_alignment" for finding in report.findings)
 
 
 def test_tahsil_numeric_total_is_checked(project_config):

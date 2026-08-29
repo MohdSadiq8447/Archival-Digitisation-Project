@@ -96,12 +96,17 @@ class TableValidator:
         ocr_row_successes: int,
         ocr_row_total: int,
         parent_row_count: int | None = None,
+        alignment_confidences: dict[str, float] | None = None,
     ) -> TableValidationReport:
         findings: list[ValidationFinding] = []
         expected_count = parent_row_count if parent_row_count is not None else len(rows)
         alignment_complete = bool(rows) and all(
             count == expected_count for count in aligned_row_counts.values()
         )
+        confidence_complete = all(
+            confidence >= 0.5 for confidence in (alignment_confidences or {}).values()
+        )
+        alignment_complete = alignment_complete and confidence_complete
         if not panels_complete:
             findings.append(
                 ValidationFinding(
@@ -121,7 +126,8 @@ class TableValidator:
                 ValidationFinding(
                     "panel_alignment",
                     FindingSeverity.ERROR,
-                    f"Panel row counts are not aligned: {aligned_row_counts}",
+                    "Panel rows are not structurally aligned: "
+                    f"counts={aligned_row_counts}, confidences={alignment_confidences or {}}",
                 )
             )
 

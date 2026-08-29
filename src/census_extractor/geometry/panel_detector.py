@@ -41,6 +41,16 @@ class PanelGeometry:
     matched_numbers: list[int]
     sequence_score: float
     discovery_source: str = "embedded_text"
+    body_end_source: str = "page_content"
+
+
+@dataclass(frozen=True, slots=True)
+class DetectedNote:
+    page_number: int
+    panel_id: str
+    bbox: tuple[int, int, int, int]
+    text: str
+    detection_source: str = "embedded_text"
 
 
 @dataclass(slots=True)
@@ -117,7 +127,24 @@ class PanelDetector:
             )
             geometry = self._build_geometry(page, schema, panel, candidate, all_header_ys)
             result.append(geometry)
+        self._clamp_to_selected_panels(result)
         return result
+
+    @staticmethod
+    def _clamp_to_selected_panels(panels: list[PanelGeometry]) -> None:
+        """Use the next selected same-page panel as an authoritative table boundary."""
+        by_page: dict[int, list[PanelGeometry]] = {}
+        for panel in panels:
+            by_page.setdefault(panel.page_number, []).append(panel)
+        for page_panels in by_page.values():
+            ordered = sorted(page_panels, key=lambda item: item.header_bbox[1])
+            for current, following in zip(ordered, ordered[1:], strict=False):
+                padding = max(4, round((current.header_bbox[3] - current.header_bbox[1]) * 0.08))
+                bottom = following.header_bbox[1] - padding
+                if current.body_bbox[1] < bottom < current.body_bbox[3]:
+                    current.body_bbox = (*current.body_bbox[:3], bottom)
+                    current.table_bbox = (*current.table_bbox[:3], bottom)
+                    current.body_end_source = f"next_panel:{following.definition.panel_id}"
 
     def _find_candidates(self, page: RenderedPage, panel: PanelDefinition) -> list[_Candidate]:
         tokens: list[NumberToken] = []
@@ -140,7 +167,7 @@ class PanelDetector:
 
         candidates: list[_Candidate] = []
         for group in groups:
-            ordered = sorted(group, key=lambda item: item.center_x)
+            ordered = self._augment_fuzzy_header_tokens(page, panel, group, tolerance)
             # One value per physical x position; noisy text layers sometimes
             # duplicate a glyph in adjacent blocks.
             deduplicated: list[NumberToken] = []
@@ -157,6 +184,65 @@ class PanelDetector:
                 continue
             candidates.append(_Candidate(deduplicated, score, heading_score))
         return candidates
+
+    @staticmethod
+    def _augment_fuzzy_header_tokens(
+        page: RenderedPage,
+        panel: PanelDefinition,
+        known: list[NumberToken],
+        tolerance: int,
+    ) -> list[NumberToken]:
+        """Recover short OCR-confused header numbers by their ordinal position."""
+        if len(known) < 2:
+            return sorted(known, key=lambda item: item.center_x)
+        center_y = median(token.center_y for token in known)
+        known_bboxes = {token.bbox for token in known}
+        fuzzy: list[tuple[str, tuple[int, int, int, int]]] = []
+        for word in page.pdf_words:
+            raw_bbox = word["bbox"]
+            bbox = (
+                int(raw_bbox[0]),
+                int(raw_bbox[1]),
+                int(raw_bbox[2]),
+                int(raw_bbox[3]),
+            )
+            if bbox in known_bboxes:
+                continue
+            word_center_y = (bbox[1] + bbox[3]) / 2
+            compact = re.sub(r"[^a-z0-9]", "", str(word["text"]).casefold())
+            if (
+                abs(word_center_y - center_y) <= tolerance
+                and compact
+                and len(compact) <= 3
+            ):
+                fuzzy.append((str(word["text"]), bbox))
+        items: list[tuple[NumberToken | None, str, tuple[int, int, int, int]]] = [
+            (token, token.text, token.bbox) for token in known
+        ]
+        items.extend((None, text, bbox) for text, bbox in fuzzy)
+        items.sort(key=lambda item: (item[2][0] + item[2][2]) / 2)
+        expected_indexes = {value: index for index, value in enumerate(panel.printed_columns)}
+        offsets = {
+            expected_indexes[item[0].value] - index
+            for index, item in enumerate(items)
+            if item[0] is not None and item[0].value in expected_indexes
+        }
+        if len(offsets) != 1:
+            return sorted(known, key=lambda item: item.center_x)
+        offset = offsets.pop()
+        recovered = list(known)
+        known_values = {token.value for token in known}
+        for index, (token, text, bbox) in enumerate(items):
+            expected_index = index + offset
+            if token is not None or not 0 <= expected_index < len(panel.printed_columns):
+                continue
+            expected_value = panel.printed_columns[expected_index]
+            if (
+                expected_value not in known_values
+                and expected_value not in set(panel.identity_columns)
+            ):
+                recovered.append(NumberToken(expected_value, text, bbox))
+        return sorted(recovered, key=lambda item: item.center_x)
 
     @staticmethod
     def _parse_number(text: str) -> int | None:
@@ -210,7 +296,7 @@ class PanelDetector:
         schema: TableSchema,
         panel: PanelDefinition,
         candidate: _Candidate,
-        header_ys: list[float],
+        _header_ys: list[float],
     ) -> PanelGeometry:
         tokens_by_value = self._align_tokens(panel.printed_columns, candidate.tokens)
         known_indices = [
@@ -238,17 +324,15 @@ class PanelDetector:
         header_top = min(token.bbox[1] for token in candidate.tokens)
         header_bottom = max(token.bbox[3] for token in candidate.tokens)
         body_top = min(page.height, header_bottom + max(5, page.dpi // 60))
-        later_headers = [
-            value for value in header_ys if value > candidate.center_y + page.dpi * 0.3
-        ]
-        body_bottom = (
-            int(later_headers[0] - page.dpi * 0.35)
-            if later_headers
-            else self._content_bottom(page, body_top)
-        )
-        next_title = self._next_section_title(page, body_top)
-        if next_title is not None:
-            body_bottom = min(body_bottom, next_title - max(4, page.dpi // 30))
+        body_bottom = self._content_bottom(page, body_top)
+        body_end_source = "page_content"
+        next_section = self._next_section_boundary(page, body_top)
+        if next_section is not None:
+            next_title, next_source = next_section
+            next_bottom = next_title - max(4, page.dpi // 30)
+            if next_bottom < body_bottom:
+                body_bottom = next_bottom
+                body_end_source = next_source
         if body_bottom <= body_top:
             raise PanelDiscoveryError(f"Empty body for panel {panel.panel_id}")
 
@@ -290,6 +374,7 @@ class PanelDetector:
             columns=columns,
             matched_numbers=sorted(tokens_by_value),
             sequence_score=candidate.score,
+            body_end_source=body_end_source,
         )
 
     @staticmethod
@@ -391,11 +476,113 @@ class PanelDetector:
 
     @staticmethod
     def _next_section_title(page: RenderedPage, body_top: int) -> int | None:
-        title_words = {"statement", "directory", "appendix"}
-        ys = [
-            int(word["bbox"][1])
+        boundary = PanelDetector._next_section_boundary(page, body_top)
+        return boundary[0] if boundary is not None else None
+
+    @staticmethod
+    def _line_groups(page: RenderedPage, minimum_y: int = 0) -> list[list[dict]]:
+        words = [
+            word
             for word in page.pdf_words
-            if str(word["text"]).casefold().strip(".,:-") in title_words
-            and word["bbox"][1] > body_top + page.dpi * 0.35
+            if (word["bbox"][1] + word["bbox"][3]) / 2 >= minimum_y
         ]
-        return min(ys) if ys else None
+        if not words:
+            return []
+        tolerance = max(5, page.dpi // 50)
+        groups: list[list[dict]] = []
+        for word in sorted(words, key=lambda item: ((item["bbox"][1] + item["bbox"][3]) / 2, item["bbox"][0])):
+            center = (word["bbox"][1] + word["bbox"][3]) / 2
+            if not groups:
+                groups.append([word])
+                continue
+            previous_center = sum(
+                (item["bbox"][1] + item["bbox"][3]) / 2 for item in groups[-1]
+            ) / len(groups[-1])
+            if abs(center - previous_center) <= tolerance:
+                groups[-1].append(word)
+            else:
+                groups.append([word])
+        return groups
+
+    @staticmethod
+    def _next_section_boundary(page: RenderedPage, body_top: int) -> tuple[int, str] | None:
+        """Find a later table, note, or printer footer from whole-line heading cues."""
+        minimum_y = body_top + page.dpi * 0.35
+        heading_patterns = (
+            (r"\b(?:statemen(?:t|r)?|directory|appendix)\b", "section_title"),
+            (r"\bbanking\b", "next_table:banking"),
+            (r"\bcultural\s+facilit", "next_table:cultural_facilities"),
+            (
+                r"\bco\s*mmunications?\b|\bcommunica\s*tions?\b|\bcommunications?\b",
+                "next_panel:communications",
+            ),
+            (r"\bpower\s+supply\b", "next_panel:power_water"),
+            (r"\bamenit(?:y|ies)\b", "next_panel:amenities"),
+            (r"\btrade\b|\bindustr(?:y|ial)\b", "next_table:trade_industry"),
+            (r"\bnotes?\b|\bsource\b|\bdenotes?\b", "note"),
+            (r"\bpsup\b|\bbooks?\b.*\b(?:pp|census)\b", "publication_footer"),
+        )
+        candidates: list[tuple[int, str]] = []
+        for group in PanelDetector._line_groups(page, int(minimum_y)):
+            ordered = sorted(group, key=lambda item: item["bbox"][0])
+            text = " ".join(str(item["text"]) for item in ordered)
+            normalized = " ".join(re.findall(r"[a-z0-9]+", text.casefold()))
+            if not normalized:
+                continue
+            y0 = min(int(item["bbox"][1]) for item in group)
+            for pattern, source in heading_patterns:
+                if re.search(pattern, normalized):
+                    candidates.append((y0, source))
+                    break
+        return min(candidates, default=None, key=lambda item: item[0])
+
+    @staticmethod
+    def capture_notes(
+        pages: list[RenderedPage], panels: list[PanelGeometry]
+    ) -> list[DetectedNote]:
+        """Retain explanatory source notes as metadata without creating data rows."""
+        notes: list[DetectedNote] = []
+        panels_by_page: dict[int, list[PanelGeometry]] = {}
+        for panel in panels:
+            panels_by_page.setdefault(panel.page_number, []).append(panel)
+        for page in pages:
+            page_panels = panels_by_page.get(page.page_number, [])
+            for group in PanelDetector._line_groups(page):
+                ordered = sorted(group, key=lambda item: item["bbox"][0])
+                text = " ".join(str(item["text"]) for item in ordered).strip()
+                normalized = " ".join(re.findall(r"[a-z0-9*]+", text.casefold()))
+                is_note = bool(
+                    re.search(
+                        r"(?:^|\s)notes?(?:\s|$)|\bdenotes?\b|"
+                        r"\bn\s+a\b.*\bnot\s+ava",
+                        normalized,
+                    )
+                    or re.match(r"^\s*source\s*[:\-–—]", text, re.IGNORECASE)
+                    or (
+                        re.match(r"^\s*(?:\*|•|�)", text)
+                        and re.search(r"maternity\s*&?\s*child\s+welfare", text, re.IGNORECASE)
+                    )
+                )
+                if not is_note:
+                    continue
+                x0 = min(int(item["bbox"][0]) for item in group)
+                y0 = min(int(item["bbox"][1]) for item in group)
+                x1 = max(int(item["bbox"][2]) for item in group)
+                y1 = max(int(item["bbox"][3]) for item in group)
+                candidates = [
+                    panel
+                    for panel in page_panels
+                    if panel.body_bbox[1] <= y0 <= panel.body_bbox[3] + page.dpi * 0.3
+                ]
+                panel = max(candidates, key=lambda item: item.body_bbox[1], default=None)
+                if panel is None:
+                    continue
+                notes.append(
+                    DetectedNote(
+                        page_number=page.page_number,
+                        panel_id=panel.definition.panel_id,
+                        bbox=(x0, y0, x1, y1),
+                        text=text,
+                    )
+                )
+        return notes

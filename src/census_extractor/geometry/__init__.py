@@ -4,7 +4,7 @@ Geometric Analysis: Row Segmentation, Column Boundary Estimation, and Continuati
 
 from .aligner import ContinuationAligner, MatchedRowPair
 from .column_detector import ColumnSpan
-from .panel_detector import PanelDetector, PanelDiscoveryError, PanelGeometry
+from .panel_detector import DetectedNote, PanelDetector, PanelDiscoveryError, PanelGeometry
 from .row_segmenter import RowCrop, RowSegmenter
 
 __all__ = [
@@ -14,6 +14,7 @@ __all__ = [
     "ContinuationAligner",
     "MatchedRowPair",
     "PanelDetector",
+    "DetectedNote",
     "PanelDiscoveryError",
     "PanelGeometry",
 ]

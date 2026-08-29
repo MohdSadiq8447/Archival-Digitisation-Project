@@ -17,6 +17,7 @@ from census_extractor.config import PipelineConfig, default_config
 from census_extractor.geometry.aligner import ContinuationAligner
 from census_extractor.geometry.column_detector import ColumnSpan
 from census_extractor.geometry.panel_detector import (
+    DetectedNote,
     PanelDetector,
     PanelDiscoveryError,
     PanelGeometry,
@@ -63,6 +64,7 @@ class ExtractionSummary:
     exported_files: dict[str, Path] = field(default_factory=dict)
     cache_metrics: dict[str, int] = field(default_factory=dict)
     actionable_failures: list[str] = field(default_factory=list)
+    notes: list[dict[str, Any]] = field(default_factory=list)
     error_message: str | None = None
 
     @property
@@ -147,7 +149,14 @@ class PipelineRunner:
             panels = await self._discover_panels(
                 pages, schema, metadata, pdf_sha256, audit_records, is_dry_run
             )
-            panel_rows = self._segment_and_align_rows(pages, schema, panels)
+            notes = self.panel_detector.capture_notes(pages, panels)
+            note_payload = [asdict(note) for note in notes]
+            audit_records.extend(
+                {"record_type": "source_note", **record} for record in note_payload
+            )
+            panel_rows = self._segment_and_align_rows(
+                pages, schema, panels, audit_records
+            )
             anchor_count = len(panel_rows[schema.row_anchor_panel.panel_id])
             if anchor_count == 0:
                 raise PanelDiscoveryError("Anchor panel contains zero usable data rows")
@@ -165,11 +174,12 @@ class PipelineRunner:
                 panel_rows,
                 hierarchy_rows,
                 pdf_sha256,
+                notes,
             )
             geometry_path = self.exporter.write_geometry(metadata.pdf_id, geometry_payload)
             if save_viz:
                 self._save_visualizations(
-                    metadata, pages, panels, panel_rows, hierarchy_rows
+                    metadata, pages, panels, panel_rows, hierarchy_rows, notes
                 )
             if is_dry_run:
                 summary = ExtractionSummary(
@@ -188,6 +198,7 @@ class PipelineRunner:
                     },
                     exported_files={"geometry": geometry_path},
                     cache_metrics={"hits": 0, "misses": 0},
+                    notes=note_payload,
                 )
                 await self._record_summary(summary)
                 return summary
@@ -258,6 +269,7 @@ class PipelineRunner:
                     for finding in report.findings
                     if finding.severity.value == "ERROR"
                 ],
+                notes=note_payload,
             )
             await self._record_summary(summary)
             return summary
@@ -349,13 +361,17 @@ class PipelineRunner:
         return words
 
     def _segment_and_align_rows(
-        self, pages: list[RenderedPage], schema: TableSchema, panels: list[PanelGeometry]
+        self,
+        pages: list[RenderedPage],
+        schema: TableSchema,
+        panels: list[PanelGeometry],
+        audit: list[dict[str, Any]] | None = None,
     ) -> dict[str, list[RowCrop]]:
         by_id = {panel.definition.panel_id: panel for panel in panels}
         anchor_geometry = by_id[schema.row_anchor_panel.panel_id]
         anchor_page = pages[anchor_geometry.page_number - 1]
         anchor_rows = self.row_segmenter.segment_rows(anchor_page, self._boundary(anchor_geometry))
-        if schema.hierarchy is not None and len(schema.row_anchor_panel.identity_columns) >= 2:
+        if len(schema.row_anchor_panel.identity_columns) >= 2:
             serial_number, name_number = schema.row_anchor_panel.identity_columns[:2]
             serial_span = next(
                 (span for span in anchor_geometry.columns if span.column_no == serial_number),
@@ -397,32 +413,50 @@ class PipelineRunner:
                 anchor_rows = self._widen_rows(
                     anchor_page, identity_rows, anchor_geometry.body_bbox
                 )
-        if schema.hierarchy is not None:
-            anchor_rows = self._exclude_hierarchy_notes(
-                anchor_page, anchor_geometry, anchor_rows
-            )
+        anchor_rows = self._exclude_note_rows(anchor_page, anchor_geometry, anchor_rows)
         for index, row in enumerate(anchor_rows):
             row.row_index = index
         result = {schema.row_anchor_panel.panel_id: anchor_rows}
+        if audit is not None:
+            audit.append(self._row_segmentation_audit(anchor_geometry, anchor_rows))
         for definition in schema.panels:
             if definition.row_anchor:
                 continue
             geometry = by_id[definition.panel_id]
             page = pages[geometry.page_number - 1]
-            candidates = self.row_segmenter.segment_rows(page, self._boundary(geometry))
-            pairs = self.aligner.align_rows(anchor_rows, candidates)
-            aligned = [pair.continuation_row for pair in pairs if pair.continuation_row is not None]
+            aligned: list[RowCrop] = []
+            if len(definition.identity_columns) >= 2:
+                serial_number, name_number = definition.identity_columns[:2]
+                serial_span = next(
+                    (span for span in geometry.columns if span.column_no == serial_number), None
+                )
+                name_span = next(
+                    (span for span in geometry.columns if span.column_no == name_number), None
+                )
+                if serial_span is not None and name_span is not None:
+                    aligned = self.row_segmenter.segment_parent_rows_from_identity(
+                        page,
+                        self._boundary(geometry),
+                        (serial_span.x_start, serial_span.x_end),
+                        (name_span.x_start, name_span.x_end),
+                    )
+                    aligned = self._exclude_note_rows(page, geometry, aligned)
             if len(aligned) != len(anchor_rows):
-                aligned = self.row_segmenter.project_rows(
-                    page, anchor_rows, anchor_geometry.body_bbox, geometry.body_bbox
+                aligned = self.row_segmenter.segment_expected_rows(
+                    page,
+                    self._boundary(geometry),
+                    len(anchor_rows),
+                    anchor_rows,
                 )
             for index, row in enumerate(aligned):
                 row.row_index = index
             result[definition.panel_id] = aligned
+            if audit is not None:
+                audit.append(self._row_segmentation_audit(geometry, aligned))
         return result
 
     @staticmethod
-    def _exclude_hierarchy_notes(
+    def _exclude_note_rows(
         page: RenderedPage,
         anchor_geometry: PanelGeometry,
         rows: list[RowCrop],
@@ -454,6 +488,28 @@ class PipelineRunner:
                 continue
             retained.append(row)
         return retained
+
+    @staticmethod
+    def _row_segmentation_audit(
+        panel: PanelGeometry, rows: list[RowCrop]
+    ) -> dict[str, Any]:
+        return {
+            "record_type": "row_segmentation",
+            "panel_id": panel.definition.panel_id,
+            "page_number": panel.page_number,
+            "body_end_source": panel.body_end_source,
+            "row_count": len(rows),
+            "rows": [
+                {
+                    "row_index": row.row_index,
+                    "bbox": row.bbox,
+                    "source": row.source,
+                    "alignment_confidence": row.alignment_confidence,
+                    "interpolated": row.interpolated,
+                }
+                for row in rows
+            ],
+        }
 
     def _segment_hierarchy_rows(
         self,
@@ -590,11 +646,25 @@ class PipelineRunner:
                 if result.has_usable_boxes
                 else {}
             )
+            repeated_grounding = self._has_repeated_grounded_row(result, panel)
             if panel.definition.row_anchor:
                 assigned = self._apply_anchor_identity(schema, panel, ocr_bbox, result, assigned)
+                assigned = self._apply_embedded_anchor_identity(
+                    pages[panel.page_number - 1], schema, panel, row.bbox, assigned
+                )
             elif self._is_cross_reference(raw_rows[row.row_index], schema):
                 continue
-            if not result.has_usable_boxes:
+            if not result.has_usable_boxes or repeated_grounding:
+                if repeated_grounding:
+                    audit.append(
+                        {
+                            "record_type": "row_ocr_recovery",
+                            "panel_id": panel.definition.panel_id,
+                            "row_index": row.row_index,
+                            "reason": "repeated_grounded_row",
+                            "fallback": "strict_cell_ocr",
+                        }
+                    )
                 assigned.update(
                     await self._fallback_entire_row(
                         pages[panel.page_number - 1],
@@ -605,6 +675,37 @@ class PipelineRunner:
                         audit,
                     )
                 )
+            else:
+                crossed = self._cross_boundary_variables(
+                    schema, panel, result, ocr_bbox
+                )
+                joined_recovery = self._recover_joined_numeric_cells(
+                    schema, panel, result, ocr_bbox
+                )
+                if joined_recovery:
+                    assigned.update(joined_recovery)
+                    crossed.difference_update(joined_recovery)
+                    audit.append(
+                        {
+                            "record_type": "cross_boundary_recovery",
+                            "panel_id": panel.definition.panel_id,
+                            "row_index": row.row_index,
+                            "source": "grounded_token_comma_partition",
+                            "values": joined_recovery,
+                        }
+                    )
+                if crossed:
+                    assigned.update(
+                        await self._fallback_entire_row(
+                            pages[panel.page_number - 1],
+                            schema,
+                            panel,
+                            row,
+                            pdf_sha256,
+                            audit,
+                            variables=crossed,
+                        )
+                    )
             if panel.definition.row_anchor and not self._is_cross_reference(assigned, schema):
                 await self._refine_night_soil_column(
                     pages[panel.page_number - 1],
@@ -871,9 +972,9 @@ class PipelineRunner:
         for column in columns:
             span = spans_by_number[column.column_no]
             bbox = (
-                max(0, span.x_start - self.config.crop_padding_px),
+                max(0, span.x_start),
                 subrow.bbox[1],
-                min(page.width, span.x_end + self.config.crop_padding_px),
+                min(page.width, span.x_end),
                 subrow.bbox[3],
             )
             context = OCRRequestContext(
@@ -1036,18 +1137,15 @@ class PipelineRunner:
         row: RowCrop,
         pdf_sha256: str,
         audit: list[dict[str, Any]],
+        variables: set[str] | None = None,
     ) -> dict[str, str]:
         values: dict[str, str] = {}
+        strict_bboxes = self._strict_cell_bboxes(page, panel, row.bbox)
         for span in panel.columns:
             column = schema.get_column_by_no(span.column_no)
-            if column is None:
+            if column is None or (variables is not None and column.variable not in variables):
                 continue
-            bbox = (
-                max(0, span.x_start - 4),
-                max(0, row.bbox[1] - 4),
-                min(page.width, span.x_end + 4),
-                min(page.height, row.bbox[3] + 4),
-            )
+            bbox = strict_bboxes[span.column_no]
             image = page.image.crop(bbox)
             context = OCRRequestContext(
                 pdf_sha256,
@@ -1059,15 +1157,192 @@ class PipelineRunner:
             )
             result = await self.ocr_client.ocr_cell_async(image, context)
             text = self._cell_text(result)
+            embedded = self._cell_text(
+                OCRResult(
+                    row.row_index,
+                    panel.page_number,
+                    self._embedded_hierarchy_cell_text(page, bbox),
+                )
+            )
+            selected_source = "cell_free_ocr"
+            if not text.strip() and embedded.strip():
+                text = embedded
+                selected_source = "embedded_text"
             audit.append(
                 {
                     "record_type": "cell_fallback",
                     "variable": column.variable,
+                    "embedded_candidate": embedded,
+                    "selected_source": selected_source,
+                    "selected_value": text,
                     **self.ocr_client.audit_record(result),
                 }
             )
             values[column.variable] = text
         return values
+
+    @staticmethod
+    def _strict_cell_bboxes(
+        page: RenderedPage,
+        panel: PanelGeometry,
+        row_bbox: tuple[int, int, int, int],
+    ) -> dict[int, tuple[int, int, int, int]]:
+        """Move midpoint boundaries into observed inter-cell whitespace gaps."""
+        if not panel.columns:
+            return {}
+        y0, y1 = max(0, row_bbox[1]), min(page.height, row_bbox[3])
+        words = [
+            word
+            for word in page.pdf_words
+            if y0 <= (word["bbox"][1] + word["bbox"][3]) / 2 <= y1
+        ]
+        boundaries = [panel.columns[0].x_start]
+        for left, right in zip(panel.columns, panel.columns[1:], strict=False):
+            nominal = left.x_end
+            left_words = [
+                word
+                for word in words
+                if left.x_start
+                <= (word["bbox"][0] + word["bbox"][2]) / 2
+                <= nominal
+            ]
+            right_words = [
+                word
+                for word in words
+                if nominal
+                < (word["bbox"][0] + word["bbox"][2]) / 2
+                <= right.x_end
+            ]
+            boundary = nominal
+            if left_words and right_words:
+                left_edge = max(int(word["bbox"][2]) for word in left_words)
+                right_edge = min(int(word["bbox"][0]) for word in right_words)
+                candidate = (left_edge + right_edge) // 2
+                maximum_shift = max(
+                    4,
+                    round(min(left.x_end - left.x_start, right.x_end - right.x_start) * 0.3),
+                )
+                if left_edge < right_edge and abs(candidate - nominal) <= maximum_shift:
+                    boundary = candidate
+            boundaries.append(boundary)
+        boundaries.append(panel.columns[-1].x_end)
+        return {
+            span.column_no: (
+                max(0, boundaries[index]),
+                y0,
+                min(page.width, boundaries[index + 1]),
+                y1,
+            )
+            for index, span in enumerate(panel.columns)
+        }
+
+    @staticmethod
+    def _cross_boundary_variables(
+        schema: TableSchema,
+        panel: PanelGeometry,
+        result: OCRResult,
+        row_bbox: tuple[int, int, int, int],
+    ) -> set[str]:
+        """Find data columns touched by a multi-value token crossing a cell boundary."""
+        identity_numbers = set(panel.definition.identity_columns)
+        targets: set[str] = set()
+        for token in result.tokens:
+            if token.bbox is None or token.coordinate_system != "normalized_1000":
+                continue
+            numeric_parts = re.findall(r"\d[\d,]*(?:\.\d+)?|\.{2,}|[-–—]", token.text)
+            malformed_join = bool(
+                re.fullmatch(r"\d[\d,]*", token.text.strip())
+                and "," in token.text
+                and not re.fullmatch(r"(?:\d{1,3}(?:,\d{3})+|\d+)", token.text.strip())
+            )
+            if len(numeric_parts) < 2 and not malformed_join:
+                continue
+            absolute = ColumnAssigner.scale_bbox_1000(token.bbox, row_bbox)
+            for left, right in zip(panel.columns, panel.columns[1:], strict=False):
+                boundary = left.x_end
+                if absolute[0] < boundary - 2 and absolute[2] > boundary + 2:
+                    for span in (left, right):
+                        column = schema.get_column_by_no(span.column_no)
+                        if column is not None and span.column_no not in identity_numbers:
+                            targets.add(column.variable)
+        return targets
+
+    @staticmethod
+    def _recover_joined_numeric_cells(
+        schema: TableSchema,
+        panel: PanelGeometry,
+        result: OCRResult,
+        row_bbox: tuple[int, int, int, int],
+    ) -> dict[str, str]:
+        """Split two valid integers that OCR joined across one physical boundary."""
+        recovered: dict[str, str] = {}
+        identity_numbers = set(panel.definition.identity_columns)
+        integer_pattern = re.compile(r"(?:\d+|\d{1,3}(?:,\d{3})+)")
+        for token in result.tokens:
+            if token.bbox is None or token.coordinate_system != "normalized_1000":
+                continue
+            text = token.text.strip()
+            if not re.fullmatch(r"\d[\d,]*", text) or "," not in text:
+                continue
+            if integer_pattern.fullmatch(text):
+                continue
+            groups = text.split(",")
+            partitions = [
+                (",".join(groups[:index]), ",".join(groups[index:]))
+                for index in range(1, len(groups))
+                if integer_pattern.fullmatch(",".join(groups[:index]))
+                and integer_pattern.fullmatch(",".join(groups[index:]))
+            ]
+            if len(partitions) != 1:
+                continue
+            absolute = ColumnAssigner.scale_bbox_1000(token.bbox, row_bbox)
+            crossed_pairs = [
+                (left, right)
+                for left, right in zip(panel.columns, panel.columns[1:], strict=False)
+                if absolute[0] < left.x_end - 2 and absolute[2] > left.x_end + 2
+            ]
+            if not crossed_pairs:
+                continue
+            token_centre = (absolute[0] + absolute[2]) / 2
+            left, right = min(
+                crossed_pairs, key=lambda pair: abs(pair[0].x_end - token_centre)
+            )
+            if abs(left.x_end - token_centre) > max(
+                left.x_end - left.x_start, right.x_end - right.x_start
+            ) * 0.5:
+                continue
+            left_column = schema.get_column_by_no(left.column_no)
+            right_column = schema.get_column_by_no(right.column_no)
+            if (
+                left_column is None
+                or right_column is None
+                or left.column_no in identity_numbers
+                or right.column_no in identity_numbers
+                or left_column.data_type != "integer"
+                or right_column.data_type != "integer"
+            ):
+                continue
+            left_value, right_value = partitions[0]
+            recovered[left_column.variable] = left_value
+            recovered[right_column.variable] = right_value
+        return recovered
+
+    @staticmethod
+    def _has_repeated_grounded_row(result: OCRResult, panel: PanelGeometry) -> bool:
+        """Detect OCR that vertically tiles one thin printed row in its response."""
+        if not result.has_usable_boxes or len(result.tokens) < len(panel.columns) * 2:
+            return False
+        occurrences: dict[tuple[str, int], int] = {}
+        for token in result.tokens:
+            assert token.bbox is not None
+            text = " ".join(token.text.casefold().split())
+            if not text:
+                continue
+            centre_x_bucket = round(((token.bbox[0] + token.bbox[2]) / 2) / 20)
+            key = (text, centre_x_bucket)
+            occurrences[key] = occurrences.get(key, 0) + 1
+        repeated_positions = sum(count >= 3 for count in occurrences.values())
+        return repeated_positions >= max(2, len(panel.columns) // 3)
 
     async def _retry_failing_cells(
         self,
@@ -1123,12 +1398,7 @@ class PipelineRunner:
                 row_bbox = candidates[subrow_index].bbox
             else:
                 row_bbox = panel_rows[located.definition.panel_id][parent_index].bbox
-            bbox = (
-                max(0, span.x_start - 4),
-                max(0, row_bbox[1] - 4),
-                min(page.width, span.x_end + 4),
-                min(page.height, row_bbox[3] + 4),
-            )
+            bbox = self._strict_cell_bboxes(page, located, row_bbox)[span.column_no]
             context = OCRRequestContext(
                 pdf_sha256,
                 bbox,
@@ -1139,12 +1409,26 @@ class PipelineRunner:
             )
             result = await self.ocr_client.ocr_cell_async(page.image.crop(bbox), context)
             text = self._cell_text(result)
+            embedded = self._cell_text(
+                OCRResult(
+                    row_index,
+                    located.page_number,
+                    self._embedded_hierarchy_cell_text(page, bbox),
+                )
+            )
+            selected_source = "cell_free_ocr"
+            if not text.strip() and embedded.strip():
+                text = embedded
+                selected_source = "embedded_text"
             audit.append(
                 {
                     "record_type": "validation_cell_retry",
                     "variable": variable,
                     "parent_row_index": parent_index,
                     "subrow_index": subrow_index if child_scoped else None,
+                    "embedded_candidate": embedded,
+                    "selected_source": selected_source,
+                    "selected_value": text,
                     **self.ocr_client.audit_record(result),
                 }
             )
@@ -1219,6 +1503,64 @@ class PipelineRunner:
         assigned[name_column.variable] = " ".join(name_parts).strip()
         return assigned
 
+    @classmethod
+    def _apply_embedded_anchor_identity(
+        cls,
+        page: RenderedPage,
+        schema: TableSchema,
+        panel: PanelGeometry,
+        row_bbox: tuple[int, int, int, int],
+        assigned: dict[str, str],
+    ) -> dict[str, str]:
+        """Prefer embedded identity cells while retaining spanning references."""
+        identity_numbers = panel.definition.identity_columns
+        if len(identity_numbers) < 2:
+            return assigned
+        serial_column = schema.get_column_by_no(identity_numbers[0])
+        name_column = schema.get_column_by_no(identity_numbers[1])
+        spans = {span.column_no: span for span in panel.columns}
+        if (
+            serial_column is None
+            or name_column is None
+            or serial_column.column_no not in spans
+            or name_column.column_no not in spans
+        ):
+            return assigned
+        serial_span = spans[serial_column.column_no]
+        serial_text = cls._embedded_hierarchy_cell_text(
+            page,
+            (serial_span.x_start, row_bbox[1], serial_span.x_end, row_bbox[3]),
+        )
+        serial_value = serial_text.strip()
+        if not re.fullmatch(
+            r"(?:\d+|\(?[ivxlcdm]+\)?[.)]?)", serial_value, re.IGNORECASE
+        ):
+            embedded_candidates = re.findall(
+                r"\([ivxlcdm]+\)|\b\d+\b", serial_value, re.IGNORECASE
+            )
+            serial_value = embedded_candidates[0] if len(embedded_candidates) == 1 else ""
+        current_serial = str(assigned.get(serial_column.variable, "")).strip()
+        current_is_valid = bool(
+            re.fullmatch(
+                r"(?:\d+|\(?[ivxlcdm]+\)?[.)]?)", current_serial, re.IGNORECASE
+            )
+        )
+        embedded_is_component = bool(
+            re.fullmatch(r"\([ivxlcdm]+\)", serial_value, re.IGNORECASE)
+        )
+        if serial_value and (embedded_is_component or not current_is_valid):
+            assigned[serial_column.variable] = serial_value
+        if cls._is_cross_reference(assigned, schema):
+            return assigned
+        name_span = spans[name_column.column_no]
+        name_text = cls._embedded_hierarchy_cell_text(
+            page,
+            (name_span.x_start, row_bbox[1], name_span.x_end, row_bbox[3]),
+        )
+        if name_text.strip():
+            assigned[name_column.variable] = name_text.strip()
+        return assigned
+
     @staticmethod
     def _is_cross_reference(row: dict[str, Any], schema: TableSchema) -> bool:
         identity_var = "town_name" if schema.get_column_by_var("town_name") else "tahsil_name"
@@ -1232,12 +1574,41 @@ class PipelineRunner:
         lowered = text.casefold()
         leakage_markers = (
             "<table>",
+            "does not contain any data",
             "expected-value examples",
+            "expected value",
+            "field | expected",
+            "formulas, or tables",
+            "no. of villages",
+            "number of villages",
+            "villages having",
+            "pucca road",
+            "kachcha road",
+            "post office",
+            "telegraph office",
+            "post and telegraph",
+            "post & telegraph",
+            "power supply",
+            "drinking water",
             "possible printed forms",
             "return only the visible cell text",
+            "title slide",
+            "title page",
+            "cover page",
+            "panel:",
             "this is an archival 1971",
+            "ambiguous_ocr",
+            "ambiguous historic",
+            "parse_error",
+            "review_flag",
+            "expected integer",
+            "validation finding",
         )
-        if len(text) > 250 or any(marker in lowered for marker in leakage_markers):
+        explanatory = re.match(
+            r"^(?:the|this)\s+(?:image|cell|value)\b|^i\s+(?:can(?:not|'t)|see)\b",
+            lowered,
+        )
+        if len(text) > 250 or explanatory or any(marker in lowered for marker in leakage_markers):
             result.parse_issues.append("Rejected probable schema/prompt leakage from cell OCR")
             return ""
         return text
@@ -1264,6 +1635,12 @@ class PipelineRunner:
             ),
             ocr_row_total=len(results),
             parent_row_count=len(panel_rows[schema.row_anchor_panel.panel_id]),
+            alignment_confidences={
+                panel_id: min(
+                    (row.alignment_confidence for row in rows), default=0.0
+                )
+                for panel_id, rows in panel_rows.items()
+            },
         )
 
     def _panel_quality(self, panel: PanelGeometry) -> float:
@@ -1299,6 +1676,7 @@ class PipelineRunner:
         panel_rows: dict[str, list[RowCrop]],
         hierarchy_rows: dict[int, list[SubRowCrop]],
         pdf_sha256: str,
+        notes: list[DetectedNote] | None = None,
     ) -> dict[str, Any]:
         parent_row_count = len(panel_rows[schema.row_anchor_panel.panel_id])
         expanded_row_count = (
@@ -1315,10 +1693,21 @@ class PipelineRunner:
                 "matched_numbers": panel.matched_numbers,
                 "sequence_score": panel.sequence_score,
                 "source": panel.discovery_source,
+                "body_end_source": panel.body_end_source,
                 "table_bbox": panel.table_bbox,
                 "header_bbox": panel.header_bbox,
                 "body_bbox": panel.body_bbox,
                 "row_count": len(panel_rows[panel.definition.panel_id]),
+                "rows": [
+                    {
+                        "row_index": row.row_index,
+                        "bbox": row.bbox,
+                        "source": row.source,
+                        "alignment_confidence": row.alignment_confidence,
+                        "interpolated": row.interpolated,
+                    }
+                    for row in panel_rows[panel.definition.panel_id]
+                ],
                 "row_bboxes": [row.bbox for row in panel_rows[panel.definition.panel_id]],
                 "column_centers": {
                     span.column_no: (span.x_start + span.x_end) / 2
@@ -1355,6 +1744,7 @@ class PipelineRunner:
             "page_count": len(pages),
             "parent_row_count": parent_row_count,
             "expanded_row_count": expanded_row_count,
+            "notes": [asdict(note) for note in notes or []],
             "panels": panel_payloads,
             "provenance": metadata.provenance_dict(),
         }
@@ -1366,6 +1756,7 @@ class PipelineRunner:
         panels: list[PanelGeometry],
         panel_rows: dict[str, list[RowCrop]],
         hierarchy_rows: dict[int, list[SubRowCrop]],
+        notes: list[DetectedNote] | None = None,
     ) -> None:
         target = self.layout.viz / metadata.pdf_id
         for panel in panels:
@@ -1380,6 +1771,12 @@ class PipelineRunner:
                     if panel.definition.row_anchor
                     else None
                 ),
+                [
+                    note
+                    for note in notes or []
+                    if note.page_number == panel.page_number
+                    and note.panel_id == panel.definition.panel_id
+                ],
             )
 
     async def _record_summary(self, summary: ExtractionSummary) -> None:
