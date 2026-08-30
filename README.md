@@ -51,6 +51,23 @@ Resume after interruption with the same run manifest and response cache:
 python cli.py batch --resume full-001 --concurrency 2 --pdf-workers 2
 ```
 
+Apply a reviewed correction ledger to an immutable source run without making OCR or network
+requests:
+
+```powershell
+python cli.py postprocess `
+  --source-run pilot-5districts-hierarchy-v2-structural-fix `
+  --ledger 1971_Trimmed_PDF/Uttar_Pradesh/postprocessing/pilot_5districts_1971.yaml `
+  --output-id pilot-5districts-hierarchy-v2-postprocessed-v1
+```
+
+Post-processing resolves its input CSVs only through the guarded source manifest. It fails
+atomically if the manifest hash, table or hierarchy shape, reviewed-cell coverage, schema
+variable, or expected original value differs from the ledger. The command preserves each CSV's
+header and row lineage, recomputes flags and row classifications, and writes only corrected data
+CSVs, `CORRECTION_LOG.csv`, and `POSTPROCESSING_REPORT.md` below
+`outputs/postprocessed/<output_id>/`.
+
 Transient 429, timeout, and 5xx responses honor `Retry-After` or use exponential backoff with jitter. They are never cached. Crop PNGs and successful raw responses are keyed by PDF checksum, crop coordinates, model, prompt, prompt version, and crop checksum.
 
 ## Physical layout

@@ -9,6 +9,7 @@ from pathlib import Path
 
 from census_extractor.config import PipelineConfig
 from census_extractor.pipeline.runner import ExtractionSummary, PipelineRunner
+from census_extractor.postprocessing import CSVPostprocessor
 from census_extractor.schemas import SchemaRegistry
 
 
@@ -72,6 +73,20 @@ def build_parser() -> argparse.ArgumentParser:
     geometry.add_argument("--run-id")
     geometry.add_argument("--no-viz", action="store_true")
 
+    postprocess = commands.add_parser(
+        "postprocess", help="Apply a source-verified correction ledger to one completed run"
+    )
+    postprocess.add_argument(
+        "--source-run",
+        required=True,
+        help="Source run id below outputs/runs, or an absolute run directory",
+    )
+    postprocess.add_argument("--ledger", required=True, type=Path)
+    postprocess.add_argument("--output-id", required=True)
+    postprocess.add_argument(
+        "--output-dir", type=Path, help="Output root containing runs and postprocessed"
+    )
+
     commands.add_parser("schemas", help="List registered logical schemas and physical panels")
     return parser
 
@@ -122,6 +137,24 @@ def main(argv: list[str] | None = None) -> int:
             print(f"{schema.format_id}: {schema.name} ({schema.total_columns} logical columns)")
             for panel in schema.panels:
                 print(f"  {panel.panel_id}: page {panel.page}, printed {panel.printed_columns}")
+        return 0
+
+    if args.command == "postprocess":
+        try:
+            result = CSVPostprocessor(config).run(
+                source_run=args.source_run,
+                ledger_path=_resolve(args.ledger, config.base_dir),
+                output_id=args.output_id,
+            )
+        except Exception as exc:
+            print(f"ERROR: {exc}", file=sys.stderr)
+            return 1
+        print(f"SUCCESS: {len(result.csv_files)} corrected CSVs")
+        print(f"  output={result.output_root}")
+        print(f"  reviewed_unique_cells={result.reviewed_unique_cells}")
+        print(f"  corrected_cells={result.corrected_cells}")
+        print(f"  correction_log={result.correction_log}")
+        print(f"  report={result.report}")
         return 0
 
     dry_run = args.command in {"geometry", "test-geometry"} or getattr(args, "dry_run", False)

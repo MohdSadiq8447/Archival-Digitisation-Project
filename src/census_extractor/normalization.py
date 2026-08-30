@@ -124,7 +124,7 @@ def parse_road_lengths(raw: str) -> dict[str, float | None]:
         (r"(?:PR|PUCCA)", "pucca_road_km"),
         (r"(?:KR|K[AU]TCH?A)", "kutcha_road_km"),
     ):
-        match = re.search(labels + r"\s*[:=-]?\s*(\d+(?:\.\d+)?)", value)
+        match = re.search(labels + r"\s*[:=-]?\s*\(?\s*(\d+(?:\.\d+)?)", value)
         if match:
             result[variable] = float(match.group(1))
     return result

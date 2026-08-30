@@ -16,4 +16,5 @@ dist/
 .tmp-*/
 1971_Trimmed_PDF/Uttar_Pradesh/outputs/runs/
 1971_Trimmed_PDF/Uttar_Pradesh/outputs/cache/
+1971_Trimmed_PDF/Uttar_Pradesh/outputs/postprocessed/
 data/Census_*.xlsx
