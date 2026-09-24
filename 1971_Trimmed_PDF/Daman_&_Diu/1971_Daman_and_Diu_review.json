@@ -1,0 +1,20 @@
+[
+  {
+    "source": "1971 Daman & Diu.pdf",
+    "table": "civic_amenities",
+    "status": "note",
+    "reason": "The source is a combined Goa, Daman and Diu Part-A volume; the extracted Town Directory statements retain all combined UT/district town rows in original source order."
+  },
+  {
+    "source": "1971 Daman & Diu.pdf",
+    "table": "medical_educational_amenities",
+    "status": "note",
+    "reason": "The source is a combined Goa, Daman and Diu Part-A volume; the extracted Town Directory statements retain all combined UT/district town rows in original source order."
+  },
+  {
+    "source": "1971 Daman & Diu.pdf",
+    "table": "tehsil_appendix",
+    "status": "note",
+    "reason": "The source is a combined Goa, Daman and Diu Part-A volume; the extracted Town Directory statements retain all combined UT/district town rows in original source order."
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "source": "1971 Nilgiris.pdf",
+    "table": "civic_amenities",
+    "status": "review",
+    "reason": "This volume is Part X-C, District Census Tables. It does not contain the Part X-A Village and Town Directory pages for the requested statements or taluk amenities appendix."
+  },
+  {
+    "source": "1971 Nilgiris.pdf",
+    "table": "medical_educational_amenities",
+    "status": "review",
+    "reason": "This volume is Part X-C, District Census Tables. It does not contain the Part X-A Village and Town Directory pages for the requested statements or taluk amenities appendix."
+  },
+  {
+    "source": "1971 Nilgiris.pdf",
+    "table": "tehsil_appendix",
+    "status": "review",
+    "reason": "This volume is Part X-C, District Census Tables. It does not contain the Part X-A Village and Town Directory pages for the requested statements or taluk amenities appendix."
+  },
+  {
+    "source": "1971 South Arcot.pdf",
+    "table": "civic_amenities",
+    "status": "review",
+    "reason": "This volume is Part IX-B, Village and Townwise Primary Census Abstract. It does not contain the Part X-A Village and Town Directory pages for the requested statements or taluk amenities appendix."
+  },
+  {
+    "source": "1971 South Arcot.pdf",
+    "table": "medical_educational_amenities",
+    "status": "review",
+    "reason": "This volume is Part IX-B, Village and Townwise Primary Census Abstract. It does not contain the Part X-A Village and Town Directory pages for the requested statements or taluk amenities appendix."
+  },
+  {
+    "source": "1971 South Arcot.pdf",
+    "table": "tehsil_appendix",
+    "status": "review",
+    "reason": "This volume is Part IX-B, Village and Townwise Primary Census Abstract. It does not contain the Part X-A Village and Town Directory pages for the requested statements or taluk amenities appendix."
+  }
+]

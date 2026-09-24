@@ -1,0 +1,32 @@
+[
+  {
+    "source": "1971 Kohima.pdf",
+    "table": "civic_amenities",
+    "status": "review",
+    "reason": "The Kohima volume is a Part X-B Village and Town Primary Census Abstract volume; its contents and directory pages contain no Town Directory Statement IV / Civic and Other Amenities table."
+  },
+  {
+    "source": "1971 Kohima.pdf",
+    "table": "medical_educational_amenities",
+    "status": "review",
+    "reason": "The Kohima volume is a Part X-B Village and Town Primary Census Abstract volume; its contents and directory pages contain no Town Directory Statement V / Medical, Educational, Recreational and Cultural Facilities table."
+  },
+  {
+    "source": "1971 Kohima.pdf",
+    "table": "tehsil_appendix",
+    "status": "review",
+    "reason": "The Kohima volume has no circle-wise/sub-division amenities abstract in the Village Directory section; its contents proceed from circle village abstracts to town primary census abstracts."
+  },
+  {
+    "source": "1971 Tuensang.pdf",
+    "table": "civic_amenities",
+    "status": "review",
+    "reason": "No Town Directory Statement IV table is present in this Part X-B volume; the relevant town-directory statements are absent."
+  },
+  {
+    "source": "1971 Tuensang.pdf",
+    "table": "medical_educational_amenities",
+    "status": "review",
+    "reason": "No Town Directory Statement V table is present in this Part X-B volume; the relevant town-directory statements are absent."
+  }
+]

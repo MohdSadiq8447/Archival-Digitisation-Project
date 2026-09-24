@@ -1,0 +1,2667 @@
+[
+  {
+    "district": "Ajmer",
+    "table": "civic_amenities",
+    "source": "1971\\Rajasthan\\1971 Ajmer.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Rajasthan\\civic amenities\\Ajmer_civic_1971.pdf",
+    "source_pages": [
+      40
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 40,
+        "mediabox": [
+          0.0,
+          0.0,
+          623.52,
+          755.76
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          623.52,
+          755.76
+        ]
+      }
+    ]
+  },
+  {
+    "district": "Ajmer",
+    "table": "medical_educational_amenities",
+    "source": "1971\\Rajasthan\\1971 Ajmer.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Rajasthan\\mededu\\Ajmer_mededu_1971.pdf",
+    "source_pages": [
+      41
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 41,
+        "mediabox": [
+          0.0,
+          0.0,
+          623.52,
+          755.76
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          623.52,
+          755.76
+        ]
+      }
+    ]
+  },
+  {
+    "district": "Ajmer",
+    "table": "tehsil_appendix",
+    "source": "1971\\Rajasthan\\1971 Ajmer.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Rajasthan\\tehsil appendix\\Ajmer_tehsil_1971.pdf",
+    "source_pages": [
+      92,
+      93
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 92,
+        "mediabox": [
+          0.0,
+          0.0,
+          623.52,
+          755.76
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          623.52,
+          755.76
+        ]
+      },
+      {
+        "source_page": 93,
+        "mediabox": [
+          0.0,
+          0.0,
+          623.52,
+          755.76
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          623.52,
+          755.76
+        ]
+      }
+    ]
+  },
+  {
+    "district": "Alwar",
+    "table": "civic_amenities",
+    "source": "1971\\Rajasthan\\1971 Alwar.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Rajasthan\\civic amenities\\Alwar_civic_1971.pdf",
+    "source_pages": [
+      42
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 42,
+        "mediabox": [
+          0.0,
+          0.0,
+          621.84,
+          801.6
+        ],
+        "cropbox": [
+          0.0,
+          9.59998,
+          612.0,
+          801.6
+        ]
+      }
+    ]
+  },
+  {
+    "district": "Alwar",
+    "table": "medical_educational_amenities",
+    "source": "1971\\Rajasthan\\1971 Alwar.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Rajasthan\\mededu\\Alwar_mededu_1971.pdf",
+    "source_pages": [
+      43
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 43,
+        "mediabox": [
+          0.0,
+          0.0,
+          621.84,
+          801.6
+        ],
+        "cropbox": [
+          0.0,
+          9.59998,
+          612.0,
+          801.6
+        ]
+      }
+    ]
+  },
+  {
+    "district": "Alwar",
+    "table": "tehsil_appendix",
+    "source": "1971\\Rajasthan\\1971 Alwar.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Rajasthan\\tehsil appendix\\Alwar_tehsil_1971.pdf",
+    "source_pages": [
+      138,
+      139
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 138,
+        "mediabox": [
+          0.0,
+          0.0,
+          621.84,
+          801.6
+        ],
+        "cropbox": [
+          0.0,
+          9.59998,
+          612.0,
+          801.6
+        ]
+      },
+      {
+        "source_page": 139,
+        "mediabox": [
+          0.0,
+          0.0,
+          621.84,
+          801.6
+        ],
+        "cropbox": [
+          0.0,
+          9.59998,
+          612.0,
+          801.6
+        ]
+      }
+    ]
+  },
+  {
+    "district": "Banswara",
+    "table": "civic_amenities",
+    "source": "1971\\Rajasthan\\1971 Banswara.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Rajasthan\\civic amenities\\Banswara_civic_1971.pdf",
+    "source_pages": [
+      39
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 39,
+        "mediabox": [
+          0.0,
+          0.0,
+          627.12,
+          814.56
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          627.12,
+          814.56
+        ]
+      }
+    ]
+  },
+  {
+    "district": "Banswara",
+    "table": "medical_educational_amenities",
+    "source": "1971\\Rajasthan\\1971 Banswara.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Rajasthan\\mededu\\Banswara_mededu_1971.pdf",
+    "source_pages": [
+      40
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 40,
+        "mediabox": [
+          0.0,
+          0.0,
+          627.12,
+          814.56
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          627.12,
+          814.56
+        ]
+      }
+    ]
+  },
+  {
+    "district": "Banswara",
+    "table": "tehsil_appendix",
+    "source": "1971\\Rajasthan\\1971 Banswara.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Rajasthan\\tehsil appendix\\Banswara_tehsil_1971.pdf",
+    "source_pages": [
+      110,
+      111
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 110,
+        "mediabox": [
+          0.0,
+          0.0,
+          627.12,
+          814.56
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          627.12,
+          814.56
+        ]
+      },
+      {
+        "source_page": 111,
+        "mediabox": [
+          0.0,
+          0.0,
+          627.12,
+          814.56
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          627.12,
+          814.56
+        ]
+      }
+    ]
+  },
+  {
+    "district": "Barmer",
+    "table": "civic_amenities",
+    "source": "1971\\Rajasthan\\1971 Barmer.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Rajasthan\\civic amenities\\Barmer_civic_1971.pdf",
+    "source_pages": [
+      38
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 38,
+        "mediabox": [
+          0.0,
+          0.0,
+          609.36,
+          814.8
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          609.36,
+          814.8
+        ]
+      }
+    ]
+  },
+  {
+    "district": "Barmer",
+    "table": "medical_educational_amenities",
+    "source": "1971\\Rajasthan\\1971 Barmer.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Rajasthan\\mededu\\Barmer_mededu_1971.pdf",
+    "source_pages": [
+      39
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 39,
+        "mediabox": [
+          0.0,
+          0.0,
+          609.36,
+          814.8
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          609.36,
+          814.8
+        ]
+      }
+    ]
+  },
+  {
+    "district": "Barmer",
+    "table": "tehsil_appendix",
+    "source": "1971\\Rajasthan\\1971 Barmer.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Rajasthan\\tehsil appendix\\Barmer_tehsil_1971.pdf",
+    "source_pages": [
+      85,
+      86
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 85,
+        "mediabox": [
+          0.0,
+          0.0,
+          609.36,
+          814.8
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          609.36,
+          814.8
+        ]
+      },
+      {
+        "source_page": 86,
+        "mediabox": [
+          0.0,
+          0.0,
+          609.36,
+          814.8
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          609.36,
+          814.8
+        ]
+      }
+    ]
+  },
+  {
+    "district": "Bharatpur",
+    "table": "civic_amenities",
+    "source": "1971\\Rajasthan\\1971 Bharatpur.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Rajasthan\\civic amenities\\Bharatpur_civic_1971.pdf",
+    "source_pages": [
+      42
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 42,
+        "mediabox": [
+          0.0,
+          0.0,
+          618.72,
+          806.4
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          618.72,
+          806.4
+        ]
+      }
+    ]
+  },
+  {
+    "district": "Bharatpur",
+    "table": "medical_educational_amenities",
+    "source": "1971\\Rajasthan\\1971 Bharatpur.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Rajasthan\\mededu\\Bharatpur_mededu_1971.pdf",
+    "source_pages": [
+      43
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 43,
+        "mediabox": [
+          0.0,
+          0.0,
+          618.72,
+          806.4
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          618.72,
+          806.4
+        ]
+      }
+    ]
+  },
+  {
+    "district": "Bharatpur",
+    "table": "tehsil_appendix",
+    "source": "1971\\Rajasthan\\1971 Bharatpur.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Rajasthan\\tehsil appendix\\Bharatpur_tehsil_1971.pdf",
+    "source_pages": [
+      140,
+      141
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 140,
+        "mediabox": [
+          0.0,
+          0.0,
+          618.72,
+          806.4
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          618.72,
+          806.4
+        ]
+      },
+      {
+        "source_page": 141,
+        "mediabox": [
+          0.0,
+          0.0,
+          618.72,
+          806.4
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          618.72,
+          806.4
+        ]
+      }
+    ]
+  },
+  {
+    "district": "Bhilwara",
+    "table": "civic_amenities",
+    "source": "1971\\Rajasthan\\1971 Bhilwara.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Rajasthan\\civic amenities\\Bhilwara_civic_1971.pdf",
+    "source_pages": [
+      43
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 43,
+        "mediabox": [
+          0.0,
+          0.0,
+          623.76,
+          819.6
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          623.76,
+          819.6
+        ]
+      }
+    ]
+  },
+  {
+    "district": "Bhilwara",
+    "table": "medical_educational_amenities",
+    "source": "1971\\Rajasthan\\1971 Bhilwara.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Rajasthan\\mededu\\Bhilwara_mededu_1971.pdf",
+    "source_pages": [
+      44
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 44,
+        "mediabox": [
+          0.0,
+          0.0,
+          623.76,
+          819.6
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          623.76,
+          819.6
+        ]
+      }
+    ]
+  },
+  {
+    "district": "Bhilwara",
+    "table": "tehsil_appendix",
+    "source": "1971\\Rajasthan\\1971 Bhilwara.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Rajasthan\\tehsil appendix\\Bhilwara_tehsil_1971.pdf",
+    "source_pages": [
+      122,
+      123,
+      124,
+      125
+    ],
+    "output_pages": 4,
+    "page_sizes": [
+      {
+        "source_page": 122,
+        "mediabox": [
+          0.0,
+          0.0,
+          623.76,
+          819.6
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          623.76,
+          819.6
+        ]
+      },
+      {
+        "source_page": 123,
+        "mediabox": [
+          0.0,
+          0.0,
+          623.76,
+          819.6
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          623.76,
+          819.6
+        ]
+      },
+      {
+        "source_page": 124,
+        "mediabox": [
+          0.0,
+          0.0,
+          623.76,
+          819.6
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          623.76,
+          819.6
+        ]
+      },
+      {
+        "source_page": 125,
+        "mediabox": [
+          0.0,
+          0.0,
+          623.76,
+          819.6
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          623.76,
+          819.6
+        ]
+      }
+    ]
+  },
+  {
+    "district": "Bikaner",
+    "table": "civic_amenities",
+    "source": "1971\\Rajasthan\\1971 Bikaner.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Rajasthan\\civic amenities\\Bikaner_civic_1971.pdf",
+    "source_pages": [
+      36
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 36,
+        "mediabox": [
+          0.0,
+          0.0,
+          614.64,
+          816.24
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          614.64,
+          816.24
+        ]
+      }
+    ]
+  },
+  {
+    "district": "Bikaner",
+    "table": "medical_educational_amenities",
+    "source": "1971\\Rajasthan\\1971 Bikaner.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Rajasthan\\mededu\\Bikaner_mededu_1971.pdf",
+    "source_pages": [
+      37
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 37,
+        "mediabox": [
+          0.0,
+          0.0,
+          614.64,
+          816.24
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          614.64,
+          816.24
+        ]
+      }
+    ]
+  },
+  {
+    "district": "Bikaner",
+    "table": "tehsil_appendix",
+    "source": "1971\\Rajasthan\\1971 Bikaner.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Rajasthan\\tehsil appendix\\Bikaner_tehsil_1971.pdf",
+    "source_pages": [
+      76,
+      77
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 76,
+        "mediabox": [
+          0.0,
+          0.0,
+          614.64,
+          816.24
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          614.64,
+          816.24
+        ]
+      },
+      {
+        "source_page": 77,
+        "mediabox": [
+          0.0,
+          0.0,
+          614.64,
+          816.24
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          614.64,
+          816.24
+        ]
+      }
+    ]
+  },
+  {
+    "district": "Bundi",
+    "table": "civic_amenities",
+    "source": "1971\\Rajasthan\\1971 Bundi.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Rajasthan\\civic amenities\\Bundi_civic_1971.pdf",
+    "source_pages": [
+      33
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 33,
+        "mediabox": [
+          0.0,
+          0.0,
+          652.08,
+          809.52
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          652.08,
+          809.52
+        ]
+      }
+    ]
+  },
+  {
+    "district": "Bundi",
+    "table": "medical_educational_amenities",
+    "source": "1971\\Rajasthan\\1971 Bundi.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Rajasthan\\mededu\\Bundi_mededu_1971.pdf",
+    "source_pages": [
+      34
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 34,
+        "mediabox": [
+          0.0,
+          0.0,
+          652.08,
+          809.52
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          652.08,
+          809.52
+        ]
+      }
+    ]
+  },
+  {
+    "district": "Bundi",
+    "table": "tehsil_appendix",
+    "source": "1971\\Rajasthan\\1971 Bundi.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Rajasthan\\tehsil appendix\\Bundi_tehsil_1971.pdf",
+    "source_pages": [
+      74,
+      75
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 74,
+        "mediabox": [
+          0.0,
+          0.0,
+          652.08,
+          809.52
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          652.08,
+          809.52
+        ]
+      },
+      {
+        "source_page": 75,
+        "mediabox": [
+          0.0,
+          0.0,
+          652.08,
+          809.52
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          652.08,
+          809.52
+        ]
+      }
+    ]
+  },
+  {
+    "district": "Chittaurgarh",
+    "table": "civic_amenities",
+    "source": "1971\\Rajasthan\\1971 Chittaurgarh.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Rajasthan\\civic amenities\\Chittaurgarh_civic_1971.pdf",
+    "source_pages": [
+      43
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 43,
+        "mediabox": [
+          0.0,
+          0.0,
+          612.0,
+          801.12
+        ],
+        "cropbox": [
+          0.0,
+          9.12,
+          612.0,
+          801.12
+        ]
+      }
+    ]
+  },
+  {
+    "district": "Chittaurgarh",
+    "table": "medical_educational_amenities",
+    "source": "1971\\Rajasthan\\1971 Chittaurgarh.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Rajasthan\\mededu\\Chittaurgarh_mededu_1971.pdf",
+    "source_pages": [
+      44
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 44,
+        "mediabox": [
+          0.0,
+          0.0,
+          612.0,
+          801.12
+        ],
+        "cropbox": [
+          0.0,
+          9.12,
+          612.0,
+          801.12
+        ]
+      }
+    ]
+  },
+  {
+    "district": "Chittaurgarh",
+    "table": "tehsil_appendix",
+    "source": "1971\\Rajasthan\\1971 Chittaurgarh.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Rajasthan\\tehsil appendix\\Chittaurgarh_tehsil_1971.pdf",
+    "source_pages": [
+      157,
+      158,
+      159,
+      160
+    ],
+    "output_pages": 4,
+    "page_sizes": [
+      {
+        "source_page": 157,
+        "mediabox": [
+          0.0,
+          0.0,
+          612.0,
+          801.12
+        ],
+        "cropbox": [
+          0.0,
+          9.12,
+          612.0,
+          801.12
+        ]
+      },
+      {
+        "source_page": 158,
+        "mediabox": [
+          0.0,
+          0.0,
+          612.0,
+          801.12
+        ],
+        "cropbox": [
+          0.0,
+          9.12,
+          612.0,
+          801.12
+        ]
+      },
+      {
+        "source_page": 159,
+        "mediabox": [
+          0.0,
+          0.0,
+          612.0,
+          801.12
+        ],
+        "cropbox": [
+          0.0,
+          9.12,
+          612.0,
+          801.12
+        ]
+      },
+      {
+        "source_page": 160,
+        "mediabox": [
+          0.0,
+          0.0,
+          612.0,
+          801.12
+        ],
+        "cropbox": [
+          0.0,
+          9.12,
+          612.0,
+          801.12
+        ]
+      }
+    ]
+  },
+  {
+    "district": "Churu",
+    "table": "civic_amenities",
+    "source": "1971\\Rajasthan\\1971 Churu.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Rajasthan\\civic amenities\\Churu_civic_1971.pdf",
+    "source_pages": [
+      36
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 36,
+        "mediabox": [
+          0.0,
+          0.0,
+          557.04,
+          784.56
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          557.04,
+          784.56
+        ]
+      }
+    ]
+  },
+  {
+    "district": "Churu",
+    "table": "medical_educational_amenities",
+    "source": "1971\\Rajasthan\\1971 Churu.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Rajasthan\\mededu\\Churu_mededu_1971.pdf",
+    "source_pages": [
+      37
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 37,
+        "mediabox": [
+          0.0,
+          0.0,
+          557.04,
+          784.56
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          557.04,
+          784.56
+        ]
+      }
+    ]
+  },
+  {
+    "district": "Churu",
+    "table": "tehsil_appendix",
+    "source": "1971\\Rajasthan\\1971 Churu.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Rajasthan\\tehsil appendix\\Churu_tehsil_1971.pdf",
+    "source_pages": [
+      85,
+      86
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 85,
+        "mediabox": [
+          0.0,
+          0.0,
+          557.04,
+          784.56
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          557.04,
+          784.56
+        ]
+      },
+      {
+        "source_page": 86,
+        "mediabox": [
+          0.0,
+          0.0,
+          557.04,
+          784.56
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          557.04,
+          784.56
+        ]
+      }
+    ]
+  },
+  {
+    "district": "Dungarpur",
+    "table": "civic_amenities",
+    "source": "1971\\Rajasthan\\1971 Dungarpur.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Rajasthan\\civic amenities\\Dungarpur_civic_1971.pdf",
+    "source_pages": [
+      34
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 34,
+        "mediabox": [
+          0.0,
+          0.0,
+          512.4,
+          802.8
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          512.4,
+          802.8
+        ]
+      }
+    ]
+  },
+  {
+    "district": "Dungarpur",
+    "table": "medical_educational_amenities",
+    "source": "1971\\Rajasthan\\1971 Dungarpur.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Rajasthan\\mededu\\Dungarpur_mededu_1971.pdf",
+    "source_pages": [
+      35
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 35,
+        "mediabox": [
+          0.0,
+          0.0,
+          512.4,
+          802.8
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          512.4,
+          802.8
+        ]
+      }
+    ]
+  },
+  {
+    "district": "Dungarpur",
+    "table": "tehsil_appendix",
+    "source": "1971\\Rajasthan\\1971 Dungarpur.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Rajasthan\\tehsil appendix\\Dungarpur_tehsil_1971.pdf",
+    "source_pages": [
+      77,
+      78
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 77,
+        "mediabox": [
+          0.0,
+          0.0,
+          512.4,
+          802.8
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          512.4,
+          802.8
+        ]
+      },
+      {
+        "source_page": 78,
+        "mediabox": [
+          0.0,
+          0.0,
+          512.4,
+          802.8
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          512.4,
+          802.8
+        ]
+      }
+    ]
+  },
+  {
+    "district": "Ganganagar",
+    "table": "civic_amenities",
+    "source": "1971\\Rajasthan\\1971 Ganganagar.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Rajasthan\\civic amenities\\Ganganagar_civic_1971.pdf",
+    "source_pages": [
+      44
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 44,
+        "mediabox": [
+          0.0,
+          -12.24,
+          612.0,
+          779.76
+        ],
+        "cropbox": [
+          0.0,
+          -12.24,
+          612.0,
+          779.76
+        ]
+      }
+    ]
+  },
+  {
+    "district": "Ganganagar",
+    "table": "medical_educational_amenities",
+    "source": "1971\\Rajasthan\\1971 Ganganagar.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Rajasthan\\mededu\\Ganganagar_mededu_1971.pdf",
+    "source_pages": [
+      45,
+      46
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 45,
+        "mediabox": [
+          0.0,
+          -12.24,
+          612.0,
+          779.76
+        ],
+        "cropbox": [
+          0.0,
+          -12.24,
+          612.0,
+          779.76
+        ]
+      },
+      {
+        "source_page": 46,
+        "mediabox": [
+          0.0,
+          -12.24,
+          612.0,
+          779.76
+        ],
+        "cropbox": [
+          0.0,
+          -12.24,
+          612.0,
+          779.76
+        ]
+      }
+    ]
+  },
+  {
+    "district": "Ganganagar",
+    "table": "tehsil_appendix",
+    "source": "1971\\Rajasthan\\1971 Ganganagar.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Rajasthan\\tehsil appendix\\Ganganagar_tehsil_1971.pdf",
+    "source_pages": [
+      193,
+      194,
+      195,
+      196
+    ],
+    "output_pages": 4,
+    "page_sizes": [
+      {
+        "source_page": 193,
+        "mediabox": [
+          0.0,
+          -12.24,
+          612.0,
+          779.76
+        ],
+        "cropbox": [
+          0.0,
+          -12.24,
+          612.0,
+          779.76
+        ]
+      },
+      {
+        "source_page": 194,
+        "mediabox": [
+          0.0,
+          -12.24,
+          612.0,
+          779.76
+        ],
+        "cropbox": [
+          0.0,
+          -12.24,
+          612.0,
+          779.76
+        ]
+      },
+      {
+        "source_page": 195,
+        "mediabox": [
+          0.0,
+          -12.24,
+          612.0,
+          779.76
+        ],
+        "cropbox": [
+          0.0,
+          -12.24,
+          612.0,
+          779.76
+        ]
+      },
+      {
+        "source_page": 196,
+        "mediabox": [
+          0.0,
+          -12.24,
+          612.0,
+          779.76
+        ],
+        "cropbox": [
+          0.0,
+          -12.24,
+          612.0,
+          779.76
+        ]
+      }
+    ]
+  },
+  {
+    "district": "Jaipur",
+    "table": "civic_amenities",
+    "source": "1971\\Rajasthan\\1971 Jaipur.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Rajasthan\\civic amenities\\Jaipur_civic_1971.pdf",
+    "source_pages": [
+      49
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 49,
+        "mediabox": [
+          0.0,
+          0.0,
+          611.52,
+          774.0
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          611.52,
+          774.0
+        ]
+      }
+    ]
+  },
+  {
+    "district": "Jaipur",
+    "table": "medical_educational_amenities",
+    "source": "1971\\Rajasthan\\1971 Jaipur.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Rajasthan\\mededu\\Jaipur_mededu_1971.pdf",
+    "source_pages": [
+      50,
+      51
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 50,
+        "mediabox": [
+          0.0,
+          0.0,
+          611.52,
+          774.0
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          611.52,
+          774.0
+        ]
+      },
+      {
+        "source_page": 51,
+        "mediabox": [
+          0.0,
+          0.0,
+          611.52,
+          774.0
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          611.52,
+          774.0
+        ]
+      }
+    ]
+  },
+  {
+    "district": "Jaipur",
+    "table": "tehsil_appendix",
+    "source": "1971\\Rajasthan\\1971 Jaipur.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Rajasthan\\tehsil appendix\\Jaipur_tehsil_1971.pdf",
+    "source_pages": [
+      186,
+      187,
+      188,
+      189
+    ],
+    "output_pages": 4,
+    "page_sizes": [
+      {
+        "source_page": 186,
+        "mediabox": [
+          0.0,
+          0.0,
+          611.52,
+          774.0
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          611.52,
+          774.0
+        ]
+      },
+      {
+        "source_page": 187,
+        "mediabox": [
+          0.0,
+          0.0,
+          611.52,
+          774.0
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          611.52,
+          774.0
+        ]
+      },
+      {
+        "source_page": 188,
+        "mediabox": [
+          0.0,
+          0.0,
+          611.52,
+          774.0
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          611.52,
+          774.0
+        ]
+      },
+      {
+        "source_page": 189,
+        "mediabox": [
+          0.0,
+          0.0,
+          611.52,
+          774.0
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          611.52,
+          774.0
+        ]
+      }
+    ]
+  },
+  {
+    "district": "Jaisalmer",
+    "table": "civic_amenities",
+    "source": "1971\\Rajasthan\\1971 Jaisalmer.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Rajasthan\\civic amenities\\Jaisalmer_civic_1971.pdf",
+    "source_pages": [
+      40
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 40,
+        "mediabox": [
+          0.0,
+          0.0,
+          593.76,
+          780.72
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          593.76,
+          780.72
+        ]
+      }
+    ]
+  },
+  {
+    "district": "Jaisalmer",
+    "table": "medical_educational_amenities",
+    "source": "1971\\Rajasthan\\1971 Jaisalmer.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Rajasthan\\mededu\\Jaisalmer_mededu_1971.pdf",
+    "source_pages": [
+      41
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 41,
+        "mediabox": [
+          0.0,
+          0.0,
+          593.76,
+          780.72
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          593.76,
+          780.72
+        ]
+      }
+    ]
+  },
+  {
+    "district": "Jaisalmer",
+    "table": "tehsil_appendix",
+    "source": "1971\\Rajasthan\\1971 Jaisalmer.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Rajasthan\\tehsil appendix\\Jaisalmer_tehsil_1971.pdf",
+    "source_pages": [
+      69,
+      70
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 69,
+        "mediabox": [
+          0.0,
+          0.0,
+          593.76,
+          780.72
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          593.76,
+          780.72
+        ]
+      },
+      {
+        "source_page": 70,
+        "mediabox": [
+          0.0,
+          0.0,
+          593.76,
+          780.72
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          593.76,
+          780.72
+        ]
+      }
+    ]
+  },
+  {
+    "district": "Jhalawar",
+    "table": "civic_amenities",
+    "source": "1971\\Rajasthan\\1971 Jhalawar.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Rajasthan\\civic amenities\\Jhalawar_civic_1971.pdf",
+    "source_pages": [
+      43
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 43,
+        "mediabox": [
+          0.0,
+          -9.59998,
+          612.0,
+          782.4
+        ],
+        "cropbox": [
+          0.0,
+          -9.59998,
+          612.0,
+          782.4
+        ]
+      }
+    ]
+  },
+  {
+    "district": "Jhalawar",
+    "table": "medical_educational_amenities",
+    "source": "1971\\Rajasthan\\1971 Jhalawar.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Rajasthan\\mededu\\Jhalawar_mededu_1971.pdf",
+    "source_pages": [
+      44
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 44,
+        "mediabox": [
+          0.0,
+          -9.59998,
+          612.0,
+          782.4
+        ],
+        "cropbox": [
+          0.0,
+          -9.59998,
+          612.0,
+          782.4
+        ]
+      }
+    ]
+  },
+  {
+    "district": "Jhalawar",
+    "table": "tehsil_appendix",
+    "source": "1971\\Rajasthan\\1971 Jhalawar.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Rajasthan\\tehsil appendix\\Jhalawar_tehsil_1971.pdf",
+    "source_pages": [
+      121,
+      122
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 121,
+        "mediabox": [
+          0.0,
+          -9.59998,
+          612.0,
+          782.4
+        ],
+        "cropbox": [
+          0.0,
+          -9.59998,
+          612.0,
+          782.4
+        ]
+      },
+      {
+        "source_page": 122,
+        "mediabox": [
+          0.0,
+          -9.59998,
+          612.0,
+          782.4
+        ],
+        "cropbox": [
+          0.0,
+          -9.59998,
+          612.0,
+          782.4
+        ]
+      }
+    ]
+  },
+  {
+    "district": "Jhunjhunun",
+    "table": "civic_amenities",
+    "source": "1971\\Rajasthan\\1971 Jhunjhunun.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Rajasthan\\civic amenities\\Jhunjhunun_civic_1971.pdf",
+    "source_pages": [
+      46
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 46,
+        "mediabox": [
+          0.0,
+          -6.23999,
+          612.0,
+          785.76
+        ],
+        "cropbox": [
+          0.0,
+          -6.23999,
+          612.0,
+          785.76
+        ]
+      }
+    ]
+  },
+  {
+    "district": "Jhunjhunun",
+    "table": "medical_educational_amenities",
+    "source": "1971\\Rajasthan\\1971 Jhunjhunun.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Rajasthan\\mededu\\Jhunjhunun_mededu_1971.pdf",
+    "source_pages": [
+      47,
+      48
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 47,
+        "mediabox": [
+          0.0,
+          -6.23999,
+          612.0,
+          785.76
+        ],
+        "cropbox": [
+          0.0,
+          -6.23999,
+          612.0,
+          785.76
+        ]
+      },
+      {
+        "source_page": 48,
+        "mediabox": [
+          0.0,
+          -6.23999,
+          612.0,
+          785.76
+        ],
+        "cropbox": [
+          0.0,
+          -6.23999,
+          612.0,
+          785.76
+        ]
+      }
+    ]
+  },
+  {
+    "district": "Jhunjhunun",
+    "table": "tehsil_appendix",
+    "source": "1971\\Rajasthan\\1971 Jhunjhunun.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Rajasthan\\tehsil appendix\\Jhunjhunun_tehsil_1971.pdf",
+    "source_pages": [
+      87,
+      88
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 87,
+        "mediabox": [
+          0.0,
+          -6.23999,
+          612.0,
+          785.76
+        ],
+        "cropbox": [
+          0.0,
+          -6.23999,
+          612.0,
+          785.76
+        ]
+      },
+      {
+        "source_page": 88,
+        "mediabox": [
+          0.0,
+          -6.23999,
+          612.0,
+          785.76
+        ],
+        "cropbox": [
+          0.0,
+          -6.23999,
+          612.0,
+          785.76
+        ]
+      }
+    ]
+  },
+  {
+    "district": "Jodhpur",
+    "table": "civic_amenities",
+    "source": "1971\\Rajasthan\\1971 Jodhpur.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Rajasthan\\civic amenities\\Jodhpur_civic_1971.pdf",
+    "source_pages": [
+      42
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 42,
+        "mediabox": [
+          0.0,
+          0.0,
+          596.64,
+          780.0
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          596.64,
+          780.0
+        ]
+      }
+    ]
+  },
+  {
+    "district": "Jodhpur",
+    "table": "medical_educational_amenities",
+    "source": "1971\\Rajasthan\\1971 Jodhpur.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Rajasthan\\mededu\\Jodhpur_mededu_1971.pdf",
+    "source_pages": [
+      43
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 43,
+        "mediabox": [
+          0.0,
+          0.0,
+          596.64,
+          780.0
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          596.64,
+          780.0
+        ]
+      }
+    ]
+  },
+  {
+    "district": "Jodhpur",
+    "table": "tehsil_appendix",
+    "source": "1971\\Rajasthan\\1971 Jodhpur.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Rajasthan\\tehsil appendix\\Jodhpur_tehsil_1971.pdf",
+    "source_pages": [
+      80,
+      81
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 80,
+        "mediabox": [
+          0.0,
+          0.0,
+          596.64,
+          780.0
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          596.64,
+          780.0
+        ]
+      },
+      {
+        "source_page": 81,
+        "mediabox": [
+          0.0,
+          0.0,
+          596.64,
+          780.0
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          596.64,
+          780.0
+        ]
+      }
+    ]
+  },
+  {
+    "district": "Kota",
+    "table": "civic_amenities",
+    "source": "1971\\Rajasthan\\1971 Kota.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Rajasthan\\civic amenities\\Kota_civic_1971.pdf",
+    "source_pages": [
+      46
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 46,
+        "mediabox": [
+          0.0,
+          -1.44,
+          612.0,
+          790.56
+        ],
+        "cropbox": [
+          0.0,
+          -1.44,
+          612.0,
+          790.56
+        ]
+      }
+    ]
+  },
+  {
+    "district": "Kota",
+    "table": "medical_educational_amenities",
+    "source": "1971\\Rajasthan\\1971 Kota.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Rajasthan\\mededu\\Kota_mededu_1971.pdf",
+    "source_pages": [
+      47
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 47,
+        "mediabox": [
+          0.0,
+          -1.44,
+          612.0,
+          790.56
+        ],
+        "cropbox": [
+          0.0,
+          -1.44,
+          612.0,
+          790.56
+        ]
+      }
+    ]
+  },
+  {
+    "district": "Kota",
+    "table": "tehsil_appendix",
+    "source": "1971\\Rajasthan\\1971 Kota.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Rajasthan\\tehsil appendix\\Kota_tehsil_1971.pdf",
+    "source_pages": [
+      152,
+      153
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 152,
+        "mediabox": [
+          0.0,
+          -1.44,
+          612.0,
+          790.56
+        ],
+        "cropbox": [
+          0.0,
+          -1.44,
+          612.0,
+          790.56
+        ]
+      },
+      {
+        "source_page": 153,
+        "mediabox": [
+          0.0,
+          -1.44,
+          612.0,
+          790.56
+        ],
+        "cropbox": [
+          0.0,
+          -1.44,
+          612.0,
+          790.56
+        ]
+      }
+    ]
+  },
+  {
+    "district": "Nagaur",
+    "table": "civic_amenities",
+    "source": "1971\\Rajasthan\\1971 Nagaur.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Rajasthan\\civic amenities\\Nagaur_civic_1971.pdf",
+    "source_pages": [
+      45
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 45,
+        "mediabox": [
+          0.0,
+          -0.719971,
+          612.0,
+          791.28
+        ],
+        "cropbox": [
+          0.0,
+          -0.719971,
+          612.0,
+          791.28
+        ]
+      }
+    ]
+  },
+  {
+    "district": "Nagaur",
+    "table": "medical_educational_amenities",
+    "source": "1971\\Rajasthan\\1971 Nagaur.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Rajasthan\\mededu\\Nagaur_mededu_1971.pdf",
+    "source_pages": [
+      46
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 46,
+        "mediabox": [
+          0.0,
+          -0.719971,
+          612.0,
+          791.28
+        ],
+        "cropbox": [
+          0.0,
+          -0.719971,
+          612.0,
+          791.28
+        ]
+      }
+    ]
+  },
+  {
+    "district": "Nagaur",
+    "table": "tehsil_appendix",
+    "source": "1971\\Rajasthan\\1971 Nagaur.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Rajasthan\\tehsil appendix\\Nagaur_tehsil_1971.pdf",
+    "source_pages": [
+      111,
+      112
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 111,
+        "mediabox": [
+          0.0,
+          -0.719971,
+          612.0,
+          791.28
+        ],
+        "cropbox": [
+          0.0,
+          -0.719971,
+          612.0,
+          791.28
+        ]
+      },
+      {
+        "source_page": 112,
+        "mediabox": [
+          0.0,
+          -0.719971,
+          612.0,
+          791.28
+        ],
+        "cropbox": [
+          0.0,
+          -0.719971,
+          612.0,
+          791.28
+        ]
+      }
+    ]
+  },
+  {
+    "district": "Pali",
+    "table": "civic_amenities",
+    "source": "1971\\Rajasthan\\1971 Pali.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Rajasthan\\civic amenities\\Pali_civic_1971.pdf",
+    "source_pages": [
+      43
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 43,
+        "mediabox": [
+          0.0,
+          0.0,
+          587.52,
+          774.72
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          587.52,
+          774.72
+        ]
+      }
+    ]
+  },
+  {
+    "district": "Pali",
+    "table": "medical_educational_amenities",
+    "source": "1971\\Rajasthan\\1971 Pali.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Rajasthan\\mededu\\Pali_mededu_1971.pdf",
+    "source_pages": [
+      44
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 44,
+        "mediabox": [
+          0.0,
+          0.0,
+          587.52,
+          774.72
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          587.52,
+          774.72
+        ]
+      }
+    ]
+  },
+  {
+    "district": "Pali",
+    "table": "tehsil_appendix",
+    "source": "1971\\Rajasthan\\1971 Pali.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Rajasthan\\tehsil appendix\\Pali_tehsil_1971.pdf",
+    "source_pages": [
+      89,
+      90
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 89,
+        "mediabox": [
+          0.0,
+          0.0,
+          587.52,
+          774.72
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          587.52,
+          774.72
+        ]
+      },
+      {
+        "source_page": 90,
+        "mediabox": [
+          0.0,
+          0.0,
+          587.52,
+          774.72
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          587.52,
+          774.72
+        ]
+      }
+    ]
+  },
+  {
+    "district": "Sawai Madhopur",
+    "table": "civic_amenities",
+    "source": "1971\\Rajasthan\\1971 Sawai Madhopur.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Rajasthan\\civic amenities\\Sawai Madhopur_civic_1971.pdf",
+    "source_pages": [
+      44
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 44,
+        "mediabox": [
+          0.0,
+          0.0,
+          584.16,
+          788.64
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          584.16,
+          788.64
+        ]
+      }
+    ]
+  },
+  {
+    "district": "Sawai Madhopur",
+    "table": "medical_educational_amenities",
+    "source": "1971\\Rajasthan\\1971 Sawai Madhopur.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Rajasthan\\mededu\\Sawai Madhopur_mededu_1971.pdf",
+    "source_pages": [
+      45
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 45,
+        "mediabox": [
+          0.0,
+          0.0,
+          584.16,
+          788.64
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          584.16,
+          788.64
+        ]
+      }
+    ]
+  },
+  {
+    "district": "Sawai Madhopur",
+    "table": "tehsil_appendix",
+    "source": "1971\\Rajasthan\\1971 Sawai Madhopur.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Rajasthan\\tehsil appendix\\Sawai Madhopur_tehsil_1971.pdf",
+    "source_pages": [
+      128,
+      129,
+      130,
+      131
+    ],
+    "output_pages": 4,
+    "page_sizes": [
+      {
+        "source_page": 128,
+        "mediabox": [
+          0.0,
+          0.0,
+          584.16,
+          788.64
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          584.16,
+          788.64
+        ]
+      },
+      {
+        "source_page": 129,
+        "mediabox": [
+          0.0,
+          0.0,
+          584.16,
+          788.64
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          584.16,
+          788.64
+        ]
+      },
+      {
+        "source_page": 130,
+        "mediabox": [
+          0.0,
+          0.0,
+          584.16,
+          788.64
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          584.16,
+          788.64
+        ]
+      },
+      {
+        "source_page": 131,
+        "mediabox": [
+          0.0,
+          0.0,
+          584.16,
+          788.64
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          584.16,
+          788.64
+        ]
+      }
+    ]
+  },
+  {
+    "district": "Sikar",
+    "table": "civic_amenities",
+    "source": "1971\\Rajasthan\\1971 Sikar.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Rajasthan\\civic amenities\\Sikar_civic_1971.pdf",
+    "source_pages": [
+      44
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 44,
+        "mediabox": [
+          0.0,
+          0.0,
+          718.08,
+          789.36
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          718.08,
+          789.36
+        ]
+      }
+    ]
+  },
+  {
+    "district": "Sikar",
+    "table": "medical_educational_amenities",
+    "source": "1971\\Rajasthan\\1971 Sikar.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Rajasthan\\mededu\\Sikar_mededu_1971.pdf",
+    "source_pages": [
+      45
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 45,
+        "mediabox": [
+          0.0,
+          0.0,
+          718.08,
+          789.36
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          718.08,
+          789.36
+        ]
+      }
+    ]
+  },
+  {
+    "district": "Sikar",
+    "table": "tehsil_appendix",
+    "source": "1971\\Rajasthan\\1971 Sikar.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Rajasthan\\tehsil appendix\\Sikar_tehsil_1971.pdf",
+    "source_pages": [
+      90,
+      91
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 90,
+        "mediabox": [
+          0.0,
+          0.0,
+          718.08,
+          789.36
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          718.08,
+          789.36
+        ]
+      },
+      {
+        "source_page": 91,
+        "mediabox": [
+          0.0,
+          0.0,
+          718.08,
+          789.36
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          718.08,
+          789.36
+        ]
+      }
+    ]
+  },
+  {
+    "district": "Sirohi",
+    "table": "civic_amenities",
+    "source": "1971\\Rajasthan\\1971 Sirohi.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Rajasthan\\civic amenities\\Sirohi_civic_1971.pdf",
+    "source_pages": [
+      43
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 43,
+        "mediabox": [
+          0.0,
+          -3.35999,
+          612.0,
+          788.64
+        ],
+        "cropbox": [
+          0.0,
+          -3.35999,
+          612.0,
+          788.64
+        ]
+      }
+    ]
+  },
+  {
+    "district": "Sirohi",
+    "table": "medical_educational_amenities",
+    "source": "1971\\Rajasthan\\1971 Sirohi.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Rajasthan\\mededu\\Sirohi_mededu_1971.pdf",
+    "source_pages": [
+      44
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 44,
+        "mediabox": [
+          0.0,
+          -3.35999,
+          612.0,
+          788.64
+        ],
+        "cropbox": [
+          0.0,
+          -3.35999,
+          612.0,
+          788.64
+        ]
+      }
+    ]
+  },
+  {
+    "district": "Sirohi",
+    "table": "tehsil_appendix",
+    "source": "1971\\Rajasthan\\1971 Sirohi.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Rajasthan\\tehsil appendix\\Sirohi_tehsil_1971.pdf",
+    "source_pages": [
+      73,
+      74
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 73,
+        "mediabox": [
+          0.0,
+          -3.35999,
+          612.0,
+          788.64
+        ],
+        "cropbox": [
+          0.0,
+          -3.35999,
+          612.0,
+          788.64
+        ]
+      },
+      {
+        "source_page": 74,
+        "mediabox": [
+          0.0,
+          -3.35999,
+          612.0,
+          788.64
+        ],
+        "cropbox": [
+          0.0,
+          -3.35999,
+          612.0,
+          788.64
+        ]
+      }
+    ]
+  },
+  {
+    "district": "Tonk",
+    "table": "civic_amenities",
+    "source": "1971\\Rajasthan\\1971 Tonk.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Rajasthan\\civic amenities\\Tonk_civic_1971.pdf",
+    "source_pages": [
+      42
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 42,
+        "mediabox": [
+          0.0,
+          0.0,
+          613.44,
+          793.68
+        ],
+        "cropbox": [
+          0.0,
+          1.67999,
+          612.0,
+          793.68
+        ]
+      }
+    ]
+  },
+  {
+    "district": "Tonk",
+    "table": "medical_educational_amenities",
+    "source": "1971\\Rajasthan\\1971 Tonk.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Rajasthan\\mededu\\Tonk_mededu_1971.pdf",
+    "source_pages": [
+      43
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 43,
+        "mediabox": [
+          0.0,
+          0.0,
+          613.44,
+          793.68
+        ],
+        "cropbox": [
+          0.0,
+          1.67999,
+          612.0,
+          793.68
+        ]
+      }
+    ]
+  },
+  {
+    "district": "Tonk",
+    "table": "tehsil_appendix",
+    "source": "1971\\Rajasthan\\1971 Tonk.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Rajasthan\\tehsil appendix\\Tonk_tehsil_1971.pdf",
+    "source_pages": [
+      100,
+      101
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 100,
+        "mediabox": [
+          0.0,
+          0.0,
+          613.44,
+          793.68
+        ],
+        "cropbox": [
+          0.0,
+          1.67999,
+          612.0,
+          793.68
+        ]
+      },
+      {
+        "source_page": 101,
+        "mediabox": [
+          0.0,
+          0.0,
+          613.44,
+          793.68
+        ],
+        "cropbox": [
+          0.0,
+          1.67999,
+          612.0,
+          793.68
+        ]
+      }
+    ]
+  },
+  {
+    "district": "Udaipur",
+    "table": "civic_amenities",
+    "source": "1971\\Rajasthan\\1971 Udaipur.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Rajasthan\\civic amenities\\Udaipur_civic_1971.pdf",
+    "source_pages": [
+      41
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 41,
+        "mediabox": [
+          0.0,
+          0.0,
+          593.04,
+          783.12
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          593.04,
+          783.12
+        ]
+      }
+    ]
+  },
+  {
+    "district": "Udaipur",
+    "table": "medical_educational_amenities",
+    "source": "1971\\Rajasthan\\1971 Udaipur.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Rajasthan\\mededu\\Udaipur_mededu_1971.pdf",
+    "source_pages": [
+      42
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 42,
+        "mediabox": [
+          0.0,
+          0.0,
+          593.04,
+          783.12
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          593.04,
+          783.12
+        ]
+      }
+    ]
+  },
+  {
+    "district": "Udaipur",
+    "table": "tehsil_appendix",
+    "source": "1971\\Rajasthan\\1971 Udaipur.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Rajasthan\\tehsil appendix\\Udaipur_tehsil_1971.pdf",
+    "source_pages": [
+      190,
+      191,
+      192,
+      193
+    ],
+    "output_pages": 4,
+    "page_sizes": [
+      {
+        "source_page": 190,
+        "mediabox": [
+          0.0,
+          0.0,
+          593.04,
+          783.12
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          593.04,
+          783.12
+        ]
+      },
+      {
+        "source_page": 191,
+        "mediabox": [
+          0.0,
+          0.0,
+          593.04,
+          783.12
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          593.04,
+          783.12
+        ]
+      },
+      {
+        "source_page": 192,
+        "mediabox": [
+          0.0,
+          0.0,
+          593.04,
+          783.12
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          593.04,
+          783.12
+        ]
+      },
+      {
+        "source_page": 193,
+        "mediabox": [
+          0.0,
+          0.0,
+          593.04,
+          783.12
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          593.04,
+          783.12
+        ]
+      }
+    ]
+  }
+]

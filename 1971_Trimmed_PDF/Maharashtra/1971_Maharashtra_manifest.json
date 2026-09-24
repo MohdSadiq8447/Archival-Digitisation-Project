@@ -1,0 +1,1453 @@
+[
+  {
+    "district": "Ahmadnagar",
+    "table": "civic_amenities",
+    "source": "1971\\Maharashtra\\1971 Ahmadnagar.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Maharashtra\\civic amenities\\Ahmadnagar_civic_1971.pdf",
+    "source_pages": [
+      39
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 39,
+        "mediabox": [
+          0.0,
+          0.0,
+          595.92,
+          786.0
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          595.92,
+          786.0
+        ],
+        "rotate": 90
+      }
+    ]
+  },
+  {
+    "district": "Ahmadnagar",
+    "table": "medical_educational_amenities",
+    "source": "1971\\Maharashtra\\1971 Ahmadnagar.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Maharashtra\\mededu\\Ahmadnagar_mededu_1971.pdf",
+    "source_pages": [
+      40
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 40,
+        "mediabox": [
+          0.0,
+          0.0,
+          595.92,
+          786.0
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          595.92,
+          786.0
+        ],
+        "rotate": 90
+      }
+    ]
+  },
+  {
+    "district": "Akola",
+    "table": "civic_amenities",
+    "source": "1971\\Maharashtra\\1971 Akola.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Maharashtra\\civic amenities\\Akola_civic_1971.pdf",
+    "source_pages": [
+      34
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 34,
+        "mediabox": [
+          0.0,
+          0.0,
+          615.6,
+          772.56
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          615.6,
+          772.56
+        ],
+        "rotate": 90
+      }
+    ]
+  },
+  {
+    "district": "Akola",
+    "table": "medical_educational_amenities",
+    "source": "1971\\Maharashtra\\1971 Akola.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Maharashtra\\mededu\\Akola_mededu_1971.pdf",
+    "source_pages": [
+      35
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 35,
+        "mediabox": [
+          0.0,
+          0.0,
+          615.6,
+          772.56
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          615.6,
+          772.56
+        ],
+        "rotate": 90
+      }
+    ]
+  },
+  {
+    "district": "Amravati",
+    "table": "civic_amenities",
+    "source": "1971\\Maharashtra\\1971 Amravati.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Maharashtra\\civic amenities\\Amravati_civic_1971.pdf",
+    "source_pages": [
+      35
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 35,
+        "mediabox": [
+          0.0,
+          0.0,
+          658.56,
+          894.48
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          658.56,
+          894.48
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Amravati",
+    "table": "medical_educational_amenities",
+    "source": "1971\\Maharashtra\\1971 Amravati.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Maharashtra\\mededu\\Amravati_mededu_1971.pdf",
+    "source_pages": [
+      36
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 36,
+        "mediabox": [
+          0.0,
+          0.0,
+          658.56,
+          894.48
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          658.56,
+          894.48
+        ],
+        "rotate": 90
+      }
+    ]
+  },
+  {
+    "district": "Bhandara",
+    "table": "civic_amenities",
+    "source": "1971\\Maharashtra\\1971 Bhandara.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Maharashtra\\civic amenities\\Bhandara_civic_1971.pdf",
+    "source_pages": [
+      26
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 26,
+        "mediabox": [
+          0.0,
+          0.0,
+          606.96,
+          894.96
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          606.96,
+          894.96
+        ],
+        "rotate": 90
+      }
+    ]
+  },
+  {
+    "district": "Bhandara",
+    "table": "medical_educational_amenities",
+    "source": "1971\\Maharashtra\\1971 Bhandara.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Maharashtra\\mededu\\Bhandara_mededu_1971.pdf",
+    "source_pages": [
+      27
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 27,
+        "mediabox": [
+          0.0,
+          0.0,
+          606.96,
+          894.96
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          606.96,
+          894.96
+        ],
+        "rotate": 90
+      }
+    ]
+  },
+  {
+    "district": "Bhir",
+    "table": "civic_amenities",
+    "source": "1971\\Maharashtra\\1971 Bhir.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Maharashtra\\civic amenities\\Bhir_civic_1971.pdf",
+    "source_pages": [
+      29
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 29,
+        "mediabox": [
+          0.0,
+          0.0,
+          599.28,
+          773.04
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          599.28,
+          773.04
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Bhir",
+    "table": "medical_educational_amenities",
+    "source": "1971\\Maharashtra\\1971 Bhir.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Maharashtra\\mededu\\Bhir_mededu_1971.pdf",
+    "source_pages": [
+      30
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 30,
+        "mediabox": [
+          0.0,
+          0.0,
+          599.28,
+          773.04
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          599.28,
+          773.04
+        ],
+        "rotate": 90
+      }
+    ]
+  },
+  {
+    "district": "Buldana",
+    "table": "civic_amenities",
+    "source": "1971\\Maharashtra\\1971 Buldana.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Maharashtra\\civic amenities\\Buldana_civic_1971.pdf",
+    "source_pages": [
+      27
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 27,
+        "mediabox": [
+          0.0,
+          0.0,
+          622.8,
+          796.08
+        ],
+        "cropbox": [
+          0.0,
+          4.08002,
+          612.0,
+          796.08
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Buldana",
+    "table": "medical_educational_amenities",
+    "source": "1971\\Maharashtra\\1971 Buldana.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Maharashtra\\mededu\\Buldana_mededu_1971.pdf",
+    "source_pages": [
+      28
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 28,
+        "mediabox": [
+          0.0,
+          0.0,
+          622.8,
+          796.08
+        ],
+        "cropbox": [
+          0.0,
+          4.08002,
+          612.0,
+          796.08
+        ],
+        "rotate": 90
+      }
+    ]
+  },
+  {
+    "district": "Chandrapur",
+    "table": "civic_amenities",
+    "source": "1971\\Maharashtra\\1971 Chandrapur.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Maharashtra\\civic amenities\\Chandrapur_civic_1971.pdf",
+    "source_pages": [
+      38
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 38,
+        "mediabox": [
+          0.0,
+          0.0,
+          865.68,
+          1158.96
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          865.68,
+          1158.96
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Chandrapur",
+    "table": "medical_educational_amenities",
+    "source": "1971\\Maharashtra\\1971 Chandrapur.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Maharashtra\\mededu\\Chandrapur_mededu_1971.pdf",
+    "source_pages": [
+      39
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 39,
+        "mediabox": [
+          0.0,
+          0.0,
+          865.68,
+          1158.96
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          865.68,
+          1158.96
+        ],
+        "rotate": 90
+      }
+    ]
+  },
+  {
+    "district": "Dhulia",
+    "table": "civic_amenities",
+    "source": "1971\\Maharashtra\\1971 Dhulia.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Maharashtra\\civic amenities\\Dhulia_civic_1971.pdf",
+    "source_pages": [
+      35
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 35,
+        "mediabox": [
+          0.0,
+          0.0,
+          663.12,
+          773.76
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          663.12,
+          773.76
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Dhulia",
+    "table": "medical_educational_amenities",
+    "source": "1971\\Maharashtra\\1971 Dhulia.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Maharashtra\\mededu\\Dhulia_mededu_1971.pdf",
+    "source_pages": [
+      36
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 36,
+        "mediabox": [
+          0.0,
+          0.0,
+          663.12,
+          773.76
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          663.12,
+          773.76
+        ],
+        "rotate": 90
+      }
+    ]
+  },
+  {
+    "district": "Jalgaon",
+    "table": "civic_amenities",
+    "source": "1971\\Maharashtra\\1971 Jalgaon.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Maharashtra\\civic amenities\\Jalgaon_civic_1971.pdf",
+    "source_pages": [
+      41
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 41,
+        "mediabox": [
+          0.0,
+          0.0,
+          582.96,
+          704.4
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          582.96,
+          704.4
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Jalgaon",
+    "table": "medical_educational_amenities",
+    "source": "1971\\Maharashtra\\1971 Jalgaon.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Maharashtra\\mededu\\Jalgaon_mededu_1971.pdf",
+    "source_pages": [
+      42
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 42,
+        "mediabox": [
+          0.0,
+          0.0,
+          582.96,
+          704.4
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          582.96,
+          704.4
+        ],
+        "rotate": 90
+      }
+    ]
+  },
+  {
+    "district": "Kolaba",
+    "table": "civic_amenities",
+    "source": "1971\\Maharashtra\\1971 Kolaba.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Maharashtra\\civic amenities\\Kolaba_civic_1971.pdf",
+    "source_pages": [
+      43
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 43,
+        "mediabox": [
+          0.0,
+          0.0,
+          611.04,
+          879.12
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          611.04,
+          879.12
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Kolaba",
+    "table": "medical_educational_amenities",
+    "source": "1971\\Maharashtra\\1971 Kolaba.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Maharashtra\\mededu\\Kolaba_mededu_1971.pdf",
+    "source_pages": [
+      44
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 44,
+        "mediabox": [
+          0.0,
+          0.0,
+          611.04,
+          879.12
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          611.04,
+          879.12
+        ],
+        "rotate": 90
+      }
+    ]
+  },
+  {
+    "district": "Kolhapur",
+    "table": "civic_amenities",
+    "source": "1971\\Maharashtra\\1971 Kolhapur.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Maharashtra\\civic amenities\\Kolhapur_civic_1971.pdf",
+    "source_pages": [
+      39
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 39,
+        "mediabox": [
+          0.0,
+          0.0,
+          578.64,
+          823.44
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          578.64,
+          823.44
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Kolhapur",
+    "table": "medical_educational_amenities",
+    "source": "1971\\Maharashtra\\1971 Kolhapur.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Maharashtra\\mededu\\Kolhapur_mededu_1971.pdf",
+    "source_pages": [
+      40
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 40,
+        "mediabox": [
+          0.0,
+          0.0,
+          578.64,
+          823.44
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          578.64,
+          823.44
+        ],
+        "rotate": 90
+      }
+    ]
+  },
+  {
+    "district": "Nagpur",
+    "table": "civic_amenities",
+    "source": "1971\\Maharashtra\\1971 Nagpur.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Maharashtra\\civic amenities\\Nagpur_civic_1971.pdf",
+    "source_pages": [
+      33
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 33,
+        "mediabox": [
+          0.0,
+          0.0,
+          617.52,
+          900.0
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          617.52,
+          900.0
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Nagpur",
+    "table": "medical_educational_amenities",
+    "source": "1971\\Maharashtra\\1971 Nagpur.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Maharashtra\\mededu\\Nagpur_mededu_1971.pdf",
+    "source_pages": [
+      34
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 34,
+        "mediabox": [
+          0.0,
+          0.0,
+          617.52,
+          900.0
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          617.52,
+          900.0
+        ],
+        "rotate": 90
+      }
+    ]
+  },
+  {
+    "district": "Nanded",
+    "table": "civic_amenities",
+    "source": "1971\\Maharashtra\\1971 Nanded.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Maharashtra\\civic amenities\\Nanded_civic_1971.pdf",
+    "source_pages": [
+      31
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 31,
+        "mediabox": [
+          0.0,
+          0.0,
+          636.0,
+          885.36
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          636.0,
+          885.36
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Nanded",
+    "table": "medical_educational_amenities",
+    "source": "1971\\Maharashtra\\1971 Nanded.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Maharashtra\\mededu\\Nanded_mededu_1971.pdf",
+    "source_pages": [
+      32
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 32,
+        "mediabox": [
+          0.0,
+          0.0,
+          636.0,
+          885.36
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          636.0,
+          885.36
+        ],
+        "rotate": 90
+      }
+    ]
+  },
+  {
+    "district": "Nasik",
+    "table": "civic_amenities",
+    "source": "1971\\Maharashtra\\1971 Nasik.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Maharashtra\\civic amenities\\Nasik_civic_1971.pdf",
+    "source_pages": [
+      41
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 41,
+        "mediabox": [
+          0.0,
+          0.0,
+          627.6,
+          900.48
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          627.6,
+          900.48
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Nasik",
+    "table": "medical_educational_amenities",
+    "source": "1971\\Maharashtra\\1971 Nasik.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Maharashtra\\mededu\\Nasik_mededu_1971.pdf",
+    "source_pages": [
+      42,
+      43
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 42,
+        "mediabox": [
+          0.0,
+          0.0,
+          627.6,
+          900.48
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          627.6,
+          900.48
+        ],
+        "rotate": 90
+      },
+      {
+        "source_page": 43,
+        "mediabox": [
+          0.0,
+          0.0,
+          627.6,
+          900.48
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          627.6,
+          900.48
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Osmanabad",
+    "table": "civic_amenities",
+    "source": "1971\\Maharashtra\\1971 Osmanabad.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Maharashtra\\civic amenities\\Osmanabad_civic_1971.pdf",
+    "source_pages": [
+      37
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 37,
+        "mediabox": [
+          0.0,
+          0.0,
+          649.44,
+          901.2
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          649.44,
+          901.2
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Osmanabad",
+    "table": "medical_educational_amenities",
+    "source": "1971\\Maharashtra\\1971 Osmanabad.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Maharashtra\\mededu\\Osmanabad_mededu_1971.pdf",
+    "source_pages": [
+      38
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 38,
+        "mediabox": [
+          0.0,
+          0.0,
+          649.44,
+          901.2
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          649.44,
+          901.2
+        ],
+        "rotate": 90
+      }
+    ]
+  },
+  {
+    "district": "Parbhani",
+    "table": "civic_amenities",
+    "source": "1971\\Maharashtra\\1971 Parbhani.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Maharashtra\\civic amenities\\Parbhani_civic_1971.pdf",
+    "source_pages": [
+      31
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 31,
+        "mediabox": [
+          0.0,
+          0.0,
+          588.72,
+          789.84
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          588.72,
+          789.84
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Parbhani",
+    "table": "medical_educational_amenities",
+    "source": "1971\\Maharashtra\\1971 Parbhani.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Maharashtra\\mededu\\Parbhani_mededu_1971.pdf",
+    "source_pages": [
+      32
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 32,
+        "mediabox": [
+          0.0,
+          0.0,
+          588.72,
+          789.84
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          588.72,
+          789.84
+        ],
+        "rotate": 90
+      }
+    ]
+  },
+  {
+    "district": "Pune",
+    "table": "civic_amenities",
+    "source": "1971\\Maharashtra\\1971 Pune.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Maharashtra\\civic amenities\\Pune_civic_1971.pdf",
+    "source_pages": [
+      43
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 43,
+        "mediabox": [
+          0.0,
+          0.0,
+          677.28,
+          831.36
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          677.28,
+          831.36
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Pune",
+    "table": "medical_educational_amenities",
+    "source": "1971\\Maharashtra\\1971 Pune.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Maharashtra\\mededu\\Pune_mededu_1971.pdf",
+    "source_pages": [
+      44,
+      45
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 44,
+        "mediabox": [
+          0.0,
+          0.0,
+          677.28,
+          831.36
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          677.28,
+          831.36
+        ],
+        "rotate": 90
+      },
+      {
+        "source_page": 45,
+        "mediabox": [
+          0.0,
+          0.0,
+          677.28,
+          831.36
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          677.28,
+          831.36
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Ratnagiri",
+    "table": "civic_amenities",
+    "source": "1971\\Maharashtra\\1971 Ratnagiri.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Maharashtra\\civic amenities\\Ratnagiri_civic_1971.pdf",
+    "source_pages": [
+      45
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 45,
+        "mediabox": [
+          0.0,
+          0.0,
+          624.72,
+          857.52
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          624.72,
+          857.52
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Ratnagiri",
+    "table": "medical_educational_amenities",
+    "source": "1971\\Maharashtra\\1971 Ratnagiri.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Maharashtra\\mededu\\Ratnagiri_mededu_1971.pdf",
+    "source_pages": [
+      46
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 46,
+        "mediabox": [
+          0.0,
+          0.0,
+          624.72,
+          857.52
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          624.72,
+          857.52
+        ],
+        "rotate": 90
+      }
+    ]
+  },
+  {
+    "district": "Sangli",
+    "table": "civic_amenities",
+    "source": "1971\\Maharashtra\\1971 Sangli.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Maharashtra\\civic amenities\\Sangli_civic_1971.pdf",
+    "source_pages": [
+      12
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 12,
+        "mediabox": [
+          0.0,
+          0.0,
+          826.08,
+          1167.36
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          826.08,
+          1167.36
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Sangli",
+    "table": "medical_educational_amenities",
+    "source": "1971\\Maharashtra\\1971 Sangli.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Maharashtra\\mededu\\Sangli_mededu_1971.pdf",
+    "source_pages": [
+      13
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 13,
+        "mediabox": [
+          0.0,
+          0.0,
+          826.08,
+          1167.36
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          826.08,
+          1167.36
+        ],
+        "rotate": 90
+      }
+    ]
+  },
+  {
+    "district": "Satara",
+    "table": "civic_amenities",
+    "source": "1971\\Maharashtra\\1971 Satara.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Maharashtra\\civic amenities\\Satara_civic_1971.pdf",
+    "source_pages": [
+      37
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 37,
+        "mediabox": [
+          0.0,
+          0.0,
+          648.0,
+          752.16
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          648.0,
+          752.16
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Satara",
+    "table": "medical_educational_amenities",
+    "source": "1971\\Maharashtra\\1971 Satara.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Maharashtra\\mededu\\Satara_mededu_1971.pdf",
+    "source_pages": [
+      38
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 38,
+        "mediabox": [
+          0.0,
+          0.0,
+          648.0,
+          752.16
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          648.0,
+          752.16
+        ],
+        "rotate": 90
+      }
+    ]
+  },
+  {
+    "district": "Sholapur",
+    "table": "civic_amenities",
+    "source": "1971\\Maharashtra\\1971 Sholapur.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Maharashtra\\civic amenities\\Sholapur_civic_1971.pdf",
+    "source_pages": [
+      38
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 38,
+        "mediabox": [
+          0.0,
+          0.0,
+          609.6,
+          775.2
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          609.6,
+          775.2
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Sholapur",
+    "table": "medical_educational_amenities",
+    "source": "1971\\Maharashtra\\1971 Sholapur.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Maharashtra\\mededu\\Sholapur_mededu_1971.pdf",
+    "source_pages": [
+      39
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 39,
+        "mediabox": [
+          0.0,
+          0.0,
+          609.6,
+          775.2
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          609.6,
+          775.2
+        ],
+        "rotate": 90
+      }
+    ]
+  },
+  {
+    "district": "Thane",
+    "table": "civic_amenities",
+    "source": "1971\\Maharashtra\\1971 Thane.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Maharashtra\\civic amenities\\Thane_civic_1971.pdf",
+    "source_pages": [
+      41
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 41,
+        "mediabox": [
+          0.0,
+          0.0,
+          643.68,
+          764.4
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          643.68,
+          764.4
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Thane",
+    "table": "medical_educational_amenities",
+    "source": "1971\\Maharashtra\\1971 Thane.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Maharashtra\\mededu\\Thane_mededu_1971.pdf",
+    "source_pages": [
+      42,
+      43
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 42,
+        "mediabox": [
+          0.0,
+          0.0,
+          643.68,
+          764.4
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          643.68,
+          764.4
+        ],
+        "rotate": 90
+      },
+      {
+        "source_page": 43,
+        "mediabox": [
+          0.0,
+          0.0,
+          643.68,
+          764.4
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          643.68,
+          764.4
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Wardha",
+    "table": "civic_amenities",
+    "source": "1971\\Maharashtra\\1971 Wardha.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Maharashtra\\civic amenities\\Wardha_civic_1971.pdf",
+    "source_pages": [
+      25
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 25,
+        "mediabox": [
+          0.0,
+          0.0,
+          645.84,
+          926.88
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          645.84,
+          926.88
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Wardha",
+    "table": "medical_educational_amenities",
+    "source": "1971\\Maharashtra\\1971 Wardha.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Maharashtra\\mededu\\Wardha_mededu_1971.pdf",
+    "source_pages": [
+      26
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 26,
+        "mediabox": [
+          0.0,
+          0.0,
+          645.84,
+          926.88
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          645.84,
+          926.88
+        ],
+        "rotate": 90
+      }
+    ]
+  },
+  {
+    "district": "Yavatmal",
+    "table": "civic_amenities",
+    "source": "1971\\Maharashtra\\1971 Yavatmal.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Maharashtra\\civic amenities\\Yavatmal_civic_1971.pdf",
+    "source_pages": [
+      35
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 35,
+        "mediabox": [
+          0.0,
+          0.0,
+          618.96,
+          881.76
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          618.96,
+          881.76
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Yavatmal",
+    "table": "medical_educational_amenities",
+    "source": "1971\\Maharashtra\\1971 Yavatmal.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Maharashtra\\mededu\\Yavatmal_mededu_1971.pdf",
+    "source_pages": [
+      36
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 36,
+        "mediabox": [
+          0.0,
+          0.0,
+          618.96,
+          881.76
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          618.96,
+          881.76
+        ],
+        "rotate": 90
+      }
+    ]
+  },
+  {
+    "district": "Aurangabad",
+    "table": "civic_amenities",
+    "source": "1971\\Maharashtra\\44875_1971_AUR.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Maharashtra\\civic amenities\\Aurangabad_civic_1971.pdf",
+    "source_pages": [
+      39
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 39,
+        "mediabox": [
+          0.0,
+          0.0,
+          638.16,
+          891.36
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          638.16,
+          891.36
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Aurangabad",
+    "table": "medical_educational_amenities",
+    "source": "1971\\Maharashtra\\44875_1971_AUR.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Maharashtra\\mededu\\Aurangabad_mededu_1971.pdf",
+    "source_pages": [
+      40
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 40,
+        "mediabox": [
+          0.0,
+          0.0,
+          638.16,
+          891.36
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          638.16,
+          891.36
+        ],
+        "rotate": 0
+      }
+    ]
+  }
+]

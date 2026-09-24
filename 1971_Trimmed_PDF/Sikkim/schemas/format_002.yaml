@@ -1,0 +1,62 @@
+format_id: format_002
+name: Medical and Educational Amenities
+category: Medical and Educational Amenities
+pdfs:
+- filenames:
+  - Sikkim_mededu_1971.pdf
+  pagination:
+    page_1_columns:
+    - 1
+    - 8
+    page_2_columns:
+    - 9
+    - 16
+columns:
+- number: 1
+  name: Serial No.
+  variable_name: sl_no
+- number: 2
+  name: Name of Town
+  variable_name: town_name
+- number: 3
+  name: Number of Hospitals/T.B. Clinics
+  variable_name: hospitals_tb_clinics
+- number: 4
+  name: Number of beds in Medical Institutions noted at Col. 3
+  variable_name: medical_beds
+- number: 5
+  name: Number of Arts Colleges
+  variable_name: arts_colleges
+- number: 6
+  name: Number of Higher Secondary Schools
+  variable_name: higher_secondary_schools
+- number: 7
+  name: Number of Junior Secondary Schools
+  variable_name: junior_secondary_schools
+- number: 8
+  name: Number of Primary Schools
+  variable_name: primary_schools
+- number: 9
+  name: Number of Stadia
+  variable_name: stadia
+- number: 10
+  name: Number of Cinemas
+  variable_name: cinemas
+- number: 11
+  name: Number of Auditoria Drama Halls
+  variable_name: auditoria_drama_halls
+- number: 12
+  name: Number of Public Libraries including Reading Rooms
+  variable_name: public_libraries_reading_rooms
+- number: 13
+  name: Number of Monasteries
+  variable_name: monasteries
+- number: 14
+  name: Number of Churches
+  variable_name: churches
+- number: 15
+  name: Number of Mosques
+  variable_name: mosques
+- number: 16
+  name: Number of Hindu Temples
+  variable_name: hindu_temples

@@ -1,0 +1,1208 @@
+[
+  {
+    "state": "Andra Pradesh",
+    "source_state": "Andra Pradesh",
+    "district": "Adilabad",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Andra Pradesh/1981 Adilabad.pdf",
+    "source_filename": "1981 Adilabad.pdf",
+    "volume_type": "classification deferred",
+    "source_page_count": 574,
+    "output": "output/pdf/1981_trimmed/Andra Pradesh/civic amenities/1981_Adilabad_civic_amenities.pdf",
+    "source_pages_selected": [
+      354,
+      355
+    ],
+    "printed_page_labels": [
+      "266",
+      "267"
+    ],
+    "status": "Trimmed",
+    "reason": "Manually verified source span from printed headings, continuation pages, and table structure.",
+    "flags": [],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 354,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              648.96,
+              798.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              648.96,
+              798.96
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 355,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              648.96,
+              798.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              648.96,
+              798.96
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 354,
+          "output_page": 1,
+          "source_png_sha256": "8b439e57005eca149db66ed99744802b1126529e8c75a1a9470274208a090cc2",
+          "output_png_sha256": "8b439e57005eca149db66ed99744802b1126529e8c75a1a9470274208a090cc2",
+          "match": true
+        },
+        {
+          "source_page": 355,
+          "output_page": 2,
+          "source_png_sha256": "62156b4d69009c01d960d8f0b6e37a665ffdf44ae76db21108296603b0eb7cfc",
+          "output_png_sha256": "62156b4d69009c01d960d8f0b6e37a665ffdf44ae76db21108296603b0eb7cfc",
+          "match": true
+        }
+      ]
+    }
+  },
+  {
+    "state": "Andra Pradesh",
+    "source_state": "Andra Pradesh",
+    "district": "Adilabad",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Andra Pradesh/1981 Adilabad.pdf",
+    "source_filename": "1981 Adilabad.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "source_page_count": 574,
+    "output": "output/pdf/1981_trimmed/Andra Pradesh/mededu/1981_Adilabad_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      358,
+      359
+    ],
+    "printed_page_labels": [
+      "270",
+      "271"
+    ],
+    "status": "Trimmed",
+    "reason": "Manually verified source span from printed headings, continuation pages, and table structure.",
+    "flags": [],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 358,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              648.96,
+              798.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              648.96,
+              798.96
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 359,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              648.96,
+              798.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              648.96,
+              798.96
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 358,
+          "output_page": 1,
+          "source_png_sha256": "20202c943433803caa39938a8010149a37d6e6be01cfb807f2e027d375283675",
+          "output_png_sha256": "20202c943433803caa39938a8010149a37d6e6be01cfb807f2e027d375283675",
+          "match": true
+        },
+        {
+          "source_page": 359,
+          "output_page": 2,
+          "source_png_sha256": "307bb1b00127ffcef02ef3221518474fca5e2c3969bc97a4336bcccff365d6ca",
+          "output_png_sha256": "307bb1b00127ffcef02ef3221518474fca5e2c3969bc97a4336bcccff365d6ca",
+          "match": true
+        }
+      ]
+    }
+  },
+  {
+    "state": "Andra Pradesh",
+    "source_state": "Andra Pradesh",
+    "district": "Adilabad",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Andra Pradesh/1981 Adilabad.pdf",
+    "source_filename": "1981 Adilabad.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "source_page_count": 574,
+    "output": "output/pdf/1981_trimmed/Andra Pradesh/tehsil appendix/1981_Adilabad_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      260,
+      261,
+      262,
+      263
+    ],
+    "printed_page_labels": [
+      "174",
+      "175",
+      "176",
+      "177"
+    ],
+    "status": "Trimmed",
+    "reason": "Manually verified source span from printed headings, continuation pages, and table structure.",
+    "flags": [],
+    "verification": {
+      "output_pages": 4,
+      "pages": [
+        {
+          "source_page": 260,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              648.96,
+              798.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              648.96,
+              798.96
+            ]
+          },
+          "rotation": 90
+        },
+        {
+          "source_page": 261,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              648.96,
+              798.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              648.96,
+              798.96
+            ]
+          },
+          "rotation": 90
+        },
+        {
+          "source_page": 262,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              648.96,
+              798.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              648.96,
+              798.96
+            ]
+          },
+          "rotation": 90
+        },
+        {
+          "source_page": 263,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              648.96,
+              798.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              648.96,
+              798.96
+            ]
+          },
+          "rotation": 90
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 260,
+          "output_page": 1,
+          "source_png_sha256": "b3a8882a0675f93526e343dabe62ff1302c6e701748b9d899e16c2cc9b986252",
+          "output_png_sha256": "b3a8882a0675f93526e343dabe62ff1302c6e701748b9d899e16c2cc9b986252",
+          "match": true
+        },
+        {
+          "source_page": 261,
+          "output_page": 2,
+          "source_png_sha256": "9ce2e4f2d052cd5723579cc57e08cc32683aabcbe7ea1890f1d178d35c964eb0",
+          "output_png_sha256": "9ce2e4f2d052cd5723579cc57e08cc32683aabcbe7ea1890f1d178d35c964eb0",
+          "match": true
+        },
+        {
+          "source_page": 262,
+          "output_page": 3,
+          "source_png_sha256": "43e27f1d8f4128c224f41bab435c352447557696593c874aa0f51e4e3fa3e6b7",
+          "output_png_sha256": "43e27f1d8f4128c224f41bab435c352447557696593c874aa0f51e4e3fa3e6b7",
+          "match": true
+        },
+        {
+          "source_page": 263,
+          "output_page": 4,
+          "source_png_sha256": "083e1d38725e0aec778579fa2bddd718fe018e12725fc01fe5989ca80c91175b",
+          "output_png_sha256": "083e1d38725e0aec778579fa2bddd718fe018e12725fc01fe5989ca80c91175b",
+          "match": true
+        }
+      ]
+    }
+  },
+  {
+    "state": "Gujarat",
+    "source_state": "Gujarat",
+    "district": "Ahmadabad",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Gujarat/1981 Ahmadabad.pdf",
+    "source_filename": "1981 Ahmadabad.pdf",
+    "volume_type": "classification deferred",
+    "source_page_count": 380,
+    "output": "output/pdf/1981_trimmed/Gujarat/civic amenities/1981_Ahmadabad_civic_amenities.pdf",
+    "source_pages_selected": [
+      208,
+      209,
+      210,
+      211
+    ],
+    "printed_page_labels": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Manually verified source span from printed headings, continuation pages, and table structure.",
+    "flags": [],
+    "verification": {
+      "output_pages": 4,
+      "pages": [
+        {
+          "source_page": 208,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 209,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 210,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 211,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 208,
+          "output_page": 1,
+          "source_png_sha256": "0007b79609f4ea1f63451c9f7ca5063c783c27537befdb1440144b7cf7106935",
+          "output_png_sha256": "0007b79609f4ea1f63451c9f7ca5063c783c27537befdb1440144b7cf7106935",
+          "match": true
+        },
+        {
+          "source_page": 209,
+          "output_page": 2,
+          "source_png_sha256": "45c6a4fa1ffde98b323ad665f817afd2de43adebc59feac96f7e045ae7a90185",
+          "output_png_sha256": "45c6a4fa1ffde98b323ad665f817afd2de43adebc59feac96f7e045ae7a90185",
+          "match": true
+        },
+        {
+          "source_page": 210,
+          "output_page": 3,
+          "source_png_sha256": "f2e693da29b9ff779e7406d3df2c347acbb8f5329d7297638b760c0cbdbdc519",
+          "output_png_sha256": "f2e693da29b9ff779e7406d3df2c347acbb8f5329d7297638b760c0cbdbdc519",
+          "match": true
+        },
+        {
+          "source_page": 211,
+          "output_page": 4,
+          "source_png_sha256": "27f78ebe8590fac89cd0c1fe3eee592c4f5f9d7e1c939d4861d6d5ae60276f10",
+          "output_png_sha256": "27f78ebe8590fac89cd0c1fe3eee592c4f5f9d7e1c939d4861d6d5ae60276f10",
+          "match": true
+        }
+      ]
+    }
+  },
+  {
+    "state": "Gujarat",
+    "source_state": "Gujarat",
+    "district": "Ahmadabad",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Gujarat/1981 Ahmadabad.pdf",
+    "source_filename": "1981 Ahmadabad.pdf",
+    "volume_type": "non-directory administrative volume",
+    "source_page_count": 380,
+    "output": "output/pdf/1981_trimmed/Gujarat/mededu/1981_Ahmadabad_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      216,
+      217,
+      218,
+      219,
+      220,
+      221
+    ],
+    "printed_page_labels": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Manually verified source span from printed headings, continuation pages, and table structure.",
+    "flags": [],
+    "verification": {
+      "output_pages": 6,
+      "pages": [
+        {
+          "source_page": 216,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 217,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 218,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 219,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 220,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 221,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 216,
+          "output_page": 1,
+          "source_png_sha256": "7248e494a5631b1a89af12b8d2463afd656c1eed44ae9acfd58fbb063f4d9f3e",
+          "output_png_sha256": "7248e494a5631b1a89af12b8d2463afd656c1eed44ae9acfd58fbb063f4d9f3e",
+          "match": true
+        },
+        {
+          "source_page": 217,
+          "output_page": 2,
+          "source_png_sha256": "f9a897898dcfe00debb60e2eb81ca684e2bd201c639218016942941161cbd506",
+          "output_png_sha256": "f9a897898dcfe00debb60e2eb81ca684e2bd201c639218016942941161cbd506",
+          "match": true
+        },
+        {
+          "source_page": 218,
+          "output_page": 3,
+          "source_png_sha256": "5985afe20199abfbe2d0eb5194c427fa6649f1735b405e3088689f0d1fb8b281",
+          "output_png_sha256": "5985afe20199abfbe2d0eb5194c427fa6649f1735b405e3088689f0d1fb8b281",
+          "match": true
+        },
+        {
+          "source_page": 219,
+          "output_page": 4,
+          "source_png_sha256": "b5721f34df3c83688cc939ee704cc08cc4025515fc77b608ca7a699eec8a63aa",
+          "output_png_sha256": "b5721f34df3c83688cc939ee704cc08cc4025515fc77b608ca7a699eec8a63aa",
+          "match": true
+        },
+        {
+          "source_page": 220,
+          "output_page": 5,
+          "source_png_sha256": "47d440d1130e1d81258022c7fddea5afa1da320a394308faf9dcb8780b0f9880",
+          "output_png_sha256": "47d440d1130e1d81258022c7fddea5afa1da320a394308faf9dcb8780b0f9880",
+          "match": true
+        },
+        {
+          "source_page": 221,
+          "output_page": 6,
+          "source_png_sha256": "d10307bc06acc837ef6c327ee2293602c7a90e304a8e225e6d69078fc897c6d4",
+          "output_png_sha256": "d10307bc06acc837ef6c327ee2293602c7a90e304a8e225e6d69078fc897c6d4",
+          "match": true
+        }
+      ]
+    }
+  },
+  {
+    "state": "Gujarat",
+    "source_state": "Gujarat",
+    "district": "Ahmadabad",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Gujarat/1981 Ahmadabad.pdf",
+    "source_filename": "1981 Ahmadabad.pdf",
+    "volume_type": "non-directory administrative volume",
+    "source_page_count": 380,
+    "output": "output/pdf/1981_trimmed/Gujarat/tehsil appendix/1981_Ahmadabad_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      176,
+      177,
+      178,
+      179
+    ],
+    "printed_page_labels": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Manually verified source span from printed headings, continuation pages, and table structure.",
+    "flags": [],
+    "verification": {
+      "output_pages": 4,
+      "pages": [
+        {
+          "source_page": 176,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 177,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 178,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 179,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 176,
+          "output_page": 1,
+          "source_png_sha256": "364327cbcbf34420aacb114047ad9a4da8bf7ee0cc160123e1bbecfd861e6703",
+          "output_png_sha256": "364327cbcbf34420aacb114047ad9a4da8bf7ee0cc160123e1bbecfd861e6703",
+          "match": true
+        },
+        {
+          "source_page": 177,
+          "output_page": 2,
+          "source_png_sha256": "9727bdbe6d3590d9c78b78822ae81ceb08ca3ba3a5de2f577d9bb8ea4584224b",
+          "output_png_sha256": "9727bdbe6d3590d9c78b78822ae81ceb08ca3ba3a5de2f577d9bb8ea4584224b",
+          "match": true
+        },
+        {
+          "source_page": 178,
+          "output_page": 3,
+          "source_png_sha256": "cc685918ffe06ba05f812f91416fed618f9ff5de9b492198b1aabfee9f0f830b",
+          "output_png_sha256": "cc685918ffe06ba05f812f91416fed618f9ff5de9b492198b1aabfee9f0f830b",
+          "match": true
+        },
+        {
+          "source_page": 179,
+          "output_page": 4,
+          "source_png_sha256": "9172c36e3ec11c74918ceac71cdbe0413504defb4979137da72ae63943c702d6",
+          "output_png_sha256": "9172c36e3ec11c74918ceac71cdbe0413504defb4979137da72ae63943c702d6",
+          "match": true
+        }
+      ]
+    }
+  },
+  {
+    "state": "Uttar Pradesh",
+    "source_state": "Uttar Pradesh",
+    "district": "Allahabad",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Uttar Pradesh/1981 Allahabad.pdf",
+    "source_filename": "1981 Allahabad.pdf",
+    "volume_type": "classification deferred",
+    "source_page_count": 768,
+    "output": "output/pdf/1981_trimmed/Uttar Pradesh/civic amenities/1981_Allahabad_civic_amenities.pdf",
+    "source_pages_selected": [
+      741,
+      742,
+      743,
+      744
+    ],
+    "printed_page_labels": [
+      "690",
+      "691",
+      "692",
+      "693"
+    ],
+    "status": "Trimmed",
+    "reason": "Manually verified source span from printed headings, continuation pages, and table structure.",
+    "flags": [],
+    "verification": {
+      "output_pages": 4,
+      "pages": [
+        {
+          "source_page": 741,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              532.8,
+              777.36
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              532.8,
+              777.36
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 742,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              532.8,
+              777.36
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              532.8,
+              777.36
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 743,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              532.8,
+              777.36
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              532.8,
+              777.36
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 744,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              532.8,
+              777.36
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              532.8,
+              777.36
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 741,
+          "output_page": 1,
+          "source_png_sha256": "a1992e736e4cedd2eab3c075c66ba968daa693b2b52aeef25c039714f546bc90",
+          "output_png_sha256": "a1992e736e4cedd2eab3c075c66ba968daa693b2b52aeef25c039714f546bc90",
+          "match": true
+        },
+        {
+          "source_page": 742,
+          "output_page": 2,
+          "source_png_sha256": "c64e9f59d902ac32c9c63ca92c8ce1cff4a1254487201810d21ee761c1f7ff6e",
+          "output_png_sha256": "c64e9f59d902ac32c9c63ca92c8ce1cff4a1254487201810d21ee761c1f7ff6e",
+          "match": true
+        },
+        {
+          "source_page": 743,
+          "output_page": 3,
+          "source_png_sha256": "caf67281ec54b4bc09e4ea6d3f2dbd5f8a0a0deff287b45e838b83a01edbae53",
+          "output_png_sha256": "caf67281ec54b4bc09e4ea6d3f2dbd5f8a0a0deff287b45e838b83a01edbae53",
+          "match": true
+        },
+        {
+          "source_page": 744,
+          "output_page": 4,
+          "source_png_sha256": "b847507b148f319c198aadc7fbebe8b85bb6d7a9d4e9e8906360bc3c0692f340",
+          "output_png_sha256": "b847507b148f319c198aadc7fbebe8b85bb6d7a9d4e9e8906360bc3c0692f340",
+          "match": true
+        }
+      ]
+    }
+  },
+  {
+    "state": "Uttar Pradesh",
+    "source_state": "Uttar Pradesh",
+    "district": "Allahabad",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Uttar Pradesh/1981 Allahabad.pdf",
+    "source_filename": "1981 Allahabad.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "source_page_count": 768,
+    "output": "output/pdf/1981_trimmed/Uttar Pradesh/mededu/1981_Allahabad_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      747,
+      748,
+      749,
+      750,
+      751,
+      752
+    ],
+    "printed_page_labels": [
+      "696",
+      "697",
+      "698",
+      "699",
+      "700",
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Manually verified source span from printed headings, continuation pages, and table structure.",
+    "flags": [],
+    "verification": {
+      "output_pages": 6,
+      "pages": [
+        {
+          "source_page": 747,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              532.8,
+              777.36
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              532.8,
+              777.36
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 748,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              532.8,
+              777.36
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              532.8,
+              777.36
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 749,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              532.8,
+              777.36
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              532.8,
+              777.36
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 750,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              532.8,
+              777.36
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              532.8,
+              777.36
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 751,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              532.8,
+              777.36
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              532.8,
+              777.36
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 752,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              532.8,
+              777.36
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              532.8,
+              777.36
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 747,
+          "output_page": 1,
+          "source_png_sha256": "fea4e3d5a969c53eee3249582da312d265a6873877ecda36e3f62751cef437ec",
+          "output_png_sha256": "fea4e3d5a969c53eee3249582da312d265a6873877ecda36e3f62751cef437ec",
+          "match": true
+        },
+        {
+          "source_page": 748,
+          "output_page": 2,
+          "source_png_sha256": "bd67a961b704da500294b5a8a1759a4a9704517791348e7144c762a33e4a8eb8",
+          "output_png_sha256": "bd67a961b704da500294b5a8a1759a4a9704517791348e7144c762a33e4a8eb8",
+          "match": true
+        },
+        {
+          "source_page": 749,
+          "output_page": 3,
+          "source_png_sha256": "8671fc18c46d3e565dfef970205673b3fb0338532ccedb4e448889d4166edddb",
+          "output_png_sha256": "8671fc18c46d3e565dfef970205673b3fb0338532ccedb4e448889d4166edddb",
+          "match": true
+        },
+        {
+          "source_page": 750,
+          "output_page": 4,
+          "source_png_sha256": "2425b64ffe4534d39f41e6d88dec5a934601e627fc6348e9349a9f509a6bc65b",
+          "output_png_sha256": "2425b64ffe4534d39f41e6d88dec5a934601e627fc6348e9349a9f509a6bc65b",
+          "match": true
+        },
+        {
+          "source_page": 751,
+          "output_page": 5,
+          "source_png_sha256": "e72b380399e89a8b70135d5feccb9e88c5a66070ce78c0d3e44e86294b292a5c",
+          "output_png_sha256": "e72b380399e89a8b70135d5feccb9e88c5a66070ce78c0d3e44e86294b292a5c",
+          "match": true
+        },
+        {
+          "source_page": 752,
+          "output_page": 6,
+          "source_png_sha256": "b42f354f87abaeb7cb651e03ad61673f7d8126547e1d159f2c5acb4d946f66bc",
+          "output_png_sha256": "b42f354f87abaeb7cb651e03ad61673f7d8126547e1d159f2c5acb4d946f66bc",
+          "match": true
+        }
+      ]
+    }
+  },
+  {
+    "state": "Uttar Pradesh",
+    "source_state": "Uttar Pradesh",
+    "district": "Allahabad",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Uttar Pradesh/1981 Allahabad.pdf",
+    "source_filename": "1981 Allahabad.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "source_page_count": 768,
+    "output": "output/pdf/1981_trimmed/Uttar Pradesh/tehsil appendix/1981_Allahabad_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      577,
+      578,
+      579,
+      580
+    ],
+    "printed_page_labels": [
+      null,
+      "527",
+      null,
+      "529"
+    ],
+    "status": "Trimmed",
+    "reason": "Manually verified source span from printed headings, continuation pages, and table structure.",
+    "flags": [],
+    "verification": {
+      "output_pages": 4,
+      "pages": [
+        {
+          "source_page": 577,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              532.8,
+              777.36
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              532.8,
+              777.36
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 578,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              532.8,
+              777.36
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              532.8,
+              777.36
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 579,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              532.8,
+              777.36
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              532.8,
+              777.36
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 580,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              532.8,
+              777.36
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              532.8,
+              777.36
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 577,
+          "output_page": 1,
+          "source_png_sha256": "1fa9d56e2d8f749bf6e7faf89176aa3c7f6649c601e38bfd197851473252808b",
+          "output_png_sha256": "1fa9d56e2d8f749bf6e7faf89176aa3c7f6649c601e38bfd197851473252808b",
+          "match": true
+        },
+        {
+          "source_page": 578,
+          "output_page": 2,
+          "source_png_sha256": "e0ab2d28784f73392ad588ab3c3a1fd1d2468ff4dee6592202a5cb19f7afd390",
+          "output_png_sha256": "e0ab2d28784f73392ad588ab3c3a1fd1d2468ff4dee6592202a5cb19f7afd390",
+          "match": true
+        },
+        {
+          "source_page": 579,
+          "output_page": 3,
+          "source_png_sha256": "e043ab19d7ab960da49fc62ef837afe547d3067527fcd927e9c2a7567cea57d7",
+          "output_png_sha256": "e043ab19d7ab960da49fc62ef837afe547d3067527fcd927e9c2a7567cea57d7",
+          "match": true
+        },
+        {
+          "source_page": 580,
+          "output_page": 4,
+          "source_png_sha256": "c31bab500802a2611774ee0c479f9f33bf1c526019e0a9b8ef10a70919ed9b28",
+          "output_png_sha256": "c31bab500802a2611774ee0c479f9f33bf1c526019e0a9b8ef10a70919ed9b28",
+          "match": true
+        }
+      ]
+    }
+  }
+]

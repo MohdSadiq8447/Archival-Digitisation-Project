@@ -1,0 +1,1034 @@
+[
+  {
+    "state": "Meghalaya",
+    "source_state": "Meghalaya",
+    "district": "East Garo Hills",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Meghalaya/1981 East Garo Hills.pdf",
+    "source_filename": "1981 East Garo Hills.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 221,
+    "output": "output/pdf/1981_trimmed/Meghalaya/civic amenities/1981_East Garo Hills_civic_amenities.pdf",
+    "source_pages_selected": [
+      150
+    ],
+    "printed_page_labels": [
+      "124"
+    ],
+    "status": "Trimmed",
+    "reason": "Statement IV Civic and Other Amenities, printed page 124; source page 151 begins Statement V.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 1,
+      "pages": [
+        {
+          "source_page": 150,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              580.56,
+              811.68
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              580.56,
+              811.68
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 150,
+          "output_page": 1,
+          "source_png_sha256": "0234074f1b7bba0ce466fc5a698017908afe173146184d7c3d5add4d0375f372",
+          "output_png_sha256": "0234074f1b7bba0ce466fc5a698017908afe173146184d7c3d5add4d0375f372",
+          "match": true
+        }
+      ]
+    }
+  },
+  {
+    "state": "Meghalaya",
+    "source_state": "Meghalaya",
+    "district": "East Garo Hills",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Meghalaya/1981 East Garo Hills.pdf",
+    "source_filename": "1981 East Garo Hills.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 221,
+    "output": "output/pdf/1981_trimmed/Meghalaya/mededu/1981_East Garo Hills_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      151
+    ],
+    "printed_page_labels": [
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Statement V Medical, Educational, Recreational and Cultural Facilities, printed page 125; source page 152 begins Statement VI.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 1,
+      "pages": [
+        {
+          "source_page": 151,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              580.56,
+              811.68
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              580.56,
+              811.68
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 151,
+          "output_page": 1,
+          "source_png_sha256": "eba6eee474c75f2f5c7d41dfc161b194075548ec4a22c96a2eaaf964fbfdac29",
+          "output_png_sha256": "eba6eee474c75f2f5c7d41dfc161b194075548ec4a22c96a2eaaf964fbfdac29",
+          "match": true
+        }
+      ]
+    }
+  },
+  {
+    "state": "Meghalaya",
+    "source_state": "Meghalaya",
+    "district": "East Garo Hills",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Meghalaya/1981 East Garo Hills.pdf",
+    "source_filename": "1981 East Garo Hills.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 221,
+    "output": "output/pdf/1981_trimmed/Meghalaya/tehsil appendix/1981_East Garo Hills_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      118,
+      119
+    ],
+    "printed_page_labels": [
+      "91",
+      "92"
+    ],
+    "status": "Trimmed",
+    "reason": "Village Directory Appendix I Tehsil-wise abstract of educational, medical and other amenities, printed pages 91-92; source page 120 begins Appendix IV.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 118,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              580.56,
+              811.68
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              580.56,
+              811.68
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 119,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              580.56,
+              811.68
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              580.56,
+              811.68
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 118,
+          "output_page": 1,
+          "source_png_sha256": "9bf4d202f80924196837fe7131ca25c7438f5b413212ed8fcb91cfa9c980d214",
+          "output_png_sha256": "9bf4d202f80924196837fe7131ca25c7438f5b413212ed8fcb91cfa9c980d214",
+          "match": true
+        },
+        {
+          "source_page": 119,
+          "output_page": 2,
+          "source_png_sha256": "48a3eceda5c41eff1dfbbea080ced6f5d84f0555ce94020d525497f42cb81c70",
+          "output_png_sha256": "48a3eceda5c41eff1dfbbea080ced6f5d84f0555ce94020d525497f42cb81c70",
+          "match": true
+        }
+      ]
+    }
+  },
+  {
+    "state": "Meghalaya",
+    "source_state": "Meghalaya",
+    "district": "Jaintia Khasi Hills",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Meghalaya/1981 Jaintia Khasi Hills.pdf",
+    "source_filename": "1981 Jaintia Khasi Hills.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 203,
+    "output": "output/pdf/1981_trimmed/Meghalaya/civic amenities/1981_Jaintia Khasi Hills_civic_amenities.pdf",
+    "source_pages_selected": [
+      149
+    ],
+    "printed_page_labels": [
+      "123"
+    ],
+    "status": "Trimmed",
+    "reason": "Statement IV Civic and Other Amenities, printed page 123; source page 150 is Statement IV-A.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 1,
+      "pages": [
+        {
+          "source_page": 149,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              612.0,
+              815.52
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              612.0,
+              815.52
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 149,
+          "output_page": 1,
+          "source_png_sha256": "1f7a486a24bbdfe964c34f4dc58bec67b409ec84b8ebd11a415d5fb01b0b19a7",
+          "output_png_sha256": "1f7a486a24bbdfe964c34f4dc58bec67b409ec84b8ebd11a415d5fb01b0b19a7",
+          "match": true
+        }
+      ]
+    }
+  },
+  {
+    "state": "Meghalaya",
+    "source_state": "Meghalaya",
+    "district": "Jaintia Khasi Hills",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Meghalaya/1981 Jaintia Khasi Hills.pdf",
+    "source_filename": "1981 Jaintia Khasi Hills.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 203,
+    "output": "output/pdf/1981_trimmed/Meghalaya/mededu/1981_Jaintia Khasi Hills_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      151
+    ],
+    "printed_page_labels": [
+      "125"
+    ],
+    "status": "Trimmed",
+    "reason": "Statement V Medical, Educational, Recreational and Cultural Facilities, printed page 125; source page 152 begins Statement VI.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 1,
+      "pages": [
+        {
+          "source_page": 151,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              612.0,
+              815.52
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              612.0,
+              815.52
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 151,
+          "output_page": 1,
+          "source_png_sha256": "e2e53f65a73cfbcb7819053122b62a9c265b600deb4d20094c193070229bce5d",
+          "output_png_sha256": "e2e53f65a73cfbcb7819053122b62a9c265b600deb4d20094c193070229bce5d",
+          "match": true
+        }
+      ]
+    }
+  },
+  {
+    "state": "Meghalaya",
+    "source_state": "Meghalaya",
+    "district": "Jaintia Khasi Hills",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Meghalaya/1981 Jaintia Khasi Hills.pdf",
+    "source_filename": "1981 Jaintia Khasi Hills.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 203,
+    "output": "output/pdf/1981_trimmed/Meghalaya/tehsil appendix/1981_Jaintia Khasi Hills_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      124,
+      125
+    ],
+    "printed_page_labels": [
+      null,
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Village Directory Appendix I C.D. Blockwise abstract of educational, medical and other amenities, printed pages 98-99; source page 126 begins Appendix II.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 124,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              612.0,
+              815.52
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              612.0,
+              815.52
+            ]
+          },
+          "rotation": 90
+        },
+        {
+          "source_page": 125,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              612.0,
+              815.52
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              612.0,
+              815.52
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 124,
+          "output_page": 1,
+          "source_png_sha256": "c87bf0d66d6176a69cd52b9437c896e49c162fdb842efbe16cc2961308c834e5",
+          "output_png_sha256": "c87bf0d66d6176a69cd52b9437c896e49c162fdb842efbe16cc2961308c834e5",
+          "match": true
+        },
+        {
+          "source_page": 125,
+          "output_page": 2,
+          "source_png_sha256": "ee3b0395a44458c81a43e11fbbff5dd335f85aff4ce1f198d6fe587b73701eec",
+          "output_png_sha256": "ee3b0395a44458c81a43e11fbbff5dd335f85aff4ce1f198d6fe587b73701eec",
+          "match": true
+        }
+      ]
+    }
+  },
+  {
+    "state": "Meghalaya",
+    "source_state": "Meghalaya",
+    "district": "West Garo Hills",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Meghalaya/1981 West Garo Hills.pdf",
+    "source_filename": "1981 West Garo Hills.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 634,
+    "output": "output/pdf/1981_trimmed/Meghalaya/civic amenities/1981_West Garo Hills_civic_amenities.pdf",
+    "source_pages_selected": [
+      321
+    ],
+    "printed_page_labels": [
+      "283"
+    ],
+    "status": "Trimmed",
+    "reason": "Statement IV Civic and Other Amenities, printed page 283; source page 320 is Statement IV-A and source page 322 begins Statement V.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 1,
+      "pages": [
+        {
+          "source_page": 321,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              577.92,
+              805.68
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              577.92,
+              805.68
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 321,
+          "output_page": 1,
+          "source_png_sha256": "1d59b2ca3cd1624d039ba212f76ea7ca6c7338fec9e7b5c5b2979eded51eba54",
+          "output_png_sha256": "1d59b2ca3cd1624d039ba212f76ea7ca6c7338fec9e7b5c5b2979eded51eba54",
+          "match": true
+        }
+      ]
+    }
+  },
+  {
+    "state": "Meghalaya",
+    "source_state": "Meghalaya",
+    "district": "West Garo Hills",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Meghalaya/1981 West Garo Hills.pdf",
+    "source_filename": "1981 West Garo Hills.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 634,
+    "output": "output/pdf/1981_trimmed/Meghalaya/mededu/1981_West Garo Hills_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      322
+    ],
+    "printed_page_labels": [
+      "284"
+    ],
+    "status": "Trimmed",
+    "reason": "Statement V Medical, Educational, Recreational and Cultural Facilities, printed page 284; source page 323 begins Statement VI.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 1,
+      "pages": [
+        {
+          "source_page": 322,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              577.92,
+              805.68
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              577.92,
+              805.68
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 322,
+          "output_page": 1,
+          "source_png_sha256": "d3cd1efff833f4972740a5d0a3d4747a0022cf3c727fb430412d8570265e8e69",
+          "output_png_sha256": "d3cd1efff833f4972740a5d0a3d4747a0022cf3c727fb430412d8570265e8e69",
+          "match": true
+        }
+      ]
+    }
+  },
+  {
+    "state": "Meghalaya",
+    "source_state": "Meghalaya",
+    "district": "West Garo Hills",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Meghalaya/1981 West Garo Hills.pdf",
+    "source_filename": "1981 West Garo Hills.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 634,
+    "output": "output/pdf/1981_trimmed/Meghalaya/tehsil appendix/1981_West Garo Hills_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      324,
+      325,
+      326,
+      327,
+      328,
+      329,
+      330,
+      331,
+      332,
+      333
+    ],
+    "printed_page_labels": [
+      "286",
+      null,
+      "288",
+      "289",
+      "290",
+      "291",
+      "292",
+      null,
+      null,
+      "295"
+    ],
+    "status": "Trimmed",
+    "reason": "Village Directory Appendix I C.D. Blockwise abstract of educational, medical and other amenities, printed pages 286-295; source page 334 begins Appendix II.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 10,
+      "pages": [
+        {
+          "source_page": 324,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              577.92,
+              805.68
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              577.92,
+              805.68
+            ]
+          },
+          "rotation": 90
+        },
+        {
+          "source_page": 325,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              577.92,
+              805.68
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              577.92,
+              805.68
+            ]
+          },
+          "rotation": 90
+        },
+        {
+          "source_page": 326,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              577.92,
+              805.68
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              577.92,
+              805.68
+            ]
+          },
+          "rotation": 90
+        },
+        {
+          "source_page": 327,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              577.92,
+              805.68
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              577.92,
+              805.68
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 328,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              577.92,
+              805.68
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              577.92,
+              805.68
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 329,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              577.92,
+              805.68
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              577.92,
+              805.68
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 330,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              577.92,
+              805.68
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              577.92,
+              805.68
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 331,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              577.92,
+              805.68
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              577.92,
+              805.68
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 332,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              577.92,
+              805.68
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              577.92,
+              805.68
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 333,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              577.92,
+              805.68
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              577.92,
+              805.68
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 324,
+          "output_page": 1,
+          "source_png_sha256": "de3503d050699d97372878fa7c9d6ccfa8629771e4bb4a4647ba33985ae515ae",
+          "output_png_sha256": "de3503d050699d97372878fa7c9d6ccfa8629771e4bb4a4647ba33985ae515ae",
+          "match": true
+        },
+        {
+          "source_page": 325,
+          "output_page": 2,
+          "source_png_sha256": "ca8d3a6edc68bbd4e5f12be8e5b5fe38aa3b866e0930f5cebdb334388e6b1551",
+          "output_png_sha256": "ca8d3a6edc68bbd4e5f12be8e5b5fe38aa3b866e0930f5cebdb334388e6b1551",
+          "match": true
+        },
+        {
+          "source_page": 326,
+          "output_page": 3,
+          "source_png_sha256": "9173bed1fe764f0aefbd46300d874dc33bf869f397e4935bae7e2e95568c4b57",
+          "output_png_sha256": "9173bed1fe764f0aefbd46300d874dc33bf869f397e4935bae7e2e95568c4b57",
+          "match": true
+        },
+        {
+          "source_page": 327,
+          "output_page": 4,
+          "source_png_sha256": "fa4edb9d6a5bbdb7955caa0df26d3f3c2dad451c0f194fd63019c54356782136",
+          "output_png_sha256": "fa4edb9d6a5bbdb7955caa0df26d3f3c2dad451c0f194fd63019c54356782136",
+          "match": true
+        },
+        {
+          "source_page": 328,
+          "output_page": 5,
+          "source_png_sha256": "84e912b8c429ed653a189fbb80cb81350ec84f2b92fc78b6cd29cd29d9ef5f2b",
+          "output_png_sha256": "84e912b8c429ed653a189fbb80cb81350ec84f2b92fc78b6cd29cd29d9ef5f2b",
+          "match": true
+        },
+        {
+          "source_page": 329,
+          "output_page": 6,
+          "source_png_sha256": "5d3e364b370c5e55fd33ad9b29359296bae0b20889478e2dee004dc821646b35",
+          "output_png_sha256": "5d3e364b370c5e55fd33ad9b29359296bae0b20889478e2dee004dc821646b35",
+          "match": true
+        },
+        {
+          "source_page": 330,
+          "output_page": 7,
+          "source_png_sha256": "2ca863076833853dfaf61f95c6050bad8ccb7e4086a8e069c4c353aa13678b61",
+          "output_png_sha256": "2ca863076833853dfaf61f95c6050bad8ccb7e4086a8e069c4c353aa13678b61",
+          "match": true
+        },
+        {
+          "source_page": 331,
+          "output_page": 8,
+          "source_png_sha256": "e9ed49849b7c26de1b65a9e59d36b6e7b47bb5abd53ffd35120f23e41872412d",
+          "output_png_sha256": "e9ed49849b7c26de1b65a9e59d36b6e7b47bb5abd53ffd35120f23e41872412d",
+          "match": true
+        },
+        {
+          "source_page": 332,
+          "output_page": 9,
+          "source_png_sha256": "f57ca8e6a1209dbf002a24047d19d2b6e3ec7c63dcfcd5e75eb14a3c2bd0a578",
+          "output_png_sha256": "f57ca8e6a1209dbf002a24047d19d2b6e3ec7c63dcfcd5e75eb14a3c2bd0a578",
+          "match": true
+        },
+        {
+          "source_page": 333,
+          "output_page": 10,
+          "source_png_sha256": "c25372c2d4bfc0c4740aa6baa5bda555a8beaccc7e40ebe9a57b512bee7ea1c2",
+          "output_png_sha256": "c25372c2d4bfc0c4740aa6baa5bda555a8beaccc7e40ebe9a57b512bee7ea1c2",
+          "match": true
+        }
+      ]
+    }
+  },
+  {
+    "state": "Meghalaya",
+    "source_state": "Meghalaya",
+    "district": "West Khasi Hills",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Meghalaya/1981 West Khasi Hills.pdf",
+    "source_filename": "1981 West Khasi Hills.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 273,
+    "output": "output/pdf/1981_trimmed/Meghalaya/civic amenities/1981_West Khasi Hills_civic_amenities.pdf",
+    "source_pages_selected": [
+      194
+    ],
+    "printed_page_labels": [
+      "169"
+    ],
+    "status": "Trimmed",
+    "reason": "Statement IV Civic and Other Amenities, printed page 169; source page 195 is Statement IV-A.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 1,
+      "pages": [
+        {
+          "source_page": 194,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              482.16,
+              672.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              482.16,
+              672.96
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 194,
+          "output_page": 1,
+          "source_png_sha256": "8327fb63f7bcbce147d9c987a658be564e9b43f2cf3fc831e8261e1e7e3ab701",
+          "output_png_sha256": "8327fb63f7bcbce147d9c987a658be564e9b43f2cf3fc831e8261e1e7e3ab701",
+          "match": true
+        }
+      ]
+    }
+  },
+  {
+    "state": "Meghalaya",
+    "source_state": "Meghalaya",
+    "district": "West Khasi Hills",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Meghalaya/1981 West Khasi Hills.pdf",
+    "source_filename": "1981 West Khasi Hills.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 273,
+    "output": "output/pdf/1981_trimmed/Meghalaya/mededu/1981_West Khasi Hills_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      196
+    ],
+    "printed_page_labels": [
+      "171"
+    ],
+    "status": "Trimmed",
+    "reason": "Statement V Medical, Educational, Recreational and Cultural Facilities, printed page 171; source page 197 begins Statement VI.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 1,
+      "pages": [
+        {
+          "source_page": 196,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              482.16,
+              672.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              482.16,
+              672.96
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 196,
+          "output_page": 1,
+          "source_png_sha256": "b90c104ed35e377a53722678160a92fe9fa8fde568b89f67310c5229be1da3ae",
+          "output_png_sha256": "b90c104ed35e377a53722678160a92fe9fa8fde568b89f67310c5229be1da3ae",
+          "match": true
+        }
+      ]
+    }
+  },
+  {
+    "state": "Meghalaya",
+    "source_state": "Meghalaya",
+    "district": "West Khasi Hills",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Meghalaya/1981 West Khasi Hills.pdf",
+    "source_filename": "1981 West Khasi Hills.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 273,
+    "output": "output/pdf/1981_trimmed/Meghalaya/tehsil appendix/1981_West Khasi Hills_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      165,
+      166
+    ],
+    "printed_page_labels": [
+      "140",
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Village Directory Appendix I C.D. Blockwise abstract of educational, medical and other amenities, printed pages 140-141; source page 167 begins Appendix II.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 165,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              482.16,
+              672.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              482.16,
+              672.96
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 166,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              482.16,
+              672.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              482.16,
+              672.96
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 165,
+          "output_page": 1,
+          "source_png_sha256": "a48ab7e2e8c70187ba03ec40e2848ee92c917d8e7665da3470ba8aeed0318dda",
+          "output_png_sha256": "a48ab7e2e8c70187ba03ec40e2848ee92c917d8e7665da3470ba8aeed0318dda",
+          "match": true
+        },
+        {
+          "source_page": 166,
+          "output_page": 2,
+          "source_png_sha256": "16ae4c43789f51dc561046ca34a71167188288f79e7bd55de65ce4ed6aad3561",
+          "output_png_sha256": "16ae4c43789f51dc561046ca34a71167188288f79e7bd55de65ce4ed6aad3561",
+          "match": true
+        }
+      ]
+    }
+  }
+]

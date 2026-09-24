@@ -1,0 +1,1078 @@
+[
+  {
+    "district": "Anantnag",
+    "table": "civic_amenities",
+    "source": "1971\\Jammu & Kashmir\\1971 Anantnag.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Jammu & Kashmir\\civic amenities\\Anantnag_civic_1971.pdf",
+    "source_pages": [
+      44
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 44,
+        "mediabox": [
+          0.0,
+          0.0,
+          618.48,
+          802.32
+        ],
+        "cropbox": [
+          0.0,
+          10.32,
+          612.0,
+          802.32
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Anantnag",
+    "table": "medical_educational_amenities",
+    "source": "1971\\Jammu & Kashmir\\1971 Anantnag.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Jammu & Kashmir\\mededu\\Anantnag_mededu_1971.pdf",
+    "source_pages": [
+      45
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 45,
+        "mediabox": [
+          0.0,
+          0.0,
+          618.48,
+          802.32
+        ],
+        "cropbox": [
+          0.0,
+          10.32,
+          612.0,
+          802.32
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Anantnag",
+    "table": "tehsil_appendix",
+    "source": "1971\\Jammu & Kashmir\\1971 Anantnag.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Jammu & Kashmir\\tehsil appendix\\Anantnag_tehsil_1971.pdf",
+    "source_pages": [
+      161,
+      162
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 161,
+        "mediabox": [
+          0.0,
+          0.0,
+          618.48,
+          802.32
+        ],
+        "cropbox": [
+          0.0,
+          10.32,
+          612.0,
+          802.32
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 162,
+        "mediabox": [
+          0.0,
+          0.0,
+          618.48,
+          802.32
+        ],
+        "cropbox": [
+          0.0,
+          10.32,
+          612.0,
+          802.32
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Baramula",
+    "table": "civic_amenities",
+    "source": "1971\\Jammu & Kashmir\\1971 Baramula.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Jammu & Kashmir\\civic amenities\\Baramula_civic_1971.pdf",
+    "source_pages": [
+      37
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 37,
+        "mediabox": [
+          0.0,
+          -8.15997,
+          612.0,
+          783.84
+        ],
+        "cropbox": [
+          0.0,
+          -8.15997,
+          612.0,
+          783.84
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Baramula",
+    "table": "medical_educational_amenities",
+    "source": "1971\\Jammu & Kashmir\\1971 Baramula.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Jammu & Kashmir\\mededu\\Baramula_mededu_1971.pdf",
+    "source_pages": [
+      38
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 38,
+        "mediabox": [
+          0.0,
+          -8.15997,
+          612.0,
+          783.84
+        ],
+        "cropbox": [
+          0.0,
+          -8.15997,
+          612.0,
+          783.84
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Baramula",
+    "table": "tehsil_appendix",
+    "source": "1971\\Jammu & Kashmir\\1971 Baramula.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Jammu & Kashmir\\tehsil appendix\\Baramula_tehsil_1971.pdf",
+    "source_pages": [
+      45,
+      46
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 45,
+        "mediabox": [
+          0.0,
+          -8.15997,
+          612.0,
+          783.84
+        ],
+        "cropbox": [
+          0.0,
+          -8.15997,
+          612.0,
+          783.84
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 46,
+        "mediabox": [
+          0.0,
+          -8.15997,
+          612.0,
+          783.84
+        ],
+        "cropbox": [
+          0.0,
+          -8.15997,
+          612.0,
+          783.84
+        ],
+        "rotate": 0
+      }
+    ],
+    "raw_source_pages": [
+      44,
+      45,
+      46
+    ],
+    "excluded_source_pages": [
+      {
+        "source_page": 44,
+        "reason": "heading-only page: TEHSIL-WISE ABSTRACT OF AMENITIES"
+      }
+    ]
+  },
+  {
+    "district": "Doda",
+    "table": "civic_amenities",
+    "source": "1971\\Jammu & Kashmir\\1971 Doda.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Jammu & Kashmir\\civic amenities\\Doda_civic_1971.pdf",
+    "source_pages": [
+      44
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 44,
+        "mediabox": [
+          0.0,
+          0.0,
+          612.0,
+          793.68
+        ],
+        "cropbox": [
+          0.0,
+          1.67999,
+          612.0,
+          793.68
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Doda",
+    "table": "medical_educational_amenities",
+    "source": "1971\\Jammu & Kashmir\\1971 Doda.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Jammu & Kashmir\\mededu\\Doda_mededu_1971.pdf",
+    "source_pages": [
+      45
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 45,
+        "mediabox": [
+          0.0,
+          0.0,
+          612.0,
+          793.68
+        ],
+        "cropbox": [
+          0.0,
+          1.67999,
+          612.0,
+          793.68
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Doda",
+    "table": "tehsil_appendix",
+    "source": "1971\\Jammu & Kashmir\\1971 Doda.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Jammu & Kashmir\\tehsil appendix\\Doda_tehsil_1971.pdf",
+    "source_pages": [
+      97,
+      98
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 97,
+        "mediabox": [
+          0.0,
+          0.0,
+          612.0,
+          793.68
+        ],
+        "cropbox": [
+          0.0,
+          1.67999,
+          612.0,
+          793.68
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 98,
+        "mediabox": [
+          0.0,
+          0.0,
+          612.0,
+          793.68
+        ],
+        "cropbox": [
+          0.0,
+          1.67999,
+          612.0,
+          793.68
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Jammu",
+    "table": "civic_amenities",
+    "source": "1971\\Jammu & Kashmir\\1971 Jammu.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Jammu & Kashmir\\civic amenities\\Jammu_civic_1971.pdf",
+    "source_pages": [
+      42
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 42,
+        "mediabox": [
+          0.0,
+          -5.28003,
+          612.0,
+          786.72
+        ],
+        "cropbox": [
+          0.0,
+          -5.28003,
+          612.0,
+          786.72
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Jammu",
+    "table": "medical_educational_amenities",
+    "source": "1971\\Jammu & Kashmir\\1971 Jammu.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Jammu & Kashmir\\mededu\\Jammu_mededu_1971.pdf",
+    "source_pages": [
+      43
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 43,
+        "mediabox": [
+          0.0,
+          -5.28003,
+          612.0,
+          786.72
+        ],
+        "cropbox": [
+          0.0,
+          -5.28003,
+          612.0,
+          786.72
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Jammu",
+    "table": "tehsil_appendix",
+    "source": "1971\\Jammu & Kashmir\\1971 Jammu.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Jammu & Kashmir\\tehsil appendix\\Jammu_tehsil_1971.pdf",
+    "source_pages": [
+      131,
+      132
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 131,
+        "mediabox": [
+          0.0,
+          -5.28003,
+          612.0,
+          786.72
+        ],
+        "cropbox": [
+          0.0,
+          -5.28003,
+          612.0,
+          786.72
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 132,
+        "mediabox": [
+          0.0,
+          -5.28003,
+          612.0,
+          786.72
+        ],
+        "cropbox": [
+          0.0,
+          -5.28003,
+          612.0,
+          786.72
+        ],
+        "rotate": 0
+      }
+    ],
+    "raw_source_pages": [
+      130,
+      131,
+      132
+    ],
+    "excluded_source_pages": [
+      {
+        "source_page": 130,
+        "reason": "heading-only page: TEHSIL-WISE ABSTRACT OF AMENITIES"
+      }
+    ]
+  },
+  {
+    "district": "Kathua",
+    "table": "civic_amenities",
+    "source": "1971\\Jammu & Kashmir\\1971 Kathua.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Jammu & Kashmir\\civic amenities\\Kathua_civic_1971.pdf",
+    "source_pages": [
+      38
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 38,
+        "mediabox": [
+          0.0,
+          0.0,
+          612.0,
+          803.52
+        ],
+        "cropbox": [
+          0.0,
+          11.52,
+          612.0,
+          803.52
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Kathua",
+    "table": "medical_educational_amenities",
+    "source": "1971\\Jammu & Kashmir\\1971 Kathua.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Jammu & Kashmir\\mededu\\Kathua_mededu_1971.pdf",
+    "source_pages": [
+      39
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 39,
+        "mediabox": [
+          0.0,
+          0.0,
+          612.0,
+          803.52
+        ],
+        "cropbox": [
+          0.0,
+          11.52,
+          612.0,
+          803.52
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Kathua",
+    "table": "tehsil_appendix",
+    "source": "1971\\Jammu & Kashmir\\1971 Kathua.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Jammu & Kashmir\\tehsil appendix\\Kathua_tehsil_1971.pdf",
+    "source_pages": [
+      95,
+      96
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 95,
+        "mediabox": [
+          0.0,
+          0.0,
+          612.0,
+          803.52
+        ],
+        "cropbox": [
+          0.0,
+          11.52,
+          612.0,
+          803.52
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 96,
+        "mediabox": [
+          0.0,
+          0.0,
+          612.0,
+          803.52
+        ],
+        "cropbox": [
+          0.0,
+          11.52,
+          612.0,
+          803.52
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Ladakh",
+    "table": "civic_amenities",
+    "source": "1971\\Jammu & Kashmir\\1971 Ladakh.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Jammu & Kashmir\\civic amenities\\Ladakh_civic_1971.pdf",
+    "source_pages": [
+      33
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 33,
+        "mediabox": [
+          0.0,
+          -2.15997,
+          612.96,
+          789.84
+        ],
+        "cropbox": [
+          0.0,
+          -2.15997,
+          612.0,
+          789.84
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Ladakh",
+    "table": "medical_educational_amenities",
+    "source": "1971\\Jammu & Kashmir\\1971 Ladakh.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Jammu & Kashmir\\mededu\\Ladakh_mededu_1971.pdf",
+    "source_pages": [
+      34
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 34,
+        "mediabox": [
+          0.0,
+          -2.15997,
+          612.96,
+          789.84
+        ],
+        "cropbox": [
+          0.0,
+          -2.15997,
+          612.0,
+          789.84
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Ladakh",
+    "table": "tehsil_appendix",
+    "source": "1971\\Jammu & Kashmir\\1971 Ladakh.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Jammu & Kashmir\\tehsil appendix\\Ladakh_tehsil_1971.pdf",
+    "source_pages": [
+      63,
+      64
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 63,
+        "mediabox": [
+          0.0,
+          -2.15997,
+          612.96,
+          789.84
+        ],
+        "cropbox": [
+          0.0,
+          -2.15997,
+          612.0,
+          789.84
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 64,
+        "mediabox": [
+          0.0,
+          -2.15997,
+          612.96,
+          789.84
+        ],
+        "cropbox": [
+          0.0,
+          -2.15997,
+          612.0,
+          789.84
+        ],
+        "rotate": 0
+      }
+    ],
+    "raw_source_pages": [
+      62,
+      63,
+      64
+    ],
+    "excluded_source_pages": [
+      {
+        "source_page": 62,
+        "reason": "heading-only page: TEHSIL-WISE ABSTRACT OF AMENITIES"
+      }
+    ]
+  },
+  {
+    "district": "Punch",
+    "table": "civic_amenities",
+    "source": "1971\\Jammu & Kashmir\\1971 Punch.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Jammu & Kashmir\\civic amenities\\Punch_civic_1971.pdf",
+    "source_pages": [
+      30
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 30,
+        "mediabox": [
+          0.0,
+          -0.960022,
+          612.0,
+          791.04
+        ],
+        "cropbox": [
+          0.0,
+          -0.960022,
+          612.0,
+          791.04
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Punch",
+    "table": "medical_educational_amenities",
+    "source": "1971\\Jammu & Kashmir\\1971 Punch.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Jammu & Kashmir\\mededu\\Punch_mededu_1971.pdf",
+    "source_pages": [
+      32
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 32,
+        "mediabox": [
+          0.0,
+          -0.960022,
+          612.0,
+          791.04
+        ],
+        "cropbox": [
+          0.0,
+          -0.960022,
+          612.0,
+          791.04
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Punch",
+    "table": "tehsil_appendix",
+    "source": "1971\\Jammu & Kashmir\\1971 Punch.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Jammu & Kashmir\\tehsil appendix\\Punch_tehsil_1971.pdf",
+    "source_pages": [
+      55,
+      56
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 55,
+        "mediabox": [
+          0.0,
+          -0.960022,
+          612.0,
+          791.04
+        ],
+        "cropbox": [
+          0.0,
+          -0.960022,
+          612.0,
+          791.04
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 56,
+        "mediabox": [
+          0.0,
+          -0.960022,
+          612.0,
+          791.04
+        ],
+        "cropbox": [
+          0.0,
+          -0.960022,
+          612.0,
+          791.04
+        ],
+        "rotate": 0
+      }
+    ],
+    "raw_source_pages": [
+      54,
+      55,
+      56
+    ],
+    "excluded_source_pages": [
+      {
+        "source_page": 54,
+        "reason": "heading-only page: TEHSIL-WISE ABSTRACT OF AMENITIES"
+      }
+    ]
+  },
+  {
+    "district": "Rajauri",
+    "table": "civic_amenities",
+    "source": "1971\\Jammu & Kashmir\\1971 Rajauri.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Jammu & Kashmir\\civic amenities\\Rajauri_civic_1971.pdf",
+    "source_pages": [
+      33
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 33,
+        "mediabox": [
+          0.0,
+          0.0,
+          589.2,
+          790.56
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          589.2,
+          790.56
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Rajauri",
+    "table": "medical_educational_amenities",
+    "source": "1971\\Jammu & Kashmir\\1971 Rajauri.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Jammu & Kashmir\\mededu\\Rajauri_mededu_1971.pdf",
+    "source_pages": [
+      34
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 34,
+        "mediabox": [
+          0.0,
+          0.0,
+          589.2,
+          790.56
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          589.2,
+          790.56
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Rajauri",
+    "table": "tehsil_appendix",
+    "source": "1971\\Jammu & Kashmir\\1971 Rajauri.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Jammu & Kashmir\\tehsil appendix\\Rajauri_tehsil_1971.pdf",
+    "source_pages": [
+      71,
+      72
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 71,
+        "mediabox": [
+          0.0,
+          0.0,
+          589.2,
+          790.56
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          589.2,
+          790.56
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 72,
+        "mediabox": [
+          0.0,
+          0.0,
+          589.2,
+          790.56
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          589.2,
+          790.56
+        ],
+        "rotate": 0
+      }
+    ],
+    "raw_source_pages": [
+      70,
+      71,
+      72
+    ],
+    "excluded_source_pages": [
+      {
+        "source_page": 70,
+        "reason": "heading-only page: TEHSIL-WISE ABSTRACT OF AMENITIES"
+      }
+    ]
+  },
+  {
+    "district": "Srinagar",
+    "table": "civic_amenities",
+    "source": "1971\\Jammu & Kashmir\\1971 Srinagar.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Jammu & Kashmir\\civic amenities\\Srinagar_civic_1971.pdf",
+    "source_pages": [
+      33
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 33,
+        "mediabox": [
+          0.0,
+          0.0,
+          593.28,
+          774.0
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          593.28,
+          774.0
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Srinagar",
+    "table": "medical_educational_amenities",
+    "source": "1971\\Jammu & Kashmir\\1971 Srinagar.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Jammu & Kashmir\\mededu\\Srinagar_mededu_1971.pdf",
+    "source_pages": [
+      34
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 34,
+        "mediabox": [
+          0.0,
+          0.0,
+          593.28,
+          774.0
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          593.28,
+          774.0
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Srinagar",
+    "table": "tehsil_appendix",
+    "source": "1971\\Jammu & Kashmir\\1971 Srinagar.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Jammu & Kashmir\\tehsil appendix\\Srinagar_tehsil_1971.pdf",
+    "source_pages": [
+      41,
+      42
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 41,
+        "mediabox": [
+          0.0,
+          0.0,
+          593.28,
+          774.0
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          593.28,
+          774.0
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 42,
+        "mediabox": [
+          0.0,
+          0.0,
+          593.28,
+          774.0
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          593.28,
+          774.0
+        ],
+        "rotate": 0
+      }
+    ],
+    "raw_source_pages": [
+      40,
+      41,
+      42
+    ],
+    "excluded_source_pages": [
+      {
+        "source_page": 40,
+        "reason": "heading-only page: TEHSIL-WISE ABSTRACT OF AMENITIES"
+      }
+    ]
+  },
+  {
+    "district": "Udhampur",
+    "table": "civic_amenities",
+    "source": "1971\\Jammu & Kashmir\\1971 Udhampur.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Jammu & Kashmir\\civic amenities\\Udhampur_civic_1971.pdf",
+    "source_pages": [
+      37
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 37,
+        "mediabox": [
+          0.0,
+          -7.44,
+          612.0,
+          784.56
+        ],
+        "cropbox": [
+          0.0,
+          -7.44,
+          612.0,
+          784.56
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Udhampur",
+    "table": "medical_educational_amenities",
+    "source": "1971\\Jammu & Kashmir\\1971 Udhampur.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Jammu & Kashmir\\mededu\\Udhampur_mededu_1971.pdf",
+    "source_pages": [
+      38
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 38,
+        "mediabox": [
+          0.0,
+          -7.44,
+          612.0,
+          784.56
+        ],
+        "cropbox": [
+          0.0,
+          -7.44,
+          612.0,
+          784.56
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Udhampur",
+    "table": "tehsil_appendix",
+    "source": "1971\\Jammu & Kashmir\\1971 Udhampur.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Jammu & Kashmir\\tehsil appendix\\Udhampur_tehsil_1971.pdf",
+    "source_pages": [
+      92,
+      93
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 92,
+        "mediabox": [
+          0.0,
+          -7.44,
+          612.0,
+          784.56
+        ],
+        "cropbox": [
+          0.0,
+          -7.44,
+          612.0,
+          784.56
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 93,
+        "mediabox": [
+          0.0,
+          -7.44,
+          612.0,
+          784.56
+        ],
+        "cropbox": [
+          0.0,
+          -7.44,
+          612.0,
+          784.56
+        ],
+        "rotate": 0
+      }
+    ]
+  }
+]

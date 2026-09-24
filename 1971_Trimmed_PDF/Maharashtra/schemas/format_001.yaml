@@ -1,0 +1,83 @@
+format_id: format_001
+name: Civic Amenities
+category: Civic Amenities
+pdfs:
+- filenames:
+  - Ahmadnagar_civic_1971.pdf
+  - Akola_civic_1971.pdf
+  - Amravati_civic_1971.pdf
+  - Aurangabad_civic_1971.pdf
+  - Bhandara_civic_1971.pdf
+  - Bhir_civic_1971.pdf
+  - Buldana_civic_1971.pdf
+  - Chandrapur_civic_1971.pdf
+  - Dhulia_civic_1971.pdf
+  - Jalgaon_civic_1971.pdf
+  - Kolaba_civic_1971.pdf
+  - Kolhapur_civic_1971.pdf
+  - Nagpur_civic_1971.pdf
+  - Nanded_civic_1971.pdf
+  - Nasik_civic_1971.pdf
+  - Osmanabad_civic_1971.pdf
+  - Parbhani_civic_1971.pdf
+  - Pune_civic_1971.pdf
+  - Ratnagiri_civic_1971.pdf
+  - Sangli_civic_1971.pdf
+  - Satara_civic_1971.pdf
+  - Sholapur_civic_1971.pdf
+  - Thane_civic_1971.pdf
+  - Wardha_civic_1971.pdf
+  - Yavatmal_civic_1971.pdf
+  pagination:
+    page_1_columns:
+    - 1
+    - 16
+columns:
+- number: 1
+  name: Serial No.
+  variable_name: sl_no
+- number: 2
+  name: Name of Town
+  variable_name: town_name
+- number: 3
+  name: Road Length (in Km.)
+  variable_name: road_length_km
+- number: 4
+  name: Sewerage/Drainage
+  variable_name: sewerage_drainage_system
+- number: 5
+  name: Water-Borne Latrines
+  variable_name: water_borne_latrines
+- number: 6
+  name: Service Latrines
+  variable_name: service_latrines
+- number: 7
+  name: Other Latrines
+  variable_name: other_latrines
+- number: 8
+  name: Disposal of Night Soil
+  variable_name: night_soil_disposal_method
+- number: 9
+  name: Protected Water Supply - Source
+  variable_name: water_source
+- number: 10
+  name: Protected Water Supply - Capacity (Litres)
+  variable_name: water_capacity
+- number: 11
+  name: Fire-Fighting Service
+  variable_name: fire_fighting_service
+- number: 12
+  name: Electric Connections - Domestic
+  variable_name: electrification_domestic
+- number: 13
+  name: Electric Connections - Industrial
+  variable_name: electrification_industrial
+- number: 14
+  name: Electric Connections - Commercial
+  variable_name: electrification_commercial
+- number: 15
+  name: Electric Connections - Road Lighting (Points)
+  variable_name: electrification_road_lighting
+- number: 16
+  name: Electric Connections - Others
+  variable_name: electrification_others

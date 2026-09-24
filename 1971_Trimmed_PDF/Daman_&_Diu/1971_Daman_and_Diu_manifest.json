@@ -1,0 +1,154 @@
+[
+  {
+    "district": "Daman & Diu (combined volume)",
+    "table": "civic_amenities",
+    "source": "1971\\Darman & Diu\\1971 Daman & Diu.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Daman & Diu\\civic amenities\\Daman_and_Diu_civic_1971.pdf",
+    "source_pages": [
+      39
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 39,
+        "mediabox": [
+          0.0,
+          0.0,
+          394.56,
+          626.4
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          394.56,
+          626.4
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Daman & Diu (combined volume)",
+    "table": "medical_educational_amenities",
+    "source": "1971\\Darman & Diu\\1971 Daman & Diu.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Daman & Diu\\mededu\\Daman_and_Diu_mededu_1971.pdf",
+    "source_pages": [
+      40,
+      41,
+      42,
+      43
+    ],
+    "output_pages": 4,
+    "page_sizes": [
+      {
+        "source_page": 40,
+        "mediabox": [
+          0.0,
+          0.0,
+          394.56,
+          626.4
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          394.56,
+          626.4
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 41,
+        "mediabox": [
+          0.0,
+          0.0,
+          394.56,
+          626.4
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          394.56,
+          626.4
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 42,
+        "mediabox": [
+          0.0,
+          0.0,
+          394.56,
+          626.4
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          394.56,
+          626.4
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 43,
+        "mediabox": [
+          0.0,
+          0.0,
+          394.56,
+          626.4
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          394.56,
+          626.4
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Daman & Diu (combined volume)",
+    "table": "tehsil_appendix",
+    "source": "1971\\Darman & Diu\\1971 Daman & Diu.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Daman & Diu\\tehsil appendix\\Daman_and_Diu_tehsil_1971.pdf",
+    "source_pages": [
+      108,
+      109
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 108,
+        "mediabox": [
+          0.0,
+          0.0,
+          394.56,
+          626.4
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          394.56,
+          626.4
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 109,
+        "mediabox": [
+          0.0,
+          0.0,
+          394.56,
+          626.4
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          394.56,
+          626.4
+        ],
+        "rotate": 0
+      }
+    ]
+  }
+]

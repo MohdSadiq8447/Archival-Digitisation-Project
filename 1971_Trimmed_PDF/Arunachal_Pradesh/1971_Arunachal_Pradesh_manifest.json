@@ -1,0 +1,395 @@
+[
+  {
+    "district": "Kameng",
+    "table": "civic_amenities",
+    "source": "1971\\Arunachal Pradesh\\1971 Kameng.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Arunachal Pradesh\\civic amenities\\Kameng_civic_1971.pdf",
+    "source_pages": [
+      59
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 59,
+        "mediabox": [
+          0.0,
+          0.0,
+          641.76,
+          818.88
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          641.76,
+          818.88
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Kameng",
+    "table": "medical_educational_amenities",
+    "source": "1971\\Arunachal Pradesh\\1971 Kameng.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Arunachal Pradesh\\mededu\\Kameng_mededu_1971.pdf",
+    "source_pages": [
+      59
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 59,
+        "mediabox": [
+          0.0,
+          0.0,
+          641.76,
+          818.88
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          641.76,
+          818.88
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Kameng",
+    "table": "tehsil_appendix",
+    "source": "1971\\Arunachal Pradesh\\1971 Kameng.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Arunachal Pradesh\\tehsil appendix\\Kameng_tehsil_1971.pdf",
+    "source_pages": [
+      67,
+      68
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 66,
+        "mediabox": [
+          0.0,
+          0.0,
+          641.76,
+          818.88
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          641.76,
+          818.88
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 67,
+        "mediabox": [
+          0.0,
+          0.0,
+          641.76,
+          818.88
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          641.76,
+          818.88
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Lohit",
+    "table": "civic_amenities",
+    "source": "1971\\Arunachal Pradesh\\1971 Lohit.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Arunachal Pradesh\\civic amenities\\Lohit_civic_1971.pdf",
+    "source_pages": [
+      70
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 70,
+        "mediabox": [
+          0.0,
+          0.0,
+          595.276,
+          852.48
+        ],
+        "cropbox": [
+          0.0,
+          10.5902,
+          595.276,
+          852.48
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Lohit",
+    "table": "medical_educational_amenities",
+    "source": "1971\\Arunachal Pradesh\\1971 Lohit.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Arunachal Pradesh\\mededu\\Lohit_mededu_1971.pdf",
+    "source_pages": [
+      71
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 71,
+        "mediabox": [
+          0.0,
+          0.0,
+          595.276,
+          852.48
+        ],
+        "cropbox": [
+          0.0,
+          10.5902,
+          595.276,
+          852.48
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Lohit",
+    "table": "tehsil_appendix",
+    "source": "1971\\Arunachal Pradesh\\1971 Lohit.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Arunachal Pradesh\\tehsil appendix\\Lohit_tehsil_1971.pdf",
+    "source_pages": [
+      76,
+      77
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 76,
+        "mediabox": [
+          0.0,
+          0.0,
+          595.276,
+          852.48
+        ],
+        "cropbox": [
+          0.0,
+          10.5902,
+          595.276,
+          852.48
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 77,
+        "mediabox": [
+          0.0,
+          0.0,
+          595.276,
+          852.48
+        ],
+        "cropbox": [
+          0.0,
+          10.5902,
+          595.276,
+          852.48
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Subansiri",
+    "table": "tehsil_appendix",
+    "source": "1971\\Arunachal Pradesh\\1971 Subansiri.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Arunachal Pradesh\\tehsil appendix\\Subansiri_tehsil_1971.pdf",
+    "source_pages": [
+      72,
+      73
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 72,
+        "mediabox": [
+          0.0,
+          0.0,
+          601.44,
+          871.2
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          601.44,
+          871.2
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 73,
+        "mediabox": [
+          0.0,
+          0.0,
+          601.44,
+          871.2
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          601.44,
+          871.2
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Tirap",
+    "table": "tehsil_appendix",
+    "source": "1971\\Arunachal Pradesh\\1971 Tirap .pdf",
+    "output": "output\\pdf\\1971_trimmed\\Arunachal Pradesh\\tehsil appendix\\Tirap_tehsil_1971.pdf",
+    "source_pages": [
+      76,
+      77
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 76,
+        "mediabox": [
+          0.0,
+          0.0,
+          564.0,
+          813.36
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          564.0,
+          813.36
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 77,
+        "mediabox": [
+          0.0,
+          0.0,
+          564.0,
+          813.36
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          564.0,
+          813.36
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Siang",
+    "table": "civic_amenities",
+    "source": "1971\\Arunachal Pradesh\\1971 Siang.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Arunachal Pradesh\\civic amenities\\Siang_civic_1971.pdf",
+    "source_pages": [
+      80
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 80,
+        "mediabox": [
+          0.0,
+          0.0,
+          603.84,
+          844.08
+        ],
+        "cropbox": [
+          0.0,
+          2.19025,
+          595.276,
+          844.08
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Siang",
+    "table": "medical_educational_amenities",
+    "source": "1971\\Arunachal Pradesh\\1971 Siang.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Arunachal Pradesh\\mededu\\Siang_mededu_1971.pdf",
+    "source_pages": [
+      80
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 80,
+        "mediabox": [
+          0.0,
+          0.0,
+          603.84,
+          844.08
+        ],
+        "cropbox": [
+          0.0,
+          2.19025,
+          595.276,
+          844.08
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Siang",
+    "table": "tehsil_appendix",
+    "source": "1971\\Arunachal Pradesh\\1971 Siang.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Arunachal Pradesh\\tehsil appendix\\Siang_tehsil_1971.pdf",
+    "source_pages": [
+      88,
+      89
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 88,
+        "mediabox": [
+          0.0,
+          0.0,
+          603.84,
+          844.08
+        ],
+        "cropbox": [
+          0.0,
+          2.19025,
+          595.276,
+          844.08
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 89,
+        "mediabox": [
+          0.0,
+          0.0,
+          603.84,
+          844.08
+        ],
+        "cropbox": [
+          0.0,
+          2.19025,
+          595.276,
+          844.08
+        ],
+        "rotate": 0
+      }
+    ]
+  }
+]

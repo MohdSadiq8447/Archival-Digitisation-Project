@@ -1,0 +1,726 @@
+[
+  {
+    "district": "Firozpur",
+    "table": "civic_amenities",
+    "source": "1971\\Punjab\\1971 Firozpur.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Punjab\\civic amenities\\Firozpur_civic_1971.pdf",
+    "source_pages": [
+      121
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 121,
+        "mediabox": [
+          0.0,
+          0.0,
+          913.92,
+          1244.64
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          913.92,
+          1244.64
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Firozpur",
+    "table": "medical_educational_amenities",
+    "source": "1971\\Punjab\\1971 Firozpur.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Punjab\\mededu\\Firozpur_mededu_1971.pdf",
+    "source_pages": [
+      122
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 122,
+        "mediabox": [
+          0.0,
+          0.0,
+          913.92,
+          1244.64
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          913.92,
+          1244.64
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Firozpur",
+    "table": "tehsil_appendix",
+    "source": "1971\\Punjab\\1971 Firozpur.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Punjab\\tehsil appendix\\Firozpur_tehsil_1971.pdf",
+    "source_pages": [
+      114,
+      115
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 114,
+        "mediabox": [
+          0.0,
+          0.0,
+          913.92,
+          1244.64
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          913.92,
+          1244.64
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 115,
+        "mediabox": [
+          0.0,
+          0.0,
+          913.92,
+          1244.64
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          913.92,
+          1244.64
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Hoshiarpur",
+    "table": "civic_amenities",
+    "source": "1971\\Punjab\\1971 Hoshiarpur.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Punjab\\civic amenities\\Hoshiarpur_civic_1971.pdf",
+    "source_pages": [
+      123
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 123,
+        "mediabox": [
+          0.0,
+          0.0,
+          901.92,
+          1231.44
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          901.92,
+          1231.44
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Hoshiarpur",
+    "table": "medical_educational_amenities",
+    "source": "1971\\Punjab\\1971 Hoshiarpur.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Punjab\\mededu\\Hoshiarpur_mededu_1971.pdf",
+    "source_pages": [
+      124
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 124,
+        "mediabox": [
+          0.0,
+          0.0,
+          901.92,
+          1231.44
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          901.92,
+          1231.44
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Hoshiarpur",
+    "table": "tehsil_appendix",
+    "source": "1971\\Punjab\\1971 Hoshiarpur.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Punjab\\tehsil appendix\\Hoshiarpur_tehsil_1971.pdf",
+    "source_pages": [
+      116,
+      117
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 116,
+        "mediabox": [
+          0.0,
+          0.0,
+          901.92,
+          1231.44
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          901.92,
+          1231.44
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 117,
+        "mediabox": [
+          0.0,
+          0.0,
+          901.92,
+          1231.44
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          901.92,
+          1231.44
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Jullundur",
+    "table": "civic_amenities",
+    "source": "1971\\Punjab\\1971 Jullundur.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Punjab\\civic amenities\\Jullundur_civic_1971.pdf",
+    "source_pages": [
+      109
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 109,
+        "mediabox": [
+          0.0,
+          0.0,
+          902.4,
+          1244.88
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          902.4,
+          1244.88
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Jullundur",
+    "table": "medical_educational_amenities",
+    "source": "1971\\Punjab\\1971 Jullundur.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Punjab\\mededu\\Jullundur_mededu_1971.pdf",
+    "source_pages": [
+      110
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 110,
+        "mediabox": [
+          0.0,
+          0.0,
+          902.4,
+          1244.88
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          902.4,
+          1244.88
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Jullundur",
+    "table": "tehsil_appendix",
+    "source": "1971\\Punjab\\1971 Jullundur.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Punjab\\tehsil appendix\\Jullundur_tehsil_1971.pdf",
+    "source_pages": [
+      102,
+      103
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 102,
+        "mediabox": [
+          0.0,
+          0.0,
+          902.4,
+          1244.88
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          902.4,
+          1244.88
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 103,
+        "mediabox": [
+          0.0,
+          0.0,
+          902.4,
+          1244.88
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          902.4,
+          1244.88
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Ludhiana",
+    "table": "civic_amenities",
+    "source": "1971\\Punjab\\1971 Ludhiana.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Punjab\\civic amenities\\Ludhiana_civic_1971.pdf",
+    "source_pages": [
+      91
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 91,
+        "mediabox": [
+          0.0,
+          0.0,
+          595.44,
+          783.36
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          595.44,
+          783.36
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Ludhiana",
+    "table": "medical_educational_amenities",
+    "source": "1971\\Punjab\\1971 Ludhiana.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Punjab\\mededu\\Ludhiana_mededu_1971.pdf",
+    "source_pages": [
+      92
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 92,
+        "mediabox": [
+          0.0,
+          0.0,
+          595.44,
+          783.36
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          595.44,
+          783.36
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Ludhiana",
+    "table": "tehsil_appendix",
+    "source": "1971\\Punjab\\1971 Ludhiana.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Punjab\\tehsil appendix\\Ludhiana_tehsil_1971.pdf",
+    "source_pages": [
+      85,
+      86
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 85,
+        "mediabox": [
+          0.0,
+          0.0,
+          595.44,
+          783.36
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          595.44,
+          783.36
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 86,
+        "mediabox": [
+          0.0,
+          0.0,
+          595.44,
+          783.36
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          595.44,
+          783.36
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Patiala",
+    "table": "civic_amenities",
+    "source": "1971\\Punjab\\1971 Patiala.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Punjab\\civic amenities\\Patiala_civic_1971.pdf",
+    "source_pages": [
+      118
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 118,
+        "mediabox": [
+          0.0,
+          0.0,
+          531.12,
+          769.2
+        ],
+        "cropbox": [
+          0.0,
+          13.2,
+          522.0,
+          769.2
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Patiala",
+    "table": "medical_educational_amenities",
+    "source": "1971\\Punjab\\1971 Patiala.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Punjab\\mededu\\Patiala_mededu_1971.pdf",
+    "source_pages": [
+      119
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 119,
+        "mediabox": [
+          0.0,
+          0.0,
+          531.12,
+          769.2
+        ],
+        "cropbox": [
+          0.0,
+          13.2,
+          522.0,
+          769.2
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Patiala",
+    "table": "tehsil_appendix",
+    "source": "1971\\Punjab\\1971 Patiala.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Punjab\\tehsil appendix\\Patiala_tehsil_1971.pdf",
+    "source_pages": [
+      111,
+      112
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 111,
+        "mediabox": [
+          0.0,
+          0.0,
+          531.12,
+          769.2
+        ],
+        "cropbox": [
+          0.0,
+          13.2,
+          522.0,
+          769.2
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 112,
+        "mediabox": [
+          0.0,
+          0.0,
+          531.12,
+          769.2
+        ],
+        "cropbox": [
+          0.0,
+          13.2,
+          522.0,
+          769.2
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Rupnagar",
+    "table": "civic_amenities",
+    "source": "1971\\Punjab\\1971 Rupnagar.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Punjab\\civic amenities\\Rupnagar_civic_1971.pdf",
+    "source_pages": [
+      90
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 90,
+        "mediabox": [
+          0.0,
+          0.0,
+          755.28,
+          1004.88
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          755.28,
+          1004.88
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Rupnagar",
+    "table": "medical_educational_amenities",
+    "source": "1971\\Punjab\\1971 Rupnagar.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Punjab\\mededu\\Rupnagar_mededu_1971.pdf",
+    "source_pages": [
+      91
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 91,
+        "mediabox": [
+          0.0,
+          0.0,
+          755.28,
+          1004.88
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          755.28,
+          1004.88
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Rupnagar",
+    "table": "tehsil_appendix",
+    "source": "1971\\Punjab\\1971 Rupnagar.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Punjab\\tehsil appendix\\Rupnagar_tehsil_1971.pdf",
+    "source_pages": [
+      82,
+      83,
+      84
+    ],
+    "output_pages": 3,
+    "page_sizes": [
+      {
+        "source_page": 82,
+        "mediabox": [
+          0.0,
+          0.0,
+          755.28,
+          1004.88
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          755.28,
+          1004.88
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 83,
+        "mediabox": [
+          0.0,
+          0.0,
+          755.28,
+          1004.88
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          755.28,
+          1004.88
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 84,
+        "mediabox": [
+          0.0,
+          0.0,
+          755.28,
+          1004.88
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          755.28,
+          1004.88
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Sangrur",
+    "table": "civic_amenities",
+    "source": "1971\\Punjab\\1971 Sangrur.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Punjab\\civic amenities\\Sangrur_civic_1971.pdf",
+    "source_pages": [
+      92
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 92,
+        "mediabox": [
+          0.0,
+          -2.15997,
+          612.0,
+          789.84
+        ],
+        "cropbox": [
+          0.0,
+          -2.15997,
+          612.0,
+          789.84
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Sangrur",
+    "table": "medical_educational_amenities",
+    "source": "1971\\Punjab\\1971 Sangrur.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Punjab\\mededu\\Sangrur_mededu_1971.pdf",
+    "source_pages": [
+      93
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 93,
+        "mediabox": [
+          0.0,
+          -2.15997,
+          612.0,
+          789.84
+        ],
+        "cropbox": [
+          0.0,
+          -2.15997,
+          612.0,
+          789.84
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Sangrur",
+    "table": "tehsil_appendix",
+    "source": "1971\\Punjab\\1971 Sangrur.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Punjab\\tehsil appendix\\Sangrur_tehsil_1971.pdf",
+    "source_pages": [
+      85,
+      86
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 85,
+        "mediabox": [
+          0.0,
+          -2.15997,
+          612.0,
+          789.84
+        ],
+        "cropbox": [
+          0.0,
+          -2.15997,
+          612.0,
+          789.84
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 86,
+        "mediabox": [
+          0.0,
+          -2.15997,
+          612.0,
+          789.84
+        ],
+        "cropbox": [
+          0.0,
+          -2.15997,
+          612.0,
+          789.84
+        ],
+        "rotate": 0
+      }
+    ]
+  }
+]

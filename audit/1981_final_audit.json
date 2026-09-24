@@ -1,0 +1,11 @@
+{
+  "records": 936,
+  "status": {
+    "Trimmed": 836,
+    "Not trimmed": 100
+  },
+  "trimmed_pages": 2426,
+  "rendered_pages": 2426,
+  "audit_failures": 0,
+  "stale_outputs_removed": []
+}

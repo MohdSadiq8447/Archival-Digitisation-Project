@@ -4,6 +4,55 @@ This pipeline extracts the 157 trimmed Uttar Pradesh District Census Handbook ta
 
 The authoritative district spelling, format, source pages, table identifier, and printed-page provenance come from `1971_Trimmed_PDF/Uttar_Pradesh/metadata/document.xlsx`. Filenames are not used to invent metadata or silently select a schema.
 
+## Repository Structure
+
+```text
+Archival-Digitisation-Project/
+├── src/census_extractor/       # Core extraction pipeline, geometry, OCR, schemas, and review logic
+├── tests/                      # Pytest suite with mock and real-PDF verification
+├── docs/                       # Detailed architecture, reports, and documentation
+│   ├── PIPELINE_EXPLAINED.md   # Complete architectural breakdown of the pipeline
+│   └── REVIEW_REPORT.md        # Comprehensive quality assurance & review ledger report
+├── 1971_Trimmed_PDF/           # State table repositories across all 23 states/UTs
+│   ├── Uttar_Pradesh/          # Source PDFs, schemas, metadata, reports, and merged outputs
+│   │   ├── merged_csvs/        # Final merged datasets (Civic, MedEdu, Tahsil)
+│   │   ├── metadata/           # Authoritative metadata (document.xlsx)
+│   │   ├── schemas/            # Format definitions (format_001, 002, 003)
+│   │   ├── pdfs/               # 157 trimmed District Census Handbook table PDFs
+│   │   ├── postprocessing/     # YAML post-processing correction ledgers
+│   │   ├── reports/            # UP extraction and verification reports
+│   │   ├── scripts/            # District-specific manual verification scripts
+│   │   └── outputs/            # Pipeline runs, caches, postprocessed outputs
+│   └── <State_Name>/           # 22 additional state folders (Andhra_Pradesh, Bihar, etc.)
+│       └── schemas/            # format_001.yaml, format_002.yaml, format_003.yaml
+├── 1981_Trimmed_PDF/           # 1981 state table repositories (22 states/UTs)
+│   └── <State_Name>/           # Standardized state workspaces (Andhra_Pradesh, Bihar, etc.)
+│       └── schemas/            # format_001.yaml, format_002.yaml, format_003.yaml
+├── audit/                      # Cross-state 1971 & 1981 audit summaries, inventories, and metrics
+├── scripts/                    # Multi-state rendering, verification, and audit automation
+│   └── 1981_helpers/           # 1981 header repair and diagnostic utilities
+├── Project-dashboard/          # Interactive web dashboard tracking census digitization
+├── scratch/                    # Isolated workspace for temporary artifacts and debug crops
+│   ├── reviews/                # QA verification and approval workspaces
+│   ├── text_dumps/             # Extracted raw text dumps
+│   ├── ap_renders/             # Andhra Pradesh contact sheets and temporary renders
+│   ├── 1981_debug_crops/       # 1981 diagnostic crop PNGs and text dumps
+│   └── debug/                  # Diagnostic crops, HTML reports, and visual inspection artifacts
+├── cli.py                      # Source-checkout CLI entry point
+├── pyproject.toml              # Build & package configuration
+└── requirements.txt            # Project dependencies
+```
+
+## Documentation
+
+- [1971 Trimmed Dataset Guide](docs/1971_TRIMMED_DATASET.md): Guide to the 1971 state folders and schemas.
+- [1981 Trimmed Dataset Guide](docs/1981_TRIMMED_DATASET.md): Guide to the 1981 state folders and schemas.
+- [Pipeline Explained](docs/PIPELINE_EXPLAINED.md): Complete technical guide on the geometry, OCR integration, and post-processing stages.
+- [Review Report](docs/REVIEW_REPORT.md): In-depth audit, validation results, and quality metrics across districts.
+- [UP Extraction Report](1971_Trimmed_PDF/Uttar_Pradesh/reports/CSV_EXTRACTION_TO_VERIFIED_REPORT_UP.md): Documentation of the UP merged outputs and provenance.
+- [State Scripts Guide](scripts/README.md): Index and categorization of the multi-state verification and render scripts.
+
+
 ## Install and configure
 
 Python 3.11 or newer is required.

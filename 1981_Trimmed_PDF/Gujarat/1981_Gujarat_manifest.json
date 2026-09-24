@@ -1,0 +1,6172 @@
+[
+  {
+    "state": "Gujarat",
+    "source_state": "Gujarat",
+    "district": "Ahmadabad",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Gujarat/1981 Ahmadabad.pdf",
+    "source_filename": "1981 Ahmadabad.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 380,
+    "output": "output/pdf/1981_trimmed/Gujarat/civic amenities/1981_Ahmadabad_civic_amenities.pdf",
+    "source_pages_selected": [
+      208,
+      209,
+      210,
+      211
+    ],
+    "printed_page_labels": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Manually verified source span from printed headings, continuation pages, and table structure.",
+    "flags": [],
+    "verification": {
+      "output_pages": 4,
+      "pages": [
+        {
+          "source_page": 208,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 209,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 210,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 211,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 208,
+          "output_page": 1,
+          "source_png_sha256": "cc55fa14f0fe849a015a95c94db15a386fb81474211e90d6d178adc0f1e23eb3",
+          "output_png_sha256": "cc55fa14f0fe849a015a95c94db15a386fb81474211e90d6d178adc0f1e23eb3",
+          "match": true
+        },
+        {
+          "source_page": 209,
+          "output_page": 2,
+          "source_png_sha256": "2956b253ee1d71aee07ea7d7d33ce88c34efc06412d8b710a1b302f7f0b1ae0d",
+          "output_png_sha256": "2956b253ee1d71aee07ea7d7d33ce88c34efc06412d8b710a1b302f7f0b1ae0d",
+          "match": true
+        },
+        {
+          "source_page": 210,
+          "output_page": 3,
+          "source_png_sha256": "853976820083402b99625bdd836e3501dc3af77d8e6e5135138a50a3f2fc9a2f",
+          "output_png_sha256": "853976820083402b99625bdd836e3501dc3af77d8e6e5135138a50a3f2fc9a2f",
+          "match": true
+        },
+        {
+          "source_page": 211,
+          "output_page": 4,
+          "source_png_sha256": "d243ec28c7b118768de4726cd5439c9a3ad8087268e1337245eb49c40ead452b",
+          "output_png_sha256": "d243ec28c7b118768de4726cd5439c9a3ad8087268e1337245eb49c40ead452b",
+          "match": true
+        }
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 4,
+      "audit_flags": [],
+      "content_flags": []
+    }
+  },
+  {
+    "state": "Gujarat",
+    "source_state": "Gujarat",
+    "district": "Ahmadabad",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Gujarat/1981 Ahmadabad.pdf",
+    "source_filename": "1981 Ahmadabad.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 380,
+    "output": "output/pdf/1981_trimmed/Gujarat/mededu/1981_Ahmadabad_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      216,
+      217,
+      218,
+      219,
+      220,
+      221
+    ],
+    "printed_page_labels": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Manually verified source span from printed headings, continuation pages, and table structure.",
+    "flags": [],
+    "verification": {
+      "output_pages": 6,
+      "pages": [
+        {
+          "source_page": 216,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 217,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 218,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 219,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 220,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 221,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 216,
+          "output_page": 1,
+          "source_png_sha256": "760efc424612a9cf4560182832536ae0669a4ad1572bb695e22da00f37161cf6",
+          "output_png_sha256": "760efc424612a9cf4560182832536ae0669a4ad1572bb695e22da00f37161cf6",
+          "match": true
+        },
+        {
+          "source_page": 217,
+          "output_page": 2,
+          "source_png_sha256": "c55035b75054fa01f92a21578e024c887c9fad5b801a48c165748a532d2c5004",
+          "output_png_sha256": "c55035b75054fa01f92a21578e024c887c9fad5b801a48c165748a532d2c5004",
+          "match": true
+        },
+        {
+          "source_page": 218,
+          "output_page": 3,
+          "source_png_sha256": "1100dd4b1d79debee111f4a63a81db9ad90279dddf5411170e0b1c12755cb4e4",
+          "output_png_sha256": "1100dd4b1d79debee111f4a63a81db9ad90279dddf5411170e0b1c12755cb4e4",
+          "match": true
+        },
+        {
+          "source_page": 219,
+          "output_page": 4,
+          "source_png_sha256": "06f227cd97d49e1ebfe9254b220332a8bc78fd12de79bfa343e4765add620c3d",
+          "output_png_sha256": "06f227cd97d49e1ebfe9254b220332a8bc78fd12de79bfa343e4765add620c3d",
+          "match": true
+        },
+        {
+          "source_page": 220,
+          "output_page": 5,
+          "source_png_sha256": "7cc17a350b3f2f224484e7c3edac382dd71055dc909bda0b22d86d10abd83ed6",
+          "output_png_sha256": "7cc17a350b3f2f224484e7c3edac382dd71055dc909bda0b22d86d10abd83ed6",
+          "match": true
+        },
+        {
+          "source_page": 221,
+          "output_page": 6,
+          "source_png_sha256": "d250af30892c10c81337987d2aafe8d44e76c44a17078f6391a011dc09fe5a58",
+          "output_png_sha256": "d250af30892c10c81337987d2aafe8d44e76c44a17078f6391a011dc09fe5a58",
+          "match": true
+        }
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 6,
+      "audit_flags": [],
+      "content_flags": []
+    }
+  },
+  {
+    "state": "Gujarat",
+    "source_state": "Gujarat",
+    "district": "Ahmadabad",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Gujarat/1981 Ahmadabad.pdf",
+    "source_filename": "1981 Ahmadabad.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 380,
+    "output": "output/pdf/1981_trimmed/Gujarat/tehsil appendix/1981_Ahmadabad_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      176,
+      177,
+      178,
+      179
+    ],
+    "printed_page_labels": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Manually verified source span from printed headings, continuation pages, and table structure.",
+    "flags": [],
+    "verification": {
+      "output_pages": 4,
+      "pages": [
+        {
+          "source_page": 176,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 177,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 178,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 179,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 176,
+          "output_page": 1,
+          "source_png_sha256": "ee232f225eccdd2935588566d2292db77c93192d22ead7bf233805912e17f93c",
+          "output_png_sha256": "ee232f225eccdd2935588566d2292db77c93192d22ead7bf233805912e17f93c",
+          "match": true
+        },
+        {
+          "source_page": 177,
+          "output_page": 2,
+          "source_png_sha256": "8640ba89e5c6675f6101d5c5139e650afacc41bccc278646474e707cd6cc0610",
+          "output_png_sha256": "8640ba89e5c6675f6101d5c5139e650afacc41bccc278646474e707cd6cc0610",
+          "match": true
+        },
+        {
+          "source_page": 178,
+          "output_page": 3,
+          "source_png_sha256": "34649a0b7b1992b9a7e747e1d805ec1263dc0d40ad070f11be9b92a68d518862",
+          "output_png_sha256": "34649a0b7b1992b9a7e747e1d805ec1263dc0d40ad070f11be9b92a68d518862",
+          "match": true
+        },
+        {
+          "source_page": 179,
+          "output_page": 4,
+          "source_png_sha256": "a6befc6107214250865813665a2c319889b2b9461e39ad32703f04cccff40293",
+          "output_png_sha256": "a6befc6107214250865813665a2c319889b2b9461e39ad32703f04cccff40293",
+          "match": true
+        }
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 4,
+      "audit_flags": [],
+      "content_flags": []
+    }
+  },
+  {
+    "state": "Gujarat",
+    "source_state": "Gujarat",
+    "district": "Amreli",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Gujarat/1981 Amreli.pdf",
+    "source_filename": "1981 Amreli.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 291,
+    "output": "output/pdf/1981_trimmed/Gujarat/civic amenities/1981_Amreli_civic_amenities.pdf",
+    "source_pages_selected": [
+      197,
+      198
+    ],
+    "printed_page_labels": [
+      null,
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement IV printed pages 148-149; source pages 199-200 are the separate Statement IV-A slum table and are excluded.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 197,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 198,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 197,
+          "output_page": 1,
+          "source_png_sha256": "f538dadd5aef92e3aa151389ab827d3363ec44448529c087704a43581f4901e7",
+          "output_png_sha256": "f538dadd5aef92e3aa151389ab827d3363ec44448529c087704a43581f4901e7",
+          "match": true
+        },
+        {
+          "source_page": 198,
+          "output_page": 2,
+          "source_png_sha256": "41ed2cd6db471fb1642e93e6866f7f72eababfdd1e062ce7ec86e9755821ea66",
+          "output_png_sha256": "41ed2cd6db471fb1642e93e6866f7f72eababfdd1e062ce7ec86e9755821ea66",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Gujarat",
+    "source_state": "Gujarat",
+    "district": "Amreli",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Gujarat/1981 Amreli.pdf",
+    "source_filename": "1981 Amreli.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 291,
+    "output": "output/pdf/1981_trimmed/Gujarat/mededu/1981_Amreli_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      201,
+      202
+    ],
+    "printed_page_labels": [
+      null,
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement V printed pages 150-153; source page 203 begins Statement VI.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 201,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 202,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 201,
+          "output_page": 1,
+          "source_png_sha256": "501dfd1a22adb1f7f13deb74ff4369bb1910d8faedc9157dc196f51605b0aa10",
+          "output_png_sha256": "501dfd1a22adb1f7f13deb74ff4369bb1910d8faedc9157dc196f51605b0aa10",
+          "match": true
+        },
+        {
+          "source_page": 202,
+          "output_page": 2,
+          "source_png_sha256": "f450d8570dccc39804db9298cd49299081d9000c004553cb4e50cb69c8ad084d",
+          "output_png_sha256": "f450d8570dccc39804db9298cd49299081d9000c004553cb4e50cb69c8ad084d",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Gujarat",
+    "source_state": "Gujarat",
+    "district": "Amreli",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Gujarat/1981 Amreli.pdf",
+    "source_filename": "1981 Amreli.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 291,
+    "output": "output/pdf/1981_trimmed/Gujarat/tehsil appendix/1981_Amreli_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      173,
+      174,
+      175,
+      176
+    ],
+    "printed_page_labels": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Appendix I, Talukawise Abstract of Educational, Medical and Other Amenities, printed pages 126-129; source page 177 begins Appendix II/III material.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 4,
+      "pages": [
+        {
+          "source_page": 173,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 174,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 175,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 176,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 173,
+          "output_page": 1,
+          "source_png_sha256": "c255c0d72f8ac46c7acb16c67468f1d2c4e049dda8ccb6ee04883017ad6e1dd9",
+          "output_png_sha256": "c255c0d72f8ac46c7acb16c67468f1d2c4e049dda8ccb6ee04883017ad6e1dd9",
+          "match": true
+        },
+        {
+          "source_page": 174,
+          "output_page": 2,
+          "source_png_sha256": "fdee0349b4dc9841cd6309595093b7a3baeb0eafca1fe9536c312abe930ceb7f",
+          "output_png_sha256": "fdee0349b4dc9841cd6309595093b7a3baeb0eafca1fe9536c312abe930ceb7f",
+          "match": true
+        },
+        {
+          "source_page": 175,
+          "output_page": 3,
+          "source_png_sha256": "e86ea836c0f4dd25a44184f983ff521d8c905f6c5d1e2f134ea1c3a5d2120d0c",
+          "output_png_sha256": "e86ea836c0f4dd25a44184f983ff521d8c905f6c5d1e2f134ea1c3a5d2120d0c",
+          "match": true
+        },
+        {
+          "source_page": 176,
+          "output_page": 4,
+          "source_png_sha256": "6c2e0e20f1651850697fa2c8cef1483f575c62550e59df5b7c03102ba7ff72d1",
+          "output_png_sha256": "6c2e0e20f1651850697fa2c8cef1483f575c62550e59df5b7c03102ba7ff72d1",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 4,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Gujarat",
+    "source_state": "Gujarat",
+    "district": "Banas Kantha",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Gujarat/1981 Banas Kantha.pdf",
+    "source_filename": "1981 Banas Kantha.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 419,
+    "output": "output/pdf/1981_trimmed/Gujarat/civic amenities/1981_Banas Kantha_civic_amenities.pdf",
+    "source_pages_selected": [
+      296,
+      297
+    ],
+    "printed_page_labels": [
+      null,
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Located from directory headings and continuation boundaries.",
+    "flags": [],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 296,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 297,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "audit_status": "pass",
+      "render_checks": [
+        {
+          "source_page": 296,
+          "output_page": 1,
+          "source_png_sha256": "2d2845951be9643cfc83ebc119340dd11c7439cb7a970fc29b4ff7f26cf284de",
+          "output_png_sha256": "2d2845951be9643cfc83ebc119340dd11c7439cb7a970fc29b4ff7f26cf284de",
+          "match": true
+        },
+        {
+          "source_page": 297,
+          "output_page": 2,
+          "source_png_sha256": "2db0a9c05ff586936021fd15062b2ef36330ac98c2dbfa558e8fb8b4ac2089cf",
+          "output_png_sha256": "2db0a9c05ff586936021fd15062b2ef36330ac98c2dbfa558e8fb8b4ac2089cf",
+          "match": true
+        }
+      ],
+      "rendered_pages": 2,
+      "audit_flags": [],
+      "content_flags": []
+    }
+  },
+  {
+    "state": "Gujarat",
+    "source_state": "Gujarat",
+    "district": "Banas Kantha",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Gujarat/1981 Banas Kantha.pdf",
+    "source_filename": "1981 Banas Kantha.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 419,
+    "output": "output/pdf/1981_trimmed/Gujarat/mededu/1981_Banas Kantha_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      300,
+      301
+    ],
+    "printed_page_labels": [
+      null,
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Located from directory headings and continuation boundaries.",
+    "flags": [],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 300,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 301,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "audit_status": "pass",
+      "render_checks": [
+        {
+          "source_page": 300,
+          "output_page": 1,
+          "source_png_sha256": "33f989d529c8951dec722d4d3b31274446ea2a180bb14b1eca5bf52944f5f87d",
+          "output_png_sha256": "33f989d529c8951dec722d4d3b31274446ea2a180bb14b1eca5bf52944f5f87d",
+          "match": true
+        },
+        {
+          "source_page": 301,
+          "output_page": 2,
+          "source_png_sha256": "586d49f85d481ca0ca0e3566fd1e98d9cd7fa5228763b4e52d3fb34323fc5f09",
+          "output_png_sha256": "586d49f85d481ca0ca0e3566fd1e98d9cd7fa5228763b4e52d3fb34323fc5f09",
+          "match": true
+        }
+      ],
+      "rendered_pages": 2,
+      "audit_flags": [],
+      "content_flags": []
+    }
+  },
+  {
+    "state": "Gujarat",
+    "source_state": "Gujarat",
+    "district": "Banas Kantha",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Gujarat/1981 Banas Kantha.pdf",
+    "source_filename": "1981 Banas Kantha.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 419,
+    "output": "output/pdf/1981_trimmed/Gujarat/tehsil appendix/1981_Banas Kantha_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      256,
+      257,
+      258,
+      259
+    ],
+    "printed_page_labels": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Village Directory Appendix I, Talukawise Abstract of Educational, Medical and Other Amenities, spanning educational, medical, drinking-water, post/telegraph, communications and power-supply pages; source page 260 begins Appendix II.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 4,
+      "pages": [
+        {
+          "source_page": 256,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 257,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 258,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 259,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 256,
+          "output_page": 1,
+          "source_png_sha256": "ea9b00eb9383d80d56cd77becd1b0afc88e6f0e80efc880656cf1f7323b5d64a",
+          "output_png_sha256": "ea9b00eb9383d80d56cd77becd1b0afc88e6f0e80efc880656cf1f7323b5d64a",
+          "match": true
+        },
+        {
+          "source_page": 257,
+          "output_page": 2,
+          "source_png_sha256": "c00ff7a18513f43a7b7f7b468dff83d037db66110a60356ac178d9e4c696fd4a",
+          "output_png_sha256": "c00ff7a18513f43a7b7f7b468dff83d037db66110a60356ac178d9e4c696fd4a",
+          "match": true
+        },
+        {
+          "source_page": 258,
+          "output_page": 3,
+          "source_png_sha256": "22c56df5037dccf8e5f1262b5a736a0f5e2b31fd6af5ee0aff36c70536fce6f3",
+          "output_png_sha256": "22c56df5037dccf8e5f1262b5a736a0f5e2b31fd6af5ee0aff36c70536fce6f3",
+          "match": true
+        },
+        {
+          "source_page": 259,
+          "output_page": 4,
+          "source_png_sha256": "71f2d1c01f61d7a170051956e0f4cfff37d40307d3c16d11602997a5d441e8a2",
+          "output_png_sha256": "71f2d1c01f61d7a170051956e0f4cfff37d40307d3c16d11602997a5d441e8a2",
+          "match": true
+        }
+      ],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 4,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Gujarat",
+    "source_state": "Gujarat",
+    "district": "Bharuch",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Gujarat/1981 Bharuch.pdf",
+    "source_filename": "1981 Bharuch.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 404,
+    "output": "output/pdf/1981_trimmed/Gujarat/civic amenities/1981_Bharuch_civic_amenities.pdf",
+    "source_pages_selected": [
+      278,
+      279
+    ],
+    "printed_page_labels": [
+      null,
+      "1979"
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement IV printed pages 198-199; source pages 280-281 are the separate Statement IV-A slum table and are excluded.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 278,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 279,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 278,
+          "output_page": 1,
+          "source_png_sha256": "f2762da098af7db4bd8c94969ae59b6d2ac1a2404cfb348c4ff45a13daa32825",
+          "output_png_sha256": "f2762da098af7db4bd8c94969ae59b6d2ac1a2404cfb348c4ff45a13daa32825",
+          "match": true
+        },
+        {
+          "source_page": 279,
+          "output_page": 2,
+          "source_png_sha256": "fa3dce03b4c11ef52c7514b29400614410ceee77ac71b9704da08f40929634ad",
+          "output_png_sha256": "fa3dce03b4c11ef52c7514b29400614410ceee77ac71b9704da08f40929634ad",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Gujarat",
+    "source_state": "Gujarat",
+    "district": "Bharuch",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Gujarat/1981 Bharuch.pdf",
+    "source_filename": "1981 Bharuch.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 404,
+    "output": "output/pdf/1981_trimmed/Gujarat/mededu/1981_Bharuch_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      282,
+      283
+    ],
+    "printed_page_labels": [
+      null,
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement V printed pages 202-203; source page 284 begins Statement VI.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 282,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 283,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 282,
+          "output_page": 1,
+          "source_png_sha256": "8ca883b8d3ecafa6c45d2ea5b52cd4fc2713197a5aa74acca701e6ab8ce80d57",
+          "output_png_sha256": "8ca883b8d3ecafa6c45d2ea5b52cd4fc2713197a5aa74acca701e6ab8ce80d57",
+          "match": true
+        },
+        {
+          "source_page": 283,
+          "output_page": 2,
+          "source_png_sha256": "07464f216803696e4db6ed77d67d9e480b266b09ee4a3075868a688c081ce8fc",
+          "output_png_sha256": "07464f216803696e4db6ed77d67d9e480b266b09ee4a3075868a688c081ce8fc",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Gujarat",
+    "source_state": "Gujarat",
+    "district": "Bharuch",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Gujarat/1981 Bharuch.pdf",
+    "source_filename": "1981 Bharuch.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 404,
+    "output": "output/pdf/1981_trimmed/Gujarat/tehsil appendix/1981_Bharuch_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      238,
+      239,
+      240,
+      241
+    ],
+    "printed_page_labels": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Appendix I, Talukawise Abstract of Educational, Medical and Other Amenities, spanning educational, medical, drinking-water, communications and power-supply pages; source page 242 begins Appendix II.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 4,
+      "pages": [
+        {
+          "source_page": 238,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 239,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 240,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 241,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 238,
+          "output_page": 1,
+          "source_png_sha256": "87c89466b70c1e948932ba52c78ef05cb693b71c9105bcaf39cad0c016854992",
+          "output_png_sha256": "87c89466b70c1e948932ba52c78ef05cb693b71c9105bcaf39cad0c016854992",
+          "match": true
+        },
+        {
+          "source_page": 239,
+          "output_page": 2,
+          "source_png_sha256": "b36950ab12699495b4ca30d2327bd6c429f473ddd572c4db845c45dd99b59a52",
+          "output_png_sha256": "b36950ab12699495b4ca30d2327bd6c429f473ddd572c4db845c45dd99b59a52",
+          "match": true
+        },
+        {
+          "source_page": 240,
+          "output_page": 3,
+          "source_png_sha256": "2de08b5f0cb5de64cda7f9a2886c59781a6e11dcdd22c320e1e75b440e9b03a1",
+          "output_png_sha256": "2de08b5f0cb5de64cda7f9a2886c59781a6e11dcdd22c320e1e75b440e9b03a1",
+          "match": true
+        },
+        {
+          "source_page": 241,
+          "output_page": 4,
+          "source_png_sha256": "8dd6139f210f8be990fd9df92c5502d9404358db5a22ea206b4363271050d541",
+          "output_png_sha256": "8dd6139f210f8be990fd9df92c5502d9404358db5a22ea206b4363271050d541",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 4,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Gujarat",
+    "source_state": "Gujarat",
+    "district": "Bhavnagar",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Gujarat/1981 Bhavnagar.pdf",
+    "source_filename": "1981 Bhavnagar.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 356,
+    "output": "output/pdf/1981_trimmed/Gujarat/civic amenities/1981_Bhavnagar_civic_amenities.pdf",
+    "source_pages_selected": [
+      228,
+      229
+    ],
+    "printed_page_labels": [
+      null,
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement IV printed pages 182-183; source pages 230-231 are the separate Statement IV-A slum table and are excluded.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 228,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 229,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 228,
+          "output_page": 1,
+          "source_png_sha256": "d1f41ea7b336a815b5935a5782a4c8e1b836445c153267ba26529482c50a2a8d",
+          "output_png_sha256": "d1f41ea7b336a815b5935a5782a4c8e1b836445c153267ba26529482c50a2a8d",
+          "match": true
+        },
+        {
+          "source_page": 229,
+          "output_page": 2,
+          "source_png_sha256": "ed049e7e457f6b23c8fd2141e6df05bc19ff9c5cd6e35a9ac59418fc0773717a",
+          "output_png_sha256": "ed049e7e457f6b23c8fd2141e6df05bc19ff9c5cd6e35a9ac59418fc0773717a",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Gujarat",
+    "source_state": "Gujarat",
+    "district": "Bhavnagar",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Gujarat/1981 Bhavnagar.pdf",
+    "source_filename": "1981 Bhavnagar.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 356,
+    "output": "output/pdf/1981_trimmed/Gujarat/mededu/1981_Bhavnagar_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      232,
+      233
+    ],
+    "printed_page_labels": [
+      null,
+      "1979"
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement V printed pages 186-187; source page 234 begins Statement VI.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 232,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 233,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 232,
+          "output_page": 1,
+          "source_png_sha256": "9e603f53ee234f31e836d20c59cf9d2e91d457eae8692ceba7269e92f01fa1b8",
+          "output_png_sha256": "9e603f53ee234f31e836d20c59cf9d2e91d457eae8692ceba7269e92f01fa1b8",
+          "match": true
+        },
+        {
+          "source_page": 233,
+          "output_page": 2,
+          "source_png_sha256": "def2c043a8187ba7da066a34de4d192cdd9304135872b1c1318935ba42127f0f",
+          "output_png_sha256": "def2c043a8187ba7da066a34de4d192cdd9304135872b1c1318935ba42127f0f",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Gujarat",
+    "source_state": "Gujarat",
+    "district": "Bhavnagar",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Gujarat/1981 Bhavnagar.pdf",
+    "source_filename": "1981 Bhavnagar.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 356,
+    "output": "output/pdf/1981_trimmed/Gujarat/tehsil appendix/1981_Bhavnagar_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      204,
+      205,
+      206,
+      207
+    ],
+    "printed_page_labels": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Appendix I, Talukawise Abstract of Educational, Medical and Other Amenities, spanning educational, medical, drinking-water, communications and power-supply pages; source page 208 begins Appendix II.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 4,
+      "pages": [
+        {
+          "source_page": 204,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 205,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 206,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 207,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 204,
+          "output_page": 1,
+          "source_png_sha256": "0b42c75163c8c9c1480e2f9b978aa3348caf2a3f307445415e826ea431c48332",
+          "output_png_sha256": "0b42c75163c8c9c1480e2f9b978aa3348caf2a3f307445415e826ea431c48332",
+          "match": true
+        },
+        {
+          "source_page": 205,
+          "output_page": 2,
+          "source_png_sha256": "5056f391cdda18773bd5457fdf5f4b194225e2404f7d762d222a7691621d0761",
+          "output_png_sha256": "5056f391cdda18773bd5457fdf5f4b194225e2404f7d762d222a7691621d0761",
+          "match": true
+        },
+        {
+          "source_page": 206,
+          "output_page": 3,
+          "source_png_sha256": "b92ae53e9b577d17ead3d82b0f8fb0c55fc14966858502df3a3cf2757e5371ae",
+          "output_png_sha256": "b92ae53e9b577d17ead3d82b0f8fb0c55fc14966858502df3a3cf2757e5371ae",
+          "match": true
+        },
+        {
+          "source_page": 207,
+          "output_page": 4,
+          "source_png_sha256": "4b5c94b24c5969fcc58bda0f58aecb4dc90a1432e9870f68004a88d2cac318a9",
+          "output_png_sha256": "4b5c94b24c5969fcc58bda0f58aecb4dc90a1432e9870f68004a88d2cac318a9",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 4,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Gujarat",
+    "source_state": "Gujarat",
+    "district": "Gandhinagar",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Gujarat/1981 Gandhinagar.pdf",
+    "source_filename": "1981 Gandhinagar.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 88,
+    "output": "output/pdf/1981_trimmed/Gujarat/civic amenities/1981_Gandhinagar_civic_amenities.pdf",
+    "source_pages_selected": [
+      61
+    ],
+    "printed_page_labels": [
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement IV Civic and Other Amenities, printed page 24; source page 62 is the separate Statement IV-A slum table.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 1,
+      "pages": [
+        {
+          "source_page": 61,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 61,
+          "output_page": 1,
+          "source_png_sha256": "af01f024ea3ca45c3246d1298a7b0fd22a817780b6396dec7c98733ce849eabd",
+          "output_png_sha256": "af01f024ea3ca45c3246d1298a7b0fd22a817780b6396dec7c98733ce849eabd",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 1,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Gujarat",
+    "source_state": "Gujarat",
+    "district": "Gandhinagar",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Gujarat/1981 Gandhinagar.pdf",
+    "source_filename": "1981 Gandhinagar.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 88,
+    "output": "output/pdf/1981_trimmed/Gujarat/mededu/1981_Gandhinagar_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      63
+    ],
+    "printed_page_labels": [
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement V Medical, Educational, Recreational and Cultural Facilities, printed page 26; source page 64 begins Statement VI.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 1,
+      "pages": [
+        {
+          "source_page": 63,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 63,
+          "output_page": 1,
+          "source_png_sha256": "29dc167e18d64485db8238e1860963fd3b52afafc6eeae47a1246f25272bbe27",
+          "output_png_sha256": "29dc167e18d64485db8238e1860963fd3b52afafc6eeae47a1246f25272bbe27",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 1,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Gujarat",
+    "source_state": "Gujarat",
+    "district": "Gandhinagar",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Gujarat/1981 Gandhinagar.pdf",
+    "source_filename": "1981 Gandhinagar.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 88,
+    "output": "output/pdf/1981_trimmed/Gujarat/tehsil appendix/1981_Gandhinagar_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      55,
+      56
+    ],
+    "printed_page_labels": [
+      null,
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Appendix I, Talukawise Abstract of Educational, Medical and Other Amenities, spanning the educational, medical, drinking-water, post/telegraph, communications and power-supply pages; source page 56 also begins Appendix II after the continuation.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 55,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 56,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 55,
+          "output_page": 1,
+          "source_png_sha256": "7533d48424741fffd508fd2ec2b8653dcb0d7bf4345b584411421104bfdaa749",
+          "output_png_sha256": "7533d48424741fffd508fd2ec2b8653dcb0d7bf4345b584411421104bfdaa749",
+          "match": true
+        },
+        {
+          "source_page": 56,
+          "output_page": 2,
+          "source_png_sha256": "8a300c860812224471cc5b11b48c599ecd726b509738493ccf344a42a0e89abe",
+          "output_png_sha256": "8a300c860812224471cc5b11b48c599ecd726b509738493ccf344a42a0e89abe",
+          "match": true
+        }
+      ],
+      "content_flags": [
+        "last_page_contains_next_appendix"
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Gujarat",
+    "source_state": "Gujarat",
+    "district": "Junagadh",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Gujarat/1981 Junagadh.pdf",
+    "source_filename": "1981 Junagadh.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 463,
+    "output": "output/pdf/1981_trimmed/Gujarat/civic amenities/1981_Junagadh_civic_amenities.pdf",
+    "source_pages_selected": [
+      304,
+      305,
+      306,
+      307
+    ],
+    "printed_page_labels": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement IV Civic and Other Amenities, printed pages 242-243; source pages 308-309 are the separate Statement IV-A slum table.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 4,
+      "pages": [
+        {
+          "source_page": 304,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 305,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 306,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 307,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 304,
+          "output_page": 1,
+          "source_png_sha256": "af109f4e3d575316d0a1eea25855c66f7a465984824783e7f8754922bf558828",
+          "output_png_sha256": "af109f4e3d575316d0a1eea25855c66f7a465984824783e7f8754922bf558828",
+          "match": true
+        },
+        {
+          "source_page": 305,
+          "output_page": 2,
+          "source_png_sha256": "93b1ed0f73d49d807e23548e6ec42bb4a3717f5e31221f5b258d229f46d70542",
+          "output_png_sha256": "93b1ed0f73d49d807e23548e6ec42bb4a3717f5e31221f5b258d229f46d70542",
+          "match": true
+        },
+        {
+          "source_page": 306,
+          "output_page": 3,
+          "source_png_sha256": "5a0549695d680871cc21c9909c1a49af314cfb4a85370366b35d8e44fbb6ca22",
+          "output_png_sha256": "5a0549695d680871cc21c9909c1a49af314cfb4a85370366b35d8e44fbb6ca22",
+          "match": true
+        },
+        {
+          "source_page": 307,
+          "output_page": 4,
+          "source_png_sha256": "8db9935c60b6d3e6d39ef362ce287b42e3d831c5d3bc0f016028ec75ea69269e",
+          "output_png_sha256": "8db9935c60b6d3e6d39ef362ce287b42e3d831c5d3bc0f016028ec75ea69269e",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 4,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Gujarat",
+    "source_state": "Gujarat",
+    "district": "Junagadh",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Gujarat/1981 Junagadh.pdf",
+    "source_filename": "1981 Junagadh.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 463,
+    "output": "output/pdf/1981_trimmed/Gujarat/mededu/1981_Junagadh_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      310,
+      311,
+      312,
+      313,
+      314,
+      315
+    ],
+    "printed_page_labels": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement V Medical, Educational, Recreational and Cultural Facilities, including all paired continuation columns; source page 316 begins Statement VI.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 6,
+      "pages": [
+        {
+          "source_page": 310,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 311,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 312,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 313,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 314,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 315,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 310,
+          "output_page": 1,
+          "source_png_sha256": "82744a40524a3e0ec0720a2dadcf9322de491931652b306f53e02b34ac55f04b",
+          "output_png_sha256": "82744a40524a3e0ec0720a2dadcf9322de491931652b306f53e02b34ac55f04b",
+          "match": true
+        },
+        {
+          "source_page": 311,
+          "output_page": 2,
+          "source_png_sha256": "79c0b98cbe1dbdc47876b664e72f37ebdecf65ddf32e26706e2315f2c958f43f",
+          "output_png_sha256": "79c0b98cbe1dbdc47876b664e72f37ebdecf65ddf32e26706e2315f2c958f43f",
+          "match": true
+        },
+        {
+          "source_page": 312,
+          "output_page": 3,
+          "source_png_sha256": "6358a09799c096b7ac7069227600cfce627c9a419fd83da1d774ec1aaca4f2bf",
+          "output_png_sha256": "6358a09799c096b7ac7069227600cfce627c9a419fd83da1d774ec1aaca4f2bf",
+          "match": true
+        },
+        {
+          "source_page": 313,
+          "output_page": 4,
+          "source_png_sha256": "415e6964e65284ef47257e517ec6d1ce82d91fe0ac974487cae14fbab20ba127",
+          "output_png_sha256": "415e6964e65284ef47257e517ec6d1ce82d91fe0ac974487cae14fbab20ba127",
+          "match": true
+        },
+        {
+          "source_page": 314,
+          "output_page": 5,
+          "source_png_sha256": "d2334cc723b30835cf872b457a129f929d31d3fb77d1a7f47828c12618498504",
+          "output_png_sha256": "d2334cc723b30835cf872b457a129f929d31d3fb77d1a7f47828c12618498504",
+          "match": true
+        },
+        {
+          "source_page": 315,
+          "output_page": 6,
+          "source_png_sha256": "73187f2e7acd7512bd4f9d2e6baa23c2539f28b58fb74fac3e78ddfa905b016b",
+          "output_png_sha256": "73187f2e7acd7512bd4f9d2e6baa23c2539f28b58fb74fac3e78ddfa905b016b",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 6,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Gujarat",
+    "source_state": "Gujarat",
+    "district": "Junagadh",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Gujarat/1981 Junagadh.pdf",
+    "source_filename": "1981 Junagadh.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 463,
+    "output": "output/pdf/1981_trimmed/Gujarat/tehsil appendix/1981_Junagadh_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      268,
+      269,
+      270,
+      271
+    ],
+    "printed_page_labels": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Village Directory Appendix I, Talukawise Abstract of Educational, Medical and Other Amenities, spanning educational, medical, drinking-water, post/telegraph, communications and power-supply pages; source page 272 begins Appendix II.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 4,
+      "pages": [
+        {
+          "source_page": 268,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 269,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 270,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 271,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 268,
+          "output_page": 1,
+          "source_png_sha256": "884dc9b7b47d55d9f32c6262f28ff7371dd08ec4f1f29d077202142325426fa4",
+          "output_png_sha256": "884dc9b7b47d55d9f32c6262f28ff7371dd08ec4f1f29d077202142325426fa4",
+          "match": true
+        },
+        {
+          "source_page": 269,
+          "output_page": 2,
+          "source_png_sha256": "dd5c78485da65fb07eee37cc3e03ac83c898c9f1ac592715ef800bb814c02882",
+          "output_png_sha256": "dd5c78485da65fb07eee37cc3e03ac83c898c9f1ac592715ef800bb814c02882",
+          "match": true
+        },
+        {
+          "source_page": 270,
+          "output_page": 3,
+          "source_png_sha256": "ea8fcdcc554b6ca207c84ac8c18973bb1b11b3391e83f93f2a0be21e19fd1b12",
+          "output_png_sha256": "ea8fcdcc554b6ca207c84ac8c18973bb1b11b3391e83f93f2a0be21e19fd1b12",
+          "match": true
+        },
+        {
+          "source_page": 271,
+          "output_page": 4,
+          "source_png_sha256": "42244d67a92ca8b76d9aba095ed2f146426620659eb275a93774a8b8062f0075",
+          "output_png_sha256": "42244d67a92ca8b76d9aba095ed2f146426620659eb275a93774a8b8062f0075",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 4,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Gujarat",
+    "source_state": "Gujarat",
+    "district": "Kachchh",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Gujarat/1981 Kachchh.pdf",
+    "source_filename": "1981 Kachchh.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 353,
+    "output": "output/pdf/1981_trimmed/Gujarat/civic amenities/1981_Kachchh_civic_amenities.pdf",
+    "source_pages_selected": [
+      241,
+      242
+    ],
+    "printed_page_labels": [
+      null,
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement IV Civic and Other Amenities, printed pages 188-189; source page 243 begins the separate Statement IV-A slum table.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 241,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 242,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 241,
+          "output_page": 1,
+          "source_png_sha256": "68604269c9f6912abeff7f6803397b3883ef06e0f6898a24976f4d621a341ed8",
+          "output_png_sha256": "68604269c9f6912abeff7f6803397b3883ef06e0f6898a24976f4d621a341ed8",
+          "match": true
+        },
+        {
+          "source_page": 242,
+          "output_page": 2,
+          "source_png_sha256": "ae4f822e68b2b73de91a94f0c09dd34835e21931411e3ef3ebb658a044294415",
+          "output_png_sha256": "ae4f822e68b2b73de91a94f0c09dd34835e21931411e3ef3ebb658a044294415",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Gujarat",
+    "source_state": "Gujarat",
+    "district": "Kachchh",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Gujarat/1981 Kachchh.pdf",
+    "source_filename": "1981 Kachchh.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 353,
+    "output": "output/pdf/1981_trimmed/Gujarat/mededu/1981_Kachchh_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      245,
+      246
+    ],
+    "printed_page_labels": [
+      null,
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement V Medical, Educational, Recreational and Cultural Facilities, printed pages 192-193; source page 247 begins Statement VI.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 245,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 246,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 245,
+          "output_page": 1,
+          "source_png_sha256": "bb1432bcae27d7533b840bda1af81ce978c02e4d2d2669bd7714211c4f79a066",
+          "output_png_sha256": "bb1432bcae27d7533b840bda1af81ce978c02e4d2d2669bd7714211c4f79a066",
+          "match": true
+        },
+        {
+          "source_page": 246,
+          "output_page": 2,
+          "source_png_sha256": "9646f110a98b526105ef71ac917267a3dc7110634c75328f57ce521ae810a10d",
+          "output_png_sha256": "9646f110a98b526105ef71ac917267a3dc7110634c75328f57ce521ae810a10d",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Gujarat",
+    "source_state": "Gujarat",
+    "district": "Kachchh",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Gujarat/1981 Kachchh.pdf",
+    "source_filename": "1981 Kachchh.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 353,
+    "output": "output/pdf/1981_trimmed/Gujarat/tehsil appendix/1981_Kachchh_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      211,
+      212,
+      213,
+      214
+    ],
+    "printed_page_labels": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Village Directory Appendix I, Talukawise Abstract of Educational, Medical and Other Amenities, spanning educational, medical, drinking-water, post/telegraph, communications and power-supply pages; source page 215 begins Appendix IV.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 4,
+      "pages": [
+        {
+          "source_page": 211,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 212,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 213,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 214,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 211,
+          "output_page": 1,
+          "source_png_sha256": "8504ae34d2ccee46c35778c2dc5f8a18000564774ae893dfb527a08e6731a5db",
+          "output_png_sha256": "8504ae34d2ccee46c35778c2dc5f8a18000564774ae893dfb527a08e6731a5db",
+          "match": true
+        },
+        {
+          "source_page": 212,
+          "output_page": 2,
+          "source_png_sha256": "0513c2c0af8c9826329e964313b8a07bc8884a85de89a95d5eb71c36b6d180af",
+          "output_png_sha256": "0513c2c0af8c9826329e964313b8a07bc8884a85de89a95d5eb71c36b6d180af",
+          "match": true
+        },
+        {
+          "source_page": 213,
+          "output_page": 3,
+          "source_png_sha256": "e03cc9074ccea6801ca0e1ea12d743cb665422148a49b708d735317521df8bb7",
+          "output_png_sha256": "e03cc9074ccea6801ca0e1ea12d743cb665422148a49b708d735317521df8bb7",
+          "match": true
+        },
+        {
+          "source_page": 214,
+          "output_page": 4,
+          "source_png_sha256": "ebdcde2d55b4e0b31a0654f52af765a69f56dc7aa063639a1249d80b46a8041f",
+          "output_png_sha256": "ebdcde2d55b4e0b31a0654f52af765a69f56dc7aa063639a1249d80b46a8041f",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 4,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Gujarat",
+    "source_state": "Gujarat",
+    "district": "Kheda",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Gujarat/1981 Kheda.pdf",
+    "source_filename": "1981 Kheda.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 393,
+    "output": "output/pdf/1981_trimmed/Gujarat/civic amenities/1981_Kheda_civic_amenities.pdf",
+    "source_pages_selected": [
+      264,
+      265
+    ],
+    "printed_page_labels": [
+      null,
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement IV Civic and Other Amenities, printed pages 204-205; source page 266 begins the separate Statement IV-A slum table.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 264,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 265,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 264,
+          "output_page": 1,
+          "source_png_sha256": "ba00392325772f83b7632b7e009910e3a4a8703d28ff17b086272ccb50360883",
+          "output_png_sha256": "ba00392325772f83b7632b7e009910e3a4a8703d28ff17b086272ccb50360883",
+          "match": true
+        },
+        {
+          "source_page": 265,
+          "output_page": 2,
+          "source_png_sha256": "1c97abb9abb6892a522de312e6d481d1b465e773aeb33e9544b8e2759f6294d7",
+          "output_png_sha256": "1c97abb9abb6892a522de312e6d481d1b465e773aeb33e9544b8e2759f6294d7",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Gujarat",
+    "source_state": "Gujarat",
+    "district": "Kheda",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Gujarat/1981 Kheda.pdf",
+    "source_filename": "1981 Kheda.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 393,
+    "output": "output/pdf/1981_trimmed/Gujarat/mededu/1981_Kheda_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      270,
+      271,
+      272,
+      273
+    ],
+    "printed_page_labels": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement V Medical, Educational, Recreational and Cultural Facilities, including all paired continuation columns; source page 274 begins Statement VI.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 4,
+      "pages": [
+        {
+          "source_page": 270,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 271,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 272,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 273,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 270,
+          "output_page": 1,
+          "source_png_sha256": "767b9632767129e2b358ebfc89263022ac454adf2fc105cbec29627fa4272cd0",
+          "output_png_sha256": "767b9632767129e2b358ebfc89263022ac454adf2fc105cbec29627fa4272cd0",
+          "match": true
+        },
+        {
+          "source_page": 271,
+          "output_page": 2,
+          "source_png_sha256": "5127785a694a18dd942c9b63db30302c4ef4bce36a322ee509026ea89966d78d",
+          "output_png_sha256": "5127785a694a18dd942c9b63db30302c4ef4bce36a322ee509026ea89966d78d",
+          "match": true
+        },
+        {
+          "source_page": 272,
+          "output_page": 3,
+          "source_png_sha256": "73584a23e293049d11f940543c9821a45a238e24fdc25688eab53dfe5b06292e",
+          "output_png_sha256": "73584a23e293049d11f940543c9821a45a238e24fdc25688eab53dfe5b06292e",
+          "match": true
+        },
+        {
+          "source_page": 273,
+          "output_page": 4,
+          "source_png_sha256": "f6d7ce592c333c019c1050fad81e4f595d4e75aaf1bea7357cb3e759dabe6245",
+          "output_png_sha256": "f6d7ce592c333c019c1050fad81e4f595d4e75aaf1bea7357cb3e759dabe6245",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 4,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Gujarat",
+    "source_state": "Gujarat",
+    "district": "Kheda",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Gujarat/1981 Kheda.pdf",
+    "source_filename": "1981 Kheda.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 393,
+    "output": "output/pdf/1981_trimmed/Gujarat/tehsil appendix/1981_Kheda_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      230,
+      231,
+      232,
+      233
+    ],
+    "printed_page_labels": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Village Directory Appendix I, Talukawise Abstract of Educational, Medical and Other Amenities, spanning educational, medical, drinking-water, post/telegraph, communications and power-supply pages; source page 234 begins Appendix II.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 4,
+      "pages": [
+        {
+          "source_page": 230,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 231,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 232,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 233,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 230,
+          "output_page": 1,
+          "source_png_sha256": "8502310f554155af73f7dccb52d6e425fb46a6a65c5ceeb3ca84e0f668de7bdc",
+          "output_png_sha256": "8502310f554155af73f7dccb52d6e425fb46a6a65c5ceeb3ca84e0f668de7bdc",
+          "match": true
+        },
+        {
+          "source_page": 231,
+          "output_page": 2,
+          "source_png_sha256": "4ff8c4f23e6f7cabb75acd4fc9903f4316c1f322741caed3c05595da26396d2d",
+          "output_png_sha256": "4ff8c4f23e6f7cabb75acd4fc9903f4316c1f322741caed3c05595da26396d2d",
+          "match": true
+        },
+        {
+          "source_page": 232,
+          "output_page": 3,
+          "source_png_sha256": "fc31dcc27a9fd6e4c80d5bf4be97e2eee34dbc119e9e60c9d4242c384c0fdbd3",
+          "output_png_sha256": "fc31dcc27a9fd6e4c80d5bf4be97e2eee34dbc119e9e60c9d4242c384c0fdbd3",
+          "match": true
+        },
+        {
+          "source_page": 233,
+          "output_page": 4,
+          "source_png_sha256": "5e51ae28639abef0fc81bd26d81491c669858132f01a2cb6b08b8357386e4e8a",
+          "output_png_sha256": "5e51ae28639abef0fc81bd26d81491c669858132f01a2cb6b08b8357386e4e8a",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 4,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Gujarat",
+    "source_state": "Gujarat",
+    "district": "Mahesana",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Gujarat/1981 Mahesana.pdf",
+    "source_filename": "1981 Mahesana.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 421,
+    "output": "output/pdf/1981_trimmed/Gujarat/civic amenities/1981_Mahesana_civic_amenities.pdf",
+    "source_pages_selected": [
+      289,
+      290
+    ],
+    "printed_page_labels": [
+      null,
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement IV Civic and Other Amenities, printed pages 222-223; source page 291 begins the separate Statement IV-A slum table.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 289,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 290,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 289,
+          "output_page": 1,
+          "source_png_sha256": "7fb80a8ef89e0d72b7664c51edd162845092d51f41aa05196f3bd218c3383b78",
+          "output_png_sha256": "7fb80a8ef89e0d72b7664c51edd162845092d51f41aa05196f3bd218c3383b78",
+          "match": true
+        },
+        {
+          "source_page": 290,
+          "output_page": 2,
+          "source_png_sha256": "eb8854d5d16c8f09d39c28bf244107faaebda4162bbb524c9a240a2488b944ae",
+          "output_png_sha256": "eb8854d5d16c8f09d39c28bf244107faaebda4162bbb524c9a240a2488b944ae",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Gujarat",
+    "source_state": "Gujarat",
+    "district": "Mahesana",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Gujarat/1981 Mahesana.pdf",
+    "source_filename": "1981 Mahesana.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 421,
+    "output": "output/pdf/1981_trimmed/Gujarat/mededu/1981_Mahesana_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      295,
+      296,
+      297,
+      298
+    ],
+    "printed_page_labels": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement V Medical, Educational, Recreational and Cultural Facilities, including all paired continuation columns; source page 299 begins Statement VI.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 4,
+      "pages": [
+        {
+          "source_page": 295,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 296,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 297,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 298,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 295,
+          "output_page": 1,
+          "source_png_sha256": "d530bc081e2e1aa6cd72055527b6d8451736df18be3c000d63e83b28d63185e5",
+          "output_png_sha256": "d530bc081e2e1aa6cd72055527b6d8451736df18be3c000d63e83b28d63185e5",
+          "match": true
+        },
+        {
+          "source_page": 296,
+          "output_page": 2,
+          "source_png_sha256": "0a846b8ce03213ab1b394688061e2a732fe542e2cab8c2ba8e9d84811a09c64b",
+          "output_png_sha256": "0a846b8ce03213ab1b394688061e2a732fe542e2cab8c2ba8e9d84811a09c64b",
+          "match": true
+        },
+        {
+          "source_page": 297,
+          "output_page": 3,
+          "source_png_sha256": "c3f3233540ed6f7894be862c77b800ce592d9b1f42a1418c8b6963e3ab67e0d8",
+          "output_png_sha256": "c3f3233540ed6f7894be862c77b800ce592d9b1f42a1418c8b6963e3ab67e0d8",
+          "match": true
+        },
+        {
+          "source_page": 298,
+          "output_page": 4,
+          "source_png_sha256": "46525f9292428c0fbe14d50c1910c36f79f5b65e5c19bc650eaf02a08211acdc",
+          "output_png_sha256": "46525f9292428c0fbe14d50c1910c36f79f5b65e5c19bc650eaf02a08211acdc",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 4,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Gujarat",
+    "source_state": "Gujarat",
+    "district": "Mahesana",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Gujarat/1981 Mahesana.pdf",
+    "source_filename": "1981 Mahesana.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 421,
+    "output": "output/pdf/1981_trimmed/Gujarat/tehsil appendix/1981_Mahesana_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      259,
+      260,
+      261,
+      262
+    ],
+    "printed_page_labels": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Village Directory Appendix I, Talukawise Abstract of Educational, Medical and Other Amenities, spanning educational, medical, drinking-water, post/telegraph, communications and power-supply pages; source page 263 begins Appendix II.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 4,
+      "pages": [
+        {
+          "source_page": 259,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 260,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 261,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 262,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 259,
+          "output_page": 1,
+          "source_png_sha256": "15366899792d7f9521f95acd9f156fcb75b2e28bd5043068d09ce03b5bf12515",
+          "output_png_sha256": "15366899792d7f9521f95acd9f156fcb75b2e28bd5043068d09ce03b5bf12515",
+          "match": true
+        },
+        {
+          "source_page": 260,
+          "output_page": 2,
+          "source_png_sha256": "97b32736bd49c03120d0cb9e972e403b721723bbdaef780a8c619607318a1c61",
+          "output_png_sha256": "97b32736bd49c03120d0cb9e972e403b721723bbdaef780a8c619607318a1c61",
+          "match": true
+        },
+        {
+          "source_page": 261,
+          "output_page": 3,
+          "source_png_sha256": "0f5138897758551cf0ef9b33a4438662e16acc98f5d27b90cce5d647473ff4ee",
+          "output_png_sha256": "0f5138897758551cf0ef9b33a4438662e16acc98f5d27b90cce5d647473ff4ee",
+          "match": true
+        },
+        {
+          "source_page": 262,
+          "output_page": 4,
+          "source_png_sha256": "3028a7f8473b15b0ab61edcae67b3b2af862545e9ebf8d23bdc0ea91deb13ef5",
+          "output_png_sha256": "3028a7f8473b15b0ab61edcae67b3b2af862545e9ebf8d23bdc0ea91deb13ef5",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 4,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Gujarat",
+    "source_state": "Gujarat",
+    "district": "Panch Mahals",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Gujarat/1981 Panch Mahals.pdf",
+    "source_filename": "1981 Panch Mahals.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 524,
+    "output": "output/pdf/1981_trimmed/Gujarat/civic amenities/1981_Panch Mahals_civic_amenities.pdf",
+    "source_pages_selected": [
+      363,
+      364
+    ],
+    "printed_page_labels": [
+      "1911",
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement IV Civic and Other Amenities, printed pages 306-307; source pages 365-368 are the separate Statement IV-A slum continuation.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 363,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 364,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 363,
+          "output_page": 1,
+          "source_png_sha256": "434e82174fbf66f644b4a51c1a33be6c5f453873f6c7163a08dfd035880dbe72",
+          "output_png_sha256": "434e82174fbf66f644b4a51c1a33be6c5f453873f6c7163a08dfd035880dbe72",
+          "match": true
+        },
+        {
+          "source_page": 364,
+          "output_page": 2,
+          "source_png_sha256": "d470177e219d11da6d05530faed16cb5f00dca345267b2e1e51b24eed6fbfd7a",
+          "output_png_sha256": "d470177e219d11da6d05530faed16cb5f00dca345267b2e1e51b24eed6fbfd7a",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Gujarat",
+    "source_state": "Gujarat",
+    "district": "Panch Mahals",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Gujarat/1981 Panch Mahals.pdf",
+    "source_filename": "1981 Panch Mahals.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 524,
+    "output": "output/pdf/1981_trimmed/Gujarat/mededu/1981_Panch Mahals_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      369,
+      370
+    ],
+    "printed_page_labels": [
+      null,
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement V Medical, Educational, Recreational and Cultural Facilities; source page 371 begins Statement VI.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 369,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 370,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 369,
+          "output_page": 1,
+          "source_png_sha256": "91669305a89c32f48d61b13edc9ab8642c084099685ff3479e35ffd540bc5c2d",
+          "output_png_sha256": "91669305a89c32f48d61b13edc9ab8642c084099685ff3479e35ffd540bc5c2d",
+          "match": true
+        },
+        {
+          "source_page": 370,
+          "output_page": 2,
+          "source_png_sha256": "71bcee2d5e786a572c1df5e0302094ce7ba318332547a7a1c9ee2bc48c528be9",
+          "output_png_sha256": "71bcee2d5e786a572c1df5e0302094ce7ba318332547a7a1c9ee2bc48c528be9",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Gujarat",
+    "source_state": "Gujarat",
+    "district": "Panch Mahals",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Gujarat/1981 Panch Mahals.pdf",
+    "source_filename": "1981 Panch Mahals.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 524,
+    "output": "output/pdf/1981_trimmed/Gujarat/tehsil appendix/1981_Panch Mahals_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      313,
+      314,
+      315,
+      316
+    ],
+    "printed_page_labels": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Village Directory Appendix I, Talukawise Abstract of Educational, Medical and Other Amenities, spanning educational, medical, drinking-water, post/telegraph, communications and power-supply pages; source page 317 begins Appendix II.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 4,
+      "pages": [
+        {
+          "source_page": 313,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 314,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 315,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 316,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 313,
+          "output_page": 1,
+          "source_png_sha256": "0c9e0f68085e26122135f6c6221ebf769ce59cf171c11822ee21ebf45fb4a435",
+          "output_png_sha256": "0c9e0f68085e26122135f6c6221ebf769ce59cf171c11822ee21ebf45fb4a435",
+          "match": true
+        },
+        {
+          "source_page": 314,
+          "output_page": 2,
+          "source_png_sha256": "e8fa253d0d203c72590a51d25bcbaf20c8c3bcac9123544d3b570e34b588c102",
+          "output_png_sha256": "e8fa253d0d203c72590a51d25bcbaf20c8c3bcac9123544d3b570e34b588c102",
+          "match": true
+        },
+        {
+          "source_page": 315,
+          "output_page": 3,
+          "source_png_sha256": "d3d5c3870c11fb170e2268659c1c1d545ef613f72741bfd93ce71d24d3744685",
+          "output_png_sha256": "d3d5c3870c11fb170e2268659c1c1d545ef613f72741bfd93ce71d24d3744685",
+          "match": true
+        },
+        {
+          "source_page": 316,
+          "output_page": 4,
+          "source_png_sha256": "56fed8e638b800beb93ac6f9aab8298f28f2bf114266046a3ced91b7150a4cea",
+          "output_png_sha256": "56fed8e638b800beb93ac6f9aab8298f28f2bf114266046a3ced91b7150a4cea",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 4,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Gujarat",
+    "source_state": "Gujarat",
+    "district": "Rajkot",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Gujarat/1981 Rajkot.pdf",
+    "source_filename": "1981 Rajkot.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 424,
+    "output": "output/pdf/1981_trimmed/Gujarat/civic amenities/1981_Rajkot_civic_amenities.pdf",
+    "source_pages_selected": [
+      269,
+      270
+    ],
+    "printed_page_labels": [
+      null,
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement IV Civic and Other Amenities, printed pages 190-191; source pages 271-272 are the separate Statement IV-A slum table.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 269,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              610.56,
+              850.08
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              610.56,
+              850.08
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 270,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              610.56,
+              850.08
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              610.56,
+              850.08
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 269,
+          "output_page": 1,
+          "source_png_sha256": "c335b8ff74b5fc41878dbc1e4b362dd99a663099e1e9a48b06c62abde0742f93",
+          "output_png_sha256": "c335b8ff74b5fc41878dbc1e4b362dd99a663099e1e9a48b06c62abde0742f93",
+          "match": true
+        },
+        {
+          "source_page": 270,
+          "output_page": 2,
+          "source_png_sha256": "e1e47f644d142549ad3ba60feb1ec3ad3c27a584f3ce2d95fcd889072b6a60e6",
+          "output_png_sha256": "e1e47f644d142549ad3ba60feb1ec3ad3c27a584f3ce2d95fcd889072b6a60e6",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Gujarat",
+    "source_state": "Gujarat",
+    "district": "Rajkot",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Gujarat/1981 Rajkot.pdf",
+    "source_filename": "1981 Rajkot.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 424,
+    "output": "output/pdf/1981_trimmed/Gujarat/mededu/1981_Rajkot_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      273,
+      274
+    ],
+    "printed_page_labels": [
+      null,
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement V Medical, Educational, Recreational and Cultural Facilities, printed pages 194-195; source page 275 begins Statement VI.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 273,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              610.56,
+              850.08
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              610.56,
+              850.08
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 274,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              610.56,
+              850.08
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              610.56,
+              850.08
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 273,
+          "output_page": 1,
+          "source_png_sha256": "49633799e0c9e9f4058fb4124eafe8da345f4b14cea33ec74955e588ca1a051e",
+          "output_png_sha256": "49633799e0c9e9f4058fb4124eafe8da345f4b14cea33ec74955e588ca1a051e",
+          "match": true
+        },
+        {
+          "source_page": 274,
+          "output_page": 2,
+          "source_png_sha256": "70a6ff3c2fe06e256367b499f82e0449e5563a0a3a7b8686d5fced2d8e8892ba",
+          "output_png_sha256": "70a6ff3c2fe06e256367b499f82e0449e5563a0a3a7b8686d5fced2d8e8892ba",
+          "match": true
+        }
+      ],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Gujarat",
+    "source_state": "Gujarat",
+    "district": "Rajkot",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Gujarat/1981 Rajkot.pdf",
+    "source_filename": "1981 Rajkot.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 424,
+    "output": "output/pdf/1981_trimmed/Gujarat/tehsil appendix/1981_Rajkot_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      245,
+      246,
+      247,
+      248
+    ],
+    "printed_page_labels": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Village Directory Appendix I, Talukawise Abstract of Educational, Medical and Other Amenities, spanning educational, medical, drinking-water, post/telegraph, communications and power-supply pages; source page 249 begins Appendix II.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 4,
+      "pages": [
+        {
+          "source_page": 245,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              610.56,
+              850.08
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              610.56,
+              850.08
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 246,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              610.56,
+              850.08
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              610.56,
+              850.08
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 247,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              610.56,
+              850.08
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              610.56,
+              850.08
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 248,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              610.56,
+              850.08
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              610.56,
+              850.08
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 245,
+          "output_page": 1,
+          "source_png_sha256": "f283b4a682e1762e96b8449aa435b87d6413a877aa768c5d1b7344fa4f9ae2d6",
+          "output_png_sha256": "f283b4a682e1762e96b8449aa435b87d6413a877aa768c5d1b7344fa4f9ae2d6",
+          "match": true
+        },
+        {
+          "source_page": 246,
+          "output_page": 2,
+          "source_png_sha256": "feb3a6dea111e21a52f9bda75d6614cfc2a86b645ca25cb6fc3adbacd918e186",
+          "output_png_sha256": "feb3a6dea111e21a52f9bda75d6614cfc2a86b645ca25cb6fc3adbacd918e186",
+          "match": true
+        },
+        {
+          "source_page": 247,
+          "output_page": 3,
+          "source_png_sha256": "f209a44dedde3419794951e3b0f71711eadb8f5e5194ae01b462d4cbb55e9dea",
+          "output_png_sha256": "f209a44dedde3419794951e3b0f71711eadb8f5e5194ae01b462d4cbb55e9dea",
+          "match": true
+        },
+        {
+          "source_page": 248,
+          "output_page": 4,
+          "source_png_sha256": "abd72c263c9e81368e7be5a5bea4f7a83fb04c4a4dde14eaf83fcfd70a932f1a",
+          "output_png_sha256": "abd72c263c9e81368e7be5a5bea4f7a83fb04c4a4dde14eaf83fcfd70a932f1a",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 4,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Gujarat",
+    "source_state": "Gujarat",
+    "district": "Sabar Kantha",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Gujarat/1981 Sabar Kantha.pdf",
+    "source_filename": "1981 Sabar Kantha.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 447,
+    "output": "output/pdf/1981_trimmed/Gujarat/civic amenities/1981_Sabar Kantha_civic_amenities.pdf",
+    "source_pages_selected": [
+      322,
+      323
+    ],
+    "printed_page_labels": [
+      null,
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement IV Civic and Other Amenities, printed pages 242-243; the volume proceeds directly to Statement V on source page 324 and contains no separate IV-A table.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 322,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 323,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 322,
+          "output_page": 1,
+          "source_png_sha256": "c51a5894cf6624898f1755cf771595ed281720f94c2e92a73571f2e29ebfb903",
+          "output_png_sha256": "c51a5894cf6624898f1755cf771595ed281720f94c2e92a73571f2e29ebfb903",
+          "match": true
+        },
+        {
+          "source_page": 323,
+          "output_page": 2,
+          "source_png_sha256": "70201d12ad0394c63e5ef3e41874c55f534e9c6948e9bab2759fc6dd16a4ed6a",
+          "output_png_sha256": "70201d12ad0394c63e5ef3e41874c55f534e9c6948e9bab2759fc6dd16a4ed6a",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Gujarat",
+    "source_state": "Gujarat",
+    "district": "Sabar Kantha",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Gujarat/1981 Sabar Kantha.pdf",
+    "source_filename": "1981 Sabar Kantha.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 447,
+    "output": "output/pdf/1981_trimmed/Gujarat/mededu/1981_Sabar Kantha_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      324,
+      325
+    ],
+    "printed_page_labels": [
+      null,
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement V Medical, Educational, Recreational and Cultural Facilities, printed pages 244-245; source page 326 begins Statement VI.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 324,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 325,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 324,
+          "output_page": 1,
+          "source_png_sha256": "1dee3b223b0e305ae51075aeb430d488582493748407f779d63ccf12f02cbdac",
+          "output_png_sha256": "1dee3b223b0e305ae51075aeb430d488582493748407f779d63ccf12f02cbdac",
+          "match": true
+        },
+        {
+          "source_page": 325,
+          "output_page": 2,
+          "source_png_sha256": "ddb33a57fd86bf93043cb3ae76d8f11d7e52f4a6d34f215c9cc3399bf5a6e584",
+          "output_png_sha256": "ddb33a57fd86bf93043cb3ae76d8f11d7e52f4a6d34f215c9cc3399bf5a6e584",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Gujarat",
+    "source_state": "Gujarat",
+    "district": "Sabar Kantha",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Gujarat/1981 Sabar Kantha.pdf",
+    "source_filename": "1981 Sabar Kantha.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 447,
+    "output": "output/pdf/1981_trimmed/Gujarat/tehsil appendix/1981_Sabar Kantha_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      288,
+      289,
+      290,
+      291
+    ],
+    "printed_page_labels": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Village Directory Appendix I, Talukawise Abstract of Educational, Medical and Other Amenities, spanning educational, medical, drinking-water, post/telegraph, communications and power-supply pages; source page 292 begins Appendix II.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 4,
+      "pages": [
+        {
+          "source_page": 288,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 289,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 290,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 291,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 288,
+          "output_page": 1,
+          "source_png_sha256": "21c228e25ebb22f759bc381a15e567bbafe8a48e867477560013eb0ade4749c8",
+          "output_png_sha256": "21c228e25ebb22f759bc381a15e567bbafe8a48e867477560013eb0ade4749c8",
+          "match": true
+        },
+        {
+          "source_page": 289,
+          "output_page": 2,
+          "source_png_sha256": "6aeee8830aa879d222940205da2bae396e845df805a0c2306fb750ef6c6ad450",
+          "output_png_sha256": "6aeee8830aa879d222940205da2bae396e845df805a0c2306fb750ef6c6ad450",
+          "match": true
+        },
+        {
+          "source_page": 290,
+          "output_page": 3,
+          "source_png_sha256": "88eaf0890cdf5191b92a29364ba97935a0352652435552e8d4bc3ca58fbdf1b6",
+          "output_png_sha256": "88eaf0890cdf5191b92a29364ba97935a0352652435552e8d4bc3ca58fbdf1b6",
+          "match": true
+        },
+        {
+          "source_page": 291,
+          "output_page": 4,
+          "source_png_sha256": "7dbbcf70e6d7a69b101e81dad39618bb66cc24a7280191e70b2a8af5e8223b12",
+          "output_png_sha256": "7dbbcf70e6d7a69b101e81dad39618bb66cc24a7280191e70b2a8af5e8223b12",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 4,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Gujarat",
+    "source_state": "Gujarat",
+    "district": "Surat",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Gujarat/1981 Surat.pdf",
+    "source_filename": "1981 Surat.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 471,
+    "output": "output/pdf/1981_trimmed/Gujarat/civic amenities/1981_Surat_civic_amenities.pdf",
+    "source_pages_selected": [
+      299,
+      300,
+      301,
+      302
+    ],
+    "printed_page_labels": [
+      null,
+      null,
+      "1911",
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement IV Civic and Other Amenities, printed pages 240-241, including paired columns for the Surat urban agglomeration; source pages 303-304 are the separate Statement IV-A slum table.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 4,
+      "pages": [
+        {
+          "source_page": 299,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 300,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 301,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 302,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 299,
+          "output_page": 1,
+          "source_png_sha256": "8da85813062158bbf1ed99af61ef9c7a3424ecde8a8c122583d38c12bf99dc63",
+          "output_png_sha256": "8da85813062158bbf1ed99af61ef9c7a3424ecde8a8c122583d38c12bf99dc63",
+          "match": true
+        },
+        {
+          "source_page": 300,
+          "output_page": 2,
+          "source_png_sha256": "861c05c310e1d3cf345401c5869b65465052bc2fde3091fafda988d11c101220",
+          "output_png_sha256": "861c05c310e1d3cf345401c5869b65465052bc2fde3091fafda988d11c101220",
+          "match": true
+        },
+        {
+          "source_page": 301,
+          "output_page": 3,
+          "source_png_sha256": "9dd6e7eb8a26e0095a12f1419177276a51840d02963edabb8a38fd8802c70bc8",
+          "output_png_sha256": "9dd6e7eb8a26e0095a12f1419177276a51840d02963edabb8a38fd8802c70bc8",
+          "match": true
+        },
+        {
+          "source_page": 302,
+          "output_page": 4,
+          "source_png_sha256": "12fb7b6ddc4fe1d16aaf2ad3b6b9a29389429df55fe6c36eb225bbc02a484e8d",
+          "output_png_sha256": "12fb7b6ddc4fe1d16aaf2ad3b6b9a29389429df55fe6c36eb225bbc02a484e8d",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 4,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Gujarat",
+    "source_state": "Gujarat",
+    "district": "Surat",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Gujarat/1981 Surat.pdf",
+    "source_filename": "1981 Surat.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 471,
+    "output": "output/pdf/1981_trimmed/Gujarat/mededu/1981_Surat_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      305,
+      306,
+      307,
+      308
+    ],
+    "printed_page_labels": [
+      "1911",
+      null,
+      null,
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement V Medical, Educational, Recreational and Cultural Facilities, including all paired continuation columns; source page 309 begins Statement VI.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 4,
+      "pages": [
+        {
+          "source_page": 305,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 306,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 307,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 308,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 305,
+          "output_page": 1,
+          "source_png_sha256": "2fb590761a85df04576a16aab6108f334b77c25563b8bfac824747b199e73fd2",
+          "output_png_sha256": "2fb590761a85df04576a16aab6108f334b77c25563b8bfac824747b199e73fd2",
+          "match": true
+        },
+        {
+          "source_page": 306,
+          "output_page": 2,
+          "source_png_sha256": "d5cab125b94bde7bbc91f333302d86225eece5869ee172a7f93c18910a495e25",
+          "output_png_sha256": "d5cab125b94bde7bbc91f333302d86225eece5869ee172a7f93c18910a495e25",
+          "match": true
+        },
+        {
+          "source_page": 307,
+          "output_page": 3,
+          "source_png_sha256": "e566a6eab0789fe10223ee19676167d000f6d756656b5df6912a4bb45ec33d7c",
+          "output_png_sha256": "e566a6eab0789fe10223ee19676167d000f6d756656b5df6912a4bb45ec33d7c",
+          "match": true
+        },
+        {
+          "source_page": 308,
+          "output_page": 4,
+          "source_png_sha256": "a66e232b551c07be6c0ac35561f7a1a24829b0553ef37fce1472c478c419317b",
+          "output_png_sha256": "a66e232b551c07be6c0ac35561f7a1a24829b0553ef37fce1472c478c419317b",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 4,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Gujarat",
+    "source_state": "Gujarat",
+    "district": "Surat",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Gujarat/1981 Surat.pdf",
+    "source_filename": "1981 Surat.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 471,
+    "output": "output/pdf/1981_trimmed/Gujarat/tehsil appendix/1981_Surat_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      257,
+      258,
+      259,
+      260
+    ],
+    "printed_page_labels": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Village Directory Appendix I, Talukawise Abstract of Educational, Medical and Other Amenities, spanning educational, medical, drinking-water, post/telegraph, communications and power-supply pages; source page 261 begins Appendix II.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 4,
+      "pages": [
+        {
+          "source_page": 257,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 258,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 259,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 260,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 257,
+          "output_page": 1,
+          "source_png_sha256": "8d48b4614807ec4a27d747f044981c73593d871358553ec59dd8445d8ec0fdde",
+          "output_png_sha256": "8d48b4614807ec4a27d747f044981c73593d871358553ec59dd8445d8ec0fdde",
+          "match": true
+        },
+        {
+          "source_page": 258,
+          "output_page": 2,
+          "source_png_sha256": "87a913f2ecf8771974844fbfaed26f52767b600a50217c4ea793fd552bd5235e",
+          "output_png_sha256": "87a913f2ecf8771974844fbfaed26f52767b600a50217c4ea793fd552bd5235e",
+          "match": true
+        },
+        {
+          "source_page": 259,
+          "output_page": 3,
+          "source_png_sha256": "b6cc4b944d2e1eb196fadf2e4cc21e2467838080d494d360d223922161e31a3b",
+          "output_png_sha256": "b6cc4b944d2e1eb196fadf2e4cc21e2467838080d494d360d223922161e31a3b",
+          "match": true
+        },
+        {
+          "source_page": 260,
+          "output_page": 4,
+          "source_png_sha256": "842d2360ef3e547552d94d4cf998e7a16039debe7a8d7a27df8067ed4a459eec",
+          "output_png_sha256": "842d2360ef3e547552d94d4cf998e7a16039debe7a8d7a27df8067ed4a459eec",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 4,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Gujarat",
+    "source_state": "Gujarat",
+    "district": "Surendranagar",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Gujarat/1981 Surendranagar.pdf",
+    "source_filename": "1981 Surendranagar.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 298,
+    "output": "output/pdf/1981_trimmed/Gujarat/civic amenities/1981_Surendranagar_civic_amenities.pdf",
+    "source_pages_selected": [
+      200,
+      201
+    ],
+    "printed_page_labels": [
+      null,
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement IV Civic and Other Amenities, printed pages 140-141; source page 200 also contains the beginning of the separate IV-A slum table at the bottom because extraction is full-page and uncropped.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 200,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 201,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 200,
+          "output_page": 1,
+          "source_png_sha256": "84a0416736a4ad549b40bd49e9619284d661f869c222cfe8019a0c9ec725e4bc",
+          "output_png_sha256": "84a0416736a4ad549b40bd49e9619284d661f869c222cfe8019a0c9ec725e4bc",
+          "match": true
+        },
+        {
+          "source_page": 201,
+          "output_page": 2,
+          "source_png_sha256": "b67b86dc9cb23274b9e15f3f0391c5193b38bc451ee197ffeccb574aff50c765",
+          "output_png_sha256": "b67b86dc9cb23274b9e15f3f0391c5193b38bc451ee197ffeccb574aff50c765",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Gujarat",
+    "source_state": "Gujarat",
+    "district": "Surendranagar",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Gujarat/1981 Surendranagar.pdf",
+    "source_filename": "1981 Surendranagar.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 298,
+    "output": "output/pdf/1981_trimmed/Gujarat/mededu/1981_Surendranagar_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      202,
+      203
+    ],
+    "printed_page_labels": [
+      null,
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement V Medical, Educational, Recreational and Cultural Facilities, printed pages 142-143; source page 204 begins Statement VI.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 202,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 203,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 202,
+          "output_page": 1,
+          "source_png_sha256": "f6a9d4abe397c16fbbdafe7773e15276bcea7852f0b640009e6107e7298d7683",
+          "output_png_sha256": "f6a9d4abe397c16fbbdafe7773e15276bcea7852f0b640009e6107e7298d7683",
+          "match": true
+        },
+        {
+          "source_page": 203,
+          "output_page": 2,
+          "source_png_sha256": "09067700cc6997dab033c15f4bc4f027b052602eceac9f7c6def9be9c7857eee",
+          "output_png_sha256": "09067700cc6997dab033c15f4bc4f027b052602eceac9f7c6def9be9c7857eee",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Gujarat",
+    "source_state": "Gujarat",
+    "district": "Surendranagar",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Gujarat/1981 Surendranagar.pdf",
+    "source_filename": "1981 Surendranagar.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 298,
+    "output": "output/pdf/1981_trimmed/Gujarat/tehsil appendix/1981_Surendranagar_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      178,
+      179,
+      180,
+      181
+    ],
+    "printed_page_labels": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Village Directory Appendix I, Talukawise Abstract of Educational, Medical and Other Amenities, spanning educational, medical, drinking-water and communications/power-supply pages; source page 182 begins Appendix II.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 4,
+      "pages": [
+        {
+          "source_page": 178,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 179,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 180,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 181,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 178,
+          "output_page": 1,
+          "source_png_sha256": "89b7b39cd3d8995a3a3c6c020e800b517b1cee137b38d9019f11c140553fbd25",
+          "output_png_sha256": "89b7b39cd3d8995a3a3c6c020e800b517b1cee137b38d9019f11c140553fbd25",
+          "match": true
+        },
+        {
+          "source_page": 179,
+          "output_page": 2,
+          "source_png_sha256": "92cdd1a4ef3db9a87bfc7841578e4a933f9f8fbaf509f8dad8bb75d07adabbe6",
+          "output_png_sha256": "92cdd1a4ef3db9a87bfc7841578e4a933f9f8fbaf509f8dad8bb75d07adabbe6",
+          "match": true
+        },
+        {
+          "source_page": 180,
+          "output_page": 3,
+          "source_png_sha256": "768f1d09ee30cc049ec1d9a19da727aea5dad8af08bd6e8f89405421f3bc6e2a",
+          "output_png_sha256": "768f1d09ee30cc049ec1d9a19da727aea5dad8af08bd6e8f89405421f3bc6e2a",
+          "match": true
+        },
+        {
+          "source_page": 181,
+          "output_page": 4,
+          "source_png_sha256": "31283522bfd052b0f5a44a1d1b4f6d00f42e331ef547567d22a04a4c5631386b",
+          "output_png_sha256": "31283522bfd052b0f5a44a1d1b4f6d00f42e331ef547567d22a04a4c5631386b",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 4,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Gujarat",
+    "source_state": "Gujarat",
+    "district": "The Dangs",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Gujarat/1981 The Dangs.pdf",
+    "source_filename": "1981 The Dangs.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 112,
+    "output": null,
+    "source_pages_selected": [],
+    "printed_page_labels": [],
+    "status": "Not trimmed",
+    "reason": "The volume explicitly states that the district has no town and no Town Directory information; Statement IV is absent.",
+    "flags": [
+      "manual_absent_or_ineligible"
+    ],
+    "verification": null
+  },
+  {
+    "state": "Gujarat",
+    "source_state": "Gujarat",
+    "district": "The Dangs",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Gujarat/1981 The Dangs.pdf",
+    "source_filename": "1981 The Dangs.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 112,
+    "output": null,
+    "source_pages_selected": [],
+    "printed_page_labels": [],
+    "status": "Not trimmed",
+    "reason": "The volume explicitly states that the district has no town and no Town Directory information; Statement V is absent.",
+    "flags": [
+      "manual_absent_or_ineligible"
+    ],
+    "verification": null
+  },
+  {
+    "state": "Gujarat",
+    "source_state": "Gujarat",
+    "district": "The Dangs",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Gujarat/1981 The Dangs.pdf",
+    "source_filename": "1981 The Dangs.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 112,
+    "output": null,
+    "source_pages_selected": [],
+    "printed_page_labels": [],
+    "status": "Not trimmed",
+    "reason": "The volume has no town directory, and no equivalent Talukawise educational, medical and other amenities appendix is present in the reviewed contents.",
+    "flags": [
+      "manual_absent_or_ineligible"
+    ],
+    "verification": null
+  },
+  {
+    "state": "Gujarat",
+    "source_state": "Gujarat",
+    "district": "Vadodara",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Gujarat/1981 Vadodara.pdf",
+    "source_filename": "1981 Vadodara.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 558,
+    "output": "output/pdf/1981_trimmed/Gujarat/civic amenities/1981_Vadodara_civic_amenities.pdf",
+    "source_pages_selected": [
+      383,
+      384,
+      385,
+      386
+    ],
+    "printed_page_labels": [
+      "1911",
+      "1979",
+      "1911",
+      "1979"
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement IV Civic and Other Amenities, printed pages 290-293, including all paired continuation columns; source pages 387-390 are the separate Statement IV-A slum table.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 4,
+      "pages": [
+        {
+          "source_page": 383,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              595.276,
+              843.84
+            ],
+            "cropbox": [
+              0.0,
+              1.9503,
+              595.276,
+              843.84
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 384,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              595.276,
+              843.84
+            ],
+            "cropbox": [
+              0.0,
+              1.9503,
+              595.276,
+              843.84
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 385,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              595.276,
+              843.84
+            ],
+            "cropbox": [
+              0.0,
+              1.9503,
+              595.276,
+              843.84
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 386,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              595.276,
+              843.84
+            ],
+            "cropbox": [
+              0.0,
+              1.9503,
+              595.276,
+              843.84
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 383,
+          "output_page": 1,
+          "source_png_sha256": "3b031f70a0901dff1e46e5602c6581c0a54f49094cc659531e58e4c2db230e27",
+          "output_png_sha256": "3b031f70a0901dff1e46e5602c6581c0a54f49094cc659531e58e4c2db230e27",
+          "match": true
+        },
+        {
+          "source_page": 384,
+          "output_page": 2,
+          "source_png_sha256": "60bf53386ed28798c72a4c6384645622880ebb567d8b02bda1e98663b51bc8c3",
+          "output_png_sha256": "60bf53386ed28798c72a4c6384645622880ebb567d8b02bda1e98663b51bc8c3",
+          "match": true
+        },
+        {
+          "source_page": 385,
+          "output_page": 3,
+          "source_png_sha256": "3d35d3615f8c8be6cb0e281a606f9b110d622598b29c9180b8f2975049a3baae",
+          "output_png_sha256": "3d35d3615f8c8be6cb0e281a606f9b110d622598b29c9180b8f2975049a3baae",
+          "match": true
+        },
+        {
+          "source_page": 386,
+          "output_page": 4,
+          "source_png_sha256": "63fb7cd13662732db1e16e651858abca05c46014b3f6fe034e60f2566384c39f",
+          "output_png_sha256": "63fb7cd13662732db1e16e651858abca05c46014b3f6fe034e60f2566384c39f",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 4,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Gujarat",
+    "source_state": "Gujarat",
+    "district": "Vadodara",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Gujarat/1981 Vadodara.pdf",
+    "source_filename": "1981 Vadodara.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 558,
+    "output": "output/pdf/1981_trimmed/Gujarat/mededu/1981_Vadodara_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      391,
+      392,
+      393,
+      394
+    ],
+    "printed_page_labels": [
+      null,
+      "1919",
+      null,
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement V Medical, Educational, Recreational and Cultural Facilities, including all paired continuation columns; source page 395 begins Statement VI.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 4,
+      "pages": [
+        {
+          "source_page": 391,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              595.276,
+              843.84
+            ],
+            "cropbox": [
+              0.0,
+              1.9503,
+              595.276,
+              843.84
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 392,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              595.276,
+              843.84
+            ],
+            "cropbox": [
+              0.0,
+              1.9503,
+              595.276,
+              843.84
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 393,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              595.276,
+              843.84
+            ],
+            "cropbox": [
+              0.0,
+              1.9503,
+              595.276,
+              843.84
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 394,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              595.276,
+              843.84
+            ],
+            "cropbox": [
+              0.0,
+              1.9503,
+              595.276,
+              843.84
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 391,
+          "output_page": 1,
+          "source_png_sha256": "2dad366f1ba8cb8282fb643a5ea8c445bf5ab434c3e434b17b446d513f945998",
+          "output_png_sha256": "2dad366f1ba8cb8282fb643a5ea8c445bf5ab434c3e434b17b446d513f945998",
+          "match": true
+        },
+        {
+          "source_page": 392,
+          "output_page": 2,
+          "source_png_sha256": "ede57f6533fd21f938c8db0de1fefcf8b75bb5386f4d296eda6c8d042103a84e",
+          "output_png_sha256": "ede57f6533fd21f938c8db0de1fefcf8b75bb5386f4d296eda6c8d042103a84e",
+          "match": true
+        },
+        {
+          "source_page": 393,
+          "output_page": 3,
+          "source_png_sha256": "0eabe43bd9ffb50815414901a61b6323dc8bec25a6bc4f75f71209e266b721bd",
+          "output_png_sha256": "0eabe43bd9ffb50815414901a61b6323dc8bec25a6bc4f75f71209e266b721bd",
+          "match": true
+        },
+        {
+          "source_page": 394,
+          "output_page": 4,
+          "source_png_sha256": "e8d926683f8f762b64d790ea8f802d1a1e87e4c57759001457820e4c67deb5b6",
+          "output_png_sha256": "e8d926683f8f762b64d790ea8f802d1a1e87e4c57759001457820e4c67deb5b6",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 4,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Gujarat",
+    "source_state": "Gujarat",
+    "district": "Vadodara",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Gujarat/1981 Vadodara.pdf",
+    "source_filename": "1981 Vadodara.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 558,
+    "output": "output/pdf/1981_trimmed/Gujarat/tehsil appendix/1981_Vadodara_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      327,
+      328,
+      329,
+      330
+    ],
+    "printed_page_labels": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Village Directory Appendix I, Talukawise Abstract of Educational, Medical and Other Amenities, spanning educational, medical, drinking-water, post/telegraph, communications and power-supply pages; source page 331 begins Appendix II.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 4,
+      "pages": [
+        {
+          "source_page": 327,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              595.276,
+              843.84
+            ],
+            "cropbox": [
+              0.0,
+              1.9503,
+              595.276,
+              843.84
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 328,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              595.276,
+              843.84
+            ],
+            "cropbox": [
+              0.0,
+              1.9503,
+              595.276,
+              843.84
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 329,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              595.276,
+              843.84
+            ],
+            "cropbox": [
+              0.0,
+              1.9503,
+              595.276,
+              843.84
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 330,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              595.276,
+              843.84
+            ],
+            "cropbox": [
+              0.0,
+              1.9503,
+              595.276,
+              843.84
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 327,
+          "output_page": 1,
+          "source_png_sha256": "a4ad5bba58b18d4b30251676c99d59dc428d141ca8aed6e09e323991e68c835c",
+          "output_png_sha256": "a4ad5bba58b18d4b30251676c99d59dc428d141ca8aed6e09e323991e68c835c",
+          "match": true
+        },
+        {
+          "source_page": 328,
+          "output_page": 2,
+          "source_png_sha256": "5433c8fa77870403fd82067d9cab9a1e9a8b5ef396b04edf09d22bcb5dc54fa9",
+          "output_png_sha256": "5433c8fa77870403fd82067d9cab9a1e9a8b5ef396b04edf09d22bcb5dc54fa9",
+          "match": true
+        },
+        {
+          "source_page": 329,
+          "output_page": 3,
+          "source_png_sha256": "926b6848110bf4e28590c3a9949fe9eaf2764518a8b072268ee7718025b2c1f9",
+          "output_png_sha256": "926b6848110bf4e28590c3a9949fe9eaf2764518a8b072268ee7718025b2c1f9",
+          "match": true
+        },
+        {
+          "source_page": 330,
+          "output_page": 4,
+          "source_png_sha256": "4b1be442b9fef2faed9ef8bca78f73bcfb0778a5ae7177d3e3d7799adf56b12c",
+          "output_png_sha256": "4b1be442b9fef2faed9ef8bca78f73bcfb0778a5ae7177d3e3d7799adf56b12c",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 4,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Gujarat",
+    "source_state": "Gujarat",
+    "district": "Valsad",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Gujarat/1981 Valsad.pdf",
+    "source_filename": "1981 Valsad.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 360,
+    "output": "output/pdf/1981_trimmed/Gujarat/civic amenities/1981_Valsad_civic_amenities.pdf",
+    "source_pages_selected": [
+      247,
+      248
+    ],
+    "printed_page_labels": [
+      null,
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement IV Civic and Other Amenities, printed pages 180-181; source pages 249-250 are the separate Statement IV-A slum table.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 247,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              575.52,
+              844.08
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              575.52,
+              844.08
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 248,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              575.52,
+              844.08
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              575.52,
+              844.08
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 247,
+          "output_page": 1,
+          "source_png_sha256": "3ce2c85e0646347355bcbe1bbf05c0f29328a3f0c81cfff0c56ef002ab23c706",
+          "output_png_sha256": "3ce2c85e0646347355bcbe1bbf05c0f29328a3f0c81cfff0c56ef002ab23c706",
+          "match": true
+        },
+        {
+          "source_page": 248,
+          "output_page": 2,
+          "source_png_sha256": "7975c6fd7202345b3105a0d161613f26ee33a52240ddd36dac0e5aff0af9c774",
+          "output_png_sha256": "7975c6fd7202345b3105a0d161613f26ee33a52240ddd36dac0e5aff0af9c774",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Gujarat",
+    "source_state": "Gujarat",
+    "district": "Valsad",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Gujarat/1981 Valsad.pdf",
+    "source_filename": "1981 Valsad.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 360,
+    "output": "output/pdf/1981_trimmed/Gujarat/mededu/1981_Valsad_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      251,
+      252,
+      253,
+      254
+    ],
+    "printed_page_labels": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement V Medical, Educational, Recreational and Cultural Facilities, including all paired continuation columns; source page 255 begins Statement VI.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 4,
+      "pages": [
+        {
+          "source_page": 251,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              575.52,
+              844.08
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              575.52,
+              844.08
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 252,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              575.52,
+              844.08
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              575.52,
+              844.08
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 253,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              575.52,
+              844.08
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              575.52,
+              844.08
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 254,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              575.52,
+              844.08
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              575.52,
+              844.08
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 251,
+          "output_page": 1,
+          "source_png_sha256": "1bfc2117a1020c299bfafc0e245e2daa0f37ad86d8b47e27972a7a8d23a7848d",
+          "output_png_sha256": "1bfc2117a1020c299bfafc0e245e2daa0f37ad86d8b47e27972a7a8d23a7848d",
+          "match": true
+        },
+        {
+          "source_page": 252,
+          "output_page": 2,
+          "source_png_sha256": "96cb7e7062219f4315a23ca6426e5603d3a230c9eb5579b91d976aab1277ce2f",
+          "output_png_sha256": "96cb7e7062219f4315a23ca6426e5603d3a230c9eb5579b91d976aab1277ce2f",
+          "match": true
+        },
+        {
+          "source_page": 253,
+          "output_page": 3,
+          "source_png_sha256": "731836451418b2ef1d066e5741642e3cab14ca4952b148a40912a7d2f7a37f03",
+          "output_png_sha256": "731836451418b2ef1d066e5741642e3cab14ca4952b148a40912a7d2f7a37f03",
+          "match": true
+        },
+        {
+          "source_page": 254,
+          "output_page": 4,
+          "source_png_sha256": "48c0f53f5d953699fa408ebf8dccf109c35218dd530b853292aeef13514aa3a8",
+          "output_png_sha256": "48c0f53f5d953699fa408ebf8dccf109c35218dd530b853292aeef13514aa3a8",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 4,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Gujarat",
+    "source_state": "Gujarat",
+    "district": "Valsad",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Gujarat/1981 Valsad.pdf",
+    "source_filename": "1981 Valsad.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 360,
+    "output": "output/pdf/1981_trimmed/Gujarat/tehsil appendix/1981_Valsad_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      211,
+      212,
+      213,
+      214
+    ],
+    "printed_page_labels": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Village Directory Appendix I, Talukawise Abstract of Educational, Medical and Other Amenities, spanning educational, medical, drinking-water, post/telegraph, communications and power-supply pages; source page 215 begins Appendix II.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 4,
+      "pages": [
+        {
+          "source_page": 211,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              575.52,
+              844.08
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              575.52,
+              844.08
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 212,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              575.52,
+              844.08
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              575.52,
+              844.08
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 213,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              575.52,
+              844.08
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              575.52,
+              844.08
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 214,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              575.52,
+              844.08
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              575.52,
+              844.08
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 211,
+          "output_page": 1,
+          "source_png_sha256": "4694ddceca604d3f399b4709b8100367442aee3f6eaa17b77acd78b3a0f26638",
+          "output_png_sha256": "4694ddceca604d3f399b4709b8100367442aee3f6eaa17b77acd78b3a0f26638",
+          "match": true
+        },
+        {
+          "source_page": 212,
+          "output_page": 2,
+          "source_png_sha256": "41dd30eade6650577f9279266a76450a18d212d8d645c8ba1a72b30f2fbd8f8a",
+          "output_png_sha256": "41dd30eade6650577f9279266a76450a18d212d8d645c8ba1a72b30f2fbd8f8a",
+          "match": true
+        },
+        {
+          "source_page": 213,
+          "output_page": 3,
+          "source_png_sha256": "85fc1d5a4876c1901e5fddf7677aa7b8d47148393df51551bfe73d8111047eab",
+          "output_png_sha256": "85fc1d5a4876c1901e5fddf7677aa7b8d47148393df51551bfe73d8111047eab",
+          "match": true
+        },
+        {
+          "source_page": 214,
+          "output_page": 4,
+          "source_png_sha256": "93526fc775f5f4efcff300a92a1007a9313ed668119b61841eb9d7d9fe6441e7",
+          "output_png_sha256": "93526fc775f5f4efcff300a92a1007a9313ed668119b61841eb9d7d9fe6441e7",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 4,
+      "audit_flags": []
+    }
+  }
+]

@@ -1,0 +1,248 @@
+format_id: format_002
+name: Medical and Educational Amenities
+category: Medical and Educational Amenities
+pdfs:
+- filenames:
+  - Dharmapuri_mededu_1971.pdf
+  pagination:
+    page_1_columns:
+    - 1
+    - 8
+    page_2_columns:
+    - 9
+    - 17
+- filenames:
+  - Salem_mededu_1971.pdf
+  - Thanjavur_mededu_1971.pdf
+  - Tiruchchirappalli_mededu_1971.pdf
+  pagination:
+    page_1_columns:
+    - 1
+    - 8
+    page_2_columns:
+    - 9
+    - 17
+    page_3_columns:
+    - 1
+    - 8
+    page_4_columns:
+    - 9
+    - 17
+    page_5_columns:
+    - 1
+    - 8
+    page_6_columns:
+    - 9
+    - 17
+- filenames:
+  - North Arcot_mededu_1971.pdf
+  - Ramanathapuram_mededu_1971.pdf
+  pagination:
+    page_1_columns:
+    - 1
+    - 8
+    page_2_columns:
+    - 9
+    - 17
+    page_3_columns:
+    - 1
+    - 8
+    page_4_columns:
+    - 9
+    - 17
+    page_5_columns:
+    - 1
+    - 8
+    page_6_columns:
+    - 9
+    - 17
+    page_7_columns:
+    - 1
+    - 8
+- filenames:
+  - Tirunelveli_mededu_1971.pdf
+  pagination:
+    page_1_columns:
+    - 1
+    - 8
+    page_2_columns:
+    - 9
+    - 17
+    page_3_columns:
+    - 1
+    - 8
+    page_4_columns:
+    - 9
+    - 17
+    page_5_columns:
+    - 1
+    - 8
+    page_6_columns:
+    - 9
+    - 17
+    page_7_columns:
+    - 1
+    - 8
+    page_8_columns:
+    - 9
+    - 17
+    page_9_columns:
+    - 1
+    - 8
+    page_10_columns:
+    - 9
+    - 17
+- filenames:
+  - Coimbatore_mededu_1971.pdf
+  pagination:
+    page_1_columns:
+    - 1
+    - 8
+    page_2_columns:
+    - 9
+    - 17
+    page_3_columns:
+    - 1
+    - 8
+    page_4_columns:
+    - 9
+    - 17
+    page_5_columns:
+    - 1
+    - 8
+    page_6_columns:
+    - 9
+    - 17
+    page_7_columns:
+    - 1
+    - 8
+    page_8_columns:
+    - 9
+    - 17
+    page_9_columns:
+    - 1
+    - 8
+    page_10_columns:
+    - 9
+    - 17
+    page_11_columns:
+    - 1
+    - 8
+    page_12_columns:
+    - 9
+    - 17
+- filenames:
+  - Chengalpattu_mededu_1971.pdf
+  pagination:
+    page_1_columns:
+    - 1
+    - 8
+    page_2_columns:
+    - 9
+    - 17
+    page_3_columns:
+    - 1
+    - 8
+    page_4_columns:
+    - 9
+    - 17
+    page_5_columns:
+    - 1
+    - 8
+    page_6_columns:
+    - 9
+    - 17
+    page_7_columns:
+    - 1
+    - 8
+    page_8_columns:
+    - 9
+    - 17
+    page_9_columns:
+    - 1
+    - 8
+    page_10_columns:
+    - 9
+    - 17
+    page_11_columns:
+    - 1
+    - 8
+    page_12_columns:
+    - 9
+    - 17
+    page_13_columns:
+    - 1
+    - 8
+    page_14_columns:
+    - 9
+    - 17
+    page_15_columns:
+    - 1
+    - 8
+    page_16_columns:
+    - 9
+    - 17
+    page_17_columns:
+    - 1
+    - 8
+    page_18_columns:
+    - 9
+    - 17
+    page_19_columns:
+    - 1
+    - 8
+    page_20_columns:
+    - 9
+    - 17
+columns:
+- number: 1
+  name: Sl. No.
+  variable_name: sl_no
+- number: 2
+  name: Name of Town
+  variable_name: town_name
+- number: 3
+  name: Hospitals/Dispensaries/T.B. Clinics/Health Centres/Nursing homes
+  variable_name: medical_institutions
+- number: 4
+  name: Beds in medical institutions noted in Col. No. 3
+  variable_name: medical_beds
+- number: 5
+  name: Arts/Science/Commerce Colleges
+  variable_name: degree_colleges
+- number: 6
+  name: Medical Colleges
+  variable_name: medical_colleges
+- number: 7
+  name: Engineering Colleges
+  variable_name: engineering_colleges
+- number: 8
+  name: Polytechnics
+  variable_name: polytechnics
+- number: 9
+  name: Recognised shorthand, typewriting and other vocational training institutes
+  variable_name: vocational_training_institutes
+- number: 10
+  name: Higher Secondary or Secondary Schools
+  variable_name: higher_secondary_secondary_schools
+- number: 11
+  name: Junior Secondary/Middle Schools
+  variable_name: junior_secondary_middle_schools
+- number: 12
+  name: Primary Schools
+  variable_name: primary_schools
+- number: 13
+  name: Others
+  variable_name: other_educational_institutions
+- number: 14
+  name: Stadia/Parks
+  variable_name: stadia_parks
+- number: 15
+  name: Cinemas
+  variable_name: cinemas
+- number: 16
+  name: Auditoria/Drama Halls
+  variable_name: auditoria_drama_halls
+- number: 17
+  name: Public libraries including reading rooms
+  variable_name: public_libraries_reading_rooms

@@ -1,0 +1,6215 @@
+[
+  {
+    "state": "Maharashtra",
+    "source_state": "Maharashtra",
+    "district": "Ahmadnagar",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Maharashtra/1981 Ahmadnagar.pdf",
+    "source_filename": "1981 Ahmadnagar.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 283,
+    "output": "output/pdf/1981_trimmed/Maharashtra/civic amenities/1981_Ahmadnagar_civic_amenities.pdf",
+    "source_pages_selected": [
+      186
+    ],
+    "printed_page_labels": [
+      "174"
+    ],
+    "status": "Trimmed",
+    "reason": "Statement IV Civic and Other Amenities, printed page 174; source page 187 begins Statement IV-A.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 1,
+      "pages": [
+        {
+          "source_page": 186,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              629.04,
+              898.08
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              629.04,
+              898.08
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 186,
+          "output_page": 1,
+          "source_png_sha256": "9074a6044d390ce53005fc6982979412373b56836aee213d85697bcd4bc2ce83",
+          "output_png_sha256": "9074a6044d390ce53005fc6982979412373b56836aee213d85697bcd4bc2ce83",
+          "match": true
+        }
+      ],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 1,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Maharashtra",
+    "source_state": "Maharashtra",
+    "district": "Ahmadnagar",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Maharashtra/1981 Ahmadnagar.pdf",
+    "source_filename": "1981 Ahmadnagar.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 283,
+    "output": "output/pdf/1981_trimmed/Maharashtra/mededu/1981_Ahmadnagar_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      188,
+      189
+    ],
+    "printed_page_labels": [
+      "176",
+      "177"
+    ],
+    "status": "Trimmed",
+    "reason": "Statement V Medical, Educational, Recreational and Cultural Facilities, printed pages 176-177; source page 190 begins Statement VI.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 188,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              629.04,
+              898.08
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              629.04,
+              898.08
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 189,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              629.04,
+              898.08
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              629.04,
+              898.08
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 188,
+          "output_page": 1,
+          "source_png_sha256": "03d67e42bad61d08fec66b5acf1475a6aad9adc59cbda150e970181ee98cecb5",
+          "output_png_sha256": "03d67e42bad61d08fec66b5acf1475a6aad9adc59cbda150e970181ee98cecb5",
+          "match": true
+        },
+        {
+          "source_page": 189,
+          "output_page": 2,
+          "source_png_sha256": "b5d3980c4368f2bf6e47e22ec0eb8d96af22de3ac103326967eb033a2da20daf",
+          "output_png_sha256": "b5d3980c4368f2bf6e47e22ec0eb8d96af22de3ac103326967eb033a2da20daf",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Maharashtra",
+    "source_state": "Maharashtra",
+    "district": "Ahmadnagar",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Maharashtra/1981 Ahmadnagar.pdf",
+    "source_filename": "1981 Ahmadnagar.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 283,
+    "output": "output/pdf/1981_trimmed/Maharashtra/tehsil appendix/1981_Ahmadnagar_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      148,
+      149
+    ],
+    "printed_page_labels": [
+      "136",
+      "137"
+    ],
+    "status": "Trimmed",
+    "reason": "Village Directory Appendix I Tahsil-wise abstract of educational, medical and other amenities, printed pages 136-137; source page 150 begins Appendix II.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 148,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              629.04,
+              898.08
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              629.04,
+              898.08
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 149,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              629.04,
+              898.08
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              629.04,
+              898.08
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 148,
+          "output_page": 1,
+          "source_png_sha256": "2b9995c7c8dc3197f01742069d08beb80eaec1636d81adc966a960701e31a842",
+          "output_png_sha256": "2b9995c7c8dc3197f01742069d08beb80eaec1636d81adc966a960701e31a842",
+          "match": true
+        },
+        {
+          "source_page": 149,
+          "output_page": 2,
+          "source_png_sha256": "ed74124c769afae62b2e40808b56bfcd2023fa72c9a82956be34863212d5937d",
+          "output_png_sha256": "ed74124c769afae62b2e40808b56bfcd2023fa72c9a82956be34863212d5937d",
+          "match": true
+        }
+      ],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Maharashtra",
+    "source_state": "Maharashtra",
+    "district": "Akola",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Maharashtra/1981 Akola.pdf",
+    "source_filename": "1981 Akola.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 271,
+    "output": "output/pdf/1981_trimmed/Maharashtra/civic amenities/1981_Akola_civic_amenities.pdf",
+    "source_pages_selected": [
+      170
+    ],
+    "printed_page_labels": [
+      "160"
+    ],
+    "status": "Trimmed",
+    "reason": "Statement IV Civic and Other Amenities, printed page 160; source page 171 begins Statement IV-A.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 1,
+      "pages": [
+        {
+          "source_page": 170,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              646.32,
+              906.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              646.32,
+              906.96
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 170,
+          "output_page": 1,
+          "source_png_sha256": "f66763a1b70d40c207c4db98fdb377d96c1be56ad26f5a64946c441efa3d7926",
+          "output_png_sha256": "f66763a1b70d40c207c4db98fdb377d96c1be56ad26f5a64946c441efa3d7926",
+          "match": true
+        }
+      ],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 1,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Maharashtra",
+    "source_state": "Maharashtra",
+    "district": "Akola",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Maharashtra/1981 Akola.pdf",
+    "source_filename": "1981 Akola.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 271,
+    "output": "output/pdf/1981_trimmed/Maharashtra/mededu/1981_Akola_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      172,
+      173
+    ],
+    "printed_page_labels": [
+      "162",
+      "163"
+    ],
+    "status": "Trimmed",
+    "reason": "Statement V Medical, Educational, Recreational and Cultural Facilities, printed pages 162-163; source page 174 begins Statement VI.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 172,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              646.32,
+              906.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              646.32,
+              906.96
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 173,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              646.32,
+              906.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              646.32,
+              906.96
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 172,
+          "output_page": 1,
+          "source_png_sha256": "914fc0031bf44351bd511f7a04304f09133dabfe40d1c47849ce5cfd539f5a6d",
+          "output_png_sha256": "914fc0031bf44351bd511f7a04304f09133dabfe40d1c47849ce5cfd539f5a6d",
+          "match": true
+        },
+        {
+          "source_page": 173,
+          "output_page": 2,
+          "source_png_sha256": "8231e4af8d355086a7038e3b0d0505ce5abab35c0c2401760f9bcd291a465e98",
+          "output_png_sha256": "8231e4af8d355086a7038e3b0d0505ce5abab35c0c2401760f9bcd291a465e98",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Maharashtra",
+    "source_state": "Maharashtra",
+    "district": "Akola",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Maharashtra/1981 Akola.pdf",
+    "source_filename": "1981 Akola.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 271,
+    "output": "output/pdf/1981_trimmed/Maharashtra/tehsil appendix/1981_Akola_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      144,
+      145
+    ],
+    "printed_page_labels": [
+      "134",
+      "135"
+    ],
+    "status": "Trimmed",
+    "reason": "Village Directory Appendix I Tahsil-wise abstract of educational, medical and other amenities, printed pages 134-135; source page 146 begins Appendix II.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 144,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              646.32,
+              906.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              646.32,
+              906.96
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 145,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              646.32,
+              906.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              646.32,
+              906.96
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 144,
+          "output_page": 1,
+          "source_png_sha256": "a1e454a6d89a7b004a3ec74f886f4bea5e0fd87807bfb030827533f67fcea580",
+          "output_png_sha256": "a1e454a6d89a7b004a3ec74f886f4bea5e0fd87807bfb030827533f67fcea580",
+          "match": true
+        },
+        {
+          "source_page": 145,
+          "output_page": 2,
+          "source_png_sha256": "ae13ebe7204788b36ce9adf044cffa8b212f28ce0ee24fbc56bee6077dbc7b11",
+          "output_png_sha256": "ae13ebe7204788b36ce9adf044cffa8b212f28ce0ee24fbc56bee6077dbc7b11",
+          "match": true
+        }
+      ],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Maharashtra",
+    "source_state": "Maharashtra",
+    "district": "Amravati",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Maharashtra/1981 Amravati.pdf",
+    "source_filename": "1981 Amravati.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 305,
+    "output": "output/pdf/1981_trimmed/Maharashtra/civic amenities/1981_Amravati_civic_amenities.pdf",
+    "source_pages_selected": [
+      190
+    ],
+    "printed_page_labels": [
+      "80"
+    ],
+    "status": "Trimmed",
+    "reason": "Statement IV Civic and Other Amenities, printed page 180; source page 191 begins Statement IV-A.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 1,
+      "pages": [
+        {
+          "source_page": 190,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              612.72,
+              902.64
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              612.72,
+              902.64
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 190,
+          "output_page": 1,
+          "source_png_sha256": "ce9d5576c76fda5030dbe34ba377a0e5307808aa2918e5fcb36670ce9188671d",
+          "output_png_sha256": "ce9d5576c76fda5030dbe34ba377a0e5307808aa2918e5fcb36670ce9188671d",
+          "match": true
+        }
+      ],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 1,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Maharashtra",
+    "source_state": "Maharashtra",
+    "district": "Amravati",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Maharashtra/1981 Amravati.pdf",
+    "source_filename": "1981 Amravati.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 305,
+    "output": "output/pdf/1981_trimmed/Maharashtra/mededu/1981_Amravati_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      192,
+      193
+    ],
+    "printed_page_labels": [
+      "182",
+      "183"
+    ],
+    "status": "Trimmed",
+    "reason": "Statement V Medical, Educational, Recreational and Cultural Facilities, printed pages 182-183; source page 194 begins Statement VI.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 192,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              612.72,
+              902.64
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              612.72,
+              902.64
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 193,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              612.72,
+              902.64
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              612.72,
+              902.64
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 192,
+          "output_page": 1,
+          "source_png_sha256": "9a453ba75f3f8b55d77c605fed604654c675ceacae2cc6ebd5d095454a3456ad",
+          "output_png_sha256": "9a453ba75f3f8b55d77c605fed604654c675ceacae2cc6ebd5d095454a3456ad",
+          "match": true
+        },
+        {
+          "source_page": 193,
+          "output_page": 2,
+          "source_png_sha256": "e1ea4dd168f53c964b08ee028f491e0c8e4fcb74735588d73a7775fbf233d411",
+          "output_png_sha256": "e1ea4dd168f53c964b08ee028f491e0c8e4fcb74735588d73a7775fbf233d411",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Maharashtra",
+    "source_state": "Maharashtra",
+    "district": "Amravati",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Maharashtra/1981 Amravati.pdf",
+    "source_filename": "1981 Amravati.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 305,
+    "output": "output/pdf/1981_trimmed/Maharashtra/tehsil appendix/1981_Amravati_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      158,
+      159
+    ],
+    "printed_page_labels": [
+      "148",
+      "149"
+    ],
+    "status": "Trimmed",
+    "reason": "Village Directory Appendix I Tahsil-wise abstract of educational, medical and other amenities, printed pages 148-149; source page 160 begins Appendix II.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 158,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              612.72,
+              902.64
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              612.72,
+              902.64
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 159,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              612.72,
+              902.64
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              612.72,
+              902.64
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 158,
+          "output_page": 1,
+          "source_png_sha256": "0b15f8d68e41afcbe93a71ebf75a0f696d0f251a209a37b43890570104a69ac6",
+          "output_png_sha256": "0b15f8d68e41afcbe93a71ebf75a0f696d0f251a209a37b43890570104a69ac6",
+          "match": true
+        },
+        {
+          "source_page": 159,
+          "output_page": 2,
+          "source_png_sha256": "1c9004c889c8b235a76c103346e03e42278304615daf32b7447ab6ee668a88cf",
+          "output_png_sha256": "1c9004c889c8b235a76c103346e03e42278304615daf32b7447ab6ee668a88cf",
+          "match": true
+        }
+      ],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Maharashtra",
+    "source_state": "Maharashtra",
+    "district": "Bhandara",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Maharashtra/1981 Bhandara.pdf",
+    "source_filename": "1981 Bhandara.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 331,
+    "output": "output/pdf/1981_trimmed/Maharashtra/civic amenities/1981_Bhandara_civic_amenities.pdf",
+    "source_pages_selected": [
+      200
+    ],
+    "printed_page_labels": [
+      "190"
+    ],
+    "status": "Trimmed",
+    "reason": "Statement IV Civic and Other Amenities, printed page 190; source page 201 begins Statement IV-A.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 1,
+      "pages": [
+        {
+          "source_page": 200,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              607.2,
+              884.88
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              607.2,
+              884.88
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 200,
+          "output_page": 1,
+          "source_png_sha256": "4e66a3676174cb3773dad99ce538ab591a7b29a555cd7eff30b0ba3e39ed703e",
+          "output_png_sha256": "4e66a3676174cb3773dad99ce538ab591a7b29a555cd7eff30b0ba3e39ed703e",
+          "match": true
+        }
+      ],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 1,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Maharashtra",
+    "source_state": "Maharashtra",
+    "district": "Bhandara",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Maharashtra/1981 Bhandara.pdf",
+    "source_filename": "1981 Bhandara.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 331,
+    "output": "output/pdf/1981_trimmed/Maharashtra/mededu/1981_Bhandara_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      202,
+      203
+    ],
+    "printed_page_labels": [
+      "192",
+      "193"
+    ],
+    "status": "Trimmed",
+    "reason": "Statement V Medical, Educational, Recreational and Cultural Facilities, printed pages 192-193; source page 204 begins Statement VI.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 202,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              607.2,
+              884.88
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              607.2,
+              884.88
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 203,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              607.2,
+              884.88
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              607.2,
+              884.88
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 202,
+          "output_page": 1,
+          "source_png_sha256": "ce85a84b947be2fc4fe585a04288637e5eb546c8a17e9540ae9302bc5da2bc70",
+          "output_png_sha256": "ce85a84b947be2fc4fe585a04288637e5eb546c8a17e9540ae9302bc5da2bc70",
+          "match": true
+        },
+        {
+          "source_page": 203,
+          "output_page": 2,
+          "source_png_sha256": "2086b53731bba95cb86f868e4c35c765576a047fd76281024bee77ada9af0257",
+          "output_png_sha256": "2086b53731bba95cb86f868e4c35c765576a047fd76281024bee77ada9af0257",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Maharashtra",
+    "source_state": "Maharashtra",
+    "district": "Bhandara",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Maharashtra/1981 Bhandara.pdf",
+    "source_filename": "1981 Bhandara.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 331,
+    "output": "output/pdf/1981_trimmed/Maharashtra/tehsil appendix/1981_Bhandara_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      162,
+      163
+    ],
+    "printed_page_labels": [
+      "152",
+      "153"
+    ],
+    "status": "Trimmed",
+    "reason": "Village Directory Appendix I Tahsil-wise abstract of educational, medical and other amenities, printed pages 152-153; source page 164 begins Appendix II.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 162,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              607.2,
+              884.88
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              607.2,
+              884.88
+            ]
+          },
+          "rotation": 90
+        },
+        {
+          "source_page": 163,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              607.2,
+              884.88
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              607.2,
+              884.88
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 162,
+          "output_page": 1,
+          "source_png_sha256": "4ef378b7b60910b7e28370036c86b874e90805ab6188e6876ab9fbfd019d99be",
+          "output_png_sha256": "4ef378b7b60910b7e28370036c86b874e90805ab6188e6876ab9fbfd019d99be",
+          "match": true
+        },
+        {
+          "source_page": 163,
+          "output_page": 2,
+          "source_png_sha256": "f6cc3445c0f16baf9b592acef0fb58077d9c5d228f895fd5463e000c6d2f2324",
+          "output_png_sha256": "f6cc3445c0f16baf9b592acef0fb58077d9c5d228f895fd5463e000c6d2f2324",
+          "match": true
+        }
+      ],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Maharashtra",
+    "source_state": "Maharashtra",
+    "district": "Bid",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Maharashtra/1981 Bid.pdf",
+    "source_filename": "1981 Bid.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 286,
+    "output": "output/pdf/1981_trimmed/Maharashtra/civic amenities/1981_Bid_civic_amenities.pdf",
+    "source_pages_selected": [
+      175
+    ],
+    "printed_page_labels": [
+      "166"
+    ],
+    "status": "Trimmed",
+    "reason": "Statement IV Civic and Other Amenities, printed page 166; source page 176 begins Statement IV-A.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 1,
+      "pages": [
+        {
+          "source_page": 175,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              531.6,
+              805.44
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              531.6,
+              805.44
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 175,
+          "output_page": 1,
+          "source_png_sha256": "cd8f417220c7420e006cfe77e8e4c4842f543fa2eab0a844255d719d97d7e549",
+          "output_png_sha256": "cd8f417220c7420e006cfe77e8e4c4842f543fa2eab0a844255d719d97d7e549",
+          "match": true
+        }
+      ],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 1,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Maharashtra",
+    "source_state": "Maharashtra",
+    "district": "Bid",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Maharashtra/1981 Bid.pdf",
+    "source_filename": "1981 Bid.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 286,
+    "output": "output/pdf/1981_trimmed/Maharashtra/mededu/1981_Bid_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      177,
+      178
+    ],
+    "printed_page_labels": [
+      "168",
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Statement V Medical, Educational, Recreational and Cultural Facilities, printed pages 168-169; source page 179 begins Statement VI.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 177,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              531.6,
+              805.44
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              531.6,
+              805.44
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 178,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              531.6,
+              805.44
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              531.6,
+              805.44
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 177,
+          "output_page": 1,
+          "source_png_sha256": "6020ae23b2d2fba4b97a91c0770a204d1ae5f52654af9a2fef8858ba12d8f1f0",
+          "output_png_sha256": "6020ae23b2d2fba4b97a91c0770a204d1ae5f52654af9a2fef8858ba12d8f1f0",
+          "match": true
+        },
+        {
+          "source_page": 178,
+          "output_page": 2,
+          "source_png_sha256": "bf3112597fe232df9ca270c1d226c3813aa86634476b4f766ba3b4868021416e",
+          "output_png_sha256": "bf3112597fe232df9ca270c1d226c3813aa86634476b4f766ba3b4868021416e",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Maharashtra",
+    "source_state": "Maharashtra",
+    "district": "Bid",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Maharashtra/1981 Bid.pdf",
+    "source_filename": "1981 Bid.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 286,
+    "output": "output/pdf/1981_trimmed/Maharashtra/tehsil appendix/1981_Bid_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      151,
+      152
+    ],
+    "printed_page_labels": [
+      "142",
+      "143"
+    ],
+    "status": "Trimmed",
+    "reason": "Village Directory Appendix I Tahsil-wise abstract of educational, medical and other amenities, printed pages 142-143; source page 153 begins Appendix II.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 151,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              531.6,
+              805.44
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              531.6,
+              805.44
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 152,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              531.6,
+              805.44
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              531.6,
+              805.44
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 151,
+          "output_page": 1,
+          "source_png_sha256": "b0187b964b3ab3a517f32c26b2d540c1e9a01f8b4fb585da69a2bd52dbe6ac69",
+          "output_png_sha256": "b0187b964b3ab3a517f32c26b2d540c1e9a01f8b4fb585da69a2bd52dbe6ac69",
+          "match": true
+        },
+        {
+          "source_page": 152,
+          "output_page": 2,
+          "source_png_sha256": "37dcf1b5f17089ae069823a6ed0d2547137ca9f9c5ddf33944662e69d529ef93",
+          "output_png_sha256": "37dcf1b5f17089ae069823a6ed0d2547137ca9f9c5ddf33944662e69d529ef93",
+          "match": true
+        }
+      ],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Maharashtra",
+    "source_state": "Maharashtra",
+    "district": "Buldana",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Maharashtra/1981 Buldana.pdf",
+    "source_filename": "1981 Buldana.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 229,
+    "output": "output/pdf/1981_trimmed/Maharashtra/civic amenities/1981_Buldana_civic_amenities.pdf",
+    "source_pages_selected": [
+      146
+    ],
+    "printed_page_labels": [
+      "134"
+    ],
+    "status": "Trimmed",
+    "reason": "Statement IV Civic and Other Amenities, printed page 134; source page 147 begins Statement IV-A.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 1,
+      "pages": [
+        {
+          "source_page": 146,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              565.44,
+              831.84
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              565.44,
+              831.84
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 146,
+          "output_page": 1,
+          "source_png_sha256": "ac19a95b70ad01b71ff5969d2c400da29546e8d5ede8296d477e26b9b2369c30",
+          "output_png_sha256": "ac19a95b70ad01b71ff5969d2c400da29546e8d5ede8296d477e26b9b2369c30",
+          "match": true
+        }
+      ],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 1,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Maharashtra",
+    "source_state": "Maharashtra",
+    "district": "Buldana",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Maharashtra/1981 Buldana.pdf",
+    "source_filename": "1981 Buldana.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 229,
+    "output": "output/pdf/1981_trimmed/Maharashtra/mededu/1981_Buldana_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      148,
+      149
+    ],
+    "printed_page_labels": [
+      "136",
+      "137"
+    ],
+    "status": "Trimmed",
+    "reason": "Statement V Medical, Educational, Recreational and Cultural Facilities, printed pages 136-137; source page 150 begins Statement VI.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 148,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              565.44,
+              831.84
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              565.44,
+              831.84
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 149,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              565.44,
+              831.84
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              565.44,
+              831.84
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 148,
+          "output_page": 1,
+          "source_png_sha256": "037cfe61d9a6d235f2bb8e7ed2b451b292439a3b2167ddbf9b4a6aed69d28699",
+          "output_png_sha256": "037cfe61d9a6d235f2bb8e7ed2b451b292439a3b2167ddbf9b4a6aed69d28699",
+          "match": true
+        },
+        {
+          "source_page": 149,
+          "output_page": 2,
+          "source_png_sha256": "97c493326d43e500d5f38dd5be5954df4e2f01a0aaf7c774020674bff3cf0f05",
+          "output_png_sha256": "97c493326d43e500d5f38dd5be5954df4e2f01a0aaf7c774020674bff3cf0f05",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Maharashtra",
+    "source_state": "Maharashtra",
+    "district": "Buldana",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Maharashtra/1981 Buldana.pdf",
+    "source_filename": "1981 Buldana.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 229,
+    "output": "output/pdf/1981_trimmed/Maharashtra/tehsil appendix/1981_Buldana_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      122,
+      123
+    ],
+    "printed_page_labels": [
+      null,
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Village Directory Appendix I Tahsil-wise abstract of educational, medical and other amenities, printed pages 110-111; source page 124 begins Appendix II.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 122,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              565.44,
+              831.84
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              565.44,
+              831.84
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 123,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              565.44,
+              831.84
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              565.44,
+              831.84
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 122,
+          "output_page": 1,
+          "source_png_sha256": "f9950ba69003264dd6d64735443f584d744390b378da0887c161067ef58e9d51",
+          "output_png_sha256": "f9950ba69003264dd6d64735443f584d744390b378da0887c161067ef58e9d51",
+          "match": true
+        },
+        {
+          "source_page": 123,
+          "output_page": 2,
+          "source_png_sha256": "9d3074d169d949637e22f4c3d22d25279946b75d3d1f85e1e3d88e1ef168ceba",
+          "output_png_sha256": "9d3074d169d949637e22f4c3d22d25279946b75d3d1f85e1e3d88e1ef168ceba",
+          "match": true
+        }
+      ],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Maharashtra",
+    "source_state": "Maharashtra",
+    "district": "Chandrapur",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Maharashtra/1981 Chandrapur.pdf",
+    "source_filename": "1981 Chandrapur.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 430,
+    "output": "output/pdf/1981_trimmed/Maharashtra/civic amenities/1981_Chandrapur_civic_amenities.pdf",
+    "source_pages_selected": [
+      275
+    ],
+    "printed_page_labels": [
+      "264"
+    ],
+    "status": "Trimmed",
+    "reason": "Statement IV Civic and Other Amenities, printed page 264; source page 276 begins Statement IV-A.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 1,
+      "pages": [
+        {
+          "source_page": 275,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              643.2,
+              878.4
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              643.2,
+              878.4
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 275,
+          "output_page": 1,
+          "source_png_sha256": "9e8651fa4185a05ed73def1ab5cdcb08586fbe20758f254c3b6f543af3eaf687",
+          "output_png_sha256": "9e8651fa4185a05ed73def1ab5cdcb08586fbe20758f254c3b6f543af3eaf687",
+          "match": true
+        }
+      ],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 1,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Maharashtra",
+    "source_state": "Maharashtra",
+    "district": "Chandrapur",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Maharashtra/1981 Chandrapur.pdf",
+    "source_filename": "1981 Chandrapur.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 430,
+    "output": "output/pdf/1981_trimmed/Maharashtra/mededu/1981_Chandrapur_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      277,
+      278
+    ],
+    "printed_page_labels": [
+      "266",
+      "267"
+    ],
+    "status": "Trimmed",
+    "reason": "Statement V Medical, Educational, Recreational and Cultural Facilities, printed pages 266-267; source page 279 begins Statement VI.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 277,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              643.2,
+              878.4
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              643.2,
+              878.4
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 278,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              643.2,
+              878.4
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              643.2,
+              878.4
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 277,
+          "output_page": 1,
+          "source_png_sha256": "1aa515e3e5cdb812a5791c6e36edbad6ea076f5b9c410d79818e3eeafbcdf6f4",
+          "output_png_sha256": "1aa515e3e5cdb812a5791c6e36edbad6ea076f5b9c410d79818e3eeafbcdf6f4",
+          "match": true
+        },
+        {
+          "source_page": 278,
+          "output_page": 2,
+          "source_png_sha256": "cb9ac5730cc8d4fecddb403a170335b3216e092a87693b5bdbd737eaeecf059d",
+          "output_png_sha256": "cb9ac5730cc8d4fecddb403a170335b3216e092a87693b5bdbd737eaeecf059d",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Maharashtra",
+    "source_state": "Maharashtra",
+    "district": "Chandrapur",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Maharashtra/1981 Chandrapur.pdf",
+    "source_filename": "1981 Chandrapur.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 430,
+    "output": "output/pdf/1981_trimmed/Maharashtra/tehsil appendix/1981_Chandrapur_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      211,
+      212
+    ],
+    "printed_page_labels": [
+      "200",
+      "201"
+    ],
+    "status": "Trimmed",
+    "reason": "Village Directory Appendix I Tahsil-wise abstract of educational, medical and other amenities, printed pages 200-201; source page 213 begins Appendix II.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 211,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              643.2,
+              878.4
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              643.2,
+              878.4
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 212,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              643.2,
+              878.4
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              643.2,
+              878.4
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 211,
+          "output_page": 1,
+          "source_png_sha256": "e8fc502f0b3b05a71958128eaea8e30b88b72b102374c5066c852a6c1ec8e624",
+          "output_png_sha256": "e8fc502f0b3b05a71958128eaea8e30b88b72b102374c5066c852a6c1ec8e624",
+          "match": true
+        },
+        {
+          "source_page": 212,
+          "output_page": 2,
+          "source_png_sha256": "deff47b8a056911c70d15e85dd38d3c6084545363991a9fa6bc737e4f3a326d9",
+          "output_png_sha256": "deff47b8a056911c70d15e85dd38d3c6084545363991a9fa6bc737e4f3a326d9",
+          "match": true
+        }
+      ],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Maharashtra",
+    "source_state": "Maharashtra",
+    "district": "Dhule",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Maharashtra/1981 Dhule.pdf",
+    "source_filename": "1981 Dhule.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 346,
+    "output": "output/pdf/1981_trimmed/Maharashtra/civic amenities/1981_Dhule_civic_amenities.pdf",
+    "source_pages_selected": [
+      209
+    ],
+    "printed_page_labels": [
+      "196"
+    ],
+    "status": "Trimmed",
+    "reason": "Statement IV Civic and Other Amenities, printed page 196; source page 210 begins Statement IV-A.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 1,
+      "pages": [
+        {
+          "source_page": 209,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              591.84,
+              885.6
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              591.84,
+              885.6
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 209,
+          "output_page": 1,
+          "source_png_sha256": "9e4641e5cf4e609d81f70ae48944cb5fd9948c19cf5480cae4c8d822eda96009",
+          "output_png_sha256": "9e4641e5cf4e609d81f70ae48944cb5fd9948c19cf5480cae4c8d822eda96009",
+          "match": true
+        }
+      ],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 1,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Maharashtra",
+    "source_state": "Maharashtra",
+    "district": "Dhule",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Maharashtra/1981 Dhule.pdf",
+    "source_filename": "1981 Dhule.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 346,
+    "output": "output/pdf/1981_trimmed/Maharashtra/mededu/1981_Dhule_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      211,
+      212
+    ],
+    "printed_page_labels": [
+      null,
+      "199"
+    ],
+    "status": "Trimmed",
+    "reason": "Statement V Medical, Educational, Recreational and Cultural Facilities, printed pages 198-199; source page 213 begins Statement VI.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 211,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              591.84,
+              885.6
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              591.84,
+              885.6
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 212,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              591.84,
+              885.6
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              591.84,
+              885.6
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 211,
+          "output_page": 1,
+          "source_png_sha256": "91e972d55ecc63590e933db5a99129f28466a2e8eba34bb533204397bb74437f",
+          "output_png_sha256": "91e972d55ecc63590e933db5a99129f28466a2e8eba34bb533204397bb74437f",
+          "match": true
+        },
+        {
+          "source_page": 212,
+          "output_page": 2,
+          "source_png_sha256": "44c43e84ea1a2850b9b49254502195cb294078f3b2e78b19958758c97d419d56",
+          "output_png_sha256": "44c43e84ea1a2850b9b49254502195cb294078f3b2e78b19958758c97d419d56",
+          "match": true
+        }
+      ],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Maharashtra",
+    "source_state": "Maharashtra",
+    "district": "Dhule",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Maharashtra/1981 Dhule.pdf",
+    "source_filename": "1981 Dhule.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 346,
+    "output": "output/pdf/1981_trimmed/Maharashtra/tehsil appendix/1981_Dhule_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      179,
+      180
+    ],
+    "printed_page_labels": [
+      "166",
+      "161"
+    ],
+    "status": "Trimmed",
+    "reason": "Village Directory Appendix I Tahsil-wise abstract of educational, medical and other amenities, printed pages 166-167; source page 181 begins Appendix II.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 179,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              591.84,
+              885.6
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              591.84,
+              885.6
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 180,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              591.84,
+              885.6
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              591.84,
+              885.6
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 179,
+          "output_page": 1,
+          "source_png_sha256": "5abff7ad08e882c97475c860bcfe3bc06bfe8f2a1484b4caa30b8ad152ed2cec",
+          "output_png_sha256": "5abff7ad08e882c97475c860bcfe3bc06bfe8f2a1484b4caa30b8ad152ed2cec",
+          "match": true
+        },
+        {
+          "source_page": 180,
+          "output_page": 2,
+          "source_png_sha256": "74625fe01c7566e0dca802f6b3f6b0c1820b561192e686c5f4573ad06f3c814a",
+          "output_png_sha256": "74625fe01c7566e0dca802f6b3f6b0c1820b561192e686c5f4573ad06f3c814a",
+          "match": true
+        }
+      ],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Maharashtra",
+    "source_state": "Maharashtra",
+    "district": "Greater Maharashtra",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Maharashtra/1981 Greater Maharashtra.pdf",
+    "source_filename": "1981 Greater Maharashtra.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 233,
+    "output": "output/pdf/1981_trimmed/Maharashtra/civic amenities/1981_Greater Maharashtra_civic_amenities.pdf",
+    "source_pages_selected": [
+      54
+    ],
+    "printed_page_labels": [
+      "43"
+    ],
+    "status": "Trimmed",
+    "reason": "Statement IV Civic and Other Amenities, printed page 43; source page 55 begins Statement IV-A.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 1,
+      "pages": [
+        {
+          "source_page": 54,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              637.44,
+              916.32
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              637.44,
+              916.32
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 54,
+          "output_page": 1,
+          "source_png_sha256": "8a158af7c79fa9a255d866359d6ea7a916709aef9d84893d6dc709ffb9bf8239",
+          "output_png_sha256": "8a158af7c79fa9a255d866359d6ea7a916709aef9d84893d6dc709ffb9bf8239",
+          "match": true
+        }
+      ],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 1,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Maharashtra",
+    "source_state": "Maharashtra",
+    "district": "Greater Maharashtra",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Maharashtra/1981 Greater Maharashtra.pdf",
+    "source_filename": "1981 Greater Maharashtra.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 233,
+    "output": "output/pdf/1981_trimmed/Maharashtra/mededu/1981_Greater Maharashtra_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      85,
+      86
+    ],
+    "printed_page_labels": [
+      "74",
+      "75"
+    ],
+    "status": "Trimmed",
+    "reason": "Statement V Medical, Educational, Recreational and Cultural Facilities, printed pages 74-75; source page 87 begins Statement VI.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 85,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              637.44,
+              916.32
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              637.44,
+              916.32
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 86,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              637.44,
+              916.32
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              637.44,
+              916.32
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 85,
+          "output_page": 1,
+          "source_png_sha256": "a9bc709479cbac009232472b4b51a72b304de70cdb9b333acef6015b8fe42803",
+          "output_png_sha256": "a9bc709479cbac009232472b4b51a72b304de70cdb9b333acef6015b8fe42803",
+          "match": true
+        },
+        {
+          "source_page": 86,
+          "output_page": 2,
+          "source_png_sha256": "24efb3dbad527a8ba948f948d1d350003b24d821a233f37af8a5e00960bd2ca1",
+          "output_png_sha256": "24efb3dbad527a8ba948f948d1d350003b24d821a233f37af8a5e00960bd2ca1",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Maharashtra",
+    "source_state": "Maharashtra",
+    "district": "Greater Maharashtra",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Maharashtra/1981 Greater Maharashtra.pdf",
+    "source_filename": "1981 Greater Maharashtra.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 233,
+    "output": null,
+    "source_pages_selected": [],
+    "printed_page_labels": [],
+    "status": "Not trimmed",
+    "reason": "Greater Maharashtra is a town/city directory volume with no qualifying village-directory Tahsil/Taluk-wise amenities appendix; the later appendix is only an Appendix to Town Directory.",
+    "flags": [
+      "manual_absent_or_ineligible"
+    ],
+    "verification": null
+  },
+  {
+    "state": "Maharashtra",
+    "source_state": "Maharashtra",
+    "district": "Jalgaon",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Maharashtra/1981 Jalgaon.pdf",
+    "source_filename": "1981 Jalgaon.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 314,
+    "output": "output/pdf/1981_trimmed/Maharashtra/civic amenities/1981_Jalgaon_civic_amenities.pdf",
+    "source_pages_selected": [
+      199
+    ],
+    "printed_page_labels": [
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Statement IV Civic and Other Amenities, printed page 188; source page 200 begins Statement IV-A.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 1,
+      "pages": [
+        {
+          "source_page": 199,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              643.2,
+              878.4
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              643.2,
+              878.4
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 199,
+          "output_page": 1,
+          "source_png_sha256": "0186b9732830034ee63b642c61f7edc3bf7c974e950ff5f5c684ea4a64bdd15f",
+          "output_png_sha256": "0186b9732830034ee63b642c61f7edc3bf7c974e950ff5f5c684ea4a64bdd15f",
+          "match": true
+        }
+      ],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 1,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Maharashtra",
+    "source_state": "Maharashtra",
+    "district": "Jalgaon",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Maharashtra/1981 Jalgaon.pdf",
+    "source_filename": "1981 Jalgaon.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 314,
+    "output": "output/pdf/1981_trimmed/Maharashtra/mededu/1981_Jalgaon_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      201,
+      202
+    ],
+    "printed_page_labels": [
+      "190",
+      "191"
+    ],
+    "status": "Trimmed",
+    "reason": "Statement V Medical, Educational, Recreational and Cultural Facilities, printed pages 190-191; source page 203 begins Statement VI.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 201,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              643.2,
+              878.4
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              643.2,
+              878.4
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 202,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              643.2,
+              878.4
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              643.2,
+              878.4
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 201,
+          "output_page": 1,
+          "source_png_sha256": "cbe50eb6b71da3e6a103255ed2ff7693387b36d8a9964425147c2563dd4f2f0d",
+          "output_png_sha256": "cbe50eb6b71da3e6a103255ed2ff7693387b36d8a9964425147c2563dd4f2f0d",
+          "match": true
+        },
+        {
+          "source_page": 202,
+          "output_page": 2,
+          "source_png_sha256": "ee1f92039406e55b0cf903dea79e851a93e420ab22cd662f77b9b81a6453f8ac",
+          "output_png_sha256": "ee1f92039406e55b0cf903dea79e851a93e420ab22cd662f77b9b81a6453f8ac",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Maharashtra",
+    "source_state": "Maharashtra",
+    "district": "Jalgaon",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Maharashtra/1981 Jalgaon.pdf",
+    "source_filename": "1981 Jalgaon.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 314,
+    "output": "output/pdf/1981_trimmed/Maharashtra/tehsil appendix/1981_Jalgaon_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      165,
+      166
+    ],
+    "printed_page_labels": [
+      "154",
+      "155"
+    ],
+    "status": "Trimmed",
+    "reason": "Village Directory Appendix I Tahsil-wise abstract of educational, medical and other amenities, printed pages 154-155; source page 167 begins Appendix II.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 165,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              643.2,
+              878.4
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              643.2,
+              878.4
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 166,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              643.2,
+              878.4
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              643.2,
+              878.4
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 165,
+          "output_page": 1,
+          "source_png_sha256": "c75b059801833abf72f4d50751836bc8f7b42a5d1dc140892f662b19deffba94",
+          "output_png_sha256": "c75b059801833abf72f4d50751836bc8f7b42a5d1dc140892f662b19deffba94",
+          "match": true
+        },
+        {
+          "source_page": 166,
+          "output_page": 2,
+          "source_png_sha256": "1d91a4c8a784e626e83d536f2379d9530b614567ba41b2235f6762f1d2952c71",
+          "output_png_sha256": "1d91a4c8a784e626e83d536f2379d9530b614567ba41b2235f6762f1d2952c71",
+          "match": true
+        }
+      ],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Maharashtra",
+    "source_state": "Maharashtra",
+    "district": "Kolhapur",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Maharashtra/1981 Kolhapur.pdf",
+    "source_filename": "1981 Kolhapur.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 242,
+    "output": "output/pdf/1981_trimmed/Maharashtra/civic amenities/1981_Kolhapur_civic_amenities.pdf",
+    "source_pages_selected": [
+      149
+    ],
+    "printed_page_labels": [
+      "134"
+    ],
+    "status": "Trimmed",
+    "reason": "Statement IV Civic and Other Amenities, printed page 134; source page 150 begins Statement IV-A.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 1,
+      "pages": [
+        {
+          "source_page": 149,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              622.08,
+              890.88
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              622.08,
+              890.88
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 149,
+          "output_page": 1,
+          "source_png_sha256": "d3b5d1c5b88a2e219ab44c0b5d24960162502206fde58b41def3419599b0c680",
+          "output_png_sha256": "d3b5d1c5b88a2e219ab44c0b5d24960162502206fde58b41def3419599b0c680",
+          "match": true
+        }
+      ],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 1,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Maharashtra",
+    "source_state": "Maharashtra",
+    "district": "Kolhapur",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Maharashtra/1981 Kolhapur.pdf",
+    "source_filename": "1981 Kolhapur.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 242,
+    "output": "output/pdf/1981_trimmed/Maharashtra/mededu/1981_Kolhapur_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      151,
+      152
+    ],
+    "printed_page_labels": [
+      "136",
+      "137"
+    ],
+    "status": "Trimmed",
+    "reason": "Statement V Medical, Educational, Recreational and Cultural Facilities, printed pages 136-137; source page 153 begins Statement VI.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 151,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              622.08,
+              890.88
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              622.08,
+              890.88
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 152,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              622.08,
+              890.88
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              622.08,
+              890.88
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 151,
+          "output_page": 1,
+          "source_png_sha256": "8428e9d004328348e0863e7381733ad6c014f04f4c548954bd5df3cebf6ca5a5",
+          "output_png_sha256": "8428e9d004328348e0863e7381733ad6c014f04f4c548954bd5df3cebf6ca5a5",
+          "match": true
+        },
+        {
+          "source_page": 152,
+          "output_page": 2,
+          "source_png_sha256": "4e56712323738c2a07ba269e47306ce8c0d17ef622603aa5f193fa12eeb24ecd",
+          "output_png_sha256": "4e56712323738c2a07ba269e47306ce8c0d17ef622603aa5f193fa12eeb24ecd",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Maharashtra",
+    "source_state": "Maharashtra",
+    "district": "Kolhapur",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Maharashtra/1981 Kolhapur.pdf",
+    "source_filename": "1981 Kolhapur.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 242,
+    "output": "output/pdf/1981_trimmed/Maharashtra/tehsil appendix/1981_Kolhapur_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      125,
+      126
+    ],
+    "printed_page_labels": [
+      null,
+      "111"
+    ],
+    "status": "Trimmed",
+    "reason": "Village Directory Appendix I Tahsil-wise abstract of educational, medical and other amenities, printed pages 110-111; source page 127 begins Appendix II.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 125,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              622.08,
+              890.88
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              622.08,
+              890.88
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 126,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              622.08,
+              890.88
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              622.08,
+              890.88
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 125,
+          "output_page": 1,
+          "source_png_sha256": "b255ebb47090736bdad01c4a934002a540d4bdd7a9f943d80967fc506e14f1b1",
+          "output_png_sha256": "b255ebb47090736bdad01c4a934002a540d4bdd7a9f943d80967fc506e14f1b1",
+          "match": true
+        },
+        {
+          "source_page": 126,
+          "output_page": 2,
+          "source_png_sha256": "745242fe9b342d291ed48cf95fdde3f28aaeba4f666cb3fb5ed5f96b15bb1e70",
+          "output_png_sha256": "745242fe9b342d291ed48cf95fdde3f28aaeba4f666cb3fb5ed5f96b15bb1e70",
+          "match": true
+        }
+      ],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Maharashtra",
+    "source_state": "Maharashtra",
+    "district": "Nagpur",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Maharashtra/1981 Nagpur.pdf",
+    "source_filename": "1981 Nagpur.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 316,
+    "output": "output/pdf/1981_trimmed/Maharashtra/civic amenities/1981_Nagpur_civic_amenities.pdf",
+    "source_pages_selected": [
+      180
+    ],
+    "printed_page_labels": [
+      "169"
+    ],
+    "status": "Trimmed",
+    "reason": "Statement IV Civic and Other Amenities, printed page 169; source page 181 begins Statement IV-A.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 1,
+      "pages": [
+        {
+          "source_page": 180,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              -6.2098,
+              599.04,
+              835.68
+            ],
+            "cropbox": [
+              0.0,
+              -6.2098,
+              595.276,
+              835.68
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 180,
+          "output_page": 1,
+          "source_png_sha256": "c040347043b6595e20c9824076d0bfed3216bde297c6204a90560e17d2decbf7",
+          "output_png_sha256": "c040347043b6595e20c9824076d0bfed3216bde297c6204a90560e17d2decbf7",
+          "match": true
+        }
+      ],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 1,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Maharashtra",
+    "source_state": "Maharashtra",
+    "district": "Nagpur",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Maharashtra/1981 Nagpur.pdf",
+    "source_filename": "1981 Nagpur.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 316,
+    "output": "output/pdf/1981_trimmed/Maharashtra/mededu/1981_Nagpur_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      185,
+      186
+    ],
+    "printed_page_labels": [
+      "174",
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Statement V Medical, Educational, Recreational and Cultural Facilities, printed pages 174-175; source page 187 begins Statement VI.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 185,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              -6.2098,
+              599.04,
+              835.68
+            ],
+            "cropbox": [
+              0.0,
+              -6.2098,
+              595.276,
+              835.68
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 186,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              -6.2098,
+              599.04,
+              835.68
+            ],
+            "cropbox": [
+              0.0,
+              -6.2098,
+              595.276,
+              835.68
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 185,
+          "output_page": 1,
+          "source_png_sha256": "559ee129e242e2774e2e1f6c6e2dc2794cd35c3c0c2099d2df670d5e4e92c7b7",
+          "output_png_sha256": "559ee129e242e2774e2e1f6c6e2dc2794cd35c3c0c2099d2df670d5e4e92c7b7",
+          "match": true
+        },
+        {
+          "source_page": 186,
+          "output_page": 2,
+          "source_png_sha256": "1ee5afd8dbfb5c86973d1b4bb5a2554136de8ddcf644ffba0458f46ae08b4533",
+          "output_png_sha256": "1ee5afd8dbfb5c86973d1b4bb5a2554136de8ddcf644ffba0458f46ae08b4533",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Maharashtra",
+    "source_state": "Maharashtra",
+    "district": "Nagpur",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Maharashtra/1981 Nagpur.pdf",
+    "source_filename": "1981 Nagpur.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 316,
+    "output": "output/pdf/1981_trimmed/Maharashtra/tehsil appendix/1981_Nagpur_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      141,
+      142
+    ],
+    "printed_page_labels": [
+      "130",
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Village Directory Appendix I Tahsil-wise abstract of educational, medical and other amenities, printed pages 130-131; source page 143 begins Appendix II.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 141,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              -6.2098,
+              599.04,
+              835.68
+            ],
+            "cropbox": [
+              0.0,
+              -6.2098,
+              595.276,
+              835.68
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 142,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              -6.2098,
+              599.04,
+              835.68
+            ],
+            "cropbox": [
+              0.0,
+              -6.2098,
+              595.276,
+              835.68
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 141,
+          "output_page": 1,
+          "source_png_sha256": "ad87b0546f1d9d7cdebcc9fbb62f0600cc71bc8f40947bfaa63afbd5023463db",
+          "output_png_sha256": "ad87b0546f1d9d7cdebcc9fbb62f0600cc71bc8f40947bfaa63afbd5023463db",
+          "match": true
+        },
+        {
+          "source_page": 142,
+          "output_page": 2,
+          "source_png_sha256": "84b9aa82edece9dbf9c1c628423b4ef1a96ea86051551f893d404179700c402d",
+          "output_png_sha256": "84b9aa82edece9dbf9c1c628423b4ef1a96ea86051551f893d404179700c402d",
+          "match": true
+        }
+      ],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Maharashtra",
+    "source_state": "Maharashtra",
+    "district": "Nanded",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Maharashtra/1981 Nanded.pdf",
+    "source_filename": "1981 Nanded.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 256,
+    "output": "output/pdf/1981_trimmed/Maharashtra/civic amenities/1981_Nanded_civic_amenities.pdf",
+    "source_pages_selected": [
+      157
+    ],
+    "printed_page_labels": [
+      "146"
+    ],
+    "status": "Trimmed",
+    "reason": "Statement IV Civic and Other Amenities, printed page 146; source page 158 begins Statement IV-A.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 1,
+      "pages": [
+        {
+          "source_page": 157,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              600.96,
+              849.84
+            ],
+            "cropbox": [
+              0.0,
+              7.9503,
+              595.276,
+              849.84
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 157,
+          "output_page": 1,
+          "source_png_sha256": "dd578b7f4306da8456ab4737337dce15e5c5715332ecc5ebe9cf0ba4cb7e6452",
+          "output_png_sha256": "dd578b7f4306da8456ab4737337dce15e5c5715332ecc5ebe9cf0ba4cb7e6452",
+          "match": true
+        }
+      ],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 1,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Maharashtra",
+    "source_state": "Maharashtra",
+    "district": "Nanded",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Maharashtra/1981 Nanded.pdf",
+    "source_filename": "1981 Nanded.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 256,
+    "output": "output/pdf/1981_trimmed/Maharashtra/mededu/1981_Nanded_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      159,
+      160
+    ],
+    "printed_page_labels": [
+      "148",
+      "149"
+    ],
+    "status": "Trimmed",
+    "reason": "Statement V Medical, Educational, Recreational and Cultural Facilities, printed pages 148-149; source page 161 begins Statement VI.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 159,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              600.96,
+              849.84
+            ],
+            "cropbox": [
+              0.0,
+              7.9503,
+              595.276,
+              849.84
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 160,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              600.96,
+              849.84
+            ],
+            "cropbox": [
+              0.0,
+              7.9503,
+              595.276,
+              849.84
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 159,
+          "output_page": 1,
+          "source_png_sha256": "a5b64876f85df167e6ca1cac35a66ed6f82839395ef45f60dc09ba716ab47eff",
+          "output_png_sha256": "a5b64876f85df167e6ca1cac35a66ed6f82839395ef45f60dc09ba716ab47eff",
+          "match": true
+        },
+        {
+          "source_page": 160,
+          "output_page": 2,
+          "source_png_sha256": "5ce4893e235b55a85f0b9a0601978ee341e06296f315b4fc174529b97393101d",
+          "output_png_sha256": "5ce4893e235b55a85f0b9a0601978ee341e06296f315b4fc174529b97393101d",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Maharashtra",
+    "source_state": "Maharashtra",
+    "district": "Nanded",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Maharashtra/1981 Nanded.pdf",
+    "source_filename": "1981 Nanded.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 256,
+    "output": "output/pdf/1981_trimmed/Maharashtra/tehsil appendix/1981_Nanded_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      131,
+      132
+    ],
+    "printed_page_labels": [
+      "120",
+      "121"
+    ],
+    "status": "Trimmed",
+    "reason": "Village Directory Appendix I Tahsil-wise abstract of educational, medical and other amenities, printed pages 120-121; source page 133 begins Appendix II.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 131,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              600.96,
+              849.84
+            ],
+            "cropbox": [
+              0.0,
+              7.9503,
+              595.276,
+              849.84
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 132,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              600.96,
+              849.84
+            ],
+            "cropbox": [
+              0.0,
+              7.9503,
+              595.276,
+              849.84
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 131,
+          "output_page": 1,
+          "source_png_sha256": "79355ba0b39ab695dce5806c34c44b679abcf06ef61aadcdfe271cd9d907e928",
+          "output_png_sha256": "79355ba0b39ab695dce5806c34c44b679abcf06ef61aadcdfe271cd9d907e928",
+          "match": true
+        },
+        {
+          "source_page": 132,
+          "output_page": 2,
+          "source_png_sha256": "f7a7d6e6c05c93bfee7f281910369a483c0a57459d5c0c288454fde682d0a323",
+          "output_png_sha256": "f7a7d6e6c05c93bfee7f281910369a483c0a57459d5c0c288454fde682d0a323",
+          "match": true
+        }
+      ],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Maharashtra",
+    "source_state": "Maharashtra",
+    "district": "Nasik",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Maharashtra/1981 Nasik.pdf",
+    "source_filename": "1981 Nasik.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 416,
+    "output": "output/pdf/1981_trimmed/Maharashtra/civic amenities/1981_Nasik_civic_amenities.pdf",
+    "source_pages_selected": [
+      240,
+      241,
+      242
+    ],
+    "printed_page_labels": [
+      "227",
+      "228",
+      "229"
+    ],
+    "status": "Trimmed",
+    "reason": "Statement IV Civic and Other Amenities, printed pages 227-229; source page 243 begins Statement IV-A.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 3,
+      "pages": [
+        {
+          "source_page": 240,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              599.76,
+              765.36
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              599.76,
+              765.36
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 241,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              599.76,
+              765.36
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              599.76,
+              765.36
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 242,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              599.76,
+              765.36
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              599.76,
+              765.36
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 240,
+          "output_page": 1,
+          "source_png_sha256": "9811a4b6141adf136814babc70d6f44f23c13697af3dc3b3ef7417e3ea3150a8",
+          "output_png_sha256": "9811a4b6141adf136814babc70d6f44f23c13697af3dc3b3ef7417e3ea3150a8",
+          "match": true
+        },
+        {
+          "source_page": 241,
+          "output_page": 2,
+          "source_png_sha256": "448a2e4160b822d555128ba9172f6099c51c8dca356bb4d2766ef19718a818c2",
+          "output_png_sha256": "448a2e4160b822d555128ba9172f6099c51c8dca356bb4d2766ef19718a818c2",
+          "match": true
+        },
+        {
+          "source_page": 242,
+          "output_page": 3,
+          "source_png_sha256": "7be47cc66a5ab7d3d29b9c22c1c39a15d1b42e1f496b8c73dc21fcb9fe7b9679",
+          "output_png_sha256": "7be47cc66a5ab7d3d29b9c22c1c39a15d1b42e1f496b8c73dc21fcb9fe7b9679",
+          "match": true
+        }
+      ],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 3,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Maharashtra",
+    "source_state": "Maharashtra",
+    "district": "Nasik",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Maharashtra/1981 Nasik.pdf",
+    "source_filename": "1981 Nasik.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 416,
+    "output": "output/pdf/1981_trimmed/Maharashtra/mededu/1981_Nasik_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      245,
+      246,
+      247,
+      248
+    ],
+    "printed_page_labels": [
+      "232",
+      "233",
+      "234",
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Statement V Medical, Educational, Recreational and Cultural Facilities, printed pages 232-235; source page 249 begins Statement VI.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 4,
+      "pages": [
+        {
+          "source_page": 245,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              599.76,
+              765.36
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              599.76,
+              765.36
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 246,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              599.76,
+              765.36
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              599.76,
+              765.36
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 247,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              599.76,
+              765.36
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              599.76,
+              765.36
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 248,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              599.76,
+              765.36
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              599.76,
+              765.36
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 245,
+          "output_page": 1,
+          "source_png_sha256": "6f4cb8ac93adf11f528f80645143308c052380c13e975d3a167bb2872b37f917",
+          "output_png_sha256": "6f4cb8ac93adf11f528f80645143308c052380c13e975d3a167bb2872b37f917",
+          "match": true
+        },
+        {
+          "source_page": 246,
+          "output_page": 2,
+          "source_png_sha256": "b324cb983fa6a58dd096cd087a388e03c138d90455a8144175acc1f9b7b21c53",
+          "output_png_sha256": "b324cb983fa6a58dd096cd087a388e03c138d90455a8144175acc1f9b7b21c53",
+          "match": true
+        },
+        {
+          "source_page": 247,
+          "output_page": 3,
+          "source_png_sha256": "fdfb009363856c608c58514f4e6ab8d2092fd2ba54e252ac5ffef2e1999ca5f2",
+          "output_png_sha256": "fdfb009363856c608c58514f4e6ab8d2092fd2ba54e252ac5ffef2e1999ca5f2",
+          "match": true
+        },
+        {
+          "source_page": 248,
+          "output_page": 4,
+          "source_png_sha256": "8cca01e874f2d6584ba24a6f4ab41ed14ac822a59aba7e7e5edef5d8b1eb78a4",
+          "output_png_sha256": "8cca01e874f2d6584ba24a6f4ab41ed14ac822a59aba7e7e5edef5d8b1eb78a4",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 4,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Maharashtra",
+    "source_state": "Maharashtra",
+    "district": "Nasik",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Maharashtra/1981 Nasik.pdf",
+    "source_filename": "1981 Nasik.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 416,
+    "output": "output/pdf/1981_trimmed/Maharashtra/tehsil appendix/1981_Nasik_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      201,
+      202
+    ],
+    "printed_page_labels": [
+      "188",
+      "189"
+    ],
+    "status": "Trimmed",
+    "reason": "Village Directory Appendix I Tahsil-wise abstract of educational, medical and other amenities, printed pages 188-189; source page 203 begins Appendix II.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 201,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              599.76,
+              765.36
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              599.76,
+              765.36
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 202,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              599.76,
+              765.36
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              599.76,
+              765.36
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 201,
+          "output_page": 1,
+          "source_png_sha256": "02564bd9797b4b9840e865c35158808a5f68266b36999c2cbb7ef72a49bcdb0d",
+          "output_png_sha256": "02564bd9797b4b9840e865c35158808a5f68266b36999c2cbb7ef72a49bcdb0d",
+          "match": true
+        },
+        {
+          "source_page": 202,
+          "output_page": 2,
+          "source_png_sha256": "85686423fa828b3df6a62e062a778a4c88a78b4e567171bcec229b6088b9d716",
+          "output_png_sha256": "85686423fa828b3df6a62e062a778a4c88a78b4e567171bcec229b6088b9d716",
+          "match": true
+        }
+      ],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Maharashtra",
+    "source_state": "Maharashtra",
+    "district": "Osmanabad",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Maharashtra/1981 Osmanabad.pdf",
+    "source_filename": "1981 Osmanabad.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 294,
+    "output": "output/pdf/1981_trimmed/Maharashtra/civic amenities/1981_Osmanabad_civic_amenities.pdf",
+    "source_pages_selected": [
+      187
+    ],
+    "printed_page_labels": [
+      "174"
+    ],
+    "status": "Trimmed",
+    "reason": "Statement IV Civic and Other Amenities, printed page 174; source page 188 begins Statement IV-A.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 1,
+      "pages": [
+        {
+          "source_page": 187,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              569.76,
+              836.4
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              569.76,
+              836.4
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 187,
+          "output_page": 1,
+          "source_png_sha256": "84556f870f400b803768e32de75b72d50ac9232ba928200f39fb6caabe764569",
+          "output_png_sha256": "84556f870f400b803768e32de75b72d50ac9232ba928200f39fb6caabe764569",
+          "match": true
+        }
+      ],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 1,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Maharashtra",
+    "source_state": "Maharashtra",
+    "district": "Osmanabad",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Maharashtra/1981 Osmanabad.pdf",
+    "source_filename": "1981 Osmanabad.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 294,
+    "output": "output/pdf/1981_trimmed/Maharashtra/mededu/1981_Osmanabad_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      189,
+      190
+    ],
+    "printed_page_labels": [
+      "176",
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Statement V Medical, Educational, Recreational and Cultural Facilities, printed pages 176-177; source page 191 begins Statement VI.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 189,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              569.76,
+              836.4
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              569.76,
+              836.4
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 190,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              569.76,
+              836.4
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              569.76,
+              836.4
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 189,
+          "output_page": 1,
+          "source_png_sha256": "93889784aa621dd1261e74b88efaa5273ec9aac62145e9fd9aff0fceee915aa7",
+          "output_png_sha256": "93889784aa621dd1261e74b88efaa5273ec9aac62145e9fd9aff0fceee915aa7",
+          "match": true
+        },
+        {
+          "source_page": 190,
+          "output_page": 2,
+          "source_png_sha256": "b5b70089295a2957e757bdbce3272cf466562ba709059e567f4b48833ba8cdb3",
+          "output_png_sha256": "b5b70089295a2957e757bdbce3272cf466562ba709059e567f4b48833ba8cdb3",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Maharashtra",
+    "source_state": "Maharashtra",
+    "district": "Osmanabad",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Maharashtra/1981 Osmanabad.pdf",
+    "source_filename": "1981 Osmanabad.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 294,
+    "output": "output/pdf/1981_trimmed/Maharashtra/tehsil appendix/1981_Osmanabad_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      157,
+      158
+    ],
+    "printed_page_labels": [
+      "144",
+      "145"
+    ],
+    "status": "Trimmed",
+    "reason": "Village Directory Appendix I Tahsil-wise abstract of educational, medical and other amenities, printed pages 144-145; source page 159 begins Appendix II.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 157,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              569.76,
+              836.4
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              569.76,
+              836.4
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 158,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              569.76,
+              836.4
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              569.76,
+              836.4
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 157,
+          "output_page": 1,
+          "source_png_sha256": "1c71603058876acf5a59481a8122e66d718dfe83f2bc3d44c9bc2464b87f6c28",
+          "output_png_sha256": "1c71603058876acf5a59481a8122e66d718dfe83f2bc3d44c9bc2464b87f6c28",
+          "match": true
+        },
+        {
+          "source_page": 158,
+          "output_page": 2,
+          "source_png_sha256": "618a301358e2373d89526e4764cd37a09d1d154b7f663671355afe47722f4a70",
+          "output_png_sha256": "618a301358e2373d89526e4764cd37a09d1d154b7f663671355afe47722f4a70",
+          "match": true
+        }
+      ],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Maharashtra",
+    "source_state": "Maharashtra",
+    "district": "Parbhani",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Maharashtra/1981 Parbhani.pdf",
+    "source_filename": "1981 Parbhani.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 344,
+    "output": "output/pdf/1981_trimmed/Maharashtra/civic amenities/1981_Parbhani_civic_amenities.pdf",
+    "source_pages_selected": [
+      205
+    ],
+    "printed_page_labels": [
+      "194"
+    ],
+    "status": "Trimmed",
+    "reason": "Statement IV Civic and Other Amenities, printed page 194; source page 206 begins Statement IV-A.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 1,
+      "pages": [
+        {
+          "source_page": 205,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              598.56,
+              856.56
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              598.56,
+              856.56
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 205,
+          "output_page": 1,
+          "source_png_sha256": "5a4682b05c01a633728d145b9912348e87e46aa82493fab4512bbfe93034076c",
+          "output_png_sha256": "5a4682b05c01a633728d145b9912348e87e46aa82493fab4512bbfe93034076c",
+          "match": true
+        }
+      ],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 1,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Maharashtra",
+    "source_state": "Maharashtra",
+    "district": "Parbhani",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Maharashtra/1981 Parbhani.pdf",
+    "source_filename": "1981 Parbhani.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 344,
+    "output": "output/pdf/1981_trimmed/Maharashtra/mededu/1981_Parbhani_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      207,
+      208
+    ],
+    "printed_page_labels": [
+      "196",
+      "197"
+    ],
+    "status": "Trimmed",
+    "reason": "Statement V Medical, Educational, Recreational and Cultural Facilities, printed pages 196-197; source page 209 begins Statement VI.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 207,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              598.56,
+              856.56
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              598.56,
+              856.56
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 208,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              598.56,
+              856.56
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              598.56,
+              856.56
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 207,
+          "output_page": 1,
+          "source_png_sha256": "055e67284dc31b6c82e12e5dc73f7e093acfe0c87077985bc58690597b3d5ff1",
+          "output_png_sha256": "055e67284dc31b6c82e12e5dc73f7e093acfe0c87077985bc58690597b3d5ff1",
+          "match": true
+        },
+        {
+          "source_page": 208,
+          "output_page": 2,
+          "source_png_sha256": "c88b438e03e2e7d17531a91df7f8d8015bb74bf4044e43d3416ecae9a5990b57",
+          "output_png_sha256": "c88b438e03e2e7d17531a91df7f8d8015bb74bf4044e43d3416ecae9a5990b57",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Maharashtra",
+    "source_state": "Maharashtra",
+    "district": "Parbhani",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Maharashtra/1981 Parbhani.pdf",
+    "source_filename": "1981 Parbhani.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 344,
+    "output": "output/pdf/1981_trimmed/Maharashtra/tehsil appendix/1981_Parbhani_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      177,
+      178
+    ],
+    "printed_page_labels": [
+      "166",
+      "167"
+    ],
+    "status": "Trimmed",
+    "reason": "Village Directory Appendix I Tahsil-wise abstract of educational, medical and other amenities, printed pages 166-167; source page 179 begins Appendix II.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 177,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              598.56,
+              856.56
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              598.56,
+              856.56
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 178,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              598.56,
+              856.56
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              598.56,
+              856.56
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 177,
+          "output_page": 1,
+          "source_png_sha256": "182d2fbf6ebcf5cadd073737d6b9a23041f8b90d8718ec2490d6efee0dc1ae68",
+          "output_png_sha256": "182d2fbf6ebcf5cadd073737d6b9a23041f8b90d8718ec2490d6efee0dc1ae68",
+          "match": true
+        },
+        {
+          "source_page": 178,
+          "output_page": 2,
+          "source_png_sha256": "e1e8ee0ebb398e6b9b947458fb315c8f8a2c58bef4f1492414701e0030cae758",
+          "output_png_sha256": "e1e8ee0ebb398e6b9b947458fb315c8f8a2c58bef4f1492414701e0030cae758",
+          "match": true
+        }
+      ],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Maharashtra",
+    "source_state": "Maharashtra",
+    "district": "Pune",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Maharashtra/1981 Pune.pdf",
+    "source_filename": "1981 Pune.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 400,
+    "output": "output/pdf/1981_trimmed/Maharashtra/civic amenities/1981_Pune_civic_amenities.pdf",
+    "source_pages_selected": [
+      230,
+      231
+    ],
+    "printed_page_labels": [
+      "219",
+      "220"
+    ],
+    "status": "Trimmed",
+    "reason": "Statement IV Civic and Other Amenities, printed pages 219-220; source page 232 begins Statement IV-A.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 230,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              616.32,
+              885.36
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              616.32,
+              885.36
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 231,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              637.2,
+              900.0
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              637.2,
+              900.0
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 230,
+          "output_page": 1,
+          "source_png_sha256": "d999a5274cbd6340b9b30e48880bb78d62a70e1cd808486d0d5b0a6d9c4d6aa7",
+          "output_png_sha256": "d999a5274cbd6340b9b30e48880bb78d62a70e1cd808486d0d5b0a6d9c4d6aa7",
+          "match": true
+        },
+        {
+          "source_page": 231,
+          "output_page": 2,
+          "source_png_sha256": "1cebb0489084be6b9c58810f7c99c1f4fa085b8b3a87b2299f51120fb4e07792",
+          "output_png_sha256": "1cebb0489084be6b9c58810f7c99c1f4fa085b8b3a87b2299f51120fb4e07792",
+          "match": true
+        }
+      ],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Maharashtra",
+    "source_state": "Maharashtra",
+    "district": "Pune",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Maharashtra/1981 Pune.pdf",
+    "source_filename": "1981 Pune.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 400,
+    "output": "output/pdf/1981_trimmed/Maharashtra/mededu/1981_Pune_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      243,
+      244,
+      245,
+      246
+    ],
+    "printed_page_labels": [
+      "232",
+      "233",
+      "234",
+      "235"
+    ],
+    "status": "Trimmed",
+    "reason": "Statement V Medical, Educational, Recreational and Cultural Facilities, printed pages 232-235; source page 247 begins Statement VI.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 4,
+      "pages": [
+        {
+          "source_page": 243,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              616.32,
+              885.36
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              616.32,
+              885.36
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 244,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              616.32,
+              885.36
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              616.32,
+              885.36
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 245,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              616.32,
+              885.36
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              616.32,
+              885.36
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 246,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              616.32,
+              885.36
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              616.32,
+              885.36
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 243,
+          "output_page": 1,
+          "source_png_sha256": "fcaa4f6cc5c23378d6463c87ae6688c7854eb90670fbd892dfca76945ddd4929",
+          "output_png_sha256": "fcaa4f6cc5c23378d6463c87ae6688c7854eb90670fbd892dfca76945ddd4929",
+          "match": true
+        },
+        {
+          "source_page": 244,
+          "output_page": 2,
+          "source_png_sha256": "e7259c6657833f14c180c9e918abcbca2dd88cee07ce503e5764799477b66aee",
+          "output_png_sha256": "e7259c6657833f14c180c9e918abcbca2dd88cee07ce503e5764799477b66aee",
+          "match": true
+        },
+        {
+          "source_page": 245,
+          "output_page": 3,
+          "source_png_sha256": "9b97bc0b34bfda53d2c46b812eb31a5cb3d953c3915b5d157853182bfbce9c64",
+          "output_png_sha256": "9b97bc0b34bfda53d2c46b812eb31a5cb3d953c3915b5d157853182bfbce9c64",
+          "match": true
+        },
+        {
+          "source_page": 246,
+          "output_page": 4,
+          "source_png_sha256": "a9918b6d26b2ab8ee4e97c1170843cf49aa63efb2663e92f2feb0bec426033a7",
+          "output_png_sha256": "a9918b6d26b2ab8ee4e97c1170843cf49aa63efb2663e92f2feb0bec426033a7",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 4,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Maharashtra",
+    "source_state": "Maharashtra",
+    "district": "Pune",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Maharashtra/1981 Pune.pdf",
+    "source_filename": "1981 Pune.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 400,
+    "output": "output/pdf/1981_trimmed/Maharashtra/tehsil appendix/1981_Pune_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      191,
+      192
+    ],
+    "printed_page_labels": [
+      "130",
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Village Directory Appendix I Tahsil-wise abstract of educational, medical and other amenities, printed pages 180-181; source page 193 begins Appendix II.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 191,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              616.32,
+              885.36
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              616.32,
+              885.36
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 192,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              616.32,
+              885.36
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              616.32,
+              885.36
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 191,
+          "output_page": 1,
+          "source_png_sha256": "f3f31f22dbbf6c179b86c26de6671dd0cc04daf22edec745de0cb2b5a032b3a3",
+          "output_png_sha256": "f3f31f22dbbf6c179b86c26de6671dd0cc04daf22edec745de0cb2b5a032b3a3",
+          "match": true
+        },
+        {
+          "source_page": 192,
+          "output_page": 2,
+          "source_png_sha256": "3a6e29eecd52b3d38cdb5c3e0fe9eb8b380bb70d4033689b94e63573bdf6fefc",
+          "output_png_sha256": "3a6e29eecd52b3d38cdb5c3e0fe9eb8b380bb70d4033689b94e63573bdf6fefc",
+          "match": true
+        }
+      ],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Maharashtra",
+    "source_state": "Maharashtra",
+    "district": "Ratnagiri",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Maharashtra/1981 Ratnagiri.pdf",
+    "source_filename": "1981 Ratnagiri.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 326,
+    "output": "output/pdf/1981_trimmed/Maharashtra/civic amenities/1981_Ratnagiri_civic_amenities.pdf",
+    "source_pages_selected": [
+      205
+    ],
+    "printed_page_labels": [
+      "192"
+    ],
+    "status": "Trimmed",
+    "reason": "Statement IV Civic and Other Amenities, printed page 192; source page 206 begins Statement IV-A.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 1,
+      "pages": [
+        {
+          "source_page": 205,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              556.56,
+              838.8
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              556.56,
+              838.8
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 205,
+          "output_page": 1,
+          "source_png_sha256": "066c66144fa7bbd5b7bcf41334f003dbdf9405efab93374db5b03ff319561a3c",
+          "output_png_sha256": "066c66144fa7bbd5b7bcf41334f003dbdf9405efab93374db5b03ff319561a3c",
+          "match": true
+        }
+      ],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 1,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Maharashtra",
+    "source_state": "Maharashtra",
+    "district": "Ratnagiri",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Maharashtra/1981 Ratnagiri.pdf",
+    "source_filename": "1981 Ratnagiri.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 326,
+    "output": "output/pdf/1981_trimmed/Maharashtra/mededu/1981_Ratnagiri_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      207,
+      208
+    ],
+    "printed_page_labels": [
+      "194",
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Statement V Medical, Educational, Recreational and Cultural Facilities, printed pages 194-195; source page 209 begins Statement VI.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 207,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              556.56,
+              838.8
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              556.56,
+              838.8
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 208,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              556.56,
+              838.8
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              556.56,
+              838.8
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 207,
+          "output_page": 1,
+          "source_png_sha256": "fad64913913057abe06f1ccb810a9d3c8fdceb3847531d081513ec94fb23c142",
+          "output_png_sha256": "fad64913913057abe06f1ccb810a9d3c8fdceb3847531d081513ec94fb23c142",
+          "match": true
+        },
+        {
+          "source_page": 208,
+          "output_page": 2,
+          "source_png_sha256": "674b097d8c4ecf1f45fa1fa40ec701ffe17ac94412ca35205a08c0f908505708",
+          "output_png_sha256": "674b097d8c4ecf1f45fa1fa40ec701ffe17ac94412ca35205a08c0f908505708",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Maharashtra",
+    "source_state": "Maharashtra",
+    "district": "Ratnagiri",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Maharashtra/1981 Ratnagiri.pdf",
+    "source_filename": "1981 Ratnagiri.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 326,
+    "output": "output/pdf/1981_trimmed/Maharashtra/tehsil appendix/1981_Ratnagiri_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      179,
+      180
+    ],
+    "printed_page_labels": [
+      null,
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Village Directory Appendix I Tahsil-wise abstract of educational, medical and other amenities, printed pages 166-167; source page 181 begins Appendix II.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 179,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              556.56,
+              838.8
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              556.56,
+              838.8
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 180,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              556.56,
+              838.8
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              556.56,
+              838.8
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 179,
+          "output_page": 1,
+          "source_png_sha256": "bf8fbf9c48e38ebf77640d3927a124efe2b60b790a042d0aa3bd67743ed0690d",
+          "output_png_sha256": "bf8fbf9c48e38ebf77640d3927a124efe2b60b790a042d0aa3bd67743ed0690d",
+          "match": true
+        },
+        {
+          "source_page": 180,
+          "output_page": 2,
+          "source_png_sha256": "5c944294110b0869979c536f6e4240c63ede461995044469016e4fe32bb1d02f",
+          "output_png_sha256": "5c944294110b0869979c536f6e4240c63ede461995044469016e4fe32bb1d02f",
+          "match": true
+        }
+      ],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Maharashtra",
+    "source_state": "Maharashtra",
+    "district": "Sangli",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Maharashtra/1981 Sangli.pdf",
+    "source_filename": "1981 Sangli.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 182,
+    "output": "output/pdf/1981_trimmed/Maharashtra/civic amenities/1981_Sangli_civic_amenities.pdf",
+    "source_pages_selected": [
+      119
+    ],
+    "printed_page_labels": [
+      "108"
+    ],
+    "status": "Trimmed",
+    "reason": "Statement IV Civic and Other Amenities, printed page 108; source page 120 begins Statement IV-A.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 1,
+      "pages": [
+        {
+          "source_page": 119,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 119,
+          "output_page": 1,
+          "source_png_sha256": "a9d0d4a07e0e111ef88b2e1f3b9178bc953e8c15e86a272a6d5b0506f3afc321",
+          "output_png_sha256": "a9d0d4a07e0e111ef88b2e1f3b9178bc953e8c15e86a272a6d5b0506f3afc321",
+          "match": true
+        }
+      ],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 1,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Maharashtra",
+    "source_state": "Maharashtra",
+    "district": "Sangli",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Maharashtra/1981 Sangli.pdf",
+    "source_filename": "1981 Sangli.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 182,
+    "output": "output/pdf/1981_trimmed/Maharashtra/mededu/1981_Sangli_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      121,
+      122
+    ],
+    "printed_page_labels": [
+      "110",
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Statement V Medical, Educational, Recreational and Cultural Facilities, printed pages 110-111; source page 123 begins Statement VI.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 121,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 122,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 121,
+          "output_page": 1,
+          "source_png_sha256": "d05d7e9f47d448d45aa252efbad90588284954cdaf3b976b0236c0cfd1e3db37",
+          "output_png_sha256": "d05d7e9f47d448d45aa252efbad90588284954cdaf3b976b0236c0cfd1e3db37",
+          "match": true
+        },
+        {
+          "source_page": 122,
+          "output_page": 2,
+          "source_png_sha256": "8dfcb9b597c569e418a007619885ea2d92970512e267ece28fc0035258fe206e",
+          "output_png_sha256": "8dfcb9b597c569e418a007619885ea2d92970512e267ece28fc0035258fe206e",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Maharashtra",
+    "source_state": "Maharashtra",
+    "district": "Sangli",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Maharashtra/1981 Sangli.pdf",
+    "source_filename": "1981 Sangli.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 182,
+    "output": "output/pdf/1981_trimmed/Maharashtra/tehsil appendix/1981_Sangli_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      101,
+      102
+    ],
+    "printed_page_labels": [
+      "90",
+      "91"
+    ],
+    "status": "Trimmed",
+    "reason": "Village Directory Appendix I Tahsil-wise abstract of educational, medical and other amenities, printed pages 90-91; source page 103 begins Appendix II.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 101,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 102,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.6,
+              870.96
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 101,
+          "output_page": 1,
+          "source_png_sha256": "320c5b4fa98f709d817c17d331b4cdf3499e0560775f3a7ccc9b243d8278734b",
+          "output_png_sha256": "320c5b4fa98f709d817c17d331b4cdf3499e0560775f3a7ccc9b243d8278734b",
+          "match": true
+        },
+        {
+          "source_page": 102,
+          "output_page": 2,
+          "source_png_sha256": "4b840097a8e5be822987ff52e96fefe41ad46d9540d46e183a9220c36a5d18fe",
+          "output_png_sha256": "4b840097a8e5be822987ff52e96fefe41ad46d9540d46e183a9220c36a5d18fe",
+          "match": true
+        }
+      ],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Maharashtra",
+    "source_state": "Maharashtra",
+    "district": "Satara",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Maharashtra/1981 Satara.pdf",
+    "source_filename": "1981 Satara.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 274,
+    "output": "output/pdf/1981_trimmed/Maharashtra/civic amenities/1981_Satara_civic_amenities.pdf",
+    "source_pages_selected": [
+      176
+    ],
+    "printed_page_labels": [
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Statement IV Civic and Other Amenities, printed page 162; source page 177 begins Statement IV-A.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 1,
+      "pages": [
+        {
+          "source_page": 176,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              614.4,
+              880.56
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              614.4,
+              880.56
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 176,
+          "output_page": 1,
+          "source_png_sha256": "9c12ae2873f104ae85952061da99b1061f7e5f62a645aef670d37816a1b3addc",
+          "output_png_sha256": "9c12ae2873f104ae85952061da99b1061f7e5f62a645aef670d37816a1b3addc",
+          "match": true
+        }
+      ],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 1,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Maharashtra",
+    "source_state": "Maharashtra",
+    "district": "Satara",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Maharashtra/1981 Satara.pdf",
+    "source_filename": "1981 Satara.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 274,
+    "output": "output/pdf/1981_trimmed/Maharashtra/mededu/1981_Satara_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      178,
+      179
+    ],
+    "printed_page_labels": [
+      "164",
+      "165"
+    ],
+    "status": "Trimmed",
+    "reason": "Statement V Medical, Educational, Recreational and Cultural Facilities, printed pages 164-165; source page 180 begins Statement VI.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 178,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              614.4,
+              880.56
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              614.4,
+              880.56
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 179,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              614.4,
+              880.56
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              614.4,
+              880.56
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 178,
+          "output_page": 1,
+          "source_png_sha256": "b04bd3f64869f7ed15ba648c7a4dd5564578305a79e80e210b0696948ac6392d",
+          "output_png_sha256": "b04bd3f64869f7ed15ba648c7a4dd5564578305a79e80e210b0696948ac6392d",
+          "match": true
+        },
+        {
+          "source_page": 179,
+          "output_page": 2,
+          "source_png_sha256": "2a84a551d1caa30f57fbd61d87c27e8eb012accc024da145d8496321947205ad",
+          "output_png_sha256": "2a84a551d1caa30f57fbd61d87c27e8eb012accc024da145d8496321947205ad",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Maharashtra",
+    "source_state": "Maharashtra",
+    "district": "Satara",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Maharashtra/1981 Satara.pdf",
+    "source_filename": "1981 Satara.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 274,
+    "output": "output/pdf/1981_trimmed/Maharashtra/tehsil appendix/1981_Satara_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      150,
+      151
+    ],
+    "printed_page_labels": [
+      "136",
+      "137"
+    ],
+    "status": "Trimmed",
+    "reason": "Village Directory Appendix I Tahsil-wise abstract of educational, medical and other amenities, printed pages 136-137; source page 152 begins Appendix II.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 150,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              614.4,
+              880.56
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              614.4,
+              880.56
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 151,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              614.4,
+              880.56
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              614.4,
+              880.56
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 150,
+          "output_page": 1,
+          "source_png_sha256": "eb81da888f1dc4c2a78ae6d111b0ced14d607d252270bfacc56e781f3f46897c",
+          "output_png_sha256": "eb81da888f1dc4c2a78ae6d111b0ced14d607d252270bfacc56e781f3f46897c",
+          "match": true
+        },
+        {
+          "source_page": 151,
+          "output_page": 2,
+          "source_png_sha256": "6c7be60eb273b29db0f934aff94424069bf233fea9ab1a741525dc6b137bbfe6",
+          "output_png_sha256": "6c7be60eb273b29db0f934aff94424069bf233fea9ab1a741525dc6b137bbfe6",
+          "match": true
+        }
+      ],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Maharashtra",
+    "source_state": "Maharashtra",
+    "district": "Sholapur",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Maharashtra/1981 Sholapur.pdf",
+    "source_filename": "1981 Sholapur.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 246,
+    "output": "output/pdf/1981_trimmed/Maharashtra/civic amenities/1981_Sholapur_civic_amenities.pdf",
+    "source_pages_selected": [
+      147
+    ],
+    "printed_page_labels": [
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Statement IV Civic and Other Amenities, printed page 132; source page 148 begins Statement IV-A.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 1,
+      "pages": [
+        {
+          "source_page": 147,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              605.52,
+              870.48
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              605.52,
+              870.48
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 147,
+          "output_page": 1,
+          "source_png_sha256": "7ec4b13e0a83bd075f752881b56af4138cf4db7c07c7b7dbc605c5132d675850",
+          "output_png_sha256": "7ec4b13e0a83bd075f752881b56af4138cf4db7c07c7b7dbc605c5132d675850",
+          "match": true
+        }
+      ],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 1,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Maharashtra",
+    "source_state": "Maharashtra",
+    "district": "Sholapur",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Maharashtra/1981 Sholapur.pdf",
+    "source_filename": "1981 Sholapur.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 246,
+    "output": "output/pdf/1981_trimmed/Maharashtra/mededu/1981_Sholapur_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      155,
+      156
+    ],
+    "printed_page_labels": [
+      "140",
+      "141"
+    ],
+    "status": "Trimmed",
+    "reason": "Statement V Medical, Educational, Recreational and Cultural Facilities, printed pages 140-141; source page 157 begins Statement VI.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 155,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              605.52,
+              870.48
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              605.52,
+              870.48
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 156,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              605.52,
+              870.48
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              605.52,
+              870.48
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 155,
+          "output_page": 1,
+          "source_png_sha256": "51ca1c52d30c29ff1460ef33856ea37e9c73bda88e380c33426f9b444d65ccce",
+          "output_png_sha256": "51ca1c52d30c29ff1460ef33856ea37e9c73bda88e380c33426f9b444d65ccce",
+          "match": true
+        },
+        {
+          "source_page": 156,
+          "output_page": 2,
+          "source_png_sha256": "cc95e66271ea8b65c435fadc575b95d610d6821bce9340250af39e5d0422cc31",
+          "output_png_sha256": "cc95e66271ea8b65c435fadc575b95d610d6821bce9340250af39e5d0422cc31",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Maharashtra",
+    "source_state": "Maharashtra",
+    "district": "Sholapur",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Maharashtra/1981 Sholapur.pdf",
+    "source_filename": "1981 Sholapur.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 246,
+    "output": "output/pdf/1981_trimmed/Maharashtra/tehsil appendix/1981_Sholapur_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      121,
+      122
+    ],
+    "printed_page_labels": [
+      null,
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Village Directory Appendix I Tahsil-wise abstract of educational, medical and other amenities, printed pages 106-107; source page 123 begins Appendix II.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 121,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              605.52,
+              870.48
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              605.52,
+              870.48
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 122,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              605.52,
+              870.48
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              605.52,
+              870.48
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 121,
+          "output_page": 1,
+          "source_png_sha256": "567c326a3ea066c4477be1d1b5ad76ded51da33e8da43adc3f9d9bc7f0d959a4",
+          "output_png_sha256": "567c326a3ea066c4477be1d1b5ad76ded51da33e8da43adc3f9d9bc7f0d959a4",
+          "match": true
+        },
+        {
+          "source_page": 122,
+          "output_page": 2,
+          "source_png_sha256": "1777ffd6455fe17075ecab622b2a4dac63070d22e0e08fd4c4304512f4708f51",
+          "output_png_sha256": "1777ffd6455fe17075ecab622b2a4dac63070d22e0e08fd4c4304512f4708f51",
+          "match": true
+        }
+      ],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Maharashtra",
+    "source_state": "Maharashtra",
+    "district": "Thane",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Maharashtra/1981 Thane.pdf",
+    "source_filename": "1981 Thane.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 366,
+    "output": "output/pdf/1981_trimmed/Maharashtra/civic amenities/1981_Thane_civic_amenities.pdf",
+    "source_pages_selected": [
+      201,
+      202,
+      203
+    ],
+    "printed_page_labels": [
+      "192",
+      "10",
+      "194"
+    ],
+    "status": "Trimmed",
+    "reason": "Statement IV Civic and Other Amenities, printed pages 192-194; source page 204 begins Statement IV-A.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 3,
+      "pages": [
+        {
+          "source_page": 201,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              593.28,
+              884.88
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              593.28,
+              884.88
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 202,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              593.28,
+              884.88
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              593.28,
+              884.88
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 203,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              593.28,
+              884.88
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              593.28,
+              884.88
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 201,
+          "output_page": 1,
+          "source_png_sha256": "d6298770a0dc8ff275cc45ad47a275fc97677d44851207cc8c43c4502aba30b6",
+          "output_png_sha256": "d6298770a0dc8ff275cc45ad47a275fc97677d44851207cc8c43c4502aba30b6",
+          "match": true
+        },
+        {
+          "source_page": 202,
+          "output_page": 2,
+          "source_png_sha256": "e922b48d16df123f815dd642c13eef3ed8c644a1bc8a5688eee7c2f57b61a8ed",
+          "output_png_sha256": "e922b48d16df123f815dd642c13eef3ed8c644a1bc8a5688eee7c2f57b61a8ed",
+          "match": true
+        },
+        {
+          "source_page": 203,
+          "output_page": 3,
+          "source_png_sha256": "9859bbf594448725775405690ee470a3f204a4491704cff1a63128632a7333fd",
+          "output_png_sha256": "9859bbf594448725775405690ee470a3f204a4491704cff1a63128632a7333fd",
+          "match": true
+        }
+      ],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 3,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Maharashtra",
+    "source_state": "Maharashtra",
+    "district": "Thane",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Maharashtra/1981 Thane.pdf",
+    "source_filename": "1981 Thane.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 366,
+    "output": "output/pdf/1981_trimmed/Maharashtra/mededu/1981_Thane_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      209,
+      210,
+      211,
+      212,
+      213,
+      214
+    ],
+    "printed_page_labels": [
+      "200",
+      "201",
+      "202",
+      "203",
+      "204",
+      "205"
+    ],
+    "status": "Trimmed",
+    "reason": "Statement V Medical, Educational, Recreational and Cultural Facilities, printed pages 200-205; source page 215 begins Statement VI.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 6,
+      "pages": [
+        {
+          "source_page": 209,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              593.28,
+              884.88
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              593.28,
+              884.88
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 210,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              593.28,
+              884.88
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              593.28,
+              884.88
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 211,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              593.28,
+              884.88
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              593.28,
+              884.88
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 212,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              593.28,
+              884.88
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              593.28,
+              884.88
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 213,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              593.28,
+              884.88
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              593.28,
+              884.88
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 214,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              593.28,
+              884.88
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              593.28,
+              884.88
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 209,
+          "output_page": 1,
+          "source_png_sha256": "b85fa9d16f913253e1de8a2150d86cbac8bac5908668c52d4fa3630f68426734",
+          "output_png_sha256": "b85fa9d16f913253e1de8a2150d86cbac8bac5908668c52d4fa3630f68426734",
+          "match": true
+        },
+        {
+          "source_page": 210,
+          "output_page": 2,
+          "source_png_sha256": "49c1c6225e8b71e450ab172aa61c8ea687efae019dcf7d9dd719507ebe647b6a",
+          "output_png_sha256": "49c1c6225e8b71e450ab172aa61c8ea687efae019dcf7d9dd719507ebe647b6a",
+          "match": true
+        },
+        {
+          "source_page": 211,
+          "output_page": 3,
+          "source_png_sha256": "3dcb53f32d43da70ef9e82086df5a4c1126c3381b526fed5fcd446b36c997ad0",
+          "output_png_sha256": "3dcb53f32d43da70ef9e82086df5a4c1126c3381b526fed5fcd446b36c997ad0",
+          "match": true
+        },
+        {
+          "source_page": 212,
+          "output_page": 4,
+          "source_png_sha256": "2276621496c53bc85471d01e2b82ffd99f113d4fa77e4ac448f301ca68a1edfc",
+          "output_png_sha256": "2276621496c53bc85471d01e2b82ffd99f113d4fa77e4ac448f301ca68a1edfc",
+          "match": true
+        },
+        {
+          "source_page": 213,
+          "output_page": 5,
+          "source_png_sha256": "5a6eafcd6dd489862cd90ff0fc2bf502d70f4fb4d9affc5a3e5b10fbec8c1c49",
+          "output_png_sha256": "5a6eafcd6dd489862cd90ff0fc2bf502d70f4fb4d9affc5a3e5b10fbec8c1c49",
+          "match": true
+        },
+        {
+          "source_page": 214,
+          "output_page": 6,
+          "source_png_sha256": "dd5a6fcd3996fd22fa08ebc258334047f95b87d0d26ea13b145f9f1e6de44920",
+          "output_png_sha256": "dd5a6fcd3996fd22fa08ebc258334047f95b87d0d26ea13b145f9f1e6de44920",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 6,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Maharashtra",
+    "source_state": "Maharashtra",
+    "district": "Thane",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Maharashtra/1981 Thane.pdf",
+    "source_filename": "1981 Thane.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 366,
+    "output": "output/pdf/1981_trimmed/Maharashtra/tehsil appendix/1981_Thane_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      167,
+      168
+    ],
+    "printed_page_labels": [
+      null,
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Village Directory Appendix I Tahsil-wise abstract of educational, medical and other amenities, printed pages 158-159; source page 169 begins Appendix II.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 167,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              593.28,
+              884.88
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              593.28,
+              884.88
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 168,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              593.28,
+              884.88
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              593.28,
+              884.88
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 167,
+          "output_page": 1,
+          "source_png_sha256": "2c06fe8ee66e2dff1b1b90962dc03ffbd5b137906507170ea0cfeb7560fb3bcc",
+          "output_png_sha256": "2c06fe8ee66e2dff1b1b90962dc03ffbd5b137906507170ea0cfeb7560fb3bcc",
+          "match": true
+        },
+        {
+          "source_page": 168,
+          "output_page": 2,
+          "source_png_sha256": "25ca3855cd20f95bad406a052591143e0ced78ffea518265fe6712b6af591014",
+          "output_png_sha256": "25ca3855cd20f95bad406a052591143e0ced78ffea518265fe6712b6af591014",
+          "match": true
+        }
+      ],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Maharashtra",
+    "source_state": "Maharashtra",
+    "district": "Wardha",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Maharashtra/1981 Wardha.pdf",
+    "source_filename": "1981 Wardha.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 206,
+    "output": "output/pdf/1981_trimmed/Maharashtra/civic amenities/1981_Wardha_civic_amenities.pdf",
+    "source_pages_selected": [
+      132
+    ],
+    "printed_page_labels": [
+      "119"
+    ],
+    "status": "Trimmed",
+    "reason": "Statement IV Civic and Other Amenities, printed page 119; the same full source page also contains Statement IV-A below it, and source page 133 begins Statement V.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 1,
+      "pages": [
+        {
+          "source_page": 132,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              556.32,
+              868.56
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              556.32,
+              868.56
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 132,
+          "output_page": 1,
+          "source_png_sha256": "0847dcc257fbbc198024ef51691993ad50b321579cd590cad707450c06ab32d0",
+          "output_png_sha256": "0847dcc257fbbc198024ef51691993ad50b321579cd590cad707450c06ab32d0",
+          "match": true
+        }
+      ],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 1,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Maharashtra",
+    "source_state": "Maharashtra",
+    "district": "Wardha",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Maharashtra/1981 Wardha.pdf",
+    "source_filename": "1981 Wardha.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 206,
+    "output": "output/pdf/1981_trimmed/Maharashtra/mededu/1981_Wardha_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      133,
+      134
+    ],
+    "printed_page_labels": [
+      "120",
+      "1979"
+    ],
+    "status": "Trimmed",
+    "reason": "Statement V Medical, Educational, Recreational and Cultural Facilities, printed pages 120-121; source page 135 begins Statement VI.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 133,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              556.32,
+              868.56
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              556.32,
+              868.56
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 134,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              556.32,
+              868.56
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              556.32,
+              868.56
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 133,
+          "output_page": 1,
+          "source_png_sha256": "4254b13760512eb11491c7adbd8c71ee572d8b302ecf6f3d90d6349c253dbb9c",
+          "output_png_sha256": "4254b13760512eb11491c7adbd8c71ee572d8b302ecf6f3d90d6349c253dbb9c",
+          "match": true
+        },
+        {
+          "source_page": 134,
+          "output_page": 2,
+          "source_png_sha256": "456802eb7cd4152719f2638c45873f70b3336bd97da1ff3b74139ea1841305d2",
+          "output_png_sha256": "456802eb7cd4152719f2638c45873f70b3336bd97da1ff3b74139ea1841305d2",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Maharashtra",
+    "source_state": "Maharashtra",
+    "district": "Wardha",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Maharashtra/1981 Wardha.pdf",
+    "source_filename": "1981 Wardha.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 206,
+    "output": "output/pdf/1981_trimmed/Maharashtra/tehsil appendix/1981_Wardha_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      113,
+      114
+    ],
+    "printed_page_labels": [
+      null,
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Village Directory Appendix I Tahsil-wise abstract of educational, medical and other amenities, printed pages 100-101; source page 115 begins the next appendix.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 113,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              556.32,
+              868.56
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              556.32,
+              868.56
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 114,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              556.32,
+              868.56
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              556.32,
+              868.56
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 113,
+          "output_page": 1,
+          "source_png_sha256": "69112b9d26e98af8e1f5f32b03c2af63eb60536369e9b19b2aa4751cbe9780cf",
+          "output_png_sha256": "69112b9d26e98af8e1f5f32b03c2af63eb60536369e9b19b2aa4751cbe9780cf",
+          "match": true
+        },
+        {
+          "source_page": 114,
+          "output_page": 2,
+          "source_png_sha256": "4bdedc3b55e5b97d98ebc659598d6625bc3f0e3292602f6a83a228d5325f69ba",
+          "output_png_sha256": "4bdedc3b55e5b97d98ebc659598d6625bc3f0e3292602f6a83a228d5325f69ba",
+          "match": true
+        }
+      ],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Maharashtra",
+    "source_state": "Maharashtra",
+    "district": "Yavatmal",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Maharashtra/1981 Yavatmal.pdf",
+    "source_filename": "1981 Yavatmal.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 296,
+    "output": "output/pdf/1981_trimmed/Maharashtra/civic amenities/1981_Yavatmal_civic_amenities.pdf",
+    "source_pages_selected": [
+      187
+    ],
+    "printed_page_labels": [
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Statement IV Civic and Other Amenities, printed page 176; source page 188 begins Statement IV-A.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 1,
+      "pages": [
+        {
+          "source_page": 187,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              607.2,
+              885.36
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              607.2,
+              885.36
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 187,
+          "output_page": 1,
+          "source_png_sha256": "2d6b859349d05d2edd0ce0fa0644cab94ec22108d7399d6e5fedc8ab9aa1aeeb",
+          "output_png_sha256": "2d6b859349d05d2edd0ce0fa0644cab94ec22108d7399d6e5fedc8ab9aa1aeeb",
+          "match": true
+        }
+      ],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 1,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Maharashtra",
+    "source_state": "Maharashtra",
+    "district": "Yavatmal",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Maharashtra/1981 Yavatmal.pdf",
+    "source_filename": "1981 Yavatmal.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 296,
+    "output": "output/pdf/1981_trimmed/Maharashtra/mededu/1981_Yavatmal_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      189,
+      190
+    ],
+    "printed_page_labels": [
+      "178",
+      "179"
+    ],
+    "status": "Trimmed",
+    "reason": "Statement V Medical, Educational, Recreational and Cultural Facilities, printed pages 178-179; source page 191 begins Statement VI.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 189,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              607.2,
+              885.36
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              607.2,
+              885.36
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 190,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              607.2,
+              885.36
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              607.2,
+              885.36
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 189,
+          "output_page": 1,
+          "source_png_sha256": "5ba7f094e4ae58c3ec2b29d47862c6b330bd13cd60239b45c0b823f3950d48de",
+          "output_png_sha256": "5ba7f094e4ae58c3ec2b29d47862c6b330bd13cd60239b45c0b823f3950d48de",
+          "match": true
+        },
+        {
+          "source_page": 190,
+          "output_page": 2,
+          "source_png_sha256": "c07f0ee9506b2ed56a2f01828264afd7ba598965a367f66f1cce2a19901083ea",
+          "output_png_sha256": "c07f0ee9506b2ed56a2f01828264afd7ba598965a367f66f1cce2a19901083ea",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Maharashtra",
+    "source_state": "Maharashtra",
+    "district": "Yavatmal",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Maharashtra/1981 Yavatmal.pdf",
+    "source_filename": "1981 Yavatmal.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 296,
+    "output": "output/pdf/1981_trimmed/Maharashtra/tehsil appendix/1981_Yavatmal_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      151,
+      152
+    ],
+    "printed_page_labels": [
+      "140",
+      "141"
+    ],
+    "status": "Trimmed",
+    "reason": "Village Directory Appendix I Tahsil-wise abstract of educational, medical and other amenities, printed pages 140-141; source page 153 begins Appendix II.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 151,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              607.2,
+              885.36
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              607.2,
+              885.36
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 152,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              607.2,
+              885.36
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              607.2,
+              885.36
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 151,
+          "output_page": 1,
+          "source_png_sha256": "a4afff0f04766e766546cf0d8499cea6d6837e531a5987216880a9bedd77066d",
+          "output_png_sha256": "a4afff0f04766e766546cf0d8499cea6d6837e531a5987216880a9bedd77066d",
+          "match": true
+        },
+        {
+          "source_page": 152,
+          "output_page": 2,
+          "source_png_sha256": "80d21eef1a0a1b47cf6b54b8b075aeab1211c642c686f9ded7cddfb4e8ee3d4d",
+          "output_png_sha256": "80d21eef1a0a1b47cf6b54b8b075aeab1211c642c686f9ded7cddfb4e8ee3d4d",
+          "match": true
+        }
+      ],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  }
+]

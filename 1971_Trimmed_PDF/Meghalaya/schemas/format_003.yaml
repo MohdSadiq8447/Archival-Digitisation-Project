@@ -1,0 +1,134 @@
+format_id: format_003
+name: Tehsil Appendix
+category: Tehsil Appendix
+pdfs:
+- filenames:
+  - U.K. & J. Hills_tehsil_1971.pdf
+  pagination:
+    page_1_columns:
+    - 1
+    - 21
+    page_2_columns:
+    - 22
+    - 40
+columns:
+- number: 1
+  name: Name of Taluk/Police station
+  variable_name: taluk_police_station_name
+- number: 2
+  name: No. of villages having Primary Schools
+  variable_name: primary_schools_villages
+- number: 3
+  name: No. of Primary Schools
+  variable_name: primary_schools
+- number: 4
+  name: No. of villages having Middle Schools
+  variable_name: middle_schools_villages
+- number: 5
+  name: No. of Middle Schools
+  variable_name: middle_schools
+- number: 6
+  name: No. of villages having Secondary or Higher Secondary Schools
+  variable_name: higher_secondary_schools_villages
+- number: 7
+  name: No. of Secondary or Higher Secondary Schools
+  variable_name: higher_secondary_schools
+- number: 8
+  name: No. of villages having Colleges
+  variable_name: colleges_villages
+- number: 9
+  name: No. of Colleges
+  variable_name: colleges
+- number: 10
+  name: No. of villages having other educational institutions
+  variable_name: other_educational_institutions_villages
+- number: 11
+  name: No. of other educational institutions
+  variable_name: other_educational_institutions
+- number: 12
+  name: No. of villages having Dispensaries
+  variable_name: dispensaries_villages
+- number: 13
+  name: No. of Dispensaries
+  variable_name: dispensaries
+- number: 14
+  name: No. of villages having Hospitals
+  variable_name: hospitals_villages
+- number: 15
+  name: No. of Hospitals
+  variable_name: hospitals
+- number: 16
+  name: No. of villages having Maternity and Child Welfare Centres
+  variable_name: maternity_child_welfare_centres_villages
+- number: 17
+  name: No. of Maternity and Child Welfare Centres
+  variable_name: maternity_child_welfare_centres
+- number: 18
+  name: No. of villages having Health Centres
+  variable_name: health_centres_villages
+- number: 19
+  name: No. of Health Centres
+  variable_name: health_centres
+- number: 20
+  name: No. of villages having Family Planning Centres
+  variable_name: family_planning_centres_villages
+- number: 21
+  name: No. of Family Planning Centres
+  variable_name: family_planning_centres
+- number: 22
+  name: Power supply - Available villages
+  variable_name: power_available_villages
+- number: 23
+  name: Power supply - Not Available villages
+  variable_name: power_not_available_villages
+- number: 24
+  name: Number of villages having Tap drinking water
+  variable_name: tap_water_villages
+- number: 25
+  name: Number of villages having Well drinking water
+  variable_name: well_water_villages
+- number: 26
+  name: Number of villages having Tank drinking water
+  variable_name: tank_water_villages
+- number: 27
+  name: Number of villages having Tube-Well drinking water
+  variable_name: tube_well_water_villages
+- number: 28
+  name: Number of villages having River drinking water
+  variable_name: river_water_villages
+- number: 29
+  name: Number of villages having Fountain drinking water
+  variable_name: fountain_water_villages
+- number: 30
+  name: Number of villages having Canals drinking water
+  variable_name: canal_water_villages
+- number: 31
+  name: Number of villages having Others drinking water
+  variable_name: other_water_villages
+- number: 32
+  name: Number of villages having Pucca Road
+  variable_name: pucca_road_villages
+- number: 33
+  name: Number of villages having Kutcha Road
+  variable_name: kutcha_road_villages
+- number: 34
+  name: No. of villages having Post Offices
+  variable_name: post_offices_villages
+- number: 35
+  name: No. of Post Offices
+  variable_name: post_offices
+- number: 36
+  name: No. of villages having Telegraph Offices
+  variable_name: telegraph_offices_villages
+- number: 37
+  name: No. of Telegraph Offices
+  variable_name: telegraph_offices
+- number: 38
+  name: No. of villages having Post and Telegraph Offices
+  variable_name: post_telegraph_offices_villages
+- number: 39
+  name: No. of Post and Telegraph Offices
+  variable_name: post_telegraph_offices
+- number: 40
+  name: Number of villages having Telephone connection
+  variable_name: telephone_villages

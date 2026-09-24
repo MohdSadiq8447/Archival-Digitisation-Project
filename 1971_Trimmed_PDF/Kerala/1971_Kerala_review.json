@@ -1,0 +1,13 @@
+[
+  {
+    "source": "1971 Ernakulam.pdf",
+    "status": "skipped",
+    "reason": "Part X-C Census Tables volume; no Town and Village Directory Statement IV/V or Taluk-wise amenities abstract found."
+  },
+  {
+    "source": "1971 Idikki.pdf",
+    "table": "tehsil_appendix",
+    "status": "skipped",
+    "reason": "The Idikki handbook contains Statement IV on source p. 22 and Statement V on source p. 23, but no separate taluk-wise aggregate amenities appendix; the Village Directory pages are per-village tables."
+  }
+]

@@ -4,6 +4,7 @@ Extracts individual row bands without assuming fixed row counts.
 """
 
 from dataclasses import dataclass
+from statistics import median
 from typing import List, Tuple
 
 import numpy as np
@@ -143,6 +144,7 @@ class RowSegmenter:
         boundary: TableBoundary,
         serial_x_range: Tuple[int, int],
         name_x_range: Tuple[int, int],
+        allow_damaged_serial: bool = False,
     ) -> List[RowCrop]:
         """Build logical parent bands from serial/name baselines for every format."""
         import re
@@ -190,6 +192,23 @@ class RowSegmenter:
             ).strip()
             lowered = combined.casefold()
             normalized = " ".join(re.findall(r"[a-z0-9]+", lowered))
+            full_line_text = " ".join(
+                str(word["text"])
+                for word in sorted(
+                    page.pdf_words,
+                    key=lambda item: (item["bbox"][0] + item["bbox"][2]) / 2,
+                )
+                if body_x0
+                <= (word["bbox"][0] + word["bbox"][2]) / 2
+                <= body_x1
+                and abs(
+                    (word["bbox"][1] + word["bbox"][3]) / 2 - center
+                )
+                <= tolerance
+            )
+            full_normalized = " ".join(
+                re.findall(r"[a-z0-9]+", full_line_text.casefold())
+            )
             if re.search(
                 r"\bnotes?\b|\bdenotes?\b|\bsource\b|\bbanking\b|"
                 r"\bcultural\s+facilit|\bco\s*mmunications?\b|\bcommunications?\b|"
@@ -202,26 +221,72 @@ class RowSegmenter:
                 stop_y = min(float(item[2]["bbox"][1]) for item in group)
                 break
             if re.search(
-                r"\bsl\.?\s*(?:no\.?)?\b|\bname\s+of\s+(?:town|tahsil)\b",
+                r"\b(?:sl|si|s1)\.?(?:\s*no\.?)?(?:\s|$)|"
+                r"\bname\s+of\s+(?:town|tahsil)\b",
                 lowered,
             ):
                 stop_y = min(float(item[2]["bbox"][1]) for item in group)
                 break
+            serial_mark = bool(serial_text.strip()) and bool(
+                re.fullmatch(
+                    r"\s*(?:\d+|i?\(?[ivxlcdm]+\)?[.)]?)\s*",
+                    serial_text,
+                    re.IGNORECASE,
+                )
+            )
+            compact_serial = re.sub(r"\s+", "", serial_text)
+            serial_letters = re.sub(r"[^a-z]", "", compact_serial.casefold())
+            damaged_serial_mark = bool(
+                allow_damaged_serial
+                and compact_serial
+                and len(compact_serial) <= 4
+                and re.search(r"[A-Za-z]", name_text)
+                and serial_letters not in {"rly", "railway"}
+            )
+            serial_with_spilled_name = bool(
+                not name_text
+                and re.match(r"\s*\d+\s+[A-Za-z]", serial_text)
+            )
+            serial_mark = serial_mark or damaged_serial_mark or serial_with_spilled_name
             identity_text = name_text or combined
-            if not re.search(r"[A-Za-z]", identity_text):
+            # A damaged text layer may omit a town/tahsil name while retaining its
+            # serial. The serial baseline is still authoritative row evidence and
+            # prevents the following identity from absorbing that printed row.
+            if not serial_mark and not re.search(r"[A-Za-z]", identity_text):
                 continue
             letters = re.sub(r"[^A-Za-z]", "", identity_text)
             all_upper = bool(letters) and letters == letters.upper()
-            serial_mark = bool(serial_text.strip())
             identity_heading = bool(
                 re.search(
-                    r"\bdistrict\s+total\b|\burban\s+agglomeration\b",
-                    combined,
+                    r"\bdistrict\s+total\b|\burban\s+agglomeration\b|"
+                    r"\bcity\s+ur[a-z0-9]+\b",
+                    full_normalized,
                     re.I,
                 )
                 or (all_upper and len(letters) >= 6)
             )
-            large_gap = bool(starts) and center - starts[-1][1] >= max(50, page.dpi // 5)
+            large_gap = bool(
+                starts
+                and re.search(r"[A-Za-z]", name_text)
+                and center - starts[-1][1] >= max(50, page.dpi // 5)
+            )
+            wrapped_identity_tail = normalized in {
+                "agglomeration",
+                "university",
+                "rly settlement",
+                "railway settlement",
+                "rly colony",
+                "railway colony",
+            } or (
+                normalized.replace(" ", "").startswith("agglom")
+                and normalized.replace(" ", "").endswith("tion")
+            )
+            if wrapped_identity_tail and starts and not compact_serial:
+                content_bottoms[-1] = max(
+                    content_bottoms[-1],
+                    max(float(item[2]["bbox"][3]) for item in group),
+                )
+                continue
             if not starts or serial_mark or identity_heading or large_gap:
                 line_top = min(float(item[2]["bbox"][1]) for item in group)
                 starts.append((line_top, center))
@@ -235,6 +300,20 @@ class RowSegmenter:
 
         if not starts:
             return []
+        # OCR text layers occasionally place a serial and its town name on two
+        # baselines only a few pixels apart. Treat them as one authoritative row
+        # start instead of emitting a zero-height ghost parent between them.
+        collapsed_starts: List[Tuple[float, float]] = []
+        collapsed_bottoms: List[float] = []
+        minimum_start_gap = max(12, round(page.dpi * 0.08))
+        for start, bottom in zip(starts, content_bottoms, strict=True):
+            if collapsed_starts and start[1] - collapsed_starts[-1][1] < minimum_start_gap:
+                collapsed_bottoms[-1] = max(collapsed_bottoms[-1], bottom)
+            else:
+                collapsed_starts.append(start)
+                collapsed_bottoms.append(bottom)
+        starts = collapsed_starts
+        content_bottoms = collapsed_bottoms
         typical_height = median(heights) if heights else max(14, page.dpi / 8)
         top_offset = max(8, round(typical_height * 0.48))
         rows: List[RowCrop] = []
@@ -301,6 +380,105 @@ class RowSegmenter:
                     height_px=y1 - y0,
                     width_px=x1 - x0,
                     source="identity_columns",
+                )
+            )
+        return rows
+
+    def segment_parent_rows_from_identity_raster(
+        self,
+        page: RenderedPage,
+        boundary: TableBoundary,
+        serial_x_range: Tuple[int, int],
+    ) -> List[RowCrop]:
+        """Recover parent bands from printed serial marks when hidden text is partial."""
+        body_x0, body_y0, body_x1, body_y1 = boundary.body_bbox
+        serial_x0 = max(body_x0, serial_x_range[0])
+        serial_x1 = min(body_x1, serial_x_range[1])
+        if serial_x1 <= serial_x0 or body_y1 <= body_y0:
+            return []
+        pixels = np.asarray(
+            page.image.crop((serial_x0, body_y0, serial_x1, body_y1)).convert("L")
+        )
+        dark = pixels < 170
+        projection = dark.sum(axis=1)
+        active = projection >= max(2, round((serial_x1 - serial_x0) * 0.018))
+        raw: List[Tuple[int, int]] = []
+        start: int | None = None
+        for y, value in enumerate(active):
+            if bool(value) and start is None:
+                start = y
+            elif not bool(value) and start is not None:
+                if 3 <= y - start <= max(60, round(page.dpi * 0.2)):
+                    raw.append((start, y - 1))
+                start = None
+        if start is not None and 3 <= len(active) - start <= max(60, round(page.dpi * 0.2)):
+            raw.append((start, len(active) - 1))
+        merged: List[Tuple[int, int]] = []
+        merge_gap = max(4, round(page.dpi * 0.025))
+        for band in raw:
+            if merged and band[0] - merged[-1][1] <= merge_gap:
+                merged[-1] = (merged[-1][0], band[1])
+            else:
+                merged.append(band)
+        centers: List[float] = []
+        for y0, y1 in merged:
+            region = dark[y0 : y1 + 1]
+            columns = np.flatnonzero(region.any(axis=0))
+            ink = int(region.sum())
+            if not len(columns) or ink < 8:
+                continue
+            width = int(columns[-1] - columns[0] + 1)
+            height = y1 - y0 + 1
+            if width < 2 or width > (serial_x1 - serial_x0) * 0.8:
+                continue
+            if height > max(55, page.dpi * 0.18):
+                continue
+            centers.append(body_y0 + (y0 + y1) / 2)
+        if not centers:
+            return []
+        minimum_gap = max(20, round(page.dpi * 0.09))
+        filtered: List[float] = []
+        for center in centers:
+            if not filtered or center - filtered[-1] >= minimum_gap:
+                filtered.append(center)
+            else:
+                filtered[-1] = (filtered[-1] + center) / 2
+        if not filtered:
+            return []
+        spacings = [
+            right - left for left, right in zip(filtered, filtered[1:], strict=False)
+        ]
+        typical = median(spacings) if spacings else max(60.0, page.dpi * 0.35)
+        rows: List[RowCrop] = []
+        for index, center in enumerate(filtered):
+            y0 = (
+                max(body_y0, round(center - typical * 0.32))
+                if index == 0
+                else round((filtered[index - 1] + center) / 2)
+            )
+            y1 = (
+                min(body_y1, round(center + typical * 0.62))
+                if index == len(filtered) - 1
+                else round((center + filtered[index + 1]) / 2)
+            )
+            if y1 <= y0:
+                continue
+            bbox = (
+                max(0, body_x0 - self.crop_padding),
+                y0,
+                min(page.width, body_x1 + self.crop_padding),
+                y1,
+            )
+            rows.append(
+                RowCrop(
+                    row_index=len(rows),
+                    page_number=page.page_number,
+                    bbox=bbox,
+                    y_normalized=(center - body_y0) / max(1, body_y1 - body_y0),
+                    image_crop=page.image.crop(bbox),
+                    height_px=y1 - y0,
+                    width_px=bbox[2] - bbox[0],
+                    source="raster_serial_identity",
                 )
             )
         return rows
@@ -747,15 +925,18 @@ class RowSegmenter:
             wx0, wy0, wx1, wy1 = word["bbox"]
             if wx1 < anchor_x0 or wx0 > anchor_x1 or wy1 < parent_y0 or wy0 > parent_y1:
                 continue
-            if not re.search(r"[A-Za-z0-9]", str(word["text"])):
+            raw_text = str(word["text"])
+            if not re.search(r"[A-Za-z0-9]", raw_text) and not re.fullmatch(
+                r"\s*[-–—.·…]{1,}\s*", raw_text
+            ):
                 continue
             center = (wy0 + wy1) / 2
             if parent_y0 <= center <= parent_y1:
-                positioned_words.append((center, (wx0 + wx1) / 2, str(word["text"])))
+                positioned_words.append((center, (wx0 + wx1) / 2, raw_text))
         if not positioned_words:
             return []
         positioned_words.sort(key=lambda item: (item[0], item[1]))
-        tolerance = max(4, page.dpi // 60)
+        tolerance = max(6, page.dpi // 50)
         groups: List[List[Tuple[float, float, str]]] = [[positioned_words[0]]]
         for item in positioned_words[1:]:
             center = item[0]
@@ -765,13 +946,26 @@ class RowSegmenter:
             else:
                 groups.append([item])
         code_pattern = re.compile(
-            r"(?:see|nil|[-–—.·…]+|\d+|\*?\s*[^(){}\[\]\s]+\s*[({\[]\s*[^(){}\[\]\s]+\s*[)}\]])",
+            r"(?:see|nil|[-–—.·…]+|\d+|"
+            r"\*?\s*[^(){}\[\]\s]+\s*[({\[]\s*[^(){}\[\]\s]+\s*[)}\]]|"
+            # Native text in degraded scans can lose the opening parenthesis or
+            # turn its digit into a letter (for example ``H(2)`` -> ``HP)``).
+            # A short token ending in a closing delimiter is still strong child-
+            # row evidence inside the hierarchy anchor column.
+            r"\*?[a-z][a-z0-9.:;!|]{0,7}[)}\]])",
             re.IGNORECASE,
         )
         candidates: List[float] = []
         for group in groups:
             text = " ".join(value[2] for value in sorted(group, key=lambda value: value[1])).strip()
-            if code_pattern.fullmatch(text):
+            normalized = " ".join(re.findall(r"[a-z0-9]+", text.casefold()))
+            if "agglomeration" in normalized:
+                continue
+            malformed_code = bool(
+                re.search(r"^\s*\*?[a-z]{1,5}\b.*[)}\]]", text, re.I)
+                or re.search(r"^\s*se\S*", text, re.I)
+            )
+            if code_pattern.search(text) or malformed_code:
                 candidates.append(sum(value[0] for value in group) / len(group))
         if candidates:
             return candidates

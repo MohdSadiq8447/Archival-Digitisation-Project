@@ -14,7 +14,11 @@ venv/
 build/
 dist/
 .tmp-*/
+scratch/
+/env
 1971_Trimmed_PDF/Uttar_Pradesh/outputs/runs/
 1971_Trimmed_PDF/Uttar_Pradesh/outputs/cache/
 1971_Trimmed_PDF/Uttar_Pradesh/outputs/postprocessed/
+1971_Trimmed_PDF/Uttar_Pradesh/outputs/workflows/
+1971_Trimmed_PDF/tmp/
 data/Census_*.xlsx

@@ -1,0 +1,167 @@
+format_id: format_003
+name: Tehsil Appendix
+category: Tehsil Appendix
+pdfs:
+- filenames:
+  - Ahmadabad_tehsil_1971.pdf
+  - Amreli_tehsil_1971.pdf
+  - Banas_Kantha_tehsil_1971.pdf
+  - Bharuch_tehsil_1971.pdf
+  - Bhavnagar_tehsil_1971.pdf
+  - Gandhinagar_tehsil_1971.pdf
+  - Jamnagar_tehsil_1971.pdf
+  - Kheda_tehsil_1971.pdf
+  - Kutch_tehsil_1971.pdf
+  - Mahesana_tehsil_1971.pdf
+  - Rajkot_tehsil_1971.pdf
+  - Sabar_Kantha_tehsil_1971.pdf
+  - Surat_tehsil_1971.pdf
+  - Surendranagar_tehsil_1971.pdf
+  - Vadodara_tehsil_1971.pdf
+  - Valsad_tehsil_1971.pdf
+  pagination:
+    page_1_columns:
+    - 1
+    - 22
+    page_2_columns:
+    - 23
+    - 44
+- filenames:
+  - Panch_Mahals_tehsil_1971.pdf
+  pagination:
+    page_1_columns:
+    - 1
+    - 22
+columns:
+- number: 1
+  name: Sl. No.
+  variable_name: sl_no
+- number: 2
+  name: Name of Taluka/Mahal
+  variable_name: taluka_mahal_name
+- number: 3
+  name: No. of Villages having Primary Schools
+  variable_name: primary_school_villages
+- number: 4
+  name: No. of Primary Schools
+  variable_name: primary_schools
+- number: 5
+  name: No. of Villages having Middle Schools
+  variable_name: middle_school_villages
+- number: 6
+  name: No. of Middle Schools
+  variable_name: middle_schools
+- number: 7
+  name: No. of Villages having Higher Secondary Schools
+  variable_name: higher_secondary_school_villages
+- number: 8
+  name: No. of Higher Secondary Schools
+  variable_name: higher_secondary_schools
+- number: 9
+  name: No. of Villages having Colleges
+  variable_name: college_villages
+- number: 10
+  name: No. of Colleges
+  variable_name: colleges
+- number: 11
+  name: No. of Villages having Other Educational Institutions
+  variable_name: other_educational_institution_villages
+- number: 12
+  name: No. of Other Educational Institutions
+  variable_name: other_educational_institutions
+- number: 13
+  name: No. of Villages having Dispensaries
+  variable_name: dispensary_villages
+- number: 14
+  name: No. of Dispensaries
+  variable_name: dispensaries
+- number: 15
+  name: No. of Villages having Hospitals
+  variable_name: hospital_villages
+- number: 16
+  name: No. of Hospitals
+  variable_name: hospitals
+- number: 17
+  name: No. of Villages having Maternity Homes
+  variable_name: maternity_home_villages
+- number: 18
+  name: No. of Maternity Homes
+  variable_name: maternity_homes
+- number: 19
+  name: No. of Villages having Child Welfare Centres
+  variable_name: child_welfare_centre_villages
+- number: 20
+  name: No. of Child Welfare Centres
+  variable_name: child_welfare_centres
+- number: 21
+  name: No. of Villages having Health Centres
+  variable_name: health_centre_villages
+- number: 22
+  name: No. of Health Centres
+  variable_name: health_centres
+- number: 23
+  name: No. of Villages having Family Planning Centres
+  variable_name: family_planning_centre_villages
+- number: 24
+  name: No. of Family Planning Centres
+  variable_name: family_planning_centres
+- number: 25
+  name: No. of Villages where Power Supply is Available
+  variable_name: power_available_villages
+- number: 26
+  name: No. of Villages where Power Supply is Not Available
+  variable_name: power_not_available_villages
+- number: 27
+  name: No. of Villages having Tap Water
+  variable_name: tap_water_villages
+- number: 28
+  name: No. of Villages having Well Water
+  variable_name: well_water_villages
+- number: 29
+  name: No. of Villages having Tank Water
+  variable_name: tank_water_villages
+- number: 30
+  name: No. of Villages having Tube-well Water
+  variable_name: tube_well_water_villages
+- number: 31
+  name: No. of Villages having River Water
+  variable_name: river_water_villages
+- number: 32
+  name: No. of Villages having Fountain Water
+  variable_name: fountain_water_villages
+- number: 33
+  name: No. of Villages having Canal Water
+  variable_name: canal_water_villages
+- number: 34
+  name: No. of Villages having Other Drinking-Water Sources
+  variable_name: other_water_villages
+- number: 35
+  name: No. of Villages where Drinking Water is Not Available
+  variable_name: water_not_available_villages
+- number: 36
+  name: No. of Villages having Pucca Roads
+  variable_name: pucca_road_villages
+- number: 37
+  name: No. of Villages having Kutcha Roads
+  variable_name: kutcha_road_villages
+- number: 38
+  name: No. of Villages having Post Offices
+  variable_name: post_office_villages
+- number: 39
+  name: No. of Post Offices
+  variable_name: post_offices
+- number: 40
+  name: No. of Villages having Telegraph Offices
+  variable_name: telegraph_office_villages
+- number: 41
+  name: No. of Telegraph Offices
+  variable_name: telegraph_offices
+- number: 42
+  name: No. of Villages having Post and Telegraph Offices
+  variable_name: post_and_telegraph_office_villages
+- number: 43
+  name: No. of Post and Telegraph Offices
+  variable_name: post_and_telegraph_offices
+- number: 44
+  name: No. of Villages having Telephones
+  variable_name: telephone_villages

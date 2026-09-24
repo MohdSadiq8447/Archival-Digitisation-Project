@@ -1,0 +1,118 @@
+format_id: format_003
+name: Tehsil Appendix
+category: Tehsil Appendix
+pdfs:
+- filenames:
+  - Kameng_tehsil_1971.pdf
+  - Tirap_tehsil_1971.pdf
+  pagination:
+    page_1_columns:
+    - 1
+    - 17
+    page_2_columns:
+    - 18
+    - 28
+- filenames:
+  - Lohit_tehsil_1971.pdf
+  - Subansiri_tehsil_1971.pdf
+  pagination:
+    page_1_columns:
+    - 1
+    - 12
+    page_2_columns:
+    - 13
+    - 28
+- filenames:
+  - Siang_tehsil_1971.pdf
+  pagination:
+    page_1_columns:
+    - 1
+    - 16
+    page_2_columns:
+    - 17
+    - 28
+columns:
+- number: 1
+  name: Serial Number
+  variable_name: sl_no
+- number: 2
+  name: Name of District/Subdivision/Circle
+  variable_name: district_subdivision_circle
+- number: 3
+  name: Villages having Junior Basic Schools
+  variable_name: junior_basic_villages
+- number: 4
+  name: Junior Basic Schools
+  variable_name: junior_basic_schools
+- number: 5
+  name: Villages having Middle Schools
+  variable_name: middle_school_villages
+- number: 6
+  name: Middle Schools
+  variable_name: middle_schools
+- number: 7
+  name: Villages having Higher Secondary/High Schools
+  variable_name: higher_secondary_villages
+- number: 8
+  name: Higher Secondary/High Schools
+  variable_name: higher_secondary_schools
+- number: 9
+  name: Villages having Colleges
+  variable_name: college_villages
+- number: 10
+  name: Colleges
+  variable_name: colleges
+- number: 11
+  name: Villages having Other Educational Institutions
+  variable_name: other_education_villages
+- number: 12
+  name: Other Educational Institutions
+  variable_name: other_educational_institutions
+- number: 13
+  name: Villages having Dispensaries
+  variable_name: dispensary_villages
+- number: 14
+  name: Dispensaries
+  variable_name: dispensaries
+- number: 15
+  name: Villages having Hospitals
+  variable_name: hospital_villages
+- number: 16
+  name: Hospitals
+  variable_name: hospitals
+- number: 17
+  name: First Aid/Veterinary Centres, including mobile units
+  variable_name: first_aid_veterinary_centres
+- number: 18
+  name: Villages with Power Supply Available
+  variable_name: power_available_villages
+- number: 19
+  name: Villages with Power Supply Not Available
+  variable_name: power_not_available_villages
+- number: 20
+  name: Villages having Tap Water
+  variable_name: tap_water_villages
+- number: 21
+  name: Villages having Wells
+  variable_name: well_water_villages
+- number: 22
+  name: Villages having Other Drinking-Water Sources
+  variable_name: other_water_villages
+- number: 23
+  name: Villages having Pucca Roads
+  variable_name: pucca_road_villages
+- number: 24
+  name: Villages having Kutcha Roads
+  variable_name: kutcha_road_villages
+- number: 25
+  name: Villages having Post Offices
+  variable_name: post_office_villages
+- number: 26
+  name: Post Offices
+  variable_name: post_offices
+- number: 27
+  name: Villages having Telegraph Offices
+  variable_name: telegraph_office_villages
+- number: 28
+  name: Telegraph Offices
+  variable_name: telegraph_offices

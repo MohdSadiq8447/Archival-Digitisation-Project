@@ -1,0 +1,20 @@
+[
+  {
+    "source": "1971 Garo Hills.pdf",
+    "table": "civic_amenities",
+    "status": "review",
+    "reason": "This is a Part X-C full-count census-tables volume, not the Part X-A Village and Town Directory volume; no relevant Statement IV, Statement V, or tehsil/taluk amenities abstract is present."
+  },
+  {
+    "source": "1971 Garo Hills.pdf",
+    "table": "medical_educational_amenities",
+    "status": "review",
+    "reason": "This is a Part X-C full-count census-tables volume, not the Part X-A Village and Town Directory volume; no relevant Statement IV, Statement V, or tehsil/taluk amenities abstract is present."
+  },
+  {
+    "source": "1971 Garo Hills.pdf",
+    "table": "tehsil_appendix",
+    "status": "review",
+    "reason": "This is a Part X-C full-count census-tables volume, not the Part X-A Village and Town Directory volume; no relevant Statement IV, Statement V, or tehsil/taluk amenities abstract is present."
+  }
+]

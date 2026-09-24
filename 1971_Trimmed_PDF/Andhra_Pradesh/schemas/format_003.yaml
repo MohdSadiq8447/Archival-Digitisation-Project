@@ -1,0 +1,270 @@
+format_id: format_003
+name: Tehsil Appendix
+category: Tehsil Appendix
+pdfs:
+- filenames:
+  - Adilabad_tehsil_1971.pdf
+  - Karimnagar_tehsil_1971.pdf
+  pagination:
+    page_1_columns:
+    - 1
+    - 12
+    - 23
+    - 29
+    page_2_columns:
+    - 13
+    - 22
+    - 30
+    - 40
+- filenames:
+  - East Godavari_tehsil_1971.pdf
+  - Hyderabad_tehsil_1971.pdf
+  - Khammam_tehsil_1971.pdf
+  - Ongole (Prakasam)_tehsil_1971.pdf
+  pagination:
+    page_1_columns:
+    - 1
+    - 20
+    page_2_columns:
+    - 21
+    - 40
+- filenames:
+  - Visakhapatnam_tehsil_1971.pdf
+  pagination:
+    page_1_columns:
+    - 1
+    - 12
+    page_2_columns:
+    - 13
+    - 22
+    page_3_columns:
+    - 23
+    - 29
+    page_4_columns:
+    - 30
+    - 40
+- filenames:
+  - Cuddapah_tehsil_1971.pdf
+  - Guntur_tehsil_1971.pdf
+  pagination:
+    page_1_columns:
+    - 1
+    - 20
+    page_2_columns:
+    - 21
+    - 39
+- filenames:
+  - Srikakulam_tehsil_1971.pdf
+  pagination:
+    page_1_columns:
+    - 1
+    - 12
+    page_2_columns:
+    - 13
+    - 22
+    page_3_columns:
+    - 23
+    - 29
+    page_4_columns:
+    - 30
+    - 39
+- filenames:
+  - Anantapur_tehsil_1971.pdf
+  - Chittoor_tehsil_1971.pdf
+  pagination:
+    page_1_columns:
+    - 1
+    - 12
+    - 23
+    - 29
+    page_2_columns:
+    - 13
+    - 22
+    - 30
+    - 38
+- filenames:
+  - Mahbubnagar_tehsil_1971.pdf
+  - Nellore_tehsil_1971.pdf
+  pagination:
+    page_1_columns:
+    - 1
+    - 12
+    - 23
+    - 29
+    page_2_columns:
+    - 13
+    - 22
+    - 30
+    - 39
+- filenames:
+  - Kurnool_tehsil_1971.pdf
+  - Medak_tehsil_1971.pdf
+  - Nalgonda_tehsil_1971.pdf
+  - Warangal_tehsil_1971.pdf
+  pagination:
+    page_1_columns:
+    - 1
+    - 20
+    page_2_columns:
+    - 21
+    - 38
+- filenames:
+  - West Godavari_tehsil_1971.pdf
+  pagination:
+    page_1_columns:
+    - 1
+    - 10
+    page_2_columns:
+    - 11
+    - 20
+    page_3_columns:
+    - 21
+    - 27
+    page_4_columns:
+    - 28
+    - 38
+- filenames:
+  - Krishna_tehsil_1971.pdf
+  pagination:
+    page_1_columns:
+    - 1
+    - 18
+    page_2_columns:
+    - 19
+    - 37
+- filenames:
+  - Nizamabad_tehsil_1971.pdf
+  pagination:
+    page_1_columns:
+    - 1
+    - 10
+    page_2_columns:
+    - 11
+    - 20
+    page_3_columns:
+    - 21
+    - 27
+    page_4_columns:
+    - 28
+    - 36
+columns:
+- number: 1
+  name: Sl. No.
+  variable_name: sl_no
+- number: 2
+  name: Name of Taluk
+  variable_name: tahsil_name
+- number: 3
+  name: No. of Villages having Primary Schools
+  variable_name: primary_school_villages
+- number: 4
+  name: No. of Primary Schools
+  variable_name: primary_schools
+- number: 5
+  name: No. of Villages having Middle Schools
+  variable_name: middle_school_villages
+- number: 6
+  name: No. of Middle Schools
+  variable_name: middle_schools
+- number: 7
+  name: No. of Villages having High/Higher Secondary Schools
+  variable_name: high_school_villages
+- number: 8
+  name: No. of High/Higher Secondary Schools
+  variable_name: high_schools
+- number: 9
+  name: No. of Villages having Colleges
+  variable_name: college_villages
+- number: 10
+  name: No. of Colleges
+  variable_name: colleges
+- number: 11
+  name: No. of Villages having Other Educational Institutions
+  variable_name: other_education_villages
+- number: 12
+  name: No. of Other Educational Institutions
+  variable_name: other_educational_institutions
+- number: 23
+  name: No. of Villages where Power Supply is Available
+  variable_name: power_available_villages
+- number: 24
+  name: No. of Villages where Power Supply is Not Available
+  variable_name: power_not_available_villages
+- number: 25
+  name: No. of Villages having Tap
+  variable_name: tap_water_villages
+- number: 26
+  name: No. of Villages having Well (including Tube Wells)
+  variable_name: well_water_villages
+- number: 27
+  name: No. of Villages having Tank
+  variable_name: tank_water_villages
+- number: 28
+  name: No. of Villages having River
+  variable_name: river_water_villages
+- number: 29
+  name: No. of Villages having Other Water Source
+  variable_name: other_water_villages
+- number: 13
+  name: No. of Villages having Dispensaries
+  variable_name: dispensary_villages
+- number: 14
+  name: No. of Dispensaries
+  variable_name: dispensaries
+- number: 15
+  name: No. of Villages having Hospitals
+  variable_name: hospital_villages
+- number: 16
+  name: No. of Hospitals
+  variable_name: hospitals
+- number: 17
+  name: No. of Villages having Primary Health Centres
+  variable_name: primary_health_centre_villages
+- number: 18
+  name: No. of Primary Health Centres
+  variable_name: primary_health_centres
+- number: 19
+  name: No. of Villages having Family Planning Centres
+  variable_name: family_planning_centre_villages
+- number: 20
+  name: No. of Family Planning Centres
+  variable_name: family_planning_centres
+- number: 21
+  name: No. of Villages having Maternity and Child Welfare Centres
+  variable_name: maternity_child_welfare_villages
+- number: 22
+  name: No. of Maternity and Child Welfare Centres
+  variable_name: maternity_child_welfare_centres
+- number: 30
+  name: No. of Villages having Pucca Road
+  variable_name: pucca_road_villages
+- number: 31
+  name: No. of Villages having Katcha Road
+  variable_name: katcha_road_villages
+- number: 32
+  name: No. of Villages having Pucca Road and Train
+  variable_name: pucca_road_train_villages
+- number: 33
+  name: No. of Villages having Katcha Road and Train
+  variable_name: katcha_road_train_villages
+- number: 34
+  name: No. of Villages having Post Offices
+  variable_name: post_office_villages
+- number: 35
+  name: No. of Post Offices
+  variable_name: post_offices
+- number: 36
+  name: No. of Villages having Telegraph Offices
+  variable_name: telegraph_office_villages
+- number: 37
+  name: No. of Telegraph Offices
+  variable_name: telegraph_offices
+- number: 38
+  name: No. of Villages having Post and Telegraph Offices
+  variable_name: post_telegraph_villages
+- number: 39
+  name: No. of Post and Telegraph Offices
+  variable_name: post_telegraph_offices
+- number: 40
+  name: No. of Villages having Telephones
+  variable_name: telephone_villages

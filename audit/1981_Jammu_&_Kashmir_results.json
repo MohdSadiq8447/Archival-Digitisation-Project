@@ -1,0 +1,3022 @@
+[
+  {
+    "state": "Jammu & Kashmir",
+    "source_state": "Jammu & Kashmir",
+    "district": "Anantnag",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Jammu & Kashmir/1981 Anantnag.pdf",
+    "source_filename": "1981 Anantnag.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 197,
+    "output": "output/pdf/1981_trimmed/Jammu & Kashmir/civic amenities/1981_Anantnag_civic_amenities.pdf",
+    "source_pages_selected": [
+      128
+    ],
+    "printed_page_labels": [
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement IV Civic and Other Amenities, printed page 117; source page 129 begins Statement V.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 1,
+      "pages": [
+        {
+          "source_page": 128,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              636.96,
+              836.88
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              636.96,
+              836.88
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 128,
+          "output_page": 1,
+          "source_png_sha256": "01f82ed15718474ba4afa813bd5f4003eb169606674897102bdd19081727487b",
+          "output_png_sha256": "01f82ed15718474ba4afa813bd5f4003eb169606674897102bdd19081727487b",
+          "match": true
+        }
+      ],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 1,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Jammu & Kashmir",
+    "source_state": "Jammu & Kashmir",
+    "district": "Anantnag",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Jammu & Kashmir/1981 Anantnag.pdf",
+    "source_filename": "1981 Anantnag.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 197,
+    "output": "output/pdf/1981_trimmed/Jammu & Kashmir/mededu/1981_Anantnag_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      129
+    ],
+    "printed_page_labels": [
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement V Medical, Educational, Recreational and Cultural Facilities, printed page 118; source page 130 begins Statement VI.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 1,
+      "pages": [
+        {
+          "source_page": 129,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              636.96,
+              836.88
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              636.96,
+              836.88
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 129,
+          "output_page": 1,
+          "source_png_sha256": "6841797f54fe5282352580efe9fc7a4e55ec4156ec5f2066a4d29e89ddc2a55e",
+          "output_png_sha256": "6841797f54fe5282352580efe9fc7a4e55ec4156ec5f2066a4d29e89ddc2a55e",
+          "match": true
+        }
+      ],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 1,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Jammu & Kashmir",
+    "source_state": "Jammu & Kashmir",
+    "district": "Anantnag",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Jammu & Kashmir/1981 Anantnag.pdf",
+    "source_filename": "1981 Anantnag.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 197,
+    "output": "output/pdf/1981_trimmed/Jammu & Kashmir/tehsil appendix/1981_Anantnag_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      117,
+      118
+    ],
+    "printed_page_labels": [
+      "106",
+      "107"
+    ],
+    "status": "Trimmed",
+    "reason": "Village Directory Appendix I, Tehsil-wise Abstract of Educational, Medical and Other Amenities; source page 119 begins Appendix II.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 117,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              636.96,
+              836.88
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              636.96,
+              836.88
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 118,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              636.96,
+              836.88
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              636.96,
+              836.88
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 117,
+          "output_page": 1,
+          "source_png_sha256": "748ffd6fd4a6180ddee484dbf084007d25234a73eae48da9367608cc1a2f293c",
+          "output_png_sha256": "748ffd6fd4a6180ddee484dbf084007d25234a73eae48da9367608cc1a2f293c",
+          "match": true
+        },
+        {
+          "source_page": 118,
+          "output_page": 2,
+          "source_png_sha256": "38e41e9b3b20ee9689bd5c180cadf6a10e553d8b683bb503ce8ef84be60b22cf",
+          "output_png_sha256": "38e41e9b3b20ee9689bd5c180cadf6a10e553d8b683bb503ce8ef84be60b22cf",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Jammu & Kashmir",
+    "source_state": "Jammu & Kashmir",
+    "district": "Badgam",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Jammu & Kashmir/1981 Badgam.pdf",
+    "source_filename": "1981 Badgam.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 156,
+    "output": "output/pdf/1981_trimmed/Jammu & Kashmir/civic amenities/1981_Badgam_civic_amenities.pdf",
+    "source_pages_selected": [
+      106
+    ],
+    "printed_page_labels": [
+      "96"
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement IV Civic and Other Amenities, printed page 96; source page 107 begins Statement V.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 1,
+      "pages": [
+        {
+          "source_page": 106,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              670.8,
+              941.52
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              670.8,
+              941.52
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 106,
+          "output_page": 1,
+          "source_png_sha256": "1e82340c89dc449e1d59c84b107a379691dd06e00fb6bf7e21c594c0902c4731",
+          "output_png_sha256": "1e82340c89dc449e1d59c84b107a379691dd06e00fb6bf7e21c594c0902c4731",
+          "match": true
+        }
+      ],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 1,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Jammu & Kashmir",
+    "source_state": "Jammu & Kashmir",
+    "district": "Badgam",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Jammu & Kashmir/1981 Badgam.pdf",
+    "source_filename": "1981 Badgam.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 156,
+    "output": "output/pdf/1981_trimmed/Jammu & Kashmir/mededu/1981_Badgam_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      107
+    ],
+    "printed_page_labels": [
+      "97"
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement V Medical, Educational, Recreational and Cultural Facilities, printed page 97; source page 108 begins Statement VI.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 1,
+      "pages": [
+        {
+          "source_page": 107,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              670.8,
+              941.52
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              670.8,
+              941.52
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 107,
+          "output_page": 1,
+          "source_png_sha256": "b3bfadc73bd3bdd252b9e458357752efc8a5246ccaef7988bfc2e121a3f60c43",
+          "output_png_sha256": "b3bfadc73bd3bdd252b9e458357752efc8a5246ccaef7988bfc2e121a3f60c43",
+          "match": true
+        }
+      ],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 1,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Jammu & Kashmir",
+    "source_state": "Jammu & Kashmir",
+    "district": "Badgam",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Jammu & Kashmir/1981 Badgam.pdf",
+    "source_filename": "1981 Badgam.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 156,
+    "output": "output/pdf/1981_trimmed/Jammu & Kashmir/tehsil appendix/1981_Badgam_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      96,
+      97
+    ],
+    "printed_page_labels": [
+      "86",
+      "87"
+    ],
+    "status": "Trimmed",
+    "reason": "Village Directory Appendix I, Tehsil-wise Abstract of Educational, Medical and Other Amenities; source page 98 begins Appendix II.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 96,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              670.8,
+              941.52
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              670.8,
+              941.52
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 97,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              670.8,
+              941.52
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              670.8,
+              941.52
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 96,
+          "output_page": 1,
+          "source_png_sha256": "c5e47723a2456c5d8a85f2547e33e30315bee155be7e11a2b7331ff7924dd500",
+          "output_png_sha256": "c5e47723a2456c5d8a85f2547e33e30315bee155be7e11a2b7331ff7924dd500",
+          "match": true
+        },
+        {
+          "source_page": 97,
+          "output_page": 2,
+          "source_png_sha256": "aa3fddba9b1f518d5200c6d13f31e7c98634b9d67e21135ace673f423c045cb0",
+          "output_png_sha256": "aa3fddba9b1f518d5200c6d13f31e7c98634b9d67e21135ace673f423c045cb0",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Jammu & Kashmir",
+    "source_state": "Jammu & Kashmir",
+    "district": "Baramula",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Jammu & Kashmir/1981 Baramula.pdf",
+    "source_filename": "1981 Baramula.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 193,
+    "output": "output/pdf/1981_trimmed/Jammu & Kashmir/civic amenities/1981_Baramula_civic_amenities.pdf",
+    "source_pages_selected": [
+      126
+    ],
+    "printed_page_labels": [
+      "113"
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement IV Civic and Other Amenities, printed page 113; source page 127 begins Statement V.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 1,
+      "pages": [
+        {
+          "source_page": 126,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              640.08,
+              805.68
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              640.08,
+              805.68
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 126,
+          "output_page": 1,
+          "source_png_sha256": "8d3ef2cf4a93fd98d7af66233bee42a8469dab23438066941d323e38f7c7f433",
+          "output_png_sha256": "8d3ef2cf4a93fd98d7af66233bee42a8469dab23438066941d323e38f7c7f433",
+          "match": true
+        }
+      ],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 1,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Jammu & Kashmir",
+    "source_state": "Jammu & Kashmir",
+    "district": "Baramula",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Jammu & Kashmir/1981 Baramula.pdf",
+    "source_filename": "1981 Baramula.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 193,
+    "output": "output/pdf/1981_trimmed/Jammu & Kashmir/mededu/1981_Baramula_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      127
+    ],
+    "printed_page_labels": [
+      "114"
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement V Medical, Educational, Recreational and Cultural Facilities, printed page 114; source page 128 begins Statement VI.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 1,
+      "pages": [
+        {
+          "source_page": 127,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              640.08,
+              805.68
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              640.08,
+              805.68
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 127,
+          "output_page": 1,
+          "source_png_sha256": "74a52103793f6ae49f08a46759e94ef701fdf8ec92ca42a28524943821b028f5",
+          "output_png_sha256": "74a52103793f6ae49f08a46759e94ef701fdf8ec92ca42a28524943821b028f5",
+          "match": true
+        }
+      ],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 1,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Jammu & Kashmir",
+    "source_state": "Jammu & Kashmir",
+    "district": "Baramula",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Jammu & Kashmir/1981 Baramula.pdf",
+    "source_filename": "1981 Baramula.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 193,
+    "output": "output/pdf/1981_trimmed/Jammu & Kashmir/tehsil appendix/1981_Baramula_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      115,
+      116
+    ],
+    "printed_page_labels": [
+      "102",
+      "103"
+    ],
+    "status": "Trimmed",
+    "reason": "Village Directory Appendix I, Tehsil-wise Abstract of Educational, Medical and Other Amenities; source page 117 begins Appendix II.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 115,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              640.08,
+              805.68
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              640.08,
+              805.68
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 116,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              640.08,
+              805.68
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              640.08,
+              805.68
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 115,
+          "output_page": 1,
+          "source_png_sha256": "7250d055db04c4c4db3c2f7b1c2fcc049adc6bfabd46f38b80b20e7724e70b04",
+          "output_png_sha256": "7250d055db04c4c4db3c2f7b1c2fcc049adc6bfabd46f38b80b20e7724e70b04",
+          "match": true
+        },
+        {
+          "source_page": 116,
+          "output_page": 2,
+          "source_png_sha256": "0bafd26526f0b6e527038ea26e1bfdbdfca05c2717c552a1668dbd8228a5676a",
+          "output_png_sha256": "0bafd26526f0b6e527038ea26e1bfdbdfca05c2717c552a1668dbd8228a5676a",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Jammu & Kashmir",
+    "source_state": "Jammu & Kashmir",
+    "district": "Doda",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Jammu & Kashmir/1981 Doda.pdf",
+    "source_filename": "1981 Doda.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 229,
+    "output": "output/pdf/1981_trimmed/Jammu & Kashmir/civic amenities/1981_Doda_civic_amenities.pdf",
+    "source_pages_selected": [
+      142,
+      143
+    ],
+    "printed_page_labels": [
+      "182",
+      "133"
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement IV Civic and Other Amenities, printed pages 132-133; source page 144 begins Statement V.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 142,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              633.36,
+              780.0
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              633.36,
+              780.0
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 143,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              633.36,
+              780.0
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              633.36,
+              780.0
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 142,
+          "output_page": 1,
+          "source_png_sha256": "4adacac005755dbad4d96cbce3cd3e223626b8492a1e7c21ff6ba18c0b521ddf",
+          "output_png_sha256": "4adacac005755dbad4d96cbce3cd3e223626b8492a1e7c21ff6ba18c0b521ddf",
+          "match": true
+        },
+        {
+          "source_page": 143,
+          "output_page": 2,
+          "source_png_sha256": "a8f95f8d2d77a192dd32f7342b54049bfb6b9fd303aa4b53d6d10d1cfcf1ee4b",
+          "output_png_sha256": "a8f95f8d2d77a192dd32f7342b54049bfb6b9fd303aa4b53d6d10d1cfcf1ee4b",
+          "match": true
+        }
+      ],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Jammu & Kashmir",
+    "source_state": "Jammu & Kashmir",
+    "district": "Doda",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Jammu & Kashmir/1981 Doda.pdf",
+    "source_filename": "1981 Doda.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 229,
+    "output": "output/pdf/1981_trimmed/Jammu & Kashmir/mededu/1981_Doda_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      144,
+      145
+    ],
+    "printed_page_labels": [
+      "134",
+      "135"
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement V Medical, Educational, Recreational and Cultural Facilities, printed pages 134-135; source page 146 begins Statement VI.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 144,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              633.36,
+              780.0
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              633.36,
+              780.0
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 145,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              633.36,
+              780.0
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              633.36,
+              780.0
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 144,
+          "output_page": 1,
+          "source_png_sha256": "3beaeb8450dd1b954a9f309637346a30d2cef8c280ddba58b39a7529e4575eff",
+          "output_png_sha256": "3beaeb8450dd1b954a9f309637346a30d2cef8c280ddba58b39a7529e4575eff",
+          "match": true
+        },
+        {
+          "source_page": 145,
+          "output_page": 2,
+          "source_png_sha256": "cf4a8a263f38156ad206ad5d603669fe21de99d56fd9b6222edcd55232027961",
+          "output_png_sha256": "cf4a8a263f38156ad206ad5d603669fe21de99d56fd9b6222edcd55232027961",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Jammu & Kashmir",
+    "source_state": "Jammu & Kashmir",
+    "district": "Doda",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Jammu & Kashmir/1981 Doda.pdf",
+    "source_filename": "1981 Doda.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 229,
+    "output": "output/pdf/1981_trimmed/Jammu & Kashmir/tehsil appendix/1981_Doda_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      122,
+      123
+    ],
+    "printed_page_labels": [
+      "112",
+      "113"
+    ],
+    "status": "Trimmed",
+    "reason": "Village Directory Appendix I, Tehsil-wise Abstract of Educational, Medical and Other Amenities; source page 124 begins Appendix II.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 122,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              633.36,
+              780.0
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              633.36,
+              780.0
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 123,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              633.36,
+              780.0
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              633.36,
+              780.0
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 122,
+          "output_page": 1,
+          "source_png_sha256": "66fc663d128f4cbf7a77d4304e63b4108a203fa4dbc45835e670ac1bbb6eba3d",
+          "output_png_sha256": "66fc663d128f4cbf7a77d4304e63b4108a203fa4dbc45835e670ac1bbb6eba3d",
+          "match": true
+        },
+        {
+          "source_page": 123,
+          "output_page": 2,
+          "source_png_sha256": "76f2704fe906cc72bd75d0971869ebe3cad38b93dee24df5eb036eaace0e87fb",
+          "output_png_sha256": "76f2704fe906cc72bd75d0971869ebe3cad38b93dee24df5eb036eaace0e87fb",
+          "match": true
+        }
+      ],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Jammu & Kashmir",
+    "source_state": "Jammu & Kashmir",
+    "district": "Jammu",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Jammu & Kashmir/1981 Jammu.pdf",
+    "source_filename": "1981 Jammu.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 368,
+    "output": "output/pdf/1981_trimmed/Jammu & Kashmir/civic amenities/1981_Jammu_civic_amenities.pdf",
+    "source_pages_selected": [
+      226,
+      227
+    ],
+    "printed_page_labels": [
+      "1181",
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement IV Civic and Other Amenities, printed pages 208-209; source pages 228-229 are the separate Statement IV-A slum table and are excluded.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 226,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              631.44,
+              784.32
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              631.44,
+              784.32
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 227,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              631.44,
+              784.32
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              631.44,
+              784.32
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 226,
+          "output_page": 1,
+          "source_png_sha256": "13a9ade1b4ed7e664deef9635c5545541fb87e2204fbfcbb651b665a95f857b4",
+          "output_png_sha256": "13a9ade1b4ed7e664deef9635c5545541fb87e2204fbfcbb651b665a95f857b4",
+          "match": true
+        },
+        {
+          "source_page": 227,
+          "output_page": 2,
+          "source_png_sha256": "91921195e4981816d11e31115abf47b3dd9839565cf558431340f0e92aecd447",
+          "output_png_sha256": "91921195e4981816d11e31115abf47b3dd9839565cf558431340f0e92aecd447",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Jammu & Kashmir",
+    "source_state": "Jammu & Kashmir",
+    "district": "Jammu",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Jammu & Kashmir/1981 Jammu.pdf",
+    "source_filename": "1981 Jammu.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 368,
+    "output": "output/pdf/1981_trimmed/Jammu & Kashmir/mededu/1981_Jammu_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      230,
+      231
+    ],
+    "printed_page_labels": [
+      "212",
+      "213"
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement V Medical, Educational, Recreational and Cultural Facilities, printed pages 212-213; source page 232 begins Statement VI.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 230,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              631.44,
+              784.32
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              631.44,
+              784.32
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 231,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              631.44,
+              784.32
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              631.44,
+              784.32
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 230,
+          "output_page": 1,
+          "source_png_sha256": "201d266c62f765ff753c2b1314aa080f0027b66b7981ea9af829397c29a16569",
+          "output_png_sha256": "201d266c62f765ff753c2b1314aa080f0027b66b7981ea9af829397c29a16569",
+          "match": true
+        },
+        {
+          "source_page": 231,
+          "output_page": 2,
+          "source_png_sha256": "0a8c6fd67ba4cdf14b7c5ae5c7b6865f62c1d8f8f4846c3d0f64af8ee59874ba",
+          "output_png_sha256": "0a8c6fd67ba4cdf14b7c5ae5c7b6865f62c1d8f8f4846c3d0f64af8ee59874ba",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Jammu & Kashmir",
+    "source_state": "Jammu & Kashmir",
+    "district": "Jammu",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Jammu & Kashmir/1981 Jammu.pdf",
+    "source_filename": "1981 Jammu.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 368,
+    "output": "output/pdf/1981_trimmed/Jammu & Kashmir/tehsil appendix/1981_Jammu_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      196,
+      197
+    ],
+    "printed_page_labels": [
+      "178",
+      "179"
+    ],
+    "status": "Trimmed",
+    "reason": "Village Directory Appendix I, Tehsil-wise Abstract of Educational, Medical and Other Amenities, including the medical and drinking-water continuation; source page 198 begins Appendix II.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 196,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              631.44,
+              784.32
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              631.44,
+              784.32
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 197,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              631.44,
+              784.32
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              631.44,
+              784.32
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 196,
+          "output_page": 1,
+          "source_png_sha256": "03189be1d745604402cd2164720ee6b6e2da402b8248cb26e0d3c44726c73c3b",
+          "output_png_sha256": "03189be1d745604402cd2164720ee6b6e2da402b8248cb26e0d3c44726c73c3b",
+          "match": true
+        },
+        {
+          "source_page": 197,
+          "output_page": 2,
+          "source_png_sha256": "eead9c89bee5ca1a4e51bcddad265990bd568a7eacb6d625aaf6cd0a1b393068",
+          "output_png_sha256": "eead9c89bee5ca1a4e51bcddad265990bd568a7eacb6d625aaf6cd0a1b393068",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Jammu & Kashmir",
+    "source_state": "Jammu & Kashmir",
+    "district": "Kargil",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Jammu & Kashmir/1981 Kargil.pdf",
+    "source_filename": "1981 Kargil.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 77,
+    "output": "output/pdf/1981_trimmed/Jammu & Kashmir/civic amenities/1981_Kargil_civic_amenities.pdf",
+    "source_pages_selected": [
+      59
+    ],
+    "printed_page_labels": [
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement IV Civic and Other Amenities, printed page 52; source page 60 begins Statement V.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 1,
+      "pages": [
+        {
+          "source_page": 59,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              633.84,
+              762.0
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              633.84,
+              762.0
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 59,
+          "output_page": 1,
+          "source_png_sha256": "63208aad19564e1ab61c10ad33cc1e43247ea2d955d133f50f6bfb55da437b28",
+          "output_png_sha256": "63208aad19564e1ab61c10ad33cc1e43247ea2d955d133f50f6bfb55da437b28",
+          "match": true
+        }
+      ],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 1,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Jammu & Kashmir",
+    "source_state": "Jammu & Kashmir",
+    "district": "Kargil",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Jammu & Kashmir/1981 Kargil.pdf",
+    "source_filename": "1981 Kargil.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 77,
+    "output": "output/pdf/1981_trimmed/Jammu & Kashmir/mededu/1981_Kargil_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      60
+    ],
+    "printed_page_labels": [
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement V Medical, Educational, Recreational and Cultural Facilities, printed page 53; source page 61 begins Statement VI.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 1,
+      "pages": [
+        {
+          "source_page": 60,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              633.84,
+              762.0
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              633.84,
+              762.0
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 60,
+          "output_page": 1,
+          "source_png_sha256": "cc31fcfc0d7dc57d19d18387196935d55bac4749c16b12ac5797bbc8c32807f7",
+          "output_png_sha256": "cc31fcfc0d7dc57d19d18387196935d55bac4749c16b12ac5797bbc8c32807f7",
+          "match": true
+        }
+      ],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 1,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Jammu & Kashmir",
+    "source_state": "Jammu & Kashmir",
+    "district": "Kargil",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Jammu & Kashmir/1981 Kargil.pdf",
+    "source_filename": "1981 Kargil.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 77,
+    "output": "output/pdf/1981_trimmed/Jammu & Kashmir/tehsil appendix/1981_Kargil_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      49,
+      50
+    ],
+    "printed_page_labels": [
+      "42",
+      "43"
+    ],
+    "status": "Trimmed",
+    "reason": "Village Directory Appendix I, Tehsil-wise Abstract of Educational, Medical and Other Amenities; source page 51 begins Appendix II.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 49,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              633.84,
+              762.0
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              633.84,
+              762.0
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 50,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              633.84,
+              762.0
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              633.84,
+              762.0
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 49,
+          "output_page": 1,
+          "source_png_sha256": "830cc8d7766f0ff3eb54f4d76f524fde2750e94c4c4c0c07d5c0398c3beeea55",
+          "output_png_sha256": "830cc8d7766f0ff3eb54f4d76f524fde2750e94c4c4c0c07d5c0398c3beeea55",
+          "match": true
+        },
+        {
+          "source_page": 50,
+          "output_page": 2,
+          "source_png_sha256": "cf8653c6ccf2c4eea3db06de18854a94deb6fe58393888dd548928717582b1cc",
+          "output_png_sha256": "cf8653c6ccf2c4eea3db06de18854a94deb6fe58393888dd548928717582b1cc",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Jammu & Kashmir",
+    "source_state": "Jammu & Kashmir",
+    "district": "Kathua",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Jammu & Kashmir/1981 Kathua.pdf",
+    "source_filename": "1981 Kathua.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 200,
+    "output": "output/pdf/1981_trimmed/Jammu & Kashmir/civic amenities/1981_Kathua_civic_amenities.pdf",
+    "source_pages_selected": [
+      127
+    ],
+    "printed_page_labels": [
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement IV Civic and Other Amenities, printed page 112; source page 128 begins Statement V.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 1,
+      "pages": [
+        {
+          "source_page": 127,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              647.04,
+              767.28
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              647.04,
+              767.28
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 127,
+          "output_page": 1,
+          "source_png_sha256": "bc4c658029a6b7b19935ee8cf5875ed8d1e4a20974849416ccc13efe84c75dbb",
+          "output_png_sha256": "bc4c658029a6b7b19935ee8cf5875ed8d1e4a20974849416ccc13efe84c75dbb",
+          "match": true
+        }
+      ],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 1,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Jammu & Kashmir",
+    "source_state": "Jammu & Kashmir",
+    "district": "Kathua",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Jammu & Kashmir/1981 Kathua.pdf",
+    "source_filename": "1981 Kathua.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 200,
+    "output": "output/pdf/1981_trimmed/Jammu & Kashmir/mededu/1981_Kathua_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      128,
+      129
+    ],
+    "printed_page_labels": [
+      "113",
+      "114"
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement V Medical, Educational, Recreational and Cultural Facilities, printed pages 113-114; source page 130 begins Statement VI.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 128,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              647.04,
+              767.28
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              647.04,
+              767.28
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 129,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              647.04,
+              767.28
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              647.04,
+              767.28
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 128,
+          "output_page": 1,
+          "source_png_sha256": "9655ab45b3d8bbd4f4440de0332349d7ff8b7b0d71491b1172be4352eac5a913",
+          "output_png_sha256": "9655ab45b3d8bbd4f4440de0332349d7ff8b7b0d71491b1172be4352eac5a913",
+          "match": true
+        },
+        {
+          "source_page": 129,
+          "output_page": 2,
+          "source_png_sha256": "5ebb702e90142fd771e0c72cae57479b0a8c2fc8baa85ab29359f49e3edd7bd1",
+          "output_png_sha256": "5ebb702e90142fd771e0c72cae57479b0a8c2fc8baa85ab29359f49e3edd7bd1",
+          "match": true
+        }
+      ],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Jammu & Kashmir",
+    "source_state": "Jammu & Kashmir",
+    "district": "Kathua",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Jammu & Kashmir/1981 Kathua.pdf",
+    "source_filename": "1981 Kathua.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 200,
+    "output": "output/pdf/1981_trimmed/Jammu & Kashmir/tehsil appendix/1981_Kathua_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      111,
+      112
+    ],
+    "printed_page_labels": [
+      "96",
+      "97"
+    ],
+    "status": "Trimmed",
+    "reason": "Village Directory Appendix I, Tehsil-wise Abstract of Educational, Medical and Other Amenities; source page 113 begins Appendix II.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 111,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              647.04,
+              767.28
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              647.04,
+              767.28
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 112,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              647.04,
+              767.28
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              647.04,
+              767.28
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 111,
+          "output_page": 1,
+          "source_png_sha256": "6cc91c06cc997bd5c45c336874147ff8eaf9df240d4a0e023f13136e982d314f",
+          "output_png_sha256": "6cc91c06cc997bd5c45c336874147ff8eaf9df240d4a0e023f13136e982d314f",
+          "match": true
+        },
+        {
+          "source_page": 112,
+          "output_page": 2,
+          "source_png_sha256": "5f264330fb8e946d2e8abfdc89272b0e506ab12e9caae2d443f83af1481463e3",
+          "output_png_sha256": "5f264330fb8e946d2e8abfdc89272b0e506ab12e9caae2d443f83af1481463e3",
+          "match": true
+        }
+      ],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Jammu & Kashmir",
+    "source_state": "Jammu & Kashmir",
+    "district": "Kupwara",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Jammu & Kashmir/1981 Kupwara.pdf",
+    "source_filename": "1981 Kupwara.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 139,
+    "output": "output/pdf/1981_trimmed/Jammu & Kashmir/civic amenities/1981_Kupwara_civic_amenities.pdf",
+    "source_pages_selected": [
+      97
+    ],
+    "printed_page_labels": [
+      "80"
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement IV Civic and Other Amenities, printed page 80; source page 98 begins Statement V.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 1,
+      "pages": [
+        {
+          "source_page": 97,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              -8.88,
+              612.0,
+              783.12
+            ],
+            "cropbox": [
+              0.0,
+              -8.88,
+              612.0,
+              783.12
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 97,
+          "output_page": 1,
+          "source_png_sha256": "f6a178e16afda0bf453a5200cbf31bd15ceff0e77a50aaa0b5182a773ca27399",
+          "output_png_sha256": "f6a178e16afda0bf453a5200cbf31bd15ceff0e77a50aaa0b5182a773ca27399",
+          "match": true
+        }
+      ],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 1,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Jammu & Kashmir",
+    "source_state": "Jammu & Kashmir",
+    "district": "Kupwara",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Jammu & Kashmir/1981 Kupwara.pdf",
+    "source_filename": "1981 Kupwara.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 139,
+    "output": "output/pdf/1981_trimmed/Jammu & Kashmir/mededu/1981_Kupwara_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      98
+    ],
+    "printed_page_labels": [
+      "81"
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement V Medical, Educational, Recreational and Cultural Facilities, printed page 81; source page 99 begins Statement VI.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 1,
+      "pages": [
+        {
+          "source_page": 98,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              -8.88,
+              612.0,
+              783.12
+            ],
+            "cropbox": [
+              0.0,
+              -8.88,
+              612.0,
+              783.12
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 98,
+          "output_page": 1,
+          "source_png_sha256": "232afb869facc0bfe4a1ce4aa9b5dcf8f2b820612095b8c8e4e457847080ec7b",
+          "output_png_sha256": "232afb869facc0bfe4a1ce4aa9b5dcf8f2b820612095b8c8e4e457847080ec7b",
+          "match": true
+        }
+      ],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 1,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Jammu & Kashmir",
+    "source_state": "Jammu & Kashmir",
+    "district": "Kupwara",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Jammu & Kashmir/1981 Kupwara.pdf",
+    "source_filename": "1981 Kupwara.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 139,
+    "output": "output/pdf/1981_trimmed/Jammu & Kashmir/tehsil appendix/1981_Kupwara_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      87,
+      88
+    ],
+    "printed_page_labels": [
+      "70",
+      "71"
+    ],
+    "status": "Trimmed",
+    "reason": "Village Directory Appendix I, Tehsil-wise Abstract of Educational, Medical and Other Amenities; source page 89 begins Appendix II.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 87,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              -8.88,
+              612.0,
+              783.12
+            ],
+            "cropbox": [
+              0.0,
+              -8.88,
+              612.0,
+              783.12
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 88,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              -8.88,
+              612.0,
+              783.12
+            ],
+            "cropbox": [
+              0.0,
+              -8.88,
+              612.0,
+              783.12
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 87,
+          "output_page": 1,
+          "source_png_sha256": "2ea6930da5f2148c4a51c4facbe41d0c55922b68f5af2114b8685b5dfb95752e",
+          "output_png_sha256": "2ea6930da5f2148c4a51c4facbe41d0c55922b68f5af2114b8685b5dfb95752e",
+          "match": true
+        },
+        {
+          "source_page": 88,
+          "output_page": 2,
+          "source_png_sha256": "6b7e63e5ff1bae875f4627ff57e9b704e6c66ecc47bfa1ed6b1a0d8823f3536c",
+          "output_png_sha256": "6b7e63e5ff1bae875f4627ff57e9b704e6c66ecc47bfa1ed6b1a0d8823f3536c",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Jammu & Kashmir",
+    "source_state": "Jammu & Kashmir",
+    "district": "Ladakh",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Jammu & Kashmir/1981 Ladakh.pdf",
+    "source_filename": "1981 Ladakh.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 92,
+    "output": "output/pdf/1981_trimmed/Jammu & Kashmir/civic amenities/1981_Ladakh_civic_amenities.pdf",
+    "source_pages_selected": [
+      72
+    ],
+    "printed_page_labels": [
+      "56"
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement IV Civic and Other Amenities, printed page 56; source page 73 begins Statement V.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 1,
+      "pages": [
+        {
+          "source_page": 72,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              -4.8,
+              618.48,
+              787.2
+            ],
+            "cropbox": [
+              0.0,
+              -4.8,
+              612.0,
+              787.2
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 72,
+          "output_page": 1,
+          "source_png_sha256": "4eb298bd24173413459e18e91a549cf0e77a4f1caeb3b80362ab595d97330ae2",
+          "output_png_sha256": "4eb298bd24173413459e18e91a549cf0e77a4f1caeb3b80362ab595d97330ae2",
+          "match": true
+        }
+      ],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 1,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Jammu & Kashmir",
+    "source_state": "Jammu & Kashmir",
+    "district": "Ladakh",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Jammu & Kashmir/1981 Ladakh.pdf",
+    "source_filename": "1981 Ladakh.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 92,
+    "output": "output/pdf/1981_trimmed/Jammu & Kashmir/mededu/1981_Ladakh_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      73
+    ],
+    "printed_page_labels": [
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement V Medical, Educational, Recreational and Cultural Facilities, printed page 57; source page 74 begins Statement VI.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 1,
+      "pages": [
+        {
+          "source_page": 73,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              -4.8,
+              618.48,
+              787.2
+            ],
+            "cropbox": [
+              0.0,
+              -4.8,
+              612.0,
+              787.2
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 73,
+          "output_page": 1,
+          "source_png_sha256": "a814345367f6a96ad689a96dcf1510f921c3d0bb71f471a9b33dd32f6d2fa219",
+          "output_png_sha256": "a814345367f6a96ad689a96dcf1510f921c3d0bb71f471a9b33dd32f6d2fa219",
+          "match": true
+        }
+      ],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 1,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Jammu & Kashmir",
+    "source_state": "Jammu & Kashmir",
+    "district": "Ladakh",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Jammu & Kashmir/1981 Ladakh.pdf",
+    "source_filename": "1981 Ladakh.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 92,
+    "output": "output/pdf/1981_trimmed/Jammu & Kashmir/tehsil appendix/1981_Ladakh_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      62,
+      63
+    ],
+    "printed_page_labels": [
+      "46",
+      "47"
+    ],
+    "status": "Trimmed",
+    "reason": "Village Directory Appendix I, Tehsil-wise Abstract of Educational, Medical and Other Amenities; source page 64 begins Appendix II.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 62,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              -4.8,
+              618.48,
+              787.2
+            ],
+            "cropbox": [
+              0.0,
+              -4.8,
+              612.0,
+              787.2
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 63,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              -4.8,
+              618.48,
+              787.2
+            ],
+            "cropbox": [
+              0.0,
+              -4.8,
+              612.0,
+              787.2
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 62,
+          "output_page": 1,
+          "source_png_sha256": "f5ed37af6b974b60f5b0fc82ab8ec65e7e81ef872ab5353182d4226db241a124",
+          "output_png_sha256": "f5ed37af6b974b60f5b0fc82ab8ec65e7e81ef872ab5353182d4226db241a124",
+          "match": true
+        },
+        {
+          "source_page": 63,
+          "output_page": 2,
+          "source_png_sha256": "bb5f4e313ffd315d4e70b0409866394c0468285a46585343413f3be8955b9a17",
+          "output_png_sha256": "bb5f4e313ffd315d4e70b0409866394c0468285a46585343413f3be8955b9a17",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Jammu & Kashmir",
+    "source_state": "Jammu & Kashmir",
+    "district": "Pulwama",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Jammu & Kashmir/1981 Pulwama.pdf",
+    "source_filename": "1981 Pulwama.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 175,
+    "output": "output/pdf/1981_trimmed/Jammu & Kashmir/civic amenities/1981_Pulwama_civic_amenities.pdf",
+    "source_pages_selected": [
+      114
+    ],
+    "printed_page_labels": [
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement IV Civic and Other Amenities, printed page 96; source page 115 begins Statement V.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 1,
+      "pages": [
+        {
+          "source_page": 114,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              606.96,
+              741.84
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              606.96,
+              741.84
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 114,
+          "output_page": 1,
+          "source_png_sha256": "d94c807fd2e9ad0394a540bceea9b9a7cb262d811c7a75a0df6e065aeb08cb72",
+          "output_png_sha256": "d94c807fd2e9ad0394a540bceea9b9a7cb262d811c7a75a0df6e065aeb08cb72",
+          "match": true
+        }
+      ],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 1,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Jammu & Kashmir",
+    "source_state": "Jammu & Kashmir",
+    "district": "Pulwama",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Jammu & Kashmir/1981 Pulwama.pdf",
+    "source_filename": "1981 Pulwama.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 175,
+    "output": "output/pdf/1981_trimmed/Jammu & Kashmir/mededu/1981_Pulwama_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      115
+    ],
+    "printed_page_labels": [
+      "97"
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement V Medical, Educational, Recreational and Cultural Facilities, printed page 97; source page 116 begins Statement VI.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 1,
+      "pages": [
+        {
+          "source_page": 115,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              606.96,
+              741.84
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              606.96,
+              741.84
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 115,
+          "output_page": 1,
+          "source_png_sha256": "ab35924849e264db0f44fd65795f6a8b2253bdd88a486c1d48ff77c6578cc424",
+          "output_png_sha256": "ab35924849e264db0f44fd65795f6a8b2253bdd88a486c1d48ff77c6578cc424",
+          "match": true
+        }
+      ],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 1,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Jammu & Kashmir",
+    "source_state": "Jammu & Kashmir",
+    "district": "Pulwama",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Jammu & Kashmir/1981 Pulwama.pdf",
+    "source_filename": "1981 Pulwama.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 175,
+    "output": "output/pdf/1981_trimmed/Jammu & Kashmir/tehsil appendix/1981_Pulwama_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      104,
+      105
+    ],
+    "printed_page_labels": [
+      "86",
+      "87"
+    ],
+    "status": "Trimmed",
+    "reason": "Village Directory Appendix I, Tehsil-wise Abstract of Educational, Medical and Other Amenities; source page 106 begins Appendix II.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 104,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              606.96,
+              741.84
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              606.96,
+              741.84
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 105,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              606.96,
+              741.84
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              606.96,
+              741.84
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 104,
+          "output_page": 1,
+          "source_png_sha256": "a8a780c39398e9d2623bd90a2a52d68e897b42ed1917049e808ac5aaa5f0111a",
+          "output_png_sha256": "a8a780c39398e9d2623bd90a2a52d68e897b42ed1917049e808ac5aaa5f0111a",
+          "match": true
+        },
+        {
+          "source_page": 105,
+          "output_page": 2,
+          "source_png_sha256": "b114aa42b3707d50dbf4e0a7bc94da7108e69b81484c3e3b622f71053cefc2e8",
+          "output_png_sha256": "b114aa42b3707d50dbf4e0a7bc94da7108e69b81484c3e3b622f71053cefc2e8",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Jammu & Kashmir",
+    "source_state": "Jammu & Kashmir",
+    "district": "Punch",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Jammu & Kashmir/1981 Punch.pdf",
+    "source_filename": "1981 Punch.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 103,
+    "output": "output/pdf/1981_trimmed/Jammu & Kashmir/civic amenities/1981_Punch_civic_amenities.pdf",
+    "source_pages_selected": [
+      71
+    ],
+    "printed_page_labels": [
+      "57"
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement IV Civic and Other Amenities, printed page 57; source page 72 begins Statement V.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 1,
+      "pages": [
+        {
+          "source_page": 71,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              -1.92,
+              612.0,
+              790.08
+            ],
+            "cropbox": [
+              0.0,
+              -1.92,
+              612.0,
+              790.08
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 71,
+          "output_page": 1,
+          "source_png_sha256": "6ac3b7d0a90852922301e56e3f2f0eaa898c446a0cba6270dcb91f146222e6dc",
+          "output_png_sha256": "6ac3b7d0a90852922301e56e3f2f0eaa898c446a0cba6270dcb91f146222e6dc",
+          "match": true
+        }
+      ],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 1,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Jammu & Kashmir",
+    "source_state": "Jammu & Kashmir",
+    "district": "Punch",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Jammu & Kashmir/1981 Punch.pdf",
+    "source_filename": "1981 Punch.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 103,
+    "output": "output/pdf/1981_trimmed/Jammu & Kashmir/mededu/1981_Punch_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      72
+    ],
+    "printed_page_labels": [
+      "58"
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement V Medical, Educational, Recreational and Cultural Facilities, printed page 58; source page 73 begins Statement VI.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 1,
+      "pages": [
+        {
+          "source_page": 72,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              -1.92,
+              612.0,
+              790.08
+            ],
+            "cropbox": [
+              0.0,
+              -1.92,
+              612.0,
+              790.08
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 72,
+          "output_page": 1,
+          "source_png_sha256": "2225a70833f1de02dd7749dca7cc61f68ca9670841f61e8e8fea436b44799584",
+          "output_png_sha256": "2225a70833f1de02dd7749dca7cc61f68ca9670841f61e8e8fea436b44799584",
+          "match": true
+        }
+      ],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 1,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Jammu & Kashmir",
+    "source_state": "Jammu & Kashmir",
+    "district": "Punch",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Jammu & Kashmir/1981 Punch.pdf",
+    "source_filename": "1981 Punch.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 103,
+    "output": "output/pdf/1981_trimmed/Jammu & Kashmir/tehsil appendix/1981_Punch_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      60,
+      61
+    ],
+    "printed_page_labels": [
+      "46",
+      "47"
+    ],
+    "status": "Trimmed",
+    "reason": "Village Directory Appendix I, Tehsil-wise Abstract of Educational, Medical and Other Amenities; source page 62 begins Appendix II.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 60,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              -1.92,
+              612.0,
+              790.08
+            ],
+            "cropbox": [
+              0.0,
+              -1.92,
+              612.0,
+              790.08
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 61,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              -1.92,
+              612.0,
+              790.08
+            ],
+            "cropbox": [
+              0.0,
+              -1.92,
+              612.0,
+              790.08
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 60,
+          "output_page": 1,
+          "source_png_sha256": "0dfa02e39d9756470fb96c40d132a5882b9511ea0b23fb6a3f89957eed422fc3",
+          "output_png_sha256": "0dfa02e39d9756470fb96c40d132a5882b9511ea0b23fb6a3f89957eed422fc3",
+          "match": true
+        },
+        {
+          "source_page": 61,
+          "output_page": 2,
+          "source_png_sha256": "1bf770cd3e3643d06a4b726af8b36c3fa329a001a288198877984ec4fff8f9a3",
+          "output_png_sha256": "1bf770cd3e3643d06a4b726af8b36c3fa329a001a288198877984ec4fff8f9a3",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Jammu & Kashmir",
+    "source_state": "Jammu & Kashmir",
+    "district": "Rajauri",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Jammu & Kashmir/1981 Rajauri.pdf",
+    "source_filename": "1981 Rajauri.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 149,
+    "output": "output/pdf/1981_trimmed/Jammu & Kashmir/civic amenities/1981_Rajauri_civic_amenities.pdf",
+    "source_pages_selected": [
+      103
+    ],
+    "printed_page_labels": [
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement IV Civic and Other Amenities, printed page 83; source page 104 begins Statement V.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 1,
+      "pages": [
+        {
+          "source_page": 103,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              633.12,
+              765.12
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              633.12,
+              765.12
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 103,
+          "output_page": 1,
+          "source_png_sha256": "e468cbe8a2a6493153de66f0b21043b6c9eda0377d9e0600a6cc0c5f629ac48c",
+          "output_png_sha256": "e468cbe8a2a6493153de66f0b21043b6c9eda0377d9e0600a6cc0c5f629ac48c",
+          "match": true
+        }
+      ],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 1,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Jammu & Kashmir",
+    "source_state": "Jammu & Kashmir",
+    "district": "Rajauri",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Jammu & Kashmir/1981 Rajauri.pdf",
+    "source_filename": "1981 Rajauri.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 149,
+    "output": "output/pdf/1981_trimmed/Jammu & Kashmir/mededu/1981_Rajauri_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      104
+    ],
+    "printed_page_labels": [
+      "84"
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement V Medical, Educational, Recreational and Cultural Facilities, printed page 84; source page 105 begins Statement VI.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 1,
+      "pages": [
+        {
+          "source_page": 104,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              633.12,
+              765.12
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              633.12,
+              765.12
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 104,
+          "output_page": 1,
+          "source_png_sha256": "8ac310d7a9c4894ac7ea3018f72608b00869516770afcbd6de1a0d5e728a4f24",
+          "output_png_sha256": "8ac310d7a9c4894ac7ea3018f72608b00869516770afcbd6de1a0d5e728a4f24",
+          "match": true
+        }
+      ],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 1,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Jammu & Kashmir",
+    "source_state": "Jammu & Kashmir",
+    "district": "Rajauri",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Jammu & Kashmir/1981 Rajauri.pdf",
+    "source_filename": "1981 Rajauri.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 149,
+    "output": "output/pdf/1981_trimmed/Jammu & Kashmir/tehsil appendix/1981_Rajauri_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      90,
+      91
+    ],
+    "printed_page_labels": [
+      "70",
+      "71"
+    ],
+    "status": "Trimmed",
+    "reason": "Village Directory Appendix I, Tehsil-wise Abstract of Educational, Medical and Other Amenities; source page 92 begins Appendix II.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 90,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              633.12,
+              765.12
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              633.12,
+              765.12
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 91,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              633.12,
+              765.12
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              633.12,
+              765.12
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 90,
+          "output_page": 1,
+          "source_png_sha256": "0272ab87d5be03713334692cba545d065e304204adcda9dfbfcb1ab2019eca74",
+          "output_png_sha256": "0272ab87d5be03713334692cba545d065e304204adcda9dfbfcb1ab2019eca74",
+          "match": true
+        },
+        {
+          "source_page": 91,
+          "output_page": 2,
+          "source_png_sha256": "d2e7f91d08c7f267769efff4b360929ced5efae1f98d68f9f962b7a919398d22",
+          "output_png_sha256": "d2e7f91d08c7f267769efff4b360929ced5efae1f98d68f9f962b7a919398d22",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Jammu & Kashmir",
+    "source_state": "Jammu & Kashmir",
+    "district": "Srinagar",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Jammu & Kashmir/1981 Srinagar.pdf",
+    "source_filename": "1981 Srinagar.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 190,
+    "output": "output/pdf/1981_trimmed/Jammu & Kashmir/civic amenities/1981_Srinagar_civic_amenities.pdf",
+    "source_pages_selected": [
+      85,
+      86
+    ],
+    "printed_page_labels": [
+      "65",
+      "66"
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement IV Civic and Other Amenities, printed pages 65-66; source page 87 begins Statement V.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 85,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              617.52,
+              768.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              617.52,
+              768.96
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 86,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              617.52,
+              768.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              617.52,
+              768.96
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 85,
+          "output_page": 1,
+          "source_png_sha256": "113c8ebe8d3f56ecac765c4595a4a7f5acefde75e35e276f1d8033693c8ca068",
+          "output_png_sha256": "113c8ebe8d3f56ecac765c4595a4a7f5acefde75e35e276f1d8033693c8ca068",
+          "match": true
+        },
+        {
+          "source_page": 86,
+          "output_page": 2,
+          "source_png_sha256": "1a43d3de091a79c0bb319041fe51efe936a95fb259cee081a8f24c2a2da8c440",
+          "output_png_sha256": "1a43d3de091a79c0bb319041fe51efe936a95fb259cee081a8f24c2a2da8c440",
+          "match": true
+        }
+      ],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Jammu & Kashmir",
+    "source_state": "Jammu & Kashmir",
+    "district": "Srinagar",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Jammu & Kashmir/1981 Srinagar.pdf",
+    "source_filename": "1981 Srinagar.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 190,
+    "output": "output/pdf/1981_trimmed/Jammu & Kashmir/mededu/1981_Srinagar_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      87
+    ],
+    "printed_page_labels": [
+      "67"
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement V Medical, Educational, Recreational and Cultural Facilities, printed page 67; source page 88 begins Statement VI.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 1,
+      "pages": [
+        {
+          "source_page": 87,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              617.52,
+              768.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              617.52,
+              768.96
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 87,
+          "output_page": 1,
+          "source_png_sha256": "b0152da877899b087250a7f04be2e823b2e62dddcdc8a8e955425dcc9681dae2",
+          "output_png_sha256": "b0152da877899b087250a7f04be2e823b2e62dddcdc8a8e955425dcc9681dae2",
+          "match": true
+        }
+      ],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 1,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Jammu & Kashmir",
+    "source_state": "Jammu & Kashmir",
+    "district": "Srinagar",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Jammu & Kashmir/1981 Srinagar.pdf",
+    "source_filename": "1981 Srinagar.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 190,
+    "output": "output/pdf/1981_trimmed/Jammu & Kashmir/tehsil appendix/1981_Srinagar_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      76,
+      77
+    ],
+    "printed_page_labels": [
+      "56",
+      "57"
+    ],
+    "status": "Trimmed",
+    "reason": "Village Directory Appendix I, Tehsil-wise Abstract of Educational, Medical and Other Amenities; source page 78 begins Appendix II.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 76,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              617.52,
+              768.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              617.52,
+              768.96
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 77,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              617.52,
+              768.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              617.52,
+              768.96
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 76,
+          "output_page": 1,
+          "source_png_sha256": "70719e483a63b45583eb935f71e228475eca9e0ba656c2d659768244c2cbd998",
+          "output_png_sha256": "70719e483a63b45583eb935f71e228475eca9e0ba656c2d659768244c2cbd998",
+          "match": true
+        },
+        {
+          "source_page": 77,
+          "output_page": 2,
+          "source_png_sha256": "749b7e9824226b972594052fa04687afe19f3ae52259c0e147fe43a963152741",
+          "output_png_sha256": "749b7e9824226b972594052fa04687afe19f3ae52259c0e147fe43a963152741",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  }
+]

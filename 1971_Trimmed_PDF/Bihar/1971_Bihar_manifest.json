@@ -1,0 +1,2231 @@
+[
+  {
+    "district": "Bhagalpur",
+    "table": "civic_amenities",
+    "source": "1971\\Bihar\\24656_1971_BHA.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Bihar\\civic amenities\\Bhagalpur_civic_1971.pdf",
+    "source_pages": [
+      41
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 41,
+        "mediabox": [
+          0.0,
+          0.0,
+          904.8,
+          1191.36
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          904.8,
+          1191.36
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Bhagalpur",
+    "table": "medical_educational_amenities",
+    "source": "1971\\Bihar\\24656_1971_BHA.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Bihar\\mededu\\Bhagalpur_mededu_1971.pdf",
+    "source_pages": [
+      41
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 41,
+        "mediabox": [
+          0.0,
+          0.0,
+          904.8,
+          1191.36
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          904.8,
+          1191.36
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Bhagalpur",
+    "table": "tehsil_appendix",
+    "source": "1971\\Bihar\\24656_1971_BHA.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Bihar\\tehsil appendix\\Bhagalpur_tehsil_1971.pdf",
+    "source_pages": [
+      213,
+      214
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 213,
+        "mediabox": [
+          0.0,
+          0.0,
+          904.8,
+          1191.36
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          904.8,
+          1191.36
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 214,
+        "mediabox": [
+          0.0,
+          0.0,
+          904.8,
+          1191.36
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          904.8,
+          1191.36
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Dhanbad",
+    "table": "civic_amenities",
+    "source": "1971\\Bihar\\24912_1971_DHA.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Bihar\\civic amenities\\Dhanbad_civic_1971.pdf",
+    "source_pages": [
+      33,
+      34
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 33,
+        "mediabox": [
+          0.0,
+          0.0,
+          913.44,
+          1200.96
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          913.44,
+          1200.96
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 34,
+        "mediabox": [
+          0.0,
+          0.0,
+          913.44,
+          1200.96
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          913.44,
+          1200.96
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Dhanbad",
+    "table": "medical_educational_amenities",
+    "source": "1971\\Bihar\\24912_1971_DHA.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Bihar\\mededu\\Dhanbad_mededu_1971.pdf",
+    "source_pages": [
+      35,
+      36
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 35,
+        "mediabox": [
+          0.0,
+          0.0,
+          913.44,
+          1200.96
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          913.44,
+          1200.96
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 36,
+        "mediabox": [
+          0.0,
+          0.0,
+          913.44,
+          1200.96
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          913.44,
+          1200.96
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Dhanbad",
+    "table": "tehsil_appendix",
+    "source": "1971\\Bihar\\24912_1971_DHA.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Bihar\\tehsil appendix\\Dhanbad_tehsil_1971.pdf",
+    "source_pages": [
+      113,
+      114
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 113,
+        "mediabox": [
+          0.0,
+          0.0,
+          913.44,
+          1200.96
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          913.44,
+          1200.96
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 114,
+        "mediabox": [
+          0.0,
+          0.0,
+          913.44,
+          1200.96
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          913.44,
+          1200.96
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Hazaribagh",
+    "table": "civic_amenities",
+    "source": "1971\\Bihar\\25098_1971_HAZ.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Bihar\\civic amenities\\Hazaribagh_civic_1971.pdf",
+    "source_pages": [
+      63,
+      64
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 63,
+        "mediabox": [
+          0.0,
+          0.0,
+          950.88,
+          1177.92
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          950.88,
+          1177.92
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 64,
+        "mediabox": [
+          0.0,
+          0.0,
+          950.88,
+          1177.92
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          950.88,
+          1177.92
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Hazaribagh",
+    "table": "medical_educational_amenities",
+    "source": "1971\\Bihar\\25098_1971_HAZ.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Bihar\\mededu\\Hazaribagh_mededu_1971.pdf",
+    "source_pages": [
+      65,
+      66
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 65,
+        "mediabox": [
+          0.0,
+          0.0,
+          950.88,
+          1177.92
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          950.88,
+          1177.92
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 66,
+        "mediabox": [
+          0.0,
+          0.0,
+          950.88,
+          1177.92
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          950.88,
+          1177.92
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Hazaribagh",
+    "table": "tehsil_appendix",
+    "source": "1971\\Bihar\\25098_1971_HAZ.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Bihar\\tehsil appendix\\Hazaribagh_tehsil_1971.pdf",
+    "source_pages": [
+      393,
+      394,
+      395,
+      396
+    ],
+    "output_pages": 4,
+    "page_sizes": [
+      {
+        "source_page": 393,
+        "mediabox": [
+          0.0,
+          0.0,
+          950.88,
+          1177.92
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          950.88,
+          1177.92
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 394,
+        "mediabox": [
+          0.0,
+          0.0,
+          950.88,
+          1177.92
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          950.88,
+          1177.92
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 395,
+        "mediabox": [
+          0.0,
+          0.0,
+          950.88,
+          1177.92
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          950.88,
+          1177.92
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 396,
+        "mediabox": [
+          0.0,
+          0.0,
+          950.88,
+          1177.92
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          950.88,
+          1177.92
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Ranchi",
+    "table": "civic_amenities",
+    "source": "1971\\Bihar\\25194_1971_RAN.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Bihar\\civic amenities\\Ranchi_civic_1971.pdf",
+    "source_pages": [
+      45,
+      46
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 45,
+        "mediabox": [
+          0.0,
+          0.0,
+          1146.24,
+          1359.12
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          1146.24,
+          1359.12
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 46,
+        "mediabox": [
+          0.0,
+          0.0,
+          1146.24,
+          1359.12
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          1146.24,
+          1359.12
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Ranchi",
+    "table": "medical_educational_amenities",
+    "source": "1971\\Bihar\\25194_1971_RAN.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Bihar\\mededu\\Ranchi_mededu_1971.pdf",
+    "source_pages": [
+      47,
+      48
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 47,
+        "mediabox": [
+          0.0,
+          0.0,
+          1146.24,
+          1359.12
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          1146.24,
+          1359.12
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 48,
+        "mediabox": [
+          0.0,
+          0.0,
+          1146.24,
+          1359.12
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          1146.24,
+          1359.12
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Ranchi",
+    "table": "tehsil_appendix",
+    "source": "1971\\Bihar\\25194_1971_RAN.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Bihar\\tehsil appendix\\Ranchi_tehsil_1971.pdf",
+    "source_pages": [
+      247,
+      248,
+      249,
+      250
+    ],
+    "output_pages": 4,
+    "page_sizes": [
+      {
+        "source_page": 247,
+        "mediabox": [
+          0.0,
+          0.0,
+          1146.24,
+          1359.12
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          1146.24,
+          1359.12
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 248,
+        "mediabox": [
+          0.0,
+          0.0,
+          1146.24,
+          1359.12
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          1146.24,
+          1359.12
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 249,
+        "mediabox": [
+          0.0,
+          0.0,
+          1146.24,
+          1359.12
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          1146.24,
+          1359.12
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 250,
+        "mediabox": [
+          0.0,
+          0.0,
+          1146.24,
+          1359.12
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          1146.24,
+          1359.12
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Monghyr",
+    "table": "civic_amenities",
+    "source": "1971\\Bihar\\25257_1971_MON.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Bihar\\civic amenities\\Monghyr_civic_1971.pdf",
+    "source_pages": [
+      50
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 50,
+        "mediabox": [
+          0.0,
+          0.0,
+          842.16,
+          1042.08
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          842.16,
+          1042.08
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Monghyr",
+    "table": "medical_educational_amenities",
+    "source": "1971\\Bihar\\25257_1971_MON.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Bihar\\mededu\\Monghyr_mededu_1971.pdf",
+    "source_pages": [
+      51
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 51,
+        "mediabox": [
+          0.0,
+          0.0,
+          842.16,
+          1042.08
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          842.16,
+          1042.08
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Monghyr",
+    "table": "tehsil_appendix",
+    "source": "1971\\Bihar\\25257_1971_MON.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Bihar\\tehsil appendix\\Monghyr_tehsil_1971.pdf",
+    "source_pages": [
+      264,
+      265,
+      266,
+      267
+    ],
+    "output_pages": 4,
+    "page_sizes": [
+      {
+        "source_page": 264,
+        "mediabox": [
+          0.0,
+          0.0,
+          842.16,
+          1042.08
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          842.16,
+          1042.08
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 265,
+        "mediabox": [
+          0.0,
+          0.0,
+          842.16,
+          1042.08
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          842.16,
+          1042.08
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 266,
+        "mediabox": [
+          0.0,
+          0.0,
+          842.16,
+          1042.08
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          842.16,
+          1042.08
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 267,
+        "mediabox": [
+          0.0,
+          0.0,
+          842.16,
+          1042.08
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          842.16,
+          1042.08
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Patna",
+    "table": "civic_amenities",
+    "source": "1971\\Bihar\\25312_1971_PAT.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Bihar\\civic amenities\\Patna_civic_1971.pdf",
+    "source_pages": [
+      34,
+      35
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 34,
+        "mediabox": [
+          0.0,
+          0.0,
+          613.2,
+          812.16
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          613.2,
+          812.16
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 35,
+        "mediabox": [
+          0.0,
+          0.0,
+          613.2,
+          812.16
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          613.2,
+          812.16
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Patna",
+    "table": "medical_educational_amenities",
+    "source": "1971\\Bihar\\25312_1971_PAT.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Bihar\\mededu\\Patna_mededu_1971.pdf",
+    "source_pages": [
+      36,
+      37
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 36,
+        "mediabox": [
+          0.0,
+          0.0,
+          613.2,
+          812.16
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          613.2,
+          812.16
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 37,
+        "mediabox": [
+          0.0,
+          0.0,
+          613.2,
+          812.16
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          613.2,
+          812.16
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Patna",
+    "table": "tehsil_appendix",
+    "source": "1971\\Bihar\\25312_1971_PAT.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Bihar\\tehsil appendix\\Patna_tehsil_1971.pdf",
+    "source_pages": [
+      186,
+      187,
+      188,
+      189
+    ],
+    "output_pages": 4,
+    "page_sizes": [
+      {
+        "source_page": 186,
+        "mediabox": [
+          0.0,
+          0.0,
+          613.2,
+          812.16
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          613.2,
+          812.16
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 187,
+        "mediabox": [
+          0.0,
+          0.0,
+          613.2,
+          812.16
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          613.2,
+          812.16
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 188,
+        "mediabox": [
+          0.0,
+          0.0,
+          613.2,
+          812.16
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          613.2,
+          812.16
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 189,
+        "mediabox": [
+          0.0,
+          0.0,
+          613.2,
+          812.16
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          613.2,
+          812.16
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Champaran",
+    "table": "civic_amenities",
+    "source": "1971\\Bihar\\25599_1971_CHA.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Bihar\\civic amenities\\Champaran_civic_1971.pdf",
+    "source_pages": [
+      37
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 37,
+        "mediabox": [
+          0.0,
+          0.0,
+          853.68,
+          1137.84
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          853.68,
+          1137.84
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Champaran",
+    "table": "medical_educational_amenities",
+    "source": "1971\\Bihar\\25599_1971_CHA.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Bihar\\mededu\\Champaran_mededu_1971.pdf",
+    "source_pages": [
+      37
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 37,
+        "mediabox": [
+          0.0,
+          0.0,
+          853.68,
+          1137.84
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          853.68,
+          1137.84
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Champaran",
+    "table": "tehsil_appendix",
+    "source": "1971\\Bihar\\25599_1971_CHA.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Bihar\\tehsil appendix\\Champaran_tehsil_1971.pdf",
+    "source_pages": [
+      197,
+      198,
+      199,
+      200
+    ],
+    "output_pages": 4,
+    "page_sizes": [
+      {
+        "source_page": 197,
+        "mediabox": [
+          0.0,
+          0.0,
+          853.68,
+          1137.84
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          853.68,
+          1137.84
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 198,
+        "mediabox": [
+          0.0,
+          0.0,
+          853.68,
+          1137.84
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          853.68,
+          1137.84
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 199,
+        "mediabox": [
+          0.0,
+          0.0,
+          853.68,
+          1137.84
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          853.68,
+          1137.84
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 200,
+        "mediabox": [
+          0.0,
+          0.0,
+          853.68,
+          1137.84
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          853.68,
+          1137.84
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Saharsa",
+    "table": "civic_amenities",
+    "source": "1971\\Bihar\\26051_1971_SAH.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Bihar\\civic amenities\\Saharsa_civic_1971.pdf",
+    "source_pages": [
+      33,
+      34
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 33,
+        "mediabox": [
+          0.0,
+          0.0,
+          644.4,
+          818.88
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          644.4,
+          818.88
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 34,
+        "mediabox": [
+          0.0,
+          0.0,
+          644.4,
+          818.88
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          644.4,
+          818.88
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Saharsa",
+    "table": "medical_educational_amenities",
+    "source": "1971\\Bihar\\26051_1971_SAH.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Bihar\\mededu\\Saharsa_mededu_1971.pdf",
+    "source_pages": [
+      35,
+      36
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 35,
+        "mediabox": [
+          0.0,
+          0.0,
+          644.4,
+          818.88
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          644.4,
+          818.88
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 36,
+        "mediabox": [
+          0.0,
+          0.0,
+          644.4,
+          818.88
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          644.4,
+          818.88
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Saharsa",
+    "table": "tehsil_appendix",
+    "source": "1971\\Bihar\\26051_1971_SAH.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Bihar\\tehsil appendix\\Saharsa_tehsil_1971.pdf",
+    "source_pages": [
+      121,
+      122
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 121,
+        "mediabox": [
+          0.0,
+          0.0,
+          644.4,
+          818.88
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          644.4,
+          818.88
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 122,
+        "mediabox": [
+          0.0,
+          0.0,
+          644.4,
+          818.88
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          644.4,
+          818.88
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Purnea",
+    "table": "civic_amenities",
+    "source": "1971\\Bihar\\40512_1971_PUR.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Bihar\\civic amenities\\Purnea_civic_1971.pdf",
+    "source_pages": [
+      47,
+      48
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 47,
+        "mediabox": [
+          0.0,
+          0.0,
+          660.48,
+          794.16
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          660.48,
+          794.16
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 48,
+        "mediabox": [
+          0.0,
+          0.0,
+          660.48,
+          794.16
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          660.48,
+          794.16
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Purnea",
+    "table": "medical_educational_amenities",
+    "source": "1971\\Bihar\\40512_1971_PUR.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Bihar\\mededu\\Purnea_mededu_1971.pdf",
+    "source_pages": [
+      49,
+      50
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 49,
+        "mediabox": [
+          0.0,
+          0.0,
+          660.48,
+          794.16
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          660.48,
+          794.16
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 50,
+        "mediabox": [
+          0.0,
+          0.0,
+          660.48,
+          794.16
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          660.48,
+          794.16
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Purnea",
+    "table": "tehsil_appendix",
+    "source": "1971\\Bihar\\40512_1971_PUR.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Bihar\\tehsil appendix\\Purnea_tehsil_1971.pdf",
+    "source_pages": [
+      265,
+      266,
+      267,
+      268
+    ],
+    "output_pages": 4,
+    "page_sizes": [
+      {
+        "source_page": 265,
+        "mediabox": [
+          0.0,
+          0.0,
+          660.48,
+          794.16
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          660.48,
+          794.16
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 266,
+        "mediabox": [
+          0.0,
+          0.0,
+          660.48,
+          794.16
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          660.48,
+          794.16
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 267,
+        "mediabox": [
+          0.0,
+          0.0,
+          660.48,
+          794.16
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          660.48,
+          794.16
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 268,
+        "mediabox": [
+          0.0,
+          0.0,
+          660.48,
+          794.16
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          660.48,
+          794.16
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Singhbhum",
+    "table": "civic_amenities",
+    "source": "1971\\Bihar\\41339_1971_SIN.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Bihar\\civic amenities\\Singhbhum_civic_1971.pdf",
+    "source_pages": [
+      51,
+      52
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 51,
+        "mediabox": [
+          0.0,
+          0.0,
+          659.04,
+          827.04
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          659.04,
+          827.04
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 52,
+        "mediabox": [
+          0.0,
+          0.0,
+          659.04,
+          827.04
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          659.04,
+          827.04
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Singhbhum",
+    "table": "medical_educational_amenities",
+    "source": "1971\\Bihar\\41339_1971_SIN.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Bihar\\mededu\\Singhbhum_mededu_1971.pdf",
+    "source_pages": [
+      53,
+      54
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 53,
+        "mediabox": [
+          0.0,
+          0.0,
+          659.04,
+          827.04
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          659.04,
+          827.04
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 54,
+        "mediabox": [
+          0.0,
+          0.0,
+          659.04,
+          827.04
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          659.04,
+          827.04
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Singhbhum",
+    "table": "tehsil_appendix",
+    "source": "1971\\Bihar\\41339_1971_SIN.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Bihar\\tehsil appendix\\Singhbhum_tehsil_1971.pdf",
+    "source_pages": [
+      277,
+      278,
+      279
+    ],
+    "output_pages": 3,
+    "page_sizes": [
+      {
+        "source_page": 277,
+        "mediabox": [
+          0.0,
+          0.0,
+          659.04,
+          827.04
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          659.04,
+          827.04
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 278,
+        "mediabox": [
+          0.0,
+          0.0,
+          659.04,
+          827.04
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          659.04,
+          827.04
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 279,
+        "mediabox": [
+          0.0,
+          0.0,
+          659.04,
+          827.04
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          659.04,
+          827.04
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Palamau",
+    "table": "civic_amenities",
+    "source": "1971\\Bihar\\41344_1971_PAL.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Bihar\\civic amenities\\Palamau_civic_1971.pdf",
+    "source_pages": [
+      40
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 40,
+        "mediabox": [
+          0.0,
+          0.0,
+          679.2,
+          843.12
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          679.2,
+          843.12
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Palamau",
+    "table": "medical_educational_amenities",
+    "source": "1971\\Bihar\\41344_1971_PAL.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Bihar\\mededu\\Palamau_mededu_1971.pdf",
+    "source_pages": [
+      41
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 41,
+        "mediabox": [
+          0.0,
+          0.0,
+          679.2,
+          843.12
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          679.2,
+          843.12
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Palamau",
+    "table": "tehsil_appendix",
+    "source": "1971\\Bihar\\41344_1971_PAL.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Bihar\\tehsil appendix\\Palamau_tehsil_1971.pdf",
+    "source_pages": [
+      209,
+      210,
+      211
+    ],
+    "output_pages": 3,
+    "page_sizes": [
+      {
+        "source_page": 209,
+        "mediabox": [
+          0.0,
+          0.0,
+          679.2,
+          843.12
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          679.2,
+          843.12
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 210,
+        "mediabox": [
+          0.0,
+          0.0,
+          679.2,
+          843.12
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          679.2,
+          843.12
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 211,
+        "mediabox": [
+          0.0,
+          0.0,
+          679.2,
+          843.12
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          679.2,
+          843.12
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Saran",
+    "table": "civic_amenities",
+    "source": "1971\\Bihar\\41669_1971_SAR.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Bihar\\civic amenities\\Saran_civic_1971.pdf",
+    "source_pages": [
+      48
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 48,
+        "mediabox": [
+          0.0,
+          0.0,
+          632.16,
+          818.4
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          632.16,
+          818.4
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Saran",
+    "table": "medical_educational_amenities",
+    "source": "1971\\Bihar\\41669_1971_SAR.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Bihar\\mededu\\Saran_mededu_1971.pdf",
+    "source_pages": [
+      49
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 49,
+        "mediabox": [
+          0.0,
+          0.0,
+          632.16,
+          818.4
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          632.16,
+          818.4
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Saran",
+    "table": "tehsil_appendix",
+    "source": "1971\\Bihar\\41669_1971_SAR.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Bihar\\tehsil appendix\\Saran_tehsil_1971.pdf",
+    "source_pages": [
+      291,
+      292,
+      293,
+      294
+    ],
+    "output_pages": 4,
+    "page_sizes": [
+      {
+        "source_page": 291,
+        "mediabox": [
+          0.0,
+          0.0,
+          632.16,
+          818.4
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          632.16,
+          818.4
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 292,
+        "mediabox": [
+          0.0,
+          0.0,
+          632.16,
+          818.4
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          632.16,
+          818.4
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 293,
+        "mediabox": [
+          0.0,
+          0.0,
+          632.16,
+          818.4
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          632.16,
+          818.4
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 294,
+        "mediabox": [
+          0.0,
+          0.0,
+          632.16,
+          818.4
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          632.16,
+          818.4
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Gaya",
+    "table": "civic_amenities",
+    "source": "1971\\Bihar\\43128_1971_GAY.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Bihar\\civic amenities\\Gaya_civic_1971.pdf",
+    "source_pages": [
+      59,
+      60
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 59,
+        "mediabox": [
+          0.0,
+          0.0,
+          904.8,
+          1136.64
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          904.8,
+          1136.64
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 60,
+        "mediabox": [
+          0.0,
+          0.0,
+          904.8,
+          1136.64
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          904.8,
+          1136.64
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Gaya",
+    "table": "medical_educational_amenities",
+    "source": "1971\\Bihar\\43128_1971_GAY.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Bihar\\mededu\\Gaya_mededu_1971.pdf",
+    "source_pages": [
+      61,
+      62
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 61,
+        "mediabox": [
+          0.0,
+          0.0,
+          904.8,
+          1136.64
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          904.8,
+          1136.64
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 62,
+        "mediabox": [
+          0.0,
+          0.0,
+          904.8,
+          1136.64
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          904.8,
+          1136.64
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Gaya",
+    "table": "tehsil_appendix",
+    "source": "1971\\Bihar\\43128_1971_GAY.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Bihar\\tehsil appendix\\Gaya_tehsil_1971.pdf",
+    "source_pages": [
+      385,
+      386,
+      387,
+      388
+    ],
+    "output_pages": 4,
+    "page_sizes": [
+      {
+        "source_page": 385,
+        "mediabox": [
+          0.0,
+          0.0,
+          904.8,
+          1136.64
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          904.8,
+          1136.64
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 386,
+        "mediabox": [
+          0.0,
+          0.0,
+          904.8,
+          1136.64
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          904.8,
+          1136.64
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 387,
+        "mediabox": [
+          0.0,
+          0.0,
+          904.8,
+          1136.64
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          904.8,
+          1136.64
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 388,
+        "mediabox": [
+          0.0,
+          0.0,
+          904.8,
+          1136.64
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          904.8,
+          1136.64
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Darbhanga",
+    "table": "civic_amenities",
+    "source": "1971\\Bihar\\43891_1971_DAR.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Bihar\\civic amenities\\Darbhanga_civic_1971.pdf",
+    "source_pages": [
+      45,
+      46
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 45,
+        "mediabox": [
+          0.0,
+          0.0,
+          941.52,
+          1172.16
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          941.52,
+          1172.16
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 46,
+        "mediabox": [
+          0.0,
+          0.0,
+          941.52,
+          1172.16
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          941.52,
+          1172.16
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Darbhanga",
+    "table": "medical_educational_amenities",
+    "source": "1971\\Bihar\\43891_1971_DAR.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Bihar\\mededu\\Darbhanga_mededu_1971.pdf",
+    "source_pages": [
+      45,
+      46
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 45,
+        "mediabox": [
+          0.0,
+          0.0,
+          941.52,
+          1172.16
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          941.52,
+          1172.16
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 46,
+        "mediabox": [
+          0.0,
+          0.0,
+          941.52,
+          1172.16
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          941.52,
+          1172.16
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Darbhanga",
+    "table": "tehsil_appendix",
+    "source": "1971\\Bihar\\43891_1971_DAR.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Bihar\\tehsil appendix\\Darbhanga_tehsil_1971.pdf",
+    "source_pages": [
+      234,
+      235,
+      236,
+      237
+    ],
+    "output_pages": 4,
+    "page_sizes": [
+      {
+        "source_page": 234,
+        "mediabox": [
+          0.0,
+          0.0,
+          941.52,
+          1172.16
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          941.52,
+          1172.16
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 235,
+        "mediabox": [
+          0.0,
+          0.0,
+          941.52,
+          1172.16
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          941.52,
+          1172.16
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 236,
+        "mediabox": [
+          0.0,
+          0.0,
+          941.52,
+          1172.16
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          941.52,
+          1172.16
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 237,
+        "mediabox": [
+          0.0,
+          0.0,
+          941.52,
+          1172.16
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          941.52,
+          1172.16
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Santal Parganas",
+    "table": "civic_amenities",
+    "source": "1971\\Bihar\\47756_1971_SAN.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Bihar\\civic amenities\\Santal Parganas_civic_1971.pdf",
+    "source_pages": [
+      84,
+      85
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 84,
+        "mediabox": [
+          0.0,
+          0.0,
+          870.0,
+          1141.44
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          870.0,
+          1141.44
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 85,
+        "mediabox": [
+          0.0,
+          0.0,
+          870.0,
+          1141.44
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          870.0,
+          1141.44
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Santal Parganas",
+    "table": "medical_educational_amenities",
+    "source": "1971\\Bihar\\47756_1971_SAN.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Bihar\\mededu\\Santal Parganas_mededu_1971.pdf",
+    "source_pages": [
+      86,
+      87
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 86,
+        "mediabox": [
+          0.0,
+          0.0,
+          870.0,
+          1141.44
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          870.0,
+          1141.44
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 87,
+        "mediabox": [
+          0.0,
+          0.0,
+          870.0,
+          1141.44
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          870.0,
+          1141.44
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Santal Parganas",
+    "table": "tehsil_appendix",
+    "source": "1971\\Bihar\\47756_1971_SAN.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Bihar\\tehsil appendix\\Santal Parganas_tehsil_1971.pdf",
+    "source_pages": [
+      634,
+      635,
+      636,
+      637
+    ],
+    "output_pages": 4,
+    "page_sizes": [
+      {
+        "source_page": 634,
+        "mediabox": [
+          0.0,
+          0.0,
+          870.0,
+          1141.44
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          870.0,
+          1141.44
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 635,
+        "mediabox": [
+          0.0,
+          0.0,
+          870.0,
+          1141.44
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          870.0,
+          1141.44
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 636,
+        "mediabox": [
+          0.0,
+          0.0,
+          870.0,
+          1141.44
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          870.0,
+          1141.44
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 637,
+        "mediabox": [
+          0.0,
+          0.0,
+          870.0,
+          1141.44
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          870.0,
+          1141.44
+        ],
+        "rotate": 0
+      }
+    ]
+  }
+]

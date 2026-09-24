@@ -1,0 +1,128 @@
+format_id: format_003
+name: Tehsil Appendix
+category: Tehsil Appendix
+pdfs:
+- filenames:
+  - Anantnag_tehsil_1971.pdf
+  - Kathua_tehsil_1971.pdf
+  pagination:
+    page_1_columns:
+    - 1
+    - 16
+    page_2_columns:
+    - 17
+    - 32
+- filenames:
+  - Baramula_tehsil_1971.pdf
+  - Doda_tehsil_1971.pdf
+  - Jammu_tehsil_1971.pdf
+  - Ladakh_tehsil_1971.pdf
+  - Punch_tehsil_1971.pdf
+  - Rajauri_tehsil_1971.pdf
+  - Srinagar_tehsil_1971.pdf
+  - Udhampur_tehsil_1971.pdf
+  pagination:
+    page_1_columns:
+    - 1
+    - 14
+    page_2_columns:
+    - 15
+    - 32
+columns:
+- number: 1
+  name: Sl. No.
+  variable_name: sl_no
+- number: 2
+  name: Name of Tehsil
+  variable_name: tehsil_name
+- number: 3
+  name: No. of Villages having Primary/Makhtab/Pathshala/Basic Activity Schools
+  variable_name: primary_school_villages
+- number: 4
+  name: No. of Primary/Makhtab/Pathshala/Basic Activity Schools
+  variable_name: primary_schools
+- number: 5
+  name: No. of Villages having Middle/Central Schools
+  variable_name: middle_school_villages
+- number: 6
+  name: No. of Middle/Central Schools
+  variable_name: middle_schools
+- number: 7
+  name: No. of Villages having Lower High/High/Higher Secondary Schools
+  variable_name: higher_secondary_school_villages
+- number: 8
+  name: No. of Lower High/High/Higher Secondary Schools
+  variable_name: higher_secondary_schools
+- number: 9
+  name: No. of Villages having Colleges
+  variable_name: college_villages
+- number: 10
+  name: No. of Colleges
+  variable_name: colleges
+- number: 11
+  name: No. of Villages having Other Educational Institutions
+  variable_name: other_educational_institution_villages
+- number: 12
+  name: No. of Other Educational Institutions
+  variable_name: other_educational_institutions
+- number: 13
+  name: No. of Villages having Dispensaries
+  variable_name: dispensary_villages
+- number: 14
+  name: No. of Dispensaries
+  variable_name: dispensaries
+- number: 15
+  name: No. of Villages having Health Centres
+  variable_name: health_centre_villages
+- number: 16
+  name: No. of Health Centres
+  variable_name: health_centres
+- number: 17
+  name: No. of Villages having Hospitals
+  variable_name: hospital_villages
+- number: 18
+  name: No. of Hospitals
+  variable_name: hospitals
+- number: 19
+  name: No. of Villages having Family Planning/First Aid/Sub-Centres
+  variable_name: family_planning_first_aid_sub_centre_villages
+- number: 20
+  name: No. of Family Planning/First Aid/Sub-Centres
+  variable_name: family_planning_first_aid_sub_centres
+- number: 21
+  name: Power Supply Available
+  variable_name: power_available_villages
+- number: 22
+  name: Power Supply Not Available
+  variable_name: power_not_available_villages
+- number: 23
+  name: No. of Villages having Tap Water
+  variable_name: tap_water_villages
+- number: 24
+  name: No. of Villages having Well Water
+  variable_name: well_water_villages
+- number: 25
+  name: No. of Villages having Spring/Stream/River/Tube-well/Tank/Hand Pump/Other
+    Water Sources
+  variable_name: other_water_source_villages
+- number: 26
+  name: No. of Villages having Pucca Roads
+  variable_name: pucca_road_villages
+- number: 27
+  name: No. of Villages having Kutcha Roads
+  variable_name: kutcha_road_villages
+- number: 28
+  name: No. of Villages having Post Offices
+  variable_name: post_office_villages
+- number: 29
+  name: No. of Post Offices
+  variable_name: post_offices
+- number: 30
+  name: No. of Villages having Telegraph Offices
+  variable_name: telegraph_office_villages
+- number: 31
+  name: No. of Telegraph Offices
+  variable_name: telegraph_offices
+- number: 32
+  name: No. of Villages having Telephone Facilities
+  variable_name: telephone_villages

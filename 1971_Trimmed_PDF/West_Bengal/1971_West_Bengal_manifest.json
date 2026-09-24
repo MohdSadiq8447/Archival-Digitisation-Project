@@ -1,0 +1,1208 @@
+[
+  {
+    "district": "Birbhum",
+    "table": "civic_amenities",
+    "source": "1971\\West Bengal\\1971 Birbhum.pdf",
+    "output": "output\\pdf\\1971_trimmed\\West Bengal\\civic amenities\\Birbhum_civic_1971.pdf",
+    "source_pages": [
+      47,
+      48
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 47,
+        "mediabox": [
+          0.0,
+          0.0,
+          567.6,
+          744.24
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          567.6,
+          744.24
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 48,
+        "mediabox": [
+          0.0,
+          0.0,
+          567.6,
+          744.24
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          567.6,
+          744.24
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Birbhum",
+    "table": "medical_educational_amenities",
+    "source": "1971\\West Bengal\\1971 Birbhum.pdf",
+    "output": "output\\pdf\\1971_trimmed\\West Bengal\\mededu\\Birbhum_mededu_1971.pdf",
+    "source_pages": [
+      49,
+      50
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 49,
+        "mediabox": [
+          0.0,
+          0.0,
+          567.6,
+          744.24
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          567.6,
+          744.24
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 50,
+        "mediabox": [
+          0.0,
+          0.0,
+          567.6,
+          744.24
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          567.6,
+          744.24
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Burdwan",
+    "table": "civic_amenities",
+    "source": "1971\\West Bengal\\1971 Burdwan.pdf",
+    "output": "output\\pdf\\1971_trimmed\\West Bengal\\civic amenities\\Burdwan_civic_1971.pdf",
+    "source_pages": [
+      59,
+      60
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 59,
+        "mediabox": [
+          0.0,
+          0.0,
+          587.04,
+          774.48
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          587.04,
+          774.48
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 60,
+        "mediabox": [
+          0.0,
+          0.0,
+          587.04,
+          774.48
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          587.04,
+          774.48
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Burdwan",
+    "table": "medical_educational_amenities",
+    "source": "1971\\West Bengal\\1971 Burdwan.pdf",
+    "output": "output\\pdf\\1971_trimmed\\West Bengal\\mededu\\Burdwan_mededu_1971.pdf",
+    "source_pages": [
+      61,
+      62
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 61,
+        "mediabox": [
+          0.0,
+          0.0,
+          587.04,
+          774.48
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          587.04,
+          774.48
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 62,
+        "mediabox": [
+          0.0,
+          0.0,
+          587.04,
+          774.48
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          587.04,
+          774.48
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Calcutta",
+    "table": "civic_amenities",
+    "source": "1971\\West Bengal\\1971 Calcutta.pdf",
+    "output": "output\\pdf\\1971_trimmed\\West Bengal\\civic amenities\\Calcutta_civic_1971.pdf",
+    "source_pages": [
+      13,
+      14
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 13,
+        "mediabox": [
+          0.0,
+          0.0,
+          557.52,
+          762.48
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          557.52,
+          762.48
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 14,
+        "mediabox": [
+          0.0,
+          0.0,
+          557.52,
+          762.48
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          557.52,
+          762.48
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Calcutta",
+    "table": "medical_educational_amenities",
+    "source": "1971\\West Bengal\\1971 Calcutta.pdf",
+    "output": "output\\pdf\\1971_trimmed\\West Bengal\\mededu\\Calcutta_mededu_1971.pdf",
+    "source_pages": [
+      15,
+      16
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 15,
+        "mediabox": [
+          0.0,
+          0.0,
+          557.52,
+          762.48
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          557.52,
+          762.48
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 16,
+        "mediabox": [
+          0.0,
+          0.0,
+          557.52,
+          762.48
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          557.52,
+          762.48
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Dinajpur",
+    "table": "civic_amenities",
+    "source": "1971\\West Bengal\\1971 Dinajpur .pdf",
+    "output": "output\\pdf\\1971_trimmed\\West Bengal\\civic amenities\\Dinajpur_civic_1971.pdf",
+    "source_pages": [
+      60,
+      61
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 60,
+        "mediabox": [
+          0.0,
+          0.0,
+          554.16,
+          763.92
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          554.16,
+          763.92
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 61,
+        "mediabox": [
+          0.0,
+          0.0,
+          554.16,
+          763.92
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          554.16,
+          763.92
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Dinajpur",
+    "table": "medical_educational_amenities",
+    "source": "1971\\West Bengal\\1971 Dinajpur .pdf",
+    "output": "output\\pdf\\1971_trimmed\\West Bengal\\mededu\\Dinajpur_mededu_1971.pdf",
+    "source_pages": [
+      62,
+      63
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 62,
+        "mediabox": [
+          0.0,
+          0.0,
+          554.16,
+          763.92
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          554.16,
+          763.92
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 63,
+        "mediabox": [
+          0.0,
+          0.0,
+          554.16,
+          763.92
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          554.16,
+          763.92
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Haora",
+    "table": "civic_amenities",
+    "source": "1971\\West Bengal\\1971 Haora.pdf",
+    "output": "output\\pdf\\1971_trimmed\\West Bengal\\civic amenities\\Haora_civic_1971.pdf",
+    "source_pages": [
+      41,
+      42,
+      43,
+      44
+    ],
+    "output_pages": 4,
+    "page_sizes": [
+      {
+        "source_page": 41,
+        "mediabox": [
+          0.0,
+          0.0,
+          608.88,
+          808.56
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          608.88,
+          808.56
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 42,
+        "mediabox": [
+          0.0,
+          0.0,
+          608.88,
+          808.56
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          608.88,
+          808.56
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 43,
+        "mediabox": [
+          0.0,
+          0.0,
+          608.88,
+          808.56
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          608.88,
+          808.56
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 44,
+        "mediabox": [
+          0.0,
+          0.0,
+          608.88,
+          808.56
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          608.88,
+          808.56
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Haora",
+    "table": "medical_educational_amenities",
+    "source": "1971\\West Bengal\\1971 Haora.pdf",
+    "output": "output\\pdf\\1971_trimmed\\West Bengal\\mededu\\Haora_mededu_1971.pdf",
+    "source_pages": [
+      45,
+      46,
+      47,
+      48
+    ],
+    "output_pages": 4,
+    "page_sizes": [
+      {
+        "source_page": 45,
+        "mediabox": [
+          0.0,
+          0.0,
+          608.88,
+          808.56
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          608.88,
+          808.56
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 46,
+        "mediabox": [
+          0.0,
+          0.0,
+          608.88,
+          808.56
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          608.88,
+          808.56
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 47,
+        "mediabox": [
+          0.0,
+          0.0,
+          608.88,
+          808.56
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          608.88,
+          808.56
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 48,
+        "mediabox": [
+          0.0,
+          0.0,
+          608.88,
+          808.56
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          608.88,
+          808.56
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Hugli",
+    "table": "civic_amenities",
+    "source": "1971\\West Bengal\\1971 Hugli.pdf",
+    "output": "output\\pdf\\1971_trimmed\\West Bengal\\civic amenities\\Hugli_civic_1971.pdf",
+    "source_pages": [
+      53,
+      54
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 53,
+        "mediabox": [
+          0.0,
+          0.0,
+          555.84,
+          767.04
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          555.84,
+          767.04
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 54,
+        "mediabox": [
+          0.0,
+          0.0,
+          555.84,
+          767.04
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          555.84,
+          767.04
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Hugli",
+    "table": "medical_educational_amenities",
+    "source": "1971\\West Bengal\\1971 Hugli.pdf",
+    "output": "output\\pdf\\1971_trimmed\\West Bengal\\mededu\\Hugli_mededu_1971.pdf",
+    "source_pages": [
+      55,
+      56
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 55,
+        "mediabox": [
+          0.0,
+          0.0,
+          555.84,
+          767.04
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          555.84,
+          767.04
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 56,
+        "mediabox": [
+          0.0,
+          0.0,
+          555.84,
+          767.04
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          555.84,
+          767.04
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Jalapiguri",
+    "table": "civic_amenities",
+    "source": "1971\\West Bengal\\1971 Jalapiguri.pdf",
+    "output": "output\\pdf\\1971_trimmed\\West Bengal\\civic amenities\\Jalapiguri_civic_1971.pdf",
+    "source_pages": [
+      33,
+      34
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 33,
+        "mediabox": [
+          0.0,
+          0.0,
+          564.0,
+          788.16
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          564.0,
+          788.16
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 34,
+        "mediabox": [
+          0.0,
+          0.0,
+          564.0,
+          788.16
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          564.0,
+          788.16
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Jalapiguri",
+    "table": "medical_educational_amenities",
+    "source": "1971\\West Bengal\\1971 Jalapiguri.pdf",
+    "output": "output\\pdf\\1971_trimmed\\West Bengal\\mededu\\Jalapiguri_mededu_1971.pdf",
+    "source_pages": [
+      35,
+      36
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 35,
+        "mediabox": [
+          0.0,
+          0.0,
+          564.0,
+          788.16
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          564.0,
+          788.16
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 36,
+        "mediabox": [
+          0.0,
+          0.0,
+          564.0,
+          788.16
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          564.0,
+          788.16
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Murshidabad",
+    "table": "civic_amenities",
+    "source": "1971\\West Bengal\\1971 Murshidabad.pdf",
+    "output": "output\\pdf\\1971_trimmed\\West Bengal\\civic amenities\\Murshidabad_civic_1971.pdf",
+    "source_pages": [
+      51,
+      52
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 51,
+        "mediabox": [
+          0.0,
+          0.0,
+          557.04,
+          821.52
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          557.04,
+          821.52
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 52,
+        "mediabox": [
+          0.0,
+          0.0,
+          557.04,
+          821.52
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          557.04,
+          821.52
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Murshidabad",
+    "table": "medical_educational_amenities",
+    "source": "1971\\West Bengal\\1971 Murshidabad.pdf",
+    "output": "output\\pdf\\1971_trimmed\\West Bengal\\mededu\\Murshidabad_mededu_1971.pdf",
+    "source_pages": [
+      53,
+      54
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 53,
+        "mediabox": [
+          0.0,
+          0.0,
+          557.04,
+          821.52
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          557.04,
+          821.52
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 54,
+        "mediabox": [
+          0.0,
+          0.0,
+          557.04,
+          821.52
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          557.04,
+          821.52
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Purullia",
+    "table": "civic_amenities",
+    "source": "1971\\West Bengal\\1971 Purullia.pdf",
+    "output": "output\\pdf\\1971_trimmed\\West Bengal\\civic amenities\\Purullia_civic_1971.pdf",
+    "source_pages": [
+      57,
+      58
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 57,
+        "mediabox": [
+          0.0,
+          0.0,
+          542.64,
+          755.76
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          542.64,
+          755.76
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 58,
+        "mediabox": [
+          0.0,
+          0.0,
+          542.64,
+          755.76
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          542.64,
+          755.76
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Purullia",
+    "table": "medical_educational_amenities",
+    "source": "1971\\West Bengal\\1971 Purullia.pdf",
+    "output": "output\\pdf\\1971_trimmed\\West Bengal\\mededu\\Purullia_mededu_1971.pdf",
+    "source_pages": [
+      59,
+      60
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 59,
+        "mediabox": [
+          0.0,
+          0.0,
+          542.64,
+          755.76
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          542.64,
+          755.76
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 60,
+        "mediabox": [
+          0.0,
+          0.0,
+          542.64,
+          755.76
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          542.64,
+          755.76
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Twentyfour Parganas",
+    "table": "civic_amenities",
+    "source": "1971\\West Bengal\\1971 Twentyfour Parganas.pdf",
+    "output": "output\\pdf\\1971_trimmed\\West Bengal\\civic amenities\\Twentyfour_Parganas_civic_1971.pdf",
+    "source_pages": [
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115
+    ],
+    "output_pages": 10,
+    "page_sizes": [
+      {
+        "source_page": 106,
+        "mediabox": [
+          0.0,
+          0.0,
+          542.16,
+          721.92
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          542.16,
+          721.92
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 107,
+        "mediabox": [
+          0.0,
+          0.0,
+          542.16,
+          721.92
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          542.16,
+          721.92
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 108,
+        "mediabox": [
+          0.0,
+          0.0,
+          542.16,
+          721.92
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          542.16,
+          721.92
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 109,
+        "mediabox": [
+          0.0,
+          0.0,
+          542.16,
+          721.92
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          542.16,
+          721.92
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 110,
+        "mediabox": [
+          0.0,
+          0.0,
+          542.16,
+          721.92
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          542.16,
+          721.92
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 111,
+        "mediabox": [
+          0.0,
+          0.0,
+          542.16,
+          721.92
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          542.16,
+          721.92
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 112,
+        "mediabox": [
+          0.0,
+          0.0,
+          542.16,
+          721.92
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          542.16,
+          721.92
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 113,
+        "mediabox": [
+          0.0,
+          0.0,
+          542.16,
+          721.92
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          542.16,
+          721.92
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 114,
+        "mediabox": [
+          0.0,
+          0.0,
+          542.16,
+          721.92
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          542.16,
+          721.92
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 115,
+        "mediabox": [
+          0.0,
+          0.0,
+          542.16,
+          721.92
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          542.16,
+          721.92
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Twentyfour Parganas",
+    "table": "medical_educational_amenities",
+    "source": "1971\\West Bengal\\1971 Twentyfour Parganas.pdf",
+    "output": "output\\pdf\\1971_trimmed\\West Bengal\\mededu\\Twentyfour_Parganas_mededu_1971.pdf",
+    "source_pages": [
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123
+    ],
+    "output_pages": 8,
+    "page_sizes": [
+      {
+        "source_page": 116,
+        "mediabox": [
+          0.0,
+          0.0,
+          542.16,
+          721.92
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          542.16,
+          721.92
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 117,
+        "mediabox": [
+          0.0,
+          0.0,
+          542.16,
+          721.92
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          542.16,
+          721.92
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 118,
+        "mediabox": [
+          0.0,
+          0.0,
+          542.16,
+          721.92
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          542.16,
+          721.92
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 119,
+        "mediabox": [
+          0.0,
+          0.0,
+          542.16,
+          721.92
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          542.16,
+          721.92
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 120,
+        "mediabox": [
+          0.0,
+          0.0,
+          542.16,
+          721.92
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          542.16,
+          721.92
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 121,
+        "mediabox": [
+          0.0,
+          0.0,
+          542.16,
+          721.92
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          542.16,
+          721.92
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 122,
+        "mediabox": [
+          0.0,
+          0.0,
+          542.16,
+          721.92
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          542.16,
+          721.92
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 123,
+        "mediabox": [
+          0.0,
+          0.0,
+          542.16,
+          721.92
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          542.16,
+          721.92
+        ],
+        "rotate": 0
+      }
+    ]
+  }
+]

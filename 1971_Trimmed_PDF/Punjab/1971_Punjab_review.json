@@ -1,0 +1,20 @@
+[
+  {
+    "source": "1971 Kapurthala.pdf",
+    "table": "civic_amenities",
+    "status": "review",
+    "reason": "The Kapurthala volume is Part X-C, District Census Tables, Administrative and Statistics. It does not contain the Part X-A Village and Town Directory pages with Town Directory Statement IV, Statement V, or a tehsil-wise amenities abstract."
+  },
+  {
+    "source": "1971 Kapurthala.pdf",
+    "table": "medical_educational_amenities",
+    "status": "review",
+    "reason": "The Kapurthala volume is Part X-C, District Census Tables, Administrative and Statistics. It does not contain the Part X-A Village and Town Directory pages with Town Directory Statement IV, Statement V, or a tehsil-wise amenities abstract."
+  },
+  {
+    "source": "1971 Kapurthala.pdf",
+    "table": "tehsil_appendix",
+    "status": "review",
+    "reason": "The Kapurthala volume is Part X-C, District Census Tables, Administrative and Statistics. It does not contain the Part X-A Village and Town Directory pages with Town Directory Statement IV, Statement V, or a tehsil-wise amenities abstract."
+  }
+]

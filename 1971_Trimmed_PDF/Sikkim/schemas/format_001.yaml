@@ -1,0 +1,44 @@
+format_id: format_001
+name: Civic Amenities
+category: Civic Amenities
+pdfs:
+- filenames:
+  - Sikkim_civic_1971.pdf
+  pagination:
+    page_1_columns:
+    - 1
+    - 11
+columns:
+- number: 1
+  name: Serial No.
+  variable_name: sl_no
+- number: 2
+  name: Name of Town
+  variable_name: town_name
+- number: 3
+  name: System of Sewerage
+  variable_name: sewerage_drainage_system
+- number: 4
+  name: Protected Water Supply - Source
+  variable_name: water_source
+- number: 5
+  name: Protected Water Supply - Capacity (in Gallons)
+  variable_name: water_capacity
+- number: 6
+  name: Fire-Fighting Service
+  variable_name: fire_fighting_service
+- number: 7
+  name: Electrification - Domestic
+  variable_name: electrification_domestic
+- number: 8
+  name: Electrification - Industrial
+  variable_name: electrification_industrial
+- number: 9
+  name: Electrification - Commercial
+  variable_name: electrification_commercial
+- number: 10
+  name: Electrification - Road Lighting (Points)
+  variable_name: electrification_road_lighting
+- number: 11
+  name: Electrification - Others
+  variable_name: electrification_others

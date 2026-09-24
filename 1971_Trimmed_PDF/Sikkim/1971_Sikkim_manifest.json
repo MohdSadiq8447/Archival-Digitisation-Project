@@ -1,0 +1,75 @@
+[
+  {
+    "district": "Sikkim",
+    "table": "civic_amenities",
+    "source": "1971\\Sikkim\\1971 Sikkim.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Sikkim\\civic amenities\\Sikkim_civic_1971.pdf",
+    "source_pages": [
+      13
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 13,
+        "mediabox": [
+          0.0,
+          0.0,
+          574.08,
+          766.8
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          574.08,
+          766.8
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Sikkim",
+    "table": "medical_educational_amenities",
+    "source": "1971\\Sikkim\\1971 Sikkim.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Sikkim\\mededu\\Sikkim_mededu_1971.pdf",
+    "source_pages": [
+      14,
+      15
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 14,
+        "mediabox": [
+          0.0,
+          0.0,
+          574.08,
+          766.8
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          574.08,
+          766.8
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 15,
+        "mediabox": [
+          0.0,
+          0.0,
+          574.08,
+          766.8
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          574.08,
+          766.8
+        ],
+        "rotate": 0
+      }
+    ]
+  }
+]

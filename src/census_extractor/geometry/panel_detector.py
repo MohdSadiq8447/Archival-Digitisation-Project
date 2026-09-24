@@ -6,6 +6,8 @@ import re
 from dataclasses import dataclass
 from statistics import median
 
+import numpy as np
+
 from census_extractor.geometry.column_detector import ColumnSpan
 from census_extractor.preprocessing.pdf_loader import RenderedPage
 from census_extractor.schemas import PanelDefinition, TableSchema
@@ -58,10 +60,30 @@ class _Candidate:
     tokens: list[NumberToken]
     score: float
     heading_score: float
+    page_number: int
+    discovery_source: str = "embedded_text"
 
     @property
     def center_y(self) -> float:
         return median(token.center_y for token in self.tokens)
+
+    @property
+    def horizontal_span(self) -> float:
+        centers = sorted(token.center_x for token in self.tokens)
+        return centers[-1] - centers[0] if len(centers) > 1 else 0.0
+
+    @property
+    def grid_score(self) -> float:
+        centers = sorted(token.center_x for token in self.tokens)
+        gaps = [right - left for left, right in zip(centers, centers[1:], strict=False)]
+        if not gaps or median(gaps) <= 0:
+            return 0.0
+        return min(gaps) / median(gaps)
+
+    @property
+    def header_likeness(self) -> float:
+        widths = [max(1, token.bbox[2] - token.bbox[0]) for token in self.tokens]
+        return self.horizontal_span * self.grid_score / max(1.0, median(widths))
 
 
 class PanelDetector:
@@ -71,61 +93,110 @@ class PanelDetector:
         self.min_sequence_score = min_sequence_score
 
     def discover(self, pages: list[RenderedPage], schema: TableSchema) -> list[PanelGeometry]:
-        expected_pages = {panel.page for panel in schema.panels}
-        if len(pages) != max(expected_pages):
-            raise PanelDiscoveryError(
-                f"Expected exactly {max(expected_pages)} pages for {schema.format_id}; got {len(pages)}"
-            )
+        if not pages:
+            raise PanelDiscoveryError(f"No rendered pages supplied for {schema.format_id}")
 
         selected: dict[str, _Candidate] = {}
         candidates_by_panel: dict[str, list[_Candidate]] = {}
         for panel in schema.panels:
-            page = pages[panel.page - 1]
-            candidates = self._find_candidates(page, panel)
+            # A schema page is the normal layout, not a hard physical-page constraint.
+            # Several handbooks stack two statements on one page or swap the medical
+            # and power/water Tahsil panels. Search the complete trimmed source and let
+            # printed column order plus heading evidence identify the physical panel.
+            candidates = [
+                candidate
+                for page in pages
+                for candidate in (
+                    self._find_candidates(page, panel)
+                    + self._find_raster_candidates(page, panel)
+                )
+            ]
             if not candidates:
                 raise PanelDiscoveryError(
-                    f"Missing printed column sequence {panel.printed_columns} for panel {panel.panel_id} on page {panel.page}"
+                    f"Missing printed column sequence {panel.printed_columns} for panel "
+                    f"{panel.panel_id} on all {len(pages)} physical pages"
                 )
             candidates_by_panel[panel.panel_id] = candidates
 
         anchor = schema.row_anchor_panel
-        selected[anchor.panel_id] = max(
-            candidates_by_panel[anchor.panel_id],
-            key=lambda item: (item.heading_score, item.score, -item.center_y),
+        anchor_options = candidates_by_panel[anchor.panel_id]
+        nominal_options = [
+            item for item in anchor_options if item.page_number == anchor.page
+        ]
+        anchor_options = nominal_options or anchor_options
+        heading_options = [item for item in anchor_options if item.heading_score > 0]
+        anchor_pool = heading_options or anchor_options
+        trusted_sources = {
+            "embedded_text",
+            "embedded_text_raster_prefix",
+            "raster_number_row_inferred",
+        }
+        trusted_options = [
+            item for item in anchor_pool if item.discovery_source in trusted_sources
+        ]
+        if trusted_options:
+            anchor_pool = trusted_options
+            selected[anchor.panel_id] = max(
+                anchor_pool,
+                key=lambda item: (
+                    item.page_number == anchor.page,
+                    item.heading_score,
+                    -item.center_y,
+                    item.score,
+                    item.header_likeness,
+                ),
+            )
+        else:
+            selected[anchor.panel_id] = max(
+                anchor_pool,
+                key=lambda item: (
+                    item.page_number == anchor.page,
+                    item.heading_score,
+                    item.header_likeness,
+                    item.score,
+                    -item.center_y,
+                ),
+            )
+        anchor_candidate = selected[anchor.panel_id]
+        anchor_y_ratio = (
+            anchor_candidate.center_y / pages[anchor_candidate.page_number - 1].height
         )
-        anchor_y_ratio = selected[anchor.panel_id].center_y / pages[anchor.page - 1].height
 
         for panel in schema.panels:
             if panel.panel_id == anchor.panel_id:
                 continue
             options = candidates_by_panel[panel.panel_id]
-            # Separate same-page tahsil panels by their unique number ranges. For
-            # stacked town statements, corresponding panels occupy the same
-            # normalized vertical position on both PDF pages.
-            selected[panel.panel_id] = min(
+            # Printed sequences usually make the choice unique. Heading evidence is
+            # authoritative when a page contains multiple statements (for example,
+            # Muzaffarnagar Municipal Finance above Civic Amenities). Normalized row
+            # position is a tie-breaker for ordinary two-page continuation layouts.
+            selected[panel.panel_id] = max(
                 options,
                 key=lambda item: (
-                    abs(item.center_y / pages[panel.page - 1].height - anchor_y_ratio)
-                    if panel.page != anchor.page
-                    else -item.score,
-                    -item.heading_score,
-                    -item.score,
+                    item.discovery_source == "embedded_text",
+                    item.heading_score,
+                    item.score,
+                    item.page_number == panel.page,
+                    -abs(
+                        item.center_y / pages[item.page_number - 1].height - anchor_y_ratio
+                    ),
                 ),
             )
 
         result: list[PanelGeometry] = []
         for panel in schema.panels:
-            page = pages[panel.page - 1]
             candidate = selected[panel.panel_id]
+            page = pages[candidate.page_number - 1]
             all_header_ys = sorted(
                 {
                     option.center_y
                     for definition in schema.panels
-                    if definition.page == panel.page
                     for option in candidates_by_panel[definition.panel_id]
+                    if option.page_number == candidate.page_number
                 }
             )
             geometry = self._build_geometry(page, schema, panel, candidate, all_header_ys)
+            geometry.discovery_source = candidate.discovery_source
             result.append(geometry)
         self._clamp_to_selected_panels(result)
         return result
@@ -182,8 +253,254 @@ class PanelDetector:
             accepted_partial = score >= 0.55 or (score >= 0.35 and heading_score >= 0.45)
             if score < self.min_sequence_score and not accepted_partial:
                 continue
-            candidates.append(_Candidate(deduplicated, score, heading_score))
+            candidate = _Candidate(deduplicated, score, heading_score, page.page_number)
+            candidates.append(candidate)
+            raster_prefix = self._augment_embedded_header_with_raster_prefix(
+                page, panel, candidate
+            )
+            if raster_prefix is not None:
+                candidates.append(raster_prefix)
         return candidates
+
+    @staticmethod
+    def _augment_embedded_header_with_raster_prefix(
+        page: RenderedPage,
+        panel: PanelDefinition,
+        candidate: _Candidate,
+    ) -> _Candidate | None:
+        """Ground missing identity ordinals from pixels beside an embedded suffix.
+
+        Degraded pages often retain columns 3..N in the native text layer but lose
+        the small printed ``1`` and ``2``. Raster glyphs on that exact baseline are
+        safer than extrapolating an irregular town-name column or accepting a later
+        data row as a complete number grid.
+        """
+        observed = [token.value for token in candidate.tokens]
+        expected = panel.printed_columns
+        if not observed or observed[-1] != expected[-1] or observed[0] not in expected:
+            return None
+        missing_count = expected.index(observed[0])
+        expected_suffix = expected[missing_count:]
+        if (
+            missing_count not in {1, 2, 3}
+            or any(value not in expected_suffix for value in observed)
+            or observed != sorted(observed, key=expected_suffix.index)
+        ):
+            return None
+        known_centers = [token.center_x for token in candidate.tokens]
+        known_gaps = [
+            right - left
+            for left, right in zip(known_centers, known_centers[1:], strict=False)
+        ]
+        typical_gap = median(known_gaps) if known_gaps else page.width * 0.08
+        y0 = max(0, min(token.bbox[1] for token in candidate.tokens) - 4)
+        y1 = min(page.height, max(token.bbox[3] for token in candidate.tokens) + 4)
+        dark = np.asarray(page.image.crop((0, y0, page.width, y1)).convert("L")) < 165
+        runs = PanelDetector._projection_runs(dark.sum(axis=0) >= 2)
+        runs = PanelDetector._merge_runs(runs, max(5, round(page.dpi * 0.05)))
+        runs = [
+            run
+            for run in runs
+            if 2 <= run[1] - run[0] + 1 <= max(45, round(page.dpi * 0.16))
+            and (run[0] + run[1]) / 2 < known_centers[0] - typical_gap * 0.25
+        ]
+        if not runs:
+            return None
+        # A damaged ``1`` can be split into two close raster components. Combine
+        # components much closer than the ordinary header-column spacing.
+        clustered: list[tuple[int, int]] = []
+        for run in runs:
+            center = (run[0] + run[1]) / 2
+            previous_center = (
+                (clustered[-1][0] + clustered[-1][1]) / 2 if clustered else None
+            )
+            if (
+                previous_center is not None
+                and center - previous_center < typical_gap * 0.45
+            ):
+                clustered[-1] = (clustered[-1][0], run[1])
+            else:
+                clustered.append(run)
+        if len(clustered) == missing_count - 1 and missing_count == 2:
+            last_center = (clustered[-1][0] + clustered[-1][1]) / 2
+            if known_centers[0] - last_center >= typical_gap * 1.35:
+                inferred_center = round((last_center + known_centers[0]) / 2)
+                inferred_half_width = max(
+                    2,
+                    round(
+                        median(token.bbox[2] - token.bbox[0] for token in candidate.tokens)
+                        / 2
+                    ),
+                )
+                clustered.append(
+                    (
+                        inferred_center - inferred_half_width,
+                        inferred_center + inferred_half_width,
+                    )
+                )
+        if len(clustered) < missing_count:
+            return None
+        prefix_runs = clustered[-missing_count:]
+        prefix_tokens = [
+            NumberToken(value, str(value), (x0, y0, x1 + 1, y1))
+            for value, (x0, x1) in zip(
+                expected[:missing_count], prefix_runs, strict=True
+            )
+        ]
+        tokens = prefix_tokens + candidate.tokens
+        return _Candidate(
+            tokens=tokens,
+            score=PanelDetector.printed_number_match(expected, [t.value for t in tokens]),
+            heading_score=candidate.heading_score,
+            page_number=candidate.page_number,
+            discovery_source="embedded_text_raster_prefix",
+        )
+
+    def _find_raster_candidates(
+        self, page: RenderedPage, panel: PanelDefinition
+    ) -> list[_Candidate]:
+        """Recover a printed-number row from pixels when the PDF text layer is absent.
+
+        Some handbooks contain a usable text layer for only the upper statement on a
+        page. The printed number row remains strong raster evidence: every logical
+        column has one compact mark group and the groups are monotonic. We deliberately
+        use this only after embedded-text discovery fails for that physical page.
+        """
+        grayscale = np.asarray(page.image.convert("L"))
+        dark = grayscale < 165
+        row_projection = dark.sum(axis=1)
+        minimum_ink = max(8, round(page.width * 0.003))
+        active = row_projection >= minimum_ink
+        bands: list[tuple[int, int]] = []
+        start: int | None = None
+        for y, is_active in enumerate(active):
+            if bool(is_active) and start is None:
+                start = y
+            elif not bool(is_active) and start is not None:
+                if 3 <= y - start <= max(70, round(page.dpi * 0.24)):
+                    bands.append((start, y - 1))
+                start = None
+        if start is not None and 3 <= len(active) - start <= max(70, round(page.dpi * 0.24)):
+            bands.append((start, len(active) - 1))
+
+        candidates: list[_Candidate] = []
+        expected_count = len(panel.printed_columns)
+        merge_gaps = sorted(
+            {
+                max(5, round(page.dpi * ratio))
+                for ratio in (0.02, 0.05, 0.09, 0.13, 0.17)
+            }
+        )
+        for y0, y1 in bands:
+            x_projection = dark[y0 : y1 + 1].sum(axis=0)
+            runs = self._projection_runs(x_projection >= 2)
+            heading_score = self._heading_score(page, panel, (y0 + y1) / 2)
+            for gap in merge_gaps:
+                merged = self._merge_runs(runs, gap)
+                merged = [run for run in merged if run[1] - run[0] >= 2]
+                selected_runs: list[tuple[int, int]] | None = None
+                discovery_source = "raster_number_row"
+                if len(merged) == expected_count:
+                    selected_runs = merged
+                elif len(merged) == expected_count - 1 and heading_score >= 0.45:
+                    # A single faint printed number can disappear while the other
+                    # ordinals remain a compact, well-spaced row. Infer only that
+                    # missing centre from an abnormally large gap. This is notably
+                    # different from accepting a complete-looking data row beneath
+                    # the same heading (Kheri MedEdu).
+                    centers = [(x0 + x1) / 2 for x0, x1 in merged]
+                    gaps = [
+                        right - left
+                        for left, right in zip(centers, centers[1:], strict=False)
+                    ]
+                    typical_gap = median(gaps) if gaps else 0.0
+                    largest_gap = max(gaps, default=0.0)
+                    if typical_gap > 0 and largest_gap >= typical_gap * 1.55:
+                        missing_after = gaps.index(largest_gap)
+                        inferred_center = round(
+                            (centers[missing_after] + centers[missing_after + 1]) / 2
+                        )
+                        inferred_half_width = max(
+                            2,
+                            round(
+                                median(end - start + 1 for start, end in merged) / 2
+                            ),
+                        )
+                        selected_runs = list(merged)
+                        selected_runs.insert(
+                            missing_after + 1,
+                            (
+                                inferred_center - inferred_half_width,
+                                inferred_center + inferred_half_width,
+                            ),
+                        )
+                        discovery_source = "raster_number_row_inferred"
+                elif (
+                    panel.printed_columns
+                    == list(
+                        range(
+                            panel.printed_columns[0],
+                            panel.printed_columns[0] + expected_count,
+                        )
+                    )
+                    and len(merged) >= max(panel.printed_columns)
+                ):
+                    # Combined Tahsil pages print columns 1-24 in one number row.
+                    # Select the schema panel's ordinal slice from that shared grid.
+                    selected_runs = [merged[number - 1] for number in panel.printed_columns]
+                if selected_runs is None:
+                    continue
+                if (
+                    selected_runs[-1][1] - selected_runs[0][0]
+                    < page.width * 0.45
+                ):
+                    continue
+                widths = [x1 - x0 + 1 for x0, x1 in selected_runs]
+                # Number-row glyph groups are compact; this rejects table rules and
+                # most prose lines that happen to have the same component count.
+                if median(widths) > max(45, page.dpi * 0.16):
+                    continue
+                tokens = [
+                    NumberToken(number, str(number), (x0, y0, x1 + 1, y1 + 1))
+                    for number, (x0, x1) in zip(
+                        panel.printed_columns, selected_runs, strict=True
+                    )
+                ]
+                candidates.append(
+                    _Candidate(
+                        tokens=tokens,
+                        score=1.0,
+                        heading_score=heading_score,
+                        page_number=page.page_number,
+                        discovery_source=discovery_source,
+                    )
+                )
+                break
+        return candidates
+
+    @staticmethod
+    def _projection_runs(mask: np.ndarray) -> list[tuple[int, int]]:
+        runs: list[tuple[int, int]] = []
+        start: int | None = None
+        for position, active in enumerate(mask):
+            if bool(active) and start is None:
+                start = position
+            elif not bool(active) and start is not None:
+                runs.append((start, position - 1))
+                start = None
+        if start is not None:
+            runs.append((start, len(mask) - 1))
+        return runs
+
+    @staticmethod
+    def _merge_runs(runs: list[tuple[int, int]], maximum_gap: int) -> list[tuple[int, int]]:
+        merged: list[tuple[int, int]] = []
+        for start, end in runs:
+            if merged and start - merged[-1][1] - 1 <= maximum_gap:
+                merged[-1] = (merged[-1][0], end)
+            else:
+                merged.append((start, end))
+        return merged
 
     @staticmethod
     def _augment_fuzzy_header_tokens(
@@ -278,17 +595,19 @@ class PanelDetector:
         words = [
             str(word["text"]).casefold()
             for word in page.pdf_words
-            if center_y - page.dpi * 2.0 <= (word["bbox"][1] + word["bbox"][3]) / 2 < center_y
+            if center_y - page.dpi * 2.8 <= (word["bbox"][1] + word["bbox"][3]) / 2 < center_y
         ]
         context = " ".join(words)
         if not panel.headings:
             return 0.0
-        scores: list[float] = []
-        for heading in panel.headings:
-            parts = [part for part in re.findall(r"[a-z0-9]+", heading.casefold()) if len(part) > 1]
-            if parts:
-                scores.append(sum(part in context for part in parts) / len(parts))
-        return sum(scores) / len(scores) if scores else 0.0
+        generic = {"statement", "directory", "appendix", "the", "and", "iv", "v"}
+        parts = {
+            part
+            for heading in panel.headings
+            for part in re.findall(r"[a-z0-9]+", heading.casefold())
+            if len(part) > 1 and part not in generic
+        }
+        return sum(part in context for part in parts) / len(parts) if parts else 0.0
 
     def _build_geometry(
         self,
@@ -344,6 +663,11 @@ class PanelDetector:
             int((left + right) / 2) for left, right in zip(resolved, resolved[1:], strict=False)
         )
         boundaries.append(right_edge)
+        boundaries = self._fit_boundaries_within_table(
+            boundaries,
+            left_edge=left_edge,
+            right_edge=right_edge,
+        )
 
         columns: list[ColumnSpan] = []
         table_width = max(1, right_edge - left_edge)
@@ -365,6 +689,15 @@ class PanelDetector:
                     relative_end=(x_end - left_edge) / table_width,
                 )
             )
+        if any(
+            span.x_start < left_edge
+            or span.x_start >= span.x_end
+            or span.x_end > right_edge
+            for span in columns
+        ):
+            raise PanelDiscoveryError(
+                f"Invalid column bounds remain for panel {panel.panel_id}"
+            )
         return PanelGeometry(
             definition=panel,
             page_number=page.page_number,
@@ -376,6 +709,66 @@ class PanelDetector:
             sequence_score=candidate.score,
             body_end_source=body_end_source,
         )
+
+    @staticmethod
+    def _fit_boundaries_within_table(
+        boundaries: list[int], *, left_edge: int, right_edge: int
+    ) -> list[int]:
+        """Keep extrapolated trailing columns positive and inside the page.
+
+        Some compressed Tahsil statements print a shorter terminal column
+        sequence than the common logical schema. Missing trailing number tokens
+        are extrapolated by the detector; those estimates can extend beyond the
+        physical page. Preserve every grounded prefix boundary and divide the
+        remaining visible margin between the inferred logical columns.
+        """
+        column_count = len(boundaries) - 1
+        if column_count < 1 or right_edge - left_edge < column_count:
+            raise PanelDiscoveryError("Table is too narrow for positive column spans")
+
+        first_invalid: int | None = None
+        previous = left_edge - 1
+        for index, boundary in enumerate(boundaries):
+            is_terminal = index == column_count
+            valid = (
+                boundary == right_edge
+                if is_terminal
+                else left_edge <= boundary < right_edge
+            )
+            if not valid or boundary <= previous:
+                first_invalid = index
+                break
+            previous = boundary
+        if first_invalid is None:
+            return boundaries
+
+        prefix_index = max(0, first_invalid - 1)
+        prefix = list(boundaries[: prefix_index + 1])
+        remaining_columns = column_count - prefix_index
+        pivot = prefix[-1]
+        if right_edge - pivot < remaining_columns:
+            prefix_index = 0
+            prefix = [left_edge]
+            remaining_columns = column_count
+            pivot = left_edge
+
+        available = right_edge - pivot
+        suffix = [
+            pivot + round(available * step / remaining_columns)
+            for step in range(1, remaining_columns + 1)
+        ]
+        repaired = prefix + suffix
+        if (
+            len(repaired) != len(boundaries)
+            or repaired[0] != left_edge
+            or repaired[-1] != right_edge
+            or any(
+                left >= right
+                for left, right in zip(repaired, repaired[1:], strict=False)
+            )
+        ):
+            raise PanelDiscoveryError("Unable to fit column spans inside table bounds")
+        return repaired
 
     @staticmethod
     def _expand_last_column_edge(
@@ -509,7 +902,10 @@ class PanelDetector:
         """Find a later table, note, or printer footer from whole-line heading cues."""
         minimum_y = body_top + page.dpi * 0.35
         heading_patterns = (
-            (r"\b(?:statemen(?:t|r)?|directory|appendix)\b", "section_title"),
+            (
+                r"\b(?:statemen(?:t|r)?|state[a-z0-9]{0,5}ent|directory|appendix)\b",
+                "section_title",
+            ),
             (r"\bbanking\b", "next_table:banking"),
             (r"\bcultural\s+facilit", "next_table:cultural_facilities"),
             (
@@ -520,6 +916,15 @@ class PanelDetector:
             (r"\bamenit(?:y|ies)\b", "next_panel:amenities"),
             (r"\btrade\b|\bindustr(?:y|ial)\b", "next_table:trade_industry"),
             (r"\bnotes?\b|\bsource\b|\bdenotes?\b", "note"),
+            (
+                r"\b(?:dc\s*lotr|denotr|ll?i?clud\w*)\b.*\bmedical\b|"
+                r"\b[i1l]\s*iote\b",
+                "note",
+            ),
+            (
+                r"\b(?:sl|si|s1)\s*no\b.*\bname\s+of\b",
+                "next_table:column_header",
+            ),
             (r"\bpsup\b|\bbooks?\b.*\b(?:pp|census)\b", "publication_footer"),
         )
         candidates: list[tuple[int, str]] = []

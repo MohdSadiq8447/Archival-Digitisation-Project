@@ -1,0 +1,185 @@
+format_id: format_003
+name: Tehsil Appendix
+category: Tehsil Appendix
+pdfs:
+- filenames:
+  - Bhagalpur_tehsil_1971.pdf
+  pagination:
+    page_1_columns:
+    - 1
+    - 16
+    page_2_columns:
+    - 17
+    - 33
+- filenames:
+  - Dhanbad_tehsil_1971.pdf
+  - Saharsa_tehsil_1971.pdf
+  pagination:
+    page_1_columns:
+    - 1
+    - 18
+    page_2_columns:
+    - 19
+    - 33
+- filenames:
+  - Palamau_tehsil_1971.pdf
+  - Singhbhum_tehsil_1971.pdf
+  pagination:
+    page_1_columns:
+    - 1
+    - 16
+    page_2_columns:
+    - 17
+    - 33
+- filenames:
+  - Darbhanga_tehsil_1971.pdf
+  - Gaya_tehsil_1971.pdf
+  - Hazaribagh_tehsil_1971.pdf
+  - Purnea_tehsil_1971.pdf
+  - Ranchi_tehsil_1971.pdf
+  - Santal Parganas_tehsil_1971.pdf
+  - Saran_tehsil_1971.pdf
+  pagination:
+    page_1_columns:
+    - 1
+    - 16
+    page_2_columns:
+    - 1
+    - 16
+    page_3_columns:
+    - 17
+    - 33
+    page_4_columns:
+    - 17
+    - 33
+- filenames:
+  - Champaran_tehsil_1971.pdf
+  - Monghyr_tehsil_1971.pdf
+  pagination:
+    page_1_columns:
+    - 1
+    - 16
+    page_2_columns:
+    - 17
+    - 33
+    page_3_columns:
+    - 1
+    - 16
+    page_4_columns:
+    - 17
+    - 33
+- filenames:
+  - Patna_tehsil_1971.pdf
+  pagination:
+    page_1_columns:
+    - 1
+    - 8
+    page_2_columns:
+    - 9
+    - 18
+    page_3_columns:
+    - 19
+    - 24
+    page_4_columns:
+    - 25
+    - 33
+columns:
+- number: 1
+  name: Serial Number
+  variable_name: sl_no
+- number: 2
+  name: Name of District/Subdivision/Development Block
+  variable_name: district_subdivision_development_block
+- number: 3
+  name: Number of Villages having Primary Schools
+  variable_name: primary_school_villages
+- number: 4
+  name: Number of Primary Schools
+  variable_name: primary_schools
+- number: 5
+  name: Number of Villages having Middle Schools
+  variable_name: middle_school_villages
+- number: 6
+  name: Number of Middle Schools
+  variable_name: middle_schools
+- number: 7
+  name: Number of Villages having High/Higher Secondary Schools
+  variable_name: high_higher_secondary_villages
+- number: 8
+  name: Number of High/Higher Secondary Schools
+  variable_name: high_higher_secondary_schools
+- number: 9
+  name: Number of Villages having Colleges
+  variable_name: college_villages
+- number: 10
+  name: Number of Colleges
+  variable_name: colleges
+- number: 11
+  name: Number of Villages having Other Educational Institutions
+  variable_name: other_education_villages
+- number: 12
+  name: Number of Other Educational Institutions
+  variable_name: other_educational_institutions
+- number: 13
+  name: Number of Villages having Dispensaries/Hospitals
+  variable_name: dispensary_hospital_villages
+- number: 14
+  name: Number of Dispensaries/Hospitals
+  variable_name: dispensaries_hospitals
+- number: 15
+  name: Number of Villages having Family Planning/Maternity & Child Welfare Centres
+  variable_name: family_planning_child_welfare_villages
+- number: 16
+  name: Number of Family Planning/Maternity & Child Welfare Centres
+  variable_name: family_planning_child_welfare_centres
+- number: 17
+  name: Number of Villages having Health Centres/Sub-Centres
+  variable_name: health_centre_villages
+- number: 18
+  name: Number of Health Centres/Sub-Centres
+  variable_name: health_centres_sub_centres
+- number: 19
+  name: Number of Villages having Other Medical Institutions
+  variable_name: other_medical_institution_villages
+- number: 20
+  name: Number of Other Medical Institutions
+  variable_name: other_medical_institutions
+- number: 21
+  name: Number of Villages where Power Supply is Available
+  variable_name: power_available_villages
+- number: 22
+  name: Number of Villages where Power Supply is Not Available
+  variable_name: power_not_available_villages
+- number: 23
+  name: Number of Villages having Wells
+  variable_name: well_villages
+- number: 24
+  name: Number of Villages having Tube-Wells
+  variable_name: tube_well_villages
+- number: 25
+  name: Number of Villages having Well/Tube-Wells
+  variable_name: well_tube_well_villages
+- number: 26
+  name: Number of Villages having Other Drinking-Water Sources
+  variable_name: other_water_villages
+- number: 27
+  name: Number of Villages having Pucca Roads
+  variable_name: pucca_road_villages
+- number: 28
+  name: Number of Villages having Katcha Roads
+  variable_name: katcha_road_villages
+- number: 29
+  name: Number of Villages having Post Offices
+  variable_name: post_office_villages
+- number: 30
+  name: Number of Post Offices
+  variable_name: post_offices
+- number: 31
+  name: Number of Villages having Telegraph Offices
+  variable_name: telegraph_office_villages
+- number: 32
+  name: Number of Telegraph Offices
+  variable_name: telegraph_offices
+- number: 33
+  name: Number of Villages having Telephone Connections
+  variable_name: telephone_villages

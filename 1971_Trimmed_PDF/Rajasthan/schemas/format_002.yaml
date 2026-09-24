@@ -1,0 +1,95 @@
+format_id: format_002
+name: Medical and Educational Amenities
+category: Medical and Educational Amenities
+pdfs:
+- filenames:
+  - Ajmer_mededu_1971.pdf
+  - Alwar_mededu_1971.pdf
+  - Banswara_mededu_1971.pdf
+  - Barmer_mededu_1971.pdf
+  - Bharatpur_mededu_1971.pdf
+  - Bhilwara_mededu_1971.pdf
+  - Bikaner_mededu_1971.pdf
+  - Bundi_mededu_1971.pdf
+  - Chittaurgarh_mededu_1971.pdf
+  - Churu_mededu_1971.pdf
+  - Dungarpur_mededu_1971.pdf
+  - Jaisalmer_mededu_1971.pdf
+  - Jhalawar_mededu_1971.pdf
+  - Jodhpur_mededu_1971.pdf
+  - Kota_mededu_1971.pdf
+  - Nagaur_mededu_1971.pdf
+  - Pali_mededu_1971.pdf
+  - Sawai Madhopur_mededu_1971.pdf
+  - Sikar_mededu_1971.pdf
+  - Sirohi_mededu_1971.pdf
+  - Tonk_mededu_1971.pdf
+  - Udaipur_mededu_1971.pdf
+  pagination:
+    page_1_columns:
+    - 1
+    - 17
+- filenames:
+  - Ganganagar_mededu_1971.pdf
+  - Jaipur_mededu_1971.pdf
+  - Jhunjhunun_mededu_1971.pdf
+  pagination:
+    page_1_columns:
+    - 1
+    - 17
+    page_2_columns:
+    - 1
+    - 17
+columns:
+- number: 1
+  name: Sl. No.
+  variable_name: sl_no
+- number: 2
+  name: Name of Town
+  variable_name: town_name
+- number: 3
+  name: Hospitals, Dispensaries, T.B. Clinics, Health Centres, Family Planning Centres,
+    Child Welfare Centres, Public Health Labs
+  variable_name: medical_institutions
+- number: 4
+  name: Beds in medical institutions noted in Col. No. 3
+  variable_name: medical_beds
+- number: 5
+  name: Arts, Science, Commerce Colleges
+  variable_name: degree_colleges
+- number: 6
+  name: Medical Colleges
+  variable_name: medical_colleges
+- number: 7
+  name: Engineering Colleges
+  variable_name: engineering_colleges
+- number: 8
+  name: Polytechnics
+  variable_name: polytechnics
+- number: 9
+  name: Recognised shorthand, typewriting and other vocational training institutes
+  variable_name: vocational_training_institutes
+- number: 10
+  name: Secondary or Higher Secondary Schools
+  variable_name: higher_secondary_secondary_schools
+- number: 11
+  name: Middle Schools
+  variable_name: junior_secondary_middle_schools
+- number: 12
+  name: Primary Schools
+  variable_name: primary_schools
+- number: 13
+  name: Others (Univ., Law/Vety., Agr. Colleges etc.)
+  variable_name: other_educational_institutions
+- number: 14
+  name: Parks, Stadia
+  variable_name: stadia
+- number: 15
+  name: Cinemas
+  variable_name: cinemas
+- number: 16
+  name: Auditoria, Drama Halls
+  variable_name: auditoria_drama_halls
+- number: 17
+  name: Public Libraries including Reading rooms
+  variable_name: public_libraries_reading_rooms

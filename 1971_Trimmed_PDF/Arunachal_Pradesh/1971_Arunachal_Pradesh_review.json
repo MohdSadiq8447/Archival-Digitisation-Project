@@ -1,0 +1,26 @@
+[
+  {
+    "source": "1971 Subansiri.pdf",
+    "table": "civic_amenities",
+    "status": "review",
+    "reason": "No separate town Statement IV/V page was located in the inspected district volume; the available amenities abstract is the Circle-wise Village Directory appendix, which was extracted as tehsil_appendix."
+  },
+  {
+    "source": "1971 Subansiri.pdf",
+    "table": "medical_educational_amenities",
+    "status": "review",
+    "reason": "No separate town Statement IV/V page was located in the inspected district volume; the available amenities abstract is the Circle-wise Village Directory appendix, which was extracted as tehsil_appendix."
+  },
+  {
+    "source": "1971 Tirap .pdf",
+    "table": "civic_amenities",
+    "status": "review",
+    "reason": "No separate town Statement IV/V page was located in the inspected district volume; the available amenities abstract is the Circle-wise Village Directory appendix, which was extracted as tehsil_appendix."
+  },
+  {
+    "source": "1971 Tirap .pdf",
+    "table": "medical_educational_amenities",
+    "status": "review",
+    "reason": "No separate town Statement IV/V page was located in the inspected district volume; the available amenities abstract is the Circle-wise Village Directory appendix, which was extracted as tehsil_appendix."
+  }
+]

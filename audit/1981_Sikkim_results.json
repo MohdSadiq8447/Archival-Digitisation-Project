@@ -1,0 +1,272 @@
+[
+  {
+    "state": "Sikkim",
+    "source_state": "Sikkim",
+    "district": "Sikkim",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Sikkim/1981 Sikkim.pdf",
+    "source_filename": "1981 Sikkim.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 272,
+    "output": "output/pdf/1981_trimmed/Sikkim/civic amenities/1981_Sikkim_civic_amenities.pdf",
+    "source_pages_selected": [
+      201,
+      202
+    ],
+    "printed_page_labels": [
+      null,
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement IV Civic and other Amenities; source page 203 begins the medical and educational statement.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 201,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              -6.4498,
+              595.276,
+              835.44
+            ],
+            "cropbox": [
+              0.0,
+              -6.4498,
+              595.276,
+              835.44
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 202,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              -6.4498,
+              595.276,
+              835.44
+            ],
+            "cropbox": [
+              0.0,
+              -6.4498,
+              595.276,
+              835.44
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 201,
+          "output_page": 1,
+          "source_png_sha256": "358eb5080662e8a7e57631f79188a45ecc4d472ab94fec9f1c66a8283e088e41",
+          "output_png_sha256": "358eb5080662e8a7e57631f79188a45ecc4d472ab94fec9f1c66a8283e088e41",
+          "match": true
+        },
+        {
+          "source_page": 202,
+          "output_page": 2,
+          "source_png_sha256": "3ecaabb41a74c7c01799a7d67e96ae14d70cb29025bc892457e17e87509e209a",
+          "output_png_sha256": "3ecaabb41a74c7c01799a7d67e96ae14d70cb29025bc892457e17e87509e209a",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Sikkim",
+    "source_state": "Sikkim",
+    "district": "Sikkim",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Sikkim/1981 Sikkim.pdf",
+    "source_filename": "1981 Sikkim.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 272,
+    "output": "output/pdf/1981_trimmed/Sikkim/mededu/1981_Sikkim_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      203,
+      204
+    ],
+    "printed_page_labels": [
+      null,
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement V Medical, Educational, Recreational and Cultural Facilities; source page 205 begins Statement VI.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 203,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              -6.4498,
+              595.276,
+              835.44
+            ],
+            "cropbox": [
+              0.0,
+              -6.4498,
+              595.276,
+              835.44
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 204,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              -6.4498,
+              595.276,
+              835.44
+            ],
+            "cropbox": [
+              0.0,
+              -6.4498,
+              595.276,
+              835.44
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 203,
+          "output_page": 1,
+          "source_png_sha256": "62cb6551fed4862b2516176659e603d199ba02cd5db6f3afbcc7060719cbc312",
+          "output_png_sha256": "62cb6551fed4862b2516176659e603d199ba02cd5db6f3afbcc7060719cbc312",
+          "match": true
+        },
+        {
+          "source_page": 204,
+          "output_page": 2,
+          "source_png_sha256": "c89d197372c05228be0e234bc895045beac59889973cf267edc6e721f86972f1",
+          "output_png_sha256": "c89d197372c05228be0e234bc895045beac59889973cf267edc6e721f86972f1",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Sikkim",
+    "source_state": "Sikkim",
+    "district": "Sikkim",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Sikkim/1981 Sikkim.pdf",
+    "source_filename": "1981 Sikkim.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 272,
+    "output": "output/pdf/1981_trimmed/Sikkim/tehsil appendix/1981_Sikkim_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      171,
+      172
+    ],
+    "printed_page_labels": [
+      null,
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Village Directory Appendix-I Districtwise Abstract of Educational, Medical and other Amenities for North, East, South and West administrative districts; source page 173 begins the land-use appendix.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 171,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              -6.4498,
+              595.276,
+              835.44
+            ],
+            "cropbox": [
+              0.0,
+              -6.4498,
+              595.276,
+              835.44
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 172,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              -6.4498,
+              595.276,
+              835.44
+            ],
+            "cropbox": [
+              0.0,
+              -6.4498,
+              595.276,
+              835.44
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 171,
+          "output_page": 1,
+          "source_png_sha256": "8fc7cde7291e087db0e7744ec5827867f3e5a437fd51b1717f4b39dad8227c60",
+          "output_png_sha256": "8fc7cde7291e087db0e7744ec5827867f3e5a437fd51b1717f4b39dad8227c60",
+          "match": true
+        },
+        {
+          "source_page": 172,
+          "output_page": 2,
+          "source_png_sha256": "05fccfef7b2fb49f3e8aa156376725cf1ca26e951090aab5df18fbcd780a87ac",
+          "output_png_sha256": "05fccfef7b2fb49f3e8aa156376725cf1ca26e951090aab5df18fbcd780a87ac",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  }
+]

@@ -1,0 +1,2355 @@
+[
+  {
+    "district": "Bangalore",
+    "table": "civic_amenities",
+    "source": "1971\\Karnataka\\1971 Bangalore.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Karnataka\\civic amenities\\Bangalore_civic_1971.pdf",
+    "source_pages": [
+      31,
+      32
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 31,
+        "mediabox": [
+          0.0,
+          0.0,
+          576.48,
+          764.4
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          576.48,
+          764.4
+        ]
+      },
+      {
+        "source_page": 32,
+        "mediabox": [
+          0.0,
+          0.0,
+          576.48,
+          764.4
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          576.48,
+          764.4
+        ]
+      }
+    ]
+  },
+  {
+    "district": "Bangalore",
+    "table": "medical_educational_amenities",
+    "source": "1971\\Karnataka\\1971 Bangalore.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Karnataka\\mededu\\Bangalore_mededu_1971.pdf",
+    "source_pages": [
+      33,
+      34,
+      35,
+      36
+    ],
+    "output_pages": 4,
+    "page_sizes": [
+      {
+        "source_page": 33,
+        "mediabox": [
+          0.0,
+          0.0,
+          576.48,
+          764.4
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          576.48,
+          764.4
+        ]
+      },
+      {
+        "source_page": 34,
+        "mediabox": [
+          0.0,
+          0.0,
+          576.48,
+          764.4
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          576.48,
+          764.4
+        ]
+      },
+      {
+        "source_page": 35,
+        "mediabox": [
+          0.0,
+          0.0,
+          576.48,
+          764.4
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          576.48,
+          764.4
+        ]
+      },
+      {
+        "source_page": 36,
+        "mediabox": [
+          0.0,
+          0.0,
+          576.48,
+          764.4
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          576.48,
+          764.4
+        ]
+      }
+    ]
+  },
+  {
+    "district": "Bangalore",
+    "table": "tehsil_appendix",
+    "source": "1971\\Karnataka\\1971 Bangalore.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Karnataka\\tehsil appendix\\Bangalore_tehsil_1971.pdf",
+    "source_pages": [
+      277,
+      278
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 277,
+        "mediabox": [
+          0.0,
+          0.0,
+          576.48,
+          764.4
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          576.48,
+          764.4
+        ]
+      },
+      {
+        "source_page": 278,
+        "mediabox": [
+          0.0,
+          0.0,
+          576.48,
+          764.4
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          576.48,
+          764.4
+        ]
+      }
+    ]
+  },
+  {
+    "district": "Belgaum",
+    "table": "civic_amenities",
+    "source": "1971\\Karnataka\\1971 Belgaum.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Karnataka\\civic amenities\\Belgaum_civic_1971.pdf",
+    "source_pages": [
+      25,
+      26
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 25,
+        "mediabox": [
+          0.0,
+          0.0,
+          646.32,
+          834.48
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          646.32,
+          834.48
+        ]
+      },
+      {
+        "source_page": 26,
+        "mediabox": [
+          0.0,
+          0.0,
+          646.32,
+          834.48
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          646.32,
+          834.48
+        ]
+      }
+    ]
+  },
+  {
+    "district": "Belgaum",
+    "table": "medical_educational_amenities",
+    "source": "1971\\Karnataka\\1971 Belgaum.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Karnataka\\mededu\\Belgaum_mededu_1971.pdf",
+    "source_pages": [
+      27,
+      28
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 27,
+        "mediabox": [
+          0.0,
+          0.0,
+          646.32,
+          834.48
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          646.32,
+          834.48
+        ]
+      },
+      {
+        "source_page": 28,
+        "mediabox": [
+          0.0,
+          0.0,
+          646.32,
+          834.48
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          646.32,
+          834.48
+        ]
+      }
+    ]
+  },
+  {
+    "district": "Belgaum",
+    "table": "tehsil_appendix",
+    "source": "1971\\Karnataka\\1971 Belgaum.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Karnataka\\tehsil appendix\\Belgaum_tehsil_1971.pdf",
+    "source_pages": [
+      141,
+      142
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 141,
+        "mediabox": [
+          0.0,
+          0.0,
+          646.32,
+          834.48
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          646.32,
+          834.48
+        ]
+      },
+      {
+        "source_page": 142,
+        "mediabox": [
+          0.0,
+          0.0,
+          646.32,
+          834.48
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          646.32,
+          834.48
+        ]
+      }
+    ]
+  },
+  {
+    "district": "Bellary",
+    "table": "civic_amenities",
+    "source": "1971\\Karnataka\\1971 Bellary.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Karnataka\\civic amenities\\Bellary_civic_1971.pdf",
+    "source_pages": [
+      25,
+      26
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 25,
+        "mediabox": [
+          0.0,
+          0.0,
+          641.28,
+          818.4
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          641.28,
+          818.4
+        ]
+      },
+      {
+        "source_page": 26,
+        "mediabox": [
+          0.0,
+          0.0,
+          641.28,
+          818.4
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          641.28,
+          818.4
+        ]
+      }
+    ]
+  },
+  {
+    "district": "Bellary",
+    "table": "medical_educational_amenities",
+    "source": "1971\\Karnataka\\1971 Bellary.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Karnataka\\mededu\\Bellary_mededu_1971.pdf",
+    "source_pages": [
+      27,
+      28
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 27,
+        "mediabox": [
+          0.0,
+          0.0,
+          641.28,
+          818.4
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          641.28,
+          818.4
+        ]
+      },
+      {
+        "source_page": 28,
+        "mediabox": [
+          0.0,
+          0.0,
+          641.28,
+          818.4
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          641.28,
+          818.4
+        ]
+      }
+    ]
+  },
+  {
+    "district": "Bellary",
+    "table": "tehsil_appendix",
+    "source": "1971\\Karnataka\\1971 Bellary.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Karnataka\\tehsil appendix\\Bellary_tehsil_1971.pdf",
+    "source_pages": [
+      104,
+      105
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 104,
+        "mediabox": [
+          0.0,
+          0.0,
+          641.28,
+          818.4
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          641.28,
+          818.4
+        ]
+      },
+      {
+        "source_page": 105,
+        "mediabox": [
+          0.0,
+          0.0,
+          641.28,
+          818.4
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          641.28,
+          818.4
+        ]
+      }
+    ]
+  },
+  {
+    "district": "Bijapur",
+    "table": "civic_amenities",
+    "source": "1971\\Karnataka\\1971 Bijapur.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Karnataka\\civic amenities\\Bijapur_civic_1971.pdf",
+    "source_pages": [
+      25,
+      26
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 25,
+        "mediabox": [
+          0.0,
+          0.0,
+          629.52,
+          802.8
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          629.52,
+          802.8
+        ]
+      },
+      {
+        "source_page": 26,
+        "mediabox": [
+          0.0,
+          0.0,
+          629.52,
+          802.8
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          629.52,
+          802.8
+        ]
+      }
+    ]
+  },
+  {
+    "district": "Bijapur",
+    "table": "medical_educational_amenities",
+    "source": "1971\\Karnataka\\1971 Bijapur.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Karnataka\\mededu\\Bijapur_mededu_1971.pdf",
+    "source_pages": [
+      27,
+      28
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 27,
+        "mediabox": [
+          0.0,
+          0.0,
+          629.52,
+          802.8
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          629.52,
+          802.8
+        ]
+      },
+      {
+        "source_page": 28,
+        "mediabox": [
+          0.0,
+          0.0,
+          629.52,
+          802.8
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          629.52,
+          802.8
+        ]
+      }
+    ]
+  },
+  {
+    "district": "Bijapur",
+    "table": "tehsil_appendix",
+    "source": "1971\\Karnataka\\1971 Bijapur.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Karnataka\\tehsil appendix\\Bijapur_tehsil_1971.pdf",
+    "source_pages": [
+      155,
+      156
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 155,
+        "mediabox": [
+          0.0,
+          0.0,
+          629.52,
+          802.8
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          629.52,
+          802.8
+        ]
+      },
+      {
+        "source_page": 156,
+        "mediabox": [
+          0.0,
+          0.0,
+          629.52,
+          802.8
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          629.52,
+          802.8
+        ]
+      }
+    ]
+  },
+  {
+    "district": "Chikmagalur",
+    "table": "civic_amenities",
+    "source": "1971\\Karnataka\\1971 Chikmagalur.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Karnataka\\civic amenities\\Chikmagalur_civic_1971.pdf",
+    "source_pages": [
+      23,
+      24
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 23,
+        "mediabox": [
+          0.0,
+          -2.84979,
+          603.36,
+          839.04
+        ],
+        "cropbox": [
+          0.0,
+          -2.84979,
+          595.276,
+          839.04
+        ]
+      },
+      {
+        "source_page": 24,
+        "mediabox": [
+          0.0,
+          -2.84979,
+          603.36,
+          839.04
+        ],
+        "cropbox": [
+          0.0,
+          -2.84979,
+          595.276,
+          839.04
+        ]
+      }
+    ]
+  },
+  {
+    "district": "Chikmagalur",
+    "table": "medical_educational_amenities",
+    "source": "1971\\Karnataka\\1971 Chikmagalur.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Karnataka\\mededu\\Chikmagalur_mededu_1971.pdf",
+    "source_pages": [
+      25,
+      26
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 25,
+        "mediabox": [
+          0.0,
+          -2.84979,
+          603.36,
+          839.04
+        ],
+        "cropbox": [
+          0.0,
+          -2.84979,
+          595.276,
+          839.04
+        ]
+      },
+      {
+        "source_page": 26,
+        "mediabox": [
+          0.0,
+          -2.84979,
+          603.36,
+          839.04
+        ],
+        "cropbox": [
+          0.0,
+          -2.84979,
+          595.276,
+          839.04
+        ]
+      }
+    ]
+  },
+  {
+    "district": "Chikmagalur",
+    "table": "tehsil_appendix",
+    "source": "1971\\Karnataka\\1971 Chikmagalur.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Karnataka\\tehsil appendix\\Chikmagalur_tehsil_1971.pdf",
+    "source_pages": [
+      131,
+      132
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 131,
+        "mediabox": [
+          0.0,
+          -2.84979,
+          603.36,
+          839.04
+        ],
+        "cropbox": [
+          0.0,
+          -2.84979,
+          595.276,
+          839.04
+        ]
+      },
+      {
+        "source_page": 132,
+        "mediabox": [
+          0.0,
+          -2.84979,
+          603.36,
+          839.04
+        ],
+        "cropbox": [
+          0.0,
+          -2.84979,
+          595.276,
+          839.04
+        ]
+      }
+    ]
+  },
+  {
+    "district": "Chitradurga",
+    "table": "civic_amenities",
+    "source": "1971\\Karnataka\\1971 Chitradurga.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Karnataka\\civic amenities\\Chitradurga_civic_1971.pdf",
+    "source_pages": [
+      22,
+      23
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 22,
+        "mediabox": [
+          0.0,
+          0.0,
+          600.48,
+          822.24
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          600.48,
+          822.24
+        ]
+      },
+      {
+        "source_page": 23,
+        "mediabox": [
+          0.0,
+          0.0,
+          600.48,
+          822.24
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          600.48,
+          822.24
+        ]
+      }
+    ]
+  },
+  {
+    "district": "Chitradurga",
+    "table": "medical_educational_amenities",
+    "source": "1971\\Karnataka\\1971 Chitradurga.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Karnataka\\mededu\\Chitradurga_mededu_1971.pdf",
+    "source_pages": [
+      24,
+      25
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 24,
+        "mediabox": [
+          0.0,
+          0.0,
+          600.48,
+          822.24
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          600.48,
+          822.24
+        ]
+      },
+      {
+        "source_page": 25,
+        "mediabox": [
+          0.0,
+          0.0,
+          600.48,
+          822.24
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          600.48,
+          822.24
+        ]
+      }
+    ]
+  },
+  {
+    "district": "Chitradurga",
+    "table": "tehsil_appendix",
+    "source": "1971\\Karnataka\\1971 Chitradurga.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Karnataka\\tehsil appendix\\Chitradurga_tehsil_1971.pdf",
+    "source_pages": [
+      146,
+      147
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 146,
+        "mediabox": [
+          0.0,
+          0.0,
+          600.48,
+          822.24
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          600.48,
+          822.24
+        ]
+      },
+      {
+        "source_page": 147,
+        "mediabox": [
+          0.0,
+          0.0,
+          600.48,
+          822.24
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          600.48,
+          822.24
+        ]
+      }
+    ]
+  },
+  {
+    "district": "Coorg",
+    "table": "civic_amenities",
+    "source": "1971\\Karnataka\\1971 Coorg.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Karnataka\\civic amenities\\Coorg_civic_1971.pdf",
+    "source_pages": [
+      22,
+      23
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 22,
+        "mediabox": [
+          0.0,
+          0.0,
+          641.52,
+          797.52
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          641.52,
+          797.52
+        ]
+      },
+      {
+        "source_page": 23,
+        "mediabox": [
+          0.0,
+          0.0,
+          641.52,
+          797.52
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          641.52,
+          797.52
+        ]
+      }
+    ]
+  },
+  {
+    "district": "Coorg",
+    "table": "medical_educational_amenities",
+    "source": "1971\\Karnataka\\1971 Coorg.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Karnataka\\mededu\\Coorg_mededu_1971.pdf",
+    "source_pages": [
+      24,
+      25
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 24,
+        "mediabox": [
+          0.0,
+          0.0,
+          641.52,
+          797.52
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          641.52,
+          797.52
+        ]
+      },
+      {
+        "source_page": 25,
+        "mediabox": [
+          0.0,
+          0.0,
+          641.52,
+          797.52
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          641.52,
+          797.52
+        ]
+      }
+    ]
+  },
+  {
+    "district": "Coorg",
+    "table": "tehsil_appendix",
+    "source": "1971\\Karnataka\\1971 Coorg.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Karnataka\\tehsil appendix\\Coorg_tehsil_1971.pdf",
+    "source_pages": [
+      60,
+      61
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 60,
+        "mediabox": [
+          0.0,
+          0.0,
+          641.52,
+          797.52
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          641.52,
+          797.52
+        ]
+      },
+      {
+        "source_page": 61,
+        "mediabox": [
+          0.0,
+          0.0,
+          641.52,
+          797.52
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          641.52,
+          797.52
+        ]
+      }
+    ]
+  },
+  {
+    "district": "Gulbarga",
+    "table": "civic_amenities",
+    "source": "1971\\Karnataka\\1971 Gulbarga.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Karnataka\\civic amenities\\Gulbarga_civic_1971.pdf",
+    "source_pages": [
+      24,
+      25
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 24,
+        "mediabox": [
+          0.0,
+          0.0,
+          634.08,
+          820.32
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          634.08,
+          820.32
+        ]
+      },
+      {
+        "source_page": 25,
+        "mediabox": [
+          0.0,
+          0.0,
+          634.08,
+          820.32
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          634.08,
+          820.32
+        ]
+      }
+    ]
+  },
+  {
+    "district": "Gulbarga",
+    "table": "medical_educational_amenities",
+    "source": "1971\\Karnataka\\1971 Gulbarga.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Karnataka\\mededu\\Gulbarga_mededu_1971.pdf",
+    "source_pages": [
+      26,
+      27,
+      28
+    ],
+    "output_pages": 3,
+    "page_sizes": [
+      {
+        "source_page": 26,
+        "mediabox": [
+          0.0,
+          0.0,
+          634.08,
+          820.32
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          634.08,
+          820.32
+        ]
+      },
+      {
+        "source_page": 27,
+        "mediabox": [
+          0.0,
+          0.0,
+          634.08,
+          820.32
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          634.08,
+          820.32
+        ]
+      },
+      {
+        "source_page": 28,
+        "mediabox": [
+          0.0,
+          0.0,
+          634.08,
+          820.32
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          634.08,
+          820.32
+        ]
+      }
+    ]
+  },
+  {
+    "district": "Gulbarga",
+    "table": "tehsil_appendix",
+    "source": "1971\\Karnataka\\1971 Gulbarga.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Karnataka\\tehsil appendix\\Gulbarga_tehsil_1971.pdf",
+    "source_pages": [
+      156,
+      157
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 156,
+        "mediabox": [
+          0.0,
+          0.0,
+          634.08,
+          820.32
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          634.08,
+          820.32
+        ]
+      },
+      {
+        "source_page": 157,
+        "mediabox": [
+          0.0,
+          0.0,
+          634.08,
+          820.32
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          634.08,
+          820.32
+        ]
+      }
+    ]
+  },
+  {
+    "district": "Hassan",
+    "table": "civic_amenities",
+    "source": "1971\\Karnataka\\1971 Hassan.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Karnataka\\civic amenities\\Hassan_civic_1971.pdf",
+    "source_pages": [
+      25,
+      26
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 25,
+        "mediabox": [
+          0.0,
+          0.0,
+          633.12,
+          800.88
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          633.12,
+          800.88
+        ]
+      },
+      {
+        "source_page": 26,
+        "mediabox": [
+          0.0,
+          0.0,
+          633.12,
+          800.88
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          633.12,
+          800.88
+        ]
+      }
+    ]
+  },
+  {
+    "district": "Hassan",
+    "table": "medical_educational_amenities",
+    "source": "1971\\Karnataka\\1971 Hassan.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Karnataka\\mededu\\Hassan_mededu_1971.pdf",
+    "source_pages": [
+      27,
+      28
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 27,
+        "mediabox": [
+          0.0,
+          0.0,
+          633.12,
+          800.88
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          633.12,
+          800.88
+        ]
+      },
+      {
+        "source_page": 28,
+        "mediabox": [
+          0.0,
+          0.0,
+          633.12,
+          800.88
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          633.12,
+          800.88
+        ]
+      }
+    ]
+  },
+  {
+    "district": "Hassan",
+    "table": "tehsil_appendix",
+    "source": "1971\\Karnataka\\1971 Hassan.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Karnataka\\tehsil appendix\\Hassan_tehsil_1971.pdf",
+    "source_pages": [
+      207,
+      208
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 207,
+        "mediabox": [
+          0.0,
+          0.0,
+          633.12,
+          800.88
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          633.12,
+          800.88
+        ]
+      },
+      {
+        "source_page": 208,
+        "mediabox": [
+          0.0,
+          0.0,
+          633.12,
+          800.88
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          633.12,
+          800.88
+        ]
+      }
+    ]
+  },
+  {
+    "district": "Kolar",
+    "table": "civic_amenities",
+    "source": "1971\\Karnataka\\1971 Kolar.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Karnataka\\civic amenities\\Kolar_civic_1971.pdf",
+    "source_pages": [
+      25,
+      26
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 25,
+        "mediabox": [
+          0.0,
+          0.0,
+          613.2,
+          807.84
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          613.2,
+          807.84
+        ]
+      },
+      {
+        "source_page": 26,
+        "mediabox": [
+          0.0,
+          0.0,
+          613.2,
+          807.84
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          613.2,
+          807.84
+        ]
+      }
+    ]
+  },
+  {
+    "district": "Kolar",
+    "table": "medical_educational_amenities",
+    "source": "1971\\Karnataka\\1971 Kolar.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Karnataka\\mededu\\Kolar_mededu_1971.pdf",
+    "source_pages": [
+      27,
+      28,
+      29,
+      30
+    ],
+    "output_pages": 4,
+    "page_sizes": [
+      {
+        "source_page": 27,
+        "mediabox": [
+          0.0,
+          0.0,
+          613.2,
+          807.84
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          613.2,
+          807.84
+        ]
+      },
+      {
+        "source_page": 28,
+        "mediabox": [
+          0.0,
+          0.0,
+          613.2,
+          807.84
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          613.2,
+          807.84
+        ]
+      },
+      {
+        "source_page": 29,
+        "mediabox": [
+          0.0,
+          0.0,
+          613.2,
+          807.84
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          613.2,
+          807.84
+        ]
+      },
+      {
+        "source_page": 30,
+        "mediabox": [
+          0.0,
+          0.0,
+          613.2,
+          807.84
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          613.2,
+          807.84
+        ]
+      }
+    ]
+  },
+  {
+    "district": "Kolar",
+    "table": "tehsil_appendix",
+    "source": "1971\\Karnataka\\1971 Kolar.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Karnataka\\tehsil appendix\\Kolar_tehsil_1971.pdf",
+    "source_pages": [
+      285,
+      286
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 285,
+        "mediabox": [
+          0.0,
+          0.0,
+          613.2,
+          807.84
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          613.2,
+          807.84
+        ]
+      },
+      {
+        "source_page": 286,
+        "mediabox": [
+          0.0,
+          0.0,
+          613.2,
+          807.84
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          613.2,
+          807.84
+        ]
+      }
+    ]
+  },
+  {
+    "district": "Mandya",
+    "table": "civic_amenities",
+    "source": "1971\\Karnataka\\1971 Mandya.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Karnataka\\civic amenities\\Mandya_civic_1971.pdf",
+    "source_pages": [
+      23,
+      24
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 23,
+        "mediabox": [
+          0.0,
+          0.0,
+          644.88,
+          790.8
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          644.88,
+          790.8
+        ]
+      },
+      {
+        "source_page": 24,
+        "mediabox": [
+          0.0,
+          0.0,
+          644.88,
+          790.8
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          644.88,
+          790.8
+        ]
+      }
+    ]
+  },
+  {
+    "district": "Mandya",
+    "table": "medical_educational_amenities",
+    "source": "1971\\Karnataka\\1971 Mandya.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Karnataka\\mededu\\Mandya_mededu_1971.pdf",
+    "source_pages": [
+      25,
+      26
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 25,
+        "mediabox": [
+          0.0,
+          0.0,
+          644.88,
+          790.8
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          644.88,
+          790.8
+        ]
+      },
+      {
+        "source_page": 26,
+        "mediabox": [
+          0.0,
+          0.0,
+          644.88,
+          790.8
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          644.88,
+          790.8
+        ]
+      }
+    ]
+  },
+  {
+    "district": "Mandya",
+    "table": "tehsil_appendix",
+    "source": "1971\\Karnataka\\1971 Mandya.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Karnataka\\tehsil appendix\\Mandya_tehsil_1971.pdf",
+    "source_pages": [
+      147,
+      148
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 147,
+        "mediabox": [
+          0.0,
+          0.0,
+          644.88,
+          790.8
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          644.88,
+          790.8
+        ]
+      },
+      {
+        "source_page": 148,
+        "mediabox": [
+          0.0,
+          0.0,
+          644.88,
+          790.8
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          644.88,
+          790.8
+        ]
+      }
+    ]
+  },
+  {
+    "district": "Mysore",
+    "table": "civic_amenities",
+    "source": "1971\\Karnataka\\1971 Mysore.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Karnataka\\civic amenities\\Mysore_civic_1971.pdf",
+    "source_pages": [
+      25,
+      26
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 25,
+        "mediabox": [
+          0.0,
+          0.0,
+          654.72,
+          843.84
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          654.72,
+          843.84
+        ]
+      },
+      {
+        "source_page": 26,
+        "mediabox": [
+          0.0,
+          0.0,
+          654.72,
+          843.84
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          654.72,
+          843.84
+        ]
+      }
+    ]
+  },
+  {
+    "district": "Mysore",
+    "table": "medical_educational_amenities",
+    "source": "1971\\Karnataka\\1971 Mysore.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Karnataka\\mededu\\Mysore_mededu_1971.pdf",
+    "source_pages": [
+      27,
+      28
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 27,
+        "mediabox": [
+          0.0,
+          0.0,
+          654.72,
+          843.84
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          654.72,
+          843.84
+        ]
+      },
+      {
+        "source_page": 28,
+        "mediabox": [
+          0.0,
+          0.0,
+          654.72,
+          843.84
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          654.72,
+          843.84
+        ]
+      }
+    ]
+  },
+  {
+    "district": "Mysore",
+    "table": "tehsil_appendix",
+    "source": "1971\\Karnataka\\1971 Mysore.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Karnataka\\tehsil appendix\\Mysore_tehsil_1971.pdf",
+    "source_pages": [
+      195,
+      196,
+      197,
+      198
+    ],
+    "output_pages": 4,
+    "page_sizes": [
+      {
+        "source_page": 195,
+        "mediabox": [
+          0.0,
+          0.0,
+          654.72,
+          843.84
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          654.72,
+          843.84
+        ]
+      },
+      {
+        "source_page": 196,
+        "mediabox": [
+          0.0,
+          0.0,
+          654.72,
+          843.84
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          654.72,
+          843.84
+        ]
+      },
+      {
+        "source_page": 197,
+        "mediabox": [
+          0.0,
+          0.0,
+          654.72,
+          843.84
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          654.72,
+          843.84
+        ]
+      },
+      {
+        "source_page": 198,
+        "mediabox": [
+          0.0,
+          0.0,
+          654.72,
+          843.84
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          654.72,
+          843.84
+        ]
+      }
+    ]
+  },
+  {
+    "district": "North Kanara",
+    "table": "civic_amenities",
+    "source": "1971\\Karnataka\\1971 North Kanara.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Karnataka\\civic amenities\\North Kanara_civic_1971.pdf",
+    "source_pages": [
+      25,
+      26
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 25,
+        "mediabox": [
+          0.0,
+          0.0,
+          795.24,
+          898.2
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          795.24,
+          898.2
+        ]
+      },
+      {
+        "source_page": 26,
+        "mediabox": [
+          0.0,
+          0.0,
+          795.24,
+          898.2
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          795.24,
+          898.2
+        ]
+      }
+    ]
+  },
+  {
+    "district": "North Kanara",
+    "table": "medical_educational_amenities",
+    "source": "1971\\Karnataka\\1971 North Kanara.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Karnataka\\mededu\\North Kanara_mededu_1971.pdf",
+    "source_pages": [
+      27,
+      28,
+      29
+    ],
+    "output_pages": 3,
+    "page_sizes": [
+      {
+        "source_page": 27,
+        "mediabox": [
+          0.0,
+          0.0,
+          795.24,
+          898.2
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          795.24,
+          898.2
+        ]
+      },
+      {
+        "source_page": 28,
+        "mediabox": [
+          0.0,
+          0.0,
+          795.24,
+          898.2
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          795.24,
+          898.2
+        ]
+      },
+      {
+        "source_page": 29,
+        "mediabox": [
+          0.0,
+          0.0,
+          795.24,
+          898.2
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          795.24,
+          898.2
+        ]
+      }
+    ]
+  },
+  {
+    "district": "North Kanara",
+    "table": "tehsil_appendix",
+    "source": "1971\\Karnataka\\1971 North Kanara.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Karnataka\\tehsil appendix\\North Kanara_tehsil_1971.pdf",
+    "source_pages": [
+      145,
+      146
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 145,
+        "mediabox": [
+          0.0,
+          0.0,
+          795.24,
+          898.2
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          795.24,
+          898.2
+        ]
+      },
+      {
+        "source_page": 146,
+        "mediabox": [
+          0.0,
+          0.0,
+          795.24,
+          898.2
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          795.24,
+          898.2
+        ]
+      }
+    ]
+  },
+  {
+    "district": "Raichur",
+    "table": "civic_amenities",
+    "source": "1971\\Karnataka\\1971 Raichur.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Karnataka\\civic amenities\\Raichur_civic_1971.pdf",
+    "source_pages": [
+      24,
+      25
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 24,
+        "mediabox": [
+          0.0,
+          0.0,
+          631.92,
+          796.32
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          631.92,
+          796.32
+        ]
+      },
+      {
+        "source_page": 25,
+        "mediabox": [
+          0.0,
+          0.0,
+          631.92,
+          796.32
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          631.92,
+          796.32
+        ]
+      }
+    ]
+  },
+  {
+    "district": "Raichur",
+    "table": "medical_educational_amenities",
+    "source": "1971\\Karnataka\\1971 Raichur.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Karnataka\\mededu\\Raichur_mededu_1971.pdf",
+    "source_pages": [
+      26,
+      27
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 26,
+        "mediabox": [
+          0.0,
+          0.0,
+          631.92,
+          796.32
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          631.92,
+          796.32
+        ]
+      },
+      {
+        "source_page": 27,
+        "mediabox": [
+          0.0,
+          0.0,
+          631.92,
+          796.32
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          631.92,
+          796.32
+        ]
+      }
+    ]
+  },
+  {
+    "district": "Raichur",
+    "table": "tehsil_appendix",
+    "source": "1971\\Karnataka\\1971 Raichur.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Karnataka\\tehsil appendix\\Raichur_tehsil_1971.pdf",
+    "source_pages": [
+      168,
+      169
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 168,
+        "mediabox": [
+          0.0,
+          0.0,
+          631.92,
+          796.32
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          631.92,
+          796.32
+        ]
+      },
+      {
+        "source_page": 169,
+        "mediabox": [
+          0.0,
+          0.0,
+          631.92,
+          796.32
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          631.92,
+          796.32
+        ]
+      }
+    ]
+  },
+  {
+    "district": "Shimoga",
+    "table": "civic_amenities",
+    "source": "1971\\Karnataka\\1971 Shimoga.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Karnataka\\civic amenities\\Shimoga_civic_1971.pdf",
+    "source_pages": [
+      24,
+      25
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 24,
+        "mediabox": [
+          0.0,
+          0.0,
+          630.48,
+          816.96
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          630.48,
+          816.96
+        ]
+      },
+      {
+        "source_page": 25,
+        "mediabox": [
+          0.0,
+          0.0,
+          630.48,
+          816.96
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          630.48,
+          816.96
+        ]
+      }
+    ]
+  },
+  {
+    "district": "Shimoga",
+    "table": "medical_educational_amenities",
+    "source": "1971\\Karnataka\\1971 Shimoga.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Karnataka\\mededu\\Shimoga_mededu_1971.pdf",
+    "source_pages": [
+      26,
+      27
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 26,
+        "mediabox": [
+          0.0,
+          0.0,
+          630.48,
+          816.96
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          630.48,
+          816.96
+        ]
+      },
+      {
+        "source_page": 27,
+        "mediabox": [
+          0.0,
+          0.0,
+          630.48,
+          816.96
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          630.48,
+          816.96
+        ]
+      }
+    ]
+  },
+  {
+    "district": "Shimoga",
+    "table": "tehsil_appendix",
+    "source": "1971\\Karnataka\\1971 Shimoga.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Karnataka\\tehsil appendix\\Shimoga_tehsil_1971.pdf",
+    "source_pages": [
+      196,
+      197
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 196,
+        "mediabox": [
+          0.0,
+          0.0,
+          630.48,
+          816.96
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          630.48,
+          816.96
+        ]
+      },
+      {
+        "source_page": 197,
+        "mediabox": [
+          0.0,
+          0.0,
+          630.48,
+          816.96
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          630.48,
+          816.96
+        ]
+      }
+    ]
+  },
+  {
+    "district": "South Kanara",
+    "table": "civic_amenities",
+    "source": "1971\\Karnataka\\1971 South Kanara.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Karnataka\\civic amenities\\South Kanara_civic_1971.pdf",
+    "source_pages": [
+      25,
+      26
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 25,
+        "mediabox": [
+          0.0,
+          0.0,
+          638.88,
+          810.48
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          638.88,
+          810.48
+        ]
+      },
+      {
+        "source_page": 26,
+        "mediabox": [
+          0.0,
+          0.0,
+          638.88,
+          810.48
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          638.88,
+          810.48
+        ]
+      }
+    ]
+  },
+  {
+    "district": "South Kanara",
+    "table": "medical_educational_amenities",
+    "source": "1971\\Karnataka\\1971 South Kanara.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Karnataka\\mededu\\South Kanara_mededu_1971.pdf",
+    "source_pages": [
+      27,
+      28,
+      29,
+      30
+    ],
+    "output_pages": 4,
+    "page_sizes": [
+      {
+        "source_page": 27,
+        "mediabox": [
+          0.0,
+          0.0,
+          638.88,
+          810.48
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          638.88,
+          810.48
+        ]
+      },
+      {
+        "source_page": 28,
+        "mediabox": [
+          0.0,
+          0.0,
+          638.88,
+          810.48
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          638.88,
+          810.48
+        ]
+      },
+      {
+        "source_page": 29,
+        "mediabox": [
+          0.0,
+          0.0,
+          638.88,
+          810.48
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          638.88,
+          810.48
+        ]
+      },
+      {
+        "source_page": 30,
+        "mediabox": [
+          0.0,
+          0.0,
+          638.88,
+          810.48
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          638.88,
+          810.48
+        ]
+      }
+    ]
+  },
+  {
+    "district": "South Kanara",
+    "table": "tehsil_appendix",
+    "source": "1971\\Karnataka\\1971 South Kanara.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Karnataka\\tehsil appendix\\South Kanara_tehsil_1971.pdf",
+    "source_pages": [
+      97,
+      98
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 97,
+        "mediabox": [
+          0.0,
+          0.0,
+          638.88,
+          810.48
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          638.88,
+          810.48
+        ]
+      },
+      {
+        "source_page": 98,
+        "mediabox": [
+          0.0,
+          0.0,
+          638.88,
+          810.48
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          638.88,
+          810.48
+        ]
+      }
+    ]
+  },
+  {
+    "district": "Tumkur",
+    "table": "civic_amenities",
+    "source": "1971\\Karnataka\\1971 Tumkur.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Karnataka\\civic amenities\\Tumkur_civic_1971.pdf",
+    "source_pages": [
+      23,
+      24
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 23,
+        "mediabox": [
+          0.0,
+          0.0,
+          649.2,
+          825.6
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          649.2,
+          825.6
+        ]
+      },
+      {
+        "source_page": 24,
+        "mediabox": [
+          0.0,
+          0.0,
+          649.2,
+          825.6
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          649.2,
+          825.6
+        ]
+      }
+    ]
+  },
+  {
+    "district": "Tumkur",
+    "table": "medical_educational_amenities",
+    "source": "1971\\Karnataka\\1971 Tumkur.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Karnataka\\mededu\\Tumkur_mededu_1971.pdf",
+    "source_pages": [
+      25,
+      26
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 25,
+        "mediabox": [
+          0.0,
+          0.0,
+          649.2,
+          825.6
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          649.2,
+          825.6
+        ]
+      },
+      {
+        "source_page": 26,
+        "mediabox": [
+          0.0,
+          0.0,
+          649.2,
+          825.6
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          649.2,
+          825.6
+        ]
+      }
+    ]
+  },
+  {
+    "district": "Tumkur",
+    "table": "tehsil_appendix",
+    "source": "1971\\Karnataka\\1971 Tumkur.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Karnataka\\tehsil appendix\\Tumkur_tehsil_1971.pdf",
+    "source_pages": [
+      247,
+      248
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 247,
+        "mediabox": [
+          0.0,
+          0.0,
+          649.2,
+          825.6
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          649.2,
+          825.6
+        ]
+      },
+      {
+        "source_page": 248,
+        "mediabox": [
+          0.0,
+          0.0,
+          649.2,
+          825.6
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          649.2,
+          825.6
+        ]
+      }
+    ]
+  }
+]

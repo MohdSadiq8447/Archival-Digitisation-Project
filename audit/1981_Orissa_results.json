@@ -1,0 +1,2898 @@
+[
+  {
+    "state": "Orissa",
+    "source_state": "Orissa",
+    "district": "Balangir",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Orissa/1981 Balangir.pdf",
+    "source_filename": "1981 Balangir.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 546,
+    "output": "output/pdf/1981_trimmed/Orissa/civic amenities/1981_Balangir_civic_amenities.pdf",
+    "source_pages_selected": [
+      499,
+      500
+    ],
+    "printed_page_labels": [
+      "422",
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement IV Civic and Other Amenities, printed pages 422-423; source page 501 begins Statement V.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 499,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              -1.68,
+              614.4,
+              790.32
+            ],
+            "cropbox": [
+              0.0,
+              -1.68,
+              612.0,
+              790.32
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 500,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              -1.68,
+              614.4,
+              790.32
+            ],
+            "cropbox": [
+              0.0,
+              -1.68,
+              612.0,
+              790.32
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 499,
+          "output_page": 1,
+          "source_png_sha256": "19f94ce7598517a8768ace27556bff209e7712b8f88e49ecf56c4cca3bf27cd3",
+          "output_png_sha256": "19f94ce7598517a8768ace27556bff209e7712b8f88e49ecf56c4cca3bf27cd3",
+          "match": true
+        },
+        {
+          "source_page": 500,
+          "output_page": 2,
+          "source_png_sha256": "594efb2439d3b7158b44a24ac07e3c6eb451d19d2f2c24820910ce5895952360",
+          "output_png_sha256": "594efb2439d3b7158b44a24ac07e3c6eb451d19d2f2c24820910ce5895952360",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Orissa",
+    "source_state": "Orissa",
+    "district": "Balangir",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Orissa/1981 Balangir.pdf",
+    "source_filename": "1981 Balangir.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 546,
+    "output": "output/pdf/1981_trimmed/Orissa/mededu/1981_Balangir_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      501,
+      502
+    ],
+    "printed_page_labels": [
+      "424",
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement V Medical, Educational, Recreational and Cultural Facilities, printed pages 424-425; source page 503 begins Statement VI.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 501,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              -1.68,
+              614.4,
+              790.32
+            ],
+            "cropbox": [
+              0.0,
+              -1.68,
+              612.0,
+              790.32
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 502,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              -1.68,
+              614.4,
+              790.32
+            ],
+            "cropbox": [
+              0.0,
+              -1.68,
+              612.0,
+              790.32
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 501,
+          "output_page": 1,
+          "source_png_sha256": "c2c87c15c63c3b059eaa0af84fccb8123dc40fe92abed4f9ee54e082475deddd",
+          "output_png_sha256": "c2c87c15c63c3b059eaa0af84fccb8123dc40fe92abed4f9ee54e082475deddd",
+          "match": true
+        },
+        {
+          "source_page": 502,
+          "output_page": 2,
+          "source_png_sha256": "e9b076f83e5ba65020cf8b659ce3866082340054b9c7accb9d5a0f6dd0021b8d",
+          "output_png_sha256": "e9b076f83e5ba65020cf8b659ce3866082340054b9c7accb9d5a0f6dd0021b8d",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Orissa",
+    "source_state": "Orissa",
+    "district": "Balangir",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Orissa/1981 Balangir.pdf",
+    "source_filename": "1981 Balangir.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 546,
+    "output": "output/pdf/1981_trimmed/Orissa/tehsil appendix/1981_Balangir_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      427,
+      428,
+      429,
+      430
+    ],
+    "printed_page_labels": [
+      "350",
+      "351",
+      "352",
+      "353"
+    ],
+    "status": "Trimmed",
+    "reason": "Village Directory Appendix I Tahasil-wise abstract of educational, medical and other amenities; source page 426 is the section separator and source page 431 begins Appendix II.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 4,
+      "pages": [
+        {
+          "source_page": 427,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              -1.68,
+              614.4,
+              790.32
+            ],
+            "cropbox": [
+              0.0,
+              -1.68,
+              612.0,
+              790.32
+            ]
+          },
+          "rotation": 90
+        },
+        {
+          "source_page": 428,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              -1.68,
+              614.4,
+              790.32
+            ],
+            "cropbox": [
+              0.0,
+              -1.68,
+              612.0,
+              790.32
+            ]
+          },
+          "rotation": 90
+        },
+        {
+          "source_page": 429,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              -1.68,
+              614.4,
+              790.32
+            ],
+            "cropbox": [
+              0.0,
+              -1.68,
+              612.0,
+              790.32
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 430,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              -1.68,
+              614.4,
+              790.32
+            ],
+            "cropbox": [
+              0.0,
+              -1.68,
+              612.0,
+              790.32
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 427,
+          "output_page": 1,
+          "source_png_sha256": "3088474b6b0286abe9615fd8911296cfb91b1cd38c0226053d37ac49807c1466",
+          "output_png_sha256": "3088474b6b0286abe9615fd8911296cfb91b1cd38c0226053d37ac49807c1466",
+          "match": true
+        },
+        {
+          "source_page": 428,
+          "output_page": 2,
+          "source_png_sha256": "0a5d931786ade00e08ce19420731a90ce33f9d977d5263bda94ceff7da1eaf2a",
+          "output_png_sha256": "0a5d931786ade00e08ce19420731a90ce33f9d977d5263bda94ceff7da1eaf2a",
+          "match": true
+        },
+        {
+          "source_page": 429,
+          "output_page": 3,
+          "source_png_sha256": "97c4f5d14c51456f60cf0caa4b581c954509f55b342b6a6fe8aa88a923d69327",
+          "output_png_sha256": "97c4f5d14c51456f60cf0caa4b581c954509f55b342b6a6fe8aa88a923d69327",
+          "match": true
+        },
+        {
+          "source_page": 430,
+          "output_page": 4,
+          "source_png_sha256": "4fa236acfd5bd636b4ab3f437b9db9e21b96ee34ce546a704a4afa46ba55d5fe",
+          "output_png_sha256": "4fa236acfd5bd636b4ab3f437b9db9e21b96ee34ce546a704a4afa46ba55d5fe",
+          "match": true
+        }
+      ],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 4,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Orissa",
+    "source_state": "Orissa",
+    "district": "Baleshwar",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Orissa/1981 Baleshwar.pdf",
+    "source_filename": "1981 Baleshwar.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 721,
+    "output": "output/pdf/1981_trimmed/Orissa/civic amenities/1981_Baleshwar_civic_amenities.pdf",
+    "source_pages_selected": [
+      656,
+      657
+    ],
+    "printed_page_labels": [
+      "568",
+      "569"
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement IV Civic and Other Amenities, printed pages 568-569; source page 658 begins Statement V.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 656,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              652.8,
+              846.24
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              652.8,
+              846.24
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 657,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              652.8,
+              846.24
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              652.8,
+              846.24
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 656,
+          "output_page": 1,
+          "source_png_sha256": "0897a64ebfa3d1b9f34bcdb38b9c62e8a1ece03ae4e7107817409cd367a69ca7",
+          "output_png_sha256": "0897a64ebfa3d1b9f34bcdb38b9c62e8a1ece03ae4e7107817409cd367a69ca7",
+          "match": true
+        },
+        {
+          "source_page": 657,
+          "output_page": 2,
+          "source_png_sha256": "c0d682ddcca0c6fc840b75d56126fb38e9d5f60f26f1ad64bc4c4b0338ae8545",
+          "output_png_sha256": "c0d682ddcca0c6fc840b75d56126fb38e9d5f60f26f1ad64bc4c4b0338ae8545",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Orissa",
+    "source_state": "Orissa",
+    "district": "Baleshwar",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Orissa/1981 Baleshwar.pdf",
+    "source_filename": "1981 Baleshwar.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 721,
+    "output": "output/pdf/1981_trimmed/Orissa/mededu/1981_Baleshwar_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      658,
+      659
+    ],
+    "printed_page_labels": [
+      "570",
+      "571"
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement V Medical, Educational, Recreational and Cultural Facilities, printed pages 570-571; source page 660 begins Statement VI.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 658,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              652.8,
+              846.24
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              652.8,
+              846.24
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 659,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              652.8,
+              846.24
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              652.8,
+              846.24
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 658,
+          "output_page": 1,
+          "source_png_sha256": "736590b6b355a992fd14073babff819b2fa63354df0a1891c62321dc81ecf72d",
+          "output_png_sha256": "736590b6b355a992fd14073babff819b2fa63354df0a1891c62321dc81ecf72d",
+          "match": true
+        },
+        {
+          "source_page": 659,
+          "output_page": 2,
+          "source_png_sha256": "535e7e3dd184ab20d8fa44b88de43750494cf2b1fa947eb3040abfc603145296",
+          "output_png_sha256": "535e7e3dd184ab20d8fa44b88de43750494cf2b1fa947eb3040abfc603145296",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Orissa",
+    "source_state": "Orissa",
+    "district": "Baleshwar",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Orissa/1981 Baleshwar.pdf",
+    "source_filename": "1981 Baleshwar.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 721,
+    "output": "output/pdf/1981_trimmed/Orissa/tehsil appendix/1981_Baleshwar_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      578,
+      579,
+      580,
+      581
+    ],
+    "printed_page_labels": [
+      "490",
+      "491",
+      "492",
+      "493"
+    ],
+    "status": "Trimmed",
+    "reason": "Village Directory Appendix I Tahasil-wise abstract of educational, medical and other amenities; source page 577 is the section separator and source page 582 begins Appendix II.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 4,
+      "pages": [
+        {
+          "source_page": 578,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              677.04,
+              864.72
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              677.04,
+              864.72
+            ]
+          },
+          "rotation": 90
+        },
+        {
+          "source_page": 579,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              652.8,
+              846.24
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              652.8,
+              846.24
+            ]
+          },
+          "rotation": 90
+        },
+        {
+          "source_page": 580,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              652.8,
+              846.24
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              652.8,
+              846.24
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 581,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              652.8,
+              846.24
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              652.8,
+              846.24
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 578,
+          "output_page": 1,
+          "source_png_sha256": "eb9eb5982039f457adfe99f47198615a7e16bddb9db172786b79ec6117d31f4d",
+          "output_png_sha256": "eb9eb5982039f457adfe99f47198615a7e16bddb9db172786b79ec6117d31f4d",
+          "match": true
+        },
+        {
+          "source_page": 579,
+          "output_page": 2,
+          "source_png_sha256": "6f572edd21fa98fc40b2ada7a7ef40034a23d6c53b4e56cc02aa24e54b4cb180",
+          "output_png_sha256": "6f572edd21fa98fc40b2ada7a7ef40034a23d6c53b4e56cc02aa24e54b4cb180",
+          "match": true
+        },
+        {
+          "source_page": 580,
+          "output_page": 3,
+          "source_png_sha256": "40b32b90f2335da4349301450138bb1748596cbb6dcd037979cb06ac10c376f3",
+          "output_png_sha256": "40b32b90f2335da4349301450138bb1748596cbb6dcd037979cb06ac10c376f3",
+          "match": true
+        },
+        {
+          "source_page": 581,
+          "output_page": 4,
+          "source_png_sha256": "612baeb4ef8254dd3f3900ca6be9bdd070f91f9b814721fe3bc595a3eef54443",
+          "output_png_sha256": "612baeb4ef8254dd3f3900ca6be9bdd070f91f9b814721fe3bc595a3eef54443",
+          "match": true
+        }
+      ],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 4,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Orissa",
+    "source_state": "Orissa",
+    "district": "Cuttack",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Orissa/1981 Cuttack.pdf",
+    "source_filename": "1981 Cuttack.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 992,
+    "output": null,
+    "source_pages_selected": [],
+    "printed_page_labels": [],
+    "status": "Not trimmed",
+    "reason": "Part XIII-B Village and Townwise Primary Census Abstract-only volume; no Village/Town Directory Statement IV.",
+    "flags": [
+      "manual_absent_or_ineligible"
+    ],
+    "verification": null
+  },
+  {
+    "state": "Orissa",
+    "source_state": "Orissa",
+    "district": "Cuttack",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Orissa/1981 Cuttack.pdf",
+    "source_filename": "1981 Cuttack.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 992,
+    "output": null,
+    "source_pages_selected": [],
+    "printed_page_labels": [],
+    "status": "Not trimmed",
+    "reason": "Part XIII-B Village and Townwise Primary Census Abstract-only volume; no Village/Town Directory Statement V.",
+    "flags": [
+      "manual_absent_or_ineligible"
+    ],
+    "verification": null
+  },
+  {
+    "state": "Orissa",
+    "source_state": "Orissa",
+    "district": "Cuttack",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Orissa/1981 Cuttack.pdf",
+    "source_filename": "1981 Cuttack.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 992,
+    "output": null,
+    "source_pages_selected": [],
+    "printed_page_labels": [],
+    "status": "Not trimmed",
+    "reason": "Part XIII-B Village and Townwise Primary Census Abstract-only volume; no Village Directory Appendix I amenities abstract.",
+    "flags": [
+      "manual_absent_or_ineligible"
+    ],
+    "verification": null
+  },
+  {
+    "state": "Orissa",
+    "source_state": "Orissa",
+    "district": "Dhenkanal",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Orissa/1981 Dhenkanal.pdf",
+    "source_filename": "1981 Dhenkanal.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 633,
+    "output": "output/pdf/1981_trimmed/Orissa/civic amenities/1981_Dhenkanal_civic_amenities.pdf",
+    "source_pages_selected": [
+      577,
+      578
+    ],
+    "printed_page_labels": [
+      "482",
+      "483"
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement IV Civic and Other Amenities, printed pages 482-483; source page 579 begins Statement V.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 577,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              639.36,
+              842.88
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              639.36,
+              842.88
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 578,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              639.36,
+              842.88
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              639.36,
+              842.88
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 577,
+          "output_page": 1,
+          "source_png_sha256": "e552f103c9ba49762d45711f04046981ab76744da9f2cf8832b8c9a6644b5ec4",
+          "output_png_sha256": "e552f103c9ba49762d45711f04046981ab76744da9f2cf8832b8c9a6644b5ec4",
+          "match": true
+        },
+        {
+          "source_page": 578,
+          "output_page": 2,
+          "source_png_sha256": "f22a1ec838f79ec21ba1f98d640836d4265c12e12619088f86a31f6f08c52a43",
+          "output_png_sha256": "f22a1ec838f79ec21ba1f98d640836d4265c12e12619088f86a31f6f08c52a43",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Orissa",
+    "source_state": "Orissa",
+    "district": "Dhenkanal",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Orissa/1981 Dhenkanal.pdf",
+    "source_filename": "1981 Dhenkanal.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 633,
+    "output": "output/pdf/1981_trimmed/Orissa/mededu/1981_Dhenkanal_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      579,
+      580
+    ],
+    "printed_page_labels": [
+      "484",
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement V Medical, Educational, Recreational and Cultural Facilities, printed pages 484-485; source page 581 begins Statement VI.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 579,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              639.36,
+              842.88
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              639.36,
+              842.88
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 580,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              639.36,
+              842.88
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              639.36,
+              842.88
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 579,
+          "output_page": 1,
+          "source_png_sha256": "3f86bffc2ad91122c072e9aa3fdfec7039ead78a50b67cfcd0b65d88eea43a50",
+          "output_png_sha256": "3f86bffc2ad91122c072e9aa3fdfec7039ead78a50b67cfcd0b65d88eea43a50",
+          "match": true
+        },
+        {
+          "source_page": 580,
+          "output_page": 2,
+          "source_png_sha256": "d553ba79cdb21107a3f387045cdd78202d8036dc243225cfd53b9abb36bc61f3",
+          "output_png_sha256": "d553ba79cdb21107a3f387045cdd78202d8036dc243225cfd53b9abb36bc61f3",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Orissa",
+    "source_state": "Orissa",
+    "district": "Dhenkanal",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Orissa/1981 Dhenkanal.pdf",
+    "source_filename": "1981 Dhenkanal.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 633,
+    "output": "output/pdf/1981_trimmed/Orissa/tehsil appendix/1981_Dhenkanal_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      507,
+      508,
+      509,
+      510
+    ],
+    "printed_page_labels": [
+      "412",
+      "413",
+      "414",
+      "415"
+    ],
+    "status": "Trimmed",
+    "reason": "Village Directory Appendix I Tahasil-wise abstract of educational, medical and other amenities; source page 506 is the section separator and source page 511 begins Appendix II.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 4,
+      "pages": [
+        {
+          "source_page": 507,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              639.36,
+              842.88
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              639.36,
+              842.88
+            ]
+          },
+          "rotation": 90
+        },
+        {
+          "source_page": 508,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              639.36,
+              842.88
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              639.36,
+              842.88
+            ]
+          },
+          "rotation": 90
+        },
+        {
+          "source_page": 509,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              639.36,
+              842.88
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              639.36,
+              842.88
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 510,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              639.36,
+              842.88
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              639.36,
+              842.88
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 507,
+          "output_page": 1,
+          "source_png_sha256": "cd8df74ae23754ffea7ce18abaf20d99997c585e621d05b244a11036eebea03b",
+          "output_png_sha256": "cd8df74ae23754ffea7ce18abaf20d99997c585e621d05b244a11036eebea03b",
+          "match": true
+        },
+        {
+          "source_page": 508,
+          "output_page": 2,
+          "source_png_sha256": "a0342308419be4301f7003f817d652dabd46b786c2f2a71057af420c6a96143a",
+          "output_png_sha256": "a0342308419be4301f7003f817d652dabd46b786c2f2a71057af420c6a96143a",
+          "match": true
+        },
+        {
+          "source_page": 509,
+          "output_page": 3,
+          "source_png_sha256": "97d69671f6d4d7b4bc6dde22a26f8f49aeee4ddad3eb4f1e9487c3223ec26f32",
+          "output_png_sha256": "97d69671f6d4d7b4bc6dde22a26f8f49aeee4ddad3eb4f1e9487c3223ec26f32",
+          "match": true
+        },
+        {
+          "source_page": 510,
+          "output_page": 4,
+          "source_png_sha256": "2bb649d920e2217fbdef300749967809040ee6014630a9948932ceb0a0ad0590",
+          "output_png_sha256": "2bb649d920e2217fbdef300749967809040ee6014630a9948932ceb0a0ad0590",
+          "match": true
+        }
+      ],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 4,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Orissa",
+    "source_state": "Orissa",
+    "district": "Ganjam",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Orissa/1981 Ganjam.pdf",
+    "source_filename": "1981 Ganjam.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 952,
+    "output": "output/pdf/1981_trimmed/Orissa/civic amenities/1981_Ganjam_civic_amenities.pdf",
+    "source_pages_selected": [
+      869,
+      870
+    ],
+    "printed_page_labels": [
+      "756",
+      "757"
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement IV Civic and Other Amenities, printed pages 756-757; source page 871 begins Statement V.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 869,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              623.28,
+              816.0
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              623.28,
+              816.0
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 870,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              623.28,
+              816.0
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              623.28,
+              816.0
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 869,
+          "output_page": 1,
+          "source_png_sha256": "98e78ff7fe420ae12006640d4f149efdcc453e36c24623429ec152c957fa3121",
+          "output_png_sha256": "98e78ff7fe420ae12006640d4f149efdcc453e36c24623429ec152c957fa3121",
+          "match": true
+        },
+        {
+          "source_page": 870,
+          "output_page": 2,
+          "source_png_sha256": "68bcead0799fe2b6bc11b1790cc5cf5650f4fc4e93687e44b5a90dbba1008453",
+          "output_png_sha256": "68bcead0799fe2b6bc11b1790cc5cf5650f4fc4e93687e44b5a90dbba1008453",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Orissa",
+    "source_state": "Orissa",
+    "district": "Ganjam",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Orissa/1981 Ganjam.pdf",
+    "source_filename": "1981 Ganjam.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 952,
+    "output": "output/pdf/1981_trimmed/Orissa/mededu/1981_Ganjam_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      871,
+      872
+    ],
+    "printed_page_labels": [
+      "758",
+      "759"
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement V Medical, Educational, Recreational and Cultural Facilities, printed pages 758-759; source page 873 begins Statement VI.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 871,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              623.28,
+              816.0
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              623.28,
+              816.0
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 872,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              623.28,
+              816.0
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              623.28,
+              816.0
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 871,
+          "output_page": 1,
+          "source_png_sha256": "4fc21ce2d5a16bc482c75e0e0d2f9c0c1589826e332ad466908b28592c34f87c",
+          "output_png_sha256": "4fc21ce2d5a16bc482c75e0e0d2f9c0c1589826e332ad466908b28592c34f87c",
+          "match": true
+        },
+        {
+          "source_page": 872,
+          "output_page": 2,
+          "source_png_sha256": "0ce06f2490146de703c011ae82f5cc45c614b2ca93b087ecd18bb6d0a3c2c5bf",
+          "output_png_sha256": "0ce06f2490146de703c011ae82f5cc45c614b2ca93b087ecd18bb6d0a3c2c5bf",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Orissa",
+    "source_state": "Orissa",
+    "district": "Ganjam",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Orissa/1981 Ganjam.pdf",
+    "source_filename": "1981 Ganjam.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 952,
+    "output": "output/pdf/1981_trimmed/Orissa/tehsil appendix/1981_Ganjam_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      779,
+      780,
+      781,
+      782
+    ],
+    "printed_page_labels": [
+      null,
+      "667",
+      "668",
+      "669"
+    ],
+    "status": "Trimmed",
+    "reason": "Village Directory Appendix I Tahasil-wise abstract of educational, medical and other amenities; source page 778 is the section separator and source page 783 begins Appendix II.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 4,
+      "pages": [
+        {
+          "source_page": 779,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              623.28,
+              816.0
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              623.28,
+              816.0
+            ]
+          },
+          "rotation": 90
+        },
+        {
+          "source_page": 780,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              623.28,
+              816.0
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              623.28,
+              816.0
+            ]
+          },
+          "rotation": 90
+        },
+        {
+          "source_page": 781,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              623.28,
+              816.0
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              623.28,
+              816.0
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 782,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              623.28,
+              816.0
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              623.28,
+              816.0
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 779,
+          "output_page": 1,
+          "source_png_sha256": "e9d314947f9082346d72af78df2288ac014ab7bef63cf08aada7527e17798a5f",
+          "output_png_sha256": "e9d314947f9082346d72af78df2288ac014ab7bef63cf08aada7527e17798a5f",
+          "match": true
+        },
+        {
+          "source_page": 780,
+          "output_page": 2,
+          "source_png_sha256": "0114587a554323133e942d05aaa477e77c620aa11bb7c3f66860d91ed5e4bb72",
+          "output_png_sha256": "0114587a554323133e942d05aaa477e77c620aa11bb7c3f66860d91ed5e4bb72",
+          "match": true
+        },
+        {
+          "source_page": 781,
+          "output_page": 3,
+          "source_png_sha256": "027ae4608a6011ac8316e61c53d10263e13d8b6132b424dde4b37e1544864969",
+          "output_png_sha256": "027ae4608a6011ac8316e61c53d10263e13d8b6132b424dde4b37e1544864969",
+          "match": true
+        },
+        {
+          "source_page": 782,
+          "output_page": 4,
+          "source_png_sha256": "acaa61a39630c12e858b0fc0bdaa368b7c9c05ea7e98d8cec3115f7252068cda",
+          "output_png_sha256": "acaa61a39630c12e858b0fc0bdaa368b7c9c05ea7e98d8cec3115f7252068cda",
+          "match": true
+        }
+      ],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 4,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Orissa",
+    "source_state": "Orissa",
+    "district": "Kalahandi",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Orissa/1981 Kalahandi.pdf",
+    "source_filename": "1981 Kalahandi.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 576,
+    "output": "output/pdf/1981_trimmed/Orissa/civic amenities/1981_Kalahandi_civic_amenities.pdf",
+    "source_pages_selected": [
+      525,
+      526
+    ],
+    "printed_page_labels": [
+      "436",
+      "437"
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement IV Civic and Other Amenities, printed pages 436-437; source page 527 begins Statement V.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 525,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              673.92,
+              826.32
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              673.92,
+              826.32
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 526,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              673.92,
+              826.32
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              673.92,
+              826.32
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 525,
+          "output_page": 1,
+          "source_png_sha256": "431fb9e4bb2762f4108353f44c3ab50661ffbb462c52594650ca74dfbde9d643",
+          "output_png_sha256": "431fb9e4bb2762f4108353f44c3ab50661ffbb462c52594650ca74dfbde9d643",
+          "match": true
+        },
+        {
+          "source_page": 526,
+          "output_page": 2,
+          "source_png_sha256": "8f36be409d8e149696465503ff6912f24b063b54e548b33f46e19c01cd975128",
+          "output_png_sha256": "8f36be409d8e149696465503ff6912f24b063b54e548b33f46e19c01cd975128",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Orissa",
+    "source_state": "Orissa",
+    "district": "Kalahandi",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Orissa/1981 Kalahandi.pdf",
+    "source_filename": "1981 Kalahandi.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 576,
+    "output": "output/pdf/1981_trimmed/Orissa/mededu/1981_Kalahandi_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      527,
+      528
+    ],
+    "printed_page_labels": [
+      "438",
+      "439"
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement V Medical, Educational, Recreational and Cultural Facilities, printed pages 438-439; source page 529 begins Statement VI.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 527,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              673.92,
+              826.32
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              673.92,
+              826.32
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 528,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              673.92,
+              826.32
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              673.92,
+              826.32
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 527,
+          "output_page": 1,
+          "source_png_sha256": "420f320cb1f02a4a9786fd70bc9b772c75b4c919f168a462da01fc03f46a168c",
+          "output_png_sha256": "420f320cb1f02a4a9786fd70bc9b772c75b4c919f168a462da01fc03f46a168c",
+          "match": true
+        },
+        {
+          "source_page": 528,
+          "output_page": 2,
+          "source_png_sha256": "e96e8659b7f45caaaef5535cd0054f7e84e6d8f2977fd51839ddac90b5b2b6b1",
+          "output_png_sha256": "e96e8659b7f45caaaef5535cd0054f7e84e6d8f2977fd51839ddac90b5b2b6b1",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Orissa",
+    "source_state": "Orissa",
+    "district": "Kalahandi",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Orissa/1981 Kalahandi.pdf",
+    "source_filename": "1981 Kalahandi.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 576,
+    "output": "output/pdf/1981_trimmed/Orissa/tehsil appendix/1981_Kalahandi_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      445,
+      446,
+      447,
+      448
+    ],
+    "printed_page_labels": [
+      "358",
+      "359",
+      null,
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Village Directory Appendix I Tahasil-wise abstract of educational, medical and other amenities; source page 444 is the section separator and source page 449 begins Appendix II.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 4,
+      "pages": [
+        {
+          "source_page": 445,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              673.92,
+              826.32
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              673.92,
+              826.32
+            ]
+          },
+          "rotation": 90
+        },
+        {
+          "source_page": 446,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              673.92,
+              826.32
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              673.92,
+              826.32
+            ]
+          },
+          "rotation": 90
+        },
+        {
+          "source_page": 447,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              673.92,
+              826.32
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              673.92,
+              826.32
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 448,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              673.92,
+              826.32
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              673.92,
+              826.32
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 445,
+          "output_page": 1,
+          "source_png_sha256": "5e058645165350f926b0d9e13a2232523b9363abdcfb98528b7295eab5628ad4",
+          "output_png_sha256": "5e058645165350f926b0d9e13a2232523b9363abdcfb98528b7295eab5628ad4",
+          "match": true
+        },
+        {
+          "source_page": 446,
+          "output_page": 2,
+          "source_png_sha256": "f702610d5c0407f4982075df5b3963ff9a8a12a13a356a638ac7bd61cde9522b",
+          "output_png_sha256": "f702610d5c0407f4982075df5b3963ff9a8a12a13a356a638ac7bd61cde9522b",
+          "match": true
+        },
+        {
+          "source_page": 447,
+          "output_page": 3,
+          "source_png_sha256": "fed1e6510da62331643dd8a3949594961356c3ffdf55813c03f4a86d28ddf562",
+          "output_png_sha256": "fed1e6510da62331643dd8a3949594961356c3ffdf55813c03f4a86d28ddf562",
+          "match": true
+        },
+        {
+          "source_page": 448,
+          "output_page": 4,
+          "source_png_sha256": "fd4981caa7733581667bd80edd0a4d50a3a133d721b89aa6fbf778d3af4656e3",
+          "output_png_sha256": "fd4981caa7733581667bd80edd0a4d50a3a133d721b89aa6fbf778d3af4656e3",
+          "match": true
+        }
+      ],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 4,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Orissa",
+    "source_state": "Orissa",
+    "district": "Kendujhar",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Orissa/1981 Kendujhar,.pdf",
+    "source_filename": "1981 Kendujhar,.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 424,
+    "output": "output/pdf/1981_trimmed/Orissa/civic amenities/1981_Kendujhar_civic_amenities.pdf",
+    "source_pages_selected": [
+      388,
+      389
+    ],
+    "printed_page_labels": [
+      "348",
+      "349"
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement IV Civic and Other Amenities, printed pages 348-349; source page 390 begins Statement V.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 388,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              642.24,
+              824.64
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              642.24,
+              824.64
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 389,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              642.24,
+              824.64
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              642.24,
+              824.64
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 388,
+          "output_page": 1,
+          "source_png_sha256": "da6633525ec8d0d0968945b434520559ef0f503f7b88779b7987491a441c8237",
+          "output_png_sha256": "da6633525ec8d0d0968945b434520559ef0f503f7b88779b7987491a441c8237",
+          "match": true
+        },
+        {
+          "source_page": 389,
+          "output_page": 2,
+          "source_png_sha256": "066b3f9615cce9c62e7c48d2c41bb0bc41d273e4754b977e5845724d4002ef27",
+          "output_png_sha256": "066b3f9615cce9c62e7c48d2c41bb0bc41d273e4754b977e5845724d4002ef27",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Orissa",
+    "source_state": "Orissa",
+    "district": "Kendujhar",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Orissa/1981 Kendujhar,.pdf",
+    "source_filename": "1981 Kendujhar,.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 424,
+    "output": "output/pdf/1981_trimmed/Orissa/mededu/1981_Kendujhar_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      390,
+      391
+    ],
+    "printed_page_labels": [
+      "350",
+      "351"
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement V Medical, Educational, Recreational and Cultural Facilities, printed pages 350-351; source page 392 begins Statement VI.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 390,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              642.24,
+              824.64
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              642.24,
+              824.64
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 391,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              642.24,
+              824.64
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              642.24,
+              824.64
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 390,
+          "output_page": 1,
+          "source_png_sha256": "829887e86e9b6b0e789459daafe7e6a24ac34024922e1e1e409cd72f4b37ae37",
+          "output_png_sha256": "829887e86e9b6b0e789459daafe7e6a24ac34024922e1e1e409cd72f4b37ae37",
+          "match": true
+        },
+        {
+          "source_page": 391,
+          "output_page": 2,
+          "source_png_sha256": "a62547f68d9e8241076a0ccff6b65459daba89717640c424e1fc7ac5cfaf4a7c",
+          "output_png_sha256": "a62547f68d9e8241076a0ccff6b65459daba89717640c424e1fc7ac5cfaf4a7c",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Orissa",
+    "source_state": "Orissa",
+    "district": "Kendujhar",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Orissa/1981 Kendujhar,.pdf",
+    "source_filename": "1981 Kendujhar,.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 424,
+    "output": "output/pdf/1981_trimmed/Orissa/tehsil appendix/1981_Kendujhar_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      330,
+      331,
+      332,
+      333
+    ],
+    "printed_page_labels": [
+      "290",
+      "291",
+      "292",
+      "293"
+    ],
+    "status": "Trimmed",
+    "reason": "Village Directory Appendix I Tahasil-wise abstract of educational, medical and other amenities; source page 329 is the section separator and source page 334 begins Appendix II.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 4,
+      "pages": [
+        {
+          "source_page": 330,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              642.24,
+              824.64
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              642.24,
+              824.64
+            ]
+          },
+          "rotation": 90
+        },
+        {
+          "source_page": 331,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              642.24,
+              824.64
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              642.24,
+              824.64
+            ]
+          },
+          "rotation": 90
+        },
+        {
+          "source_page": 332,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              642.24,
+              824.64
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              642.24,
+              824.64
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 333,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              642.24,
+              824.64
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              642.24,
+              824.64
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 330,
+          "output_page": 1,
+          "source_png_sha256": "8d094ed812ba87bc046c0cf4138fb31554d2a0483426489649a540a36cfb9b48",
+          "output_png_sha256": "8d094ed812ba87bc046c0cf4138fb31554d2a0483426489649a540a36cfb9b48",
+          "match": true
+        },
+        {
+          "source_page": 331,
+          "output_page": 2,
+          "source_png_sha256": "ae6b20b02e6204a2f660503bd44c0848c1066618ad77abbd18b8fc0a3cc84f34",
+          "output_png_sha256": "ae6b20b02e6204a2f660503bd44c0848c1066618ad77abbd18b8fc0a3cc84f34",
+          "match": true
+        },
+        {
+          "source_page": 332,
+          "output_page": 3,
+          "source_png_sha256": "ae19d37b852a789057c5fc47b1e009dd5951eba585252351c45615c938bdbb39",
+          "output_png_sha256": "ae19d37b852a789057c5fc47b1e009dd5951eba585252351c45615c938bdbb39",
+          "match": true
+        },
+        {
+          "source_page": 333,
+          "output_page": 4,
+          "source_png_sha256": "2accd7f2df2402d04c6ff25e8ec8a7365b3215881ae590b498091ae0fa8e0ab2",
+          "output_png_sha256": "2accd7f2df2402d04c6ff25e8ec8a7365b3215881ae590b498091ae0fa8e0ab2",
+          "match": true
+        }
+      ],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 4,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Orissa",
+    "source_state": "Orissa",
+    "district": "Mayurbhanj",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Orissa/1981 Mayurbhanj.pdf",
+    "source_filename": "1981 Mayurbhanj.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 557,
+    "output": null,
+    "source_pages_selected": [],
+    "printed_page_labels": [],
+    "status": "Not trimmed",
+    "reason": "Part XIII-B Village and Townwise Primary Census Abstract-only volume; no Village/Town Directory Statement IV.",
+    "flags": [
+      "manual_absent_or_ineligible"
+    ],
+    "verification": null
+  },
+  {
+    "state": "Orissa",
+    "source_state": "Orissa",
+    "district": "Mayurbhanj",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Orissa/1981 Mayurbhanj.pdf",
+    "source_filename": "1981 Mayurbhanj.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 557,
+    "output": null,
+    "source_pages_selected": [],
+    "printed_page_labels": [],
+    "status": "Not trimmed",
+    "reason": "Part XIII-B Village and Townwise Primary Census Abstract-only volume; no Village/Town Directory Statement V.",
+    "flags": [
+      "manual_absent_or_ineligible"
+    ],
+    "verification": null
+  },
+  {
+    "state": "Orissa",
+    "source_state": "Orissa",
+    "district": "Mayurbhanj",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Orissa/1981 Mayurbhanj.pdf",
+    "source_filename": "1981 Mayurbhanj.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 557,
+    "output": null,
+    "source_pages_selected": [],
+    "printed_page_labels": [],
+    "status": "Not trimmed",
+    "reason": "Part XIII-B Village and Townwise Primary Census Abstract-only volume; no Village Directory Appendix I amenities abstract.",
+    "flags": [
+      "manual_absent_or_ineligible"
+    ],
+    "verification": null
+  },
+  {
+    "state": "Orissa",
+    "source_state": "Orissa",
+    "district": "Phulabani",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Orissa/1981 Phulabani.pdf",
+    "source_filename": "1981 Phulabani.pdf",
+    "volume_type": "Part XIII-B primary census abstract",
+    "eligible": false,
+    "eligibility_reason": "PCA-only volume; the requested town statements and amenities appendix are absent.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 456,
+    "output": null,
+    "source_pages_selected": [],
+    "printed_page_labels": [],
+    "status": "Not trimmed",
+    "reason": "Part XIII-B Village and Townwise Primary Census Abstract-only volume; no Village/Town Directory Statement IV.",
+    "flags": [
+      "manual_absent_or_ineligible"
+    ],
+    "verification": null
+  },
+  {
+    "state": "Orissa",
+    "source_state": "Orissa",
+    "district": "Phulabani",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Orissa/1981 Phulabani.pdf",
+    "source_filename": "1981 Phulabani.pdf",
+    "volume_type": "Part XIII-B primary census abstract",
+    "eligible": false,
+    "eligibility_reason": "PCA-only volume; the requested town statements and amenities appendix are absent.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 456,
+    "output": null,
+    "source_pages_selected": [],
+    "printed_page_labels": [],
+    "status": "Not trimmed",
+    "reason": "Part XIII-B Village and Townwise Primary Census Abstract-only volume; no Village/Town Directory Statement V.",
+    "flags": [
+      "manual_absent_or_ineligible"
+    ],
+    "verification": null
+  },
+  {
+    "state": "Orissa",
+    "source_state": "Orissa",
+    "district": "Phulabani",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Orissa/1981 Phulabani.pdf",
+    "source_filename": "1981 Phulabani.pdf",
+    "volume_type": "Part XIII-B primary census abstract",
+    "eligible": false,
+    "eligibility_reason": "PCA-only volume; the requested town statements and amenities appendix are absent.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 456,
+    "output": null,
+    "source_pages_selected": [],
+    "printed_page_labels": [],
+    "status": "Not trimmed",
+    "reason": "Part XIII-B Village and Townwise Primary Census Abstract-only volume; no Village Directory Appendix I amenities abstract.",
+    "flags": [
+      "manual_absent_or_ineligible"
+    ],
+    "verification": null
+  },
+  {
+    "state": "Orissa",
+    "source_state": "Orissa",
+    "district": "Puri",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Orissa/1981 Puri.pdf",
+    "source_filename": "1981 Puri.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 741,
+    "output": null,
+    "source_pages_selected": [],
+    "printed_page_labels": [],
+    "status": "Not trimmed",
+    "reason": "Part XIII-B Village and Townwise Primary Census Abstract-only volume; no Village/Town Directory Statement IV.",
+    "flags": [
+      "manual_absent_or_ineligible"
+    ],
+    "verification": null
+  },
+  {
+    "state": "Orissa",
+    "source_state": "Orissa",
+    "district": "Puri",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Orissa/1981 Puri.pdf",
+    "source_filename": "1981 Puri.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 741,
+    "output": null,
+    "source_pages_selected": [],
+    "printed_page_labels": [],
+    "status": "Not trimmed",
+    "reason": "Part XIII-B Village and Townwise Primary Census Abstract-only volume; no Village/Town Directory Statement V.",
+    "flags": [
+      "manual_absent_or_ineligible"
+    ],
+    "verification": null
+  },
+  {
+    "state": "Orissa",
+    "source_state": "Orissa",
+    "district": "Puri",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Orissa/1981 Puri.pdf",
+    "source_filename": "1981 Puri.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 741,
+    "output": null,
+    "source_pages_selected": [],
+    "printed_page_labels": [],
+    "status": "Not trimmed",
+    "reason": "Part XIII-B Village and Townwise Primary Census Abstract-only volume; no Village Directory Appendix I amenities abstract.",
+    "flags": [
+      "manual_absent_or_ineligible"
+    ],
+    "verification": null
+  },
+  {
+    "state": "Orissa",
+    "source_state": "Orissa",
+    "district": "Sambalpur",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Orissa/1981 Sambalpur.pdf",
+    "source_filename": "1981 Sambalpur.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 783,
+    "output": "output/pdf/1981_trimmed/Orissa/civic amenities/1981_Sambalpur_civic_amenities.pdf",
+    "source_pages_selected": [
+      721,
+      722
+    ],
+    "printed_page_labels": [
+      "600",
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement IV Civic and Other Amenities, printed pages 600-601; source page 723 begins Statement V.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 721,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              606.72,
+              858.24
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              606.72,
+              858.24
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 722,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              606.72,
+              858.24
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              606.72,
+              858.24
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 721,
+          "output_page": 1,
+          "source_png_sha256": "3405c7e7b14f258013345b5ca701c0442e1628f90ca4df61a0295f0934e64c77",
+          "output_png_sha256": "3405c7e7b14f258013345b5ca701c0442e1628f90ca4df61a0295f0934e64c77",
+          "match": true
+        },
+        {
+          "source_page": 722,
+          "output_page": 2,
+          "source_png_sha256": "60751ade368f39616ff9ad1ea46d690a79d0ef882011729db0a94b7a0a251bc4",
+          "output_png_sha256": "60751ade368f39616ff9ad1ea46d690a79d0ef882011729db0a94b7a0a251bc4",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Orissa",
+    "source_state": "Orissa",
+    "district": "Sambalpur",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Orissa/1981 Sambalpur.pdf",
+    "source_filename": "1981 Sambalpur.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 783,
+    "output": "output/pdf/1981_trimmed/Orissa/mededu/1981_Sambalpur_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      723,
+      724
+    ],
+    "printed_page_labels": [
+      "602",
+      "603"
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement V Medical, Educational, Recreational and Cultural Facilities, printed pages 602-603; source page 725 begins Statement VI.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 723,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              606.72,
+              858.24
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              606.72,
+              858.24
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 724,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              606.72,
+              858.24
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              606.72,
+              858.24
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 723,
+          "output_page": 1,
+          "source_png_sha256": "b36ee724f49d5f7d15780c7f56186d776162160a748bda0c2a614e1713942c5d",
+          "output_png_sha256": "b36ee724f49d5f7d15780c7f56186d776162160a748bda0c2a614e1713942c5d",
+          "match": true
+        },
+        {
+          "source_page": 724,
+          "output_page": 2,
+          "source_png_sha256": "5275170fd2bd4ad48f2c40cc4bce1bf82fee49736f2e2e6f07879c80dbadd675",
+          "output_png_sha256": "5275170fd2bd4ad48f2c40cc4bce1bf82fee49736f2e2e6f07879c80dbadd675",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Orissa",
+    "source_state": "Orissa",
+    "district": "Sambalpur",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Orissa/1981 Sambalpur.pdf",
+    "source_filename": "1981 Sambalpur.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 783,
+    "output": "output/pdf/1981_trimmed/Orissa/tehsil appendix/1981_Sambalpur_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      629,
+      630,
+      631,
+      632
+    ],
+    "printed_page_labels": [
+      "508",
+      "509",
+      "510",
+      "511"
+    ],
+    "status": "Trimmed",
+    "reason": "Village Directory Appendix I Tahasil-wise abstract of educational, medical and other amenities; source page 628 is the section separator and source page 633 begins Appendix II.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 4,
+      "pages": [
+        {
+          "source_page": 629,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              606.72,
+              858.24
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              606.72,
+              858.24
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 630,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              606.72,
+              858.24
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              606.72,
+              858.24
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 631,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              606.72,
+              858.24
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              606.72,
+              858.24
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 632,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              606.72,
+              858.24
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              606.72,
+              858.24
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 629,
+          "output_page": 1,
+          "source_png_sha256": "107d1353136f3d76ee8ab57ab73f26e7b10f8a8186b7ef19c510421c27b8f4d5",
+          "output_png_sha256": "107d1353136f3d76ee8ab57ab73f26e7b10f8a8186b7ef19c510421c27b8f4d5",
+          "match": true
+        },
+        {
+          "source_page": 630,
+          "output_page": 2,
+          "source_png_sha256": "28011198c65dba9f371f67528bdb6903424e76b59ed3ce8b1bf5f046febb3add",
+          "output_png_sha256": "28011198c65dba9f371f67528bdb6903424e76b59ed3ce8b1bf5f046febb3add",
+          "match": true
+        },
+        {
+          "source_page": 631,
+          "output_page": 3,
+          "source_png_sha256": "4d8317c8beee32aa085a5723a3dff915571cb46090c9c5d6784584adee532675",
+          "output_png_sha256": "4d8317c8beee32aa085a5723a3dff915571cb46090c9c5d6784584adee532675",
+          "match": true
+        },
+        {
+          "source_page": 632,
+          "output_page": 4,
+          "source_png_sha256": "0925e0519e4091caac4587a4ff650d8def33d4c36f396a3a7324c3e27e216e5a",
+          "output_png_sha256": "0925e0519e4091caac4587a4ff650d8def33d4c36f396a3a7324c3e27e216e5a",
+          "match": true
+        }
+      ],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 4,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Orissa",
+    "source_state": "Orissa",
+    "district": "Sundargarh",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Orissa/1981 Sundargarh.pdf",
+    "source_filename": "1981 Sundargarh.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 472,
+    "output": "output/pdf/1981_trimmed/Orissa/civic amenities/1981_Sundargarh_civic_amenities.pdf",
+    "source_pages_selected": [
+      434,
+      435
+    ],
+    "printed_page_labels": [
+      "362",
+      "1979"
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement IV Civic and Other Amenities, printed pages 362-363; source page 436 begins Statement V.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 434,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              596.64,
+              795.6
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              596.64,
+              795.6
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 435,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              596.64,
+              795.6
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              596.64,
+              795.6
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 434,
+          "output_page": 1,
+          "source_png_sha256": "df96d971758ec35224a8650dd1918b312df428e40599ba54964aeb3f4c439105",
+          "output_png_sha256": "df96d971758ec35224a8650dd1918b312df428e40599ba54964aeb3f4c439105",
+          "match": true
+        },
+        {
+          "source_page": 435,
+          "output_page": 2,
+          "source_png_sha256": "df277188a8d9886a91b47a74b701d4891c679f7dbe5f8adcd591663bfc658aa1",
+          "output_png_sha256": "df277188a8d9886a91b47a74b701d4891c679f7dbe5f8adcd591663bfc658aa1",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Orissa",
+    "source_state": "Orissa",
+    "district": "Sundargarh",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Orissa/1981 Sundargarh.pdf",
+    "source_filename": "1981 Sundargarh.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 472,
+    "output": "output/pdf/1981_trimmed/Orissa/mededu/1981_Sundargarh_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      436,
+      437
+    ],
+    "printed_page_labels": [
+      "364",
+      "365"
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement V Medical, Educational, Recreational and Cultural Facilities, printed pages 364-365; source page 438 begins Statement VI.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 436,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              596.64,
+              795.6
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              596.64,
+              795.6
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 437,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              596.64,
+              795.6
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              596.64,
+              795.6
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 436,
+          "output_page": 1,
+          "source_png_sha256": "2d7919aea88d505ee9b7aae98e93dd64b976050479e4205a002f5f52f0d548f4",
+          "output_png_sha256": "2d7919aea88d505ee9b7aae98e93dd64b976050479e4205a002f5f52f0d548f4",
+          "match": true
+        },
+        {
+          "source_page": 437,
+          "output_page": 2,
+          "source_png_sha256": "e9e61f47f5642bf9d028ca39db63dd641d535907dd6b22cfb75bf081862843a0",
+          "output_png_sha256": "e9e61f47f5642bf9d028ca39db63dd641d535907dd6b22cfb75bf081862843a0",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Orissa",
+    "source_state": "Orissa",
+    "district": "Sundargarh",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Orissa/1981 Sundargarh.pdf",
+    "source_filename": "1981 Sundargarh.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 472,
+    "output": "output/pdf/1981_trimmed/Orissa/tehsil appendix/1981_Sundargarh_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      380,
+      381,
+      382,
+      383
+    ],
+    "printed_page_labels": [
+      "308",
+      "309",
+      "310",
+      "311"
+    ],
+    "status": "Trimmed",
+    "reason": "Village Directory Appendix I Tahasil-wise abstract of educational, medical and other amenities; source page 379 is the section separator and source page 384 begins Appendix II.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 4,
+      "pages": [
+        {
+          "source_page": 380,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              596.64,
+              795.6
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              596.64,
+              795.6
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 381,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              596.64,
+              795.6
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              596.64,
+              795.6
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 382,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              596.64,
+              795.6
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              596.64,
+              795.6
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 383,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              596.64,
+              795.6
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              596.64,
+              795.6
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 380,
+          "output_page": 1,
+          "source_png_sha256": "529334d77e562b34eb8d6248ce076a49d4244c663a11b8f2ce2c1a82b91c7de3",
+          "output_png_sha256": "529334d77e562b34eb8d6248ce076a49d4244c663a11b8f2ce2c1a82b91c7de3",
+          "match": true
+        },
+        {
+          "source_page": 381,
+          "output_page": 2,
+          "source_png_sha256": "d01c488da80cd614496e9b8a59446448647f19d401e2565a9f284da98e524cdd",
+          "output_png_sha256": "d01c488da80cd614496e9b8a59446448647f19d401e2565a9f284da98e524cdd",
+          "match": true
+        },
+        {
+          "source_page": 382,
+          "output_page": 3,
+          "source_png_sha256": "dc23cc0888851221b75da2ce3c750ea2b987e75ee798fe65082278ddfdae4752",
+          "output_png_sha256": "dc23cc0888851221b75da2ce3c750ea2b987e75ee798fe65082278ddfdae4752",
+          "match": true
+        },
+        {
+          "source_page": 383,
+          "output_page": 4,
+          "source_png_sha256": "2425f55afecc5adbcf7a8b4aece1f5b0d180bba47a6b1b491301c0a6453a70c8",
+          "output_png_sha256": "2425f55afecc5adbcf7a8b4aece1f5b0d180bba47a6b1b491301c0a6453a70c8",
+          "match": true
+        }
+      ],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 4,
+      "audit_flags": []
+    }
+  }
+]

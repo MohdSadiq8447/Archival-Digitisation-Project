@@ -1,0 +1,182 @@
+format_id: format_003
+name: Tehsil Appendix
+category: Tehsil Appendix
+pdfs:
+- filenames:
+  - Manipur South_tehsil_1971.pdf
+  pagination:
+    page_1_columns:
+    - 1
+    - 16
+    page_2_columns:
+    - 17
+    - 34
+- filenames:
+  - Manipur West_tehsil_1971.pdf
+  pagination:
+    page_1_columns:
+    - 1
+    - 18
+    page_2_columns:
+    - 19
+    - 39
+- filenames:
+  - Manipur North_tehsil_1971.pdf
+  pagination:
+    page_1_columns:
+    - 1
+    - 22
+    page_2_columns:
+    - 23
+    - 44
+- filenames:
+  - Manipur Central_tehsil_1971.pdf
+  pagination:
+    page_1_columns:
+    - 1
+    - 23
+    page_2_columns:
+    - 24
+    - 47
+columns:
+- number: 1
+  name: Sl. No.
+  variable_name: sl_no
+- number: 2
+  name: No. of villages having Primary Schools
+  variable_name: primary_schools_villages
+- number: 3
+  name: No. of Primary Schools
+  variable_name: primary_schools
+- number: 4
+  name: No. of villages having Middle Schools
+  variable_name: middle_schools_villages
+- number: 5
+  name: No. of Middle Schools
+  variable_name: middle_schools
+- number: 6
+  name: No. of villages having Junior High Schools
+  variable_name: junior_high_schools_villages
+- number: 7
+  name: No. of Junior High Schools
+  variable_name: junior_high_schools
+- number: 8
+  name: No. of villages having Junior Basic Schools
+  variable_name: junior_basic_schools_villages
+- number: 9
+  name: No. of Junior Basic Schools
+  variable_name: junior_basic_schools
+- number: 10
+  name: No. of villages having High Schools
+  variable_name: high_schools_villages
+- number: 11
+  name: No. of High Schools
+  variable_name: high_schools
+- number: 12
+  name: No. of villages having Higher Secondary Schools
+  variable_name: higher_secondary_schools_villages
+- number: 13
+  name: No. of Higher Secondary Schools
+  variable_name: higher_secondary_schools
+- number: 14
+  name: No. of villages having Up-Graded Jr. Basic Schools
+  variable_name: upgraded_junior_basic_schools_villages
+- number: 15
+  name: No. of Up-Graded Jr. Basic Schools
+  variable_name: upgraded_junior_basic_schools
+- number: 16
+  name: No. of villages having K.G. Schools
+  variable_name: kindergarten_schools_villages
+- number: 17
+  name: No. of K.G. Schools
+  variable_name: kindergarten_schools
+- number: 18
+  name: No. of villages having Colleges
+  variable_name: colleges_villages
+- number: 19
+  name: No. of Colleges
+  variable_name: colleges
+- number: 20
+  name: No. of villages having Dispensaries
+  variable_name: dispensaries_villages
+- number: 21
+  name: No. of Dispensaries
+  variable_name: dispensaries
+- number: 22
+  name: No. of villages having Hospitals
+  variable_name: hospitals_villages
+- number: 23
+  name: No. of Hospitals
+  variable_name: hospitals
+- number: 24
+  name: No. of villages having Family Planning Centres
+  variable_name: family_planning_centres_villages
+- number: 25
+  name: No. of Family Planning Centres
+  variable_name: family_planning_centres
+- number: 26
+  name: No. of villages having Maternity Child Welfare Centres
+  variable_name: maternity_child_welfare_centres_villages
+- number: 27
+  name: No. of Maternity Child Welfare Centres
+  variable_name: maternity_child_welfare_centres
+- number: 28
+  name: No. of villages having T.B. Hospitals
+  variable_name: tuberculosis_hospitals_villages
+- number: 29
+  name: No. of T.B. Hospitals
+  variable_name: tuberculosis_hospitals
+- number: 30
+  name: No. of villages having Health Centres
+  variable_name: health_centres_villages
+- number: 31
+  name: No. of Health Centres
+  variable_name: health_centres
+- number: 32
+  name: Power supply - Available villages
+  variable_name: power_available_villages
+- number: 33
+  name: Power supply - Not Available villages
+  variable_name: power_not_available_villages
+- number: 34
+  name: Number of villages having Tap drinking water
+  variable_name: tap_water_villages
+- number: 35
+  name: Number of villages having Well drinking water
+  variable_name: well_water_villages
+- number: 36
+  name: Number of villages having River drinking water
+  variable_name: river_water_villages
+- number: 37
+  name: Number of villages having Reservoir drinking water
+  variable_name: reservoir_water_villages
+- number: 38
+  name: Number of villages having Tank drinking water
+  variable_name: tank_water_villages
+- number: 39
+  name: Number of villages having Fountain drinking water
+  variable_name: fountain_water_villages
+- number: 40
+  name: Number of villages having Pucca Road
+  variable_name: pucca_road_villages
+- number: 41
+  name: Number of villages having Kutcha Road
+  variable_name: kutcha_road_villages
+- number: 42
+  name: No. of villages having Post Offices
+  variable_name: post_offices_villages
+- number: 43
+  name: No. of Post Offices
+  variable_name: post_offices
+- number: 44
+  name: No. of villages having Branch Post Offices
+  variable_name: branch_post_offices_villages
+- number: 45
+  name: No. of Branch Post Offices
+  variable_name: branch_post_offices
+- number: 46
+  name: No. of villages having Telegraph Offices
+  variable_name: telegraph_offices_villages
+- number: 47
+  name: No. of Telegraph Offices
+  variable_name: telegraph_offices

@@ -1,0 +1,126 @@
+format_id: format_002
+name: Medical and Educational Amenities
+category: Medical and Educational Amenities
+pdfs:
+- filenames:
+  - 1981_Belgaum_medical_educational_amenities.pdf
+  - 1981_Bellary_medical_educational_amenities.pdf
+  - 1981_Bijapur_medical_educational_amenities.pdf
+  - 1981_Chikmagalur_medical_educational_amenities.pdf
+  - 1981_Dharwad_medical_educational_amenities.pdf
+  - 1981_Hassan_medical_educational_amenities.pdf
+  - 1981_Kolar_medical_educational_amenities.pdf
+  - 1981_Shimoga_medical_educational_amenities.pdf
+  pagination:
+    page_1_columns:
+    - - 1
+      - 7
+    page_2_columns:
+    - - 8
+      - 11
+    page_3_columns:
+    - - 1
+      - 7
+    page_4_columns:
+    - - 8
+      - 11
+- filenames:
+  - 1981_Chitradurga_medical_educational_amenities.pdf
+  - 1981_Gulbarga_medical_educational_amenities.pdf
+  - 1981_Kodagu_medical_educational_amenities.pdf
+  - 1981_Mandya_medical_educational_amenities.pdf
+  - 1981_Raichur_medical_educational_amenities.pdf
+  - 1981_Uttar Kannad_medical_educational_amenities.pdf
+  pagination:
+    page_1_columns:
+    - - 1
+      - 7
+    page_2_columns:
+    - - 8
+      - 11
+- filename: 1981_Bangalore_medical_educational_amenities.pdf
+  pagination:
+    page_1_columns:
+    - - 1
+      - 7
+    page_2_columns:
+    - - 8
+      - 11
+    page_3_columns:
+    - - 1
+      - 7
+    page_4_columns:
+    - - 8
+      - 11
+    page_5_columns:
+    - - 1
+      - 7
+    page_6_columns:
+    - - 8
+      - 11
+    page_7_columns:
+    - - 1
+      - 7
+    page_8_columns:
+    - - 8
+      - 11
+    page_9_columns:
+    - - 1
+      - 7
+    page_10_columns:
+    - - 8
+      - 11
+- filename: 1981_Dakshin Kannad_medical_educational_amenities.pdf
+  pagination:
+    page_1_columns:
+    - - 1
+      - 7
+    page_2_columns:
+    - - 8
+      - 11
+    page_3_columns:
+    - - 1
+      - 7
+    page_4_columns:
+    - - 8
+      - 11
+    page_5_columns:
+    - - 1
+      - 7
+    page_6_columns:
+    - - 8
+      - 11
+columns:
+- number: 1
+  name: Sl. No.
+  variable_name: sl_no
+- number: 2
+  name: Class and Name of town
+  variable_name: town_class_name
+- number: 3
+  name: Population
+  variable_name: population
+- number: 4
+  name: Hospitals/ Dispensaries/T.B. clinics etc.
+  variable_name: hospitals_dispensaries_clinics
+- number: 5
+  name: Beds in Medical Institutions noted in Col. 4
+  variable_name: beds_in_medical_institutions
+- number: 6
+  name: Arts/Science/ Commerce Colleges (of degree level and above)
+  variable_name: arts_science_commerce_colleges
+- number: 7
+  name: Medical Colleges
+  variable_name: medical_colleges
+- number: 8
+  name: Engineering Colleges
+  variable_name: engineering_colleges
+- number: 9
+  name: Polytechnics
+  variable_name: polytechnics
+- number: 10
+  name: Recognised Shorthand, Typewriting and Vocational training Institutes
+  variable_name: shorthand_typewriting_vocational_institutes
+- number: 11
+  name: Higher secondary/ Inter/ Junior College
+  variable_name: higher_secondary_inter_junior_college

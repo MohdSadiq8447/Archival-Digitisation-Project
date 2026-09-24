@@ -114,6 +114,7 @@ class PipelineRunner:
             "created_at": datetime.now(UTC).isoformat(),
             "novita_model": self.config.novita_model,
             "prompt_version": self.config.prompt_version,
+            "transcription_temperature": self.config.transcription_temperature,
             "quality_threshold": self.config.quality_threshold,
             "results": {},
         }
@@ -370,7 +371,10 @@ class PipelineRunner:
         by_id = {panel.definition.panel_id: panel for panel in panels}
         anchor_geometry = by_id[schema.row_anchor_panel.panel_id]
         anchor_page = pages[anchor_geometry.page_number - 1]
-        anchor_rows = self.row_segmenter.segment_rows(anchor_page, self._boundary(anchor_geometry))
+        projected_anchor_rows = self.row_segmenter.segment_rows(
+            anchor_page, self._boundary(anchor_geometry)
+        )
+        anchor_rows = projected_anchor_rows
         if len(schema.row_anchor_panel.identity_columns) >= 2:
             serial_number, name_number = schema.row_anchor_panel.identity_columns[:2]
             serial_span = next(
@@ -387,9 +391,59 @@ class PipelineRunner:
                     self._boundary(anchor_geometry),
                     (serial_span.x_start, serial_span.x_end),
                     (name_span.x_start, name_span.x_end),
+                    allow_damaged_serial=schema.hierarchy is not None,
                 )
-                if identity_rows:
-                    anchor_rows = identity_rows
+                raster_identity_rows = (
+                    self.row_segmenter.segment_parent_rows_from_identity_raster(
+                        anchor_page,
+                        self._boundary(anchor_geometry),
+                        (serial_span.x_start, serial_span.x_end),
+                    )
+                )
+                flat_serial_target = self._maximum_embedded_serial(
+                    anchor_page,
+                    anchor_geometry.body_bbox,
+                    (serial_span.x_start, serial_span.x_end),
+                )
+                # The serial-column raster is valuable when a damaged hidden-text
+                # layer omits identities, but isolated child marks can look like
+                # additional serials. The full-row projection provides an upper
+                # bound in that case (Bijnor); accept raster recovery only when it
+                # does not exceed the independently detected parent-band count.
+                if (
+                    len(raster_identity_rows) > len(identity_rows)
+                    and (
+                        (
+                            schema.hierarchy is not None
+                            and len(raster_identity_rows) <= len(projected_anchor_rows)
+                        )
+                        or (
+                            schema.hierarchy is None
+                            and (
+                                (
+                                    flat_serial_target == len(raster_identity_rows)
+                                    and len(raster_identity_rows)
+                                    >= len(identity_rows) + 2
+                                )
+                                or (
+                                    len(raster_identity_rows)
+                                    == len(projected_anchor_rows)
+                                    == len(identity_rows) + 1
+                                )
+                            )
+                        )
+                        or not identity_rows
+                    )
+                ):
+                    anchor_rows = raster_identity_rows
+                elif identity_rows:
+                    anchor_rows = (
+                        self._supplement_terminal_identity_row(
+                            identity_rows, projected_anchor_rows
+                        )
+                        if schema.hierarchy is not None
+                        else identity_rows
+                    )
         if not anchor_rows and schema.row_anchor_panel.identity_columns:
             identity_numbers = set(schema.row_anchor_panel.identity_columns)
             identity_spans = [
@@ -456,6 +510,57 @@ class PipelineRunner:
         return result
 
     @staticmethod
+    def _supplement_terminal_identity_row(
+        identity_rows: list[RowCrop], projected_rows: list[RowCrop]
+    ) -> list[RowCrop]:
+        """Use raster evidence for one terminal parent omitted by a partial text layer."""
+        if len(projected_rows) != len(identity_rows) + 1 or len(identity_rows) < 2:
+            return identity_rows
+        projected_centers = [
+            (row.bbox[1] + row.bbox[3]) / 2 for row in projected_rows
+        ]
+        covered = [
+            [
+                index
+                for index, center in enumerate(projected_centers)
+                if row.bbox[1] <= center <= row.bbox[3]
+            ]
+            for row in identity_rows
+        ]
+        if any(len(indexes) != 1 for indexes in covered):
+            return identity_rows
+        used = {indexes[0] for indexes in covered}
+        extra = set(range(len(projected_rows))).difference(used)
+        if len(extra) != 1 or next(iter(extra)) not in {0, len(projected_rows) - 1}:
+            return identity_rows
+        for row in projected_rows:
+            row.source = "raster_identity_supplement"
+        return projected_rows
+
+    @staticmethod
+    def _maximum_embedded_serial(
+        page: RenderedPage,
+        body_bbox: tuple[int, int, int, int],
+        serial_x_range: tuple[int, int],
+    ) -> int | None:
+        """Return the largest grounded printed serial in a strict identity column."""
+        _, body_y0, _, body_y1 = body_bbox
+        values: list[int] = []
+        for word in page.pdf_words:
+            x0, y0, x1, y1 = word["bbox"]
+            center_x = (x0 + x1) / 2
+            center_y = (y0 + y1) / 2
+            if not (
+                serial_x_range[0] <= center_x <= serial_x_range[1]
+                and body_y0 <= center_y <= body_y1
+            ):
+                continue
+            matched = re.fullmatch(r"\s*(\d{1,2})[.)]?\s*", str(word["text"]))
+            if matched:
+                values.append(int(matched.group(1)))
+        return max(values, default=None)
+
+    @staticmethod
     def _exclude_note_rows(
         page: RenderedPage,
         anchor_geometry: PanelGeometry,
@@ -484,7 +589,13 @@ class PipelineRunner:
                 str(word["text"])
                 for word in sorted(words, key=lambda item: (item["bbox"][1], item["bbox"][0]))
             ).strip()
-            if re.search(r"(?:^|\s)notes?\b|\bdenotes?\b", text, re.IGNORECASE):
+            if re.search(
+                r"(?:^|\s)(?:notes?|[i1l]otes?)\b|\bdenotes?\b|"
+                r"\b(?:dc\s*lotr|denotr|clud\w*)\b.*\bmedical\b|"
+                r"\bmaternity\b.*\bchild\b",
+                text,
+                re.IGNORECASE,
+            ):
                 continue
             retained.append(row)
         return retained
@@ -1711,6 +1822,13 @@ class PipelineRunner:
                 "row_bboxes": [row.bbox for row in panel_rows[panel.definition.panel_id]],
                 "column_centers": {
                     span.column_no: (span.x_start + span.x_end) / 2
+                    for span in panel.columns
+                },
+                "column_spans": {
+                    span.column_no: {
+                        "x_start": span.x_start,
+                        "x_end": span.x_end,
+                    }
                     for span in panel.columns
                 },
             }

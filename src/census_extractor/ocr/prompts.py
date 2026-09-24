@@ -114,3 +114,36 @@ def build_cell_free_ocr_prompt(
             _TRANSCRIPTION_RULES + " Return only the visible cell text.",
         ]
     )
+
+
+def build_autocorrect_field_prompt(column: ColumnDefinition) -> str:
+    """Build the first strict-cell retry prompt without suggesting any value."""
+    return "\n\n".join(
+        [
+            FREE_OCR_PROMPT,
+            _ARCHIVAL_CONTEXT,
+            (
+                "This image is a tightly clipped single table cell. Its printed field is "
+                f"{column.column_name}. Read only marks inside the crop boundaries."
+            ),
+            (
+                "Return only the literal visible transcription. Preserve spelling, case, "
+                "punctuation, spaces, codes, blanks, ellipses, and dashes. Do not explain, "
+                "infer, normalize, calculate, or repeat these instructions."
+            ),
+        ]
+    )
+
+
+def build_autocorrect_minimal_prompt() -> str:
+    """Build the independent minimal retry prompt with no field or value hints."""
+    return "\n\n".join(
+        [
+            FREE_OCR_PROMPT,
+            "Transcribe only the literal text visible inside this single cropped cell.",
+            (
+                "Return only that text. Preserve a blank, ellipsis, or dash exactly as printed. "
+                "Do not explain, infer, normalize, or add labels."
+            ),
+        ]
+    )

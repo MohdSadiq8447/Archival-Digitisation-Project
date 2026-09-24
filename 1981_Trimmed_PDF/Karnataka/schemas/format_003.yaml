@@ -1,0 +1,255 @@
+format_id: format_003
+name: Tehsil Appendix
+category: Tehsil Appendix
+pdfs:
+- filenames:
+  - 1981_Bangalore_tehsil_appendix.pdf
+  - 1981_Belgaum_tehsil_appendix.pdf
+  - 1981_Bellary_tehsil_appendix.pdf
+  - 1981_Bijapur_tehsil_appendix.pdf
+  - 1981_Chitradurga_tehsil_appendix.pdf
+  - 1981_Dakshin Kannad_tehsil_appendix.pdf
+  - 1981_Dharwad_tehsil_appendix.pdf
+  - 1981_Gulbarga_tehsil_appendix.pdf
+  - 1981_Raichur_tehsil_appendix.pdf
+  - 1981_Shimoga_tehsil_appendix.pdf
+  - 1981_Uttar Kannad_tehsil_appendix.pdf
+  pagination:
+    page_1_columns:
+    - - 1
+      - 10
+    - - 18
+      - 25
+    page_2_columns:
+    - - 11
+      - 17
+    - - 26
+      - 34
+    page_3_columns:
+    - - 35
+      - 44
+    page_4_columns:
+    - - 45
+      - 56
+- filenames:
+  - 1981_Kolar_tehsil_appendix.pdf
+  - 1981_Mandya_tehsil_appendix.pdf
+  pagination:
+    page_1_columns:
+    - - 1
+      - 17
+    - - 18
+      - 34
+    page_2_columns:
+    - - 35
+      - 56
+- filename: 1981_Chikmagalur_tehsil_appendix.pdf
+  pagination:
+    page_1_columns:
+    - - 1
+      - 12
+    - - 13
+      - 21
+    - - 22
+      - 31
+    page_2_columns:
+    - - 32
+      - 44
+    - - 45
+      - 56
+- filename: 1981_Hassan_tehsil_appendix.pdf
+  pagination:
+    page_1_columns:
+    - - 1
+      - 10
+    - - 18
+      - 25
+    - - 35
+      - 44
+    page_2_columns:
+    - - 11
+      - 17
+    - - 26
+      - 34
+    - - 45
+      - 56
+- filename: 1981_Kodagu_tehsil_appendix.pdf
+  pagination:
+    page_1_columns:
+    - - 1
+      - 17
+    - - 18
+      - 34
+    - - 35
+      - 56
+columns:
+- number: 1
+  name: Sl. No.
+  variable_name: sl_no
+- number: 2
+  name: Name of Taluk
+  variable_name: tehsil_name
+- number: 3
+  name: EDUCATIONAL - Primary School - Villages
+  variable_name: educational_primary_school_villages
+- number: 4
+  name: EDUCATIONAL - Primary School - Institutions
+  variable_name: educational_primary_school_institutions
+- number: 5
+  name: EDUCATIONAL - Middle School - Villages
+  variable_name: educational_middle_school_villages
+- number: 6
+  name: EDUCATIONAL - Middle School - Institutions
+  variable_name: educational_middle_school_institutions
+- number: 7
+  name: EDUCATIONAL - Matriculation/Secondary School - Villages
+  variable_name: educational_matriculation_secondary_villages
+- number: 8
+  name: EDUCATIONAL - Matriculation/Secondary School - Institutions
+  variable_name: educational_matriculation_secondary_institutions
+- number: 9
+  name: EDUCATIONAL - Higher Secondary/PUC/Intermediate/Junior College - Villages
+  variable_name: educational_higher_secondary_puc_villages
+- number: 10
+  name: EDUCATIONAL - Higher Secondary/PUC/Intermediate/Junior College - Institutions
+  variable_name: educational_higher_secondary_puc_institutions
+- number: 11
+  name: EDUCATIONAL - College (Graduate and above) - Villages
+  variable_name: educational_college_villages
+- number: 12
+  name: EDUCATIONAL - College (Graduate and above) - Institutions
+  variable_name: educational_college_institutions
+- number: 13
+  name: EDUCATIONAL - Adult literacy Class/Centres - Villages
+  variable_name: educational_adult_literacy_villages
+- number: 14
+  name: EDUCATIONAL - Adult literacy Class/Centres - Institutions
+  variable_name: educational_adult_literacy_institutions
+- number: 15
+  name: EDUCATIONAL - Others - Villages
+  variable_name: educational_others_villages
+- number: 16
+  name: EDUCATIONAL - Others - Institutions
+  variable_name: educational_others_institutions
+- number: 17
+  name: Villages with no Educational facilities
+  variable_name: villages_no_educational_facility
+- number: 18
+  name: MEDICAL - Dispensary - Villages
+  variable_name: medical_dispensary_villages
+- number: 19
+  name: MEDICAL - Dispensary - Institutions
+  variable_name: medical_dispensary_institutions
+- number: 20
+  name: MEDICAL - Hospital - Villages
+  variable_name: medical_hospital_villages
+- number: 21
+  name: MEDICAL - Hospital - Institutions
+  variable_name: medical_hospital_institutions
+- number: 22
+  name: MEDICAL - Maternity and Child Welfare Centre/Maternity Home/Child Welfare
+    Centre - Villages
+  variable_name: medical_maternity_child_welfare_villages
+- number: 23
+  name: MEDICAL - Maternity and Child Welfare Centre/Maternity Home/Child Welfare
+    Centre - Institutions
+  variable_name: medical_maternity_child_welfare_institutions
+- number: 24
+  name: MEDICAL - Primary Health Centre/Health Centre - Villages
+  variable_name: medical_primary_health_centre_villages
+- number: 25
+  name: MEDICAL - Primary Health Centre/Health Centre - Institutions
+  variable_name: medical_primary_health_centre_institutions
+- number: 26
+  name: MEDICAL - Family Planning Centre - Villages
+  variable_name: medical_family_planning_villages
+- number: 27
+  name: MEDICAL - Family Planning Centre - Institutions
+  variable_name: medical_family_planning_institutions
+- number: 28
+  name: MEDICAL - Primary Health Sub Centre/PHU - Villages
+  variable_name: medical_primary_health_sub_centre_villages
+- number: 29
+  name: MEDICAL - Primary Health Sub Centre/PHU - Institutions
+  variable_name: medical_primary_health_sub_centre_institutions
+- number: 30
+  name: MEDICAL - Community Health worker - Villages
+  variable_name: medical_community_health_worker_villages
+- number: 31
+  name: MEDICAL - Community Health worker - Institutions
+  variable_name: medical_community_health_worker_institutions
+- number: 32
+  name: MEDICAL - Others - Villages
+  variable_name: medical_others_villages
+- number: 33
+  name: MEDICAL - Others - Institutions
+  variable_name: medical_others_institutions
+- number: 34
+  name: Villages with no Medical Facility
+  variable_name: villages_no_medical_facility
+- number: 35
+  name: DRINKING WATER - Tap
+  variable_name: drinking_water_tap
+- number: 36
+  name: DRINKING WATER - Well
+  variable_name: drinking_water_well
+- number: 37
+  name: DRINKING WATER - Tank
+  variable_name: drinking_water_tank
+- number: 38
+  name: DRINKING WATER - Tube-well
+  variable_name: drinking_water_tube_well
+- number: 39
+  name: DRINKING WATER - River
+  variable_name: drinking_water_river
+- number: 40
+  name: DRINKING WATER - Fountain
+  variable_name: drinking_water_fountain
+- number: 41
+  name: DRINKING WATER - Canal
+  variable_name: drinking_water_canal
+- number: 42
+  name: DRINKING WATER - Others
+  variable_name: drinking_water_others
+- number: 43
+  name: More than one source of any Type
+  variable_name: more_than_one_source_any_type
+- number: 44
+  name: Villages with no drinking water facility
+  variable_name: villages_no_drinking_water
+- number: 45
+  name: POST AND TELEGRAPH - Post Office
+  variable_name: post_office
+- number: 46
+  name: POST AND TELEGRAPH - Telegraph Office
+  variable_name: telegraph_office
+- number: 47
+  name: POST AND TELEGRAPH - Post and Telegraph Office
+  variable_name: post_and_telegraph_office
+- number: 48
+  name: POST AND TELEGRAPH - Phone/Telephone Connection
+  variable_name: telephone_connection
+- number: 49
+  name: Villages with no Post, Telegraph or Telephone facility
+  variable_name: villages_no_post_telegraph_telephone
+- number: 50
+  name: COMMUNICATIONS - Bus Stop
+  variable_name: communications_bus_stop
+- number: 51
+  name: COMMUNICATIONS - Railway Station
+  variable_name: communications_railway_station
+- number: 52
+  name: COMMUNICATIONS - Navigable Water Way
+  variable_name: communications_navigable_water_way
+- number: 53
+  name: Villages with no communication facility
+  variable_name: villages_no_communication
+- number: 54
+  name: APPROACH - Pucca Road
+  variable_name: approach_pucca_road
+- number: 55
+  name: APPROACH - Kacha Road
+  variable_name: approach_kacha_road
+- number: 56
+  name: Villages with no approach road
+  variable_name: villages_no_approach_road

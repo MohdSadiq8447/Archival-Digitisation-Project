@@ -1,0 +1,362 @@
+format_id: format_003
+name: Tehsil Appendix
+category: Tehsil Appendix
+pdfs:
+- filenames:
+  - Chengalpattu_tehsil_1971.pdf
+  pagination:
+    page_1_columns:
+    - 1
+    - 4
+    page_2_columns:
+    - 1
+    - 4
+    page_3_columns:
+    - 1
+    - 4
+    page_4_columns:
+    - 1
+    - 4
+    page_5_columns:
+    - 1
+    - 4
+    page_6_columns:
+    - 1
+    - 4
+    page_7_columns:
+    - 1
+    - 4
+    page_8_columns:
+    - 1
+    - 4
+    page_9_columns:
+    - 1
+    - 4
+    page_10_columns:
+    - 1
+    - 4
+    page_11_columns:
+    - 1
+    - 4
+    page_12_columns:
+    - 1
+    - 4
+- filenames:
+  - Coimbatore_tehsil_1971.pdf
+  pagination:
+    page_1_columns:
+    - 1
+    - 4
+    page_2_columns:
+    - 1
+    - 4
+    page_3_columns:
+    - 1
+    - 4
+    page_4_columns:
+    - 1
+    - 4
+    page_5_columns:
+    - 1
+    - 4
+    page_6_columns:
+    - 1
+    - 4
+    page_7_columns:
+    - 1
+    - 4
+    page_8_columns:
+    - 1
+    - 4
+    page_9_columns:
+    - 1
+    - 4
+- filenames:
+  - Dharmapuri_tehsil_1971.pdf
+  pagination:
+    page_1_columns:
+    - 1
+    - 4
+    page_2_columns:
+    - 1
+    - 4
+    page_3_columns:
+    - 1
+    - 4
+    page_4_columns:
+    - 1
+    - 4
+    page_5_columns:
+    - 1
+    - 4
+    page_6_columns:
+    - 1
+    - 4
+    page_7_columns:
+    - 1
+    - 4
+- filenames:
+  - North Arcot_tehsil_1971.pdf
+  pagination:
+    page_1_columns:
+    - 1
+    - 4
+    page_2_columns:
+    - 1
+    - 4
+    page_3_columns:
+    - 1
+    - 4
+    page_4_columns:
+    - 1
+    - 4
+    page_5_columns:
+    - 1
+    - 4
+    page_6_columns:
+    - 1
+    - 4
+    page_7_columns:
+    - 1
+    - 4
+    page_8_columns:
+    - 1
+    - 4
+    page_9_columns:
+    - 1
+    - 4
+    page_10_columns:
+    - 1
+    - 4
+    page_11_columns:
+    - 1
+    - 4
+    page_12_columns:
+    - 1
+    - 4
+    page_13_columns:
+    - 1
+    - 4
+- filenames:
+  - Ramanathapuram_tehsil_1971.pdf
+  pagination:
+    page_1_columns:
+    - 1
+    - 4
+    page_2_columns:
+    - 1
+    - 4
+    page_3_columns:
+    - 1
+    - 4
+    page_4_columns:
+    - 1
+    - 4
+    page_5_columns:
+    - 1
+    - 4
+    page_6_columns:
+    - 1
+    - 4
+    page_7_columns:
+    - 1
+    - 4
+    page_8_columns:
+    - 1
+    - 4
+    page_9_columns:
+    - 1
+    - 4
+    page_10_columns:
+    - 1
+    - 4
+    page_11_columns:
+    - 1
+    - 4
+    page_12_columns:
+    - 1
+    - 4
+    page_13_columns:
+    - 1
+    - 4
+    page_14_columns:
+    - 1
+    - 4
+    page_15_columns:
+    - 1
+    - 4
+    page_16_columns:
+    - 1
+    - 4
+    page_17_columns:
+    - 1
+    - 4
+- filenames:
+  - Salem_tehsil_1971.pdf
+  pagination:
+    page_1_columns:
+    - 1
+    - 4
+    page_2_columns:
+    - 1
+    - 4
+    page_3_columns:
+    - 1
+    - 4
+    page_4_columns:
+    - 1
+    - 4
+    page_5_columns:
+    - 1
+    - 4
+    page_6_columns:
+    - 1
+    - 4
+    page_7_columns:
+    - 1
+    - 4
+    page_8_columns:
+    - 1
+    - 4
+    page_9_columns:
+    - 1
+    - 4
+- filenames:
+  - Thanjavur_tehsil_1971.pdf
+  pagination:
+    page_1_columns:
+    - 1
+    - 4
+    page_2_columns:
+    - 1
+    - 4
+    page_3_columns:
+    - 1
+    - 4
+    page_4_columns:
+    - 1
+    - 4
+    page_5_columns:
+    - 1
+    - 4
+    page_6_columns:
+    - 1
+    - 4
+    page_7_columns:
+    - 1
+    - 4
+    page_8_columns:
+    - 1
+    - 4
+    page_9_columns:
+    - 1
+    - 4
+    page_10_columns:
+    - 1
+    - 4
+    page_11_columns:
+    - 1
+    - 4
+    page_12_columns:
+    - 1
+    - 4
+    page_13_columns:
+    - 1
+    - 4
+- filenames:
+  - Tiruchchirappalli_tehsil_1971.pdf
+  pagination:
+    page_1_columns:
+    - 1
+    - 4
+    page_2_columns:
+    - 1
+    - 4
+    page_3_columns:
+    - 1
+    - 4
+    page_4_columns:
+    - 1
+    - 4
+    page_5_columns:
+    - 1
+    - 4
+    page_6_columns:
+    - 1
+    - 4
+    page_7_columns:
+    - 1
+    - 4
+    page_8_columns:
+    - 1
+    - 4
+    page_9_columns:
+    - 1
+    - 4
+    page_10_columns:
+    - 1
+    - 4
+    page_11_columns:
+    - 1
+    - 4
+    page_12_columns:
+    - 1
+    - 4
+    page_13_columns:
+    - 1
+    - 4
+- filenames:
+  - Tirunelveli_tehsil_1971.pdf
+  pagination:
+    page_1_columns:
+    - 1
+    - 4
+    page_2_columns:
+    - 1
+    - 4
+    page_3_columns:
+    - 1
+    - 4
+    page_4_columns:
+    - 1
+    - 4
+    page_5_columns:
+    - 1
+    - 4
+    page_6_columns:
+    - 1
+    - 4
+    page_7_columns:
+    - 1
+    - 4
+    page_8_columns:
+    - 1
+    - 4
+    page_9_columns:
+    - 1
+    - 4
+    page_10_columns:
+    - 1
+    - 4
+    page_11_columns:
+    - 1
+    - 4
+    page_12_columns:
+    - 1
+    - 4
+    page_13_columns:
+    - 1
+    - 4
+columns:
+- number: 1
+  name: Nature of facilities available
+  variable_name: facility_name
+- number: 2
+  name: No. of institutions
+  variable_name: institution_count
+- number: 3
+  name: No. of villages where such facilities are available
+  variable_name: villages_with_facility
+- number: 4
+  name: Remarks
+  variable_name: remarks

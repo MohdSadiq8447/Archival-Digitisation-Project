@@ -1,0 +1,204 @@
+format_id: format_003
+name: Tehsil Appendix
+category: Tehsil Appendix
+pdfs:
+- filenames:
+  - Bijapur_tehsil_1971.pdf
+  pagination:
+    page_1_columns:
+    - 1
+    - 12
+    page_2_columns:
+    - 13
+    - 30
+- filenames:
+  - Chikmagalur_tehsil_1971.pdf
+  pagination:
+    page_1_columns:
+    - 1
+    - 13
+    page_2_columns:
+    - 14
+    - 30
+- filenames:
+  - Chitradurga_tehsil_1971.pdf
+  pagination:
+    page_1_columns:
+    - 1
+    - 12
+    page_2_columns:
+    - 13
+    - 31
+- filenames:
+  - Coorg_tehsil_1971.pdf
+  pagination:
+    page_1_columns:
+    - 1
+    - 13
+    page_2_columns:
+    - 14
+    - 31
+- filenames:
+  - Bangalore_tehsil_1971.pdf
+  - Belgaum_tehsil_1971.pdf
+  - Hassan_tehsil_1971.pdf
+  - Mandya_tehsil_1971.pdf
+  - Shimoga_tehsil_1971.pdf
+  pagination:
+    page_1_columns:
+    - 1
+    - 14
+    page_2_columns:
+    - 15
+    - 31
+- filenames:
+  - Mysore_tehsil_1971.pdf
+  pagination:
+    page_1_columns:
+    - 1
+    - 15
+    page_2_columns:
+    - 16
+    - 31
+    page_3_columns:
+    - 1
+    - 15
+    page_4_columns:
+    - 16
+    - 31
+- filenames:
+  - Bellary_tehsil_1971.pdf
+  pagination:
+    page_1_columns:
+    - 1
+    - 12
+    page_2_columns:
+    - 13
+    - 32
+- filenames:
+  - Gulbarga_tehsil_1971.pdf
+  - Kolar_tehsil_1971.pdf
+  - Raichur_tehsil_1971.pdf
+  pagination:
+    page_1_columns:
+    - 1
+    - 13
+    page_2_columns:
+    - 14
+    - 32
+- filenames:
+  - Tumkur_tehsil_1971.pdf
+  pagination:
+    page_1_columns:
+    - 1
+    - 14
+    page_2_columns:
+    - 15
+    - 32
+- filenames:
+  - North Kanara_tehsil_1971.pdf
+  - South Kanara_tehsil_1971.pdf
+  pagination:
+    page_1_columns:
+    - 1
+    - 15
+    page_2_columns:
+    - 16
+    - 32
+columns:
+- number: 1
+  name: Sl. No.
+  variable_name: sl_no
+- number: 2
+  name: Name of Taluk
+  variable_name: tahsil_name
+- number: 3
+  name: No. of Villages having Primary Schools
+  variable_name: primary_school_villages
+- number: 4
+  name: No. of Primary School Institutions
+  variable_name: primary_schools
+- number: 5
+  name: No. of Villages having Middle Schools
+  variable_name: middle_school_villages
+- number: 6
+  name: No. of Middle School Institutions
+  variable_name: middle_schools
+- number: 7
+  name: No. of Villages having Secondary Schools
+  variable_name: secondary_school_villages
+- number: 8
+  name: No. of Secondary School Institutions
+  variable_name: secondary_schools
+- number: 9
+  name: College
+  variable_name: college_villages
+- number: 10
+  name: H/HC
+  variable_name: hospital_health_centre_villages
+- number: 11
+  name: D
+  variable_name: dispensary_villages
+- number: 12
+  name: Other medical institutions
+  variable_name: other_medical_villages
+- number: 13
+  name: Power Supply Available
+  variable_name: power_available_villages
+- number: 14
+  name: Power Supply Not Available
+  variable_name: power_not_available_villages
+- number: 15
+  name: T
+  variable_name: tap_water_villages
+- number: 16
+  name: TK
+  variable_name: tank_water_villages
+- number: 17
+  name: W
+  variable_name: well_water_villages
+- number: 18
+  name: R
+  variable_name: river_water_villages
+- number: 19
+  name: C
+  variable_name: canal_water_villages
+- number: 20
+  name: Others
+  variable_name: other_water_villages
+- number: 21
+  name: More than one source
+  variable_name: multiple_water_sources_villages
+- number: 22
+  name: PR
+  variable_name: pucca_road_villages
+- number: 23
+  name: KR
+  variable_name: katcha_road_villages
+- number: 24
+  name: T
+  variable_name: train_connection_villages
+- number: 25
+  name: PR,T
+  variable_name: pucca_road_train_villages
+- number: 26
+  name: KR,T
+  variable_name: katcha_road_train_villages
+- number: 27
+  name: Others
+  variable_name: other_communication_villages
+- number: 28
+  name: PO
+  variable_name: post_office_villages
+- number: 29
+  name: PTO
+  variable_name: post_telegraph_office_villages
+- number: 30
+  name: PO Phone
+  variable_name: post_office_phone_villages
+- number: 31
+  name: PTO Phone
+  variable_name: post_telegraph_phone_villages
+- number: 32
+  name: Phone
+  variable_name: telephone_villages

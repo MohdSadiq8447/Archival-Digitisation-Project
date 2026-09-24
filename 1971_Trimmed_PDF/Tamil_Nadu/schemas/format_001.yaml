@@ -1,0 +1,236 @@
+format_id: format_001
+name: Civic Amenities
+category: Civic Amenities
+pdfs:
+- filenames:
+  - Dharmapuri_civic_1971.pdf
+  pagination:
+    page_1_columns:
+    - 1
+    - 8
+    page_2_columns:
+    - 9
+    - 16
+- filenames:
+  - North Arcot_civic_1971.pdf
+  - Ramanathapuram_civic_1971.pdf
+  - Thanjavur_civic_1971.pdf
+  - Tiruchchirappalli_civic_1971.pdf
+  pagination:
+    page_1_columns:
+    - 1
+    - 8
+    page_2_columns:
+    - 9
+    - 16
+    page_3_columns:
+    - 1
+    - 8
+    page_4_columns:
+    - 9
+    - 16
+    page_5_columns:
+    - 1
+    - 8
+    page_6_columns:
+    - 9
+    - 16
+- filenames:
+  - Salem_civic_1971.pdf
+  pagination:
+    page_1_columns:
+    - 1
+    - 8
+    page_2_columns:
+    - 9
+    - 16
+    page_3_columns:
+    - 1
+    - 8
+    page_4_columns:
+    - 9
+    - 16
+    page_5_columns:
+    - 1
+    - 8
+    page_6_columns:
+    - 9
+    - 16
+    page_7_columns:
+    - 1
+    - 8
+    page_8_columns:
+    - 9
+    - 16
+- filenames:
+  - Tirunelveli_civic_1971.pdf
+  pagination:
+    page_1_columns:
+    - 1
+    - 8
+    page_2_columns:
+    - 9
+    - 16
+    page_3_columns:
+    - 1
+    - 8
+    page_4_columns:
+    - 9
+    - 16
+    page_5_columns:
+    - 1
+    - 8
+    page_6_columns:
+    - 9
+    - 16
+    page_7_columns:
+    - 1
+    - 8
+    page_8_columns:
+    - 9
+    - 16
+    page_9_columns:
+    - 1
+    - 8
+    page_10_columns:
+    - 9
+    - 16
+- filenames:
+  - Coimbatore_civic_1971.pdf
+  pagination:
+    page_1_columns:
+    - 1
+    - 8
+    page_2_columns:
+    - 9
+    - 16
+    page_3_columns:
+    - 1
+    - 8
+    page_4_columns:
+    - 9
+    - 16
+    page_5_columns:
+    - 1
+    - 8
+    page_6_columns:
+    - 9
+    - 16
+    page_7_columns:
+    - 1
+    - 8
+    page_8_columns:
+    - 9
+    - 16
+    page_9_columns:
+    - 1
+    - 8
+    page_10_columns:
+    - 9
+    - 16
+    page_11_columns:
+    - 1
+    - 8
+    page_12_columns:
+    - 9
+    - 16
+- filenames:
+  - Chengalpattu_civic_1971.pdf
+  pagination:
+    page_1_columns:
+    - 1
+    - 8
+    page_2_columns:
+    - 9
+    - 16
+    page_3_columns:
+    - 1
+    - 8
+    page_4_columns:
+    - 9
+    - 16
+    page_5_columns:
+    - 1
+    - 8
+    page_6_columns:
+    - 9
+    - 16
+    page_7_columns:
+    - 1
+    - 8
+    page_8_columns:
+    - 9
+    - 16
+    page_9_columns:
+    - 1
+    - 8
+    page_10_columns:
+    - 9
+    - 16
+    page_11_columns:
+    - 1
+    - 8
+    page_12_columns:
+    - 9
+    - 16
+    page_13_columns:
+    - 1
+    - 8
+    page_14_columns:
+    - 9
+    - 16
+    page_15_columns:
+    - 1
+    - 8
+    page_16_columns:
+    - 9
+    - 16
+columns:
+- number: 1
+  name: Sl. No.
+  variable_name: sl_no
+- number: 2
+  name: Name of Town
+  variable_name: town_name
+- number: 3
+  name: Road Length (in Km.)
+  variable_name: road_length_km
+- number: 4
+  name: System of Sewerage/Drainage
+  variable_name: sewerage_drainage_system
+- number: 5
+  name: Water-Borne Latrines
+  variable_name: water_borne_latrines
+- number: 6
+  name: Service Latrines
+  variable_name: service_latrines
+- number: 7
+  name: Other Latrines
+  variable_name: other_latrines
+- number: 8
+  name: Method of Disposal of Night Soil
+  variable_name: night_soil_disposal_method
+- number: 9
+  name: Protected Water Supply - Source
+  variable_name: water_source
+- number: 10
+  name: Protected Water Supply - Capacity (in Litres)
+  variable_name: water_capacity
+- number: 11
+  name: Fire-Fighting Service
+  variable_name: fire_fighting_service
+- number: 12
+  name: Electrification - Domestic
+  variable_name: electrification_domestic
+- number: 13
+  name: Electrification - Industrial
+  variable_name: electrification_industrial
+- number: 14
+  name: Electrification - Commercial
+  variable_name: electrification_commercial
+- number: 15
+  name: Electrification - Road Lighting (Points)
+  variable_name: electrification_road_lighting
+- number: 16
+  name: Electrification - Others
+  variable_name: electrification_others

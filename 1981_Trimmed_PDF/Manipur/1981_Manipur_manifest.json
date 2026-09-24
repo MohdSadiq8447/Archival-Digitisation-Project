@@ -1,0 +1,818 @@
+[
+  {
+    "state": "Manipur",
+    "source_state": "Manipur",
+    "district": "Manipur Central",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Manipur/1981 Manipur Central.pdf",
+    "source_filename": "1981 Manipur Central.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 227,
+    "output": "output/pdf/1981_trimmed/Manipur/civic amenities/1981_Manipur Central_civic_amenities.pdf",
+    "source_pages_selected": [
+      126,
+      127
+    ],
+    "printed_page_labels": [
+      "108",
+      "109"
+    ],
+    "status": "Trimmed",
+    "reason": "Statement IV Civic and Other Amenities, printed pages 108-109; source page 128 begins Statement V.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 126,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              560.64,
+              852.24
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              560.64,
+              852.24
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 127,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              560.64,
+              852.24
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              560.64,
+              852.24
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 126,
+          "output_page": 1,
+          "source_png_sha256": "b1466f5bd530750b68a7a7c6f563a01cd4803d870b26b5ef1524589022221632",
+          "output_png_sha256": "b1466f5bd530750b68a7a7c6f563a01cd4803d870b26b5ef1524589022221632",
+          "match": true
+        },
+        {
+          "source_page": 127,
+          "output_page": 2,
+          "source_png_sha256": "148196d2b3a04c03299ea7e725f7dbec43b19dfa1c4fe77e96f4b67a1cc9e9df",
+          "output_png_sha256": "148196d2b3a04c03299ea7e725f7dbec43b19dfa1c4fe77e96f4b67a1cc9e9df",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Manipur",
+    "source_state": "Manipur",
+    "district": "Manipur Central",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Manipur/1981 Manipur Central.pdf",
+    "source_filename": "1981 Manipur Central.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 227,
+    "output": "output/pdf/1981_trimmed/Manipur/mededu/1981_Manipur Central_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      128,
+      129
+    ],
+    "printed_page_labels": [
+      "110",
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Statement V Medical, Educational, Recreational and Cultural Facilities, printed pages 110-111; source page 130 begins Statement VI.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 128,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              560.64,
+              852.24
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              560.64,
+              852.24
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 129,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              560.64,
+              852.24
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              560.64,
+              852.24
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 128,
+          "output_page": 1,
+          "source_png_sha256": "210c0a076f6e9fa95ff2884ffc32ca3320ab566ccf280248e6db1be7b37615ea",
+          "output_png_sha256": "210c0a076f6e9fa95ff2884ffc32ca3320ab566ccf280248e6db1be7b37615ea",
+          "match": true
+        },
+        {
+          "source_page": 129,
+          "output_page": 2,
+          "source_png_sha256": "be5195f2521a1be5d402c61009eabaf1f1af1adbe661a2fc5000fd8cc59527df",
+          "output_png_sha256": "be5195f2521a1be5d402c61009eabaf1f1af1adbe661a2fc5000fd8cc59527df",
+          "match": true
+        }
+      ],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Manipur",
+    "source_state": "Manipur",
+    "district": "Manipur Central",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Manipur/1981 Manipur Central.pdf",
+    "source_filename": "1981 Manipur Central.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 227,
+    "output": "output/pdf/1981_trimmed/Manipur/tehsil appendix/1981_Manipur Central_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      98,
+      99
+    ],
+    "printed_page_labels": [
+      "80",
+      "81"
+    ],
+    "status": "Trimmed",
+    "reason": "Village Directory Appendix I Sub-division-wise abstract of educational, medical and other amenities, printed pages 80-81; source page 100 begins Appendix II.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 98,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              560.64,
+              852.24
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              560.64,
+              852.24
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 99,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              560.64,
+              852.24
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              560.64,
+              852.24
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 98,
+          "output_page": 1,
+          "source_png_sha256": "0cb4b07d8f9b5061c43bf5b72d1c8dcab2ed0fc98c6caae7a0bbdea0a52b7736",
+          "output_png_sha256": "0cb4b07d8f9b5061c43bf5b72d1c8dcab2ed0fc98c6caae7a0bbdea0a52b7736",
+          "match": true
+        },
+        {
+          "source_page": 99,
+          "output_page": 2,
+          "source_png_sha256": "09fc2fd91e708afc4d07bd464d8c3bb315795e0b4045066d90de2e726ccf93da",
+          "output_png_sha256": "09fc2fd91e708afc4d07bd464d8c3bb315795e0b4045066d90de2e726ccf93da",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Manipur",
+    "source_state": "Manipur",
+    "district": "Manipur North",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Manipur/1981 Manipur North.pdf",
+    "source_filename": "1981 Manipur North.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 159,
+    "output": "output/pdf/1981_trimmed/Manipur/civic amenities/1981_Manipur North_civic_amenities.pdf",
+    "source_pages_selected": [
+      118,
+      119
+    ],
+    "printed_page_labels": [
+      "102",
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Statement IV Civic and Other Amenities, printed pages 102-103; source page 120 begins Statement V.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 118,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              609.36,
+              807.6
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              609.36,
+              807.6
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 119,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              609.36,
+              807.6
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              609.36,
+              807.6
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 118,
+          "output_page": 1,
+          "source_png_sha256": "d5cd06e0ea6f94e2537ff3b55f77f74b0fb74b33ecca3c4be47eee4e870314bc",
+          "output_png_sha256": "d5cd06e0ea6f94e2537ff3b55f77f74b0fb74b33ecca3c4be47eee4e870314bc",
+          "match": true
+        },
+        {
+          "source_page": 119,
+          "output_page": 2,
+          "source_png_sha256": "d230f87c7c9ce685c370419bbb8e0161bcbdef210a0c3de0c9fd41c469bd9749",
+          "output_png_sha256": "d230f87c7c9ce685c370419bbb8e0161bcbdef210a0c3de0c9fd41c469bd9749",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Manipur",
+    "source_state": "Manipur",
+    "district": "Manipur North",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Manipur/1981 Manipur North.pdf",
+    "source_filename": "1981 Manipur North.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 159,
+    "output": "output/pdf/1981_trimmed/Manipur/mededu/1981_Manipur North_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      120,
+      121
+    ],
+    "printed_page_labels": [
+      "104",
+      "105"
+    ],
+    "status": "Trimmed",
+    "reason": "Statement V Medical, Educational, Recreational and Cultural Facilities, printed pages 104-105; source page 122 is blank and source page 123 begins Part B.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 120,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              609.36,
+              807.6
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              609.36,
+              807.6
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 121,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              609.36,
+              807.6
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              609.36,
+              807.6
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 120,
+          "output_page": 1,
+          "source_png_sha256": "de1767f2b10f17a287435926b5916e8a88d3121d68daaf90fe8c7a2f0fa789a5",
+          "output_png_sha256": "de1767f2b10f17a287435926b5916e8a88d3121d68daaf90fe8c7a2f0fa789a5",
+          "match": true
+        },
+        {
+          "source_page": 121,
+          "output_page": 2,
+          "source_png_sha256": "194ee081a4bc9f660eccc549479332767805e48b74279025c9ec33d5d45137d7",
+          "output_png_sha256": "194ee081a4bc9f660eccc549479332767805e48b74279025c9ec33d5d45137d7",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Manipur",
+    "source_state": "Manipur",
+    "district": "Manipur North",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Manipur/1981 Manipur North.pdf",
+    "source_filename": "1981 Manipur North.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 159,
+    "output": "output/pdf/1981_trimmed/Manipur/tehsil appendix/1981_Manipur North_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      94,
+      95
+    ],
+    "printed_page_labels": [
+      "74",
+      "75"
+    ],
+    "status": "Trimmed",
+    "reason": "Village Directory Appendix I Sub-division-wise abstract of educational, medical and other amenities, printed pages 74-75; source page 96 begins the village list appendix.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 94,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              609.36,
+              807.6
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              609.36,
+              807.6
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 95,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              609.36,
+              807.6
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              609.36,
+              807.6
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 94,
+          "output_page": 1,
+          "source_png_sha256": "d110bc35022ef31278843ceda813432c499d497a045cdc708f5a9852dbc33c09",
+          "output_png_sha256": "d110bc35022ef31278843ceda813432c499d497a045cdc708f5a9852dbc33c09",
+          "match": true
+        },
+        {
+          "source_page": 95,
+          "output_page": 2,
+          "source_png_sha256": "9bff552bd8cb17363bdccd9dbfcd5d718d994e6563c505e859510a34e0ede0a4",
+          "output_png_sha256": "9bff552bd8cb17363bdccd9dbfcd5d718d994e6563c505e859510a34e0ede0a4",
+          "match": true
+        }
+      ],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Manipur",
+    "source_state": "Manipur",
+    "district": "Tengnoupal",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Manipur/1981 Tengnoupal.pdf",
+    "source_filename": "1981 Tengnoupal.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 137,
+    "output": "output/pdf/1981_trimmed/Manipur/civic amenities/1981_Tengnoupal_civic_amenities.pdf",
+    "source_pages_selected": [
+      100,
+      101
+    ],
+    "printed_page_labels": [
+      "82",
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Statement IV Civic and Other Amenities, printed pages 82-83; source page 102 begins Statement V.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 100,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              560.64,
+              852.24
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              560.64,
+              852.24
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 101,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              560.64,
+              852.24
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              560.64,
+              852.24
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 100,
+          "output_page": 1,
+          "source_png_sha256": "854482bdef5a28db3f8b1906ea86704bac920aacafb73f7af0d720b7cb4694b9",
+          "output_png_sha256": "854482bdef5a28db3f8b1906ea86704bac920aacafb73f7af0d720b7cb4694b9",
+          "match": true
+        },
+        {
+          "source_page": 101,
+          "output_page": 2,
+          "source_png_sha256": "9fa1c05846cacb1783a2b505f5a0f4e7188e2c7128dfba70e0d1a3b1baab4e98",
+          "output_png_sha256": "9fa1c05846cacb1783a2b505f5a0f4e7188e2c7128dfba70e0d1a3b1baab4e98",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Manipur",
+    "source_state": "Manipur",
+    "district": "Tengnoupal",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Manipur/1981 Tengnoupal.pdf",
+    "source_filename": "1981 Tengnoupal.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 137,
+    "output": "output/pdf/1981_trimmed/Manipur/mededu/1981_Tengnoupal_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      102,
+      103
+    ],
+    "printed_page_labels": [
+      "84",
+      "85"
+    ],
+    "status": "Trimmed",
+    "reason": "Statement V Medical, Educational, Recreational and Cultural Facilities, printed pages 84-85; source page 104 begins Statement VI.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 102,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              560.64,
+              852.24
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              560.64,
+              852.24
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 103,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              560.64,
+              852.24
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              560.64,
+              852.24
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 102,
+          "output_page": 1,
+          "source_png_sha256": "9f15593e2782b193f5f7028669532e363ffbf7a225cb2dd6d0d853b360f64f47",
+          "output_png_sha256": "9f15593e2782b193f5f7028669532e363ffbf7a225cb2dd6d0d853b360f64f47",
+          "match": true
+        },
+        {
+          "source_page": 103,
+          "output_page": 2,
+          "source_png_sha256": "1a8ed252cb2d8f53ee36c6a190efc14b9699a916e7920a4a4895dabf1a1a92b8",
+          "output_png_sha256": "1a8ed252cb2d8f53ee36c6a190efc14b9699a916e7920a4a4895dabf1a1a92b8",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Manipur",
+    "source_state": "Manipur",
+    "district": "Tengnoupal",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Manipur/1981 Tengnoupal.pdf",
+    "source_filename": "1981 Tengnoupal.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 137,
+    "output": "output/pdf/1981_trimmed/Manipur/tehsil appendix/1981_Tengnoupal_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      78,
+      79
+    ],
+    "printed_page_labels": [
+      null,
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Village Directory Appendix I Sub-division-wise abstract of educational, medical and other amenities, printed pages 60-61; source page 80 begins Appendix II.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 78,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              560.64,
+              852.24
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              560.64,
+              852.24
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 79,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              560.64,
+              852.24
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              560.64,
+              852.24
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 78,
+          "output_page": 1,
+          "source_png_sha256": "e24e72f1e6a57f401e8ae7b258352ec12aa30395b7cfc7319bdeebdd5f3c3f1a",
+          "output_png_sha256": "e24e72f1e6a57f401e8ae7b258352ec12aa30395b7cfc7319bdeebdd5f3c3f1a",
+          "match": true
+        },
+        {
+          "source_page": 79,
+          "output_page": 2,
+          "source_png_sha256": "347d468ec0fcca21c46e0b698b22b89081de85f58df890c772c4e4b45938f068",
+          "output_png_sha256": "347d468ec0fcca21c46e0b698b22b89081de85f58df890c772c4e4b45938f068",
+          "match": true
+        }
+      ],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  }
+]

@@ -1,0 +1,65 @@
+format_id: format_001
+name: Civic Amenities
+category: Civic Amenities
+pdfs:
+- filenames:
+  - Firozpur_civic_1971.pdf
+  - Hoshiarpur_civic_1971.pdf
+  - Jullundur_civic_1971.pdf
+  - Ludhiana_civic_1971.pdf
+  - Patiala_civic_1971.pdf
+  - Rupnagar_civic_1971.pdf
+  - Sangrur_civic_1971.pdf
+  pagination:
+    page_1_columns:
+    - 1
+    - 16
+columns:
+- number: 1
+  name: Serial No.
+  variable_name: sl_no
+- number: 2
+  name: Name of Town
+  variable_name: town_name
+- number: 3
+  name: Road Length (in Kms.)
+  variable_name: road_length_km
+- number: 4
+  name: System of Sewerage/Drainage
+  variable_name: sewerage_drainage_system
+- number: 5
+  name: Water-Borne Latrines
+  variable_name: water_borne_latrines
+- number: 6
+  name: Service Latrines
+  variable_name: service_latrines
+- number: 7
+  name: Other Latrines
+  variable_name: other_latrines
+- number: 8
+  name: Method of Disposal of Night Soil
+  variable_name: night_soil_disposal_method
+- number: 9
+  name: Protected Water Supply - Source
+  variable_name: water_source
+- number: 10
+  name: Protected Water Supply - Capacity (Litres)
+  variable_name: water_capacity
+- number: 11
+  name: Fire-Fighting Service
+  variable_name: fire_fighting_service
+- number: 12
+  name: Electrification - Domestic
+  variable_name: electrification_domestic
+- number: 13
+  name: Electrification - Industrial
+  variable_name: electrification_industrial
+- number: 14
+  name: Electrification - Commercial
+  variable_name: electrification_commercial
+- number: 15
+  name: Electrification - Road Lighting (Points)
+  variable_name: electrification_road_lighting
+- number: 16
+  name: Electrification - Others
+  variable_name: electrification_others

@@ -1,0 +1,92 @@
+[
+  {
+    "source": "1971 Gurgaon.pdf",
+    "table": "civic_amenities",
+    "status": "review",
+    "reason": "The volume is Part X-C, District Census Tables, not the Part X-A Village and Town Directory volume containing Town Directory Statement IV."
+  },
+  {
+    "source": "1971 Gurgaon.pdf",
+    "table": "medical_educational_amenities",
+    "status": "review",
+    "reason": "The volume is Part X-C, District Census Tables, not the Part X-A Village and Town Directory volume containing Town Directory Statement V."
+  },
+  {
+    "source": "1971 Gurgaon.pdf",
+    "table": "tehsil_appendix",
+    "status": "review",
+    "reason": "The volume is Part X-C, District Census Tables, not the Part X-A Village and Town Directory volume containing the tehsil/taluk amenities appendix."
+  },
+  {
+    "source": "1971 Hisar.pdf",
+    "table": "civic_amenities",
+    "status": "review",
+    "reason": "The volume is Part X-C, District Census Tables, not the Part X-A Village and Town Directory volume containing Town Directory Statement IV."
+  },
+  {
+    "source": "1971 Hisar.pdf",
+    "table": "medical_educational_amenities",
+    "status": "review",
+    "reason": "The volume is Part X-C, District Census Tables, not the Part X-A Village and Town Directory volume containing Town Directory Statement V."
+  },
+  {
+    "source": "1971 Hisar.pdf",
+    "table": "tehsil_appendix",
+    "status": "review",
+    "reason": "The volume is Part X-C, District Census Tables, not the Part X-A Village and Town Directory volume containing the tehsil/taluk amenities appendix."
+  },
+  {
+    "source": "1971 Jind.pdf",
+    "table": "civic_amenities",
+    "status": "review",
+    "reason": "The volume is Part X-C, District Census Tables, not the Part X-A Village and Town Directory volume containing Town Directory Statement IV."
+  },
+  {
+    "source": "1971 Jind.pdf",
+    "table": "medical_educational_amenities",
+    "status": "review",
+    "reason": "The volume is Part X-C, District Census Tables, not the Part X-A Village and Town Directory volume containing Town Directory Statement V."
+  },
+  {
+    "source": "1971 Jind.pdf",
+    "table": "tehsil_appendix",
+    "status": "review",
+    "reason": "The volume is Part X-C, District Census Tables, not the Part X-A Village and Town Directory volume containing the tehsil/taluk amenities appendix."
+  },
+  {
+    "source": "1971 Mahendragarh.pdf",
+    "table": "civic_amenities",
+    "status": "review",
+    "reason": "The volume is Part X-C, District Census Tables, not the Part X-A Village and Town Directory volume containing Town Directory Statement IV."
+  },
+  {
+    "source": "1971 Mahendragarh.pdf",
+    "table": "medical_educational_amenities",
+    "status": "review",
+    "reason": "The volume is Part X-C, District Census Tables, not the Part X-A Village and Town Directory volume containing Town Directory Statement V."
+  },
+  {
+    "source": "1971 Mahendragarh.pdf",
+    "table": "tehsil_appendix",
+    "status": "review",
+    "reason": "The volume is Part X-C, District Census Tables, not the Part X-A Village and Town Directory volume containing the tehsil/taluk amenities appendix."
+  },
+  {
+    "source": "1971 Rohtak.pdf",
+    "table": "civic_amenities",
+    "status": "review",
+    "reason": "The volume is Part X-C, District Census Tables, not the Part X-A Village and Town Directory volume containing Town Directory Statement IV."
+  },
+  {
+    "source": "1971 Rohtak.pdf",
+    "table": "medical_educational_amenities",
+    "status": "review",
+    "reason": "The volume is Part X-C, District Census Tables, not the Part X-A Village and Town Directory volume containing Town Directory Statement V."
+  },
+  {
+    "source": "1971 Rohtak.pdf",
+    "table": "tehsil_appendix",
+    "status": "review",
+    "reason": "The volume is Part X-C, District Census Tables, not the Part X-A Village and Town Directory volume containing the tehsil/taluk amenities appendix."
+  }
+]

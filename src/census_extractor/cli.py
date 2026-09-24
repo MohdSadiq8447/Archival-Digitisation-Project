@@ -11,6 +11,8 @@ from census_extractor.config import PipelineConfig
 from census_extractor.pipeline.runner import ExtractionSummary, PipelineRunner
 from census_extractor.postprocessing import CSVPostprocessor
 from census_extractor.schemas import SchemaRegistry
+from census_extractor.source_audit import SourceAuditRunner
+from census_extractor.workflow import RemainingUPWorkflow
 
 
 def _configure_console_output() -> None:
@@ -87,6 +89,38 @@ def build_parser() -> argparse.ArgumentParser:
         "--output-dir", type=Path, help="Output root containing runs and postprocessed"
     )
 
+    source_audit = commands.add_parser(
+        "source-audit", help="Validate Codex source decisions and build a v3 ledger"
+    )
+    source_audit.add_argument(
+        "--provisional",
+        required=True,
+        type=Path,
+        help="Provisional postprocessed folder or its absolute path",
+    )
+    source_audit.add_argument(
+        "--decisions",
+        type=Path,
+        help="Completed JSONL decisions; omit when creating an audit queue",
+    )
+    source_audit.add_argument(
+        "--queue",
+        type=Path,
+        help="Write a deterministic JSONL audit queue to this path",
+    )
+    source_audit.add_argument("--ledger", type=Path, help="Destination version-3 ledger path")
+    source_audit.add_argument(
+        "--output-dir", type=Path, help="Output root containing postprocessed folders"
+    )
+
+    workflow = commands.add_parser(
+        "workflow", help="Run or resume the sequential remaining-UP workflow"
+    )
+    workflow.add_argument("--config", required=True, type=Path)
+    workflow.add_argument(
+        "--output-dir", type=Path, help="Output root containing runs and workflow state"
+    )
+
     commands.add_parser("schemas", help="List registered logical schemas and physical panels")
     return parser
 
@@ -156,6 +190,50 @@ def main(argv: list[str] | None = None) -> int:
         print(f"  correction_log={result.correction_log}")
         print(f"  report={result.report}")
         return 0
+
+    if args.command == "source-audit":
+        try:
+            provisional = args.provisional.resolve()
+            if not provisional.is_dir():
+                provisional = (config.outputs_dir / "postprocessed" / args.provisional).resolve()
+            runner = SourceAuditRunner(provisional, config.schemas_dir)
+            if bool(args.queue) == bool(args.decisions):
+                raise ValueError("provide exactly one of --queue or --decisions")
+            if args.queue:
+                print(f"QUEUE: {runner.write_queue(_resolve(args.queue, config.base_dir))}")
+            else:
+                if not args.ledger:
+                    raise ValueError("--ledger is required with --decisions")
+                ledger = runner.build_ledger(
+                    _resolve(args.decisions, config.base_dir),
+                    _resolve(args.ledger, config.base_dir),
+                )
+                print(
+                    f"LEDGER: {args.ledger} cells={ledger.expected_unique_source_cells} "
+                    f"allow_unresolved={ledger.allow_unresolved}"
+                )
+        except Exception as exc:
+            print(f"ERROR: {exc}", file=sys.stderr)
+            return 1
+        return 0
+
+    if args.command == "workflow":
+        try:
+            workflow = RemainingUPWorkflow(
+                config,
+                _resolve(args.config, config.base_dir),
+            )
+            result = workflow.run()
+        except Exception as exc:
+            print(f"ERROR: {exc}", file=sys.stderr)
+            return 1
+        print(f"{result.status}: {result.message}")
+        print(f"  state={result.state_path}")
+        if result.review_workbook:
+            print(f"  review={result.review_workbook}")
+        if result.final_output:
+            print(f"  output={result.final_output}")
+        return 1 if result.status.startswith("BLOCKED_") else 0
 
     dry_run = args.command in {"geometry", "test-geometry"} or getattr(args, "dry_run", False)
     if not dry_run and not config.is_novita_configured:

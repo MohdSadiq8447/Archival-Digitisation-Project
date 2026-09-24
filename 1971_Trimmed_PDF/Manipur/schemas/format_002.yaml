@@ -1,0 +1,66 @@
+format_id: format_002
+name: Medical and Educational Amenities
+category: Medical and Educational Amenities
+pdfs:
+- filenames:
+  - Manipur Central_mededu_1971.pdf
+  - Manipur South_mededu_1971.pdf
+  pagination:
+    page_1_columns:
+    - 1
+    - 9
+    page_2_columns:
+    - 10
+    - 17
+columns:
+- number: 1
+  name: Sl. No.
+  variable_name: sl_no
+- number: 2
+  name: Name of Town
+  variable_name: town_name
+- number: 3
+  name: Hospitals/Dispensaries/T.B. Clinics/Health Centres/Nursing Homes etc.
+  variable_name: medical_institutions
+- number: 4
+  name: Beds in medical institutions noted in Col. No. 3
+  variable_name: medical_beds
+- number: 5
+  name: Arts/Science/Commerce Colleges etc.
+  variable_name: degree_colleges
+- number: 6
+  name: Medical Colleges
+  variable_name: medical_colleges
+- number: 7
+  name: Engineering Colleges
+  variable_name: engineering_colleges
+- number: 8
+  name: Polytechnics
+  variable_name: polytechnics
+- number: 9
+  name: Recognised shorthand, typewriting and other vocational training institutes
+  variable_name: vocational_training_institutes
+- number: 10
+  name: Higher Secondary or Secondary Schools
+  variable_name: higher_secondary_secondary_schools
+- number: 11
+  name: Junior Secondary/Middle Schools
+  variable_name: junior_secondary_middle_schools
+- number: 12
+  name: Primary Schools
+  variable_name: primary_schools
+- number: 13
+  name: Others
+  variable_name: other_educational_institutions
+- number: 14
+  name: Stadia
+  variable_name: stadia
+- number: 15
+  name: Cinemas
+  variable_name: cinemas
+- number: 16
+  name: Auditoria/Drama Halls
+  variable_name: auditoria_drama_halls
+- number: 17
+  name: Public libraries including reading rooms
+  variable_name: public_libraries_reading_rooms

@@ -1,0 +1,110 @@
+format_id: format_003
+name: Tehsil Appendix
+category: Tehsil Appendix
+pdfs:
+- filenames:
+  - Mokokchung_tehsil_1971.pdf
+  pagination:
+    page_1_columns:
+    - 1
+    - 12
+    page_2_columns:
+    - 13
+    - 29
+- filenames:
+  - Tuensang_tehsil_1971.pdf
+  pagination:
+    page_1_columns:
+    - 1
+    - 14
+    page_2_columns:
+    - 15
+    - 29
+columns:
+- number: 1
+  name: Sl. No.
+  variable_name: sl_no
+- number: 2
+  name: Name of the Circle
+  variable_name: circle_name
+- number: 3
+  name: No. of villages having Primary Schools
+  variable_name: primary_schools_villages
+- number: 4
+  name: No. of Primary Schools
+  variable_name: primary_schools
+- number: 5
+  name: No. of villages having Middle Schools
+  variable_name: middle_schools_villages
+- number: 6
+  name: No. of Middle Schools
+  variable_name: middle_schools
+- number: 7
+  name: No. of villages having Secondary Schools
+  variable_name: secondary_schools_villages
+- number: 8
+  name: No. of Secondary Schools
+  variable_name: secondary_schools
+- number: 9
+  name: No. of villages having Colleges
+  variable_name: colleges_villages
+- number: 10
+  name: No. of Colleges
+  variable_name: colleges
+- number: 11
+  name: No. of villages having other educational institutions
+  variable_name: other_educational_institutions_villages
+- number: 12
+  name: No. of other educational institutions
+  variable_name: other_educational_institutions
+- number: 13
+  name: No. of villages having Dispensaries
+  variable_name: dispensaries_villages
+- number: 14
+  name: No. of Dispensaries
+  variable_name: dispensaries
+- number: 15
+  name: No. of villages having Hospitals
+  variable_name: hospitals_villages
+- number: 16
+  name: No. of Hospitals
+  variable_name: hospitals
+- number: 17
+  name: Medical - Etc.
+  variable_name: other_medical_amenities
+- number: 18
+  name: Power supply - Available villages
+  variable_name: power_available_villages
+- number: 19
+  name: Power supply - Not Available villages
+  variable_name: power_not_available_villages
+- number: 20
+  name: Number of villages having Tap drinking water
+  variable_name: tap_water_villages
+- number: 21
+  name: Number of villages having Well drinking water
+  variable_name: well_water_villages
+- number: 22
+  name: Drinking Water - Etc.
+  variable_name: other_water_villages
+- number: 23
+  name: Number of villages having Pucca Road
+  variable_name: pucca_road_villages
+- number: 24
+  name: Number of villages having Kutcha Road
+  variable_name: kutcha_road_villages
+- number: 25
+  name: No. of villages having Post Offices
+  variable_name: post_offices_villages
+- number: 26
+  name: No. of Post Offices
+  variable_name: post_offices
+- number: 27
+  name: No. of villages having Telegraph Offices
+  variable_name: telegraph_offices_villages
+- number: 28
+  name: No. of Telegraph Offices
+  variable_name: telegraph_offices
+- number: 29
+  name: Postal and Telegraph - Etc.
+  variable_name: other_postal_telegraph_amenities

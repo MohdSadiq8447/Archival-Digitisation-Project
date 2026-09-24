@@ -1,0 +1,6931 @@
+[
+  {
+    "state": "Andra Pradesh",
+    "source_state": "Andra Pradesh",
+    "district": "Adilabad",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Andra Pradesh/1981 Adilabad.pdf",
+    "source_filename": "1981 Adilabad.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 574,
+    "output": "output/pdf/1981_trimmed/Andra Pradesh/civic amenities/1981_Adilabad_civic_amenities.pdf",
+    "source_pages_selected": [
+      354,
+      355
+    ],
+    "printed_page_labels": [
+      "266",
+      "267"
+    ],
+    "status": "Trimmed",
+    "reason": "Manually verified source span from printed headings, continuation pages, and table structure.",
+    "flags": [],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 354,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              648.96,
+              798.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              648.96,
+              798.96
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 355,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              648.96,
+              798.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              648.96,
+              798.96
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 354,
+          "output_page": 1,
+          "source_png_sha256": "c8158c30dab6a07e8772d6d4fc9731c252a5173bf244c36dfc5c9b651af6a32e",
+          "output_png_sha256": "c8158c30dab6a07e8772d6d4fc9731c252a5173bf244c36dfc5c9b651af6a32e",
+          "match": true
+        },
+        {
+          "source_page": 355,
+          "output_page": 2,
+          "source_png_sha256": "89e0c2319fa0e969870c505334ef1959f123bf4a4d0796b74190bfea8f18604e",
+          "output_png_sha256": "89e0c2319fa0e969870c505334ef1959f123bf4a4d0796b74190bfea8f18604e",
+          "match": true
+        }
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": [],
+      "content_flags": []
+    }
+  },
+  {
+    "state": "Andra Pradesh",
+    "source_state": "Andra Pradesh",
+    "district": "Adilabad",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Andra Pradesh/1981 Adilabad.pdf",
+    "source_filename": "1981 Adilabad.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 574,
+    "output": "output/pdf/1981_trimmed/Andra Pradesh/mededu/1981_Adilabad_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      358,
+      359
+    ],
+    "printed_page_labels": [
+      "270",
+      "271"
+    ],
+    "status": "Trimmed",
+    "reason": "Manually verified source span from printed headings, continuation pages, and table structure.",
+    "flags": [],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 358,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              648.96,
+              798.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              648.96,
+              798.96
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 359,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              648.96,
+              798.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              648.96,
+              798.96
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 358,
+          "output_page": 1,
+          "source_png_sha256": "122dfa8dd68d876e12dffbc15711d676b68cdf2110ab54eb140ee132f6698c25",
+          "output_png_sha256": "122dfa8dd68d876e12dffbc15711d676b68cdf2110ab54eb140ee132f6698c25",
+          "match": true
+        },
+        {
+          "source_page": 359,
+          "output_page": 2,
+          "source_png_sha256": "b7b9037a6353b8c7efb35f55c14eb9d69171d09e52637aa6f6c97dec9f664920",
+          "output_png_sha256": "b7b9037a6353b8c7efb35f55c14eb9d69171d09e52637aa6f6c97dec9f664920",
+          "match": true
+        }
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": [],
+      "content_flags": []
+    }
+  },
+  {
+    "state": "Andra Pradesh",
+    "source_state": "Andra Pradesh",
+    "district": "Adilabad",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Andra Pradesh/1981 Adilabad.pdf",
+    "source_filename": "1981 Adilabad.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 574,
+    "output": "output/pdf/1981_trimmed/Andra Pradesh/tehsil appendix/1981_Adilabad_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      260,
+      261,
+      262,
+      263
+    ],
+    "printed_page_labels": [
+      "174",
+      "175",
+      "176",
+      "177"
+    ],
+    "status": "Trimmed",
+    "reason": "Located from directory headings and continuation boundaries; continuation start retained after final audit.",
+    "flags": [],
+    "verification": {
+      "output_pages": 4,
+      "pages": [
+        {
+          "source_page": 260,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              648.96,
+              798.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              648.96,
+              798.96
+            ]
+          },
+          "rotation": 90
+        },
+        {
+          "source_page": 261,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              648.96,
+              798.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              648.96,
+              798.96
+            ]
+          },
+          "rotation": 90
+        },
+        {
+          "source_page": 262,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              648.96,
+              798.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              648.96,
+              798.96
+            ]
+          },
+          "rotation": 90
+        },
+        {
+          "source_page": 263,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              648.96,
+              798.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              648.96,
+              798.96
+            ]
+          },
+          "rotation": 90
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 260,
+          "output_page": 1,
+          "source_png_sha256": "313360445b8d9a81a52525131877e85e300d50b8804b09c69fdfe819beebbced",
+          "output_png_sha256": "313360445b8d9a81a52525131877e85e300d50b8804b09c69fdfe819beebbced",
+          "match": true
+        },
+        {
+          "source_page": 261,
+          "output_page": 2,
+          "source_png_sha256": "ddb225773910c2e11be5dde50807952ce112770355d435e5f35b59d45f5ee0d5",
+          "output_png_sha256": "ddb225773910c2e11be5dde50807952ce112770355d435e5f35b59d45f5ee0d5",
+          "match": true
+        },
+        {
+          "source_page": 262,
+          "output_page": 3,
+          "source_png_sha256": "71cc6f4bd0edc005445988a8774bdad2b05cb852f04cd475ce4ef035a40b4b2e",
+          "output_png_sha256": "71cc6f4bd0edc005445988a8774bdad2b05cb852f04cd475ce4ef035a40b4b2e",
+          "match": true
+        },
+        {
+          "source_page": 263,
+          "output_page": 4,
+          "source_png_sha256": "d580d088ded4495aa73bd113eaf77fa7fa7303fd6d382b9772868ea06d2728e4",
+          "output_png_sha256": "d580d088ded4495aa73bd113eaf77fa7fa7303fd6d382b9772868ea06d2728e4",
+          "match": true
+        }
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 4,
+      "audit_flags": [],
+      "restored_continuation_start": true,
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ]
+    }
+  },
+  {
+    "state": "Andra Pradesh",
+    "source_state": "Andra Pradesh",
+    "district": "Anantapur",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Andra Pradesh/1981 Anantapur.pdf",
+    "source_filename": "1981 Anantapur.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 600,
+    "output": "output/pdf/1981_trimmed/Andra Pradesh/civic amenities/1981_Anantapur_civic_amenities.pdf",
+    "source_pages_selected": [
+      376,
+      377
+    ],
+    "printed_page_labels": [
+      "264",
+      "265"
+    ],
+    "status": "Trimmed",
+    "reason": "Located from directory headings and continuation boundaries.",
+    "flags": [],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 376,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              632.16,
+              820.56
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              632.16,
+              820.56
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 377,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              632.16,
+              820.56
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              632.16,
+              820.56
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "audit_status": "pass",
+      "render_checks": [
+        {
+          "source_page": 376,
+          "output_page": 1,
+          "source_png_sha256": "182a5b1e7b975029743b4959385396a865e93a66a0fdc339b3b90d6ee7541570",
+          "output_png_sha256": "182a5b1e7b975029743b4959385396a865e93a66a0fdc339b3b90d6ee7541570",
+          "match": true
+        },
+        {
+          "source_page": 377,
+          "output_page": 2,
+          "source_png_sha256": "acb0e135c858423b2f95b3e20a7ccc136cb77ead9bbc707583ee8722be77341f",
+          "output_png_sha256": "acb0e135c858423b2f95b3e20a7ccc136cb77ead9bbc707583ee8722be77341f",
+          "match": true
+        }
+      ],
+      "rendered_pages": 2,
+      "audit_flags": [],
+      "content_flags": []
+    }
+  },
+  {
+    "state": "Andra Pradesh",
+    "source_state": "Andra Pradesh",
+    "district": "Anantapur",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Andra Pradesh/1981 Anantapur.pdf",
+    "source_filename": "1981 Anantapur.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 600,
+    "output": "output/pdf/1981_trimmed/Andra Pradesh/mededu/1981_Anantapur_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      382,
+      383
+    ],
+    "printed_page_labels": [
+      "270",
+      "271"
+    ],
+    "status": "Trimmed",
+    "reason": "Located from directory headings and continuation boundaries.",
+    "flags": [],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 382,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              632.16,
+              820.56
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              632.16,
+              820.56
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 383,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              632.16,
+              820.56
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              632.16,
+              820.56
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "audit_status": "pass",
+      "render_checks": [
+        {
+          "source_page": 382,
+          "output_page": 1,
+          "source_png_sha256": "bcbb0507724dbc8f0fae5e57350aa5d154a0129fd24c80555bc8172e891b73df",
+          "output_png_sha256": "bcbb0507724dbc8f0fae5e57350aa5d154a0129fd24c80555bc8172e891b73df",
+          "match": true
+        },
+        {
+          "source_page": 383,
+          "output_page": 2,
+          "source_png_sha256": "ab5692ffeba58a6b80acc66ecc21156b0851d49c22e325f85ab4706e538e3bff",
+          "output_png_sha256": "ab5692ffeba58a6b80acc66ecc21156b0851d49c22e325f85ab4706e538e3bff",
+          "match": true
+        }
+      ],
+      "rendered_pages": 2,
+      "audit_flags": [],
+      "content_flags": []
+    }
+  },
+  {
+    "state": "Andra Pradesh",
+    "source_state": "Andra Pradesh",
+    "district": "Anantapur",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Andra Pradesh/1981 Anantapur.pdf",
+    "source_filename": "1981 Anantapur.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 600,
+    "output": "output/pdf/1981_trimmed/Andra Pradesh/tehsil appendix/1981_Anantapur_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      278,
+      279,
+      280,
+      281
+    ],
+    "printed_page_labels": [
+      "168",
+      "169",
+      "170",
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Appendix I printed pages 168-171; source page 282 begins Appendix II/III.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 4,
+      "pages": [
+        {
+          "source_page": 278,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              632.16,
+              820.56
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              632.16,
+              820.56
+            ]
+          },
+          "rotation": 90
+        },
+        {
+          "source_page": 279,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              632.16,
+              820.56
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              632.16,
+              820.56
+            ]
+          },
+          "rotation": 90
+        },
+        {
+          "source_page": 280,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              632.16,
+              820.56
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              632.16,
+              820.56
+            ]
+          },
+          "rotation": 90
+        },
+        {
+          "source_page": 281,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              632.16,
+              820.56
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              632.16,
+              820.56
+            ]
+          },
+          "rotation": 90
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 278,
+          "output_page": 1,
+          "source_png_sha256": "ab1f839c609b50624312b7f029773e158e651f35b8031f2eb64d77d29ae5a558",
+          "output_png_sha256": "ab1f839c609b50624312b7f029773e158e651f35b8031f2eb64d77d29ae5a558",
+          "match": true
+        },
+        {
+          "source_page": 279,
+          "output_page": 2,
+          "source_png_sha256": "3bee10442bbcf7fa2a2fe456ed323872a245cc24cc286577445884e16a5f4786",
+          "output_png_sha256": "3bee10442bbcf7fa2a2fe456ed323872a245cc24cc286577445884e16a5f4786",
+          "match": true
+        },
+        {
+          "source_page": 280,
+          "output_page": 3,
+          "source_png_sha256": "9bd751afe5300838ad4045416c59e95c60a48d70bb1ad69109b55ca364a70da9",
+          "output_png_sha256": "9bd751afe5300838ad4045416c59e95c60a48d70bb1ad69109b55ca364a70da9",
+          "match": true
+        },
+        {
+          "source_page": 281,
+          "output_page": 4,
+          "source_png_sha256": "761e3140704cc456bd8fffef97032aceae33032fd63f063ae5390dab815217cf",
+          "output_png_sha256": "761e3140704cc456bd8fffef97032aceae33032fd63f063ae5390dab815217cf",
+          "match": true
+        }
+      ],
+      "rendered_pages": 4,
+      "audit_status": "pass",
+      "audit_flags": [],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ]
+    }
+  },
+  {
+    "state": "Andra Pradesh",
+    "source_state": "Andra Pradesh",
+    "district": "Chittoor",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Andra Pradesh/1981 Chittoor.pdf",
+    "source_filename": "1981 Chittoor.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 816,
+    "output": "output/pdf/1981_trimmed/Andra Pradesh/civic amenities/1981_Chittoor_civic_amenities.pdf",
+    "source_pages_selected": [
+      570,
+      571
+    ],
+    "printed_page_labels": [
+      "454",
+      "455"
+    ],
+    "status": "Trimmed",
+    "reason": "Located from directory headings and continuation boundaries.",
+    "flags": [],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 570,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              626.4,
+              830.4
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              626.4,
+              830.4
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 571,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              626.4,
+              830.4
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              626.4,
+              830.4
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "audit_status": "pass",
+      "render_checks": [
+        {
+          "source_page": 570,
+          "output_page": 1,
+          "source_png_sha256": "d145b76003cfb407da31d9cf53b20141170674a9e419219529b5c16ebb42ba0d",
+          "output_png_sha256": "d145b76003cfb407da31d9cf53b20141170674a9e419219529b5c16ebb42ba0d",
+          "match": true
+        },
+        {
+          "source_page": 571,
+          "output_page": 2,
+          "source_png_sha256": "4961e38219fe45b9f6285838fbf1d01dfa712341848d680b51651169a44476c4",
+          "output_png_sha256": "4961e38219fe45b9f6285838fbf1d01dfa712341848d680b51651169a44476c4",
+          "match": true
+        }
+      ],
+      "rendered_pages": 2,
+      "audit_flags": [],
+      "content_flags": []
+    }
+  },
+  {
+    "state": "Andra Pradesh",
+    "source_state": "Andra Pradesh",
+    "district": "Chittoor",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Andra Pradesh/1981 Chittoor.pdf",
+    "source_filename": "1981 Chittoor.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 816,
+    "output": "output/pdf/1981_trimmed/Andra Pradesh/mededu/1981_Chittoor_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      574,
+      575
+    ],
+    "printed_page_labels": [
+      "458",
+      "459"
+    ],
+    "status": "Trimmed",
+    "reason": "Located from directory headings and continuation boundaries.",
+    "flags": [],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 574,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              626.4,
+              830.4
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              626.4,
+              830.4
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 575,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              626.4,
+              830.4
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              626.4,
+              830.4
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "audit_status": "pass",
+      "render_checks": [
+        {
+          "source_page": 574,
+          "output_page": 1,
+          "source_png_sha256": "9683bd45ab85f3ebf2275d1ecd3b20b8b9c70e84b2b2b22bdae3cac9f7952926",
+          "output_png_sha256": "9683bd45ab85f3ebf2275d1ecd3b20b8b9c70e84b2b2b22bdae3cac9f7952926",
+          "match": true
+        },
+        {
+          "source_page": 575,
+          "output_page": 2,
+          "source_png_sha256": "2f09c9d52092c799be15fb925e5f08f8fd1a3019b48579abe104928f94a292c6",
+          "output_png_sha256": "2f09c9d52092c799be15fb925e5f08f8fd1a3019b48579abe104928f94a292c6",
+          "match": true
+        }
+      ],
+      "rendered_pages": 2,
+      "audit_flags": [],
+      "content_flags": []
+    }
+  },
+  {
+    "state": "Andra Pradesh",
+    "source_state": "Andra Pradesh",
+    "district": "Chittoor",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Andra Pradesh/1981 Chittoor.pdf",
+    "source_filename": "1981 Chittoor.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 816,
+    "output": "output/pdf/1981_trimmed/Andra Pradesh/tehsil appendix/1981_Chittoor_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      340,
+      341,
+      342,
+      343
+    ],
+    "printed_page_labels": [
+      "224",
+      "225",
+      "226",
+      "227"
+    ],
+    "status": "Trimmed",
+    "reason": "Appendix I printed pages 224-227; source page 344 begins Appendix II.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 4,
+      "pages": [
+        {
+          "source_page": 340,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              626.4,
+              830.4
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              626.4,
+              830.4
+            ]
+          },
+          "rotation": 90
+        },
+        {
+          "source_page": 341,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              626.4,
+              830.4
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              626.4,
+              830.4
+            ]
+          },
+          "rotation": 90
+        },
+        {
+          "source_page": 342,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              626.4,
+              830.4
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              626.4,
+              830.4
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 343,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              626.4,
+              830.4
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              626.4,
+              830.4
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 340,
+          "output_page": 1,
+          "source_png_sha256": "dcd10cf9f97c77cbae63eb185d116ab58bb4b0889c9a181e0dcabe82ad0cf333",
+          "output_png_sha256": "dcd10cf9f97c77cbae63eb185d116ab58bb4b0889c9a181e0dcabe82ad0cf333",
+          "match": true
+        },
+        {
+          "source_page": 341,
+          "output_page": 2,
+          "source_png_sha256": "8c2b77d4ae792736a265ee6b4e16f0bc6ac036d3d789d9a3b1ebf705f76b2186",
+          "output_png_sha256": "8c2b77d4ae792736a265ee6b4e16f0bc6ac036d3d789d9a3b1ebf705f76b2186",
+          "match": true
+        },
+        {
+          "source_page": 342,
+          "output_page": 3,
+          "source_png_sha256": "977c84f129cf14bc45c89709a8d59592f00e6340b5fc149709384eae9c24797a",
+          "output_png_sha256": "977c84f129cf14bc45c89709a8d59592f00e6340b5fc149709384eae9c24797a",
+          "match": true
+        },
+        {
+          "source_page": 343,
+          "output_page": 4,
+          "source_png_sha256": "d928f4ab2e90c0cbd4c3c7fb37d34d2c7b790e39ba90a99a93ba38c5349e722c",
+          "output_png_sha256": "d928f4ab2e90c0cbd4c3c7fb37d34d2c7b790e39ba90a99a93ba38c5349e722c",
+          "match": true
+        }
+      ],
+      "rendered_pages": 4,
+      "audit_status": "pass",
+      "audit_flags": [],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ]
+    }
+  },
+  {
+    "state": "Andra Pradesh",
+    "source_state": "Andra Pradesh",
+    "district": "Cuddapah",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Andra Pradesh/1981 Cuddapah.pdf",
+    "source_filename": "1981 Cuddapah.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 555,
+    "output": "output/pdf/1981_trimmed/Andra Pradesh/civic amenities/1981_Cuddapah_civic_amenities.pdf",
+    "source_pages_selected": [
+      366,
+      367
+    ],
+    "printed_page_labels": [
+      null,
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Statement IV spans source pages 366-367; source page 367 also begins Statement IV-A at the bottom, and source page 368 begins Statement V.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 366,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              604.08,
+              806.4
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              604.08,
+              806.4
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 367,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              604.08,
+              806.4
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              604.08,
+              806.4
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 366,
+          "output_page": 1,
+          "source_png_sha256": "012596fd242b1a21426aca4b2b58cf2903aa5bae8c1da0858e16f3e8e7bba142",
+          "output_png_sha256": "012596fd242b1a21426aca4b2b58cf2903aa5bae8c1da0858e16f3e8e7bba142",
+          "match": true
+        },
+        {
+          "source_page": 367,
+          "output_page": 2,
+          "source_png_sha256": "13163c48d009a2527bfd5bb7d5e3e1e5328b843a6210b85820d9dcdc47e7d20c",
+          "output_png_sha256": "13163c48d009a2527bfd5bb7d5e3e1e5328b843a6210b85820d9dcdc47e7d20c",
+          "match": true
+        }
+      ],
+      "rendered_pages": 2,
+      "audit_status": "pass",
+      "audit_flags": [],
+      "content_flags": []
+    }
+  },
+  {
+    "state": "Andra Pradesh",
+    "source_state": "Andra Pradesh",
+    "district": "Cuddapah",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Andra Pradesh/1981 Cuddapah.pdf",
+    "source_filename": "1981 Cuddapah.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 555,
+    "output": "output/pdf/1981_trimmed/Andra Pradesh/mededu/1981_Cuddapah_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      368,
+      369
+    ],
+    "printed_page_labels": [
+      null,
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Located from directory headings and continuation boundaries.",
+    "flags": [],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 368,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              604.08,
+              806.4
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              604.08,
+              806.4
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 369,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              604.08,
+              806.4
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              604.08,
+              806.4
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "audit_status": "pass",
+      "render_checks": [
+        {
+          "source_page": 368,
+          "output_page": 1,
+          "source_png_sha256": "2f09ccc404fece29ecaa3c0ba957b1b8e2d383fb6566a37a56d4b625376ed69b",
+          "output_png_sha256": "2f09ccc404fece29ecaa3c0ba957b1b8e2d383fb6566a37a56d4b625376ed69b",
+          "match": true
+        },
+        {
+          "source_page": 369,
+          "output_page": 2,
+          "source_png_sha256": "66a93d9150e445d86495b4ef6c2d9a3475d9739ad494330bfb7a4fa1654d5ef3",
+          "output_png_sha256": "66a93d9150e445d86495b4ef6c2d9a3475d9739ad494330bfb7a4fa1654d5ef3",
+          "match": true
+        }
+      ],
+      "rendered_pages": 2,
+      "audit_flags": [],
+      "content_flags": []
+    }
+  },
+  {
+    "state": "Andra Pradesh",
+    "source_state": "Andra Pradesh",
+    "district": "Cuddapah",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Andra Pradesh/1981 Cuddapah.pdf",
+    "source_filename": "1981 Cuddapah.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 555,
+    "output": "output/pdf/1981_trimmed/Andra Pradesh/tehsil appendix/1981_Cuddapah_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      246,
+      247,
+      248,
+      249
+    ],
+    "printed_page_labels": [
+      null,
+      null,
+      "152",
+      "153"
+    ],
+    "status": "Trimmed",
+    "reason": "Appendix I printed pages 150-153; source page 250 begins Appendix II.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 4,
+      "pages": [
+        {
+          "source_page": 246,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              604.08,
+              806.4
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              604.08,
+              806.4
+            ]
+          },
+          "rotation": 90
+        },
+        {
+          "source_page": 247,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              604.08,
+              806.4
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              604.08,
+              806.4
+            ]
+          },
+          "rotation": 90
+        },
+        {
+          "source_page": 248,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              604.08,
+              806.4
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              604.08,
+              806.4
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 249,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              604.08,
+              806.4
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              604.08,
+              806.4
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 246,
+          "output_page": 1,
+          "source_png_sha256": "cc6ad9337ee4a51b3051fd3f069b074e063ffeac79d6a13262a0597dfc52f783",
+          "output_png_sha256": "cc6ad9337ee4a51b3051fd3f069b074e063ffeac79d6a13262a0597dfc52f783",
+          "match": true
+        },
+        {
+          "source_page": 247,
+          "output_page": 2,
+          "source_png_sha256": "94c0836419d77c479138b8cda02c8ac73743475503a444890721a3fc91f78130",
+          "output_png_sha256": "94c0836419d77c479138b8cda02c8ac73743475503a444890721a3fc91f78130",
+          "match": true
+        },
+        {
+          "source_page": 248,
+          "output_page": 3,
+          "source_png_sha256": "94c4c938173224a82c0162a0f24ee5e7729289043a9e7d782b7866135ef5ffe4",
+          "output_png_sha256": "94c4c938173224a82c0162a0f24ee5e7729289043a9e7d782b7866135ef5ffe4",
+          "match": true
+        },
+        {
+          "source_page": 249,
+          "output_page": 4,
+          "source_png_sha256": "2362839144f3d62b96347f778079fc92af0dbb080611c160ea650d253f6e7114",
+          "output_png_sha256": "2362839144f3d62b96347f778079fc92af0dbb080611c160ea650d253f6e7114",
+          "match": true
+        }
+      ],
+      "rendered_pages": 4,
+      "audit_status": "pass",
+      "audit_flags": [],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ]
+    }
+  },
+  {
+    "state": "Andra Pradesh",
+    "source_state": "Andra Pradesh",
+    "district": "East Godavari",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Andra Pradesh/1981 East Godavari.pdf",
+    "source_filename": "1981 East Godavari.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 763,
+    "output": "output/pdf/1981_trimmed/Andra Pradesh/civic amenities/1981_East Godavari_civic_amenities.pdf",
+    "source_pages_selected": [
+      390,
+      391
+    ],
+    "printed_page_labels": [
+      "268",
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Located from directory headings and continuation boundaries.",
+    "flags": [],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 390,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              607.68,
+              816.72
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              607.68,
+              816.72
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 391,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              607.68,
+              816.72
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              607.68,
+              816.72
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "audit_status": "pass",
+      "render_checks": [
+        {
+          "source_page": 390,
+          "output_page": 1,
+          "source_png_sha256": "1fa19a3c2da7fb130921b3a26e46b4bcc00b5eed9e79866e82c799c3859de766",
+          "output_png_sha256": "1fa19a3c2da7fb130921b3a26e46b4bcc00b5eed9e79866e82c799c3859de766",
+          "match": true
+        },
+        {
+          "source_page": 391,
+          "output_page": 2,
+          "source_png_sha256": "12c637b96723ba0af252604a0ef787709a7ed27c27d7e8ba75b9f847384610a9",
+          "output_png_sha256": "12c637b96723ba0af252604a0ef787709a7ed27c27d7e8ba75b9f847384610a9",
+          "match": true
+        }
+      ],
+      "rendered_pages": 2,
+      "audit_flags": [],
+      "content_flags": []
+    }
+  },
+  {
+    "state": "Andra Pradesh",
+    "source_state": "Andra Pradesh",
+    "district": "East Godavari",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Andra Pradesh/1981 East Godavari.pdf",
+    "source_filename": "1981 East Godavari.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 763,
+    "output": "output/pdf/1981_trimmed/Andra Pradesh/mededu/1981_East Godavari_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      394,
+      395,
+      396,
+      397
+    ],
+    "printed_page_labels": [
+      "272",
+      null,
+      "274",
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Located from directory headings and continuation boundaries.",
+    "flags": [],
+    "verification": {
+      "output_pages": 4,
+      "pages": [
+        {
+          "source_page": 394,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              607.68,
+              816.72
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              607.68,
+              816.72
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 395,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              607.68,
+              816.72
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              607.68,
+              816.72
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 396,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              607.68,
+              816.72
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              607.68,
+              816.72
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 397,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              607.68,
+              816.72
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              607.68,
+              816.72
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "audit_status": "pass",
+      "render_checks": [
+        {
+          "source_page": 394,
+          "output_page": 1,
+          "source_png_sha256": "c07a88bed05a46ffc9949c913106494cb4af7d2b4320e784486bdfcd701e49f0",
+          "output_png_sha256": "c07a88bed05a46ffc9949c913106494cb4af7d2b4320e784486bdfcd701e49f0",
+          "match": true
+        },
+        {
+          "source_page": 395,
+          "output_page": 2,
+          "source_png_sha256": "338a12c5989dedc8f968bb36dc35c7b71eff664790ee7e83f6ce6b1bf976a303",
+          "output_png_sha256": "338a12c5989dedc8f968bb36dc35c7b71eff664790ee7e83f6ce6b1bf976a303",
+          "match": true
+        },
+        {
+          "source_page": 396,
+          "output_page": 3,
+          "source_png_sha256": "368df5da28478294304bae0dbfdf725cf2a7301e1daf181d22e93ba6ef64ea85",
+          "output_png_sha256": "368df5da28478294304bae0dbfdf725cf2a7301e1daf181d22e93ba6ef64ea85",
+          "match": true
+        },
+        {
+          "source_page": 397,
+          "output_page": 4,
+          "source_png_sha256": "b4a5a5709e4819996ca9f9afdb40263b25df1910a4cf0d916a67bd830328cc3c",
+          "output_png_sha256": "b4a5a5709e4819996ca9f9afdb40263b25df1910a4cf0d916a67bd830328cc3c",
+          "match": true
+        }
+      ],
+      "rendered_pages": 4,
+      "audit_flags": [],
+      "content_flags": []
+    }
+  },
+  {
+    "state": "Andra Pradesh",
+    "source_state": "Andra Pradesh",
+    "district": "East Godavari",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Andra Pradesh/1981 East Godavari.pdf",
+    "source_filename": "1981 East Godavari.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 763,
+    "output": "output/pdf/1981_trimmed/Andra Pradesh/tehsil appendix/1981_East Godavari_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      306,
+      307,
+      308,
+      309
+    ],
+    "printed_page_labels": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Appendix I printed pages 186-189; source page 310 begins Appendix II.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 4,
+      "pages": [
+        {
+          "source_page": 306,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              607.68,
+              816.72
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              607.68,
+              816.72
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 307,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              607.68,
+              816.72
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              607.68,
+              816.72
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 308,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              607.68,
+              816.72
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              607.68,
+              816.72
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 309,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              607.68,
+              816.72
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              607.68,
+              816.72
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 306,
+          "output_page": 1,
+          "source_png_sha256": "77781e914e746939af9c891cf668c9ec390d16c9adda0ae7b84dc20134938964",
+          "output_png_sha256": "77781e914e746939af9c891cf668c9ec390d16c9adda0ae7b84dc20134938964",
+          "match": true
+        },
+        {
+          "source_page": 307,
+          "output_page": 2,
+          "source_png_sha256": "3bc5196ab9ac0e33468cb4038b3fa7ee7f85823920b9a449143864b8ea9e4a40",
+          "output_png_sha256": "3bc5196ab9ac0e33468cb4038b3fa7ee7f85823920b9a449143864b8ea9e4a40",
+          "match": true
+        },
+        {
+          "source_page": 308,
+          "output_page": 3,
+          "source_png_sha256": "fd427335a996ceb6800bd70afeffa56740c46f8aa05c6ea4736e08910900deb2",
+          "output_png_sha256": "fd427335a996ceb6800bd70afeffa56740c46f8aa05c6ea4736e08910900deb2",
+          "match": true
+        },
+        {
+          "source_page": 309,
+          "output_page": 4,
+          "source_png_sha256": "c4eb3b156a4fe64197c7e31c1a7aa1a003634ce21fc6821d79e29b935fc79418",
+          "output_png_sha256": "c4eb3b156a4fe64197c7e31c1a7aa1a003634ce21fc6821d79e29b935fc79418",
+          "match": true
+        }
+      ],
+      "rendered_pages": 4,
+      "audit_status": "pass",
+      "audit_flags": [],
+      "content_flags": []
+    }
+  },
+  {
+    "state": "Andra Pradesh",
+    "source_state": "Andra Pradesh",
+    "district": "Guntur",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Andra Pradesh/1981 Guntur.pdf",
+    "source_filename": "1981 Guntur.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 660,
+    "output": "output/pdf/1981_trimmed/Andra Pradesh/civic amenities/1981_Guntur_civic_amenities.pdf",
+    "source_pages_selected": [
+      331,
+      332
+    ],
+    "printed_page_labels": [
+      "198",
+      "199"
+    ],
+    "status": "Trimmed",
+    "reason": "Located from directory headings and continuation boundaries.",
+    "flags": [],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 331,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              602.88,
+              810.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              602.88,
+              810.96
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 332,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              602.88,
+              810.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              602.88,
+              810.96
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "audit_status": "pass",
+      "render_checks": [
+        {
+          "source_page": 331,
+          "output_page": 1,
+          "source_png_sha256": "3866d7fcd39d6f9b64165823169c7bfb6873ed9368cf3774c8462b63a55fc402",
+          "output_png_sha256": "3866d7fcd39d6f9b64165823169c7bfb6873ed9368cf3774c8462b63a55fc402",
+          "match": true
+        },
+        {
+          "source_page": 332,
+          "output_page": 2,
+          "source_png_sha256": "6b6b09b3fc73ef32ada25324a0ac253dd2b16bd09b8ae98f5ac231de5933f5ba",
+          "output_png_sha256": "6b6b09b3fc73ef32ada25324a0ac253dd2b16bd09b8ae98f5ac231de5933f5ba",
+          "match": true
+        }
+      ],
+      "rendered_pages": 2,
+      "audit_flags": [],
+      "content_flags": []
+    }
+  },
+  {
+    "state": "Andra Pradesh",
+    "source_state": "Andra Pradesh",
+    "district": "Guntur",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Andra Pradesh/1981 Guntur.pdf",
+    "source_filename": "1981 Guntur.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 660,
+    "output": "output/pdf/1981_trimmed/Andra Pradesh/mededu/1981_Guntur_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      335,
+      336,
+      337,
+      338
+    ],
+    "printed_page_labels": [
+      "202",
+      "203",
+      "204",
+      "205"
+    ],
+    "status": "Trimmed",
+    "reason": "Located from directory headings and continuation boundaries.",
+    "flags": [],
+    "verification": {
+      "output_pages": 4,
+      "pages": [
+        {
+          "source_page": 335,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              602.88,
+              810.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              602.88,
+              810.96
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 336,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              602.88,
+              810.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              602.88,
+              810.96
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 337,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              602.88,
+              810.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              602.88,
+              810.96
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 338,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              602.88,
+              810.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              602.88,
+              810.96
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "audit_status": "pass",
+      "render_checks": [
+        {
+          "source_page": 335,
+          "output_page": 1,
+          "source_png_sha256": "a7bb725bb4bdb3f408d895486e37d7bd26abfe572f70df5c44d7e7c43e71a504",
+          "output_png_sha256": "a7bb725bb4bdb3f408d895486e37d7bd26abfe572f70df5c44d7e7c43e71a504",
+          "match": true
+        },
+        {
+          "source_page": 336,
+          "output_page": 2,
+          "source_png_sha256": "7d3e920536e5d7a0a2aa4ae2c3a6dd373aa21800ee5d3dd03a90b4705688ce20",
+          "output_png_sha256": "7d3e920536e5d7a0a2aa4ae2c3a6dd373aa21800ee5d3dd03a90b4705688ce20",
+          "match": true
+        },
+        {
+          "source_page": 337,
+          "output_page": 3,
+          "source_png_sha256": "6d77ba90fc5e75cf07607f623da55eb0b550a12b3ad8f0b9e4cb26c61a5ad7b1",
+          "output_png_sha256": "6d77ba90fc5e75cf07607f623da55eb0b550a12b3ad8f0b9e4cb26c61a5ad7b1",
+          "match": true
+        },
+        {
+          "source_page": 338,
+          "output_page": 4,
+          "source_png_sha256": "5df6fa7a824fb927c64d6fcc99caff13ea9a37084d68033d6d28c76313154657",
+          "output_png_sha256": "5df6fa7a824fb927c64d6fcc99caff13ea9a37084d68033d6d28c76313154657",
+          "match": true
+        }
+      ],
+      "rendered_pages": 4,
+      "audit_flags": [],
+      "content_flags": []
+    }
+  },
+  {
+    "state": "Andra Pradesh",
+    "source_state": "Andra Pradesh",
+    "district": "Guntur",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Andra Pradesh/1981 Guntur.pdf",
+    "source_filename": "1981 Guntur.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 660,
+    "output": "output/pdf/1981_trimmed/Andra Pradesh/tehsil appendix/1981_Guntur_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      265,
+      266,
+      267,
+      268
+    ],
+    "printed_page_labels": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Appendix I printed pages 134-137; source page 269 begins Appendix II.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 4,
+      "pages": [
+        {
+          "source_page": 265,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              602.88,
+              810.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              602.88,
+              810.96
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 266,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              602.88,
+              810.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              602.88,
+              810.96
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 267,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              602.88,
+              810.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              602.88,
+              810.96
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 268,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              602.88,
+              810.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              602.88,
+              810.96
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 265,
+          "output_page": 1,
+          "source_png_sha256": "6b353536de28290e8e6828f2776bd7e7a2ddb18efc9253cce6f23d85f197e520",
+          "output_png_sha256": "6b353536de28290e8e6828f2776bd7e7a2ddb18efc9253cce6f23d85f197e520",
+          "match": true
+        },
+        {
+          "source_page": 266,
+          "output_page": 2,
+          "source_png_sha256": "6bf6153de5b52c326ed3119ad56ce67b0bd9da198ef56baa8734cf63e3400873",
+          "output_png_sha256": "6bf6153de5b52c326ed3119ad56ce67b0bd9da198ef56baa8734cf63e3400873",
+          "match": true
+        },
+        {
+          "source_page": 267,
+          "output_page": 3,
+          "source_png_sha256": "d61e4ce48c50506ca5b7dd85d74e5b903a8597aa9ceeaf5fe280f5349acd3b7c",
+          "output_png_sha256": "d61e4ce48c50506ca5b7dd85d74e5b903a8597aa9ceeaf5fe280f5349acd3b7c",
+          "match": true
+        },
+        {
+          "source_page": 268,
+          "output_page": 4,
+          "source_png_sha256": "2f50832068f35177f38ada82d493a15b29bd556a424cfd717088a6be5ee59708",
+          "output_png_sha256": "2f50832068f35177f38ada82d493a15b29bd556a424cfd717088a6be5ee59708",
+          "match": true
+        }
+      ],
+      "rendered_pages": 4,
+      "audit_status": "pass",
+      "audit_flags": [],
+      "content_flags": []
+    }
+  },
+  {
+    "state": "Andra Pradesh",
+    "source_state": "Andra Pradesh",
+    "district": "Hyderabad",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Andra Pradesh/1981 Hyderabad.pdf",
+    "source_filename": "1981 Hyderabad.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 488,
+    "output": "output/pdf/1981_trimmed/Andra Pradesh/civic amenities/1981_Hyderabad_civic_amenities.pdf",
+    "source_pages_selected": [
+      85,
+      86,
+      87,
+      88
+    ],
+    "printed_page_labels": [
+      "32",
+      "33",
+      "34",
+      "35"
+    ],
+    "status": "Trimmed",
+    "reason": "Located from directory headings and continuation boundaries.",
+    "flags": [],
+    "verification": {
+      "output_pages": 4,
+      "pages": [
+        {
+          "source_page": 85,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              659.76,
+              848.88
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              659.76,
+              848.88
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 86,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              659.76,
+              848.88
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              659.76,
+              848.88
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 87,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              659.76,
+              848.88
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              659.76,
+              848.88
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 88,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              659.76,
+              848.88
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              659.76,
+              848.88
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "audit_status": "pass",
+      "render_checks": [
+        {
+          "source_page": 85,
+          "output_page": 1,
+          "source_png_sha256": "bb6794f97330ca65dd3c180bb99e05bb7d9186f56f3cb8ae92becb29b584e3ac",
+          "output_png_sha256": "bb6794f97330ca65dd3c180bb99e05bb7d9186f56f3cb8ae92becb29b584e3ac",
+          "match": true
+        },
+        {
+          "source_page": 86,
+          "output_page": 2,
+          "source_png_sha256": "c97bd1d532628024b28fd030f819fd8d468770098d806d7839148ecfbafd3715",
+          "output_png_sha256": "c97bd1d532628024b28fd030f819fd8d468770098d806d7839148ecfbafd3715",
+          "match": true
+        },
+        {
+          "source_page": 87,
+          "output_page": 3,
+          "source_png_sha256": "6f8a4f56828d4765c368bc1afb15a5253092990b6b217ea052050e9176a44d38",
+          "output_png_sha256": "6f8a4f56828d4765c368bc1afb15a5253092990b6b217ea052050e9176a44d38",
+          "match": true
+        },
+        {
+          "source_page": 88,
+          "output_page": 4,
+          "source_png_sha256": "01c43e45caea599a11293c2d0fd0845d967d2467054c3ff0ac196bb391851596",
+          "output_png_sha256": "01c43e45caea599a11293c2d0fd0845d967d2467054c3ff0ac196bb391851596",
+          "match": true
+        }
+      ],
+      "rendered_pages": 4,
+      "audit_flags": [],
+      "content_flags": []
+    }
+  },
+  {
+    "state": "Andra Pradesh",
+    "source_state": "Andra Pradesh",
+    "district": "Hyderabad",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Andra Pradesh/1981 Hyderabad.pdf",
+    "source_filename": "1981 Hyderabad.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 488,
+    "output": "output/pdf/1981_trimmed/Andra Pradesh/mededu/1981_Hyderabad_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      111,
+      112,
+      113,
+      114
+    ],
+    "printed_page_labels": [
+      "58",
+      null,
+      "60",
+      "61"
+    ],
+    "status": "Trimmed",
+    "reason": "Located from directory headings and continuation boundaries.",
+    "flags": [],
+    "verification": {
+      "output_pages": 4,
+      "pages": [
+        {
+          "source_page": 111,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              659.76,
+              848.88
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              659.76,
+              848.88
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 112,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              659.76,
+              848.88
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              659.76,
+              848.88
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 113,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              659.76,
+              848.88
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              659.76,
+              848.88
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 114,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              659.76,
+              848.88
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              659.76,
+              848.88
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "audit_status": "pass",
+      "render_checks": [
+        {
+          "source_page": 111,
+          "output_page": 1,
+          "source_png_sha256": "013f37ce54799e75f70f0cc90215a8f1e16eebe077ed096ad388296d314e04c1",
+          "output_png_sha256": "013f37ce54799e75f70f0cc90215a8f1e16eebe077ed096ad388296d314e04c1",
+          "match": true
+        },
+        {
+          "source_page": 112,
+          "output_page": 2,
+          "source_png_sha256": "1b0ff72b6598171d99cd2fdee4d89f101de5aa8a1cd373b4785cd2d9dc36874d",
+          "output_png_sha256": "1b0ff72b6598171d99cd2fdee4d89f101de5aa8a1cd373b4785cd2d9dc36874d",
+          "match": true
+        },
+        {
+          "source_page": 113,
+          "output_page": 3,
+          "source_png_sha256": "8797a05a04daa7249af213ad24425765952fdde44499bda2b63239f19914ccbd",
+          "output_png_sha256": "8797a05a04daa7249af213ad24425765952fdde44499bda2b63239f19914ccbd",
+          "match": true
+        },
+        {
+          "source_page": 114,
+          "output_page": 4,
+          "source_png_sha256": "1d3be1683cdd8ef2de3b28e0e8e5c22eaf5e2ec12cdcb7969562ccbeb2aeacda",
+          "output_png_sha256": "1d3be1683cdd8ef2de3b28e0e8e5c22eaf5e2ec12cdcb7969562ccbeb2aeacda",
+          "match": true
+        }
+      ],
+      "rendered_pages": 4,
+      "audit_flags": [],
+      "content_flags": []
+    }
+  },
+  {
+    "state": "Andra Pradesh",
+    "source_state": "Andra Pradesh",
+    "district": "Hyderabad",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Andra Pradesh/1981 Hyderabad.pdf",
+    "source_filename": "1981 Hyderabad.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 488,
+    "output": null,
+    "source_pages_selected": [],
+    "printed_page_labels": [],
+    "status": "Not trimmed",
+    "reason": "Visual contents and directory structure show no Tehsil/Taluk-wise amenities appendix in this volume.",
+    "flags": [
+      "manual_absent_or_ineligible"
+    ],
+    "verification": null
+  },
+  {
+    "state": "Andra Pradesh",
+    "source_state": "Andra Pradesh",
+    "district": "Karimnagar",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Andra Pradesh/1981 Karimnagar.pdf",
+    "source_filename": "1981 Karimnagar.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 556,
+    "output": "output/pdf/1981_trimmed/Andra Pradesh/civic amenities/1981_Karimnagar_civic_amenities.pdf",
+    "source_pages_selected": [
+      366,
+      367
+    ],
+    "printed_page_labels": [
+      "276",
+      "277"
+    ],
+    "status": "Trimmed",
+    "reason": "Located from directory headings and continuation boundaries.",
+    "flags": [],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 366,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              648.0,
+              829.44
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              648.0,
+              829.44
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 367,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              648.0,
+              829.44
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              648.0,
+              829.44
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "audit_status": "pass",
+      "render_checks": [
+        {
+          "source_page": 366,
+          "output_page": 1,
+          "source_png_sha256": "d2969f051afeba6ea9264c27c115e79921c83216e25c5ccdbc9da14c2ebabeaf",
+          "output_png_sha256": "d2969f051afeba6ea9264c27c115e79921c83216e25c5ccdbc9da14c2ebabeaf",
+          "match": true
+        },
+        {
+          "source_page": 367,
+          "output_page": 2,
+          "source_png_sha256": "3557726bcd3cabddc85ce513080d2b4bf471503010e3f8441b6360e8d1bf833b",
+          "output_png_sha256": "3557726bcd3cabddc85ce513080d2b4bf471503010e3f8441b6360e8d1bf833b",
+          "match": true
+        }
+      ],
+      "rendered_pages": 2,
+      "audit_flags": [],
+      "content_flags": []
+    }
+  },
+  {
+    "state": "Andra Pradesh",
+    "source_state": "Andra Pradesh",
+    "district": "Karimnagar",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Andra Pradesh/1981 Karimnagar.pdf",
+    "source_filename": "1981 Karimnagar.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 556,
+    "output": "output/pdf/1981_trimmed/Andra Pradesh/mededu/1981_Karimnagar_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      370,
+      371
+    ],
+    "printed_page_labels": [
+      "280",
+      "281"
+    ],
+    "status": "Trimmed",
+    "reason": "Located from directory headings and continuation boundaries.",
+    "flags": [],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 370,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              648.0,
+              829.44
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              648.0,
+              829.44
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 371,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              648.0,
+              829.44
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              648.0,
+              829.44
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "audit_status": "pass",
+      "render_checks": [
+        {
+          "source_page": 370,
+          "output_page": 1,
+          "source_png_sha256": "9fa2e2c3728bbd0e43f0d5f842d7cb26001f787faab839c563d6783dc1bf08d5",
+          "output_png_sha256": "9fa2e2c3728bbd0e43f0d5f842d7cb26001f787faab839c563d6783dc1bf08d5",
+          "match": true
+        },
+        {
+          "source_page": 371,
+          "output_page": 2,
+          "source_png_sha256": "dfa6f0b1f9bc0bcdb73b3e487eb8d820fcee756f74c2cf9bbe3445b8da56fa92",
+          "output_png_sha256": "dfa6f0b1f9bc0bcdb73b3e487eb8d820fcee756f74c2cf9bbe3445b8da56fa92",
+          "match": true
+        }
+      ],
+      "rendered_pages": 2,
+      "audit_flags": [],
+      "content_flags": []
+    }
+  },
+  {
+    "state": "Andra Pradesh",
+    "source_state": "Andra Pradesh",
+    "district": "Karimnagar",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Andra Pradesh/1981 Karimnagar.pdf",
+    "source_filename": "1981 Karimnagar.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 556,
+    "output": "output/pdf/1981_trimmed/Andra Pradesh/tehsil appendix/1981_Karimnagar_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      286,
+      287,
+      288,
+      289
+    ],
+    "printed_page_labels": [
+      "196",
+      "197",
+      "198",
+      "199"
+    ],
+    "status": "Trimmed",
+    "reason": "Appendix I printed pages 196-199; source page 290 begins Appendix II.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 4,
+      "pages": [
+        {
+          "source_page": 286,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              648.0,
+              829.44
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              648.0,
+              829.44
+            ]
+          },
+          "rotation": 90
+        },
+        {
+          "source_page": 287,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              648.0,
+              829.44
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              648.0,
+              829.44
+            ]
+          },
+          "rotation": 90
+        },
+        {
+          "source_page": 288,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              648.0,
+              829.44
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              648.0,
+              829.44
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 289,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              648.0,
+              829.44
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              648.0,
+              829.44
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 286,
+          "output_page": 1,
+          "source_png_sha256": "53b9829bef132a039557d6b2dc066e8b4edf9490501bf1f557f55aa00aafc28c",
+          "output_png_sha256": "53b9829bef132a039557d6b2dc066e8b4edf9490501bf1f557f55aa00aafc28c",
+          "match": true
+        },
+        {
+          "source_page": 287,
+          "output_page": 2,
+          "source_png_sha256": "1e2676661d78d432e802f473e4989444e070498209f784507a33bea824c1cd56",
+          "output_png_sha256": "1e2676661d78d432e802f473e4989444e070498209f784507a33bea824c1cd56",
+          "match": true
+        },
+        {
+          "source_page": 288,
+          "output_page": 3,
+          "source_png_sha256": "61535a34a3f7b7494feef740010e1095006092afee215e453138602c90650e31",
+          "output_png_sha256": "61535a34a3f7b7494feef740010e1095006092afee215e453138602c90650e31",
+          "match": true
+        },
+        {
+          "source_page": 289,
+          "output_page": 4,
+          "source_png_sha256": "141bd9d7f825934ba37462f2c3a060bab9e02e512a9db1ba7c65ca990c71409a",
+          "output_png_sha256": "141bd9d7f825934ba37462f2c3a060bab9e02e512a9db1ba7c65ca990c71409a",
+          "match": true
+        }
+      ],
+      "rendered_pages": 4,
+      "audit_status": "pass",
+      "audit_flags": [],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ]
+    }
+  },
+  {
+    "state": "Andra Pradesh",
+    "source_state": "Andra Pradesh",
+    "district": "Khammam",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Andra Pradesh/1981 Khammam.pdf",
+    "source_filename": "1981 Khammam.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 513,
+    "output": "output/pdf/1981_trimmed/Andra Pradesh/civic amenities/1981_Khammam_civic_amenities.pdf",
+    "source_pages_selected": [
+      340,
+      341
+    ],
+    "printed_page_labels": [
+      "246",
+      "247"
+    ],
+    "status": "Trimmed",
+    "reason": "Statement IV printed pages 246-247; source page 342 begins Statement IV-A.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 340,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              936.96,
+              832.56
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              936.96,
+              832.56
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 341,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              936.96,
+              832.56
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              936.96,
+              832.56
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 340,
+          "output_page": 1,
+          "source_png_sha256": "f401d78717143593fc205f0e0dd1b9ce009effe226631530dfc15318890b9662",
+          "output_png_sha256": "f401d78717143593fc205f0e0dd1b9ce009effe226631530dfc15318890b9662",
+          "match": true
+        },
+        {
+          "source_page": 341,
+          "output_page": 2,
+          "source_png_sha256": "fb22ff1df7bf2f5c10f3b8ea2c41197a854da9badbbfa855d6369b599435add0",
+          "output_png_sha256": "fb22ff1df7bf2f5c10f3b8ea2c41197a854da9badbbfa855d6369b599435add0",
+          "match": true
+        }
+      ],
+      "rendered_pages": 2,
+      "audit_status": "pass",
+      "audit_flags": [],
+      "content_flags": []
+    }
+  },
+  {
+    "state": "Andra Pradesh",
+    "source_state": "Andra Pradesh",
+    "district": "Khammam",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Andra Pradesh/1981 Khammam.pdf",
+    "source_filename": "1981 Khammam.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 513,
+    "output": "output/pdf/1981_trimmed/Andra Pradesh/mededu/1981_Khammam_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      344,
+      345
+    ],
+    "printed_page_labels": [
+      "250",
+      "251"
+    ],
+    "status": "Trimmed",
+    "reason": "Located from directory headings and continuation boundaries.",
+    "flags": [],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 344,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              936.96,
+              832.56
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              936.96,
+              832.56
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 345,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              936.96,
+              832.56
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              936.96,
+              832.56
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "audit_status": "pass",
+      "render_checks": [
+        {
+          "source_page": 344,
+          "output_page": 1,
+          "source_png_sha256": "840ce5326b490d898b53604fd586640142d0e315f862406c741d8fb28b51f5b7",
+          "output_png_sha256": "840ce5326b490d898b53604fd586640142d0e315f862406c741d8fb28b51f5b7",
+          "match": true
+        },
+        {
+          "source_page": 345,
+          "output_page": 2,
+          "source_png_sha256": "357d998137a3b2d79c4fc319056fc4f2db9a9f15ae1f9e5bfcf38fe8fa1efd51",
+          "output_png_sha256": "357d998137a3b2d79c4fc319056fc4f2db9a9f15ae1f9e5bfcf38fe8fa1efd51",
+          "match": true
+        }
+      ],
+      "rendered_pages": 2,
+      "audit_flags": [],
+      "content_flags": []
+    }
+  },
+  {
+    "state": "Andra Pradesh",
+    "source_state": "Andra Pradesh",
+    "district": "Khammam",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Andra Pradesh/1981 Khammam.pdf",
+    "source_filename": "1981 Khammam.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 513,
+    "output": "output/pdf/1981_trimmed/Andra Pradesh/tehsil appendix/1981_Khammam_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      253,
+      254,
+      255,
+      256
+    ],
+    "printed_page_labels": [
+      "160",
+      "161",
+      "162",
+      "163"
+    ],
+    "status": "Trimmed",
+    "reason": "Appendix I printed pages 160-163; source page 257 begins Appendix II.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 4,
+      "pages": [
+        {
+          "source_page": 253,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              936.96,
+              832.56
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              936.96,
+              832.56
+            ]
+          },
+          "rotation": 90
+        },
+        {
+          "source_page": 254,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              936.96,
+              832.56
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              936.96,
+              832.56
+            ]
+          },
+          "rotation": 90
+        },
+        {
+          "source_page": 255,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              936.96,
+              832.56
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              936.96,
+              832.56
+            ]
+          },
+          "rotation": 90
+        },
+        {
+          "source_page": 256,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              936.96,
+              832.56
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              936.96,
+              832.56
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 253,
+          "output_page": 1,
+          "source_png_sha256": "29dfff1a3443a2fba07498f9207a84cbd1ed64da095c4303cebd7ff4a81eb87b",
+          "output_png_sha256": "29dfff1a3443a2fba07498f9207a84cbd1ed64da095c4303cebd7ff4a81eb87b",
+          "match": true
+        },
+        {
+          "source_page": 254,
+          "output_page": 2,
+          "source_png_sha256": "b7763dc021ff52fed786b68bf7620213bc121c23fc9ba7ba4a1ed76ed8480f0a",
+          "output_png_sha256": "b7763dc021ff52fed786b68bf7620213bc121c23fc9ba7ba4a1ed76ed8480f0a",
+          "match": true
+        },
+        {
+          "source_page": 255,
+          "output_page": 3,
+          "source_png_sha256": "cb026fa0ca2d30c82c368e593e8125b1db755c8ff5e9465bd21da4362831367e",
+          "output_png_sha256": "cb026fa0ca2d30c82c368e593e8125b1db755c8ff5e9465bd21da4362831367e",
+          "match": true
+        },
+        {
+          "source_page": 256,
+          "output_page": 4,
+          "source_png_sha256": "7cc781beb9d5f977a5c45b1f15a72e8ad50e1e4710f4f5ff617a833c84d5f720",
+          "output_png_sha256": "7cc781beb9d5f977a5c45b1f15a72e8ad50e1e4710f4f5ff617a833c84d5f720",
+          "match": true
+        }
+      ],
+      "rendered_pages": 4,
+      "audit_status": "pass",
+      "audit_flags": [],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ]
+    }
+  },
+  {
+    "state": "Andra Pradesh",
+    "source_state": "Andra Pradesh",
+    "district": "Krishna",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Andra Pradesh/1981 Krishna.pdf",
+    "source_filename": "1981 Krishna.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 623,
+    "output": "output/pdf/1981_trimmed/Andra Pradesh/civic amenities/1981_Krishna_civic_amenities.pdf",
+    "source_pages_selected": [
+      309,
+      310
+    ],
+    "printed_page_labels": [
+      "212",
+      "213"
+    ],
+    "status": "Trimmed",
+    "reason": "Located from directory headings and continuation boundaries.",
+    "flags": [],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 309,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              642.48,
+              831.12
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              642.48,
+              831.12
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 310,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              642.48,
+              831.12
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              642.48,
+              831.12
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "audit_status": "pass",
+      "render_checks": [
+        {
+          "source_page": 309,
+          "output_page": 1,
+          "source_png_sha256": "077c1ba107fcb62ef53a8a1d6f1967316aaca368d6e6ea06cd636d666ae78adc",
+          "output_png_sha256": "077c1ba107fcb62ef53a8a1d6f1967316aaca368d6e6ea06cd636d666ae78adc",
+          "match": true
+        },
+        {
+          "source_page": 310,
+          "output_page": 2,
+          "source_png_sha256": "fc9f8ffc358f87e0aec525b8c75e4e0e5720dbf5b4ae51243c9746f9e593bc33",
+          "output_png_sha256": "fc9f8ffc358f87e0aec525b8c75e4e0e5720dbf5b4ae51243c9746f9e593bc33",
+          "match": true
+        }
+      ],
+      "rendered_pages": 2,
+      "audit_flags": [],
+      "content_flags": []
+    }
+  },
+  {
+    "state": "Andra Pradesh",
+    "source_state": "Andra Pradesh",
+    "district": "Krishna",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Andra Pradesh/1981 Krishna.pdf",
+    "source_filename": "1981 Krishna.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 623,
+    "output": "output/pdf/1981_trimmed/Andra Pradesh/mededu/1981_Krishna_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      313,
+      314,
+      315,
+      316
+    ],
+    "printed_page_labels": [
+      "216",
+      "217",
+      "218",
+      "219"
+    ],
+    "status": "Trimmed",
+    "reason": "Located from directory headings and continuation boundaries.",
+    "flags": [],
+    "verification": {
+      "output_pages": 4,
+      "pages": [
+        {
+          "source_page": 313,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              642.48,
+              831.12
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              642.48,
+              831.12
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 314,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              642.48,
+              831.12
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              642.48,
+              831.12
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 315,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              642.48,
+              831.12
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              642.48,
+              831.12
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 316,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              642.48,
+              831.12
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              642.48,
+              831.12
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "audit_status": "pass",
+      "render_checks": [
+        {
+          "source_page": 313,
+          "output_page": 1,
+          "source_png_sha256": "a4636d86965b69a1f55c0333100ceba55241e43b194ac54e7f2a3415fe9c6962",
+          "output_png_sha256": "a4636d86965b69a1f55c0333100ceba55241e43b194ac54e7f2a3415fe9c6962",
+          "match": true
+        },
+        {
+          "source_page": 314,
+          "output_page": 2,
+          "source_png_sha256": "c2f1acaf175b9cd0f886e6bf900aec6548a17afc92087cc1161bb5c76180653d",
+          "output_png_sha256": "c2f1acaf175b9cd0f886e6bf900aec6548a17afc92087cc1161bb5c76180653d",
+          "match": true
+        },
+        {
+          "source_page": 315,
+          "output_page": 3,
+          "source_png_sha256": "729011c90f6e726f14addb630b17e9805b104348520e5a524632c1f8fdc044c5",
+          "output_png_sha256": "729011c90f6e726f14addb630b17e9805b104348520e5a524632c1f8fdc044c5",
+          "match": true
+        },
+        {
+          "source_page": 316,
+          "output_page": 4,
+          "source_png_sha256": "c3621004fb6c0cd3b3a249b842bde9e4f188a74d336f3172a952c24956b98d81",
+          "output_png_sha256": "c3621004fb6c0cd3b3a249b842bde9e4f188a74d336f3172a952c24956b98d81",
+          "match": true
+        }
+      ],
+      "rendered_pages": 4,
+      "audit_flags": [],
+      "content_flags": []
+    }
+  },
+  {
+    "state": "Andra Pradesh",
+    "source_state": "Andra Pradesh",
+    "district": "Krishna",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Andra Pradesh/1981 Krishna.pdf",
+    "source_filename": "1981 Krishna.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 623,
+    "output": "output/pdf/1981_trimmed/Andra Pradesh/tehsil appendix/1981_Krishna_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      243,
+      244,
+      245,
+      246
+    ],
+    "printed_page_labels": [
+      "148",
+      null,
+      null,
+      "151"
+    ],
+    "status": "Trimmed",
+    "reason": "Appendix I printed pages 148-151; source page 247 begins Appendix II.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 4,
+      "pages": [
+        {
+          "source_page": 243,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              642.48,
+              831.12
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              642.48,
+              831.12
+            ]
+          },
+          "rotation": 90
+        },
+        {
+          "source_page": 244,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              642.48,
+              831.12
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              642.48,
+              831.12
+            ]
+          },
+          "rotation": 90
+        },
+        {
+          "source_page": 245,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              642.48,
+              831.12
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              642.48,
+              831.12
+            ]
+          },
+          "rotation": 90
+        },
+        {
+          "source_page": 246,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              642.48,
+              831.12
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              642.48,
+              831.12
+            ]
+          },
+          "rotation": 90
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 243,
+          "output_page": 1,
+          "source_png_sha256": "bc2b4054080906c7500964950eb4f4aca73cb792fccfa2f6df1e2bfe153e8530",
+          "output_png_sha256": "bc2b4054080906c7500964950eb4f4aca73cb792fccfa2f6df1e2bfe153e8530",
+          "match": true
+        },
+        {
+          "source_page": 244,
+          "output_page": 2,
+          "source_png_sha256": "8898c82fb6b54a5a4c275b7cb74eba9d9a7ad05373abe35108f1504d8bfbe54e",
+          "output_png_sha256": "8898c82fb6b54a5a4c275b7cb74eba9d9a7ad05373abe35108f1504d8bfbe54e",
+          "match": true
+        },
+        {
+          "source_page": 245,
+          "output_page": 3,
+          "source_png_sha256": "f08c7f0bbda9b5227c398afa68b0609845bd748056061f136d3c1a8b67b4d537",
+          "output_png_sha256": "f08c7f0bbda9b5227c398afa68b0609845bd748056061f136d3c1a8b67b4d537",
+          "match": true
+        },
+        {
+          "source_page": 246,
+          "output_page": 4,
+          "source_png_sha256": "b0a150f5f682977a9aaf39eedd4d2156c1ec771d4ce97c778be6d4a8df18a12e",
+          "output_png_sha256": "b0a150f5f682977a9aaf39eedd4d2156c1ec771d4ce97c778be6d4a8df18a12e",
+          "match": true
+        }
+      ],
+      "rendered_pages": 4,
+      "audit_status": "pass",
+      "audit_flags": [],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ]
+    }
+  },
+  {
+    "state": "Andra Pradesh",
+    "source_state": "Andra Pradesh",
+    "district": "Kurnool",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Andra Pradesh/1981 Kurnool.pdf",
+    "source_filename": "1981 Kurnool.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 501,
+    "output": "output/pdf/1981_trimmed/Andra Pradesh/civic amenities/1981_Kurnool_civic_amenities.pdf",
+    "source_pages_selected": [
+      290,
+      291
+    ],
+    "printed_page_labels": [
+      "200",
+      "201"
+    ],
+    "status": "Trimmed",
+    "reason": "Located from directory headings and continuation boundaries.",
+    "flags": [],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 290,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              650.4,
+              819.12
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              650.4,
+              819.12
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 291,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              650.4,
+              819.12
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              650.4,
+              819.12
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "audit_status": "pass",
+      "render_checks": [
+        {
+          "source_page": 290,
+          "output_page": 1,
+          "source_png_sha256": "5801bfd430e060e8ae9377870cc80d9d7e097e2f2884cc20e61d0db7ded6ee35",
+          "output_png_sha256": "5801bfd430e060e8ae9377870cc80d9d7e097e2f2884cc20e61d0db7ded6ee35",
+          "match": true
+        },
+        {
+          "source_page": 291,
+          "output_page": 2,
+          "source_png_sha256": "8cba347d7eaafa2358cd72c98ef8c7c02f531177919e3e3e9c763d2a3438cdfb",
+          "output_png_sha256": "8cba347d7eaafa2358cd72c98ef8c7c02f531177919e3e3e9c763d2a3438cdfb",
+          "match": true
+        }
+      ],
+      "rendered_pages": 2,
+      "audit_flags": [],
+      "content_flags": []
+    }
+  },
+  {
+    "state": "Andra Pradesh",
+    "source_state": "Andra Pradesh",
+    "district": "Kurnool",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Andra Pradesh/1981 Kurnool.pdf",
+    "source_filename": "1981 Kurnool.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 501,
+    "output": "output/pdf/1981_trimmed/Andra Pradesh/mededu/1981_Kurnool_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      296,
+      297
+    ],
+    "printed_page_labels": [
+      "206",
+      "207"
+    ],
+    "status": "Trimmed",
+    "reason": "Statement V printed pages 206-207; source page 298 begins Statement VI.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 296,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              650.4,
+              819.12
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              650.4,
+              819.12
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 297,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              650.4,
+              819.12
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              650.4,
+              819.12
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 296,
+          "output_page": 1,
+          "source_png_sha256": "7c49867054f9d1157a3f2d7743de3a9a2a8b9e66eb76baab996895706f869f02",
+          "output_png_sha256": "7c49867054f9d1157a3f2d7743de3a9a2a8b9e66eb76baab996895706f869f02",
+          "match": true
+        },
+        {
+          "source_page": 297,
+          "output_page": 2,
+          "source_png_sha256": "a4ec03c5b24dfeeac95870ede059636378b5e354874451232cf3b2f0c0e22181",
+          "output_png_sha256": "a4ec03c5b24dfeeac95870ede059636378b5e354874451232cf3b2f0c0e22181",
+          "match": true
+        }
+      ],
+      "rendered_pages": 2,
+      "audit_status": "pass",
+      "audit_flags": [],
+      "content_flags": []
+    }
+  },
+  {
+    "state": "Andra Pradesh",
+    "source_state": "Andra Pradesh",
+    "district": "Kurnool",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Andra Pradesh/1981 Kurnool.pdf",
+    "source_filename": "1981 Kurnool.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 501,
+    "output": "output/pdf/1981_trimmed/Andra Pradesh/tehsil appendix/1981_Kurnool_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      232,
+      233,
+      234,
+      235
+    ],
+    "printed_page_labels": [
+      "142",
+      null,
+      "144",
+      "145"
+    ],
+    "status": "Trimmed",
+    "reason": "Appendix I printed pages 142-145; source page 236 begins Appendix II.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 4,
+      "pages": [
+        {
+          "source_page": 232,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              650.4,
+              819.12
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              650.4,
+              819.12
+            ]
+          },
+          "rotation": 90
+        },
+        {
+          "source_page": 233,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              650.4,
+              819.12
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              650.4,
+              819.12
+            ]
+          },
+          "rotation": 90
+        },
+        {
+          "source_page": 234,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              650.4,
+              819.12
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              650.4,
+              819.12
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 235,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              650.4,
+              819.12
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              650.4,
+              819.12
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 232,
+          "output_page": 1,
+          "source_png_sha256": "63c2a5af7a004365657bd342b5081350a940c96727b00a03a456373a6066eec8",
+          "output_png_sha256": "63c2a5af7a004365657bd342b5081350a940c96727b00a03a456373a6066eec8",
+          "match": true
+        },
+        {
+          "source_page": 233,
+          "output_page": 2,
+          "source_png_sha256": "f287546b8b8d971874935a51b35f9e338fbf7d376bd478f98575fbd2eeee15d1",
+          "output_png_sha256": "f287546b8b8d971874935a51b35f9e338fbf7d376bd478f98575fbd2eeee15d1",
+          "match": true
+        },
+        {
+          "source_page": 234,
+          "output_page": 3,
+          "source_png_sha256": "5a1a198c0919d8b5bafc5455c665befe8789df88cf80f5297aaf61c36ee573be",
+          "output_png_sha256": "5a1a198c0919d8b5bafc5455c665befe8789df88cf80f5297aaf61c36ee573be",
+          "match": true
+        },
+        {
+          "source_page": 235,
+          "output_page": 4,
+          "source_png_sha256": "678636dd0ceb3e1be1985677e2a5f545725371185819ddeaab9c53c7c3b2ed5f",
+          "output_png_sha256": "678636dd0ceb3e1be1985677e2a5f545725371185819ddeaab9c53c7c3b2ed5f",
+          "match": true
+        }
+      ],
+      "rendered_pages": 4,
+      "audit_status": "pass",
+      "audit_flags": [],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ]
+    }
+  },
+  {
+    "state": "Andra Pradesh",
+    "source_state": "Andra Pradesh",
+    "district": "Mahbubnagar",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Andra Pradesh/1981 Mahbubnagar.pdf",
+    "source_filename": "1981 Mahbubnagar.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 589,
+    "output": "output/pdf/1981_trimmed/Andra Pradesh/civic amenities/1981_Mahbubnagar_civic_amenities.pdf",
+    "source_pages_selected": [
+      382,
+      383
+    ],
+    "printed_page_labels": [
+      "302",
+      "303"
+    ],
+    "status": "Trimmed",
+    "reason": "Statement IV printed pages 302-303; Statement IV-A begins at the bottom of source page 383.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 382,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              645.12,
+              834.72
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              645.12,
+              834.72
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 383,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              645.12,
+              834.72
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              645.12,
+              834.72
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 382,
+          "output_page": 1,
+          "source_png_sha256": "7575e58e95e8152b4a005765a81b9541dd7ae6e7392bc6a066fcad244b802d67",
+          "output_png_sha256": "7575e58e95e8152b4a005765a81b9541dd7ae6e7392bc6a066fcad244b802d67",
+          "match": true
+        },
+        {
+          "source_page": 383,
+          "output_page": 2,
+          "source_png_sha256": "72e8372b6ac543e6a632b11df7acd24fc508d926ffd7c04216a3875f21e6b818",
+          "output_png_sha256": "72e8372b6ac543e6a632b11df7acd24fc508d926ffd7c04216a3875f21e6b818",
+          "match": true
+        }
+      ],
+      "rendered_pages": 2,
+      "audit_status": "pass",
+      "audit_flags": [],
+      "content_flags": []
+    }
+  },
+  {
+    "state": "Andra Pradesh",
+    "source_state": "Andra Pradesh",
+    "district": "Mahbubnagar",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Andra Pradesh/1981 Mahbubnagar.pdf",
+    "source_filename": "1981 Mahbubnagar.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 589,
+    "output": "output/pdf/1981_trimmed/Andra Pradesh/mededu/1981_Mahbubnagar_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      384,
+      385
+    ],
+    "printed_page_labels": [
+      "304",
+      "305"
+    ],
+    "status": "Trimmed",
+    "reason": "Located from directory headings and continuation boundaries.",
+    "flags": [],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 384,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              645.12,
+              834.72
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              645.12,
+              834.72
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 385,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              645.12,
+              834.72
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              645.12,
+              834.72
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "audit_status": "pass",
+      "render_checks": [
+        {
+          "source_page": 384,
+          "output_page": 1,
+          "source_png_sha256": "130739ce86f57f476e217e32d0d1c198ff5e52d0d5fa93ec995397926c5e4e77",
+          "output_png_sha256": "130739ce86f57f476e217e32d0d1c198ff5e52d0d5fa93ec995397926c5e4e77",
+          "match": true
+        },
+        {
+          "source_page": 385,
+          "output_page": 2,
+          "source_png_sha256": "c568909df02b6b8402b2f1def649350e4b95d08be5e3a984f8b420fd4ece947b",
+          "output_png_sha256": "c568909df02b6b8402b2f1def649350e4b95d08be5e3a984f8b420fd4ece947b",
+          "match": true
+        }
+      ],
+      "rendered_pages": 2,
+      "audit_flags": [],
+      "content_flags": []
+    }
+  },
+  {
+    "state": "Andra Pradesh",
+    "source_state": "Andra Pradesh",
+    "district": "Mahbubnagar",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Andra Pradesh/1981 Mahbubnagar.pdf",
+    "source_filename": "1981 Mahbubnagar.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 589,
+    "output": "output/pdf/1981_trimmed/Andra Pradesh/tehsil appendix/1981_Mahbubnagar_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      307,
+      308,
+      309,
+      310
+    ],
+    "printed_page_labels": [
+      "228",
+      "229",
+      "230",
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Appendix I printed pages 228-231; source page 311 begins Appendix II.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 4,
+      "pages": [
+        {
+          "source_page": 307,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              645.12,
+              834.72
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              645.12,
+              834.72
+            ]
+          },
+          "rotation": 90
+        },
+        {
+          "source_page": 308,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              645.12,
+              834.72
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              645.12,
+              834.72
+            ]
+          },
+          "rotation": 90
+        },
+        {
+          "source_page": 309,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              645.12,
+              834.72
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              645.12,
+              834.72
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 310,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              645.12,
+              834.72
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              645.12,
+              834.72
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 307,
+          "output_page": 1,
+          "source_png_sha256": "e260f8bb750502c6551655ff09cf87ed9398e50ff297b929ff650efcded79e05",
+          "output_png_sha256": "e260f8bb750502c6551655ff09cf87ed9398e50ff297b929ff650efcded79e05",
+          "match": true
+        },
+        {
+          "source_page": 308,
+          "output_page": 2,
+          "source_png_sha256": "16f3cfde90fc93930f80be669d6217fcb92e6acf23f0ff41f325d81ac2b8c2a3",
+          "output_png_sha256": "16f3cfde90fc93930f80be669d6217fcb92e6acf23f0ff41f325d81ac2b8c2a3",
+          "match": true
+        },
+        {
+          "source_page": 309,
+          "output_page": 3,
+          "source_png_sha256": "91b95509c884d9969b83691160cce434510eebd7f16773ecec8a7196f7962fe3",
+          "output_png_sha256": "91b95509c884d9969b83691160cce434510eebd7f16773ecec8a7196f7962fe3",
+          "match": true
+        },
+        {
+          "source_page": 310,
+          "output_page": 4,
+          "source_png_sha256": "fb22c4b528acb9675587fedfdf5f95a5ff33f9cb737ade3cedbc7434a4098f14",
+          "output_png_sha256": "fb22c4b528acb9675587fedfdf5f95a5ff33f9cb737ade3cedbc7434a4098f14",
+          "match": true
+        }
+      ],
+      "rendered_pages": 4,
+      "audit_status": "pass",
+      "audit_flags": [],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ]
+    }
+  },
+  {
+    "state": "Andra Pradesh",
+    "source_state": "Andra Pradesh",
+    "district": "Medak",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Andra Pradesh/1981 Medak.pdf",
+    "source_filename": "1981 Medak.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 468,
+    "output": "output/pdf/1981_trimmed/Andra Pradesh/civic amenities/1981_Medak_civic_amenities.pdf",
+    "source_pages_selected": [
+      292,
+      293
+    ],
+    "printed_page_labels": [
+      "226",
+      "227"
+    ],
+    "status": "Trimmed",
+    "reason": "Statement IV printed pages 226-227; source page 294 begins Statement V.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 292,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              651.6,
+              830.88
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              651.6,
+              830.88
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 293,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              651.6,
+              830.88
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              651.6,
+              830.88
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 292,
+          "output_page": 1,
+          "source_png_sha256": "dec43278d8ade65311b5bc534d4d1383aea6be7787b8f2b5c12f9971d0c2128c",
+          "output_png_sha256": "dec43278d8ade65311b5bc534d4d1383aea6be7787b8f2b5c12f9971d0c2128c",
+          "match": true
+        },
+        {
+          "source_page": 293,
+          "output_page": 2,
+          "source_png_sha256": "1934e951673e011b9304f03ae95453925f998ec107d5b119e538aa2180bb4d76",
+          "output_png_sha256": "1934e951673e011b9304f03ae95453925f998ec107d5b119e538aa2180bb4d76",
+          "match": true
+        }
+      ],
+      "rendered_pages": 2,
+      "audit_status": "pass",
+      "audit_flags": [],
+      "content_flags": []
+    }
+  },
+  {
+    "state": "Andra Pradesh",
+    "source_state": "Andra Pradesh",
+    "district": "Medak",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Andra Pradesh/1981 Medak.pdf",
+    "source_filename": "1981 Medak.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 468,
+    "output": "output/pdf/1981_trimmed/Andra Pradesh/mededu/1981_Medak_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      294,
+      295
+    ],
+    "printed_page_labels": [
+      "228",
+      "229"
+    ],
+    "status": "Trimmed",
+    "reason": "Statement V printed pages 228-229; source page 296 begins Statement VI.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 294,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              651.6,
+              830.88
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              651.6,
+              830.88
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 295,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              651.6,
+              830.88
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              651.6,
+              830.88
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 294,
+          "output_page": 1,
+          "source_png_sha256": "affcb17b68de51292b44944f9e56f9f632fe37dc19031ce01661b10290017df5",
+          "output_png_sha256": "affcb17b68de51292b44944f9e56f9f632fe37dc19031ce01661b10290017df5",
+          "match": true
+        },
+        {
+          "source_page": 295,
+          "output_page": 2,
+          "source_png_sha256": "ba71ac3d66e290304b5e54d104ff8b890754318305a98f1199ceba59918923e3",
+          "output_png_sha256": "ba71ac3d66e290304b5e54d104ff8b890754318305a98f1199ceba59918923e3",
+          "match": true
+        }
+      ],
+      "rendered_pages": 2,
+      "audit_status": "pass",
+      "audit_flags": [],
+      "content_flags": []
+    }
+  },
+  {
+    "state": "Andra Pradesh",
+    "source_state": "Andra Pradesh",
+    "district": "Medak",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Andra Pradesh/1981 Medak.pdf",
+    "source_filename": "1981 Medak.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 468,
+    "output": "output/pdf/1981_trimmed/Andra Pradesh/tehsil appendix/1981_Medak_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      229,
+      230,
+      231,
+      232
+    ],
+    "printed_page_labels": [
+      "164",
+      "165",
+      "166",
+      "167"
+    ],
+    "status": "Trimmed",
+    "reason": "Appendix I printed pages 164-167; source page 233 begins Appendix II.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 4,
+      "pages": [
+        {
+          "source_page": 229,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              651.6,
+              830.88
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              651.6,
+              830.88
+            ]
+          },
+          "rotation": 90
+        },
+        {
+          "source_page": 230,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              651.6,
+              830.88
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              651.6,
+              830.88
+            ]
+          },
+          "rotation": 90
+        },
+        {
+          "source_page": 231,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              651.6,
+              830.88
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              651.6,
+              830.88
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 232,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              651.6,
+              830.88
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              651.6,
+              830.88
+            ]
+          },
+          "rotation": 90
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 229,
+          "output_page": 1,
+          "source_png_sha256": "6dd859f0d944070a51f20bc0a940fc2e8787f24f2af74830d65dd17dbcae77c6",
+          "output_png_sha256": "6dd859f0d944070a51f20bc0a940fc2e8787f24f2af74830d65dd17dbcae77c6",
+          "match": true
+        },
+        {
+          "source_page": 230,
+          "output_page": 2,
+          "source_png_sha256": "5459391c83806ed5e5c975f651b2c538cebe684f55e272b6df883ac45a48709c",
+          "output_png_sha256": "5459391c83806ed5e5c975f651b2c538cebe684f55e272b6df883ac45a48709c",
+          "match": true
+        },
+        {
+          "source_page": 231,
+          "output_page": 3,
+          "source_png_sha256": "ce2cd973346be3925bd3c6fd47ae68b60727eec8638e685fb6ab20794c59acca",
+          "output_png_sha256": "ce2cd973346be3925bd3c6fd47ae68b60727eec8638e685fb6ab20794c59acca",
+          "match": true
+        },
+        {
+          "source_page": 232,
+          "output_page": 4,
+          "source_png_sha256": "65d2538ee18ad223bfe44562304dc19648d609d4d2bed8d20471f95a8a3c7708",
+          "output_png_sha256": "65d2538ee18ad223bfe44562304dc19648d609d4d2bed8d20471f95a8a3c7708",
+          "match": true
+        }
+      ],
+      "rendered_pages": 4,
+      "audit_status": "pass",
+      "audit_flags": [],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ]
+    }
+  },
+  {
+    "state": "Andra Pradesh",
+    "source_state": "Andra Pradesh",
+    "district": "Nalgonda",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Andra Pradesh/1981 Nalgonda.pdf",
+    "source_filename": "1981 Nalgonda.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 535,
+    "output": "output/pdf/1981_trimmed/Andra Pradesh/civic amenities/1981_Nalgonda_civic_amenities.pdf",
+    "source_pages_selected": [
+      356,
+      357
+    ],
+    "printed_page_labels": [
+      "280",
+      "281"
+    ],
+    "status": "Trimmed",
+    "reason": "Located from directory headings and continuation boundaries.",
+    "flags": [],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 356,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              631.68,
+              827.76
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              631.68,
+              827.76
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 357,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              631.68,
+              827.76
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              631.68,
+              827.76
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "audit_status": "pass",
+      "render_checks": [
+        {
+          "source_page": 356,
+          "output_page": 1,
+          "source_png_sha256": "6984bbee41d87ebf281ff3e1c896df6ed1f8647d7cce904acfcbd4a5195f55b8",
+          "output_png_sha256": "6984bbee41d87ebf281ff3e1c896df6ed1f8647d7cce904acfcbd4a5195f55b8",
+          "match": true
+        },
+        {
+          "source_page": 357,
+          "output_page": 2,
+          "source_png_sha256": "21da17136b139b006648da3f8be2f30d15baabb018f7b5b2cd298bbfecb70815",
+          "output_png_sha256": "21da17136b139b006648da3f8be2f30d15baabb018f7b5b2cd298bbfecb70815",
+          "match": true
+        }
+      ],
+      "rendered_pages": 2,
+      "audit_flags": [],
+      "content_flags": []
+    }
+  },
+  {
+    "state": "Andra Pradesh",
+    "source_state": "Andra Pradesh",
+    "district": "Nalgonda",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Andra Pradesh/1981 Nalgonda.pdf",
+    "source_filename": "1981 Nalgonda.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 535,
+    "output": "output/pdf/1981_trimmed/Andra Pradesh/mededu/1981_Nalgonda_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      360,
+      361
+    ],
+    "printed_page_labels": [
+      "284",
+      "285"
+    ],
+    "status": "Trimmed",
+    "reason": "Statement V printed pages 284-285; source page 362 begins Statement VI.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 360,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              631.68,
+              827.76
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              631.68,
+              827.76
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 361,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              631.68,
+              827.76
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              631.68,
+              827.76
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 360,
+          "output_page": 1,
+          "source_png_sha256": "dc5566f6b95e6c94971d4a8e8407c0e75b40e66d6180371260f8a1342fa7a763",
+          "output_png_sha256": "dc5566f6b95e6c94971d4a8e8407c0e75b40e66d6180371260f8a1342fa7a763",
+          "match": true
+        },
+        {
+          "source_page": 361,
+          "output_page": 2,
+          "source_png_sha256": "4b03a9d6dce92c20a4065c6bfc9fef6eb6d43f5ea6d1c49251fd7162ec440273",
+          "output_png_sha256": "4b03a9d6dce92c20a4065c6bfc9fef6eb6d43f5ea6d1c49251fd7162ec440273",
+          "match": true
+        }
+      ],
+      "rendered_pages": 2,
+      "audit_status": "pass",
+      "audit_flags": [],
+      "content_flags": []
+    }
+  },
+  {
+    "state": "Andra Pradesh",
+    "source_state": "Andra Pradesh",
+    "district": "Nalgonda",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Andra Pradesh/1981 Nalgonda.pdf",
+    "source_filename": "1981 Nalgonda.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 535,
+    "output": "output/pdf/1981_trimmed/Andra Pradesh/tehsil appendix/1981_Nalgonda_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      270,
+      271,
+      272,
+      273
+    ],
+    "printed_page_labels": [
+      "196",
+      "197",
+      "198",
+      "199"
+    ],
+    "status": "Trimmed",
+    "reason": "Appendix I printed pages 196-199; source page 274 begins Appendix II.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 4,
+      "pages": [
+        {
+          "source_page": 270,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              631.68,
+              827.76
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              631.68,
+              827.76
+            ]
+          },
+          "rotation": 90
+        },
+        {
+          "source_page": 271,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              631.68,
+              827.76
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              631.68,
+              827.76
+            ]
+          },
+          "rotation": 90
+        },
+        {
+          "source_page": 272,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              631.68,
+              827.76
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              631.68,
+              827.76
+            ]
+          },
+          "rotation": 90
+        },
+        {
+          "source_page": 273,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              631.68,
+              827.76
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              631.68,
+              827.76
+            ]
+          },
+          "rotation": 90
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 270,
+          "output_page": 1,
+          "source_png_sha256": "40f3d803eaee9f3313e643101eae147b540e545006b6f06156032e50328bc4cf",
+          "output_png_sha256": "40f3d803eaee9f3313e643101eae147b540e545006b6f06156032e50328bc4cf",
+          "match": true
+        },
+        {
+          "source_page": 271,
+          "output_page": 2,
+          "source_png_sha256": "257af77c2075a6a15837e03c1b6fdf394dea9f0050675f6cd3e9ad43fc8e5f2c",
+          "output_png_sha256": "257af77c2075a6a15837e03c1b6fdf394dea9f0050675f6cd3e9ad43fc8e5f2c",
+          "match": true
+        },
+        {
+          "source_page": 272,
+          "output_page": 3,
+          "source_png_sha256": "2104d0091f96cd270b8ebeb46859e2624fb1af3aae1fad012d613c39f3c99ef3",
+          "output_png_sha256": "2104d0091f96cd270b8ebeb46859e2624fb1af3aae1fad012d613c39f3c99ef3",
+          "match": true
+        },
+        {
+          "source_page": 273,
+          "output_page": 4,
+          "source_png_sha256": "479a4c77e8d48b7ff05741765049c42b5b8e49957b86eab35e2ee05ae22e6a8a",
+          "output_png_sha256": "479a4c77e8d48b7ff05741765049c42b5b8e49957b86eab35e2ee05ae22e6a8a",
+          "match": true
+        }
+      ],
+      "rendered_pages": 4,
+      "audit_status": "pass",
+      "audit_flags": [],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ]
+    }
+  },
+  {
+    "state": "Andra Pradesh",
+    "source_state": "Andra Pradesh",
+    "district": "Nellore",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Andra Pradesh/1981 Nellore.pdf",
+    "source_filename": "1981 Nellore.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 573,
+    "output": "output/pdf/1981_trimmed/Andra Pradesh/civic amenities/1981_Nellore_civic_amenities.pdf",
+    "source_pages_selected": [
+      352,
+      353
+    ],
+    "printed_page_labels": [
+      "256",
+      "257"
+    ],
+    "status": "Trimmed",
+    "reason": "Statement IV printed pages 256-257; source page 354 begins Statement IV-A.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 352,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              642.96,
+              819.12
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              642.96,
+              819.12
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 353,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              642.96,
+              819.12
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              642.96,
+              819.12
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 352,
+          "output_page": 1,
+          "source_png_sha256": "9fed6a327c3cc3f35b44d9c92540da63bb512a68cb10ccbfc26163370c08d1d7",
+          "output_png_sha256": "9fed6a327c3cc3f35b44d9c92540da63bb512a68cb10ccbfc26163370c08d1d7",
+          "match": true
+        },
+        {
+          "source_page": 353,
+          "output_page": 2,
+          "source_png_sha256": "e5a13f17966c0e5e713450cf0c431e50b1d9252a980f88006f801d67b672a393",
+          "output_png_sha256": "e5a13f17966c0e5e713450cf0c431e50b1d9252a980f88006f801d67b672a393",
+          "match": true
+        }
+      ],
+      "rendered_pages": 2,
+      "audit_status": "pass",
+      "audit_flags": [],
+      "content_flags": []
+    }
+  },
+  {
+    "state": "Andra Pradesh",
+    "source_state": "Andra Pradesh",
+    "district": "Nellore",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Andra Pradesh/1981 Nellore.pdf",
+    "source_filename": "1981 Nellore.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 573,
+    "output": "output/pdf/1981_trimmed/Andra Pradesh/mededu/1981_Nellore_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      356,
+      357
+    ],
+    "printed_page_labels": [
+      "260",
+      "261"
+    ],
+    "status": "Trimmed",
+    "reason": "Located from directory headings and continuation boundaries.",
+    "flags": [],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 356,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              642.96,
+              819.12
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              642.96,
+              819.12
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 357,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              642.96,
+              819.12
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              642.96,
+              819.12
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "audit_status": "pass",
+      "render_checks": [
+        {
+          "source_page": 356,
+          "output_page": 1,
+          "source_png_sha256": "655e2a39608a4ab6a31e9f7e4982f133e52704b736b9d06f98b67e3e2c7a02c4",
+          "output_png_sha256": "655e2a39608a4ab6a31e9f7e4982f133e52704b736b9d06f98b67e3e2c7a02c4",
+          "match": true
+        },
+        {
+          "source_page": 357,
+          "output_page": 2,
+          "source_png_sha256": "66bff7ecfd9e6c2ef8af4e649e770ce08e2c60efc37348911244c4af29d0fef2",
+          "output_png_sha256": "66bff7ecfd9e6c2ef8af4e649e770ce08e2c60efc37348911244c4af29d0fef2",
+          "match": true
+        }
+      ],
+      "rendered_pages": 2,
+      "audit_flags": [],
+      "content_flags": []
+    }
+  },
+  {
+    "state": "Andra Pradesh",
+    "source_state": "Andra Pradesh",
+    "district": "Nellore",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Andra Pradesh/1981 Nellore.pdf",
+    "source_filename": "1981 Nellore.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 573,
+    "output": "output/pdf/1981_trimmed/Andra Pradesh/tehsil appendix/1981_Nellore_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      260,
+      261,
+      262,
+      263
+    ],
+    "printed_page_labels": [
+      "164",
+      "165",
+      "166",
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Appendix I printed pages 164-167; source page 264 begins Appendix II.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 4,
+      "pages": [
+        {
+          "source_page": 260,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              642.96,
+              819.12
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              642.96,
+              819.12
+            ]
+          },
+          "rotation": 90
+        },
+        {
+          "source_page": 261,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              642.96,
+              819.12
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              642.96,
+              819.12
+            ]
+          },
+          "rotation": 90
+        },
+        {
+          "source_page": 262,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              642.96,
+              819.12
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              642.96,
+              819.12
+            ]
+          },
+          "rotation": 90
+        },
+        {
+          "source_page": 263,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              642.96,
+              819.12
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              642.96,
+              819.12
+            ]
+          },
+          "rotation": 90
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 260,
+          "output_page": 1,
+          "source_png_sha256": "c715fa5d233cd4aff92da0f7f45e2a24bf2adbb6f617c90579908c530b70f229",
+          "output_png_sha256": "c715fa5d233cd4aff92da0f7f45e2a24bf2adbb6f617c90579908c530b70f229",
+          "match": true
+        },
+        {
+          "source_page": 261,
+          "output_page": 2,
+          "source_png_sha256": "eff51a9dee0162059194ab28c30a50c5fd9c5b661421c5beb713b80be965e7ca",
+          "output_png_sha256": "eff51a9dee0162059194ab28c30a50c5fd9c5b661421c5beb713b80be965e7ca",
+          "match": true
+        },
+        {
+          "source_page": 262,
+          "output_page": 3,
+          "source_png_sha256": "8945ba63a926b7a7a375a252a3e1e9c0aa80661b6874f68c005fdebde9d7db07",
+          "output_png_sha256": "8945ba63a926b7a7a375a252a3e1e9c0aa80661b6874f68c005fdebde9d7db07",
+          "match": true
+        },
+        {
+          "source_page": 263,
+          "output_page": 4,
+          "source_png_sha256": "b99a077c9b0598318d3e73b548588cc04b582257b4f94e77a145a03bb007cdd3",
+          "output_png_sha256": "b99a077c9b0598318d3e73b548588cc04b582257b4f94e77a145a03bb007cdd3",
+          "match": true
+        }
+      ],
+      "rendered_pages": 4,
+      "audit_status": "pass",
+      "audit_flags": [],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ]
+    }
+  },
+  {
+    "state": "Andra Pradesh",
+    "source_state": "Andra Pradesh",
+    "district": "Nizamabad",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Andra Pradesh/1981 Nizamabad.pdf",
+    "source_filename": "1981 Nizamabad.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 398,
+    "output": "output/pdf/1981_trimmed/Andra Pradesh/civic amenities/1981_Nizamabad_civic_amenities.pdf",
+    "source_pages_selected": [
+      262,
+      263
+    ],
+    "printed_page_labels": [
+      "194",
+      "195"
+    ],
+    "status": "Trimmed",
+    "reason": "Located from directory headings and continuation boundaries.",
+    "flags": [],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 262,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              645.36,
+              816.0
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              645.36,
+              816.0
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 263,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              645.36,
+              816.0
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              645.36,
+              816.0
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "audit_status": "pass",
+      "render_checks": [
+        {
+          "source_page": 262,
+          "output_page": 1,
+          "source_png_sha256": "4fe11c3893e2f12b1a92de026d2fefa40c64cfe744c006a311b4cbb5c694624b",
+          "output_png_sha256": "4fe11c3893e2f12b1a92de026d2fefa40c64cfe744c006a311b4cbb5c694624b",
+          "match": true
+        },
+        {
+          "source_page": 263,
+          "output_page": 2,
+          "source_png_sha256": "9dd23ebcb59d8816baea8f780b8fac63f3e1a437c2f39787199759b6696d5909",
+          "output_png_sha256": "9dd23ebcb59d8816baea8f780b8fac63f3e1a437c2f39787199759b6696d5909",
+          "match": true
+        }
+      ],
+      "rendered_pages": 2,
+      "audit_flags": [],
+      "content_flags": []
+    }
+  },
+  {
+    "state": "Andra Pradesh",
+    "source_state": "Andra Pradesh",
+    "district": "Nizamabad",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Andra Pradesh/1981 Nizamabad.pdf",
+    "source_filename": "1981 Nizamabad.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 398,
+    "output": "output/pdf/1981_trimmed/Andra Pradesh/mededu/1981_Nizamabad_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      266,
+      267
+    ],
+    "printed_page_labels": [
+      "198",
+      "199"
+    ],
+    "status": "Trimmed",
+    "reason": "Located from directory headings and continuation boundaries.",
+    "flags": [],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 266,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              645.36,
+              816.0
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              645.36,
+              816.0
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 267,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              645.36,
+              816.0
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              645.36,
+              816.0
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "audit_status": "pass",
+      "render_checks": [
+        {
+          "source_page": 266,
+          "output_page": 1,
+          "source_png_sha256": "49e1b4addd9e75fc16d3ce52f8227cb11e10df0a8833a61d22c020d8bb4dd6da",
+          "output_png_sha256": "49e1b4addd9e75fc16d3ce52f8227cb11e10df0a8833a61d22c020d8bb4dd6da",
+          "match": true
+        },
+        {
+          "source_page": 267,
+          "output_page": 2,
+          "source_png_sha256": "c50babd45425184500739e2c7cbff46bdf907ccb0298e86501bdf91efdd9374b",
+          "output_png_sha256": "c50babd45425184500739e2c7cbff46bdf907ccb0298e86501bdf91efdd9374b",
+          "match": true
+        }
+      ],
+      "rendered_pages": 2,
+      "audit_flags": [],
+      "content_flags": []
+    }
+  },
+  {
+    "state": "Andra Pradesh",
+    "source_state": "Andra Pradesh",
+    "district": "Nizamabad",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Andra Pradesh/1981 Nizamabad.pdf",
+    "source_filename": "1981 Nizamabad.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 398,
+    "output": "output/pdf/1981_trimmed/Andra Pradesh/tehsil appendix/1981_Nizamabad_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      210,
+      211,
+      212,
+      213
+    ],
+    "printed_page_labels": [
+      "142",
+      "143",
+      "144",
+      "145"
+    ],
+    "status": "Trimmed",
+    "reason": "Appendix I printed pages 142-145; source page 214 begins Appendix II.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 4,
+      "pages": [
+        {
+          "source_page": 210,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              645.36,
+              816.0
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              645.36,
+              816.0
+            ]
+          },
+          "rotation": 90
+        },
+        {
+          "source_page": 211,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              645.36,
+              816.0
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              645.36,
+              816.0
+            ]
+          },
+          "rotation": 90
+        },
+        {
+          "source_page": 212,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              645.36,
+              816.0
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              645.36,
+              816.0
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 213,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              645.36,
+              816.0
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              645.36,
+              816.0
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 210,
+          "output_page": 1,
+          "source_png_sha256": "df92eb5ff3a918faea3b7e9870eeeec15365f6e184c41403d37ada7959946411",
+          "output_png_sha256": "df92eb5ff3a918faea3b7e9870eeeec15365f6e184c41403d37ada7959946411",
+          "match": true
+        },
+        {
+          "source_page": 211,
+          "output_page": 2,
+          "source_png_sha256": "f7424dae381b6023bd883fa2d73f49927b2f6c4b18c0545cab357beb478f7494",
+          "output_png_sha256": "f7424dae381b6023bd883fa2d73f49927b2f6c4b18c0545cab357beb478f7494",
+          "match": true
+        },
+        {
+          "source_page": 212,
+          "output_page": 3,
+          "source_png_sha256": "9ccfaf818babc2c5cd8d72126e7db75b23c31f3bd455ba94a8840220bf17a3ff",
+          "output_png_sha256": "9ccfaf818babc2c5cd8d72126e7db75b23c31f3bd455ba94a8840220bf17a3ff",
+          "match": true
+        },
+        {
+          "source_page": 213,
+          "output_page": 4,
+          "source_png_sha256": "f7f195fd42973a63785969f4e40da132b8f339370dcd394fc1b321624d4c6159",
+          "output_png_sha256": "f7f195fd42973a63785969f4e40da132b8f339370dcd394fc1b321624d4c6159",
+          "match": true
+        }
+      ],
+      "rendered_pages": 4,
+      "audit_status": "pass",
+      "audit_flags": [],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ]
+    }
+  },
+  {
+    "state": "Andra Pradesh",
+    "source_state": "Andra Pradesh",
+    "district": "Prakasam",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Andra Pradesh/1981 Prakasam.pdf",
+    "source_filename": "1981 Prakasam.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 534,
+    "output": "output/pdf/1981_trimmed/Andra Pradesh/civic amenities/1981_Prakasam_civic_amenities.pdf",
+    "source_pages_selected": [
+      331,
+      332
+    ],
+    "printed_page_labels": [
+      "242",
+      "243"
+    ],
+    "status": "Trimmed",
+    "reason": "Located from directory headings and continuation boundaries.",
+    "flags": [],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 331,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              627.36,
+              841.2
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              627.36,
+              841.2
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 332,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              627.36,
+              841.2
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              627.36,
+              841.2
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "audit_status": "pass",
+      "render_checks": [
+        {
+          "source_page": 331,
+          "output_page": 1,
+          "source_png_sha256": "d9a133746880486f177cf00371806faa2b4bdb83f407cef556bb1d9b86067e25",
+          "output_png_sha256": "d9a133746880486f177cf00371806faa2b4bdb83f407cef556bb1d9b86067e25",
+          "match": true
+        },
+        {
+          "source_page": 332,
+          "output_page": 2,
+          "source_png_sha256": "81205243f2462c14db849a56ac1ae00a96158f07833ae54bdd88c232cfa7d6e4",
+          "output_png_sha256": "81205243f2462c14db849a56ac1ae00a96158f07833ae54bdd88c232cfa7d6e4",
+          "match": true
+        }
+      ],
+      "rendered_pages": 2,
+      "audit_flags": [],
+      "content_flags": []
+    }
+  },
+  {
+    "state": "Andra Pradesh",
+    "source_state": "Andra Pradesh",
+    "district": "Prakasam",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Andra Pradesh/1981 Prakasam.pdf",
+    "source_filename": "1981 Prakasam.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 534,
+    "output": "output/pdf/1981_trimmed/Andra Pradesh/mededu/1981_Prakasam_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      335,
+      336
+    ],
+    "printed_page_labels": [
+      "246",
+      "247"
+    ],
+    "status": "Trimmed",
+    "reason": "Located from directory headings and continuation boundaries.",
+    "flags": [],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 335,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              627.36,
+              841.2
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              627.36,
+              841.2
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 336,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              627.36,
+              841.2
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              627.36,
+              841.2
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "audit_status": "pass",
+      "render_checks": [
+        {
+          "source_page": 335,
+          "output_page": 1,
+          "source_png_sha256": "2a5d4d2fe5e2412f2d9d8e8837ee02d0178e39304902825fb90f1bdc26ca60c6",
+          "output_png_sha256": "2a5d4d2fe5e2412f2d9d8e8837ee02d0178e39304902825fb90f1bdc26ca60c6",
+          "match": true
+        },
+        {
+          "source_page": 336,
+          "output_page": 2,
+          "source_png_sha256": "d33dd5bee6e02a6b9cebdd91c942c7c5cfcf6d5c4ddaac84f17a58c04d860975",
+          "output_png_sha256": "d33dd5bee6e02a6b9cebdd91c942c7c5cfcf6d5c4ddaac84f17a58c04d860975",
+          "match": true
+        }
+      ],
+      "rendered_pages": 2,
+      "audit_flags": [],
+      "content_flags": []
+    }
+  },
+  {
+    "state": "Andra Pradesh",
+    "source_state": "Andra Pradesh",
+    "district": "Prakasam",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Andra Pradesh/1981 Prakasam.pdf",
+    "source_filename": "1981 Prakasam.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 534,
+    "output": "output/pdf/1981_trimmed/Andra Pradesh/tehsil appendix/1981_Prakasam_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      243,
+      244,
+      245,
+      246
+    ],
+    "printed_page_labels": [
+      "154",
+      null,
+      null,
+      "167"
+    ],
+    "status": "Trimmed",
+    "reason": "Appendix I printed pages 154-157; source page 247 begins Appendix II.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 4,
+      "pages": [
+        {
+          "source_page": 243,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              627.36,
+              841.2
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              627.36,
+              841.2
+            ]
+          },
+          "rotation": 90
+        },
+        {
+          "source_page": 244,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              627.36,
+              841.2
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              627.36,
+              841.2
+            ]
+          },
+          "rotation": 90
+        },
+        {
+          "source_page": 245,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              627.36,
+              841.2
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              627.36,
+              841.2
+            ]
+          },
+          "rotation": 90
+        },
+        {
+          "source_page": 246,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              627.36,
+              841.2
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              627.36,
+              841.2
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 243,
+          "output_page": 1,
+          "source_png_sha256": "7d08a68d29c6198816391305e24025db5a5531c004f101f26b5a505f9117ebf4",
+          "output_png_sha256": "7d08a68d29c6198816391305e24025db5a5531c004f101f26b5a505f9117ebf4",
+          "match": true
+        },
+        {
+          "source_page": 244,
+          "output_page": 2,
+          "source_png_sha256": "e1da9d048e06d07b6893621b08e46b9475c6dc717342d056d908abce69e35742",
+          "output_png_sha256": "e1da9d048e06d07b6893621b08e46b9475c6dc717342d056d908abce69e35742",
+          "match": true
+        },
+        {
+          "source_page": 245,
+          "output_page": 3,
+          "source_png_sha256": "19b277ffa3fa855039e320260631dfbfd50a9a40c83e687b27c3b3b8c7a4a496",
+          "output_png_sha256": "19b277ffa3fa855039e320260631dfbfd50a9a40c83e687b27c3b3b8c7a4a496",
+          "match": true
+        },
+        {
+          "source_page": 246,
+          "output_page": 4,
+          "source_png_sha256": "60530d5bd2b01269b4bd22de18f102b6201b6dfee3a9216034c45c558cfb3fe3",
+          "output_png_sha256": "60530d5bd2b01269b4bd22de18f102b6201b6dfee3a9216034c45c558cfb3fe3",
+          "match": true
+        }
+      ],
+      "rendered_pages": 4,
+      "audit_status": "pass",
+      "audit_flags": [],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ]
+    }
+  },
+  {
+    "state": "Andra Pradesh",
+    "source_state": "Andra Pradesh",
+    "district": "Rangareddi",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Andra Pradesh/1981 Rangareddi.pdf",
+    "source_filename": "1981 Rangareddi.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 450,
+    "output": "output/pdf/1981_trimmed/Andra Pradesh/civic amenities/1981_Rangareddi_civic_amenities.pdf",
+    "source_pages_selected": [
+      274,
+      275
+    ],
+    "printed_page_labels": [
+      "196",
+      "197"
+    ],
+    "status": "Trimmed",
+    "reason": "Located from directory headings and continuation boundaries.",
+    "flags": [],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 274,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              614.88,
+              807.6
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              614.88,
+              807.6
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 275,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              614.88,
+              807.6
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              614.88,
+              807.6
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "audit_status": "pass",
+      "render_checks": [
+        {
+          "source_page": 274,
+          "output_page": 1,
+          "source_png_sha256": "6f72077fac931cf60ce55d10272396da8cf6c768fa57bab8e4efc9722413f63b",
+          "output_png_sha256": "6f72077fac931cf60ce55d10272396da8cf6c768fa57bab8e4efc9722413f63b",
+          "match": true
+        },
+        {
+          "source_page": 275,
+          "output_page": 2,
+          "source_png_sha256": "15c908330b3797c8da9f9bc1dff02fb948a0ce3488e692ad58be8a9faa55609e",
+          "output_png_sha256": "15c908330b3797c8da9f9bc1dff02fb948a0ce3488e692ad58be8a9faa55609e",
+          "match": true
+        }
+      ],
+      "rendered_pages": 2,
+      "audit_flags": [],
+      "content_flags": []
+    }
+  },
+  {
+    "state": "Andra Pradesh",
+    "source_state": "Andra Pradesh",
+    "district": "Rangareddi",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Andra Pradesh/1981 Rangareddi.pdf",
+    "source_filename": "1981 Rangareddi.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 450,
+    "output": "output/pdf/1981_trimmed/Andra Pradesh/mededu/1981_Rangareddi_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      276,
+      277
+    ],
+    "printed_page_labels": [
+      "198",
+      "199"
+    ],
+    "status": "Trimmed",
+    "reason": "Located from directory headings and continuation boundaries.",
+    "flags": [],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 276,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              614.88,
+              807.6
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              614.88,
+              807.6
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 277,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              614.88,
+              807.6
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              614.88,
+              807.6
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "audit_status": "pass",
+      "render_checks": [
+        {
+          "source_page": 276,
+          "output_page": 1,
+          "source_png_sha256": "365078c0e04bf0f29bf8949c8bf6f720519d6ed12c2f48e890352bf09a81bf4c",
+          "output_png_sha256": "365078c0e04bf0f29bf8949c8bf6f720519d6ed12c2f48e890352bf09a81bf4c",
+          "match": true
+        },
+        {
+          "source_page": 277,
+          "output_page": 2,
+          "source_png_sha256": "aba8a104198bfd55c4bb8f9abc2c30657cb5d8686f68e5864b6e1e2aa15dbe54",
+          "output_png_sha256": "aba8a104198bfd55c4bb8f9abc2c30657cb5d8686f68e5864b6e1e2aa15dbe54",
+          "match": true
+        }
+      ],
+      "rendered_pages": 2,
+      "audit_flags": [],
+      "content_flags": []
+    }
+  },
+  {
+    "state": "Andra Pradesh",
+    "source_state": "Andra Pradesh",
+    "district": "Rangareddi",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Andra Pradesh/1981 Rangareddi.pdf",
+    "source_filename": "1981 Rangareddi.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 450,
+    "output": "output/pdf/1981_trimmed/Andra Pradesh/tehsil appendix/1981_Rangareddi_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      217,
+      218,
+      219,
+      220
+    ],
+    "printed_page_labels": [
+      null,
+      "141",
+      "142",
+      "143"
+    ],
+    "status": "Trimmed",
+    "reason": "Appendix I printed pages 140-143; source page 221 begins Appendix II.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 4,
+      "pages": [
+        {
+          "source_page": 217,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              614.88,
+              807.6
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              614.88,
+              807.6
+            ]
+          },
+          "rotation": 90
+        },
+        {
+          "source_page": 218,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              614.88,
+              807.6
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              614.88,
+              807.6
+            ]
+          },
+          "rotation": 90
+        },
+        {
+          "source_page": 219,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              614.88,
+              807.6
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              614.88,
+              807.6
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 220,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              614.88,
+              807.6
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              614.88,
+              807.6
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 217,
+          "output_page": 1,
+          "source_png_sha256": "5eb6ed785af7a7d8e760a5846e92b474e2f22d7dce1150a53356e9a275cac8c3",
+          "output_png_sha256": "5eb6ed785af7a7d8e760a5846e92b474e2f22d7dce1150a53356e9a275cac8c3",
+          "match": true
+        },
+        {
+          "source_page": 218,
+          "output_page": 2,
+          "source_png_sha256": "644ec1d6d28f2cb1be7f13794c32d5954f79f0b75447a857458f28dd17177bd3",
+          "output_png_sha256": "644ec1d6d28f2cb1be7f13794c32d5954f79f0b75447a857458f28dd17177bd3",
+          "match": true
+        },
+        {
+          "source_page": 219,
+          "output_page": 3,
+          "source_png_sha256": "47e297cbfb15af413bf6e76bfa1dd60ddc6e1c29a2c131e1fb22845e7a75cef2",
+          "output_png_sha256": "47e297cbfb15af413bf6e76bfa1dd60ddc6e1c29a2c131e1fb22845e7a75cef2",
+          "match": true
+        },
+        {
+          "source_page": 220,
+          "output_page": 4,
+          "source_png_sha256": "79e7ebcc62ddbbe61237438c1d16f2a20e187f78df79f35e3dac1f2d9f7900ff",
+          "output_png_sha256": "79e7ebcc62ddbbe61237438c1d16f2a20e187f78df79f35e3dac1f2d9f7900ff",
+          "match": true
+        }
+      ],
+      "rendered_pages": 4,
+      "audit_status": "pass",
+      "audit_flags": [],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ]
+    }
+  },
+  {
+    "state": "Andra Pradesh",
+    "source_state": "Andra Pradesh",
+    "district": "Srikakulam",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Andra Pradesh/1981 Srikakulam.pdf",
+    "source_filename": "1981 Srikakulam.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 671,
+    "output": null,
+    "source_pages_selected": [],
+    "printed_page_labels": [],
+    "status": "Not trimmed",
+    "reason": "Visual contents show the PCA section and Village Directory appendices but no Town Directory Statement IV or equivalent civic amenities table.",
+    "flags": [
+      "manual_absent_or_ineligible"
+    ],
+    "verification": null
+  },
+  {
+    "state": "Andra Pradesh",
+    "source_state": "Andra Pradesh",
+    "district": "Srikakulam",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Andra Pradesh/1981 Srikakulam.pdf",
+    "source_filename": "1981 Srikakulam.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 671,
+    "output": "output/pdf/1981_trimmed/Andra Pradesh/mededu/1981_Srikakulam_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      441,
+      442
+    ],
+    "printed_page_labels": [
+      "346",
+      "347"
+    ],
+    "status": "Trimmed",
+    "reason": "Located from directory headings and continuation boundaries.",
+    "flags": [],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 441,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              641.04,
+              827.52
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              641.04,
+              827.52
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 442,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              641.04,
+              827.52
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              641.04,
+              827.52
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "audit_status": "pass",
+      "render_checks": [
+        {
+          "source_page": 441,
+          "output_page": 1,
+          "source_png_sha256": "f779b8e82da75d24aa8bd2d3167b3fb4bb017635a8c097ecbe64061714d9f0b6",
+          "output_png_sha256": "f779b8e82da75d24aa8bd2d3167b3fb4bb017635a8c097ecbe64061714d9f0b6",
+          "match": true
+        },
+        {
+          "source_page": 442,
+          "output_page": 2,
+          "source_png_sha256": "bca007e1eed6b4d926ce15f99a15021d370dc0392ee131622fc0a9bd82782ba4",
+          "output_png_sha256": "bca007e1eed6b4d926ce15f99a15021d370dc0392ee131622fc0a9bd82782ba4",
+          "match": true
+        }
+      ],
+      "rendered_pages": 2,
+      "audit_flags": [],
+      "content_flags": []
+    }
+  },
+  {
+    "state": "Andra Pradesh",
+    "source_state": "Andra Pradesh",
+    "district": "Srikakulam",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Andra Pradesh/1981 Srikakulam.pdf",
+    "source_filename": "1981 Srikakulam.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 671,
+    "output": "output/pdf/1981_trimmed/Andra Pradesh/tehsil appendix/1981_Srikakulam_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      329,
+      330,
+      331,
+      332
+    ],
+    "printed_page_labels": [
+      "234",
+      "235",
+      "236",
+      "237"
+    ],
+    "status": "Trimmed",
+    "reason": "Appendix I printed pages 234-237; source page 333 begins Appendix II.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 4,
+      "pages": [
+        {
+          "source_page": 329,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              641.04,
+              827.52
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              641.04,
+              827.52
+            ]
+          },
+          "rotation": 90
+        },
+        {
+          "source_page": 330,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              641.04,
+              827.52
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              641.04,
+              827.52
+            ]
+          },
+          "rotation": 90
+        },
+        {
+          "source_page": 331,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              641.04,
+              827.52
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              641.04,
+              827.52
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 332,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              641.04,
+              827.52
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              641.04,
+              827.52
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 329,
+          "output_page": 1,
+          "source_png_sha256": "af8e943c5d45c9e9a8c0703a8098852096a9a830250f0e2a361d1da942f6439c",
+          "output_png_sha256": "af8e943c5d45c9e9a8c0703a8098852096a9a830250f0e2a361d1da942f6439c",
+          "match": true
+        },
+        {
+          "source_page": 330,
+          "output_page": 2,
+          "source_png_sha256": "bcc766637c6e8f9b6c014f364ba199d1ae522f36eee1b54727001935edea4d67",
+          "output_png_sha256": "bcc766637c6e8f9b6c014f364ba199d1ae522f36eee1b54727001935edea4d67",
+          "match": true
+        },
+        {
+          "source_page": 331,
+          "output_page": 3,
+          "source_png_sha256": "be82340fdde8c9ef4a5489fe245c4c87ea4bdf463fbb2931fb29c35bd42ac27d",
+          "output_png_sha256": "be82340fdde8c9ef4a5489fe245c4c87ea4bdf463fbb2931fb29c35bd42ac27d",
+          "match": true
+        },
+        {
+          "source_page": 332,
+          "output_page": 4,
+          "source_png_sha256": "ad21e40835f1166d418fd62f06725edf49aee64eaae773490b7e2205fec96c73",
+          "output_png_sha256": "ad21e40835f1166d418fd62f06725edf49aee64eaae773490b7e2205fec96c73",
+          "match": true
+        }
+      ],
+      "rendered_pages": 4,
+      "audit_status": "pass",
+      "audit_flags": [],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ]
+    }
+  },
+  {
+    "state": "Andra Pradesh",
+    "source_state": "Andra Pradesh",
+    "district": "Visakhapatnam",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Andra Pradesh/1981 Visakhapatnam.pdf",
+    "source_filename": "1981 Visakhapatnam.pdf",
+    "volume_type": "PCA-only / non-directory volume",
+    "eligible": false,
+    "eligibility_reason": "Visual contents show Part-B Primary Census Abstract only; no Village/Town Directory section.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 570,
+    "output": null,
+    "source_pages_selected": [],
+    "printed_page_labels": [],
+    "status": "Not trimmed",
+    "reason": "Visual contents show a PCA-only Part-B volume with no Village/Town Directory or requested Statement IV table.",
+    "flags": [
+      "manual_absent_or_ineligible"
+    ],
+    "verification": null
+  },
+  {
+    "state": "Andra Pradesh",
+    "source_state": "Andra Pradesh",
+    "district": "Visakhapatnam",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Andra Pradesh/1981 Visakhapatnam.pdf",
+    "source_filename": "1981 Visakhapatnam.pdf",
+    "volume_type": "PCA-only / non-directory volume",
+    "eligible": false,
+    "eligibility_reason": "Visual contents show Part-B Primary Census Abstract only; no Village/Town Directory section.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 570,
+    "output": null,
+    "source_pages_selected": [],
+    "printed_page_labels": [],
+    "status": "Not trimmed",
+    "reason": "Visual contents show a PCA-only Part-B volume with no Village/Town Directory or requested Statement V table.",
+    "flags": [
+      "manual_absent_or_ineligible"
+    ],
+    "verification": null
+  },
+  {
+    "state": "Andra Pradesh",
+    "source_state": "Andra Pradesh",
+    "district": "Visakhapatnam",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Andra Pradesh/1981 Visakhapatnam.pdf",
+    "source_filename": "1981 Visakhapatnam.pdf",
+    "volume_type": "PCA-only / non-directory volume",
+    "eligible": false,
+    "eligibility_reason": "Visual contents show Part-B Primary Census Abstract only; no Village/Town Directory section.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 570,
+    "output": null,
+    "source_pages_selected": [],
+    "printed_page_labels": [],
+    "status": "Not trimmed",
+    "reason": "Visual contents show a PCA-only Part-B volume with no Village/Town Directory or tehsil-level amenities appendix.",
+    "flags": [
+      "manual_absent_or_ineligible"
+    ],
+    "verification": null
+  },
+  {
+    "state": "Andra Pradesh",
+    "source_state": "Andra Pradesh",
+    "district": "Warangal",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Andra Pradesh/1981 Warangal.pdf",
+    "source_filename": "1981 Warangal.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 520,
+    "output": "output/pdf/1981_trimmed/Andra Pradesh/civic amenities/1981_Warangal_civic_amenities.pdf",
+    "source_pages_selected": [
+      354,
+      355
+    ],
+    "printed_page_labels": [
+      "238",
+      "239"
+    ],
+    "status": "Trimmed",
+    "reason": "Located from directory headings and continuation boundaries.",
+    "flags": [],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 354,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              624.24,
+              846.0
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              624.24,
+              846.0
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 355,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              624.24,
+              846.0
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              624.24,
+              846.0
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "audit_status": "pass",
+      "render_checks": [
+        {
+          "source_page": 354,
+          "output_page": 1,
+          "source_png_sha256": "62f9baa9047125bf83da046a0a9b83f5a14835c6cef1a0b8214ac2f279a5a866",
+          "output_png_sha256": "62f9baa9047125bf83da046a0a9b83f5a14835c6cef1a0b8214ac2f279a5a866",
+          "match": true
+        },
+        {
+          "source_page": 355,
+          "output_page": 2,
+          "source_png_sha256": "da38b4061f36cd8fae6a6552d8444592c8a53a959ae44cbe6aace647beb3d758",
+          "output_png_sha256": "da38b4061f36cd8fae6a6552d8444592c8a53a959ae44cbe6aace647beb3d758",
+          "match": true
+        }
+      ],
+      "rendered_pages": 2,
+      "audit_flags": [],
+      "content_flags": []
+    }
+  },
+  {
+    "state": "Andra Pradesh",
+    "source_state": "Andra Pradesh",
+    "district": "Warangal",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Andra Pradesh/1981 Warangal.pdf",
+    "source_filename": "1981 Warangal.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 520,
+    "output": "output/pdf/1981_trimmed/Andra Pradesh/mededu/1981_Warangal_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      356,
+      357
+    ],
+    "printed_page_labels": [
+      "240",
+      "241"
+    ],
+    "status": "Trimmed",
+    "reason": "Located from directory headings and continuation boundaries.",
+    "flags": [],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 356,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              624.24,
+              846.0
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              624.24,
+              846.0
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 357,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              624.24,
+              846.0
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              624.24,
+              846.0
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "audit_status": "pass",
+      "render_checks": [
+        {
+          "source_page": 356,
+          "output_page": 1,
+          "source_png_sha256": "7e66c51870176623d51c0e4ab53d0a24f0bc4b904860e586efa7801682d62c18",
+          "output_png_sha256": "7e66c51870176623d51c0e4ab53d0a24f0bc4b904860e586efa7801682d62c18",
+          "match": true
+        },
+        {
+          "source_page": 357,
+          "output_page": 2,
+          "source_png_sha256": "13081ae4924c82d94074ce4da1b61d1bfb6bc0aa68325cd6938fe5ca7c5f8cee",
+          "output_png_sha256": "13081ae4924c82d94074ce4da1b61d1bfb6bc0aa68325cd6938fe5ca7c5f8cee",
+          "match": true
+        }
+      ],
+      "rendered_pages": 2,
+      "audit_flags": [],
+      "content_flags": []
+    }
+  },
+  {
+    "state": "Andra Pradesh",
+    "source_state": "Andra Pradesh",
+    "district": "Warangal",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Andra Pradesh/1981 Warangal.pdf",
+    "source_filename": "1981 Warangal.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 520,
+    "output": "output/pdf/1981_trimmed/Andra Pradesh/tehsil appendix/1981_Warangal_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      274,
+      275,
+      276,
+      277
+    ],
+    "printed_page_labels": [
+      "160",
+      "161",
+      "162",
+      "163"
+    ],
+    "status": "Trimmed",
+    "reason": "Appendix I printed pages 160-163; source page 278 begins Appendix II.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 4,
+      "pages": [
+        {
+          "source_page": 274,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              624.24,
+              846.0
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              624.24,
+              846.0
+            ]
+          },
+          "rotation": 90
+        },
+        {
+          "source_page": 275,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              624.24,
+              846.0
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              624.24,
+              846.0
+            ]
+          },
+          "rotation": 90
+        },
+        {
+          "source_page": 276,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              624.24,
+              846.0
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              624.24,
+              846.0
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 277,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              624.24,
+              846.0
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              624.24,
+              846.0
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 274,
+          "output_page": 1,
+          "source_png_sha256": "88e85bb05b06e4abd6d3e29aa437d9aaff12b159348f505338c0127dd20940f8",
+          "output_png_sha256": "88e85bb05b06e4abd6d3e29aa437d9aaff12b159348f505338c0127dd20940f8",
+          "match": true
+        },
+        {
+          "source_page": 275,
+          "output_page": 2,
+          "source_png_sha256": "0b534f067f31e4abeb17ff2cffad391ccc29d7b3155531701dcaead37e1d5337",
+          "output_png_sha256": "0b534f067f31e4abeb17ff2cffad391ccc29d7b3155531701dcaead37e1d5337",
+          "match": true
+        },
+        {
+          "source_page": 276,
+          "output_page": 3,
+          "source_png_sha256": "7d1b4bc08c30bd5a6c281c562b3dd6d3e0da187f74c4906aaca08828226e8390",
+          "output_png_sha256": "7d1b4bc08c30bd5a6c281c562b3dd6d3e0da187f74c4906aaca08828226e8390",
+          "match": true
+        },
+        {
+          "source_page": 277,
+          "output_page": 4,
+          "source_png_sha256": "838ecabff51d52c67357aa0fe4181896d78c18c0de909166bc03d9c257b65fc4",
+          "output_png_sha256": "838ecabff51d52c67357aa0fe4181896d78c18c0de909166bc03d9c257b65fc4",
+          "match": true
+        }
+      ],
+      "rendered_pages": 4,
+      "audit_status": "pass",
+      "audit_flags": [],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ]
+    }
+  },
+  {
+    "state": "Andra Pradesh",
+    "source_state": "Andra Pradesh",
+    "district": "West Godavari",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Andra Pradesh/1981 West Godavar.pdf",
+    "source_filename": "1981 West Godavar.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 570,
+    "output": "output/pdf/1981_trimmed/Andra Pradesh/civic amenities/1981_West Godavari_civic_amenities.pdf",
+    "source_pages_selected": [
+      294,
+      295
+    ],
+    "printed_page_labels": [
+      "206",
+      "207"
+    ],
+    "status": "Trimmed",
+    "reason": "Located from directory headings and continuation boundaries.",
+    "flags": [],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 294,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              643.44,
+              816.24
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              643.44,
+              816.24
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 295,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              643.44,
+              816.24
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              643.44,
+              816.24
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "audit_status": "pass",
+      "render_checks": [
+        {
+          "source_page": 294,
+          "output_page": 1,
+          "source_png_sha256": "0b1a21a024f8c4e8fd8c26724cbde3f9880f8fc04351069c277a30752fbb4f13",
+          "output_png_sha256": "0b1a21a024f8c4e8fd8c26724cbde3f9880f8fc04351069c277a30752fbb4f13",
+          "match": true
+        },
+        {
+          "source_page": 295,
+          "output_page": 2,
+          "source_png_sha256": "dc1feb9150c5570551b4a8deb20904ef1fe56ab9d9b860c4cd3517f2ff907f43",
+          "output_png_sha256": "dc1feb9150c5570551b4a8deb20904ef1fe56ab9d9b860c4cd3517f2ff907f43",
+          "match": true
+        }
+      ],
+      "rendered_pages": 2,
+      "audit_flags": [],
+      "content_flags": []
+    }
+  },
+  {
+    "state": "Andra Pradesh",
+    "source_state": "Andra Pradesh",
+    "district": "West Godavari",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Andra Pradesh/1981 West Godavar.pdf",
+    "source_filename": "1981 West Godavar.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 570,
+    "output": "output/pdf/1981_trimmed/Andra Pradesh/mededu/1981_West Godavari_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      298,
+      299
+    ],
+    "printed_page_labels": [
+      "210",
+      "211"
+    ],
+    "status": "Trimmed",
+    "reason": "Located from directory headings and continuation boundaries.",
+    "flags": [],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 298,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              643.44,
+              816.24
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              643.44,
+              816.24
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 299,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              643.44,
+              816.24
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              643.44,
+              816.24
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "audit_status": "pass",
+      "render_checks": [
+        {
+          "source_page": 298,
+          "output_page": 1,
+          "source_png_sha256": "e3a9cbb26403d087e22a0377530431a063e21aa732ec2f4db10d959de3ac363d",
+          "output_png_sha256": "e3a9cbb26403d087e22a0377530431a063e21aa732ec2f4db10d959de3ac363d",
+          "match": true
+        },
+        {
+          "source_page": 299,
+          "output_page": 2,
+          "source_png_sha256": "e15c9628fea8685d9b9b7736291032a59d4816718c075f0b9703f1cfdd497775",
+          "output_png_sha256": "e15c9628fea8685d9b9b7736291032a59d4816718c075f0b9703f1cfdd497775",
+          "match": true
+        }
+      ],
+      "rendered_pages": 2,
+      "audit_flags": [],
+      "content_flags": []
+    }
+  },
+  {
+    "state": "Andra Pradesh",
+    "source_state": "Andra Pradesh",
+    "district": "West Godavari",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Andra Pradesh/1981 West Godavar.pdf",
+    "source_filename": "1981 West Godavar.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 570,
+    "output": "output/pdf/1981_trimmed/Andra Pradesh/tehsil appendix/1981_West Godavari_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      219,
+      220,
+      221,
+      222
+    ],
+    "printed_page_labels": [
+      "132",
+      null,
+      "134",
+      "135"
+    ],
+    "status": "Trimmed",
+    "reason": "Appendix I printed pages 132-135; source page 223 begins Appendix II.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 4,
+      "pages": [
+        {
+          "source_page": 219,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              643.44,
+              816.24
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              643.44,
+              816.24
+            ]
+          },
+          "rotation": 90
+        },
+        {
+          "source_page": 220,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              643.44,
+              816.24
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              643.44,
+              816.24
+            ]
+          },
+          "rotation": 90
+        },
+        {
+          "source_page": 221,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              643.44,
+              816.24
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              643.44,
+              816.24
+            ]
+          },
+          "rotation": 90
+        },
+        {
+          "source_page": 222,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              643.44,
+              816.24
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              643.44,
+              816.24
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 219,
+          "output_page": 1,
+          "source_png_sha256": "7e3c22f068a846508d0e9102ef80e7ef4912ab8c967479ddab40237d54ea4a3c",
+          "output_png_sha256": "7e3c22f068a846508d0e9102ef80e7ef4912ab8c967479ddab40237d54ea4a3c",
+          "match": true
+        },
+        {
+          "source_page": 220,
+          "output_page": 2,
+          "source_png_sha256": "a2161818bcdb7ce7c2608afec15f431722042181aed779d31607b6c4aba3c841",
+          "output_png_sha256": "a2161818bcdb7ce7c2608afec15f431722042181aed779d31607b6c4aba3c841",
+          "match": true
+        },
+        {
+          "source_page": 221,
+          "output_page": 3,
+          "source_png_sha256": "85983d1df3d08c1825cfa38ef3f99078a2263ab6d98f67bcb63b9060b17577cb",
+          "output_png_sha256": "85983d1df3d08c1825cfa38ef3f99078a2263ab6d98f67bcb63b9060b17577cb",
+          "match": true
+        },
+        {
+          "source_page": 222,
+          "output_page": 4,
+          "source_png_sha256": "214f533433169a0b64599ac324675ff43d1127d02b91f7d464378bad712125e5",
+          "output_png_sha256": "214f533433169a0b64599ac324675ff43d1127d02b91f7d464378bad712125e5",
+          "match": true
+        }
+      ],
+      "rendered_pages": 4,
+      "audit_status": "pass",
+      "audit_flags": [],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ]
+    }
+  }
+]

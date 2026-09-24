@@ -1,0 +1,83 @@
+format_id: format_001
+name: Civic Amenities
+category: Civic Amenities
+pdfs:
+- filenames:
+  - Amreli_civic_1971.pdf
+  - Banas_Kantha_civic_1971.pdf
+  - Bharuch_civic_1971.pdf
+  - Bhavnagar_civic_1971.pdf
+  - Gandhinagar_civic_1971.pdf
+  - Jamnagar_civic_1971.pdf
+  - Kutch_civic_1971.pdf
+  - Mahesana_civic_1971.pdf
+  - Panch_Mahals_civic_1971.pdf
+  - Rajkot_civic_1971.pdf
+  - Sabar_Kantha_civic_1971.pdf
+  - Surat_civic_1971.pdf
+  - Surendranagar_civic_1971.pdf
+  - Vadodara_civic_1971.pdf
+  - Valsad_civic_1971.pdf
+  pagination:
+    page_1_columns:
+    - 1
+    - 16
+- filenames:
+  - Ahmadabad_civic_1971.pdf
+  - Kheda_civic_1971.pdf
+  pagination:
+    page_1_columns:
+    - 1
+    - 16
+    page_2_columns:
+    - 1
+    - 16
+columns:
+- number: 1
+  name: Sl. No.
+  variable_name: sl_no
+- number: 2
+  name: Name of Town
+  variable_name: town_name
+- number: 3
+  name: Road Length (in Km.)
+  variable_name: road_length_km
+- number: 4
+  name: System of Sewerage/Drainage
+  variable_name: sewerage_drainage_system
+- number: 5
+  name: Water-Borne Latrines
+  variable_name: water_borne_latrines
+- number: 6
+  name: Service Latrines
+  variable_name: service_latrines
+- number: 7
+  name: Other Latrines
+  variable_name: other_latrines
+- number: 8
+  name: Method of Disposal of Night Soil
+  variable_name: night_soil_disposal_method
+- number: 9
+  name: Protected Water Supply - Source
+  variable_name: water_source
+- number: 10
+  name: Protected Water Supply - Capacity (in Litres)
+  variable_name: water_capacity
+- number: 11
+  name: Fire-Fighting Service
+  variable_name: fire_fighting_service
+- number: 12
+  name: Electrification - Domestic
+  variable_name: electrification_domestic
+- number: 13
+  name: Electrification - Industrial
+  variable_name: electrification_industrial
+- number: 14
+  name: Electrification - Commercial
+  variable_name: electrification_commercial
+- number: 15
+  name: Electrification - Road Lighting (Points)
+  variable_name: electrification_road_lighting
+- number: 16
+  name: Electrification - Others
+  variable_name: electrification_others

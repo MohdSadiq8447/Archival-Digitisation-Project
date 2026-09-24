@@ -1,0 +1,148 @@
+[
+  {
+    "district": "Mokokchung",
+    "table": "civic_amenities",
+    "source": "1971\\Nagaland\\1971 Mokokchung.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Nagaland\\civic amenities\\Mokokchung_civic_1971.pdf",
+    "source_pages": [
+      52
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 52,
+        "mediabox": [
+          0.0,
+          0.0,
+          649.68,
+          832.8
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          649.68,
+          832.8
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Mokokchung",
+    "table": "medical_educational_amenities",
+    "source": "1971\\Nagaland\\1971 Mokokchung.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Nagaland\\mededu\\Mokokchung_mededu_1971.pdf",
+    "source_pages": [
+      52
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 52,
+        "mediabox": [
+          0.0,
+          0.0,
+          649.68,
+          832.8
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          649.68,
+          832.8
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Mokokchung",
+    "table": "tehsil_appendix",
+    "source": "1971\\Nagaland\\1971 Mokokchung.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Nagaland\\tehsil appendix\\Mokokchung_tehsil_1971.pdf",
+    "source_pages": [
+      44,
+      45
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 44,
+        "mediabox": [
+          0.0,
+          0.0,
+          649.68,
+          832.8
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          649.68,
+          832.8
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 45,
+        "mediabox": [
+          0.0,
+          0.0,
+          649.68,
+          832.8
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          649.68,
+          832.8
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Tuensang",
+    "table": "tehsil_appendix",
+    "source": "1971\\Nagaland\\1971 Tuensang.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Nagaland\\tehsil appendix\\Tuensang_tehsil_1971.pdf",
+    "source_pages": [
+      34,
+      35
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 34,
+        "mediabox": [
+          0.0,
+          0.0,
+          641.28,
+          835.92
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          641.28,
+          835.92
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 35,
+        "mediabox": [
+          0.0,
+          0.0,
+          641.28,
+          835.92
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          641.28,
+          835.92
+        ],
+        "rotate": 0
+      }
+    ]
+  }
+]

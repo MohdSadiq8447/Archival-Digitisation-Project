@@ -1,0 +1,163 @@
+format_id: format_001
+name: Civic Amenities
+category: Civic Amenities
+pdfs:
+- filenames:
+  - 1981_Aligarh_civic_amenities.pdf
+  - 1981_Aligarh_civic_amenities.pdf.fixed.pdf
+  - 1981_Allahabad_civic_amenities.pdf
+  - 1981_Allahabad_civic_amenities.pdf.fixed.pdf
+  - 1981_Almora_civic_amenities.pdf
+  - 1981_Almora_civic_amenities.pdf.fixed.pdf
+  - 1981_Azamgarh_civic_amenities.pdf
+  - 1981_Azamgarh_civic_amenities.pdf.fixed.pdf
+  - 1981_Bahraich_civic_amenities.pdf
+  - 1981_Bahraich_civic_amenities.pdf.fixed.pdf
+  - 1981_Banda_civic_amenities.pdf
+  - 1981_Banda_civic_amenities.pdf.fixed.pdf
+  - 1981_Bareilly_civic_amenities.pdf
+  - 1981_Bareilly_civic_amenities.pdf.fixed.pdf
+  - 1981_Basti_civic_amenities.pdf
+  - 1981_Basti_civic_amenities.pdf.fixed.pdf
+  - 1981_Bijnor_civic_amenities.pdf
+  - 1981_Bijnor_civic_amenities.pdf.fixed.pdf
+  - 1981_Budaun_civic_amenities.pdf
+  - 1981_Budaun_civic_amenities.pdf.fixed.pdf
+  - 1981_Bulandshahr_civic_amenities.pdf
+  - 1981_Bulandshahr_civic_amenities.pdf.fixed.pdf
+  - 1981_Chamoli_civic_amenities.pdf
+  - 1981_Chamoli_civic_amenities.pdf.fixed.pdf
+  - 1981_Dehra Dun_civic_amenities.pdf
+  - 1981_Dehra Dun_civic_amenities.pdf.fixed.pdf
+  - 1981_Deoria_civic_amenities.pdf
+  - 1981_Deoria_civic_amenities.pdf.fixed.pdf
+  - 1981_Etawah_civic_amenities.pdf
+  - 1981_Etawah_civic_amenities.pdf.fixed.pdf
+  - 1981_Faizabad_civic_amenities.pdf
+  - 1981_Faizabad_civic_amenities.pdf.fixed.pdf
+  - 1981_Farrukhabad_civic_amenities.pdf
+  - 1981_Farrukhabad_civic_amenities.pdf.fixed.pdf
+  - 1981_Fatehpur_civic_amenities.pdf
+  - 1981_Fatehpur_civic_amenities.pdf.fixed.pdf
+  - 1981_Garhwal_civic_amenities.pdf
+  - 1981_Garhwal_civic_amenities.pdf.fixed.pdf
+  - 1981_Ghaziabad_civic_amenities.pdf
+  - 1981_Ghaziabad_civic_amenities.pdf.fixed.pdf
+  - 1981_Ghazipur_civic_amenities.pdf
+  - 1981_Ghazipur_civic_amenities.pdf.fixed.pdf
+  - 1981_Gonda_civic_amenities.pdf
+  - 1981_Gonda_civic_amenities.pdf.fixed.pdf
+  - 1981_Gorakhpur_civic_amenities.pdf
+  - 1981_Gorakhpur_civic_amenities.pdf.fixed.pdf
+  - 1981_Hamirpur_civic_amenities.pdf
+  - 1981_Hamirpur_civic_amenities.pdf.fixed.pdf
+  - 1981_Hardoi_civic_amenities.pdf
+  - 1981_Hardoi_civic_amenities.pdf.fixed.pdf
+  - 1981_Jalaun_civic_amenities.pdf
+  - 1981_Jalaun_civic_amenities.pdf.fixed.pdf
+  - 1981_Jaunpur_civic_amenities.pdf
+  - 1981_Jaunpur_civic_amenities.pdf.fixed.pdf
+  - 1981_Jhansi_civic_amenities.pdf
+  - 1981_Jhansi_civic_amenities.pdf.fixed.pdf
+  - 1981_Kanpur_civic_amenities.pdf
+  - 1981_Kanpur_civic_amenities.pdf.fixed.pdf
+  - 1981_Kheri_civic_amenities.pdf
+  - 1981_Kheri_civic_amenities.pdf.fixed.pdf
+  - 1981_Lalitpur_civic_amenities.pdf
+  - 1981_Lucknow_civic_amenities.pdf
+  - 1981_Lucknow_civic_amenities.pdf.fixed.pdf
+  - 1981_Mainpuri_civic_amenities.pdf
+  - 1981_Mainpuri_civic_amenities.pdf.fixed.pdf
+  - 1981_Mathura_civic_amenities.pdf
+  - 1981_Mathura_civic_amenities.pdf.fixed.pdf
+  - 1981_Moradabad_civic_amenities.pdf
+  - 1981_Moradabad_civic_amenities.pdf.fixed.pdf
+  - 1981_Muzaffarnagar_civic_amenities.pdf
+  - 1981_Muzaffarnagar_civic_amenities.pdf.fixed.pdf
+  - 1981_Nainital_civic_amenities.pdf
+  - 1981_Nainital_civic_amenities.pdf.fixed.pdf
+  - 1981_Pilibhit_civic_amenities.pdf
+  - 1981_Pilibhit_civic_amenities.pdf.fixed.pdf
+  - 1981_Pithoragarh_civic_amenities.pdf
+  - 1981_Pithoragarh_civic_amenities.pdf.fixed.pdf
+  - 1981_Rae Bareli_civic_amenities.pdf
+  - 1981_Rae Bareli_civic_amenities.pdf.fixed.pdf
+  - 1981_Rampur_civic_amenities.pdf
+  - 1981_Rampur_civic_amenities.pdf.fixed.pdf
+  - 1981_Saharanpur_civic_amenities.pdf
+  - 1981_Saharanpur_civic_amenities.pdf.fixed.pdf
+  - 1981_Shahjahanpur_civic_amenities.pdf
+  - 1981_Shahjahanpur_civic_amenities.pdf.fixed.pdf
+  - 1981_Sultanpur_civic_amenities.pdf
+  - 1981_Sultanpur_civic_amenities.pdf.fixed.pdf
+  - 1981_Unnao_civic_amenities.pdf
+  - 1981_Unnao_civic_amenities.pdf.fixed.pdf
+  - 1981_Uttar Kashi_civic_amenities.pdf
+  - 1981_Uttar Kashi_civic_amenities.pdf.fixed.pdf
+  - 1981_Varanasi_civic_amenities.pdf
+  - 1981_Varanasi_civic_amenities.pdf.fixed.pdf
+  pagination:
+    page_1_columns:
+    - 1
+    - 10
+    page_2_columns:
+    - 11
+    - 19
+columns:
+- number: 1
+  name: Sl. No
+  variable_name: sl_no
+- number: 2
+  name: Class and Name of town
+  variable_name: town_class_name
+- number: 3
+  name: Civic administration Status (In 1980)
+  variable_name: civic_admin_status
+- number: 4
+  name: Population
+  variable_name: population
+- number: 5
+  name: Scheduled Caste and Scheduled Tribe population
+  variable_name: sc_st_population
+- number: 6
+  name: Road length (in Kms.)
+  variable_name: road_length
+- number: 7
+  name: System of Sewerage
+  variable_name: sewerage_system
+- number: 8
+  name: Number of Latrines - Water borne
+  variable_name: latrines_water_borne
+- number: 9
+  name: Number of Latrines - Service
+  variable_name: latrines_service
+- number: 10
+  name: Number of Latrines - Others
+  variable_name: latrines_others
+- number: 11
+  name: Method of disposal of night soil
+  variable_name: night_soil_disposal
+- number: 12
+  name: Protected water supply - Source of supply
+  variable_name: water_supply_source
+- number: 13
+  name: Protected water supply - System of storage with Capacity (in 1,000 Litres)
+  variable_name: water_supply_storage_capacity
+- number: 14
+  name: Fire fighting service
+  variable_name: fire_fighting_service
+- number: 15
+  name: Electrification (Number of Connections) - Domestic
+  variable_name: electrification_domestic
+- number: 16
+  name: Electrification (Number of Connections) - Industrial
+  variable_name: electrification_industrial
+- number: 17
+  name: Electrification (Number of Connections) - Commercial
+  variable_name: electrification_commercial
+- number: 18
+  name: Electrification (Number of Connections) - Road Lighting (Points)
+  variable_name: electrification_road_lighting
+- number: 19
+  name: Electrification (Number of Connections) - Others
+  variable_name: electrification_others

@@ -1,0 +1,115 @@
+format_id: format_002
+name: Medical and Educational Amenities
+category: Medical and Educational Amenities
+pdfs:
+- filenames:
+  - 1981_Balaghat_medical_educational_amenities.pdf
+  - 1981_Bastar_medical_educational_amenities.pdf
+  - 1981_Betul_medical_educational_amenities.pdf
+  - 1981_Bhind_medical_educational_amenities.pdf
+  - 1981_Bhopal_medical_educational_amenities.pdf
+  - 1981_Bilaspur_medical_educational_amenities.pdf
+  - 1981_Chhatarpur_medical_educational_amenities.pdf
+  - 1981_Chhindwara_medical_educational_amenities.pdf
+  - 1981_Datia_medical_educational_amenities.pdf
+  - 1981_Dewas_medical_educational_amenities.pdf
+  - 1981_Dhar_medical_educational_amenities.pdf
+  - 1981_Durg_medical_educational_amenities.pdf
+  - 1981_East-Nimar_medical_educational_amenities.pdf
+  - 1981_Guna_medical_educational_amenities.pdf
+  - 1981_Gwalior_medical_educational_amenities.pdf
+  - 1981_Hoshangabad_medical_educational_amenities.pdf
+  - 1981_Indore_medical_educational_amenities.pdf
+  - 1981_Jabalpur_medical_educational_amenities.pdf
+  - 1981_Jhabua_medical_educational_amenities.pdf
+  - 1981_Mandla_medical_educational_amenities.pdf
+  - 1981_Mandsaur_medical_educational_amenities.pdf
+  - 1981_Morena_medical_educational_amenities.pdf
+  - 1981_Narsimhapur_medical_educational_amenities.pdf
+  - 1981_Panna_medical_educational_amenities.pdf
+  - 1981_Raigarh_medical_educational_amenities.pdf
+  - 1981_Raipur_medical_educational_amenities.pdf
+  - 1981_Raisen_medical_educational_amenities.pdf
+  - 1981_Rajnandgaon_medical_educational_amenities.pdf
+  - 1981_Ratlam_medical_educational_amenities.pdf
+  - 1981_Rewa_medical_educational_amenities.pdf
+  - 1981_Sagar_medical_educational_amenities.pdf
+  - 1981_Sehore_medical_educational_amenities.pdf
+  - 1981_Seoni_medical_educational_amenities.pdf
+  - 1981_Shahdol_medical_educational_amenities.pdf
+  - 1981_Shajapur_medical_educational_amenities.pdf
+  - 1981_Shivpuri_medical_educational_amenities.pdf
+  - 1981_Sidhi_medical_educational_amenities.pdf
+  - 1981_Surguja_medical_educational_amenities.pdf
+  - 1981_Tikamgarh_medical_educational_amenities.pdf
+  - 1981_Ujjain_medical_educational_amenities.pdf
+  - 1981_West-Nimar_medical_educational_amenities.pdf
+  pagination:
+    page_1_columns:
+    - 1
+    - 10
+    page_2_columns:
+    - 11
+    - 20
+columns:
+- number: 1
+  name: Sl. No.
+  variable_name: sl_no
+- number: 2
+  name: Class and Name of town
+  variable_name: town_class_name
+- number: 3
+  name: Population
+  variable_name: population
+- number: 4
+  name: MEDICAL FACILITIES - Hospitals/ Dispensaries/T.B. clinics etc.
+  variable_name: hospitals_dispensaries_clinics
+- number: 5
+  name: MEDICAL FACILITIES - Beds in Medical Institutions noted in Col. No.4
+  variable_name: beds_in_medical_institutions
+- number: 6
+  name: EDUCATIONAL - Arts/Science/ Commerce Colleges (of degree level and above)
+  variable_name: arts_science_commerce_colleges
+- number: 7
+  name: EDUCATIONAL - Medical Colleges
+  variable_name: medical_colleges
+- number: 8
+  name: EDUCATIONAL - Engineering Colleges
+  variable_name: engineering_colleges
+- number: 9
+  name: EDUCATIONAL - Polytechnics
+  variable_name: polytechnics
+- number: 10
+  name: EDUCATIONAL - Recognised Shorthand, Typewriting and Vocational training Institutes
+  variable_name: shorthand_typewriting_vocational_institutes
+- number: 11
+  name: EDUCATIONAL - Higher secondary/ Inter/ Junior College
+  variable_name: higher_secondary_inter_junior_college
+- number: 12
+  name: EDUCATIONAL - Secondary/ Matriculation
+  variable_name: secondary_matriculation
+- number: 13
+  name: EDUCATIONAL - Junior Secondary & Middle Schools
+  variable_name: junior_secondary_middle_schools
+- number: 14
+  name: EDUCATIONAL - Primary Schools
+  variable_name: primary_schools
+- number: 15
+  name: EDUCATIONAL - Adult Literacy Classes/ Centres, Others (specify)
+  variable_name: adult_literacy_classes_centres_others
+- number: 16
+  name: EDUCATIONAL - Number of working Women's hostels with number of seats
+  variable_name: working_womens_hostels_seats
+- number: 17
+  name: RECREATIONAL AND CULTURAL FACILITIES - Stadia
+  variable_name: stadia
+- number: 18
+  name: RECREATIONAL AND CULTURAL FACILITIES - Cinema
+  variable_name: cinema
+- number: 19
+  name: RECREATIONAL AND CULTURAL FACILITIES - Auditoria/ Drama/ Community Halls
+  variable_name: auditoria_drama_community_halls
+- number: 20
+  name: RECREATIONAL AND CULTURAL FACILITIES - Public Libraries including Reading
+    Rooms
+  variable_name: public_libraries_reading_rooms

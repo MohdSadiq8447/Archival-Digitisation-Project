@@ -1,0 +1,91 @@
+format_id: format_001
+name: Civic Amenities
+category: Civic Amenities
+pdfs:
+- filenames:
+  - 1981_Ahmadnagar_civic_amenities.pdf
+  - 1981_Akola_civic_amenities.pdf
+  - 1981_Amravati_civic_amenities.pdf
+  - 1981_Bhandara_civic_amenities.pdf
+  - 1981_Bid_civic_amenities.pdf
+  - 1981_Buldana_civic_amenities.pdf
+  - 1981_Chandrapur_civic_amenities.pdf
+  - 1981_Dhule_civic_amenities.pdf
+  - 1981_Greater Maharashtra_civic_amenities.pdf
+  - 1981_Jalgaon_civic_amenities.pdf
+  - 1981_Kolhapur_civic_amenities.pdf
+  - 1981_Nagpur_civic_amenities.pdf
+  - 1981_Nanded_civic_amenities.pdf
+  - 1981_Nasik_civic_amenities.pdf
+  - 1981_Osmanabad_civic_amenities.pdf
+  - 1981_Parbhani_civic_amenities.pdf
+  - 1981_Pune_civic_amenities.pdf
+  - 1981_Ratnagiri_civic_amenities.pdf
+  - 1981_Sangli_civic_amenities.pdf
+  - 1981_Satara_civic_amenities.pdf
+  - 1981_Sholapur_civic_amenities.pdf
+  - 1981_Thane_civic_amenities.pdf
+  - 1981_Wardha_civic_amenities.pdf
+  - 1981_Yavatmal_civic_amenities.pdf
+  pagination:
+    page_1_columns:
+    - 1
+    - 19
+columns:
+- number: 1
+  name: Sl. No
+  variable_name: sl_no
+- number: 2
+  name: Class and Name of town
+  variable_name: town_class_name
+- number: 3
+  name: Civic administration Status (In 1980)
+  variable_name: civic_admin_status
+- number: 4
+  name: Population
+  variable_name: population
+- number: 5
+  name: Scheduled Caste and Scheduled Tribe population
+  variable_name: sc_st_population
+- number: 6
+  name: Road length (in Kms.)
+  variable_name: road_length
+- number: 7
+  name: System of Sewerage
+  variable_name: sewerage_system
+- number: 8
+  name: Number of Latrines - Water borne
+  variable_name: latrines_water_borne
+- number: 9
+  name: Number of Latrines - Service
+  variable_name: latrines_service
+- number: 10
+  name: Number of Latrines - Others
+  variable_name: latrines_others
+- number: 11
+  name: Method of disposal of night soil
+  variable_name: night_soil_disposal
+- number: 12
+  name: Protected water supply - Source of supply
+  variable_name: water_supply_source
+- number: 13
+  name: Protected water supply - System of storage with Capacity (in 1,000 Litres)
+  variable_name: water_supply_storage_capacity
+- number: 14
+  name: Fire fighting service
+  variable_name: fire_fighting_service
+- number: 15
+  name: Electrification (Number of Connections) - Domestic
+  variable_name: electrification_domestic
+- number: 16
+  name: Electrification (Number of Connections) - Industrial
+  variable_name: electrification_industrial
+- number: 17
+  name: Electrification (Number of Connections) - Commercial
+  variable_name: electrification_commercial
+- number: 18
+  name: Electrification (Number of Connections) - Road Lighting (Points)
+  variable_name: electrification_road_lighting
+- number: 19
+  name: Electrification (Number of Connections) - Others
+  variable_name: electrification_others

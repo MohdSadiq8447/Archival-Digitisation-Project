@@ -1,0 +1,26 @@
+[
+  {
+    "source": "1971 Manipur North.pdf",
+    "table": "civic_amenities",
+    "status": "review",
+    "reason": "No actual Town Directory Statement IV table is present in this volume; the Town Directory section contains only the abbreviation/key material before the Village Directory begins."
+  },
+  {
+    "source": "1971 Manipur North.pdf",
+    "table": "medical_educational_amenities",
+    "status": "review",
+    "reason": "No actual Town Directory Statement V table is present in this volume; the Town Directory section contains only the abbreviation/key material before the Village Directory begins."
+  },
+  {
+    "source": "1971 Manipur West.pdf",
+    "table": "civic_amenities",
+    "status": "review",
+    "reason": "No actual Town Directory Statement IV table is present in this volume; the Town Directory section contains only the abbreviation/key material before the Village Directory begins."
+  },
+  {
+    "source": "1971 Manipur West.pdf",
+    "table": "medical_educational_amenities",
+    "status": "review",
+    "reason": "No actual Town Directory Statement V table is present in this volume; the Town Directory section contains only the abbreviation/key material before the Village Directory begins."
+  }
+]

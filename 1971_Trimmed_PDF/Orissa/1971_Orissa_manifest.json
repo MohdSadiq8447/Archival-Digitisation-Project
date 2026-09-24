@@ -1,0 +1,103 @@
+[
+  {
+    "district": "Puri",
+    "table": "civic_amenities",
+    "source": "1971\\Orissa\\1971 Puri.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Orissa\\civic amenities\\Puri_civic_1971.pdf",
+    "source_pages": [
+      26
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 26,
+        "mediabox": [
+          0.0,
+          0.0,
+          648.96,
+          844.8
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          648.96,
+          844.8
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Puri",
+    "table": "medical_educational_amenities",
+    "source": "1971\\Orissa\\1971 Puri.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Orissa\\mededu\\Puri_mededu_1971.pdf",
+    "source_pages": [
+      27
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 27,
+        "mediabox": [
+          0.0,
+          0.0,
+          648.96,
+          844.8
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          648.96,
+          844.8
+        ],
+        "rotate": 90
+      }
+    ]
+  },
+  {
+    "district": "Puri",
+    "table": "tehsil_appendix",
+    "source": "1971\\Orissa\\1971 Puri.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Orissa\\tehsil appendix\\Puri_tehsil_1971.pdf",
+    "source_pages": [
+      547,
+      548
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 547,
+        "mediabox": [
+          0.0,
+          0.0,
+          648.96,
+          844.8
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          648.96,
+          844.8
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 548,
+        "mediabox": [
+          0.0,
+          0.0,
+          648.96,
+          844.8
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          648.96,
+          844.8
+        ],
+        "rotate": 0
+      }
+    ]
+  }
+]

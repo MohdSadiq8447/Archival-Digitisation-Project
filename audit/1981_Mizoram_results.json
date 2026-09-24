@@ -1,0 +1,444 @@
+[
+  {
+    "state": "Mizoram",
+    "source_state": "Mizoram",
+    "district": "Aizawl",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Mizoram/1981 Aizawl.pdf",
+    "source_filename": "1981 Aizawl.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 199,
+    "output": "output/pdf/1981_trimmed/Mizoram/civic amenities/1981_Aizawl_civic_amenities.pdf",
+    "source_pages_selected": [
+      147
+    ],
+    "printed_page_labels": [
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Statement IV Civic and Other Amenities, printed page 135, sharing the full source page with the tail of Statement III; source page 148 begins Statement V.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 1,
+      "pages": [
+        {
+          "source_page": 147,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              609.36,
+              829.68
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              609.36,
+              829.68
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 147,
+          "output_page": 1,
+          "source_png_sha256": "e8d3d14a0f440a4c63b5820efcdc94597b50a9c07a3a59a490aa44a1d69faa83",
+          "output_png_sha256": "e8d3d14a0f440a4c63b5820efcdc94597b50a9c07a3a59a490aa44a1d69faa83",
+          "match": true
+        }
+      ],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 1,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Mizoram",
+    "source_state": "Mizoram",
+    "district": "Aizawl",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Mizoram/1981 Aizawl.pdf",
+    "source_filename": "1981 Aizawl.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 199,
+    "output": "output/pdf/1981_trimmed/Mizoram/mededu/1981_Aizawl_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      148
+    ],
+    "printed_page_labels": [
+      "136"
+    ],
+    "status": "Trimmed",
+    "reason": "Statement V Medical, Educational, Recreational and Cultural Facilities, printed page 136; source page 149 begins Statement VI.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 1,
+      "pages": [
+        {
+          "source_page": 148,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              609.36,
+              829.68
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              609.36,
+              829.68
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 148,
+          "output_page": 1,
+          "source_png_sha256": "ac5f708b73aac8c2436cded754258c9377a723dcc13a0f2a13a405f3a1379b07",
+          "output_png_sha256": "ac5f708b73aac8c2436cded754258c9377a723dcc13a0f2a13a405f3a1379b07",
+          "match": true
+        }
+      ],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 1,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Mizoram",
+    "source_state": "Mizoram",
+    "district": "Aizawl",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Mizoram/1981 Aizawl.pdf",
+    "source_filename": "1981 Aizawl.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 199,
+    "output": "output/pdf/1981_trimmed/Mizoram/tehsil appendix/1981_Aizawl_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      116,
+      117
+    ],
+    "printed_page_labels": [
+      "104",
+      "105"
+    ],
+    "status": "Trimmed",
+    "reason": "Village Directory Appendix I C.D. Block-wise abstract of educational, medical and other amenities, printed pages 104-105; source page 118 begins Appendix II.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 116,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              609.36,
+              829.68
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              609.36,
+              829.68
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 117,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              609.36,
+              829.68
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              609.36,
+              829.68
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 116,
+          "output_page": 1,
+          "source_png_sha256": "cd128e7d0c98f0d865fdbcad92b35838c5823c5c7cf617a8658fcc5d08c871c3",
+          "output_png_sha256": "cd128e7d0c98f0d865fdbcad92b35838c5823c5c7cf617a8658fcc5d08c871c3",
+          "match": true
+        },
+        {
+          "source_page": 117,
+          "output_page": 2,
+          "source_png_sha256": "d96949a8594bfbd5f7e1f586e2777df3ad653ba3cb76bb339a40b38bab331693",
+          "output_png_sha256": "d96949a8594bfbd5f7e1f586e2777df3ad653ba3cb76bb339a40b38bab331693",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Mizoram",
+    "source_state": "Mizoram",
+    "district": "Chhimtuipui",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Mizoram/1981 Chhimtuipui.pdf",
+    "source_filename": "1981 Chhimtuipui.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 107,
+    "output": "output/pdf/1981_trimmed/Mizoram/civic amenities/1981_Chhimtuipui_civic_amenities.pdf",
+    "source_pages_selected": [
+      78
+    ],
+    "printed_page_labels": [
+      "66"
+    ],
+    "status": "Trimmed",
+    "reason": "Statement IV Civic and Other Amenities, printed page 66, sharing the full source page with Statement III; source page 79 begins Statement IV-A and Statement V.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 1,
+      "pages": [
+        {
+          "source_page": 78,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              603.36,
+              820.56
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              603.36,
+              820.56
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 78,
+          "output_page": 1,
+          "source_png_sha256": "183c9d74ab2c6cfd908b1e265872298f9682b07c90af8a97345ab414ed5bef9d",
+          "output_png_sha256": "183c9d74ab2c6cfd908b1e265872298f9682b07c90af8a97345ab414ed5bef9d",
+          "match": true
+        }
+      ],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 1,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Mizoram",
+    "source_state": "Mizoram",
+    "district": "Chhimtuipui",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Mizoram/1981 Chhimtuipui.pdf",
+    "source_filename": "1981 Chhimtuipui.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 107,
+    "output": "output/pdf/1981_trimmed/Mizoram/mededu/1981_Chhimtuipui_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      79
+    ],
+    "printed_page_labels": [
+      "67"
+    ],
+    "status": "Trimmed",
+    "reason": "Statement V Medical, Educational, Recreational and Cultural Facilities, printed page 67, sharing the full source page with Statement IV-A; source page 80 begins Statement VI.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 1,
+      "pages": [
+        {
+          "source_page": 79,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              603.36,
+              820.56
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              603.36,
+              820.56
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 79,
+          "output_page": 1,
+          "source_png_sha256": "01bce652e79e8ea4450189489928fcaa0089a98e144bac2d5a1fdeeba600e3da",
+          "output_png_sha256": "01bce652e79e8ea4450189489928fcaa0089a98e144bac2d5a1fdeeba600e3da",
+          "match": true
+        }
+      ],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 1,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Mizoram",
+    "source_state": "Mizoram",
+    "district": "Chhimtuipui",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Mizoram/1981 Chhimtuipui.pdf",
+    "source_filename": "1981 Chhimtuipui.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 107,
+    "output": "output/pdf/1981_trimmed/Mizoram/tehsil appendix/1981_Chhimtuipui_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      64,
+      65
+    ],
+    "printed_page_labels": [
+      "52",
+      "53"
+    ],
+    "status": "Trimmed",
+    "reason": "Village Directory Appendix I Tahsilwise/Blockwise abstract of educational, medical and other amenities, printed pages 52-53; source page 66 begins Appendix II.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 64,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              603.36,
+              820.56
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              603.36,
+              820.56
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 65,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              603.36,
+              820.56
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              603.36,
+              820.56
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 64,
+          "output_page": 1,
+          "source_png_sha256": "dc8a6f875e457ded87be91ed35b78d34ad5ca0e7943c53c251bcf58566b3ee3f",
+          "output_png_sha256": "dc8a6f875e457ded87be91ed35b78d34ad5ca0e7943c53c251bcf58566b3ee3f",
+          "match": true
+        },
+        {
+          "source_page": 65,
+          "output_page": 2,
+          "source_png_sha256": "536577a039bd040c77259f5f31130faa0af572f992cd94f13b316eb5b4465053",
+          "output_png_sha256": "536577a039bd040c77259f5f31130faa0af572f992cd94f13b316eb5b4465053",
+          "match": true
+        }
+      ],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  }
+]

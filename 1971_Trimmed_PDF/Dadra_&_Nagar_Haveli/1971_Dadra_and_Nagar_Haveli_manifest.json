@@ -1,0 +1,120 @@
+[
+  {
+    "district": "Dadra & Nagar Haveli",
+    "table": "civic_amenities",
+    "source": "1971\\Dadra & Nagar Haveli\\1971 Dadra & Nagar Haveli.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Dadra & Nagar Haveli\\civic amenities\\Dadra_and_Nagar_Haveli_civic_1971.pdf",
+    "source_pages": [
+      48
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 48,
+        "mediabox": [
+          0.0,
+          0.0,
+          557.04,
+          790.8
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          557.04,
+          790.8
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Dadra & Nagar Haveli",
+    "table": "medical_educational_amenities",
+    "source": "1971\\Dadra & Nagar Haveli\\1971 Dadra & Nagar Haveli.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Dadra & Nagar Haveli\\mededu\\Dadra_and_Nagar_Haveli_mededu_1971.pdf",
+    "source_pages": [
+      49,
+      50
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 49,
+        "mediabox": [
+          0.0,
+          0.0,
+          557.04,
+          790.8
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          557.04,
+          790.8
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 50,
+        "mediabox": [
+          0.0,
+          0.0,
+          557.04,
+          790.8
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          557.04,
+          790.8
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Dadra & Nagar Haveli",
+    "table": "tehsil_appendix",
+    "source": "1971\\Dadra & Nagar Haveli\\1971 Dadra & Nagar Haveli.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Dadra & Nagar Haveli\\tehsil appendix\\Dadra_and_Nagar_Haveli_tehsil_1971.pdf",
+    "source_pages": [
+      27,
+      28
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 27,
+        "mediabox": [
+          0.0,
+          0.0,
+          557.04,
+          790.8
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          557.04,
+          790.8
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 28,
+        "mediabox": [
+          0.0,
+          0.0,
+          557.04,
+          790.8
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          557.04,
+          790.8
+        ],
+        "rotate": 0
+      }
+    ]
+  }
+]

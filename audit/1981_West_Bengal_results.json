@@ -1,0 +1,4316 @@
+[
+  {
+    "state": "West Bengal",
+    "source_state": "West Bengal",
+    "district": "Bankura",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/West Bengal/1981 Bankura.pdf",
+    "source_filename": "1981 Bankura.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 652,
+    "output": "output/pdf/1981_trimmed/West Bengal/civic amenities/1981_Bankura_civic_amenities.pdf",
+    "source_pages_selected": [
+      644,
+      645
+    ],
+    "printed_page_labels": [
+      null,
+      "1979"
+    ],
+    "status": "Trimmed",
+    "reason": "Statement IV; source page 646 begins Statement IV-A.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 644,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              590.64,
+              726.48
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              590.64,
+              726.48
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 645,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              590.64,
+              726.48
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              590.64,
+              726.48
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 644,
+          "output_page": 1,
+          "source_png_sha256": "6613c8dededa8ad60ab47cfd11514501dbb3b4666c7f2315533e6f093ecc13d7",
+          "output_png_sha256": "6613c8dededa8ad60ab47cfd11514501dbb3b4666c7f2315533e6f093ecc13d7",
+          "match": true
+        },
+        {
+          "source_page": 645,
+          "output_page": 2,
+          "source_png_sha256": "304a6f5a5ea374e65623a158003147a786d3ddafbe378e2c593804de502a6e98",
+          "output_png_sha256": "304a6f5a5ea374e65623a158003147a786d3ddafbe378e2c593804de502a6e98",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "West Bengal",
+    "source_state": "West Bengal",
+    "district": "Bankura",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/West Bengal/1981 Bankura.pdf",
+    "source_filename": "1981 Bankura.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 652,
+    "output": "output/pdf/1981_trimmed/West Bengal/mededu/1981_Bankura_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      648,
+      649
+    ],
+    "printed_page_labels": [
+      null,
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Statement V; source page 650 begins Statement VI.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 648,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              590.64,
+              726.48
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              590.64,
+              726.48
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 649,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              590.64,
+              726.48
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              590.64,
+              726.48
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 648,
+          "output_page": 1,
+          "source_png_sha256": "4edfe52f44526c7e9467463b34b239ea446d48e9ba9946ef741691268bb7103d",
+          "output_png_sha256": "4edfe52f44526c7e9467463b34b239ea446d48e9ba9946ef741691268bb7103d",
+          "match": true
+        },
+        {
+          "source_page": 649,
+          "output_page": 2,
+          "source_png_sha256": "77ec6da590f8be9261c794ea1a2b4ba496c95a71eb3989c1e751466efdb857a7",
+          "output_png_sha256": "77ec6da590f8be9261c794ea1a2b4ba496c95a71eb3989c1e751466efdb857a7",
+          "match": true
+        }
+      ],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "West Bengal",
+    "source_state": "West Bengal",
+    "district": "Bankura",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/West Bengal/1981 Bankura.pdf",
+    "source_filename": "1981 Bankura.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 652,
+    "output": "output/pdf/1981_trimmed/West Bengal/tehsil appendix/1981_Bankura_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      552,
+      553,
+      554,
+      555
+    ],
+    "printed_page_labels": [
+      null,
+      "539",
+      null,
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Appendix I Village Police Station-wise abstract; source page 556 begins Appendix II.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 4,
+      "pages": [
+        {
+          "source_page": 552,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              590.64,
+              726.48
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              590.64,
+              726.48
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 553,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              590.64,
+              726.48
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              590.64,
+              726.48
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 554,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              590.64,
+              726.48
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              590.64,
+              726.48
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 555,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              590.64,
+              726.48
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              590.64,
+              726.48
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 552,
+          "output_page": 1,
+          "source_png_sha256": "4c4588f3f4d61bb54f1b565924d35854fcf40bbe483e4f6de4b8bcb76e0c74e8",
+          "output_png_sha256": "4c4588f3f4d61bb54f1b565924d35854fcf40bbe483e4f6de4b8bcb76e0c74e8",
+          "match": true
+        },
+        {
+          "source_page": 553,
+          "output_page": 2,
+          "source_png_sha256": "fc794478eaaaf66c15b1b28789e6b640789a9506d8048e0ceb9dac755fc35ff8",
+          "output_png_sha256": "fc794478eaaaf66c15b1b28789e6b640789a9506d8048e0ceb9dac755fc35ff8",
+          "match": true
+        },
+        {
+          "source_page": 554,
+          "output_page": 3,
+          "source_png_sha256": "d5f31c8375a24a1da8d03943948347d41498a3b3206ccc0924f41b3f3f9fc5dd",
+          "output_png_sha256": "d5f31c8375a24a1da8d03943948347d41498a3b3206ccc0924f41b3f3f9fc5dd",
+          "match": true
+        },
+        {
+          "source_page": 555,
+          "output_page": 4,
+          "source_png_sha256": "e111171e448b4c32abcd87d4e29e3e727bc8cefa335ed86e3a08881d1095d4b8",
+          "output_png_sha256": "e111171e448b4c32abcd87d4e29e3e727bc8cefa335ed86e3a08881d1095d4b8",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 4,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "West Bengal",
+    "source_state": "West Bengal",
+    "district": "Barddhaman",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/West Bengal/1981 Barddhaman.pdf",
+    "source_filename": "1981 Barddhaman.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 579,
+    "output": "output/pdf/1981_trimmed/West Bengal/civic amenities/1981_Barddhaman_civic_amenities.pdf",
+    "source_pages_selected": [
+      547,
+      548,
+      549,
+      550,
+      551,
+      552,
+      553,
+      554,
+      555,
+      556
+    ],
+    "printed_page_labels": [
+      "536",
+      "537",
+      "538",
+      "539",
+      "5400",
+      null,
+      "542",
+      "543",
+      null,
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Statement IV; source page 557 begins Statement IV-A.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 10,
+      "pages": [
+        {
+          "source_page": 547,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              582.72,
+              736.08
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              582.72,
+              736.08
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 548,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              582.72,
+              736.08
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              582.72,
+              736.08
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 549,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              582.72,
+              736.08
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              582.72,
+              736.08
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 550,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              582.72,
+              736.08
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              582.72,
+              736.08
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 551,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              582.72,
+              736.08
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              582.72,
+              736.08
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 552,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              582.72,
+              736.08
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              582.72,
+              736.08
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 553,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              582.72,
+              736.08
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              582.72,
+              736.08
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 554,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              582.72,
+              736.08
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              582.72,
+              736.08
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 555,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              582.72,
+              736.08
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              582.72,
+              736.08
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 556,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              582.72,
+              736.08
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              582.72,
+              736.08
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 547,
+          "output_page": 1,
+          "source_png_sha256": "596f1cc708a9cd9ddc63c21f14195dc228555e6bda99a1982d040fc2f2d30cd2",
+          "output_png_sha256": "596f1cc708a9cd9ddc63c21f14195dc228555e6bda99a1982d040fc2f2d30cd2",
+          "match": true
+        },
+        {
+          "source_page": 548,
+          "output_page": 2,
+          "source_png_sha256": "608e49236e46aa0f6d3b1fb1ddf12d53e055210fd84d288e24ef4225c1be1ca2",
+          "output_png_sha256": "608e49236e46aa0f6d3b1fb1ddf12d53e055210fd84d288e24ef4225c1be1ca2",
+          "match": true
+        },
+        {
+          "source_page": 549,
+          "output_page": 3,
+          "source_png_sha256": "b1355777230638c809d1ef4dd0820d5f7b659a3f9eea109c4d465e28682fd325",
+          "output_png_sha256": "b1355777230638c809d1ef4dd0820d5f7b659a3f9eea109c4d465e28682fd325",
+          "match": true
+        },
+        {
+          "source_page": 550,
+          "output_page": 4,
+          "source_png_sha256": "301612fe69868f085461c80d9d7b567508cb9ea323a853446a1c22b1e2884b39",
+          "output_png_sha256": "301612fe69868f085461c80d9d7b567508cb9ea323a853446a1c22b1e2884b39",
+          "match": true
+        },
+        {
+          "source_page": 551,
+          "output_page": 5,
+          "source_png_sha256": "42b5a137d5ee2ca946ef689440661448120207e4c0e03429b3cd25db7175b859",
+          "output_png_sha256": "42b5a137d5ee2ca946ef689440661448120207e4c0e03429b3cd25db7175b859",
+          "match": true
+        },
+        {
+          "source_page": 552,
+          "output_page": 6,
+          "source_png_sha256": "6b5cb8d2674327b51b1ab959908edb53636c4dd7704552188f6afce6b6e5219d",
+          "output_png_sha256": "6b5cb8d2674327b51b1ab959908edb53636c4dd7704552188f6afce6b6e5219d",
+          "match": true
+        },
+        {
+          "source_page": 553,
+          "output_page": 7,
+          "source_png_sha256": "33f2b4d1323c214e027cc92df68f0628ccf8084ad29bb36728674108a999e057",
+          "output_png_sha256": "33f2b4d1323c214e027cc92df68f0628ccf8084ad29bb36728674108a999e057",
+          "match": true
+        },
+        {
+          "source_page": 554,
+          "output_page": 8,
+          "source_png_sha256": "bcc49f1aff3683c225bd010a2e3a709b320973e7a887c95135fdec7380d2b1db",
+          "output_png_sha256": "bcc49f1aff3683c225bd010a2e3a709b320973e7a887c95135fdec7380d2b1db",
+          "match": true
+        },
+        {
+          "source_page": 555,
+          "output_page": 9,
+          "source_png_sha256": "f2c580e2af37d85675a6ceca39b5453842a906107c543a679895de3063950a7a",
+          "output_png_sha256": "f2c580e2af37d85675a6ceca39b5453842a906107c543a679895de3063950a7a",
+          "match": true
+        },
+        {
+          "source_page": 556,
+          "output_page": 10,
+          "source_png_sha256": "6d34376d75d8f96029fb662e045e3f441ac220cf292bc2ed979b3e27219f880c",
+          "output_png_sha256": "6d34376d75d8f96029fb662e045e3f441ac220cf292bc2ed979b3e27219f880c",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 10,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "West Bengal",
+    "source_state": "West Bengal",
+    "district": "Barddhaman",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/West Bengal/1981 Barddhaman.pdf",
+    "source_filename": "1981 Barddhaman.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 579,
+    "output": "output/pdf/1981_trimmed/West Bengal/mededu/1981_Barddhaman_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      559,
+      560,
+      561,
+      562,
+      563,
+      564,
+      565,
+      566,
+      567,
+      568,
+      569,
+      570
+    ],
+    "printed_page_labels": [
+      null,
+      null,
+      null,
+      "551",
+      "552",
+      null,
+      "554",
+      null,
+      null,
+      null,
+      null,
+      "559"
+    ],
+    "status": "Trimmed",
+    "reason": "Statement V; source page 571 begins Statement VI.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 12,
+      "pages": [
+        {
+          "source_page": 559,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              582.72,
+              736.08
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              582.72,
+              736.08
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 560,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              582.72,
+              736.08
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              582.72,
+              736.08
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 561,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              582.72,
+              736.08
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              582.72,
+              736.08
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 562,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              582.72,
+              736.08
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              582.72,
+              736.08
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 563,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              582.72,
+              736.08
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              582.72,
+              736.08
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 564,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              582.72,
+              736.08
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              582.72,
+              736.08
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 565,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              582.72,
+              736.08
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              582.72,
+              736.08
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 566,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              582.72,
+              736.08
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              582.72,
+              736.08
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 567,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              582.72,
+              736.08
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              582.72,
+              736.08
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 568,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              582.72,
+              736.08
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              582.72,
+              736.08
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 569,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              582.72,
+              736.08
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              582.72,
+              736.08
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 570,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              582.72,
+              736.08
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              582.72,
+              736.08
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 559,
+          "output_page": 1,
+          "source_png_sha256": "5aa5f26da2e1a799eb6a281fc8b76fbb066d2aed84e1a971c265177d99a3f75d",
+          "output_png_sha256": "5aa5f26da2e1a799eb6a281fc8b76fbb066d2aed84e1a971c265177d99a3f75d",
+          "match": true
+        },
+        {
+          "source_page": 560,
+          "output_page": 2,
+          "source_png_sha256": "ca85229a573cd87d6793e1f2f4078a929f9fbcdc63de1132b0d1a59d0b0ebf89",
+          "output_png_sha256": "ca85229a573cd87d6793e1f2f4078a929f9fbcdc63de1132b0d1a59d0b0ebf89",
+          "match": true
+        },
+        {
+          "source_page": 561,
+          "output_page": 3,
+          "source_png_sha256": "346af7e7a3514603be34e1dc699ca98532ac8dcf5e5a153196ac79333cc36f21",
+          "output_png_sha256": "346af7e7a3514603be34e1dc699ca98532ac8dcf5e5a153196ac79333cc36f21",
+          "match": true
+        },
+        {
+          "source_page": 562,
+          "output_page": 4,
+          "source_png_sha256": "ea9e8eaa08eb0f3aaada12127828302b0b8046c39ac0c01ddfbf97c2fe85af48",
+          "output_png_sha256": "ea9e8eaa08eb0f3aaada12127828302b0b8046c39ac0c01ddfbf97c2fe85af48",
+          "match": true
+        },
+        {
+          "source_page": 563,
+          "output_page": 5,
+          "source_png_sha256": "689f2132039e7c751b07440ed14c7c5f05bc000ef40869576df59959bb82aead",
+          "output_png_sha256": "689f2132039e7c751b07440ed14c7c5f05bc000ef40869576df59959bb82aead",
+          "match": true
+        },
+        {
+          "source_page": 564,
+          "output_page": 6,
+          "source_png_sha256": "abbd21ed861e25030a140f3cebd2680724ae16d0079a86e3ae4ac2255fe18c5f",
+          "output_png_sha256": "abbd21ed861e25030a140f3cebd2680724ae16d0079a86e3ae4ac2255fe18c5f",
+          "match": true
+        },
+        {
+          "source_page": 565,
+          "output_page": 7,
+          "source_png_sha256": "9d1bcbd29a2a23db79712f0dfae265521620625b1bcbb5a753c4a959982afa08",
+          "output_png_sha256": "9d1bcbd29a2a23db79712f0dfae265521620625b1bcbb5a753c4a959982afa08",
+          "match": true
+        },
+        {
+          "source_page": 566,
+          "output_page": 8,
+          "source_png_sha256": "9169efc523835563d0d2a96f8959319215c8068ccfd0f63ed6701dcf18b1dad3",
+          "output_png_sha256": "9169efc523835563d0d2a96f8959319215c8068ccfd0f63ed6701dcf18b1dad3",
+          "match": true
+        },
+        {
+          "source_page": 567,
+          "output_page": 9,
+          "source_png_sha256": "32cb726087dd9235a9c21454b25c9abc32f307f3038a1b2e5ff467aa153f995c",
+          "output_png_sha256": "32cb726087dd9235a9c21454b25c9abc32f307f3038a1b2e5ff467aa153f995c",
+          "match": true
+        },
+        {
+          "source_page": 568,
+          "output_page": 10,
+          "source_png_sha256": "2fb0769f5c89ab7b6883738ba5f357f977263704c6a3d290424d7f456165a171",
+          "output_png_sha256": "2fb0769f5c89ab7b6883738ba5f357f977263704c6a3d290424d7f456165a171",
+          "match": true
+        },
+        {
+          "source_page": 569,
+          "output_page": 11,
+          "source_png_sha256": "9ddc8c426cf6178fbe96733e354729f75a490bd5550afe7b9051a34095b3a2cc",
+          "output_png_sha256": "9ddc8c426cf6178fbe96733e354729f75a490bd5550afe7b9051a34095b3a2cc",
+          "match": true
+        },
+        {
+          "source_page": 570,
+          "output_page": 12,
+          "source_png_sha256": "c7847be8401f044f86da9c7e798777902e7ae93278bd28c8dfbedf390934ee61",
+          "output_png_sha256": "c7847be8401f044f86da9c7e798777902e7ae93278bd28c8dfbedf390934ee61",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 12,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "West Bengal",
+    "source_state": "West Bengal",
+    "district": "Barddhaman",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/West Bengal/1981 Barddhaman.pdf",
+    "source_filename": "1981 Barddhaman.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 579,
+    "output": "output/pdf/1981_trimmed/West Bengal/tehsil appendix/1981_Barddhaman_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      441,
+      442,
+      443,
+      444
+    ],
+    "printed_page_labels": [
+      "430",
+      "431",
+      null,
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Appendix I Village Police Station-wise abstract; source page 445 begins Appendix II.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 4,
+      "pages": [
+        {
+          "source_page": 441,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              582.72,
+              736.08
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              582.72,
+              736.08
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 442,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              582.72,
+              736.08
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              582.72,
+              736.08
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 443,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              582.72,
+              736.08
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              582.72,
+              736.08
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 444,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              582.72,
+              736.08
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              582.72,
+              736.08
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 441,
+          "output_page": 1,
+          "source_png_sha256": "e940726fab5b0f55bf9a69ca5ae194ad50e0b8373fc373af4b8a6037fc9d1456",
+          "output_png_sha256": "e940726fab5b0f55bf9a69ca5ae194ad50e0b8373fc373af4b8a6037fc9d1456",
+          "match": true
+        },
+        {
+          "source_page": 442,
+          "output_page": 2,
+          "source_png_sha256": "559fe8e44aae10f316cd4b3a0ed6cfab5a7f2a2119c327edf9394f1af3614cb5",
+          "output_png_sha256": "559fe8e44aae10f316cd4b3a0ed6cfab5a7f2a2119c327edf9394f1af3614cb5",
+          "match": true
+        },
+        {
+          "source_page": 443,
+          "output_page": 3,
+          "source_png_sha256": "b46e1b2d7cd791bb9dfb6727088b432adfdd128c2a373aecc42462ab83ed5b7a",
+          "output_png_sha256": "b46e1b2d7cd791bb9dfb6727088b432adfdd128c2a373aecc42462ab83ed5b7a",
+          "match": true
+        },
+        {
+          "source_page": 444,
+          "output_page": 4,
+          "source_png_sha256": "e36a30b7cae7215f953667033f8e35ada14ab9dcd155a2aaefc92aa529644eb6",
+          "output_png_sha256": "e36a30b7cae7215f953667033f8e35ada14ab9dcd155a2aaefc92aa529644eb6",
+          "match": true
+        }
+      ],
+      "content_flags": [
+        "last_page_contains_next_appendix"
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 4,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "West Bengal",
+    "source_state": "West Bengal",
+    "district": "Birbhum",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/West Bengal/1981 Birbhum.pdf",
+    "source_filename": "1981 Birbhum.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 425,
+    "output": "output/pdf/1981_trimmed/West Bengal/civic amenities/1981_Birbhum_civic_amenities.pdf",
+    "source_pages_selected": [
+      420,
+      421
+    ],
+    "printed_page_labels": [
+      "408",
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Statement IV; source page 422 begins Statement V.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 420,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              515.906,
+              737.52
+            ],
+            "cropbox": [
+              0.0,
+              9.016,
+              515.906,
+              737.52
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 421,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              515.906,
+              737.52
+            ],
+            "cropbox": [
+              0.0,
+              9.016,
+              515.906,
+              737.52
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 420,
+          "output_page": 1,
+          "source_png_sha256": "bce14b757aad8b1779e309ac731f04c28cd21e4329f112310c5d1eb0f6997380",
+          "output_png_sha256": "bce14b757aad8b1779e309ac731f04c28cd21e4329f112310c5d1eb0f6997380",
+          "match": true
+        },
+        {
+          "source_page": 421,
+          "output_page": 2,
+          "source_png_sha256": "ecee5104cbe2e61784cd48e0083f8a0dcf7f1fa11cdbda3f9019b2c0ebeceab6",
+          "output_png_sha256": "ecee5104cbe2e61784cd48e0083f8a0dcf7f1fa11cdbda3f9019b2c0ebeceab6",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "West Bengal",
+    "source_state": "West Bengal",
+    "district": "Birbhum",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/West Bengal/1981 Birbhum.pdf",
+    "source_filename": "1981 Birbhum.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 425,
+    "output": "output/pdf/1981_trimmed/West Bengal/mededu/1981_Birbhum_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      422,
+      423
+    ],
+    "printed_page_labels": [
+      "410",
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Statement V; source page 424 begins Statement VI.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 422,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              515.906,
+              737.52
+            ],
+            "cropbox": [
+              0.0,
+              9.016,
+              515.906,
+              737.52
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 423,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              515.906,
+              737.52
+            ],
+            "cropbox": [
+              0.0,
+              9.016,
+              515.906,
+              737.52
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 422,
+          "output_page": 1,
+          "source_png_sha256": "c58a3e42595140e323946bd51d5b3d986ba71ade156607e2178d2b5d1ceefa7e",
+          "output_png_sha256": "c58a3e42595140e323946bd51d5b3d986ba71ade156607e2178d2b5d1ceefa7e",
+          "match": true
+        },
+        {
+          "source_page": 423,
+          "output_page": 2,
+          "source_png_sha256": "4426cc18aeef53eb3aff03ae7fd7d7ea01e35de1ef0e9b09a6827eebfd14fc31",
+          "output_png_sha256": "4426cc18aeef53eb3aff03ae7fd7d7ea01e35de1ef0e9b09a6827eebfd14fc31",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "West Bengal",
+    "source_state": "West Bengal",
+    "district": "Birbhum",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/West Bengal/1981 Birbhum.pdf",
+    "source_filename": "1981 Birbhum.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 425,
+    "output": "output/pdf/1981_trimmed/West Bengal/tehsil appendix/1981_Birbhum_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      342,
+      343,
+      344,
+      345
+    ],
+    "printed_page_labels": [
+      "330",
+      "331",
+      "332",
+      "333"
+    ],
+    "status": "Trimmed",
+    "reason": "Appendix I Village Police Station-wise abstract; source page 346 begins Appendix II.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 4,
+      "pages": [
+        {
+          "source_page": 342,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              515.906,
+              737.52
+            ],
+            "cropbox": [
+              0.0,
+              9.016,
+              515.906,
+              737.52
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 343,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              515.906,
+              737.52
+            ],
+            "cropbox": [
+              0.0,
+              9.016,
+              515.906,
+              737.52
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 344,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              515.906,
+              737.52
+            ],
+            "cropbox": [
+              0.0,
+              9.016,
+              515.906,
+              737.52
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 345,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              515.906,
+              737.52
+            ],
+            "cropbox": [
+              0.0,
+              9.016,
+              515.906,
+              737.52
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 342,
+          "output_page": 1,
+          "source_png_sha256": "cea7ec6a4b652fdc76095496e9fae6e5c01728f27e0be518cd55a47cf13888fa",
+          "output_png_sha256": "cea7ec6a4b652fdc76095496e9fae6e5c01728f27e0be518cd55a47cf13888fa",
+          "match": true
+        },
+        {
+          "source_page": 343,
+          "output_page": 2,
+          "source_png_sha256": "e22567c4dfb276a64198136e4336b2663cd425ee94af287448a7cb9fd5d17c12",
+          "output_png_sha256": "e22567c4dfb276a64198136e4336b2663cd425ee94af287448a7cb9fd5d17c12",
+          "match": true
+        },
+        {
+          "source_page": 344,
+          "output_page": 3,
+          "source_png_sha256": "749120784c179c5a73c1471a29eba2b1057cd036758b687650706d0f12968c90",
+          "output_png_sha256": "749120784c179c5a73c1471a29eba2b1057cd036758b687650706d0f12968c90",
+          "match": true
+        },
+        {
+          "source_page": 345,
+          "output_page": 4,
+          "source_png_sha256": "92fbce2990588277749d2896c4d0942f1177d466977a7cbdaf0efd18c612f7ed",
+          "output_png_sha256": "92fbce2990588277749d2896c4d0942f1177d466977a7cbdaf0efd18c612f7ed",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 4,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "West Bengal",
+    "source_state": "West Bengal",
+    "district": "Calcutta",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/West Bengal/1981 Calcutta.pdf",
+    "source_filename": "1981 Calcutta.pdf",
+    "volume_type": "Part XIII-B primary census abstract",
+    "eligible": false,
+    "eligibility_reason": "PCA-only volume; the requested town statements and amenities appendix are absent.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 426,
+    "output": null,
+    "source_pages_selected": [],
+    "printed_page_labels": [],
+    "status": "Not trimmed",
+    "reason": "PCA-only volume; the requested town statements and amenities appendix are absent.",
+    "flags": [],
+    "verification": null
+  },
+  {
+    "state": "West Bengal",
+    "source_state": "West Bengal",
+    "district": "Calcutta",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/West Bengal/1981 Calcutta.pdf",
+    "source_filename": "1981 Calcutta.pdf",
+    "volume_type": "Part XIII-B primary census abstract",
+    "eligible": false,
+    "eligibility_reason": "PCA-only volume; the requested town statements and amenities appendix are absent.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 426,
+    "output": null,
+    "source_pages_selected": [],
+    "printed_page_labels": [],
+    "status": "Not trimmed",
+    "reason": "PCA-only volume; the requested town statements and amenities appendix are absent.",
+    "flags": [],
+    "verification": null
+  },
+  {
+    "state": "West Bengal",
+    "source_state": "West Bengal",
+    "district": "Calcutta",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/West Bengal/1981 Calcutta.pdf",
+    "source_filename": "1981 Calcutta.pdf",
+    "volume_type": "Part XIII-B primary census abstract",
+    "eligible": false,
+    "eligibility_reason": "PCA-only volume; the requested town statements and amenities appendix are absent.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 426,
+    "output": null,
+    "source_pages_selected": [],
+    "printed_page_labels": [],
+    "status": "Not trimmed",
+    "reason": "PCA-only volume; the requested town statements and amenities appendix are absent.",
+    "flags": [],
+    "verification": null
+  },
+  {
+    "state": "West Bengal",
+    "source_state": "West Bengal",
+    "district": "Darjiling",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/West Bengal/1981 Darjiling.pdf",
+    "source_filename": "1981 Darjiling.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 211,
+    "output": "output/pdf/1981_trimmed/West Bengal/civic amenities/1981_Darjiling_civic_amenities.pdf",
+    "source_pages_selected": [
+      206,
+      207
+    ],
+    "printed_page_labels": [
+      null,
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Statement IV; source page 208 begins Statement V.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 206,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              598.32,
+              758.16
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              598.32,
+              758.16
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 207,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              598.32,
+              758.16
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              598.32,
+              758.16
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 206,
+          "output_page": 1,
+          "source_png_sha256": "a7f87dc2a5f3c6208c68d0ae54801a8d30f12801f16db27ab8e31add2aedda8b",
+          "output_png_sha256": "a7f87dc2a5f3c6208c68d0ae54801a8d30f12801f16db27ab8e31add2aedda8b",
+          "match": true
+        },
+        {
+          "source_page": 207,
+          "output_page": 2,
+          "source_png_sha256": "cf49184ac005789c7cc91cd0e8c3520fe4158b51cacf389dbdc14bb49bf0db0f",
+          "output_png_sha256": "cf49184ac005789c7cc91cd0e8c3520fe4158b51cacf389dbdc14bb49bf0db0f",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "West Bengal",
+    "source_state": "West Bengal",
+    "district": "Darjiling",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/West Bengal/1981 Darjiling.pdf",
+    "source_filename": "1981 Darjiling.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 211,
+    "output": "output/pdf/1981_trimmed/West Bengal/mededu/1981_Darjiling_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      208,
+      209
+    ],
+    "printed_page_labels": [
+      null,
+      "197"
+    ],
+    "status": "Trimmed",
+    "reason": "Statement V; source page 210 begins Statement VI.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 208,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              598.32,
+              758.16
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              598.32,
+              758.16
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 209,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              598.32,
+              758.16
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              598.32,
+              758.16
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 208,
+          "output_page": 1,
+          "source_png_sha256": "ba90ede790fff83a8d58cdd263361131bcae3bac0621c48fd9ab0c2104797794",
+          "output_png_sha256": "ba90ede790fff83a8d58cdd263361131bcae3bac0621c48fd9ab0c2104797794",
+          "match": true
+        },
+        {
+          "source_page": 209,
+          "output_page": 2,
+          "source_png_sha256": "0412d16c70cc1b5311b673c40b807ec5bae0bacfa99328299c9cbb877ae49706",
+          "output_png_sha256": "0412d16c70cc1b5311b673c40b807ec5bae0bacfa99328299c9cbb877ae49706",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "West Bengal",
+    "source_state": "West Bengal",
+    "district": "Darjiling",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/West Bengal/1981 Darjiling.pdf",
+    "source_filename": "1981 Darjiling.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 211,
+    "output": "output/pdf/1981_trimmed/West Bengal/tehsil appendix/1981_Darjiling_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      170,
+      171,
+      172,
+      173
+    ],
+    "printed_page_labels": [
+      null,
+      null,
+      "160",
+      "1"
+    ],
+    "status": "Trimmed",
+    "reason": "Appendix I Village Police Station-wise abstract; source page 174 begins Appendix II.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 4,
+      "pages": [
+        {
+          "source_page": 170,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              598.32,
+              758.16
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              598.32,
+              758.16
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 171,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              598.32,
+              758.16
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              598.32,
+              758.16
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 172,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              598.32,
+              758.16
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              598.32,
+              758.16
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 173,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              598.32,
+              758.16
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              598.32,
+              758.16
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 170,
+          "output_page": 1,
+          "source_png_sha256": "2ce4b0efdbf3fc61b7e2274c6f96f55474cff07ef7bf3079648d14e0d27ef864",
+          "output_png_sha256": "2ce4b0efdbf3fc61b7e2274c6f96f55474cff07ef7bf3079648d14e0d27ef864",
+          "match": true
+        },
+        {
+          "source_page": 171,
+          "output_page": 2,
+          "source_png_sha256": "0238cb2d511521498a2c6fb91cee49f524a0775543c284863ba104e720980508",
+          "output_png_sha256": "0238cb2d511521498a2c6fb91cee49f524a0775543c284863ba104e720980508",
+          "match": true
+        },
+        {
+          "source_page": 172,
+          "output_page": 3,
+          "source_png_sha256": "9f7c412a5f9960d853612afabf0c3f4b94bec40eaacc32b740676e5d16ea58ac",
+          "output_png_sha256": "9f7c412a5f9960d853612afabf0c3f4b94bec40eaacc32b740676e5d16ea58ac",
+          "match": true
+        },
+        {
+          "source_page": 173,
+          "output_page": 4,
+          "source_png_sha256": "fe9ae816e490a1369179188ee23213f60ca439352d8a6c8cd33a8f6705e31493",
+          "output_png_sha256": "fe9ae816e490a1369179188ee23213f60ca439352d8a6c8cd33a8f6705e31493",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 4,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "West Bengal",
+    "source_state": "West Bengal",
+    "district": "Dinajpur",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/West Bengal/1981 Dinajpur.pdf",
+    "source_filename": "1981 Dinajpur.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 556,
+    "output": "output/pdf/1981_trimmed/West Bengal/civic amenities/1981_Dinajpur_civic_amenities.pdf",
+    "source_pages_selected": [
+      548,
+      549
+    ],
+    "printed_page_labels": [
+      "536",
+      "537"
+    ],
+    "status": "Trimmed",
+    "reason": "Statement IV; source page 550 begins Statement IV-A.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 548,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              699.36,
+              970.56
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              699.36,
+              970.56
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 549,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              699.36,
+              970.56
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              699.36,
+              970.56
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 548,
+          "output_page": 1,
+          "source_png_sha256": "8fc8cbefede4dc53fa8b77302edcfb65b201c1b8dc2189fa29b090b763356dbb",
+          "output_png_sha256": "8fc8cbefede4dc53fa8b77302edcfb65b201c1b8dc2189fa29b090b763356dbb",
+          "match": true
+        },
+        {
+          "source_page": 549,
+          "output_page": 2,
+          "source_png_sha256": "dc48a21f66c2ebfcb6a6a9e46b8516c000533f70b6880f139002391d22ee2fd2",
+          "output_png_sha256": "dc48a21f66c2ebfcb6a6a9e46b8516c000533f70b6880f139002391d22ee2fd2",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "West Bengal",
+    "source_state": "West Bengal",
+    "district": "Dinajpur",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/West Bengal/1981 Dinajpur.pdf",
+    "source_filename": "1981 Dinajpur.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 556,
+    "output": "output/pdf/1981_trimmed/West Bengal/mededu/1981_Dinajpur_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      552,
+      553
+    ],
+    "printed_page_labels": [
+      "540",
+      "541"
+    ],
+    "status": "Trimmed",
+    "reason": "Statement V; source page 554 begins Statement VI.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 552,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              699.36,
+              970.56
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              699.36,
+              970.56
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 553,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              699.36,
+              970.56
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              699.36,
+              970.56
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 552,
+          "output_page": 1,
+          "source_png_sha256": "97c6aa89a8730bd7e3de8f2bf83a26d02db991125bceda003f0314f802f397d9",
+          "output_png_sha256": "97c6aa89a8730bd7e3de8f2bf83a26d02db991125bceda003f0314f802f397d9",
+          "match": true
+        },
+        {
+          "source_page": 553,
+          "output_page": 2,
+          "source_png_sha256": "d624c65032219c562ad851b81f89b723961a852d5d1a68f91ab4badc5677096d",
+          "output_png_sha256": "d624c65032219c562ad851b81f89b723961a852d5d1a68f91ab4badc5677096d",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "West Bengal",
+    "source_state": "West Bengal",
+    "district": "Dinajpur",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/West Bengal/1981 Dinajpur.pdf",
+    "source_filename": "1981 Dinajpur.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 556,
+    "output": "output/pdf/1981_trimmed/West Bengal/tehsil appendix/1981_Dinajpur_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      442,
+      443,
+      444,
+      445
+    ],
+    "printed_page_labels": [
+      "436",
+      null,
+      null,
+      "433"
+    ],
+    "status": "Trimmed",
+    "reason": "Appendix I Village Police Station-wise abstract; source page 446 begins Appendix II.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 4,
+      "pages": [
+        {
+          "source_page": 442,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              699.36,
+              970.56
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              699.36,
+              970.56
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 443,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              699.36,
+              970.56
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              699.36,
+              970.56
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 444,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              699.36,
+              970.56
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              699.36,
+              970.56
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 445,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              699.36,
+              970.56
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              699.36,
+              970.56
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 442,
+          "output_page": 1,
+          "source_png_sha256": "0421191ebf34aacf0ac92cbbc0fc800c658f268f69628c952c88d26696f771f7",
+          "output_png_sha256": "0421191ebf34aacf0ac92cbbc0fc800c658f268f69628c952c88d26696f771f7",
+          "match": true
+        },
+        {
+          "source_page": 443,
+          "output_page": 2,
+          "source_png_sha256": "ffa2bc18d7904f8f842ccdac025e2abbf750f6d94b31f341391b9ac90817e052",
+          "output_png_sha256": "ffa2bc18d7904f8f842ccdac025e2abbf750f6d94b31f341391b9ac90817e052",
+          "match": true
+        },
+        {
+          "source_page": 444,
+          "output_page": 3,
+          "source_png_sha256": "0ad4da89793c4228ac2ed765b26116db81e66c995d570c3f74794ccf5bf16b3e",
+          "output_png_sha256": "0ad4da89793c4228ac2ed765b26116db81e66c995d570c3f74794ccf5bf16b3e",
+          "match": true
+        },
+        {
+          "source_page": 445,
+          "output_page": 4,
+          "source_png_sha256": "553115f67029a23919a88b77e34d45808f5a322f8d214f2c68d4509f43bd716c",
+          "output_png_sha256": "553115f67029a23919a88b77e34d45808f5a322f8d214f2c68d4509f43bd716c",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 4,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "West Bengal",
+    "source_state": "West Bengal",
+    "district": "Hugli",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/West Bengal/1981 Hugli.pdf",
+    "source_filename": "1981 Hugli.pdf",
+    "volume_type": "PCA-only / non-directory volume",
+    "eligible": false,
+    "eligibility_reason": "Part XIII Village & Town-wise Primary Census Abstract volume; contents show no amenities appendix.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 367,
+    "output": null,
+    "source_pages_selected": [],
+    "printed_page_labels": [],
+    "status": "Not trimmed",
+    "reason": "Part XIII Village & Town-wise Primary Census Abstract volume; contents show no Town Directory or Statement IV.",
+    "flags": [
+      "manual_absent_or_ineligible"
+    ],
+    "verification": null
+  },
+  {
+    "state": "West Bengal",
+    "source_state": "West Bengal",
+    "district": "Hugli",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/West Bengal/1981 Hugli.pdf",
+    "source_filename": "1981 Hugli.pdf",
+    "volume_type": "PCA-only / non-directory volume",
+    "eligible": false,
+    "eligibility_reason": "Part XIII Village & Town-wise Primary Census Abstract volume; contents show no amenities appendix.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 367,
+    "output": null,
+    "source_pages_selected": [],
+    "printed_page_labels": [],
+    "status": "Not trimmed",
+    "reason": "Part XIII Village & Town-wise Primary Census Abstract volume; contents show no Town Directory or Statement V.",
+    "flags": [
+      "manual_absent_or_ineligible"
+    ],
+    "verification": null
+  },
+  {
+    "state": "West Bengal",
+    "source_state": "West Bengal",
+    "district": "Hugli",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/West Bengal/1981 Hugli.pdf",
+    "source_filename": "1981 Hugli.pdf",
+    "volume_type": "PCA-only / non-directory volume",
+    "eligible": false,
+    "eligibility_reason": "Part XIII Village & Town-wise Primary Census Abstract volume; contents show no amenities appendix.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 367,
+    "output": null,
+    "source_pages_selected": [],
+    "printed_page_labels": [],
+    "status": "Not trimmed",
+    "reason": "Part XIII Village & Town-wise Primary Census Abstract volume; contents show no amenities appendix.",
+    "flags": [
+      "manual_absent_or_ineligible"
+    ],
+    "verification": null
+  },
+  {
+    "state": "West Bengal",
+    "source_state": "West Bengal",
+    "district": "Jalapiguri",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/West Bengal/1981 Jalapiguri.pdf",
+    "source_filename": "1981 Jalapiguri.pdf",
+    "volume_type": "Part XIII-B primary census abstract",
+    "eligible": false,
+    "eligibility_reason": "PCA-only volume; the requested town statements and amenities appendix are absent.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 215,
+    "output": null,
+    "source_pages_selected": [],
+    "printed_page_labels": [],
+    "status": "Not trimmed",
+    "reason": "PCA-only volume; the requested town statements and amenities appendix are absent.",
+    "flags": [],
+    "verification": null
+  },
+  {
+    "state": "West Bengal",
+    "source_state": "West Bengal",
+    "district": "Jalapiguri",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/West Bengal/1981 Jalapiguri.pdf",
+    "source_filename": "1981 Jalapiguri.pdf",
+    "volume_type": "Part XIII-B primary census abstract",
+    "eligible": false,
+    "eligibility_reason": "PCA-only volume; the requested town statements and amenities appendix are absent.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 215,
+    "output": null,
+    "source_pages_selected": [],
+    "printed_page_labels": [],
+    "status": "Not trimmed",
+    "reason": "PCA-only volume; the requested town statements and amenities appendix are absent.",
+    "flags": [],
+    "verification": null
+  },
+  {
+    "state": "West Bengal",
+    "source_state": "West Bengal",
+    "district": "Jalapiguri",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/West Bengal/1981 Jalapiguri.pdf",
+    "source_filename": "1981 Jalapiguri.pdf",
+    "volume_type": "Part XIII-B primary census abstract",
+    "eligible": false,
+    "eligibility_reason": "PCA-only volume; the requested town statements and amenities appendix are absent.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 215,
+    "output": null,
+    "source_pages_selected": [],
+    "printed_page_labels": [],
+    "status": "Not trimmed",
+    "reason": "PCA-only volume; the requested town statements and amenities appendix are absent.",
+    "flags": [],
+    "verification": null
+  },
+  {
+    "state": "West Bengal",
+    "source_state": "West Bengal",
+    "district": "Koch Bihar",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/West Bengal/1981 Koch Bihar.pdf",
+    "source_filename": "1981 Koch Bihar.pdf",
+    "volume_type": "Part XIII-B primary census abstract",
+    "eligible": false,
+    "eligibility_reason": "PCA-only volume; the requested town statements and amenities appendix are absent.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 92,
+    "output": null,
+    "source_pages_selected": [],
+    "printed_page_labels": [],
+    "status": "Not trimmed",
+    "reason": "PCA-only volume; the requested town statements and amenities appendix are absent.",
+    "flags": [],
+    "verification": null
+  },
+  {
+    "state": "West Bengal",
+    "source_state": "West Bengal",
+    "district": "Koch Bihar",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/West Bengal/1981 Koch Bihar.pdf",
+    "source_filename": "1981 Koch Bihar.pdf",
+    "volume_type": "Part XIII-B primary census abstract",
+    "eligible": false,
+    "eligibility_reason": "PCA-only volume; the requested town statements and amenities appendix are absent.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 92,
+    "output": null,
+    "source_pages_selected": [],
+    "printed_page_labels": [],
+    "status": "Not trimmed",
+    "reason": "PCA-only volume; the requested town statements and amenities appendix are absent.",
+    "flags": [],
+    "verification": null
+  },
+  {
+    "state": "West Bengal",
+    "source_state": "West Bengal",
+    "district": "Koch Bihar",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/West Bengal/1981 Koch Bihar.pdf",
+    "source_filename": "1981 Koch Bihar.pdf",
+    "volume_type": "Part XIII-B primary census abstract",
+    "eligible": false,
+    "eligibility_reason": "PCA-only volume; the requested town statements and amenities appendix are absent.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 92,
+    "output": null,
+    "source_pages_selected": [],
+    "printed_page_labels": [],
+    "status": "Not trimmed",
+    "reason": "PCA-only volume; the requested town statements and amenities appendix are absent.",
+    "flags": [],
+    "verification": null
+  },
+  {
+    "state": "West Bengal",
+    "source_state": "West Bengal",
+    "district": "Maldah",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/West Bengal/1981 Maldah.pdf",
+    "source_filename": "1981 Maldah.pdf",
+    "volume_type": "Part XIII-B primary census abstract",
+    "eligible": false,
+    "eligibility_reason": "PCA-only volume; the requested town statements and amenities appendix are absent.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 161,
+    "output": null,
+    "source_pages_selected": [],
+    "printed_page_labels": [],
+    "status": "Not trimmed",
+    "reason": "PCA-only volume; the requested town statements and amenities appendix are absent.",
+    "flags": [],
+    "verification": null
+  },
+  {
+    "state": "West Bengal",
+    "source_state": "West Bengal",
+    "district": "Maldah",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/West Bengal/1981 Maldah.pdf",
+    "source_filename": "1981 Maldah.pdf",
+    "volume_type": "Part XIII-B primary census abstract",
+    "eligible": false,
+    "eligibility_reason": "PCA-only volume; the requested town statements and amenities appendix are absent.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 161,
+    "output": null,
+    "source_pages_selected": [],
+    "printed_page_labels": [],
+    "status": "Not trimmed",
+    "reason": "PCA-only volume; the requested town statements and amenities appendix are absent.",
+    "flags": [],
+    "verification": null
+  },
+  {
+    "state": "West Bengal",
+    "source_state": "West Bengal",
+    "district": "Maldah",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/West Bengal/1981 Maldah.pdf",
+    "source_filename": "1981 Maldah.pdf",
+    "volume_type": "Part XIII-B primary census abstract",
+    "eligible": false,
+    "eligibility_reason": "PCA-only volume; the requested town statements and amenities appendix are absent.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 161,
+    "output": null,
+    "source_pages_selected": [],
+    "printed_page_labels": [],
+    "status": "Not trimmed",
+    "reason": "PCA-only volume; the requested town statements and amenities appendix are absent.",
+    "flags": [],
+    "verification": null
+  },
+  {
+    "state": "West Bengal",
+    "source_state": "West Bengal",
+    "district": "Midnapore",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/West Bengal/1981 Midnapore.pdf",
+    "source_filename": "1981 Midnapore.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 1833,
+    "output": "output/pdf/1981_trimmed/West Bengal/civic amenities/1981_Midnapore_civic_amenities.pdf",
+    "source_pages_selected": [
+      1820,
+      1821,
+      1822,
+      1823
+    ],
+    "printed_page_labels": [
+      null,
+      "1807",
+      null,
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Statement IV; source page 1824 begins Statement IV-A.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 4,
+      "pages": [
+        {
+          "source_page": 1820,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              577.44,
+              818.88
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              577.44,
+              818.88
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 1821,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              577.44,
+              818.88
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              577.44,
+              818.88
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 1822,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              577.44,
+              818.88
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              577.44,
+              818.88
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 1823,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              577.44,
+              818.88
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              577.44,
+              818.88
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 1820,
+          "output_page": 1,
+          "source_png_sha256": "f04590fc0335e54c214c46f199be8ec29382bb781c68095123bc8a3741356dfb",
+          "output_png_sha256": "f04590fc0335e54c214c46f199be8ec29382bb781c68095123bc8a3741356dfb",
+          "match": true
+        },
+        {
+          "source_page": 1821,
+          "output_page": 2,
+          "source_png_sha256": "487ebaa51944ad7b6f1251b673ff9fdd3b2c841369366b5f24f9651da2a5d22d",
+          "output_png_sha256": "487ebaa51944ad7b6f1251b673ff9fdd3b2c841369366b5f24f9651da2a5d22d",
+          "match": true
+        },
+        {
+          "source_page": 1822,
+          "output_page": 3,
+          "source_png_sha256": "fafb89be6652d074504d46f55fa825401283de5af2a4f21d7662994cbc3d1c81",
+          "output_png_sha256": "fafb89be6652d074504d46f55fa825401283de5af2a4f21d7662994cbc3d1c81",
+          "match": true
+        },
+        {
+          "source_page": 1823,
+          "output_page": 4,
+          "source_png_sha256": "8b06e7384a247cffa602b6b91fda8f2b59cda858b546cca82b041fe9883ab6ff",
+          "output_png_sha256": "8b06e7384a247cffa602b6b91fda8f2b59cda858b546cca82b041fe9883ab6ff",
+          "match": true
+        }
+      ],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 4,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "West Bengal",
+    "source_state": "West Bengal",
+    "district": "Midnapore",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/West Bengal/1981 Midnapore.pdf",
+    "source_filename": "1981 Midnapore.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 1833,
+    "output": "output/pdf/1981_trimmed/West Bengal/mededu/1981_Midnapore_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      1826,
+      1827,
+      1828,
+      1829
+    ],
+    "printed_page_labels": [
+      "1812",
+      "1813",
+      "1814",
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Statement V; source page 1830 begins Statement VI.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 4,
+      "pages": [
+        {
+          "source_page": 1826,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              577.44,
+              818.88
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              577.44,
+              818.88
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 1827,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              577.44,
+              818.88
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              577.44,
+              818.88
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 1828,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              577.44,
+              818.88
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              577.44,
+              818.88
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 1829,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              577.44,
+              818.88
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              577.44,
+              818.88
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 1826,
+          "output_page": 1,
+          "source_png_sha256": "552cc500745081d78e2d5e78de6c239ff635388c7ad0b85d1ba63a2196e847a0",
+          "output_png_sha256": "552cc500745081d78e2d5e78de6c239ff635388c7ad0b85d1ba63a2196e847a0",
+          "match": true
+        },
+        {
+          "source_page": 1827,
+          "output_page": 2,
+          "source_png_sha256": "b4d0d99c782dbaf801f8f81bf8f20d260af237890e85754dc6be3022bb418cce",
+          "output_png_sha256": "b4d0d99c782dbaf801f8f81bf8f20d260af237890e85754dc6be3022bb418cce",
+          "match": true
+        },
+        {
+          "source_page": 1828,
+          "output_page": 3,
+          "source_png_sha256": "0013510efd3b700181e3686e7c23c748bb4c1b56fecf0ffcc8d6987b9b8938e3",
+          "output_png_sha256": "0013510efd3b700181e3686e7c23c748bb4c1b56fecf0ffcc8d6987b9b8938e3",
+          "match": true
+        },
+        {
+          "source_page": 1829,
+          "output_page": 4,
+          "source_png_sha256": "072f9e43f71c293235cef26051b499fd9bb87ad618a8491f45ec4481817d2369",
+          "output_png_sha256": "072f9e43f71c293235cef26051b499fd9bb87ad618a8491f45ec4481817d2369",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 4,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "West Bengal",
+    "source_state": "West Bengal",
+    "district": "Midnapore",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/West Bengal/1981 Midnapore.pdf",
+    "source_filename": "1981 Midnapore.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 1833,
+    "output": "output/pdf/1981_trimmed/West Bengal/tehsil appendix/1981_Midnapore_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      1532,
+      1533,
+      1534,
+      1535
+    ],
+    "printed_page_labels": [
+      "1516",
+      null,
+      null,
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Appendix I Village Police Station-wise abstract; source page 1536 begins Appendix II.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 4,
+      "pages": [
+        {
+          "source_page": 1532,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              577.44,
+              818.88
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              577.44,
+              818.88
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 1533,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              577.44,
+              818.88
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              577.44,
+              818.88
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 1534,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              577.44,
+              818.88
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              577.44,
+              818.88
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 1535,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              577.44,
+              818.88
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              577.44,
+              818.88
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 1532,
+          "output_page": 1,
+          "source_png_sha256": "5ad0aec4484797304e9156b7efc49e8dd35c3877bc2bb31e8a5fc6d7a6106694",
+          "output_png_sha256": "5ad0aec4484797304e9156b7efc49e8dd35c3877bc2bb31e8a5fc6d7a6106694",
+          "match": true
+        },
+        {
+          "source_page": 1533,
+          "output_page": 2,
+          "source_png_sha256": "e244165ec3453ff995047e382b14690b597a9249213a7f8cf809b35f0d0da64c",
+          "output_png_sha256": "e244165ec3453ff995047e382b14690b597a9249213a7f8cf809b35f0d0da64c",
+          "match": true
+        },
+        {
+          "source_page": 1534,
+          "output_page": 3,
+          "source_png_sha256": "d7882ec8bf7936903e94b8d861438e49a82b104a56bb2b4efb3d48f2c5180298",
+          "output_png_sha256": "d7882ec8bf7936903e94b8d861438e49a82b104a56bb2b4efb3d48f2c5180298",
+          "match": true
+        },
+        {
+          "source_page": 1535,
+          "output_page": 4,
+          "source_png_sha256": "698b02da8d8a34878f7f8d5a1d3665b04ba70e0fe49523bccea7d377fe63adaf",
+          "output_png_sha256": "698b02da8d8a34878f7f8d5a1d3665b04ba70e0fe49523bccea7d377fe63adaf",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 4,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "West Bengal",
+    "source_state": "West Bengal",
+    "district": "Murshidabad",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/West Bengal/1981 Murshidabad.pdf",
+    "source_filename": "1981 Murshidabad.pdf",
+    "volume_type": "PCA-only / non-directory volume",
+    "eligible": false,
+    "eligibility_reason": "Part XIII-B Village & Town-wise Primary Census Abstract volume; contents show no amenities appendix.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 316,
+    "output": null,
+    "source_pages_selected": [],
+    "printed_page_labels": [],
+    "status": "Not trimmed",
+    "reason": "Part XIII-B Village & Town-wise Primary Census Abstract volume; contents show no Town Directory or Statement IV.",
+    "flags": [
+      "manual_absent_or_ineligible"
+    ],
+    "verification": null
+  },
+  {
+    "state": "West Bengal",
+    "source_state": "West Bengal",
+    "district": "Murshidabad",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/West Bengal/1981 Murshidabad.pdf",
+    "source_filename": "1981 Murshidabad.pdf",
+    "volume_type": "PCA-only / non-directory volume",
+    "eligible": false,
+    "eligibility_reason": "Part XIII-B Village & Town-wise Primary Census Abstract volume; contents show no amenities appendix.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 316,
+    "output": null,
+    "source_pages_selected": [],
+    "printed_page_labels": [],
+    "status": "Not trimmed",
+    "reason": "Part XIII-B Village & Town-wise Primary Census Abstract volume; contents show no Town Directory or Statement V.",
+    "flags": [
+      "manual_absent_or_ineligible"
+    ],
+    "verification": null
+  },
+  {
+    "state": "West Bengal",
+    "source_state": "West Bengal",
+    "district": "Murshidabad",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/West Bengal/1981 Murshidabad.pdf",
+    "source_filename": "1981 Murshidabad.pdf",
+    "volume_type": "PCA-only / non-directory volume",
+    "eligible": false,
+    "eligibility_reason": "Part XIII-B Village & Town-wise Primary Census Abstract volume; contents show no amenities appendix.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 316,
+    "output": null,
+    "source_pages_selected": [],
+    "printed_page_labels": [],
+    "status": "Not trimmed",
+    "reason": "Part XIII-B Village & Town-wise Primary Census Abstract volume; contents show no amenities appendix.",
+    "flags": [
+      "manual_absent_or_ineligible"
+    ],
+    "verification": null
+  },
+  {
+    "state": "West Bengal",
+    "source_state": "West Bengal",
+    "district": "Nadia",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/West Bengal/1981 Nadia.pdf",
+    "source_filename": "1981 Nadia.pdf",
+    "volume_type": "Part XIII-B primary census abstract",
+    "eligible": false,
+    "eligibility_reason": "PCA-only volume; the requested town statements and amenities appendix are absent.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 273,
+    "output": null,
+    "source_pages_selected": [],
+    "printed_page_labels": [],
+    "status": "Not trimmed",
+    "reason": "PCA-only volume; the requested town statements and amenities appendix are absent.",
+    "flags": [],
+    "verification": null
+  },
+  {
+    "state": "West Bengal",
+    "source_state": "West Bengal",
+    "district": "Nadia",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/West Bengal/1981 Nadia.pdf",
+    "source_filename": "1981 Nadia.pdf",
+    "volume_type": "Part XIII-B primary census abstract",
+    "eligible": false,
+    "eligibility_reason": "PCA-only volume; the requested town statements and amenities appendix are absent.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 273,
+    "output": null,
+    "source_pages_selected": [],
+    "printed_page_labels": [],
+    "status": "Not trimmed",
+    "reason": "PCA-only volume; the requested town statements and amenities appendix are absent.",
+    "flags": [],
+    "verification": null
+  },
+  {
+    "state": "West Bengal",
+    "source_state": "West Bengal",
+    "district": "Nadia",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/West Bengal/1981 Nadia.pdf",
+    "source_filename": "1981 Nadia.pdf",
+    "volume_type": "Part XIII-B primary census abstract",
+    "eligible": false,
+    "eligibility_reason": "PCA-only volume; the requested town statements and amenities appendix are absent.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 273,
+    "output": null,
+    "source_pages_selected": [],
+    "printed_page_labels": [],
+    "status": "Not trimmed",
+    "reason": "PCA-only volume; the requested town statements and amenities appendix are absent.",
+    "flags": [],
+    "verification": null
+  },
+  {
+    "state": "West Bengal",
+    "source_state": "West Bengal",
+    "district": "Purullia",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/West Bengal/1981 Purullia.pdf",
+    "source_filename": "1981 Purullia.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 461,
+    "output": "output/pdf/1981_trimmed/West Bengal/civic amenities/1981_Purullia_civic_amenities.pdf",
+    "source_pages_selected": [
+      454,
+      455
+    ],
+    "printed_page_labels": [
+      "440",
+      "441"
+    ],
+    "status": "Trimmed",
+    "reason": "Statement IV; source page 456 begins Statement IV-A.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 454,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              699.36,
+              970.56
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              699.36,
+              970.56
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 455,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              699.36,
+              970.56
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              699.36,
+              970.56
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 454,
+          "output_page": 1,
+          "source_png_sha256": "a85c6efb65ec7b8397fcd39bc8fdb100c2056c3862a0107f9ed8dee9a5e8485a",
+          "output_png_sha256": "a85c6efb65ec7b8397fcd39bc8fdb100c2056c3862a0107f9ed8dee9a5e8485a",
+          "match": true
+        },
+        {
+          "source_page": 455,
+          "output_page": 2,
+          "source_png_sha256": "1a376ac59ef9a41823f4fa6fd8f166b19c69ec138581262f6eb4d8bbeb9ba0d5",
+          "output_png_sha256": "1a376ac59ef9a41823f4fa6fd8f166b19c69ec138581262f6eb4d8bbeb9ba0d5",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "West Bengal",
+    "source_state": "West Bengal",
+    "district": "Purullia",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/West Bengal/1981 Purullia.pdf",
+    "source_filename": "1981 Purullia.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 461,
+    "output": "output/pdf/1981_trimmed/West Bengal/mededu/1981_Purullia_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      458,
+      459
+    ],
+    "printed_page_labels": [
+      "444",
+      "445"
+    ],
+    "status": "Trimmed",
+    "reason": "Statement V; source page 460 begins Statement VI.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 458,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              699.36,
+              970.56
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              699.36,
+              970.56
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 459,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              699.36,
+              970.56
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              699.36,
+              970.56
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 458,
+          "output_page": 1,
+          "source_png_sha256": "4950eeb413bba38cd8168928210ff3a70bf07974f2e5bef6856d77fae23a2f22",
+          "output_png_sha256": "4950eeb413bba38cd8168928210ff3a70bf07974f2e5bef6856d77fae23a2f22",
+          "match": true
+        },
+        {
+          "source_page": 459,
+          "output_page": 2,
+          "source_png_sha256": "24eb4ac882c5d1d0453ec52b9c841bc48c8471b81ef290161fc771db98b310c1",
+          "output_png_sha256": "24eb4ac882c5d1d0453ec52b9c841bc48c8471b81ef290161fc771db98b310c1",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "West Bengal",
+    "source_state": "West Bengal",
+    "district": "Purullia",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/West Bengal/1981 Purullia.pdf",
+    "source_filename": "1981 Purullia.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 461,
+    "output": "output/pdf/1981_trimmed/West Bengal/tehsil appendix/1981_Purullia_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      362,
+      363,
+      364,
+      365
+    ],
+    "printed_page_labels": [
+      "343",
+      "349",
+      "350",
+      "351"
+    ],
+    "status": "Trimmed",
+    "reason": "Appendix I Village Police Station-wise abstract; source page 366 begins Appendix II.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 4,
+      "pages": [
+        {
+          "source_page": 362,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              699.36,
+              970.56
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              699.36,
+              970.56
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 363,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              699.36,
+              970.56
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              699.36,
+              970.56
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 364,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              699.36,
+              970.56
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              699.36,
+              970.56
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 365,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              699.36,
+              970.56
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              699.36,
+              970.56
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 362,
+          "output_page": 1,
+          "source_png_sha256": "b745554f6e126b71a27ab84b2151be84874182d9d59cd211ac0655fc94d508ed",
+          "output_png_sha256": "b745554f6e126b71a27ab84b2151be84874182d9d59cd211ac0655fc94d508ed",
+          "match": true
+        },
+        {
+          "source_page": 363,
+          "output_page": 2,
+          "source_png_sha256": "772b14ee585e6164b1397aff66a58e11c5a7c16204a561a9fed5c2dbb521a2dd",
+          "output_png_sha256": "772b14ee585e6164b1397aff66a58e11c5a7c16204a561a9fed5c2dbb521a2dd",
+          "match": true
+        },
+        {
+          "source_page": 364,
+          "output_page": 3,
+          "source_png_sha256": "0b8afb8ee6e0db6ae83073f726462651bffabcbe8a8bf18b9c4f87158306ff52",
+          "output_png_sha256": "0b8afb8ee6e0db6ae83073f726462651bffabcbe8a8bf18b9c4f87158306ff52",
+          "match": true
+        },
+        {
+          "source_page": 365,
+          "output_page": 4,
+          "source_png_sha256": "cb1f56ff66a958a58fb2c52fed3093442e1cb564ceee3c81b9983199a6eabec6",
+          "output_png_sha256": "cb1f56ff66a958a58fb2c52fed3093442e1cb564ceee3c81b9983199a6eabec6",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 4,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "West Bengal",
+    "source_state": "West Bengal",
+    "district": "Twenty Four Parganas",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/West Bengal/1981 Twenty Four Parganas.pdf",
+    "source_filename": "1981 Twenty Four Parganas.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 793,
+    "output": "output/pdf/1981_trimmed/West Bengal/civic amenities/1981_Twenty Four Parganas_civic_amenities.pdf",
+    "source_pages_selected": [
+      754,
+      755,
+      756,
+      757,
+      758,
+      759,
+      760,
+      761,
+      762,
+      763
+    ],
+    "printed_page_labels": [
+      "738",
+      null,
+      "740",
+      "741",
+      "141",
+      "143",
+      "744",
+      null,
+      "746",
+      "747"
+    ],
+    "status": "Trimmed",
+    "reason": "Statement IV; source page 764 begins Statement IV-A.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 10,
+      "pages": [
+        {
+          "source_page": 754,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              699.36,
+              970.56
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              699.36,
+              970.56
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 755,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              699.36,
+              970.56
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              699.36,
+              970.56
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 756,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              699.36,
+              970.56
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              699.36,
+              970.56
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 757,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              699.36,
+              970.56
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              699.36,
+              970.56
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 758,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              699.36,
+              970.56
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              699.36,
+              970.56
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 759,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              699.36,
+              970.56
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              699.36,
+              970.56
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 760,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              699.36,
+              970.56
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              699.36,
+              970.56
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 761,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              699.36,
+              970.56
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              699.36,
+              970.56
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 762,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              699.36,
+              970.56
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              699.36,
+              970.56
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 763,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              699.36,
+              970.56
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              699.36,
+              970.56
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 754,
+          "output_page": 1,
+          "source_png_sha256": "267172e6c1254a7fcd330d90c1494aa2829869fff0be21eefb35af6564cf50b7",
+          "output_png_sha256": "267172e6c1254a7fcd330d90c1494aa2829869fff0be21eefb35af6564cf50b7",
+          "match": true
+        },
+        {
+          "source_page": 755,
+          "output_page": 2,
+          "source_png_sha256": "4250fcdec1c86c27851f2223e205e489d3d42972ef8f2023443cb73ae8b934a5",
+          "output_png_sha256": "4250fcdec1c86c27851f2223e205e489d3d42972ef8f2023443cb73ae8b934a5",
+          "match": true
+        },
+        {
+          "source_page": 756,
+          "output_page": 3,
+          "source_png_sha256": "4ab5c3ff815776e0ff9b90e4ffa91f3a7e5bb1a4094f815573b489b80e3802c7",
+          "output_png_sha256": "4ab5c3ff815776e0ff9b90e4ffa91f3a7e5bb1a4094f815573b489b80e3802c7",
+          "match": true
+        },
+        {
+          "source_page": 757,
+          "output_page": 4,
+          "source_png_sha256": "a4fd1029c1b8b41c9629a3ea9c043dcc2007b20ffd34166596228245cc841a57",
+          "output_png_sha256": "a4fd1029c1b8b41c9629a3ea9c043dcc2007b20ffd34166596228245cc841a57",
+          "match": true
+        },
+        {
+          "source_page": 758,
+          "output_page": 5,
+          "source_png_sha256": "05537d634e7b7c684c1df8a18e2bd39eae304a406cd61bb8b294bbee27fef10c",
+          "output_png_sha256": "05537d634e7b7c684c1df8a18e2bd39eae304a406cd61bb8b294bbee27fef10c",
+          "match": true
+        },
+        {
+          "source_page": 759,
+          "output_page": 6,
+          "source_png_sha256": "fff7fa2a44a1744bec4d9ecc8192fec455b1fa2135de639ede0623eb6114dc42",
+          "output_png_sha256": "fff7fa2a44a1744bec4d9ecc8192fec455b1fa2135de639ede0623eb6114dc42",
+          "match": true
+        },
+        {
+          "source_page": 760,
+          "output_page": 7,
+          "source_png_sha256": "242d6d4fec588dd9b83c35de80345b6878f9cd5e1fa121dcba837f9f64b1562e",
+          "output_png_sha256": "242d6d4fec588dd9b83c35de80345b6878f9cd5e1fa121dcba837f9f64b1562e",
+          "match": true
+        },
+        {
+          "source_page": 761,
+          "output_page": 8,
+          "source_png_sha256": "9bbab8023b032643e74386d0e24de5611e8be86f40af93f053cf5f16e09fd91c",
+          "output_png_sha256": "9bbab8023b032643e74386d0e24de5611e8be86f40af93f053cf5f16e09fd91c",
+          "match": true
+        },
+        {
+          "source_page": 762,
+          "output_page": 9,
+          "source_png_sha256": "d816fba183e007edd7d8d3874fb1f8c8d32c6b074e7effe08768ce4c96e31311",
+          "output_png_sha256": "d816fba183e007edd7d8d3874fb1f8c8d32c6b074e7effe08768ce4c96e31311",
+          "match": true
+        },
+        {
+          "source_page": 763,
+          "output_page": 10,
+          "source_png_sha256": "2b7b3173cc765b6ecf10f5447679cc7593f6a8e999f6be1b663671fcd796b1cb",
+          "output_png_sha256": "2b7b3173cc765b6ecf10f5447679cc7593f6a8e999f6be1b663671fcd796b1cb",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 10,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "West Bengal",
+    "source_state": "West Bengal",
+    "district": "Twenty Four Parganas",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/West Bengal/1981 Twenty Four Parganas.pdf",
+    "source_filename": "1981 Twenty Four Parganas.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 793,
+    "output": "output/pdf/1981_trimmed/West Bengal/mededu/1981_Twenty Four Parganas_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      768,
+      769,
+      770,
+      771,
+      772,
+      773,
+      774,
+      775,
+      776,
+      777,
+      778,
+      779,
+      780,
+      781
+    ],
+    "printed_page_labels": [
+      null,
+      "753",
+      "714",
+      null,
+      "716",
+      null,
+      "758",
+      null,
+      "760",
+      null,
+      "762",
+      "763",
+      null,
+      "765"
+    ],
+    "status": "Trimmed",
+    "reason": "Statement V including continuation pages through cultural facilities; source page 782 begins Statement VI.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 14,
+      "pages": [
+        {
+          "source_page": 768,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              699.36,
+              970.56
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              699.36,
+              970.56
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 769,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              699.36,
+              970.56
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              699.36,
+              970.56
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 770,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              699.36,
+              970.56
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              699.36,
+              970.56
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 771,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              699.36,
+              970.56
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              699.36,
+              970.56
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 772,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              699.36,
+              970.56
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              699.36,
+              970.56
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 773,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              699.36,
+              970.56
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              699.36,
+              970.56
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 774,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              699.36,
+              970.56
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              699.36,
+              970.56
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 775,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              699.36,
+              970.56
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              699.36,
+              970.56
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 776,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              699.36,
+              970.56
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              699.36,
+              970.56
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 777,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              699.36,
+              970.56
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              699.36,
+              970.56
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 778,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              699.36,
+              970.56
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              699.36,
+              970.56
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 779,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              699.36,
+              970.56
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              699.36,
+              970.56
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 780,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              699.36,
+              970.56
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              699.36,
+              970.56
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 781,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              699.36,
+              970.56
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              699.36,
+              970.56
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 768,
+          "output_page": 1,
+          "source_png_sha256": "850ab2ab11362d0644cf12e3a41a40103a424a79a04d52e4d3ffbe8607b7ad02",
+          "output_png_sha256": "850ab2ab11362d0644cf12e3a41a40103a424a79a04d52e4d3ffbe8607b7ad02",
+          "match": true
+        },
+        {
+          "source_page": 769,
+          "output_page": 2,
+          "source_png_sha256": "75ea44dc9bbc687fb776009ee78a4e41871737a08a98fad550604f2a0e3c791d",
+          "output_png_sha256": "75ea44dc9bbc687fb776009ee78a4e41871737a08a98fad550604f2a0e3c791d",
+          "match": true
+        },
+        {
+          "source_page": 770,
+          "output_page": 3,
+          "source_png_sha256": "e82892ec716aa400f04ca81a299f5293a19db68b2cca941c327cea2f0ff98138",
+          "output_png_sha256": "e82892ec716aa400f04ca81a299f5293a19db68b2cca941c327cea2f0ff98138",
+          "match": true
+        },
+        {
+          "source_page": 771,
+          "output_page": 4,
+          "source_png_sha256": "5d9314ee65abc2510d754eba4a432a67295724fefe3159e85255449b2de2afcc",
+          "output_png_sha256": "5d9314ee65abc2510d754eba4a432a67295724fefe3159e85255449b2de2afcc",
+          "match": true
+        },
+        {
+          "source_page": 772,
+          "output_page": 5,
+          "source_png_sha256": "6276050eae22aeebc9503110f661bb191119059724472d7ef268020dc910f7f6",
+          "output_png_sha256": "6276050eae22aeebc9503110f661bb191119059724472d7ef268020dc910f7f6",
+          "match": true
+        },
+        {
+          "source_page": 773,
+          "output_page": 6,
+          "source_png_sha256": "bd51db3b3ed0875cadc592d25486e5c0262aa900e0d0acdbfb653723ecd08b4a",
+          "output_png_sha256": "bd51db3b3ed0875cadc592d25486e5c0262aa900e0d0acdbfb653723ecd08b4a",
+          "match": true
+        },
+        {
+          "source_page": 774,
+          "output_page": 7,
+          "source_png_sha256": "c27a199f067799f50fc619b3854cd1dbf815609f1e68adfa27e905162bcc5fb7",
+          "output_png_sha256": "c27a199f067799f50fc619b3854cd1dbf815609f1e68adfa27e905162bcc5fb7",
+          "match": true
+        },
+        {
+          "source_page": 775,
+          "output_page": 8,
+          "source_png_sha256": "84004996cdbdd4ed0cec23f570344274dedb06b883c97eb5014da0eb152f04e5",
+          "output_png_sha256": "84004996cdbdd4ed0cec23f570344274dedb06b883c97eb5014da0eb152f04e5",
+          "match": true
+        },
+        {
+          "source_page": 776,
+          "output_page": 9,
+          "source_png_sha256": "ea09cf2c41596dc24e79db2bf9f2021bbe2ca6f3d794d787e3719a29f4113c83",
+          "output_png_sha256": "ea09cf2c41596dc24e79db2bf9f2021bbe2ca6f3d794d787e3719a29f4113c83",
+          "match": true
+        },
+        {
+          "source_page": 777,
+          "output_page": 10,
+          "source_png_sha256": "3bcb011c26ec5a6cce9805ba66a480c264c83ad688fdae5835ecb1c6fe1555b9",
+          "output_png_sha256": "3bcb011c26ec5a6cce9805ba66a480c264c83ad688fdae5835ecb1c6fe1555b9",
+          "match": true
+        },
+        {
+          "source_page": 778,
+          "output_page": 11,
+          "source_png_sha256": "ff1fc16dc8ac5fcebe882731898de9c02577dfe77a8c2cb2a4a519efbacf22e4",
+          "output_png_sha256": "ff1fc16dc8ac5fcebe882731898de9c02577dfe77a8c2cb2a4a519efbacf22e4",
+          "match": true
+        },
+        {
+          "source_page": 779,
+          "output_page": 12,
+          "source_png_sha256": "dad4351bd1b320c776a775e246b38224add685ad7f7102df44af44dd7de3008c",
+          "output_png_sha256": "dad4351bd1b320c776a775e246b38224add685ad7f7102df44af44dd7de3008c",
+          "match": true
+        },
+        {
+          "source_page": 780,
+          "output_page": 13,
+          "source_png_sha256": "fc9db8c938cbe6a765d57c4bfed75470fb2770f75e32896d466ef798958ebc74",
+          "output_png_sha256": "fc9db8c938cbe6a765d57c4bfed75470fb2770f75e32896d466ef798958ebc74",
+          "match": true
+        },
+        {
+          "source_page": 781,
+          "output_page": 14,
+          "source_png_sha256": "2e4367ee7b1e1210370c4b4f00efa58379021a5c98b438e31987d12c535a0c34",
+          "output_png_sha256": "2e4367ee7b1e1210370c4b4f00efa58379021a5c98b438e31987d12c535a0c34",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 14,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "West Bengal",
+    "source_state": "West Bengal",
+    "district": "Twenty Four Parganas",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/West Bengal/1981 Twenty Four Parganas.pdf",
+    "source_filename": "1981 Twenty Four Parganas.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 793,
+    "output": "output/pdf/1981_trimmed/West Bengal/tehsil appendix/1981_Twenty Four Parganas_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      624,
+      625,
+      626,
+      627,
+      628,
+      629,
+      630,
+      631
+    ],
+    "printed_page_labels": [
+      "608",
+      "609",
+      "610",
+      "611",
+      "612",
+      null,
+      null,
+      "615"
+    ],
+    "status": "Trimmed",
+    "reason": "Appendix I Village Police Station-wise abstract in two four-page sections; source page 632 begins Appendix II.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 8,
+      "pages": [
+        {
+          "source_page": 624,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              699.36,
+              970.56
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              699.36,
+              970.56
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 625,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              699.36,
+              970.56
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              699.36,
+              970.56
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 626,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              699.36,
+              970.56
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              699.36,
+              970.56
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 627,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              699.36,
+              970.56
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              699.36,
+              970.56
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 628,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              699.36,
+              970.56
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              699.36,
+              970.56
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 629,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              699.36,
+              970.56
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              699.36,
+              970.56
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 630,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              699.36,
+              970.56
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              699.36,
+              970.56
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 631,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              699.36,
+              970.56
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              699.36,
+              970.56
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 624,
+          "output_page": 1,
+          "source_png_sha256": "2ec2f96b352e0e89f57c7b9da01862b9c6b8765dcb55c19e6a5a50b938f84503",
+          "output_png_sha256": "2ec2f96b352e0e89f57c7b9da01862b9c6b8765dcb55c19e6a5a50b938f84503",
+          "match": true
+        },
+        {
+          "source_page": 625,
+          "output_page": 2,
+          "source_png_sha256": "32288afec47966ea025d42a7a39e4ba3f15fa8afd1033c373a42712760b2ec07",
+          "output_png_sha256": "32288afec47966ea025d42a7a39e4ba3f15fa8afd1033c373a42712760b2ec07",
+          "match": true
+        },
+        {
+          "source_page": 626,
+          "output_page": 3,
+          "source_png_sha256": "98054480bd3c43e5a90b76de5f341382b4c574292df780f0b2f0d8aaaedfc91f",
+          "output_png_sha256": "98054480bd3c43e5a90b76de5f341382b4c574292df780f0b2f0d8aaaedfc91f",
+          "match": true
+        },
+        {
+          "source_page": 627,
+          "output_page": 4,
+          "source_png_sha256": "536015b352a85e85d12d544f3099aa1e2fa5608a28a51c0b799304c09d83517f",
+          "output_png_sha256": "536015b352a85e85d12d544f3099aa1e2fa5608a28a51c0b799304c09d83517f",
+          "match": true
+        },
+        {
+          "source_page": 628,
+          "output_page": 5,
+          "source_png_sha256": "7fe6c63412cde754fc154f936df5aef505b29ee736590be82219912ad7b3e579",
+          "output_png_sha256": "7fe6c63412cde754fc154f936df5aef505b29ee736590be82219912ad7b3e579",
+          "match": true
+        },
+        {
+          "source_page": 629,
+          "output_page": 6,
+          "source_png_sha256": "7b0819853cc26e2945d362775b63e11d1257bde4f6da7726ad48dd71d52e619c",
+          "output_png_sha256": "7b0819853cc26e2945d362775b63e11d1257bde4f6da7726ad48dd71d52e619c",
+          "match": true
+        },
+        {
+          "source_page": 630,
+          "output_page": 7,
+          "source_png_sha256": "a86df4664ac8ee6604f299a87b0a80b665873ee0127df501c904eee3e7112150",
+          "output_png_sha256": "a86df4664ac8ee6604f299a87b0a80b665873ee0127df501c904eee3e7112150",
+          "match": true
+        },
+        {
+          "source_page": 631,
+          "output_page": 8,
+          "source_png_sha256": "61aea4ab77bb89a371c18d430c8e2b4930f000ad935a0075251559c1db8a1452",
+          "output_png_sha256": "61aea4ab77bb89a371c18d430c8e2b4930f000ad935a0075251559c1db8a1452",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 8,
+      "audit_flags": []
+    }
+  }
+]

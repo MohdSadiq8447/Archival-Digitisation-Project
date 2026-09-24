@@ -186,6 +186,77 @@ def test_allahabad_mededu_captures_footnote_before_trade_section(project_config,
     assert all(note.panel_id == "mededu_anchor" for note in notes)
 
 
+def test_baliya_mededu_stops_at_ocr_distorted_statement_heading(
+    project_config, tmp_path
+):
+    config = project_config.with_overrides(output_dir=tmp_path, auto_deskew=False)
+    runner = PipelineRunner(config, run_id="baliya-mededu-section-end")
+    pages = runner.pdf_loader.render_pdf(config.pdfs_dir / "baliya_mededu_1971.pdf")
+    schema = runner.schema_registry.require("format_002")
+    panels = runner.panel_detector.discover(pages, schema)
+    rows = runner._segment_and_align_rows(pages, schema, panels)
+    hierarchy = runner._segment_hierarchy_rows(pages, schema, panels, rows)
+    anchor = next(panel for panel in panels if panel.definition.row_anchor)
+
+    assert anchor.body_end_source == "section_title"
+    assert len(rows[anchor.definition.panel_id]) == 3
+    assert [len(hierarchy[index]) for index in range(3)] == [2, 2, 3]
+    assert sum(len(subrows) for subrows in hierarchy.values()) == 7
+
+
+@pytest.mark.parametrize(
+    ("district", "kind", "format_id", "expected_parents"),
+    [
+        ("baliya", "civic", "format_001", 3),
+        ("baliya", "tehsil", "format_003", 4),
+        ("garhwal", "tehsil", "format_003", 3),
+        ("kanpur", "tehsil", "format_003", 7),
+        ("muzaffarnagar", "civic", "format_001", 7),
+        ("parthpgad", "tehsil", "format_003", 4),
+        ("peelibhit", "tehsil", "format_003", 4),
+        ("uttar_kashi", "tehsil", "format_003", 5),
+        ("budaun", "tehsil", "format_003", 6),
+        ("meerut", "tehsil", "format_003", 7),
+    ],
+)
+def test_v3_blocker_layouts_resolve_authoritative_parent_rows(
+    project_config, tmp_path, district, kind, format_id, expected_parents
+):
+    config = project_config.with_overrides(output_dir=tmp_path, auto_deskew=False)
+    runner = PipelineRunner(config, run_id=f"v3-{district}-{kind}")
+    pages = runner.pdf_loader.render_pdf(config.pdfs_dir / f"{district}_{kind}_1971.pdf")
+    schema = runner.schema_registry.require(format_id)
+    panels = runner.panel_detector.discover(pages, schema)
+    rows = runner._segment_and_align_rows(pages, schema, panels)
+
+    assert len(rows[schema.row_anchor_panel.panel_id]) == expected_parents
+    assert len(panels) == len(schema.panels)
+    assert {len(panel_rows) for panel_rows in rows.values()} == {expected_parents}
+
+
+def test_kheri_compressed_tahsil_columns_stay_inside_physical_panel(
+    project_config, tmp_path
+):
+    config = project_config.with_overrides(output_dir=tmp_path, auto_deskew=False)
+    runner = PipelineRunner(config, run_id="kheri-compressed-columns")
+    pages = runner.pdf_loader.render_pdf(config.pdfs_dir / "kheri_tehsil_1971.pdf")
+    schema = runner.schema_registry.require("format_003")
+    panels = runner.panel_detector.discover(pages, schema)
+    communications = next(
+        panel
+        for panel in panels
+        if panel.definition.panel_id == "tahsil_communications"
+    )
+    left_edge, _, right_edge, _ = communications.body_bbox
+
+    assert len(communications.columns) == 12
+    assert all(
+        left_edge <= column.x_start < column.x_end <= right_edge
+        for column in communications.columns
+    )
+    assert communications.columns[-1].x_end == right_edge
+
+
 def test_continuation_last_row_stops_before_next_section_marker(project_config, tmp_path):
     config = project_config.with_overrides(output_dir=tmp_path, auto_deskew=False)
     runner = PipelineRunner(config, run_id="continuation-tail")

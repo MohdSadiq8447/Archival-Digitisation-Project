@@ -1,0 +1,170 @@
+[
+  {
+    "source": "1971 Greater Maharashtra.pdf",
+    "table": "civic_amenities",
+    "status": "review",
+    "reason": "This is a Greater Maharashtra municipal-corporation volume and does not contain the relevant district Town Directory Statement IV/V or a tehsil amenities abstract."
+  },
+  {
+    "source": "1971 Greater Maharashtra.pdf",
+    "table": "medical_educational_amenities",
+    "status": "review",
+    "reason": "This is a Greater Maharashtra municipal-corporation volume and does not contain the relevant district Town Directory Statement IV/V or a tehsil amenities abstract."
+  },
+  {
+    "source": "1971 Greater Maharashtra.pdf",
+    "table": "tehsil_appendix",
+    "status": "review",
+    "reason": "This is a Greater Maharashtra municipal-corporation volume and does not contain the relevant district Town Directory Statement IV/V or a tehsil amenities abstract."
+  },
+  {
+    "source": "1971 Ahmadnagar.pdf",
+    "table": "tehsil_appendix",
+    "status": "review",
+    "reason": "The previously generated Maharashtra tehsil-appendix output was removed after audit because its page span was incorrect; no replacement appendix is retained."
+  },
+  {
+    "source": "1971 Akola.pdf",
+    "table": "tehsil_appendix",
+    "status": "review",
+    "reason": "The previously generated Maharashtra tehsil-appendix output was removed after audit because its page span was incorrect; no replacement appendix is retained."
+  },
+  {
+    "source": "1971 Amravati.pdf",
+    "table": "tehsil_appendix",
+    "status": "review",
+    "reason": "The previously generated Maharashtra tehsil-appendix output was removed after audit because its page span was incorrect; no replacement appendix is retained."
+  },
+  {
+    "source": "1971 Bhandara.pdf",
+    "table": "tehsil_appendix",
+    "status": "review",
+    "reason": "The previously generated Maharashtra tehsil-appendix output was removed after audit because its page span was incorrect; no replacement appendix is retained."
+  },
+  {
+    "source": "1971 Bhir.pdf",
+    "table": "tehsil_appendix",
+    "status": "review",
+    "reason": "The previously generated Maharashtra tehsil-appendix output was removed after audit because its page span was incorrect; no replacement appendix is retained."
+  },
+  {
+    "source": "1971 Buldana.pdf",
+    "table": "tehsil_appendix",
+    "status": "review",
+    "reason": "The previously generated Maharashtra tehsil-appendix output was removed after audit because its page span was incorrect; no replacement appendix is retained."
+  },
+  {
+    "source": "1971 Chandrapur.pdf",
+    "table": "tehsil_appendix",
+    "status": "review",
+    "reason": "The previously generated Maharashtra tehsil-appendix output was removed after audit because its page span was incorrect; no replacement appendix is retained."
+  },
+  {
+    "source": "1971 Dhulia.pdf",
+    "table": "tehsil_appendix",
+    "status": "review",
+    "reason": "The previously generated Maharashtra tehsil-appendix output was removed after audit because its page span was incorrect; no replacement appendix is retained."
+  },
+  {
+    "source": "1971 Jalgaon.pdf",
+    "table": "tehsil_appendix",
+    "status": "review",
+    "reason": "The previously generated Maharashtra tehsil-appendix output was removed after audit because its page span was incorrect; no replacement appendix is retained."
+  },
+  {
+    "source": "1971 Kolaba.pdf",
+    "table": "tehsil_appendix",
+    "status": "review",
+    "reason": "The previously generated Maharashtra tehsil-appendix output was removed after audit because its page span was incorrect; no replacement appendix is retained."
+  },
+  {
+    "source": "1971 Kolhapur.pdf",
+    "table": "tehsil_appendix",
+    "status": "review",
+    "reason": "The previously generated Maharashtra tehsil-appendix output was removed after audit because its page span was incorrect; no replacement appendix is retained."
+  },
+  {
+    "source": "1971 Nagpur.pdf",
+    "table": "tehsil_appendix",
+    "status": "review",
+    "reason": "The previously generated Maharashtra tehsil-appendix output was removed after audit because its page span was incorrect; no replacement appendix is retained."
+  },
+  {
+    "source": "1971 Nanded.pdf",
+    "table": "tehsil_appendix",
+    "status": "review",
+    "reason": "The previously generated Maharashtra tehsil-appendix output was removed after audit because its page span was incorrect; no replacement appendix is retained."
+  },
+  {
+    "source": "1971 Nasik.pdf",
+    "table": "tehsil_appendix",
+    "status": "review",
+    "reason": "The previously generated Maharashtra tehsil-appendix output was removed after audit because its page span was incorrect; no replacement appendix is retained."
+  },
+  {
+    "source": "1971 Osmanabad.pdf",
+    "table": "tehsil_appendix",
+    "status": "review",
+    "reason": "The previously generated Maharashtra tehsil-appendix output was removed after audit because its page span was incorrect; no replacement appendix is retained."
+  },
+  {
+    "source": "1971 Parbhani.pdf",
+    "table": "tehsil_appendix",
+    "status": "review",
+    "reason": "The previously generated Maharashtra tehsil-appendix output was removed after audit because its page span was incorrect; no replacement appendix is retained."
+  },
+  {
+    "source": "1971 Pune.pdf",
+    "table": "tehsil_appendix",
+    "status": "review",
+    "reason": "The previously generated Maharashtra tehsil-appendix output was removed after audit because its page span was incorrect; no replacement appendix is retained."
+  },
+  {
+    "source": "1971 Ratnagiri.pdf",
+    "table": "tehsil_appendix",
+    "status": "review",
+    "reason": "The previously generated Maharashtra tehsil-appendix output was removed after audit because its page span was incorrect; no replacement appendix is retained."
+  },
+  {
+    "source": "1971 Sangli.pdf",
+    "table": "tehsil_appendix",
+    "status": "review",
+    "reason": "The previously generated Maharashtra tehsil-appendix output was removed after audit because its page span was incorrect; no replacement appendix is retained."
+  },
+  {
+    "source": "1971 Satara.pdf",
+    "table": "tehsil_appendix",
+    "status": "review",
+    "reason": "The previously generated Maharashtra tehsil-appendix output was removed after audit because its page span was incorrect; no replacement appendix is retained."
+  },
+  {
+    "source": "1971 Sholapur.pdf",
+    "table": "tehsil_appendix",
+    "status": "review",
+    "reason": "The previously generated Maharashtra tehsil-appendix output was removed after audit because its page span was incorrect; no replacement appendix is retained."
+  },
+  {
+    "source": "1971 Thane.pdf",
+    "table": "tehsil_appendix",
+    "status": "review",
+    "reason": "The previously generated Maharashtra tehsil-appendix output was removed after audit because its page span was incorrect; no replacement appendix is retained."
+  },
+  {
+    "source": "1971 Wardha.pdf",
+    "table": "tehsil_appendix",
+    "status": "review",
+    "reason": "The previously generated Maharashtra tehsil-appendix output was removed after audit because its page span was incorrect; no replacement appendix is retained."
+  },
+  {
+    "source": "1971 Yavatmal.pdf",
+    "table": "tehsil_appendix",
+    "status": "review",
+    "reason": "The previously generated Maharashtra tehsil-appendix output was removed after audit because its page span was incorrect; no replacement appendix is retained."
+  },
+  {
+    "source": "44875_1971_AUR.pdf",
+    "table": "tehsil_appendix",
+    "status": "review",
+    "reason": "The previously generated Maharashtra tehsil-appendix output was removed after audit because its page span was incorrect; no replacement appendix is retained."
+  }
+]

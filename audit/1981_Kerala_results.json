@@ -1,0 +1,3080 @@
+[
+  {
+    "state": "Kerala",
+    "source_state": "Kerala",
+    "district": "Alleppey",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Kerala/1981 Alleppey.pdf",
+    "source_filename": "1981 Alleppey.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 180,
+    "output": "output/pdf/1981_trimmed/Kerala/civic amenities/1981_Alleppey_civic_amenities.pdf",
+    "source_pages_selected": [
+      106,
+      107
+    ],
+    "printed_page_labels": [
+      null,
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement IV Civic and Other Amenities; source page 108 begins Statement V.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 106,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.36,
+              883.2
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.36,
+              883.2
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 107,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.36,
+              883.2
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.36,
+              883.2
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 106,
+          "output_page": 1,
+          "source_png_sha256": "9b00951274d546c2b75bd5d60ea60d800dc0ac1d1b315f1332c9a0b0e033a832",
+          "output_png_sha256": "9b00951274d546c2b75bd5d60ea60d800dc0ac1d1b315f1332c9a0b0e033a832",
+          "match": true
+        },
+        {
+          "source_page": 107,
+          "output_page": 2,
+          "source_png_sha256": "fa4c6e2e19a3ff972f66c5a2f544e17af51ec9a74b9147c7c5a3c19335a5ac71",
+          "output_png_sha256": "fa4c6e2e19a3ff972f66c5a2f544e17af51ec9a74b9147c7c5a3c19335a5ac71",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Kerala",
+    "source_state": "Kerala",
+    "district": "Alleppey",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Kerala/1981 Alleppey.pdf",
+    "source_filename": "1981 Alleppey.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 180,
+    "output": "output/pdf/1981_trimmed/Kerala/mededu/1981_Alleppey_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      108,
+      109
+    ],
+    "printed_page_labels": [
+      null,
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement V Medical, Educational, Recreational and Cultural Facilities; source page 110 begins the Town Directory outgrowth appendix.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 108,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.36,
+              883.2
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.36,
+              883.2
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 109,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.36,
+              883.2
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.36,
+              883.2
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 108,
+          "output_page": 1,
+          "source_png_sha256": "ee0a3664dc3e0ba28f75af9f0437506673bed5cc038f257aa77911294d94c4a3",
+          "output_png_sha256": "ee0a3664dc3e0ba28f75af9f0437506673bed5cc038f257aa77911294d94c4a3",
+          "match": true
+        },
+        {
+          "source_page": 109,
+          "output_page": 2,
+          "source_png_sha256": "2bb12ceb8b89f208222e3fe22b694186612981c7343dacd707465dc7aca31ace",
+          "output_png_sha256": "2bb12ceb8b89f208222e3fe22b694186612981c7343dacd707465dc7aca31ace",
+          "match": true
+        }
+      ],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Kerala",
+    "source_state": "Kerala",
+    "district": "Alleppey",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Kerala/1981 Alleppey.pdf",
+    "source_filename": "1981 Alleppey.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 180,
+    "output": "output/pdf/1981_trimmed/Kerala/tehsil appendix/1981_Alleppey_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      96,
+      97
+    ],
+    "printed_page_labels": [
+      null,
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Village Directory Appendix I, Taluk-wise Abstract of Educational, Medical and Other Amenities; source page 98 begins Appendix II.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 96,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.36,
+              883.2
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.36,
+              883.2
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 97,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.36,
+              883.2
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.36,
+              883.2
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 96,
+          "output_page": 1,
+          "source_png_sha256": "064ae3846e5852770a119e59d5308c019aec1a68b7f0d6042c9a3c37f6e195d7",
+          "output_png_sha256": "064ae3846e5852770a119e59d5308c019aec1a68b7f0d6042c9a3c37f6e195d7",
+          "match": true
+        },
+        {
+          "source_page": 97,
+          "output_page": 2,
+          "source_png_sha256": "38501f9b18ea0087b2ee27524b9eb21563ee549c13ad9413c9bc2ee151baf887",
+          "output_png_sha256": "38501f9b18ea0087b2ee27524b9eb21563ee549c13ad9413c9bc2ee151baf887",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Kerala",
+    "source_state": "Kerala",
+    "district": "Cannanore",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Kerala/1981 Cannanore.pdf",
+    "source_filename": "1981 Cannanore.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 191,
+    "output": "output/pdf/1981_trimmed/Kerala/civic amenities/1981_Cannanore_civic_amenities.pdf",
+    "source_pages_selected": [
+      115,
+      116
+    ],
+    "printed_page_labels": [
+      null,
+      "1979"
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement IV Civic and Other Amenities; source page 117 begins Statement V.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 115,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              583.92,
+              818.4
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              583.92,
+              818.4
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 116,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              583.92,
+              818.4
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              583.92,
+              818.4
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 115,
+          "output_page": 1,
+          "source_png_sha256": "ed92cf65c68f2a64bd764fb005a1034626594d8ce4a594b30211b771d1e75bb8",
+          "output_png_sha256": "ed92cf65c68f2a64bd764fb005a1034626594d8ce4a594b30211b771d1e75bb8",
+          "match": true
+        },
+        {
+          "source_page": 116,
+          "output_page": 2,
+          "source_png_sha256": "462daef666dc1293e4d2a105297d9074a1fa14f6fe9b997d096034ca1da747c9",
+          "output_png_sha256": "462daef666dc1293e4d2a105297d9074a1fa14f6fe9b997d096034ca1da747c9",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Kerala",
+    "source_state": "Kerala",
+    "district": "Cannanore",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Kerala/1981 Cannanore.pdf",
+    "source_filename": "1981 Cannanore.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 191,
+    "output": "output/pdf/1981_trimmed/Kerala/mededu/1981_Cannanore_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      117,
+      118,
+      119,
+      120
+    ],
+    "printed_page_labels": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement V Medical, Educational, Recreational and Cultural Facilities, including all continuation pages; source page 121 begins Statement VI.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 4,
+      "pages": [
+        {
+          "source_page": 117,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              583.92,
+              818.4
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              583.92,
+              818.4
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 118,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              583.92,
+              818.4
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              583.92,
+              818.4
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 119,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              583.92,
+              818.4
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              583.92,
+              818.4
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 120,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              583.92,
+              818.4
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              583.92,
+              818.4
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 117,
+          "output_page": 1,
+          "source_png_sha256": "bff1c73c97580297648a22bf8f16f0c7cce20a5f2a9165d93cb78dff08335cdf",
+          "output_png_sha256": "bff1c73c97580297648a22bf8f16f0c7cce20a5f2a9165d93cb78dff08335cdf",
+          "match": true
+        },
+        {
+          "source_page": 118,
+          "output_page": 2,
+          "source_png_sha256": "de8cd7dcc679bef0387c612d11ec3a319bf995150ebcbe38ff950f0f3d83d08e",
+          "output_png_sha256": "de8cd7dcc679bef0387c612d11ec3a319bf995150ebcbe38ff950f0f3d83d08e",
+          "match": true
+        },
+        {
+          "source_page": 119,
+          "output_page": 3,
+          "source_png_sha256": "936e87e1b7d912ac66af389728855f07bfae83039ccc5cf81de01aba3eca2e48",
+          "output_png_sha256": "936e87e1b7d912ac66af389728855f07bfae83039ccc5cf81de01aba3eca2e48",
+          "match": true
+        },
+        {
+          "source_page": 120,
+          "output_page": 4,
+          "source_png_sha256": "60cba1fb4afc6f9373063b296d051402bff3955b1650edbe8b34146e216d5d4c",
+          "output_png_sha256": "60cba1fb4afc6f9373063b296d051402bff3955b1650edbe8b34146e216d5d4c",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 4,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Kerala",
+    "source_state": "Kerala",
+    "district": "Cannanore",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Kerala/1981 Cannanore.pdf",
+    "source_filename": "1981 Cannanore.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 191,
+    "output": "output/pdf/1981_trimmed/Kerala/tehsil appendix/1981_Cannanore_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      101,
+      102
+    ],
+    "printed_page_labels": [
+      null,
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Village Directory Appendix I, Taluk-wise Abstract of Educational, Medical and Other Amenities; source page 103 begins Appendix II.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 101,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              583.92,
+              818.4
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              583.92,
+              818.4
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 102,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              583.92,
+              818.4
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              583.92,
+              818.4
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 101,
+          "output_page": 1,
+          "source_png_sha256": "2fb54d8fb8cd5319ac5dc5c881ac1c73ea702c246ec1eb2848f81d4814f0bde5",
+          "output_png_sha256": "2fb54d8fb8cd5319ac5dc5c881ac1c73ea702c246ec1eb2848f81d4814f0bde5",
+          "match": true
+        },
+        {
+          "source_page": 102,
+          "output_page": 2,
+          "source_png_sha256": "9650a1836ea0c0c4437294d2de1a3de4bdd16e99cba166ad05b4c108af440c34",
+          "output_png_sha256": "9650a1836ea0c0c4437294d2de1a3de4bdd16e99cba166ad05b4c108af440c34",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Kerala",
+    "source_state": "Kerala",
+    "district": "Ernakulam",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Kerala/1981 Ernakulam.pdf",
+    "source_filename": "1981 Ernakulam.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 267,
+    "output": "output/pdf/1981_trimmed/Kerala/civic amenities/1981_Ernakulam_civic_amenities.pdf",
+    "source_pages_selected": [
+      162,
+      163
+    ],
+    "printed_page_labels": [
+      null,
+      "1979"
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement IV Civic and Other Amenities; source page 164 begins Statement V.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 162,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              614.4,
+              846.0
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              614.4,
+              846.0
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 163,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              614.4,
+              846.0
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              614.4,
+              846.0
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 162,
+          "output_page": 1,
+          "source_png_sha256": "5a842da919e96ea817227857ca02915e911e12365b440bd4940708540987e363",
+          "output_png_sha256": "5a842da919e96ea817227857ca02915e911e12365b440bd4940708540987e363",
+          "match": true
+        },
+        {
+          "source_page": 163,
+          "output_page": 2,
+          "source_png_sha256": "174ffdd06f5ad3dca87fb7e5adacf67a0c5e2f8694e1a3d915beb22f62ed9345",
+          "output_png_sha256": "174ffdd06f5ad3dca87fb7e5adacf67a0c5e2f8694e1a3d915beb22f62ed9345",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Kerala",
+    "source_state": "Kerala",
+    "district": "Ernakulam",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Kerala/1981 Ernakulam.pdf",
+    "source_filename": "1981 Ernakulam.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 267,
+    "output": "output/pdf/1981_trimmed/Kerala/mededu/1981_Ernakulam_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      164,
+      165,
+      166,
+      167
+    ],
+    "printed_page_labels": [
+      null,
+      "1979",
+      null,
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement V Medical, Educational, Recreational and Cultural Facilities, including all continuation pages; source page 168 begins Statement VI.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 4,
+      "pages": [
+        {
+          "source_page": 164,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              614.4,
+              846.0
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              614.4,
+              846.0
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 165,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              614.4,
+              846.0
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              614.4,
+              846.0
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 166,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              614.4,
+              846.0
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              614.4,
+              846.0
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 167,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              614.4,
+              846.0
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              614.4,
+              846.0
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 164,
+          "output_page": 1,
+          "source_png_sha256": "80a90b621c5643ee1d986dfb615e23cd970d2e81e10b49b56aa20251e10035a8",
+          "output_png_sha256": "80a90b621c5643ee1d986dfb615e23cd970d2e81e10b49b56aa20251e10035a8",
+          "match": true
+        },
+        {
+          "source_page": 165,
+          "output_page": 2,
+          "source_png_sha256": "d2079f2690328db737e057da6359dadabec096fa463dd660ee92f4f6b0d335da",
+          "output_png_sha256": "d2079f2690328db737e057da6359dadabec096fa463dd660ee92f4f6b0d335da",
+          "match": true
+        },
+        {
+          "source_page": 166,
+          "output_page": 3,
+          "source_png_sha256": "2aa99b886d74bb50af10f897077c5bffe05eef976d296f3eb5b5a1a9c73b4f3c",
+          "output_png_sha256": "2aa99b886d74bb50af10f897077c5bffe05eef976d296f3eb5b5a1a9c73b4f3c",
+          "match": true
+        },
+        {
+          "source_page": 167,
+          "output_page": 4,
+          "source_png_sha256": "f1667ae9658166823d267b2c185dc8604f8b6fd6284fc5b1fdbf0bc423cbfa43",
+          "output_png_sha256": "f1667ae9658166823d267b2c185dc8604f8b6fd6284fc5b1fdbf0bc423cbfa43",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 4,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Kerala",
+    "source_state": "Kerala",
+    "district": "Ernakulam",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Kerala/1981 Ernakulam.pdf",
+    "source_filename": "1981 Ernakulam.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 267,
+    "output": "output/pdf/1981_trimmed/Kerala/tehsil appendix/1981_Ernakulam_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      148,
+      149
+    ],
+    "printed_page_labels": [
+      null,
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Village Directory Appendix I, Taluk-wise Abstract of Educational, Medical and Other Amenities; source page 150 begins Appendix II.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 148,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              614.4,
+              846.0
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              614.4,
+              846.0
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 149,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              614.4,
+              846.0
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              614.4,
+              846.0
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 148,
+          "output_page": 1,
+          "source_png_sha256": "0db28721ec76b4e632319d30a8e9acb127cc8bc755c7f60be46d79c97c8fdc90",
+          "output_png_sha256": "0db28721ec76b4e632319d30a8e9acb127cc8bc755c7f60be46d79c97c8fdc90",
+          "match": true
+        },
+        {
+          "source_page": 149,
+          "output_page": 2,
+          "source_png_sha256": "b4ac51569ac8f616a4197b173b3b7f9dc645f06122139e594e32002bb500380c",
+          "output_png_sha256": "b4ac51569ac8f616a4197b173b3b7f9dc645f06122139e594e32002bb500380c",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Kerala",
+    "source_state": "Kerala",
+    "district": "Idikki",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Kerala/1981 Idikki.pdf",
+    "source_filename": "1981 Idikki.pdf",
+    "volume_type": "directory candidate",
+    "eligible": true,
+    "eligibility_reason": "Requested directory headings are present in the opening pages.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 122,
+    "output": "output/pdf/1981_trimmed/Kerala/civic amenities/1981_Idikki_civic_amenities.pdf",
+    "source_pages_selected": [
+      78,
+      79
+    ],
+    "printed_page_labels": [
+      null,
+      "1979"
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement IV Civic and Other Amenities; the civic table starts on source page 78 and continues on source page 79.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 78,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.36,
+              883.2
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.36,
+              883.2
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 79,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.36,
+              883.2
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.36,
+              883.2
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 78,
+          "output_page": 1,
+          "source_png_sha256": "7363e8c78059c8a76dd15407554eb5f45973196aabc5649be8f9d7adea1c5379",
+          "output_png_sha256": "7363e8c78059c8a76dd15407554eb5f45973196aabc5649be8f9d7adea1c5379",
+          "match": true
+        },
+        {
+          "source_page": 79,
+          "output_page": 2,
+          "source_png_sha256": "5d6a244353b64b70a94360ff2500f0a481ea510fba5db517e0de58e080b0528a",
+          "output_png_sha256": "5d6a244353b64b70a94360ff2500f0a481ea510fba5db517e0de58e080b0528a",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Kerala",
+    "source_state": "Kerala",
+    "district": "Idikki",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Kerala/1981 Idikki.pdf",
+    "source_filename": "1981 Idikki.pdf",
+    "volume_type": "directory candidate",
+    "eligible": true,
+    "eligibility_reason": "Requested directory headings are present in the opening pages.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 122,
+    "output": "output/pdf/1981_trimmed/Kerala/mededu/1981_Idikki_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      78,
+      79
+    ],
+    "printed_page_labels": [
+      null,
+      "1979"
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement V Medical, Educational, Recreational and Cultural Facilities shares source pages 78-79 with the end of Statement IV; source page 80 begins the outgrowth appendix.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 78,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.36,
+              883.2
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.36,
+              883.2
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 79,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.36,
+              883.2
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.36,
+              883.2
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 78,
+          "output_page": 1,
+          "source_png_sha256": "7363e8c78059c8a76dd15407554eb5f45973196aabc5649be8f9d7adea1c5379",
+          "output_png_sha256": "7363e8c78059c8a76dd15407554eb5f45973196aabc5649be8f9d7adea1c5379",
+          "match": true
+        },
+        {
+          "source_page": 79,
+          "output_page": 2,
+          "source_png_sha256": "5d6a244353b64b70a94360ff2500f0a481ea510fba5db517e0de58e080b0528a",
+          "output_png_sha256": "5d6a244353b64b70a94360ff2500f0a481ea510fba5db517e0de58e080b0528a",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Kerala",
+    "source_state": "Kerala",
+    "district": "Idikki",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Kerala/1981 Idikki.pdf",
+    "source_filename": "1981 Idikki.pdf",
+    "volume_type": "directory candidate",
+    "eligible": true,
+    "eligibility_reason": "Requested directory headings are present in the opening pages.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 122,
+    "output": "output/pdf/1981_trimmed/Kerala/tehsil appendix/1981_Idikki_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      68,
+      69
+    ],
+    "printed_page_labels": [
+      null,
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Village Directory Appendix I, Taluk-wise Abstract of Educational, Medical and Other Amenities; source page 70 begins Appendix II.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 68,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.36,
+              883.2
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.36,
+              883.2
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 69,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.36,
+              883.2
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.36,
+              883.2
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 68,
+          "output_page": 1,
+          "source_png_sha256": "05d12b10a1c795304d15ee7b9b02744f1dae6c2a0772e281eadc72b7e1748b97",
+          "output_png_sha256": "05d12b10a1c795304d15ee7b9b02744f1dae6c2a0772e281eadc72b7e1748b97",
+          "match": true
+        },
+        {
+          "source_page": 69,
+          "output_page": 2,
+          "source_png_sha256": "8ee2cd8d4450120bff038167e2d52b1d238ad2f4c0d1acf0f7ebf97a25184931",
+          "output_png_sha256": "8ee2cd8d4450120bff038167e2d52b1d238ad2f4c0d1acf0f7ebf97a25184931",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Kerala",
+    "source_state": "Kerala",
+    "district": "Kasaragod",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Kerala/1981 Kasaragod.pdf",
+    "source_filename": "1981 Kasaragod.pdf",
+    "volume_type": "directory candidate",
+    "eligible": true,
+    "eligibility_reason": "Requested directory headings are present in the opening pages.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 108,
+    "output": "output/pdf/1981_trimmed/Kerala/civic amenities/1981_Kasaragod_civic_amenities.pdf",
+    "source_pages_selected": [
+      84,
+      85
+    ],
+    "printed_page_labels": [
+      null,
+      "1979"
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement IV Civic and Other Amenities; source page 86 begins Statement V.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 84,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.36,
+              883.2
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.36,
+              883.2
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 85,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.36,
+              883.2
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.36,
+              883.2
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 84,
+          "output_page": 1,
+          "source_png_sha256": "625f230dac74aa012a0253ccdd0b6bac0c5a577513b6278e948cd4aaa2b309c5",
+          "output_png_sha256": "625f230dac74aa012a0253ccdd0b6bac0c5a577513b6278e948cd4aaa2b309c5",
+          "match": true
+        },
+        {
+          "source_page": 85,
+          "output_page": 2,
+          "source_png_sha256": "b4ebfa4a627187d2b5d49ae359d6a2607153ecbfdb2a4726764eb9b0d7b0433b",
+          "output_png_sha256": "b4ebfa4a627187d2b5d49ae359d6a2607153ecbfdb2a4726764eb9b0d7b0433b",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Kerala",
+    "source_state": "Kerala",
+    "district": "Kasaragod",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Kerala/1981 Kasaragod.pdf",
+    "source_filename": "1981 Kasaragod.pdf",
+    "volume_type": "directory candidate",
+    "eligible": true,
+    "eligibility_reason": "Requested directory headings are present in the opening pages.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 108,
+    "output": "output/pdf/1981_trimmed/Kerala/mededu/1981_Kasaragod_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      84,
+      85
+    ],
+    "printed_page_labels": [
+      null,
+      "1979"
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement V Medical, Educational, Recreational and Cultural Facilities on source pages 84-85; source page 86 begins the Town Directory outgrowth appendix.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 84,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.36,
+              883.2
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.36,
+              883.2
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 85,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.36,
+              883.2
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.36,
+              883.2
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 84,
+          "output_page": 1,
+          "source_png_sha256": "625f230dac74aa012a0253ccdd0b6bac0c5a577513b6278e948cd4aaa2b309c5",
+          "output_png_sha256": "625f230dac74aa012a0253ccdd0b6bac0c5a577513b6278e948cd4aaa2b309c5",
+          "match": true
+        },
+        {
+          "source_page": 85,
+          "output_page": 2,
+          "source_png_sha256": "b4ebfa4a627187d2b5d49ae359d6a2607153ecbfdb2a4726764eb9b0d7b0433b",
+          "output_png_sha256": "b4ebfa4a627187d2b5d49ae359d6a2607153ecbfdb2a4726764eb9b0d7b0433b",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Kerala",
+    "source_state": "Kerala",
+    "district": "Kasaragod",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Kerala/1981 Kasaragod.pdf",
+    "source_filename": "1981 Kasaragod.pdf",
+    "volume_type": "directory candidate",
+    "eligible": true,
+    "eligibility_reason": "Requested directory headings are present in the opening pages.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 108,
+    "output": "output/pdf/1981_trimmed/Kerala/tehsil appendix/1981_Kasaragod_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      74,
+      75
+    ],
+    "printed_page_labels": [
+      null,
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Village Directory Appendix I, Taluk-wise Abstract of Educational, Medical and Other Amenities; source page 76 begins Appendix II.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 74,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.36,
+              883.2
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.36,
+              883.2
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 75,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.36,
+              883.2
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.36,
+              883.2
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 74,
+          "output_page": 1,
+          "source_png_sha256": "1b45c286137eb761d08f08d574e66668218c8314b518752432ab45351c245853",
+          "output_png_sha256": "1b45c286137eb761d08f08d574e66668218c8314b518752432ab45351c245853",
+          "match": true
+        },
+        {
+          "source_page": 75,
+          "output_page": 2,
+          "source_png_sha256": "adb70063801a95bd2ca1846316b188c3c34e6b41927a1913a57a72fc10f0540b",
+          "output_png_sha256": "adb70063801a95bd2ca1846316b188c3c34e6b41927a1913a57a72fc10f0540b",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Kerala",
+    "source_state": "Kerala",
+    "district": "Kottayam",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Kerala/1981 Kottayam.pdf",
+    "source_filename": "1981 Kottayam.pdf",
+    "volume_type": "directory candidate",
+    "eligible": true,
+    "eligibility_reason": "Requested directory headings are present in the opening pages.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 195,
+    "output": "output/pdf/1981_trimmed/Kerala/civic amenities/1981_Kottayam_civic_amenities.pdf",
+    "source_pages_selected": [
+      119,
+      120
+    ],
+    "printed_page_labels": [
+      null,
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement IV Civic and Other Amenities; source page 121 begins Statement V.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 119,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.36,
+              883.2
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.36,
+              883.2
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 120,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.36,
+              883.2
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.36,
+              883.2
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 119,
+          "output_page": 1,
+          "source_png_sha256": "f641a4bdbf1821659aa0c8160e087c48eb87fbfd68f28a26377078d4f2129237",
+          "output_png_sha256": "f641a4bdbf1821659aa0c8160e087c48eb87fbfd68f28a26377078d4f2129237",
+          "match": true
+        },
+        {
+          "source_page": 120,
+          "output_page": 2,
+          "source_png_sha256": "cbcacc2460d0311569344f42d74ccc29fa0ae28de3c9ff1849e139a350a315e9",
+          "output_png_sha256": "cbcacc2460d0311569344f42d74ccc29fa0ae28de3c9ff1849e139a350a315e9",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Kerala",
+    "source_state": "Kerala",
+    "district": "Kottayam",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Kerala/1981 Kottayam.pdf",
+    "source_filename": "1981 Kottayam.pdf",
+    "volume_type": "directory candidate",
+    "eligible": true,
+    "eligibility_reason": "Requested directory headings are present in the opening pages.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 195,
+    "output": "output/pdf/1981_trimmed/Kerala/mededu/1981_Kottayam_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      121,
+      122
+    ],
+    "printed_page_labels": [
+      null,
+      "1979"
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement V Medical, Educational, Recreational and Cultural Facilities; source page 123 begins Statement VI.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 121,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.36,
+              883.2
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.36,
+              883.2
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 122,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.36,
+              883.2
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.36,
+              883.2
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 121,
+          "output_page": 1,
+          "source_png_sha256": "b80570d777fd97bc9508aa1bc6d58596475340239c9b434d6ddbef14a5f625af",
+          "output_png_sha256": "b80570d777fd97bc9508aa1bc6d58596475340239c9b434d6ddbef14a5f625af",
+          "match": true
+        },
+        {
+          "source_page": 122,
+          "output_page": 2,
+          "source_png_sha256": "1eacbbf72f8658f0e77bd36944f0c81aa583c510f169026a6aa2992cb4a7e50c",
+          "output_png_sha256": "1eacbbf72f8658f0e77bd36944f0c81aa583c510f169026a6aa2992cb4a7e50c",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Kerala",
+    "source_state": "Kerala",
+    "district": "Kottayam",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Kerala/1981 Kottayam.pdf",
+    "source_filename": "1981 Kottayam.pdf",
+    "volume_type": "directory candidate",
+    "eligible": true,
+    "eligibility_reason": "Requested directory headings are present in the opening pages.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 195,
+    "output": "output/pdf/1981_trimmed/Kerala/tehsil appendix/1981_Kottayam_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      107,
+      108
+    ],
+    "printed_page_labels": [
+      null,
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Village Directory Appendix I, Taluk-wise Abstract of Educational, Medical and Other Amenities; source page 109 begins Appendix II.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 107,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.36,
+              883.2
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.36,
+              883.2
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 108,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.36,
+              883.2
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.36,
+              883.2
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 107,
+          "output_page": 1,
+          "source_png_sha256": "01171db73586ae818f2a7a578f183ed89887f5a4c7a1e84642cde87944ab8de5",
+          "output_png_sha256": "01171db73586ae818f2a7a578f183ed89887f5a4c7a1e84642cde87944ab8de5",
+          "match": true
+        },
+        {
+          "source_page": 108,
+          "output_page": 2,
+          "source_png_sha256": "fb203e1a52c75d077eb79d83a59cca4e1e1d01a6ebfffe0cfed78863c9fd4ce3",
+          "output_png_sha256": "fb203e1a52c75d077eb79d83a59cca4e1e1d01a6ebfffe0cfed78863c9fd4ce3",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Kerala",
+    "source_state": "Kerala",
+    "district": "Kozhikode",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Kerala/1981 Kozhikode.pdf",
+    "source_filename": "1981 Kozhikode.pdf",
+    "volume_type": "Part XIII-B primary census abstract",
+    "eligible": false,
+    "eligibility_reason": "PCA-only volume; the requested town statements and amenities appendix are absent.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 160,
+    "output": null,
+    "source_pages_selected": [],
+    "printed_page_labels": [],
+    "status": "Not trimmed",
+    "reason": "Visual contents show a PCA-only Part XIII-B volume with no Village/Town Directory or Statement IV civic amenities table.",
+    "flags": [
+      "manual_absent_or_ineligible"
+    ],
+    "verification": null
+  },
+  {
+    "state": "Kerala",
+    "source_state": "Kerala",
+    "district": "Kozhikode",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Kerala/1981 Kozhikode.pdf",
+    "source_filename": "1981 Kozhikode.pdf",
+    "volume_type": "Part XIII-B primary census abstract",
+    "eligible": false,
+    "eligibility_reason": "PCA-only volume; the requested town statements and amenities appendix are absent.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 160,
+    "output": null,
+    "source_pages_selected": [],
+    "printed_page_labels": [],
+    "status": "Not trimmed",
+    "reason": "Visual contents show a PCA-only Part XIII-B volume with no Village/Town Directory or Statement V medical and educational amenities table.",
+    "flags": [
+      "manual_absent_or_ineligible"
+    ],
+    "verification": null
+  },
+  {
+    "state": "Kerala",
+    "source_state": "Kerala",
+    "district": "Kozhikode",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Kerala/1981 Kozhikode.pdf",
+    "source_filename": "1981 Kozhikode.pdf",
+    "volume_type": "Part XIII-B primary census abstract",
+    "eligible": false,
+    "eligibility_reason": "PCA-only volume; the requested town statements and amenities appendix are absent.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 160,
+    "output": null,
+    "source_pages_selected": [],
+    "printed_page_labels": [],
+    "status": "Not trimmed",
+    "reason": "Visual contents show a PCA-only Part XIII-B volume with no village-directory amenities appendix.",
+    "flags": [
+      "manual_absent_or_ineligible"
+    ],
+    "verification": null
+  },
+  {
+    "state": "Kerala",
+    "source_state": "Kerala",
+    "district": "Malappuram",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Kerala/1981 Malappuram.pdf",
+    "source_filename": "1981 Malappuram.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 138,
+    "output": "output/pdf/1981_trimmed/Kerala/civic amenities/1981_Malappuram_civic_amenities.pdf",
+    "source_pages_selected": [
+      80,
+      81
+    ],
+    "printed_page_labels": [
+      null,
+      "1979"
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement IV Civic and Other Amenities; source page 82 begins the outgrowth appendix.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 80,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              568.56,
+              843.6
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              568.56,
+              843.6
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 81,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              568.56,
+              843.6
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              568.56,
+              843.6
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 80,
+          "output_page": 1,
+          "source_png_sha256": "11630ddf7ba9c14a9a447e4f2dff310201d9c88c174df2ca64e3c3ebacd82a34",
+          "output_png_sha256": "11630ddf7ba9c14a9a447e4f2dff310201d9c88c174df2ca64e3c3ebacd82a34",
+          "match": true
+        },
+        {
+          "source_page": 81,
+          "output_page": 2,
+          "source_png_sha256": "cba820dcafe0a29c0538dc388538fadbf2d039e9c9b59fdea073300e14c585e5",
+          "output_png_sha256": "cba820dcafe0a29c0538dc388538fadbf2d039e9c9b59fdea073300e14c585e5",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Kerala",
+    "source_state": "Kerala",
+    "district": "Malappuram",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Kerala/1981 Malappuram.pdf",
+    "source_filename": "1981 Malappuram.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 138,
+    "output": "output/pdf/1981_trimmed/Kerala/mededu/1981_Malappuram_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      80,
+      81
+    ],
+    "printed_page_labels": [
+      null,
+      "1979"
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement V Medical, Educational, Recreational and Cultural Facilities shares source pages 80-81 with Statement IV; source page 82 begins the outgrowth appendix.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 80,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              568.56,
+              843.6
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              568.56,
+              843.6
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 81,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              568.56,
+              843.6
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              568.56,
+              843.6
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 80,
+          "output_page": 1,
+          "source_png_sha256": "11630ddf7ba9c14a9a447e4f2dff310201d9c88c174df2ca64e3c3ebacd82a34",
+          "output_png_sha256": "11630ddf7ba9c14a9a447e4f2dff310201d9c88c174df2ca64e3c3ebacd82a34",
+          "match": true
+        },
+        {
+          "source_page": 81,
+          "output_page": 2,
+          "source_png_sha256": "cba820dcafe0a29c0538dc388538fadbf2d039e9c9b59fdea073300e14c585e5",
+          "output_png_sha256": "cba820dcafe0a29c0538dc388538fadbf2d039e9c9b59fdea073300e14c585e5",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Kerala",
+    "source_state": "Kerala",
+    "district": "Malappuram",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Kerala/1981 Malappuram.pdf",
+    "source_filename": "1981 Malappuram.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 138,
+    "output": "output/pdf/1981_trimmed/Kerala/tehsil appendix/1981_Malappuram_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      69,
+      70
+    ],
+    "printed_page_labels": [
+      null,
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Village Directory Appendix I, Taluk-wise Abstract of Educational, Medical and Other Amenities; source page 71 begins Appendices II-III.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 69,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              568.56,
+              843.6
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              568.56,
+              843.6
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 70,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              568.56,
+              843.6
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              568.56,
+              843.6
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 69,
+          "output_page": 1,
+          "source_png_sha256": "87d9c977069af911aac9de3a13528e9048092582f78d4b81259d8261512be34e",
+          "output_png_sha256": "87d9c977069af911aac9de3a13528e9048092582f78d4b81259d8261512be34e",
+          "match": true
+        },
+        {
+          "source_page": 70,
+          "output_page": 2,
+          "source_png_sha256": "b3c43e67e581fe9b9d6226ac5dae540db1fd03292bd15fa269e3add148a609f7",
+          "output_png_sha256": "b3c43e67e581fe9b9d6226ac5dae540db1fd03292bd15fa269e3add148a609f7",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Kerala",
+    "source_state": "Kerala",
+    "district": "Quilon",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Kerala/1981 Quilon.pdf",
+    "source_filename": "1981 Quilon.pdf",
+    "volume_type": "directory candidate",
+    "eligible": true,
+    "eligibility_reason": "Requested directory headings are present in the opening pages.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 189,
+    "output": "output/pdf/1981_trimmed/Kerala/civic amenities/1981_Quilon_civic_amenities.pdf",
+    "source_pages_selected": [
+      110,
+      111
+    ],
+    "printed_page_labels": [
+      null,
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement IV Civic and Other Amenities begins on source page 110 and continues on source page 111; source page 111 also begins Statement V.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 110,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              614.4,
+              846.0
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              614.4,
+              846.0
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 111,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              614.4,
+              846.0
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              614.4,
+              846.0
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 110,
+          "output_page": 1,
+          "source_png_sha256": "77abb75f3e936e0a3ef4900dad30892099e7b7d36cdf22cbc8b6bd9457c64d85",
+          "output_png_sha256": "77abb75f3e936e0a3ef4900dad30892099e7b7d36cdf22cbc8b6bd9457c64d85",
+          "match": true
+        },
+        {
+          "source_page": 111,
+          "output_page": 2,
+          "source_png_sha256": "25391157393809d46f19f51cd660fb20fdb6d2c4c6724f493891df572c178026",
+          "output_png_sha256": "25391157393809d46f19f51cd660fb20fdb6d2c4c6724f493891df572c178026",
+          "match": true
+        }
+      ],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Kerala",
+    "source_state": "Kerala",
+    "district": "Quilon",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Kerala/1981 Quilon.pdf",
+    "source_filename": "1981 Quilon.pdf",
+    "volume_type": "directory candidate",
+    "eligible": true,
+    "eligibility_reason": "Requested directory headings are present in the opening pages.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 189,
+    "output": "output/pdf/1981_trimmed/Kerala/mededu/1981_Quilon_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      111,
+      112
+    ],
+    "printed_page_labels": [
+      null,
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement V Medical, Educational, Recreational and Cultural Facilities; source page 113 begins the outgrowth appendix.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 111,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              614.4,
+              846.0
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              614.4,
+              846.0
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 112,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              614.4,
+              846.0
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              614.4,
+              846.0
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 111,
+          "output_page": 1,
+          "source_png_sha256": "25391157393809d46f19f51cd660fb20fdb6d2c4c6724f493891df572c178026",
+          "output_png_sha256": "25391157393809d46f19f51cd660fb20fdb6d2c4c6724f493891df572c178026",
+          "match": true
+        },
+        {
+          "source_page": 112,
+          "output_page": 2,
+          "source_png_sha256": "c28530ed600b685175eab9b48860ecbda3e996e8af70d20abbfbdcf0a19a764a",
+          "output_png_sha256": "c28530ed600b685175eab9b48860ecbda3e996e8af70d20abbfbdcf0a19a764a",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Kerala",
+    "source_state": "Kerala",
+    "district": "Quilon",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Kerala/1981 Quilon.pdf",
+    "source_filename": "1981 Quilon.pdf",
+    "volume_type": "directory candidate",
+    "eligible": true,
+    "eligibility_reason": "Requested directory headings are present in the opening pages.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 189,
+    "output": "output/pdf/1981_trimmed/Kerala/tehsil appendix/1981_Quilon_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      99,
+      100
+    ],
+    "printed_page_labels": [
+      null,
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Village Directory Appendix I, Taluk-wise Abstract of Educational, Medical and Other Amenities; source page 101 begins Appendix II.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 99,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              614.4,
+              846.0
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              614.4,
+              846.0
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 100,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              614.4,
+              846.0
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              614.4,
+              846.0
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 99,
+          "output_page": 1,
+          "source_png_sha256": "52a3186f95466e6c1f908b45d76f8042fe727db4648ff6a60a7f2f2466bc231d",
+          "output_png_sha256": "52a3186f95466e6c1f908b45d76f8042fe727db4648ff6a60a7f2f2466bc231d",
+          "match": true
+        },
+        {
+          "source_page": 100,
+          "output_page": 2,
+          "source_png_sha256": "b652792f24fba007cc8e0d7025f8438102ab9fbd83d6b2abbff5153ab2a18d6a",
+          "output_png_sha256": "b652792f24fba007cc8e0d7025f8438102ab9fbd83d6b2abbff5153ab2a18d6a",
+          "match": true
+        }
+      ],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Kerala",
+    "source_state": "Kerala",
+    "district": "Trichur",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Kerala/1981 Trichur.pdf",
+    "source_filename": "1981 Trichur.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 241,
+    "output": "output/pdf/1981_trimmed/Kerala/civic amenities/1981_Trichur_civic_amenities.pdf",
+    "source_pages_selected": [
+      123,
+      124
+    ],
+    "printed_page_labels": [
+      null,
+      "1979"
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement IV Civic and Other Amenities; source page 125 begins Statement V.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 123,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.36,
+              883.2
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.36,
+              883.2
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 124,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.36,
+              883.2
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.36,
+              883.2
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 123,
+          "output_page": 1,
+          "source_png_sha256": "b45b58f30058ff4d5bd3ca546edcffdcc2d2f54d8b4ed40a37cd5dffbe432640",
+          "output_png_sha256": "b45b58f30058ff4d5bd3ca546edcffdcc2d2f54d8b4ed40a37cd5dffbe432640",
+          "match": true
+        },
+        {
+          "source_page": 124,
+          "output_page": 2,
+          "source_png_sha256": "e576967f1a6d4837417d826fb75f1b0e46573a50bafe0af170931f15dc7649b6",
+          "output_png_sha256": "e576967f1a6d4837417d826fb75f1b0e46573a50bafe0af170931f15dc7649b6",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Kerala",
+    "source_state": "Kerala",
+    "district": "Trichur",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Kerala/1981 Trichur.pdf",
+    "source_filename": "1981 Trichur.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 241,
+    "output": "output/pdf/1981_trimmed/Kerala/mededu/1981_Trichur_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      125,
+      126,
+      127,
+      128
+    ],
+    "printed_page_labels": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement V Medical, Educational, Recreational and Cultural Facilities, including all continuation pages; source page 129 begins Statement VI.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 4,
+      "pages": [
+        {
+          "source_page": 125,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.36,
+              883.2
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.36,
+              883.2
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 126,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.36,
+              883.2
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.36,
+              883.2
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 127,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.36,
+              883.2
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.36,
+              883.2
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 128,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.36,
+              883.2
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.36,
+              883.2
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 125,
+          "output_page": 1,
+          "source_png_sha256": "f1e2c0a4445f4fd6dc6b8cac6126f8060f536df45d618962b551b0453e3d6d68",
+          "output_png_sha256": "f1e2c0a4445f4fd6dc6b8cac6126f8060f536df45d618962b551b0453e3d6d68",
+          "match": true
+        },
+        {
+          "source_page": 126,
+          "output_page": 2,
+          "source_png_sha256": "d4c839d1c67e374face4bb97c831018f715b1f8c0463398dc102797d87c62f48",
+          "output_png_sha256": "d4c839d1c67e374face4bb97c831018f715b1f8c0463398dc102797d87c62f48",
+          "match": true
+        },
+        {
+          "source_page": 127,
+          "output_page": 3,
+          "source_png_sha256": "667541344cc2d9a26224b327a585772835eb9664f7098d3fdd01a67b3f3fe20a",
+          "output_png_sha256": "667541344cc2d9a26224b327a585772835eb9664f7098d3fdd01a67b3f3fe20a",
+          "match": true
+        },
+        {
+          "source_page": 128,
+          "output_page": 4,
+          "source_png_sha256": "3dceddc8ba9cf1d924146929e945cb82feb2900bcf0015c66b8294cc18a31982",
+          "output_png_sha256": "3dceddc8ba9cf1d924146929e945cb82feb2900bcf0015c66b8294cc18a31982",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 4,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Kerala",
+    "source_state": "Kerala",
+    "district": "Trichur",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Kerala/1981 Trichur.pdf",
+    "source_filename": "1981 Trichur.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 241,
+    "output": "output/pdf/1981_trimmed/Kerala/tehsil appendix/1981_Trichur_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      107,
+      108
+    ],
+    "printed_page_labels": [
+      null,
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Village Directory Appendix I, Taluk-wise Abstract of Educational, Medical and Other Amenities; source page 109 begins Appendix II.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 107,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.36,
+              883.2
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.36,
+              883.2
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 108,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.36,
+              883.2
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.36,
+              883.2
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 107,
+          "output_page": 1,
+          "source_png_sha256": "cb95594e9cf551fad58e47b1c684b6dfb425d2b725ea80e1a3583adf64669b4e",
+          "output_png_sha256": "cb95594e9cf551fad58e47b1c684b6dfb425d2b725ea80e1a3583adf64669b4e",
+          "match": true
+        },
+        {
+          "source_page": 108,
+          "output_page": 2,
+          "source_png_sha256": "519b87d0614ab4fa1f7d998e12566c7f075c15c7dce9858cb797b7656ff6c04b",
+          "output_png_sha256": "519b87d0614ab4fa1f7d998e12566c7f075c15c7dce9858cb797b7656ff6c04b",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Kerala",
+    "source_state": "Kerala",
+    "district": "Trivandrum",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Kerala/1981 Trivandrum.pdf",
+    "source_filename": "1981 Trivandrum.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 222,
+    "output": "output/pdf/1981_trimmed/Kerala/civic amenities/1981_Trivandrum_civic_amenities.pdf",
+    "source_pages_selected": [
+      118,
+      119
+    ],
+    "printed_page_labels": [
+      null,
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement IV Civic and Other Amenities; source page 120 begins Statement V.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 118,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.36,
+              883.2
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.36,
+              883.2
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 119,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.36,
+              883.2
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.36,
+              883.2
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 118,
+          "output_page": 1,
+          "source_png_sha256": "1d89446c88c284e1edc899536d6a8fe36b1f7ca1f9201c38e1285160246c3d90",
+          "output_png_sha256": "1d89446c88c284e1edc899536d6a8fe36b1f7ca1f9201c38e1285160246c3d90",
+          "match": true
+        },
+        {
+          "source_page": 119,
+          "output_page": 2,
+          "source_png_sha256": "071cdd83ba0417070978e4d0c1597d473c1da051529d82d3ff3155878aff0159",
+          "output_png_sha256": "071cdd83ba0417070978e4d0c1597d473c1da051529d82d3ff3155878aff0159",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Kerala",
+    "source_state": "Kerala",
+    "district": "Trivandrum",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Kerala/1981 Trivandrum.pdf",
+    "source_filename": "1981 Trivandrum.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 222,
+    "output": "output/pdf/1981_trimmed/Kerala/mededu/1981_Trivandrum_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      120,
+      121
+    ],
+    "printed_page_labels": [
+      null,
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement V Medical, Educational, Recreational and Cultural Facilities; source page 122 begins Statement VI.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 120,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.36,
+              883.2
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.36,
+              883.2
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 121,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.36,
+              883.2
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.36,
+              883.2
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 120,
+          "output_page": 1,
+          "source_png_sha256": "59a32200678f3a7c22fe2533daa345a63c2cdf14a7feaebe37f528df65d4fbc1",
+          "output_png_sha256": "59a32200678f3a7c22fe2533daa345a63c2cdf14a7feaebe37f528df65d4fbc1",
+          "match": true
+        },
+        {
+          "source_page": 121,
+          "output_page": 2,
+          "source_png_sha256": "d2e5460ff375f11922ee24f5a5cd1544690afea5596cd8d3b6451ff3d49d1660",
+          "output_png_sha256": "d2e5460ff375f11922ee24f5a5cd1544690afea5596cd8d3b6451ff3d49d1660",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Kerala",
+    "source_state": "Kerala",
+    "district": "Trivandrum",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Kerala/1981 Trivandrum.pdf",
+    "source_filename": "1981 Trivandrum.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 222,
+    "output": "output/pdf/1981_trimmed/Kerala/tehsil appendix/1981_Trivandrum_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      108,
+      109
+    ],
+    "printed_page_labels": [
+      null,
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Village Directory Appendix I, Taluk-wise Abstract of Educational, Medical and Other Amenities; source page 110 begins Appendix II.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 108,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.36,
+              883.2
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.36,
+              883.2
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 109,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.36,
+              883.2
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.36,
+              883.2
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 108,
+          "output_page": 1,
+          "source_png_sha256": "2bcacb9d4e6a87b737f964f52dd1424994f92853ecb596f54033a5692ba6962c",
+          "output_png_sha256": "2bcacb9d4e6a87b737f964f52dd1424994f92853ecb596f54033a5692ba6962c",
+          "match": true
+        },
+        {
+          "source_page": 109,
+          "output_page": 2,
+          "source_png_sha256": "26d5f94d1d8d0901fd6c8dbc62901290929c588effa66dca1c43494c0d2d8533",
+          "output_png_sha256": "26d5f94d1d8d0901fd6c8dbc62901290929c588effa66dca1c43494c0d2d8533",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Kerala",
+    "source_state": "Kerala",
+    "district": "Wayanad",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Kerala/1981 Wayanad.pdf",
+    "source_filename": "1981 Wayanad.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 89,
+    "output": null,
+    "source_pages_selected": [],
+    "printed_page_labels": [],
+    "status": "Not trimmed",
+    "reason": "Visual contents show no Town Directory section in this volume, so Statement IV civic amenities is absent.",
+    "flags": [
+      "manual_absent_or_ineligible"
+    ],
+    "verification": null
+  },
+  {
+    "state": "Kerala",
+    "source_state": "Kerala",
+    "district": "Wayanad",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Kerala/1981 Wayanad.pdf",
+    "source_filename": "1981 Wayanad.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 89,
+    "output": null,
+    "source_pages_selected": [],
+    "printed_page_labels": [],
+    "status": "Not trimmed",
+    "reason": "Visual contents show no Town Directory section in this volume, so Statement V medical and educational amenities is absent.",
+    "flags": [
+      "manual_absent_or_ineligible"
+    ],
+    "verification": null
+  },
+  {
+    "state": "Kerala",
+    "source_state": "Kerala",
+    "district": "Wayanad",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Kerala/1981 Wayanad.pdf",
+    "source_filename": "1981 Wayanad.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 89,
+    "output": "output/pdf/1981_trimmed/Kerala/tehsil appendix/1981_Wayanad_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      62,
+      63
+    ],
+    "printed_page_labels": [
+      null,
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Village Directory Appendix I, Taluk-wise Abstract of Educational, Medical and Other Amenities; source page 64 begins Appendix II.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 62,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.36,
+              883.2
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.36,
+              883.2
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 63,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              615.36,
+              883.2
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              615.36,
+              883.2
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 62,
+          "output_page": 1,
+          "source_png_sha256": "eeef6133e2a6bdc72161e790d539093530faf309216944cdc99bdc3997ab956f",
+          "output_png_sha256": "eeef6133e2a6bdc72161e790d539093530faf309216944cdc99bdc3997ab956f",
+          "match": true
+        },
+        {
+          "source_page": 63,
+          "output_page": 2,
+          "source_png_sha256": "e500c0ecf3b247a1c532b7ee9eccb4e7372fd7eeede1ace7d1e3dbb95dd55c83",
+          "output_png_sha256": "e500c0ecf3b247a1c532b7ee9eccb4e7372fd7eeede1ace7d1e3dbb95dd55c83",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  }
+]

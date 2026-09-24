@@ -1,0 +1,35 @@
+version: 3
+workflow_id: up1971-remaining48-novita-v3
+geometry_run_id: up1971-remaining48-novita-v3-geometry
+extraction_run_id: up1971-remaining48-novita-v3-extraction
+postprocess_output_id: up1971-remaining48-novita-v3-provisional
+
+excluded_districts:
+  - Aligarh
+  - Allahabad
+  - Almora
+  - Azamgarh
+  - Bahraich
+
+expected_district_count: 48
+expected_pdf_count: 142
+expected_format_counts:
+  format_001: 48
+  format_002: 48
+  format_003: 46
+
+format_order:
+  - format_001
+  - format_002
+  - format_003
+
+pdf_concurrency: 1
+request_concurrency: 1
+max_cell_retries: 2
+transcription_temperature: 0.0
+uncertain_policy: keep_value_and_flag
+hard_failure_policy: block_and_resume
+generate_review_workbook: false
+import_extraction_run_ids:
+  - up1971-remaining48-auto-v2-extraction
+generate_codex_verification_package: true

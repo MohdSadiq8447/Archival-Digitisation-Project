@@ -1,0 +1,134 @@
+format_id: format_003
+name: Tehsil Appendix
+category: Tehsil Appendix
+pdfs:
+- filenames:
+  - Alleppey_tehsil_1971.pdf
+  - Cannanore_tehsil_1971.pdf
+  - Kottayam_tehsil_1971.pdf
+  - Kozhikode_tehsil_1971.pdf
+  - Quilon_tehsil_1971.pdf
+  pagination:
+    page_1_columns:
+    - 1
+    - 12
+    page_2_columns:
+    - 13
+    - 23
+    page_3_columns:
+    - 24
+    - 33
+- filenames:
+  - Malappuram_tehsil_1971.pdf
+  - Palghat_tehsil_1971.pdf
+  - Trichur_tehsil_1971.pdf
+  - Trivandrum_tehsil_1971.pdf
+  pagination:
+    page_1_columns:
+    - 1
+    - 12
+    - 13
+    - 23
+    page_2_columns:
+    - 24
+    - 33
+columns:
+- number: 1
+  name: Sl. No.
+  variable_name: sl_no
+- number: 2
+  name: District/Taluk
+  variable_name: district_taluk
+- number: 3
+  name: No. of villages having primary schools
+  variable_name: primary_schools_villages
+- number: 4
+  name: No. of primary schools
+  variable_name: primary_schools
+- number: 5
+  name: No. of villages having middle schools
+  variable_name: middle_schools_villages
+- number: 6
+  name: No. of middle schools
+  variable_name: middle_schools
+- number: 7
+  name: No. of villages having Hr. Sec. schools
+  variable_name: higher_secondary_schools_villages
+- number: 8
+  name: No. of Hr. Sec. schools
+  variable_name: higher_secondary_schools
+- number: 9
+  name: No. of villages having colleges
+  variable_name: colleges_villages
+- number: 10
+  name: No. of colleges
+  variable_name: colleges
+- number: 11
+  name: No. of villages having other educational institutions
+  variable_name: other_educational_institutions_villages
+- number: 12
+  name: No. of other educational institutions
+  variable_name: other_educational_institutions
+- number: 13
+  name: No. of villages having dispensaries
+  variable_name: dispensaries_villages
+- number: 14
+  name: No. of dispensaries
+  variable_name: dispensaries
+- number: 15
+  name: No. of villages having hospitals
+  variable_name: hospitals_villages
+- number: 16
+  name: No. of hospitals
+  variable_name: hospitals
+- number: 17
+  name: No. of villages having other medical institutions
+  variable_name: other_medical_institutions_villages
+- number: 18
+  name: No. of other medical institutions
+  variable_name: other_medical_institutions
+- number: 19
+  name: Number of villages where power supply is available
+  variable_name: power_available_villages
+- number: 20
+  name: Number of villages where power supply is not available
+  variable_name: power_not_available_villages
+- number: 21
+  name: Number of villages having tap drinking water
+  variable_name: tap_water_villages
+- number: 22
+  name: Number of villages having well drinking water
+  variable_name: well_water_villages
+- number: 23
+  name: Number of villages having other drinking water sources
+  variable_name: other_water_villages
+- number: 24
+  name: Number of villages having Pucca road
+  variable_name: pucca_road_villages
+- number: 25
+  name: Number of villages having Kucha road
+  variable_name: kucha_road_villages
+- number: 26
+  name: No. of villages having post offices
+  variable_name: post_offices_villages
+- number: 27
+  name: No. of post offices
+  variable_name: post_offices
+- number: 28
+  name: No. of villages having telegraph offices
+  variable_name: telegraph_offices_villages
+- number: 29
+  name: No. of telegraph offices
+  variable_name: telegraph_offices
+- number: 30
+  name: No. of villages having post and telegraph offices
+  variable_name: post_telegraph_offices_villages
+- number: 31
+  name: No. of post and telegraph offices
+  variable_name: post_telegraph_offices
+- number: 32
+  name: No. of villages having public call offices
+  variable_name: public_call_offices_villages
+- number: 33
+  name: No. of public call offices
+  variable_name: public_call_offices

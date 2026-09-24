@@ -45,8 +45,13 @@ class PipelineConfig:
     max_retries: int = 4
     retry_base_delay_sec: float = 1.0
     max_tokens: int = 2048
+    transcription_temperature: float = field(
+        default_factory=lambda: float(
+            os.getenv("NOVITA_TRANSCRIPTION_TEMPERATURE", "0.0")
+        )
+    )
     quality_threshold: float = 0.95
-    prompt_version: str = "novita-deepseek-ocr2-schema-system-context-v4"
+    prompt_version: str = "novita-deepseek-ocr2-schema-system-context-v5"
     data_dir: Path = field(init=False)
     metadata_path: Path = field(init=False)
     schemas_dir: Path = field(init=False)
@@ -73,6 +78,8 @@ class PipelineConfig:
         )
         if self.global_concurrency < 1:
             raise ValueError("global_concurrency must be at least 1")
+        if not 0 <= self.transcription_temperature <= 2:
+            raise ValueError("transcription_temperature must be between 0 and 2")
         if not 0 <= self.quality_threshold <= 1:
             raise ValueError("quality_threshold must be between 0 and 1")
 

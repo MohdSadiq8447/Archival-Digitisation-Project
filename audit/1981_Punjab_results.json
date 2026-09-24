@@ -1,0 +1,3121 @@
+[
+  {
+    "state": "Punjab",
+    "source_state": "Punjab",
+    "district": "Amritsar",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Punjab/1981 Amritsar.pdf",
+    "source_filename": "1981 Amritsar.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 331,
+    "output": "output/pdf/1981_trimmed/Punjab/civic amenities/1981_Amritsar_civic_amenities.pdf",
+    "source_pages_selected": [
+      213,
+      214
+    ],
+    "printed_page_labels": [
+      null,
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement IV Civic and Other Amenities; source page 215 begins Statement V.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 213,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              606.96,
+              824.4
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              606.96,
+              824.4
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 214,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              606.96,
+              824.4
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              606.96,
+              824.4
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 213,
+          "output_page": 1,
+          "source_png_sha256": "69c8c223903afe7f4fb2265fbeb4eafb963a7ec6a845f657e1523a48e5551d46",
+          "output_png_sha256": "69c8c223903afe7f4fb2265fbeb4eafb963a7ec6a845f657e1523a48e5551d46",
+          "match": true
+        },
+        {
+          "source_page": 214,
+          "output_page": 2,
+          "source_png_sha256": "9508cdb8dfbf318259c02b06eb74d4a279be1a5db14737eb9577e44a9d2d7f5b",
+          "output_png_sha256": "9508cdb8dfbf318259c02b06eb74d4a279be1a5db14737eb9577e44a9d2d7f5b",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Punjab",
+    "source_state": "Punjab",
+    "district": "Amritsar",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Punjab/1981 Amritsar.pdf",
+    "source_filename": "1981 Amritsar.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 331,
+    "output": "output/pdf/1981_trimmed/Punjab/mededu/1981_Amritsar_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      215,
+      216
+    ],
+    "printed_page_labels": [
+      null,
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement V Medical, Educational, Recreational and Cultural Facilities; source page 217 begins Statement VI.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 215,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              606.96,
+              824.4
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              606.96,
+              824.4
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 216,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              606.96,
+              824.4
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              606.96,
+              824.4
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 215,
+          "output_page": 1,
+          "source_png_sha256": "ed997161266486166c6e621510db04012e5ef2d15a79ea52e8965d4116d78635",
+          "output_png_sha256": "ed997161266486166c6e621510db04012e5ef2d15a79ea52e8965d4116d78635",
+          "match": true
+        },
+        {
+          "source_page": 216,
+          "output_page": 2,
+          "source_png_sha256": "6ae23bfed53103067e6a322e46e5345fb1b6f4a2c3b7f372123a54c1fbf8e69c",
+          "output_png_sha256": "6ae23bfed53103067e6a322e46e5345fb1b6f4a2c3b7f372123a54c1fbf8e69c",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Punjab",
+    "source_state": "Punjab",
+    "district": "Amritsar",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Punjab/1981 Amritsar.pdf",
+    "source_filename": "1981 Amritsar.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 331,
+    "output": "output/pdf/1981_trimmed/Punjab/tehsil appendix/1981_Amritsar_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      163,
+      164
+    ],
+    "printed_page_labels": [
+      null,
+      "149"
+    ],
+    "status": "Trimmed",
+    "reason": "Village Directory Appendix I Tahsil-wise abstract of educational, medical and other amenities; source page 165 begins Appendix II.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 163,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              606.96,
+              824.4
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              606.96,
+              824.4
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 164,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              606.96,
+              824.4
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              606.96,
+              824.4
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 163,
+          "output_page": 1,
+          "source_png_sha256": "6794259f60b0cc0aef236de59876bce7094eea16814274c8e82127e7f18a6748",
+          "output_png_sha256": "6794259f60b0cc0aef236de59876bce7094eea16814274c8e82127e7f18a6748",
+          "match": true
+        },
+        {
+          "source_page": 164,
+          "output_page": 2,
+          "source_png_sha256": "3a35f7989e7e45d9a98be92d3c2663e5df0381bb097808d7286f1fb210d30282",
+          "output_png_sha256": "3a35f7989e7e45d9a98be92d3c2663e5df0381bb097808d7286f1fb210d30282",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Punjab",
+    "source_state": "Punjab",
+    "district": "Bathinda",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Punjab/1981 Bathinda.pdf",
+    "source_filename": "1981 Bathinda.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 260,
+    "output": "output/pdf/1981_trimmed/Punjab/civic amenities/1981_Bathinda_civic_amenities.pdf",
+    "source_pages_selected": [
+      145,
+      146
+    ],
+    "printed_page_labels": [
+      "126",
+      "127"
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement IV Civic and Other Amenities; source page 147 begins Statement V.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 145,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              564.0,
+              852.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              564.0,
+              852.96
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 146,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              564.0,
+              852.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              564.0,
+              852.96
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 145,
+          "output_page": 1,
+          "source_png_sha256": "d69c7b73f2e6193752588e3f92135d8b4070c0e573589d57d3ca0b3c876f45bd",
+          "output_png_sha256": "d69c7b73f2e6193752588e3f92135d8b4070c0e573589d57d3ca0b3c876f45bd",
+          "match": true
+        },
+        {
+          "source_page": 146,
+          "output_page": 2,
+          "source_png_sha256": "a5024e379741d2586c0914f19a9376908743156ad12b9909bd7cb4903739ba18",
+          "output_png_sha256": "a5024e379741d2586c0914f19a9376908743156ad12b9909bd7cb4903739ba18",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Punjab",
+    "source_state": "Punjab",
+    "district": "Bathinda",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Punjab/1981 Bathinda.pdf",
+    "source_filename": "1981 Bathinda.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 260,
+    "output": "output/pdf/1981_trimmed/Punjab/mededu/1981_Bathinda_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      147,
+      148
+    ],
+    "printed_page_labels": [
+      "128",
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement V Medical, Educational, Recreational and Cultural Facilities; source page 149 begins Statement VI.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 147,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              564.0,
+              852.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              564.0,
+              852.96
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 148,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              564.0,
+              852.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              564.0,
+              852.96
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 147,
+          "output_page": 1,
+          "source_png_sha256": "6464000d3a9f53270211e332bd19a892f7a0d7393ace64ec9418b1eafbd61112",
+          "output_png_sha256": "6464000d3a9f53270211e332bd19a892f7a0d7393ace64ec9418b1eafbd61112",
+          "match": true
+        },
+        {
+          "source_page": 148,
+          "output_page": 2,
+          "source_png_sha256": "68ee8e3ecfa02a69c245e2d92bfd30f092341278a3b2452b63c3fc84af1faad4",
+          "output_png_sha256": "68ee8e3ecfa02a69c245e2d92bfd30f092341278a3b2452b63c3fc84af1faad4",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Punjab",
+    "source_state": "Punjab",
+    "district": "Bathinda",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Punjab/1981 Bathinda.pdf",
+    "source_filename": "1981 Bathinda.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 260,
+    "output": "output/pdf/1981_trimmed/Punjab/tehsil appendix/1981_Bathinda_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      115,
+      116,
+      117,
+      118
+    ],
+    "printed_page_labels": [
+      null,
+      null,
+      "98",
+      "99"
+    ],
+    "status": "Trimmed",
+    "reason": "Village Directory Appendix I Tahsil-wise abstract of educational, medical and other amenities; source page 119 is blank/separator and source page 120 begins Appendix II.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 4,
+      "pages": [
+        {
+          "source_page": 115,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              564.0,
+              852.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              564.0,
+              852.96
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 116,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              564.0,
+              852.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              564.0,
+              852.96
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 117,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              564.0,
+              852.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              564.0,
+              852.96
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 118,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              564.0,
+              852.96
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              564.0,
+              852.96
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 115,
+          "output_page": 1,
+          "source_png_sha256": "782ee458151438be3524ec761280ee62b780753faa894a49227eb687d84800ab",
+          "output_png_sha256": "782ee458151438be3524ec761280ee62b780753faa894a49227eb687d84800ab",
+          "match": true
+        },
+        {
+          "source_page": 116,
+          "output_page": 2,
+          "source_png_sha256": "8ed9ade1d5fb6eb2f7628d030c13c65cbb23d13790b740e68f5db001ce4948e6",
+          "output_png_sha256": "8ed9ade1d5fb6eb2f7628d030c13c65cbb23d13790b740e68f5db001ce4948e6",
+          "match": true
+        },
+        {
+          "source_page": 117,
+          "output_page": 3,
+          "source_png_sha256": "8f4d8efaf17df4791a619fe7f8697b146d94bf34b2f01133c43c21fdc9f1356d",
+          "output_png_sha256": "8f4d8efaf17df4791a619fe7f8697b146d94bf34b2f01133c43c21fdc9f1356d",
+          "match": true
+        },
+        {
+          "source_page": 118,
+          "output_page": 4,
+          "source_png_sha256": "baa057546fdaa5dc210dca57b6db1b848f26197e19596db842c645f63e3ad681",
+          "output_png_sha256": "baa057546fdaa5dc210dca57b6db1b848f26197e19596db842c645f63e3ad681",
+          "match": true
+        }
+      ],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 4,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Punjab",
+    "source_state": "Punjab",
+    "district": "Faridkot",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Punjab/1981 Faridkot.pdf",
+    "source_filename": "1981 Faridkot.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 238,
+    "output": "output/pdf/1981_trimmed/Punjab/civic amenities/1981_Faridkot_civic_amenities.pdf",
+    "source_pages_selected": [
+      139,
+      140
+    ],
+    "printed_page_labels": [
+      "124",
+      "125"
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement IV Civic and Other Amenities; source pages 141-142 are Statement IV-A blank/notified slum pages and source page 143 begins Statement V.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 139,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              550.08,
+              807.84
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              550.08,
+              807.84
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 140,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              550.08,
+              807.84
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              550.08,
+              807.84
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 139,
+          "output_page": 1,
+          "source_png_sha256": "60dfe8396f6848a46a77f100854839e8f1ab24b096e6e3b0abbaf1bf94ecf033",
+          "output_png_sha256": "60dfe8396f6848a46a77f100854839e8f1ab24b096e6e3b0abbaf1bf94ecf033",
+          "match": true
+        },
+        {
+          "source_page": 140,
+          "output_page": 2,
+          "source_png_sha256": "254f54e28a2b2a3d46fd2933b99124c720ea864f5735fe63c05c304356b42ea7",
+          "output_png_sha256": "254f54e28a2b2a3d46fd2933b99124c720ea864f5735fe63c05c304356b42ea7",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Punjab",
+    "source_state": "Punjab",
+    "district": "Faridkot",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Punjab/1981 Faridkot.pdf",
+    "source_filename": "1981 Faridkot.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 238,
+    "output": "output/pdf/1981_trimmed/Punjab/mededu/1981_Faridkot_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      143,
+      144
+    ],
+    "printed_page_labels": [
+      "128",
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement V Medical, Educational, Recreational and Cultural Facilities; source page 145 begins Statement VI.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 143,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              550.08,
+              807.84
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              550.08,
+              807.84
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 144,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              550.08,
+              807.84
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              550.08,
+              807.84
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 143,
+          "output_page": 1,
+          "source_png_sha256": "f1bba60afe387b473584f11c6b88ab74fd31d4d2530567a218e6ac60ec671398",
+          "output_png_sha256": "f1bba60afe387b473584f11c6b88ab74fd31d4d2530567a218e6ac60ec671398",
+          "match": true
+        },
+        {
+          "source_page": 144,
+          "output_page": 2,
+          "source_png_sha256": "d2f0f5845eaa836c2f556036dc9aeffb245592b0a5c25e84ffd2c773a45a0e1c",
+          "output_png_sha256": "d2f0f5845eaa836c2f556036dc9aeffb245592b0a5c25e84ffd2c773a45a0e1c",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Punjab",
+    "source_state": "Punjab",
+    "district": "Faridkot",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Punjab/1981 Faridkot.pdf",
+    "source_filename": "1981 Faridkot.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 238,
+    "output": "output/pdf/1981_trimmed/Punjab/tehsil appendix/1981_Faridkot_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      103,
+      104
+    ],
+    "printed_page_labels": [
+      null,
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Village Directory Appendix I Tahsil-wise abstract of educational, medical and other amenities; source page 105 begins Appendix II.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 103,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              550.08,
+              807.84
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              550.08,
+              807.84
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 104,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              550.08,
+              807.84
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              550.08,
+              807.84
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 103,
+          "output_page": 1,
+          "source_png_sha256": "316bb7bdf067c01c572a0ad79b844723fd473a6ef9f70bc9124fb2858527fa90",
+          "output_png_sha256": "316bb7bdf067c01c572a0ad79b844723fd473a6ef9f70bc9124fb2858527fa90",
+          "match": true
+        },
+        {
+          "source_page": 104,
+          "output_page": 2,
+          "source_png_sha256": "281e8869c71f0aeca147aeb486a7349a48fc31366ea777abcb3e05407d35cc87",
+          "output_png_sha256": "281e8869c71f0aeca147aeb486a7349a48fc31366ea777abcb3e05407d35cc87",
+          "match": true
+        }
+      ],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Punjab",
+    "source_state": "Punjab",
+    "district": "Firozpur",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Punjab/1981 Firozpur.pdf",
+    "source_filename": "1981 Firozpur.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 284,
+    "output": "output/pdf/1981_trimmed/Punjab/civic amenities/1981_Firozpur_civic_amenities.pdf",
+    "source_pages_selected": [
+      167,
+      168
+    ],
+    "printed_page_labels": [
+      "152",
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement IV Civic and Other Amenities; source page 169 begins Statement V.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 167,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              633.36,
+              856.08
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              633.36,
+              856.08
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 168,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              633.36,
+              856.08
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              633.36,
+              856.08
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 167,
+          "output_page": 1,
+          "source_png_sha256": "52510e983dd505b1dad5f6f767a9b76e2f7f8dfeaccc1cbbfaf6585f8515d26b",
+          "output_png_sha256": "52510e983dd505b1dad5f6f767a9b76e2f7f8dfeaccc1cbbfaf6585f8515d26b",
+          "match": true
+        },
+        {
+          "source_page": 168,
+          "output_page": 2,
+          "source_png_sha256": "d049b764d7f58416edf33e95b069b1cf31551956f3d4f21f421c3969ae34a742",
+          "output_png_sha256": "d049b764d7f58416edf33e95b069b1cf31551956f3d4f21f421c3969ae34a742",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Punjab",
+    "source_state": "Punjab",
+    "district": "Firozpur",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Punjab/1981 Firozpur.pdf",
+    "source_filename": "1981 Firozpur.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 284,
+    "output": "output/pdf/1981_trimmed/Punjab/mededu/1981_Firozpur_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      169,
+      170
+    ],
+    "printed_page_labels": [
+      "154",
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement V Medical, Educational, Recreational and Cultural Facilities; source page 171 begins Statement VI.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 169,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              633.36,
+              856.08
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              633.36,
+              856.08
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 170,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              633.36,
+              856.08
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              633.36,
+              856.08
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 169,
+          "output_page": 1,
+          "source_png_sha256": "36acec9403212cc6c1f003734cf81f2cd1c31effa4283c1ed9be5ede778cf208",
+          "output_png_sha256": "36acec9403212cc6c1f003734cf81f2cd1c31effa4283c1ed9be5ede778cf208",
+          "match": true
+        },
+        {
+          "source_page": 170,
+          "output_page": 2,
+          "source_png_sha256": "31f5cfcf97851649b04456393a6a143db49a795e969bcb7196e9673d64ef4078",
+          "output_png_sha256": "31f5cfcf97851649b04456393a6a143db49a795e969bcb7196e9673d64ef4078",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Punjab",
+    "source_state": "Punjab",
+    "district": "Firozpur",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Punjab/1981 Firozpur.pdf",
+    "source_filename": "1981 Firozpur.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 284,
+    "output": "output/pdf/1981_trimmed/Punjab/tehsil appendix/1981_Firozpur_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      137,
+      138
+    ],
+    "printed_page_labels": [
+      "122",
+      "123"
+    ],
+    "status": "Trimmed",
+    "reason": "Village Directory Appendix I Tahsil-wise abstract of educational, medical and other amenities; source page 139 begins Appendix II.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 137,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              633.36,
+              856.08
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              633.36,
+              856.08
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 138,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              633.36,
+              856.08
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              633.36,
+              856.08
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 137,
+          "output_page": 1,
+          "source_png_sha256": "89d2bf610fe5cc3fb45accb1affe9be5a346fe8ff2c0187cb1a1e61b9e8af9ac",
+          "output_png_sha256": "89d2bf610fe5cc3fb45accb1affe9be5a346fe8ff2c0187cb1a1e61b9e8af9ac",
+          "match": true
+        },
+        {
+          "source_page": 138,
+          "output_page": 2,
+          "source_png_sha256": "9af844e756ad122e701e83a691359a0ae36e377a0becd6877ea8be41b0aad3fd",
+          "output_png_sha256": "9af844e756ad122e701e83a691359a0ae36e377a0becd6877ea8be41b0aad3fd",
+          "match": true
+        }
+      ],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Punjab",
+    "source_state": "Punjab",
+    "district": "Gurdaspur",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Punjab/1981 Gurdaspur.pdf",
+    "source_filename": "1981 Gurdaspur.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 372,
+    "output": "output/pdf/1981_trimmed/Punjab/civic amenities/1981_Gurdaspur_civic_amenities.pdf",
+    "source_pages_selected": [
+      219,
+      220
+    ],
+    "printed_page_labels": [
+      null,
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement IV Civic and Other Amenities; source page 221 begins Statement IV-A.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 219,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              627.36,
+              824.88
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              627.36,
+              824.88
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 220,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              627.36,
+              824.88
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              627.36,
+              824.88
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 219,
+          "output_page": 1,
+          "source_png_sha256": "4a691afd427b933a669f04ceb683b199bc3ff0515af8ee80c3bccff1de163537",
+          "output_png_sha256": "4a691afd427b933a669f04ceb683b199bc3ff0515af8ee80c3bccff1de163537",
+          "match": true
+        },
+        {
+          "source_page": 220,
+          "output_page": 2,
+          "source_png_sha256": "7e95ba27aab1ababb7b0d861de139efdd3700b95e0fec2866898b924f23d1174",
+          "output_png_sha256": "7e95ba27aab1ababb7b0d861de139efdd3700b95e0fec2866898b924f23d1174",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Punjab",
+    "source_state": "Punjab",
+    "district": "Gurdaspur",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Punjab/1981 Gurdaspur.pdf",
+    "source_filename": "1981 Gurdaspur.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 372,
+    "output": "output/pdf/1981_trimmed/Punjab/mededu/1981_Gurdaspur_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      223,
+      224
+    ],
+    "printed_page_labels": [
+      "208",
+      "209"
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement V Medical, Educational, Recreational and Cultural Facilities; source page 225 begins Statement VI.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 223,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              627.36,
+              824.88
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              627.36,
+              824.88
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 224,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              627.36,
+              824.88
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              627.36,
+              824.88
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 223,
+          "output_page": 1,
+          "source_png_sha256": "693e949e889db921daca7aaee7f7022247fb40a7635ac40adc423ad1ab5fe8eb",
+          "output_png_sha256": "693e949e889db921daca7aaee7f7022247fb40a7635ac40adc423ad1ab5fe8eb",
+          "match": true
+        },
+        {
+          "source_page": 224,
+          "output_page": 2,
+          "source_png_sha256": "18bedf533b5be18793589a11e32f4bcb6c5dfa593e398ff98bd10f99e7abd204",
+          "output_png_sha256": "18bedf533b5be18793589a11e32f4bcb6c5dfa593e398ff98bd10f99e7abd204",
+          "match": true
+        }
+      ],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Punjab",
+    "source_state": "Punjab",
+    "district": "Gurdaspur",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Punjab/1981 Gurdaspur.pdf",
+    "source_filename": "1981 Gurdaspur.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 372,
+    "output": "output/pdf/1981_trimmed/Punjab/tehsil appendix/1981_Gurdaspur_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      181,
+      182
+    ],
+    "printed_page_labels": [
+      null,
+      "1"
+    ],
+    "status": "Trimmed",
+    "reason": "Village Directory Appendix I Tahsil-wise abstract of educational, medical and other amenities; source page 183 begins Appendix II.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 181,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              627.36,
+              824.88
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              627.36,
+              824.88
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 182,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              627.36,
+              824.88
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              627.36,
+              824.88
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 181,
+          "output_page": 1,
+          "source_png_sha256": "e5d749818adf3ad6751e6c7c244c90caedfc3975379a8f7ed9c295e529f24159",
+          "output_png_sha256": "e5d749818adf3ad6751e6c7c244c90caedfc3975379a8f7ed9c295e529f24159",
+          "match": true
+        },
+        {
+          "source_page": 182,
+          "output_page": 2,
+          "source_png_sha256": "6cd162e5976888336643ac4efe36b0558f83db309c0725e585f028240c47b603",
+          "output_png_sha256": "6cd162e5976888336643ac4efe36b0558f83db309c0725e585f028240c47b603",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Punjab",
+    "source_state": "Punjab",
+    "district": "Jalandhar",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Punjab/1981 Jalandhar.pdf",
+    "source_filename": "1981 Jalandhar.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 371,
+    "output": "output/pdf/1981_trimmed/Punjab/civic amenities/1981_Jalandhar_civic_amenities.pdf",
+    "source_pages_selected": [
+      204,
+      205
+    ],
+    "printed_page_labels": [
+      "184",
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement IV Civic and Other Amenities; source pages 206-207 are blank/Statement IV-A and source page 208 begins Statement V.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 204,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              577.2,
+              800.88
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              577.2,
+              800.88
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 205,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              577.2,
+              800.88
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              577.2,
+              800.88
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 204,
+          "output_page": 1,
+          "source_png_sha256": "9bf77e850f9dfd59ebc7f0a1876f3af94808d74765d0be7f35eb43ddb9ef61fd",
+          "output_png_sha256": "9bf77e850f9dfd59ebc7f0a1876f3af94808d74765d0be7f35eb43ddb9ef61fd",
+          "match": true
+        },
+        {
+          "source_page": 205,
+          "output_page": 2,
+          "source_png_sha256": "b75802d5f11e5b34cb01ec63d4c1789e276751985ee89186e3e98147978dd16d",
+          "output_png_sha256": "b75802d5f11e5b34cb01ec63d4c1789e276751985ee89186e3e98147978dd16d",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Punjab",
+    "source_state": "Punjab",
+    "district": "Jalandhar",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Punjab/1981 Jalandhar.pdf",
+    "source_filename": "1981 Jalandhar.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 371,
+    "output": "output/pdf/1981_trimmed/Punjab/mededu/1981_Jalandhar_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      208,
+      209
+    ],
+    "printed_page_labels": [
+      "188",
+      "189"
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement V Medical, Educational, Recreational and Cultural Facilities; source page 210 begins Statement VI.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 208,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              577.2,
+              800.88
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              577.2,
+              800.88
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 209,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              577.2,
+              800.88
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              577.2,
+              800.88
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 208,
+          "output_page": 1,
+          "source_png_sha256": "8526d1e0066dc5e72ff11306b0b782dc4115c1b4cf05a7355f852483a7baf6a3",
+          "output_png_sha256": "8526d1e0066dc5e72ff11306b0b782dc4115c1b4cf05a7355f852483a7baf6a3",
+          "match": true
+        },
+        {
+          "source_page": 209,
+          "output_page": 2,
+          "source_png_sha256": "c684ee83b910909e687e1d9499b16955126dd71c11cdf06936c0a7a8846e16fa",
+          "output_png_sha256": "c684ee83b910909e687e1d9499b16955126dd71c11cdf06936c0a7a8846e16fa",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Punjab",
+    "source_state": "Punjab",
+    "district": "Jalandhar",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Punjab/1981 Jalandhar.pdf",
+    "source_filename": "1981 Jalandhar.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 371,
+    "output": "output/pdf/1981_trimmed/Punjab/tehsil appendix/1981_Jalandhar_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      156,
+      157,
+      158,
+      159
+    ],
+    "printed_page_labels": [
+      "136",
+      "131",
+      null,
+      "139"
+    ],
+    "status": "Trimmed",
+    "reason": "Village Directory Appendix I Tahsil-wise abstract of educational, medical and other amenities; source page 160 is a blank/separator page and source page 161 begins Appendix II.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 4,
+      "pages": [
+        {
+          "source_page": 156,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              577.2,
+              800.88
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              577.2,
+              800.88
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 157,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              577.2,
+              800.88
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              577.2,
+              800.88
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 158,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              577.2,
+              800.88
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              577.2,
+              800.88
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 159,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              577.2,
+              800.88
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              577.2,
+              800.88
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 156,
+          "output_page": 1,
+          "source_png_sha256": "9a25c8cb9de674d377410508d81af238850f7c556c6f4f0ef84e217363164548",
+          "output_png_sha256": "9a25c8cb9de674d377410508d81af238850f7c556c6f4f0ef84e217363164548",
+          "match": true
+        },
+        {
+          "source_page": 157,
+          "output_page": 2,
+          "source_png_sha256": "4c046d5101bfa6b8b910e44e6faf52ce902ba14f9f5eb8232ac3c51928fef58e",
+          "output_png_sha256": "4c046d5101bfa6b8b910e44e6faf52ce902ba14f9f5eb8232ac3c51928fef58e",
+          "match": true
+        },
+        {
+          "source_page": 158,
+          "output_page": 3,
+          "source_png_sha256": "b31e0c86dc8cf96abc4f070176d205a0284fc93f7d485b0b5fe4e03201717e35",
+          "output_png_sha256": "b31e0c86dc8cf96abc4f070176d205a0284fc93f7d485b0b5fe4e03201717e35",
+          "match": true
+        },
+        {
+          "source_page": 159,
+          "output_page": 4,
+          "source_png_sha256": "b06d2a6e9b6bb1fa984280bd272c2800e8a495080d1b76b4938f60de47fcb365",
+          "output_png_sha256": "b06d2a6e9b6bb1fa984280bd272c2800e8a495080d1b76b4938f60de47fcb365",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 4,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Punjab",
+    "source_state": "Punjab",
+    "district": "Kapurthala",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Punjab/1981 Kapurthala.pdf",
+    "source_filename": "1981 Kapurthala.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 228,
+    "output": "output/pdf/1981_trimmed/Punjab/civic amenities/1981_Kapurthala_civic_amenities.pdf",
+    "source_pages_selected": [
+      141,
+      142
+    ],
+    "printed_page_labels": [
+      null,
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement IV Civic and Other Amenities; source pages 143-144 are Statement IV-A blank/notified slum pages and source page 145 begins Statement V.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 141,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              576.72,
+              797.52
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              576.72,
+              797.52
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 142,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              576.72,
+              797.52
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              576.72,
+              797.52
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 141,
+          "output_page": 1,
+          "source_png_sha256": "d52ce9a0ce75cfb64d711190b0625012ea62381bdf539342d1cc4923ae1ea361",
+          "output_png_sha256": "d52ce9a0ce75cfb64d711190b0625012ea62381bdf539342d1cc4923ae1ea361",
+          "match": true
+        },
+        {
+          "source_page": 142,
+          "output_page": 2,
+          "source_png_sha256": "876414de1c50826a5a98bc10d0c88f38712a047c298a628a7a4c08f1dcba88b7",
+          "output_png_sha256": "876414de1c50826a5a98bc10d0c88f38712a047c298a628a7a4c08f1dcba88b7",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Punjab",
+    "source_state": "Punjab",
+    "district": "Kapurthala",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Punjab/1981 Kapurthala.pdf",
+    "source_filename": "1981 Kapurthala.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 228,
+    "output": "output/pdf/1981_trimmed/Punjab/mededu/1981_Kapurthala_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      145,
+      146
+    ],
+    "printed_page_labels": [
+      "124",
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement V Medical, Educational, Recreational and Cultural Facilities; source page 147 begins Statement VI.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 145,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              576.72,
+              797.52
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              576.72,
+              797.52
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 146,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              576.72,
+              797.52
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              576.72,
+              797.52
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 145,
+          "output_page": 1,
+          "source_png_sha256": "7645f1cc55bafa14f6ac9eecde2385a06bbad4b3340a5c8e773122bbc06462e6",
+          "output_png_sha256": "7645f1cc55bafa14f6ac9eecde2385a06bbad4b3340a5c8e773122bbc06462e6",
+          "match": true
+        },
+        {
+          "source_page": 146,
+          "output_page": 2,
+          "source_png_sha256": "79f8c74a8b54c294bd3fbe12cbc8381e842527d57188af59339e5c3c41976b77",
+          "output_png_sha256": "79f8c74a8b54c294bd3fbe12cbc8381e842527d57188af59339e5c3c41976b77",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Punjab",
+    "source_state": "Punjab",
+    "district": "Kapurthala",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Punjab/1981 Kapurthala.pdf",
+    "source_filename": "1981 Kapurthala.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 228,
+    "output": "output/pdf/1981_trimmed/Punjab/tehsil appendix/1981_Kapurthala_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      113,
+      114,
+      115
+    ],
+    "printed_page_labels": [
+      "92",
+      "93",
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Village Directory Appendix I Tahsil-wise abstract of educational, medical and other amenities; source page 116 begins Appendix II.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 3,
+      "pages": [
+        {
+          "source_page": 113,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              576.72,
+              797.52
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              576.72,
+              797.52
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 114,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              576.72,
+              797.52
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              576.72,
+              797.52
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 115,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              576.72,
+              797.52
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              576.72,
+              797.52
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 113,
+          "output_page": 1,
+          "source_png_sha256": "3169daaf53301826c4e5d41ab73134ffd393ccd11104b62a5adde396482f31ee",
+          "output_png_sha256": "3169daaf53301826c4e5d41ab73134ffd393ccd11104b62a5adde396482f31ee",
+          "match": true
+        },
+        {
+          "source_page": 114,
+          "output_page": 2,
+          "source_png_sha256": "974bfc8203256a82d221b8c800a8f8df5a3fc7ad971535f0f7c7099d8134fab9",
+          "output_png_sha256": "974bfc8203256a82d221b8c800a8f8df5a3fc7ad971535f0f7c7099d8134fab9",
+          "match": true
+        },
+        {
+          "source_page": 115,
+          "output_page": 3,
+          "source_png_sha256": "8b931e929c8ca8d2ff522cd34f49be965fc07976eedf365b25bd4304df07983a",
+          "output_png_sha256": "8b931e929c8ca8d2ff522cd34f49be965fc07976eedf365b25bd4304df07983a",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 3,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Punjab",
+    "source_state": "Punjab",
+    "district": "Ludhiana",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Punjab/1981 Ludhiana.pdf",
+    "source_filename": "1981 Ludhiana.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 290,
+    "output": "output/pdf/1981_trimmed/Punjab/civic amenities/1981_Ludhiana_civic_amenities.pdf",
+    "source_pages_selected": [
+      179,
+      180
+    ],
+    "printed_page_labels": [
+      "162",
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement IV Civic and Other Amenities; source page 181 begins Statement V.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 179,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              612.0,
+              797.04
+            ],
+            "cropbox": [
+              0.0,
+              5.04,
+              612.0,
+              797.04
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 180,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              612.0,
+              797.04
+            ],
+            "cropbox": [
+              0.0,
+              5.04,
+              612.0,
+              797.04
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 179,
+          "output_page": 1,
+          "source_png_sha256": "1d4aa77055bfbfde21997ec6dbe74b18e0f7454726688a2f93b11b876e53d72b",
+          "output_png_sha256": "1d4aa77055bfbfde21997ec6dbe74b18e0f7454726688a2f93b11b876e53d72b",
+          "match": true
+        },
+        {
+          "source_page": 180,
+          "output_page": 2,
+          "source_png_sha256": "522a595d29f1791b0d26dc7002dc34039f135e115224798ae935bedb24916398",
+          "output_png_sha256": "522a595d29f1791b0d26dc7002dc34039f135e115224798ae935bedb24916398",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Punjab",
+    "source_state": "Punjab",
+    "district": "Ludhiana",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Punjab/1981 Ludhiana.pdf",
+    "source_filename": "1981 Ludhiana.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 290,
+    "output": "output/pdf/1981_trimmed/Punjab/mededu/1981_Ludhiana_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      181,
+      182
+    ],
+    "printed_page_labels": [
+      "164",
+      "1979"
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement V Medical, Educational, Recreational and Cultural Facilities; source page 183 begins Statement VI.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 181,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              612.0,
+              797.04
+            ],
+            "cropbox": [
+              0.0,
+              5.04,
+              612.0,
+              797.04
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 182,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              612.0,
+              797.04
+            ],
+            "cropbox": [
+              0.0,
+              5.04,
+              612.0,
+              797.04
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 181,
+          "output_page": 1,
+          "source_png_sha256": "e075f2bf6ef968a034140e50ccd220021799eef5128420f021b475aef9bd1afb",
+          "output_png_sha256": "e075f2bf6ef968a034140e50ccd220021799eef5128420f021b475aef9bd1afb",
+          "match": true
+        },
+        {
+          "source_page": 182,
+          "output_page": 2,
+          "source_png_sha256": "6e7b68aa2751cba1f32e0a382044a02a0fb54554f34d43c2c05a5cda8c68f27f",
+          "output_png_sha256": "6e7b68aa2751cba1f32e0a382044a02a0fb54554f34d43c2c05a5cda8c68f27f",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Punjab",
+    "source_state": "Punjab",
+    "district": "Ludhiana",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Punjab/1981 Ludhiana.pdf",
+    "source_filename": "1981 Ludhiana.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 290,
+    "output": "output/pdf/1981_trimmed/Punjab/tehsil appendix/1981_Ludhiana_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      137,
+      138
+    ],
+    "printed_page_labels": [
+      null,
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Village Directory Appendix I Tahsil-wise abstract of educational, medical and other amenities; source page 139 begins Appendix II.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 137,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              612.0,
+              797.04
+            ],
+            "cropbox": [
+              0.0,
+              5.04,
+              612.0,
+              797.04
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 138,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              612.0,
+              797.04
+            ],
+            "cropbox": [
+              0.0,
+              5.04,
+              612.0,
+              797.04
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 137,
+          "output_page": 1,
+          "source_png_sha256": "7adb8434da19dd1ea8d0a16461456d5d5d1d7d06dfccef69850362e4a82f9000",
+          "output_png_sha256": "7adb8434da19dd1ea8d0a16461456d5d5d1d7d06dfccef69850362e4a82f9000",
+          "match": true
+        },
+        {
+          "source_page": 138,
+          "output_page": 2,
+          "source_png_sha256": "e23ae19381914d92a689612e457f8d2d0e3641632a194ffcb1353ee645254c67",
+          "output_png_sha256": "e23ae19381914d92a689612e457f8d2d0e3641632a194ffcb1353ee645254c67",
+          "match": true
+        }
+      ],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Punjab",
+    "source_state": "Punjab",
+    "district": "Patiala",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Punjab/1981 Patiala.pdf",
+    "source_filename": "1981 Patiala.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 413,
+    "output": "output/pdf/1981_trimmed/Punjab/civic amenities/1981_Patiala_civic_amenities.pdf",
+    "source_pages_selected": [
+      247,
+      248
+    ],
+    "printed_page_labels": [
+      "222",
+      "223"
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement IV Civic and Other Amenities; source pages 249-250 are Statement IV-A blank/notified slum pages and source page 251 begins Statement V.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 247,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              601.68,
+              817.44
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              601.68,
+              817.44
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 248,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              601.68,
+              817.44
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              601.68,
+              817.44
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 247,
+          "output_page": 1,
+          "source_png_sha256": "046f0906f4c201f8b368c7931bd81a1f989decab4c7887f1c9fa86fe041590c3",
+          "output_png_sha256": "046f0906f4c201f8b368c7931bd81a1f989decab4c7887f1c9fa86fe041590c3",
+          "match": true
+        },
+        {
+          "source_page": 248,
+          "output_page": 2,
+          "source_png_sha256": "397c0cae5e251266f456733110f93f0e398443a16df05192182b082a112d0d9a",
+          "output_png_sha256": "397c0cae5e251266f456733110f93f0e398443a16df05192182b082a112d0d9a",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Punjab",
+    "source_state": "Punjab",
+    "district": "Patiala",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Punjab/1981 Patiala.pdf",
+    "source_filename": "1981 Patiala.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 413,
+    "output": "output/pdf/1981_trimmed/Punjab/mededu/1981_Patiala_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      251,
+      252
+    ],
+    "printed_page_labels": [
+      "226",
+      "227"
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement V Medical, Educational, Recreational and Cultural Facilities; source page 253 begins Statement VI.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 251,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              601.68,
+              817.44
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              601.68,
+              817.44
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 252,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              601.68,
+              817.44
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              601.68,
+              817.44
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 251,
+          "output_page": 1,
+          "source_png_sha256": "20ce89a5f428ad2cb427cfddf3d4ffb006dfac294c24162b03d64bd42089a424",
+          "output_png_sha256": "20ce89a5f428ad2cb427cfddf3d4ffb006dfac294c24162b03d64bd42089a424",
+          "match": true
+        },
+        {
+          "source_page": 252,
+          "output_page": 2,
+          "source_png_sha256": "8be694d4e74fd17a090e7b53cb73c901eb0b73cca10e9110ad09700f1d669bf0",
+          "output_png_sha256": "8be694d4e74fd17a090e7b53cb73c901eb0b73cca10e9110ad09700f1d669bf0",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Punjab",
+    "source_state": "Punjab",
+    "district": "Patiala",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Punjab/1981 Patiala.pdf",
+    "source_filename": "1981 Patiala.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 413,
+    "output": "output/pdf/1981_trimmed/Punjab/tehsil appendix/1981_Patiala_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      189,
+      190
+    ],
+    "printed_page_labels": [
+      null,
+      "105"
+    ],
+    "status": "Trimmed",
+    "reason": "Village Directory Appendix I Tahsil-wise abstract of educational, medical and other amenities; source page 191 begins Appendix II.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 189,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              601.68,
+              817.44
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              601.68,
+              817.44
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 190,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              601.68,
+              817.44
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              601.68,
+              817.44
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 189,
+          "output_page": 1,
+          "source_png_sha256": "91a305348490e3e4d630fe60f44c4d33893c12a5723cbd524664559df96e111c",
+          "output_png_sha256": "91a305348490e3e4d630fe60f44c4d33893c12a5723cbd524664559df96e111c",
+          "match": true
+        },
+        {
+          "source_page": 190,
+          "output_page": 2,
+          "source_png_sha256": "dcde00e4d1b3b613ecd708ef6b339e54cbae991f186bd38ba76e8a1cf7a01dbb",
+          "output_png_sha256": "dcde00e4d1b3b613ecd708ef6b339e54cbae991f186bd38ba76e8a1cf7a01dbb",
+          "match": true
+        }
+      ],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Punjab",
+    "source_state": "Punjab",
+    "district": "Rupnagar",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Punjab/1981 Rupnagar.pdf",
+    "source_filename": "1981 Rupnagar.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 252,
+    "output": "output/pdf/1981_trimmed/Punjab/civic amenities/1981_Rupnagar_civic_amenities.pdf",
+    "source_pages_selected": [
+      157,
+      158
+    ],
+    "printed_page_labels": [
+      "140",
+      "141"
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement IV Civic and Other Amenities; source page 159 begins Statement IV-A.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 157,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              612.0,
+              804.72
+            ],
+            "cropbox": [
+              0.0,
+              12.72,
+              612.0,
+              804.72
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 158,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              612.0,
+              804.72
+            ],
+            "cropbox": [
+              0.0,
+              12.72,
+              612.0,
+              804.72
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 157,
+          "output_page": 1,
+          "source_png_sha256": "4d2112a1bba0993d0006ce94fe982c55ebd9facdacbbaea245a1e552251be6b5",
+          "output_png_sha256": "4d2112a1bba0993d0006ce94fe982c55ebd9facdacbbaea245a1e552251be6b5",
+          "match": true
+        },
+        {
+          "source_page": 158,
+          "output_page": 2,
+          "source_png_sha256": "ba0e8841b7628a781e467b5a9a34b3f6dee71dbee3af9ec22d0562ff9c1f7ea7",
+          "output_png_sha256": "ba0e8841b7628a781e467b5a9a34b3f6dee71dbee3af9ec22d0562ff9c1f7ea7",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Punjab",
+    "source_state": "Punjab",
+    "district": "Rupnagar",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Punjab/1981 Rupnagar.pdf",
+    "source_filename": "1981 Rupnagar.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 252,
+    "output": "output/pdf/1981_trimmed/Punjab/mededu/1981_Rupnagar_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      161,
+      162
+    ],
+    "printed_page_labels": [
+      null,
+      "145"
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement V Medical, Educational, Recreational and Cultural Facilities; source page 163 begins Statement VI.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 161,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              612.0,
+              804.72
+            ],
+            "cropbox": [
+              0.0,
+              12.72,
+              612.0,
+              804.72
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 162,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              612.0,
+              804.72
+            ],
+            "cropbox": [
+              0.0,
+              12.72,
+              612.0,
+              804.72
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 161,
+          "output_page": 1,
+          "source_png_sha256": "8bd0f27183c65f9620a086494931bde34b3bfa3aba5c2f1a914e23abf43ae804",
+          "output_png_sha256": "8bd0f27183c65f9620a086494931bde34b3bfa3aba5c2f1a914e23abf43ae804",
+          "match": true
+        },
+        {
+          "source_page": 162,
+          "output_page": 2,
+          "source_png_sha256": "80df1ec9fa23250f56853d34c104a4bb5eff69582366586e41f54914d15fe60b",
+          "output_png_sha256": "80df1ec9fa23250f56853d34c104a4bb5eff69582366586e41f54914d15fe60b",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Punjab",
+    "source_state": "Punjab",
+    "district": "Rupnagar",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Punjab/1981 Rupnagar.pdf",
+    "source_filename": "1981 Rupnagar.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 252,
+    "output": "output/pdf/1981_trimmed/Punjab/tehsil appendix/1981_Rupnagar_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      117,
+      118
+    ],
+    "printed_page_labels": [
+      "106",
+      "101"
+    ],
+    "status": "Trimmed",
+    "reason": "Village Directory Appendix I Tahsil-wise abstract of educational, medical and other amenities; source page 119 begins Appendix II.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 117,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              612.0,
+              804.72
+            ],
+            "cropbox": [
+              0.0,
+              12.72,
+              612.0,
+              804.72
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 118,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              612.0,
+              804.72
+            ],
+            "cropbox": [
+              0.0,
+              12.72,
+              612.0,
+              804.72
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 117,
+          "output_page": 1,
+          "source_png_sha256": "8422f8f2bc37bc233299aa95cd1a83bd13ff2d7989d6d444d9ea8f2ab9af6448",
+          "output_png_sha256": "8422f8f2bc37bc233299aa95cd1a83bd13ff2d7989d6d444d9ea8f2ab9af6448",
+          "match": true
+        },
+        {
+          "source_page": 118,
+          "output_page": 2,
+          "source_png_sha256": "48ffd156fdfcb29072b3b05b3e9a1f90eb4ba96f318c30f596e5e4dd541b2c13",
+          "output_png_sha256": "48ffd156fdfcb29072b3b05b3e9a1f90eb4ba96f318c30f596e5e4dd541b2c13",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Punjab",
+    "source_state": "Punjab",
+    "district": "Sangrur",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Punjab/1981 Sangrur.pdf",
+    "source_filename": "1981 Sangrur.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 272,
+    "output": "output/pdf/1981_trimmed/Punjab/civic amenities/1981_Sangrur_civic_amenities.pdf",
+    "source_pages_selected": [
+      155,
+      156
+    ],
+    "printed_page_labels": [
+      "138",
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement IV Civic and Other Amenities; source page 157 begins Statement V.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 155,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              -12.2098,
+              595.276,
+              829.68
+            ],
+            "cropbox": [
+              0.0,
+              -12.2098,
+              595.276,
+              829.68
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 156,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              -12.2098,
+              595.276,
+              829.68
+            ],
+            "cropbox": [
+              0.0,
+              -12.2098,
+              595.276,
+              829.68
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 155,
+          "output_page": 1,
+          "source_png_sha256": "4980303cded0148e6008aa05534b34c324cd677b9158bccd342ce9db315d8667",
+          "output_png_sha256": "4980303cded0148e6008aa05534b34c324cd677b9158bccd342ce9db315d8667",
+          "match": true
+        },
+        {
+          "source_page": 156,
+          "output_page": 2,
+          "source_png_sha256": "636290fec0462c510ab25ec110637772f17234921b35cedb937815aac71bb2f9",
+          "output_png_sha256": "636290fec0462c510ab25ec110637772f17234921b35cedb937815aac71bb2f9",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Punjab",
+    "source_state": "Punjab",
+    "district": "Sangrur",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Punjab/1981 Sangrur.pdf",
+    "source_filename": "1981 Sangrur.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 272,
+    "output": "output/pdf/1981_trimmed/Punjab/mededu/1981_Sangrur_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      157,
+      158
+    ],
+    "printed_page_labels": [
+      "140",
+      "1979"
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement V Medical, Educational, Recreational and Cultural Facilities; source page 159 begins Statement VI.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 157,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              -12.2098,
+              595.276,
+              829.68
+            ],
+            "cropbox": [
+              0.0,
+              -12.2098,
+              595.276,
+              829.68
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 158,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              -12.2098,
+              595.276,
+              829.68
+            ],
+            "cropbox": [
+              0.0,
+              -12.2098,
+              595.276,
+              829.68
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 157,
+          "output_page": 1,
+          "source_png_sha256": "081f5b91a214880acdab34f4c98fb4350450a6a7db3d7325cf8f72021742c883",
+          "output_png_sha256": "081f5b91a214880acdab34f4c98fb4350450a6a7db3d7325cf8f72021742c883",
+          "match": true
+        },
+        {
+          "source_page": 158,
+          "output_page": 2,
+          "source_png_sha256": "63483843bbd671d274b0fd95de6695e3aefb1ce814ea9ad880559a24cdd07517",
+          "output_png_sha256": "63483843bbd671d274b0fd95de6695e3aefb1ce814ea9ad880559a24cdd07517",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Punjab",
+    "source_state": "Punjab",
+    "district": "Sangrur",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Punjab/1981 Sangrur.pdf",
+    "source_filename": "1981 Sangrur.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 272,
+    "output": "output/pdf/1981_trimmed/Punjab/tehsil appendix/1981_Sangrur_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      125,
+      126
+    ],
+    "printed_page_labels": [
+      null,
+      "109"
+    ],
+    "status": "Trimmed",
+    "reason": "Village Directory Appendix I Tahsil-wise abstract of educational, medical and other amenities; source page 127 begins Appendix II.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 125,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              -12.2098,
+              595.276,
+              829.68
+            ],
+            "cropbox": [
+              0.0,
+              -12.2098,
+              595.276,
+              829.68
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 126,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              -12.2098,
+              595.276,
+              829.68
+            ],
+            "cropbox": [
+              0.0,
+              -12.2098,
+              595.276,
+              829.68
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 125,
+          "output_page": 1,
+          "source_png_sha256": "c31cc495deedea5ce8618616f0d3480140912262be0c6a0acc740d772517ef79",
+          "output_png_sha256": "c31cc495deedea5ce8618616f0d3480140912262be0c6a0acc740d772517ef79",
+          "match": true
+        },
+        {
+          "source_page": 126,
+          "output_page": 2,
+          "source_png_sha256": "1135119f763e1abc90c36adef6139f47a6a0175406544f83184e5efbc8e0c89e",
+          "output_png_sha256": "1135119f763e1abc90c36adef6139f47a6a0175406544f83184e5efbc8e0c89e",
+          "match": true
+        }
+      ],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  }
+]

@@ -1,0 +1,103 @@
+[
+  {
+    "district": "U.K. & J. Hills",
+    "table": "civic_amenities",
+    "source": "1971\\Meghalaya\\1971 U.K. & J. Hills.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Meghalaya\\civic amenities\\U.K. & J. Hills_civic_1971.pdf",
+    "source_pages": [
+      212
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 212,
+        "mediabox": [
+          0.0,
+          -5.00977,
+          601.68,
+          836.88
+        ],
+        "cropbox": [
+          0.0,
+          -5.00977,
+          595.276,
+          836.88
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "U.K. & J. Hills",
+    "table": "medical_educational_amenities",
+    "source": "1971\\Meghalaya\\1971 U.K. & J. Hills.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Meghalaya\\mededu\\U.K. & J. Hills_mededu_1971.pdf",
+    "source_pages": [
+      213
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 213,
+        "mediabox": [
+          0.0,
+          -5.00977,
+          601.68,
+          836.88
+        ],
+        "cropbox": [
+          0.0,
+          -5.00977,
+          595.276,
+          836.88
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "U.K. & J. Hills",
+    "table": "tehsil_appendix",
+    "source": "1971\\Meghalaya\\1971 U.K. & J. Hills.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Meghalaya\\tehsil appendix\\U.K. & J. Hills_tehsil_1971.pdf",
+    "source_pages": [
+      196,
+      197
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 196,
+        "mediabox": [
+          0.0,
+          -5.00977,
+          601.68,
+          836.88
+        ],
+        "cropbox": [
+          0.0,
+          -5.00977,
+          595.276,
+          836.88
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 197,
+        "mediabox": [
+          0.0,
+          -5.00977,
+          601.68,
+          836.88
+        ],
+        "cropbox": [
+          0.0,
+          -5.00977,
+          595.276,
+          836.88
+        ],
+        "rotate": 0
+      }
+    ]
+  }
+]

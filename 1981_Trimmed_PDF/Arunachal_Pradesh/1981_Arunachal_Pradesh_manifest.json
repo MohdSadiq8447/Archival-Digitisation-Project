@@ -1,0 +1,1362 @@
+[
+  {
+    "state": "Arunachal Pradesh",
+    "source_state": "Arunachal Pradesh",
+    "district": "East Kameng",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Arunachal Pradesh/1981 East Kameng.pdf",
+    "source_filename": "1981 East Kameng.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 150,
+    "output": null,
+    "source_pages_selected": [],
+    "printed_page_labels": [],
+    "status": "Not trimmed",
+    "reason": "Contents show circlewise village/PCA material but no Town Directory Statement IV or equivalent civic amenities table.",
+    "flags": [
+      "manual_absent_or_ineligible"
+    ],
+    "verification": null
+  },
+  {
+    "state": "Arunachal Pradesh",
+    "source_state": "Arunachal Pradesh",
+    "district": "East Kameng",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Arunachal Pradesh/1981 East Kameng.pdf",
+    "source_filename": "1981 East Kameng.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 150,
+    "output": null,
+    "source_pages_selected": [],
+    "printed_page_labels": [],
+    "status": "Not trimmed",
+    "reason": "Contents show circlewise village/PCA material but no Town Directory Statement V or equivalent medical and educational amenities table.",
+    "flags": [
+      "manual_absent_or_ineligible"
+    ],
+    "verification": null
+  },
+  {
+    "state": "Arunachal Pradesh",
+    "source_state": "Arunachal Pradesh",
+    "district": "East Kameng",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Arunachal Pradesh/1981 East Kameng.pdf",
+    "source_filename": "1981 East Kameng.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 150,
+    "output": null,
+    "source_pages_selected": [],
+    "printed_page_labels": [],
+    "status": "Not trimmed",
+    "reason": "Contents show no circlewise educational, medical and other amenities appendix; the later appendices are village lists and administrative material.",
+    "flags": [
+      "manual_absent_or_ineligible"
+    ],
+    "verification": null
+  },
+  {
+    "state": "Arunachal Pradesh",
+    "source_state": "Arunachal Pradesh",
+    "district": "Lohit",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Arunachal Pradesh/1981 Lohit.pdf",
+    "source_filename": "1981 Lohit.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 208,
+    "output": "output/pdf/1981_trimmed/Arunachal Pradesh/civic amenities/1981_Lohit_civic_amenities.pdf",
+    "source_pages_selected": [
+      139
+    ],
+    "printed_page_labels": [
+      "1979"
+    ],
+    "status": "Trimmed",
+    "reason": "Statement IV printed page 119; source page 140 begins Statement V.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 1,
+      "pages": [
+        {
+          "source_page": 139,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              574.8,
+              818.64
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              574.8,
+              818.64
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 139,
+          "output_page": 1,
+          "source_png_sha256": "8abc1ac883620979d70b1d3127987e632091060d50c04840ac640228e5e27fb1",
+          "output_png_sha256": "8abc1ac883620979d70b1d3127987e632091060d50c04840ac640228e5e27fb1",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 1,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Arunachal Pradesh",
+    "source_state": "Arunachal Pradesh",
+    "district": "Lohit",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Arunachal Pradesh/1981 Lohit.pdf",
+    "source_filename": "1981 Lohit.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 208,
+    "output": "output/pdf/1981_trimmed/Arunachal Pradesh/mededu/1981_Lohit_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      140
+    ],
+    "printed_page_labels": [
+      "120"
+    ],
+    "status": "Trimmed",
+    "reason": "Statement V printed page 120; source page 141 begins Statement VI.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 1,
+      "pages": [
+        {
+          "source_page": 140,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              574.8,
+              818.64
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              574.8,
+              818.64
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 140,
+          "output_page": 1,
+          "source_png_sha256": "f26432d6335a1478e0a3ff9e81bee167b240979ecd8c94270f1747915cc2f6bd",
+          "output_png_sha256": "f26432d6335a1478e0a3ff9e81bee167b240979ecd8c94270f1747915cc2f6bd",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 1,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Arunachal Pradesh",
+    "source_state": "Arunachal Pradesh",
+    "district": "Lohit",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Arunachal Pradesh/1981 Lohit.pdf",
+    "source_filename": "1981 Lohit.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 208,
+    "output": "output/pdf/1981_trimmed/Arunachal Pradesh/tehsil appendix/1981_Lohit_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      118,
+      119,
+      120,
+      121
+    ],
+    "printed_page_labels": [
+      "98",
+      null,
+      null,
+      "101"
+    ],
+    "status": "Trimmed",
+    "reason": "Appendix I printed pages 98-101; source page 122 begins Appendix II.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 4,
+      "pages": [
+        {
+          "source_page": 118,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              574.8,
+              818.64
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              574.8,
+              818.64
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 119,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              574.8,
+              818.64
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              574.8,
+              818.64
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 120,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              574.8,
+              818.64
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              574.8,
+              818.64
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 121,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              574.8,
+              818.64
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              574.8,
+              818.64
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 118,
+          "output_page": 1,
+          "source_png_sha256": "98f69fab2f2661bccc3fcd9e1f2ff29720f8393ce2554c69bd773970c5cc1bd7",
+          "output_png_sha256": "98f69fab2f2661bccc3fcd9e1f2ff29720f8393ce2554c69bd773970c5cc1bd7",
+          "match": true
+        },
+        {
+          "source_page": 119,
+          "output_page": 2,
+          "source_png_sha256": "e65f01961563481b13ec325291aa7f84636138f6e4f481c63d36f2484f1c4c31",
+          "output_png_sha256": "e65f01961563481b13ec325291aa7f84636138f6e4f481c63d36f2484f1c4c31",
+          "match": true
+        },
+        {
+          "source_page": 120,
+          "output_page": 3,
+          "source_png_sha256": "af1b5f7d62f119d1810982617b81694deaa7052c1271002dc12d84db250e4a0f",
+          "output_png_sha256": "af1b5f7d62f119d1810982617b81694deaa7052c1271002dc12d84db250e4a0f",
+          "match": true
+        },
+        {
+          "source_page": 121,
+          "output_page": 4,
+          "source_png_sha256": "82420d6211473ead301d6e204abb916f1b85c411a2b7f7b0b53e5d67a4c00740",
+          "output_png_sha256": "82420d6211473ead301d6e204abb916f1b85c411a2b7f7b0b53e5d67a4c00740",
+          "match": true
+        }
+      ],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 4,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Arunachal Pradesh",
+    "source_state": "Arunachal Pradesh",
+    "district": "Lower Subansiri",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Arunachal Pradesh/1981 Lower Subansiri.pdf",
+    "source_filename": "1981 Lower Subansiri.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 283,
+    "output": "output/pdf/1981_trimmed/Arunachal Pradesh/civic amenities/1981_Lower Subansiri_civic_amenities.pdf",
+    "source_pages_selected": [
+      186
+    ],
+    "printed_page_labels": [
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Statement IV printed page 164; source page 187 begins Statement IV-A.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 1,
+      "pages": [
+        {
+          "source_page": 186,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              558.96,
+              818.64
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              558.96,
+              818.64
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 186,
+          "output_page": 1,
+          "source_png_sha256": "017ee1c0387ed1b3d405fe1a3ad0a6d2bc31e30d887b361103a40063065d9f17",
+          "output_png_sha256": "017ee1c0387ed1b3d405fe1a3ad0a6d2bc31e30d887b361103a40063065d9f17",
+          "match": true
+        }
+      ],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 1,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Arunachal Pradesh",
+    "source_state": "Arunachal Pradesh",
+    "district": "Lower Subansiri",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Arunachal Pradesh/1981 Lower Subansiri.pdf",
+    "source_filename": "1981 Lower Subansiri.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 283,
+    "output": "output/pdf/1981_trimmed/Arunachal Pradesh/mededu/1981_Lower Subansiri_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      188
+    ],
+    "printed_page_labels": [
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Statement V printed page 166; source page 189 begins Statement VI.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 1,
+      "pages": [
+        {
+          "source_page": 188,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              558.96,
+              818.64
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              558.96,
+              818.64
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 188,
+          "output_page": 1,
+          "source_png_sha256": "218cb2bc4337ab349ba93696314e82f932fa5557bf813ea908b6d03a2fbb90f5",
+          "output_png_sha256": "218cb2bc4337ab349ba93696314e82f932fa5557bf813ea908b6d03a2fbb90f5",
+          "match": true
+        }
+      ],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 1,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Arunachal Pradesh",
+    "source_state": "Arunachal Pradesh",
+    "district": "Lower Subansiri",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Arunachal Pradesh/1981 Lower Subansiri.pdf",
+    "source_filename": "1981 Lower Subansiri.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 283,
+    "output": "output/pdf/1981_trimmed/Arunachal Pradesh/tehsil appendix/1981_Lower Subansiri_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      162,
+      163,
+      164,
+      165
+    ],
+    "printed_page_labels": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Appendix I printed pages 140-143; source page 166 begins Appendix II.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 4,
+      "pages": [
+        {
+          "source_page": 162,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              558.96,
+              818.64
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              558.96,
+              818.64
+            ]
+          },
+          "rotation": 90
+        },
+        {
+          "source_page": 163,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              558.96,
+              818.64
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              558.96,
+              818.64
+            ]
+          },
+          "rotation": 90
+        },
+        {
+          "source_page": 164,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              558.96,
+              818.64
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              558.96,
+              818.64
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 165,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              558.96,
+              818.64
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              558.96,
+              818.64
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 162,
+          "output_page": 1,
+          "source_png_sha256": "1bde4e2dab465b688afce5309903cf2104b63cc28cdba5f4b4da7bf740da6f29",
+          "output_png_sha256": "1bde4e2dab465b688afce5309903cf2104b63cc28cdba5f4b4da7bf740da6f29",
+          "match": true
+        },
+        {
+          "source_page": 163,
+          "output_page": 2,
+          "source_png_sha256": "556b11e4fc0e9a75f6aec757c7b7a16413466d6da025afb417a9f4af5a451fb9",
+          "output_png_sha256": "556b11e4fc0e9a75f6aec757c7b7a16413466d6da025afb417a9f4af5a451fb9",
+          "match": true
+        },
+        {
+          "source_page": 164,
+          "output_page": 3,
+          "source_png_sha256": "da6129e96a411c7d0ee6bc162c3067b2b14a032a4ee61b493bf1250f020302eb",
+          "output_png_sha256": "da6129e96a411c7d0ee6bc162c3067b2b14a032a4ee61b493bf1250f020302eb",
+          "match": true
+        },
+        {
+          "source_page": 165,
+          "output_page": 4,
+          "source_png_sha256": "a40fd27f79773bb94b7fc0305d6bb5e8818a6f12bbd31d518fd914e06ef5fc29",
+          "output_png_sha256": "a40fd27f79773bb94b7fc0305d6bb5e8818a6f12bbd31d518fd914e06ef5fc29",
+          "match": true
+        }
+      ],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 4,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Arunachal Pradesh",
+    "source_state": "Arunachal Pradesh",
+    "district": "Tirap",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Arunachal Pradesh/1981 Tirap .pdf",
+    "source_filename": "1981 Tirap .pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 262,
+    "output": null,
+    "source_pages_selected": [],
+    "printed_page_labels": [],
+    "status": "Not trimmed",
+    "reason": "Contents show Village Directory appendices and PCA material but no Town Directory Statement IV or equivalent civic amenities table.",
+    "flags": [
+      "manual_absent_or_ineligible"
+    ],
+    "verification": null
+  },
+  {
+    "state": "Arunachal Pradesh",
+    "source_state": "Arunachal Pradesh",
+    "district": "Tirap",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Arunachal Pradesh/1981 Tirap .pdf",
+    "source_filename": "1981 Tirap .pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 262,
+    "output": null,
+    "source_pages_selected": [],
+    "printed_page_labels": [],
+    "status": "Not trimmed",
+    "reason": "Contents show Village Directory appendices and PCA material but no Town Directory Statement V or equivalent medical and educational amenities table.",
+    "flags": [
+      "manual_absent_or_ineligible"
+    ],
+    "verification": null
+  },
+  {
+    "state": "Arunachal Pradesh",
+    "source_state": "Arunachal Pradesh",
+    "district": "Tirap",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Arunachal Pradesh/1981 Tirap .pdf",
+    "source_filename": "1981 Tirap .pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 262,
+    "output": "output/pdf/1981_trimmed/Arunachal Pradesh/tehsil appendix/1981_Tirap_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      146,
+      147,
+      148,
+      149
+    ],
+    "printed_page_labels": [
+      "132",
+      "133",
+      "134",
+      "135"
+    ],
+    "status": "Trimmed",
+    "reason": "Appendix I printed pages 132-135; source page 150 begins Appendix II.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 4,
+      "pages": [
+        {
+          "source_page": 146,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              640.56,
+              863.04
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              640.56,
+              863.04
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 147,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              640.56,
+              863.04
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              640.56,
+              863.04
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 148,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              640.56,
+              863.04
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              640.56,
+              863.04
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 149,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              640.56,
+              863.04
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              640.56,
+              863.04
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 146,
+          "output_page": 1,
+          "source_png_sha256": "39ed9d1ac48498b4f51c8a4f76b9858c3d6db093af69163acaee293b01b77d26",
+          "output_png_sha256": "39ed9d1ac48498b4f51c8a4f76b9858c3d6db093af69163acaee293b01b77d26",
+          "match": true
+        },
+        {
+          "source_page": 147,
+          "output_page": 2,
+          "source_png_sha256": "f5ab0d4b6662e0d240757feb87ef6855e78a8c9ebc46f4bf2521fca18de0d5de",
+          "output_png_sha256": "f5ab0d4b6662e0d240757feb87ef6855e78a8c9ebc46f4bf2521fca18de0d5de",
+          "match": true
+        },
+        {
+          "source_page": 148,
+          "output_page": 3,
+          "source_png_sha256": "33d4acb6d9cbd66b182e646fa03d748beebf89f90393ab1c450248e76b9cfa16",
+          "output_png_sha256": "33d4acb6d9cbd66b182e646fa03d748beebf89f90393ab1c450248e76b9cfa16",
+          "match": true
+        },
+        {
+          "source_page": 149,
+          "output_page": 4,
+          "source_png_sha256": "7d070a76bd90143fd7e9fa06c32271b4a2fe509a3fa6429dbb9473741061dc01",
+          "output_png_sha256": "7d070a76bd90143fd7e9fa06c32271b4a2fe509a3fa6429dbb9473741061dc01",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 4,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Arunachal Pradesh",
+    "source_state": "Arunachal Pradesh",
+    "district": "West Kameng",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Arunachal Pradesh/1981 West Kameng.pdf",
+    "source_filename": "1981 West Kameng.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 190,
+    "output": "output/pdf/1981_trimmed/Arunachal Pradesh/civic amenities/1981_West Kameng_civic_amenities.pdf",
+    "source_pages_selected": [
+      119
+    ],
+    "printed_page_labels": [
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Statement IV printed page 105; source page 120 begins Statement IV-A/V.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 1,
+      "pages": [
+        {
+          "source_page": 119,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              598.8,
+              852.24
+            ],
+            "cropbox": [
+              0.0,
+              10.3502,
+              595.276,
+              852.24
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 119,
+          "output_page": 1,
+          "source_png_sha256": "b4a8a25f5b87c64824e600631accfd86d4ab28309622b4eba8cf84d12720af09",
+          "output_png_sha256": "b4a8a25f5b87c64824e600631accfd86d4ab28309622b4eba8cf84d12720af09",
+          "match": true
+        }
+      ],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 1,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Arunachal Pradesh",
+    "source_state": "Arunachal Pradesh",
+    "district": "West Kameng",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Arunachal Pradesh/1981 West Kameng.pdf",
+    "source_filename": "1981 West Kameng.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 190,
+    "output": "output/pdf/1981_trimmed/Arunachal Pradesh/mededu/1981_West Kameng_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      120
+    ],
+    "printed_page_labels": [
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Statement V printed page 106; source page 121 begins Statement VI.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 1,
+      "pages": [
+        {
+          "source_page": 120,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              598.8,
+              852.24
+            ],
+            "cropbox": [
+              0.0,
+              10.3502,
+              595.276,
+              852.24
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 120,
+          "output_page": 1,
+          "source_png_sha256": "eb5bdcddb9c6ee5de51a9a1c44d407af35e7e3f9b183521801cde9f6e1f16926",
+          "output_png_sha256": "eb5bdcddb9c6ee5de51a9a1c44d407af35e7e3f9b183521801cde9f6e1f16926",
+          "match": true
+        }
+      ],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 1,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Arunachal Pradesh",
+    "source_state": "Arunachal Pradesh",
+    "district": "West Kameng",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Arunachal Pradesh/1981 West Kameng.pdf",
+    "source_filename": "1981 West Kameng.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 190,
+    "output": "output/pdf/1981_trimmed/Arunachal Pradesh/tehsil appendix/1981_West Kameng_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      104,
+      105,
+      106,
+      107
+    ],
+    "printed_page_labels": [
+      "90",
+      "91",
+      "92",
+      "93"
+    ],
+    "status": "Trimmed",
+    "reason": "Appendix I printed pages 90-93; source page 108 begins Appendix II.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 4,
+      "pages": [
+        {
+          "source_page": 104,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              598.8,
+              852.24
+            ],
+            "cropbox": [
+              0.0,
+              10.3502,
+              595.276,
+              852.24
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 105,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              598.8,
+              852.24
+            ],
+            "cropbox": [
+              0.0,
+              10.3502,
+              595.276,
+              852.24
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 106,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              598.8,
+              852.24
+            ],
+            "cropbox": [
+              0.0,
+              10.3502,
+              595.276,
+              852.24
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 107,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              598.8,
+              852.24
+            ],
+            "cropbox": [
+              0.0,
+              10.3502,
+              595.276,
+              852.24
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 104,
+          "output_page": 1,
+          "source_png_sha256": "2dcf555c11f9b6a6535f17013b83550dffc5dddbda9c8abe342928cd624f3e20",
+          "output_png_sha256": "2dcf555c11f9b6a6535f17013b83550dffc5dddbda9c8abe342928cd624f3e20",
+          "match": true
+        },
+        {
+          "source_page": 105,
+          "output_page": 2,
+          "source_png_sha256": "2399e96607351e6e6dcd58960c4143ee0e9e128278cb56023c60b449f34a3491",
+          "output_png_sha256": "2399e96607351e6e6dcd58960c4143ee0e9e128278cb56023c60b449f34a3491",
+          "match": true
+        },
+        {
+          "source_page": 106,
+          "output_page": 3,
+          "source_png_sha256": "62e99cb11b25c9e87267fdc489ecd7b023e09599aab05bce788b91fd657a5b20",
+          "output_png_sha256": "62e99cb11b25c9e87267fdc489ecd7b023e09599aab05bce788b91fd657a5b20",
+          "match": true
+        },
+        {
+          "source_page": 107,
+          "output_page": 4,
+          "source_png_sha256": "50997124cb0e1a07bb877b3f5c3655e58ca77b7d38a14d3e103be3d2aad7e77a",
+          "output_png_sha256": "50997124cb0e1a07bb877b3f5c3655e58ca77b7d38a14d3e103be3d2aad7e77a",
+          "match": true
+        }
+      ],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 4,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Arunachal Pradesh",
+    "source_state": "Arunachal Pradesh",
+    "district": "West Siang",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Arunachal Pradesh/1981 West Siang.pdf",
+    "source_filename": "1981 West Siang.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 266,
+    "output": "output/pdf/1981_trimmed/Arunachal Pradesh/civic amenities/1981_West Siang_civic_amenities.pdf",
+    "source_pages_selected": [
+      184
+    ],
+    "printed_page_labels": [
+      "168"
+    ],
+    "status": "Trimmed",
+    "reason": "Statement IV printed page 168; source page 185 begins Statement V.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 1,
+      "pages": [
+        {
+          "source_page": 184,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              611.76,
+              861.36
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              611.76,
+              861.36
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 184,
+          "output_page": 1,
+          "source_png_sha256": "3080669c6076c968494f6ca1abee0ed1b55a9d68e241b59de3761288f9ceb228",
+          "output_png_sha256": "3080669c6076c968494f6ca1abee0ed1b55a9d68e241b59de3761288f9ceb228",
+          "match": true
+        }
+      ],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 1,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Arunachal Pradesh",
+    "source_state": "Arunachal Pradesh",
+    "district": "West Siang",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Arunachal Pradesh/1981 West Siang.pdf",
+    "source_filename": "1981 West Siang.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 266,
+    "output": "output/pdf/1981_trimmed/Arunachal Pradesh/mededu/1981_West Siang_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      185
+    ],
+    "printed_page_labels": [
+      "169"
+    ],
+    "status": "Trimmed",
+    "reason": "Statement V printed page 169; source page 186 begins Statement VI.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 1,
+      "pages": [
+        {
+          "source_page": 185,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              611.76,
+              861.36
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              611.76,
+              861.36
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 185,
+          "output_page": 1,
+          "source_png_sha256": "5caba7a3344ff82f8c9f692104450f4755664c72b5c92bb66b10eeec1cded3ca",
+          "output_png_sha256": "5caba7a3344ff82f8c9f692104450f4755664c72b5c92bb66b10eeec1cded3ca",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 1,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Arunachal Pradesh",
+    "source_state": "Arunachal Pradesh",
+    "district": "West Siang",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Arunachal Pradesh/1981 West Siang.pdf",
+    "source_filename": "1981 West Siang.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 266,
+    "output": "output/pdf/1981_trimmed/Arunachal Pradesh/tehsil appendix/1981_West Siang_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      166,
+      167,
+      168,
+      169
+    ],
+    "printed_page_labels": [
+      "150",
+      "151",
+      "152",
+      "153"
+    ],
+    "status": "Trimmed",
+    "reason": "Appendix I printed pages 150-153; source page 170 begins Appendix II.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 4,
+      "pages": [
+        {
+          "source_page": 166,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              611.76,
+              861.36
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              611.76,
+              861.36
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 167,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              611.76,
+              861.36
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              611.76,
+              861.36
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 168,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              611.76,
+              861.36
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              611.76,
+              861.36
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 169,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              611.76,
+              861.36
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              611.76,
+              861.36
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 166,
+          "output_page": 1,
+          "source_png_sha256": "28d8a2920c07edd4ed9ce3eeb8144c92c74fc37208954977f5be03c730059f54",
+          "output_png_sha256": "28d8a2920c07edd4ed9ce3eeb8144c92c74fc37208954977f5be03c730059f54",
+          "match": true
+        },
+        {
+          "source_page": 167,
+          "output_page": 2,
+          "source_png_sha256": "0356a1b9d9568de7613dc2a053429d79594bffe5043cf48b37148067057774ec",
+          "output_png_sha256": "0356a1b9d9568de7613dc2a053429d79594bffe5043cf48b37148067057774ec",
+          "match": true
+        },
+        {
+          "source_page": 168,
+          "output_page": 3,
+          "source_png_sha256": "0db46b8dc58911fbc874ae68e2088a5d119981f3df3777435afaca22c953e3c6",
+          "output_png_sha256": "0db46b8dc58911fbc874ae68e2088a5d119981f3df3777435afaca22c953e3c6",
+          "match": true
+        },
+        {
+          "source_page": 169,
+          "output_page": 4,
+          "source_png_sha256": "8d0ee670e0fa0992ce8a550891c811834e24ef03c2bee297bf4e4a1474ae6d67",
+          "output_png_sha256": "8d0ee670e0fa0992ce8a550891c811834e24ef03c2bee297bf4e4a1474ae6d67",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 4,
+      "audit_flags": []
+    }
+  }
+]

@@ -107,6 +107,7 @@ class NovitaOCRCache:
         model: str,
         prompt_version: str,
         png_sha256: str,
+        temperature: float = 0.0,
     ) -> str:
         payload = {
             "pdf_sha256": context.pdf_sha256,
@@ -116,6 +117,7 @@ class NovitaOCRCache:
             "model": model,
             "prompt": context.prompt,
             "prompt_version": prompt_version,
+            "temperature": temperature,
             "png_sha256": png_sha256,
         }
         encoded = json.dumps(payload, sort_keys=True, separators=(",", ":")).encode()
@@ -204,7 +206,13 @@ class NovitaDeepSeekOCRClient:
             )
         png = self.image_to_png(image)
         png_sha = hashlib.sha256(png).hexdigest()
-        key = self.cache.make_key(context, self.model, self.config.prompt_version, png_sha)
+        key = self.cache.make_key(
+            context,
+            self.model,
+            self.config.prompt_version,
+            png_sha,
+            self.config.transcription_temperature,
+        )
         cached = self.cache.load(key)
         if cached is not None:
             self.cache_hits += 1
@@ -377,7 +385,7 @@ class NovitaDeepSeekOCRClient:
         return {
             "model": self.model,
             "messages": messages,
-            "temperature": 0,
+            "temperature": self.config.transcription_temperature,
             "top_k": 0,
             "max_tokens": self.config.max_tokens,
         }

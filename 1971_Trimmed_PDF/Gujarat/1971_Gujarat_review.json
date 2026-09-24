@@ -1,0 +1,38 @@
+[
+  {
+    "source": "1971 Junagadh.pdf",
+    "table": "civic_amenities",
+    "status": "review",
+    "reason": "The supplied Junagadh volume is the 1971 Part C full-count/statistical publication; the requested Town Directory Statement IV/V and equivalent tehsil/taluk amenities appendix are absent."
+  },
+  {
+    "source": "39986_1971_TD.pdf",
+    "table": "civic_amenities",
+    "status": "review",
+    "reason": "The replacement Dangs source is the Gujarat Town Directory (Part VIA), not a district Part X-A/B Town/Village Directory volume; it states that The Dangs has no urban area and contains no district Statement IV/V or equivalent tehsil/taluk amenities appendix."
+  },
+  {
+    "source": "1971 Junagadh.pdf",
+    "table": "medical_educational_amenities",
+    "status": "review",
+    "reason": "The supplied Junagadh volume is the 1971 Part C full-count/statistical publication; the requested Town Directory Statement IV/V and equivalent tehsil/taluk amenities appendix are absent."
+  },
+  {
+    "source": "39986_1971_TD.pdf",
+    "table": "medical_educational_amenities",
+    "status": "review",
+    "reason": "The replacement Dangs source is the Gujarat Town Directory (Part VIA), not a district Part X-A/B Town/Village Directory volume; it states that The Dangs has no urban area and contains no district Statement IV/V or equivalent tehsil/taluk amenities appendix."
+  },
+  {
+    "source": "1971 Junagadh.pdf",
+    "table": "tehsil_appendix",
+    "status": "review",
+    "reason": "The supplied Junagadh volume is the 1971 Part C full-count/statistical publication; the requested Town Directory Statement IV/V and equivalent tehsil/taluk amenities appendix are absent."
+  },
+  {
+    "source": "39986_1971_TD.pdf",
+    "table": "tehsil_appendix",
+    "status": "review",
+    "reason": "The replacement Dangs source is the Gujarat Town Directory (Part VIA), not a district Part X-A/B Town/Village Directory volume; it states that The Dangs has no urban area and contains no district Statement IV/V or equivalent tehsil/taluk amenities appendix."
+  }
+]

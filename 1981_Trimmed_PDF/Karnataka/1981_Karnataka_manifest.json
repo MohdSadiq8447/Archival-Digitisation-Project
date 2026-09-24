@@ -1,0 +1,6034 @@
+[
+  {
+    "state": "Karnataka",
+    "source_state": "Karnataka",
+    "district": "Bangalore",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Karnataka/1981 Bangalore.pdf",
+    "source_filename": "1981 Bangalore.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 1523,
+    "output": "output/pdf/1981_trimmed/Karnataka/civic amenities/1981_Bangalore_civic_amenities.pdf",
+    "source_pages_selected": [
+      604,
+      605,
+      606,
+      607,
+      608,
+      609
+    ],
+    "printed_page_labels": [
+      "518",
+      "519",
+      null,
+      null,
+      "522",
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement IV Civic and Other Amenities, including the paired civic and other-amenities continuation pages; source page 610 begins Statement IV-A.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 6,
+      "pages": [
+        {
+          "source_page": 604,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              636.24,
+              868.08
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              636.24,
+              868.08
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 605,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              636.24,
+              868.08
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              636.24,
+              868.08
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 606,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              636.24,
+              868.08
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              636.24,
+              868.08
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 607,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              636.24,
+              868.08
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              636.24,
+              868.08
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 608,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              636.24,
+              868.08
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              636.24,
+              868.08
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 609,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              636.24,
+              868.08
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              636.24,
+              868.08
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 604,
+          "output_page": 1,
+          "source_png_sha256": "2e7488a29cac9494d3e41ec22975dce6da7d464a98dd35f8cc8b894691975dd9",
+          "output_png_sha256": "2e7488a29cac9494d3e41ec22975dce6da7d464a98dd35f8cc8b894691975dd9",
+          "match": true
+        },
+        {
+          "source_page": 605,
+          "output_page": 2,
+          "source_png_sha256": "e82a295141233ba71614d5e0ec2257551497541cafc02da8cfcc53d508671bf5",
+          "output_png_sha256": "e82a295141233ba71614d5e0ec2257551497541cafc02da8cfcc53d508671bf5",
+          "match": true
+        },
+        {
+          "source_page": 606,
+          "output_page": 3,
+          "source_png_sha256": "951eef2c6409c9ded0a6a703ef040174d340e35b731b3b52405b22813080b1d4",
+          "output_png_sha256": "951eef2c6409c9ded0a6a703ef040174d340e35b731b3b52405b22813080b1d4",
+          "match": true
+        },
+        {
+          "source_page": 607,
+          "output_page": 4,
+          "source_png_sha256": "246ca7432da48054d4cf97107a1d8187c3818abcf1447d558fa509ddb6fcd2dc",
+          "output_png_sha256": "246ca7432da48054d4cf97107a1d8187c3818abcf1447d558fa509ddb6fcd2dc",
+          "match": true
+        },
+        {
+          "source_page": 608,
+          "output_page": 5,
+          "source_png_sha256": "aaa2f44ddc08489f70bf499432cf42ccee97dd0a8635f3d95bb046dc9b9558e6",
+          "output_png_sha256": "aaa2f44ddc08489f70bf499432cf42ccee97dd0a8635f3d95bb046dc9b9558e6",
+          "match": true
+        },
+        {
+          "source_page": 609,
+          "output_page": 6,
+          "source_png_sha256": "19618056d9c2d5561c66c33bf8258672fb7187de1dc25b6aae83733d3c2abc7f",
+          "output_png_sha256": "19618056d9c2d5561c66c33bf8258672fb7187de1dc25b6aae83733d3c2abc7f",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 6,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Karnataka",
+    "source_state": "Karnataka",
+    "district": "Bangalore",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Karnataka/1981 Bangalore.pdf",
+    "source_filename": "1981 Bangalore.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 1523,
+    "output": "output/pdf/1981_trimmed/Karnataka/mededu/1981_Bangalore_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      620,
+      621,
+      622,
+      623,
+      624,
+      625,
+      626,
+      627,
+      628,
+      629
+    ],
+    "printed_page_labels": [
+      "534",
+      null,
+      null,
+      "537",
+      "538",
+      "539",
+      "540",
+      null,
+      "542",
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement V Medical, Educational, Recreational and Cultural Facilities, including all continuation columns; source page 630 begins Statement VI.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 10,
+      "pages": [
+        {
+          "source_page": 620,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              636.24,
+              868.08
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              636.24,
+              868.08
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 621,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              636.24,
+              868.08
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              636.24,
+              868.08
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 622,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              636.24,
+              868.08
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              636.24,
+              868.08
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 623,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              636.24,
+              868.08
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              636.24,
+              868.08
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 624,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              636.24,
+              868.08
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              636.24,
+              868.08
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 625,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              636.24,
+              868.08
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              636.24,
+              868.08
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 626,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              636.24,
+              868.08
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              636.24,
+              868.08
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 627,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              636.24,
+              868.08
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              636.24,
+              868.08
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 628,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              636.24,
+              868.08
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              636.24,
+              868.08
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 629,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              636.24,
+              868.08
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              636.24,
+              868.08
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 620,
+          "output_page": 1,
+          "source_png_sha256": "899718ead8cd04e5294044a9fabe1f2043c8a7bd045ad4720d14361f5e824856",
+          "output_png_sha256": "899718ead8cd04e5294044a9fabe1f2043c8a7bd045ad4720d14361f5e824856",
+          "match": true
+        },
+        {
+          "source_page": 621,
+          "output_page": 2,
+          "source_png_sha256": "650b40cf217014cc6ebda1cb5fb9770747db6adaa4986dd572b279ef5a41e1a2",
+          "output_png_sha256": "650b40cf217014cc6ebda1cb5fb9770747db6adaa4986dd572b279ef5a41e1a2",
+          "match": true
+        },
+        {
+          "source_page": 622,
+          "output_page": 3,
+          "source_png_sha256": "ec00ca745cb4aa6235dae4e29cb73415d979a1203a830d86b1df95aab1814b13",
+          "output_png_sha256": "ec00ca745cb4aa6235dae4e29cb73415d979a1203a830d86b1df95aab1814b13",
+          "match": true
+        },
+        {
+          "source_page": 623,
+          "output_page": 4,
+          "source_png_sha256": "bc347f3c30eaf0d87e2f4fa01886cc6d9c2a703eb1e22d0e6d2fa57a9648bf06",
+          "output_png_sha256": "bc347f3c30eaf0d87e2f4fa01886cc6d9c2a703eb1e22d0e6d2fa57a9648bf06",
+          "match": true
+        },
+        {
+          "source_page": 624,
+          "output_page": 5,
+          "source_png_sha256": "b927b5d031ebc0c3491c8b13ffd5d7df504e14d3c71f8bbf7a5e3bef74030868",
+          "output_png_sha256": "b927b5d031ebc0c3491c8b13ffd5d7df504e14d3c71f8bbf7a5e3bef74030868",
+          "match": true
+        },
+        {
+          "source_page": 625,
+          "output_page": 6,
+          "source_png_sha256": "5a0c66bca6504e1ec69bfb51a1a3896c25b26ee1643119a5e8eabd6b2c3cde16",
+          "output_png_sha256": "5a0c66bca6504e1ec69bfb51a1a3896c25b26ee1643119a5e8eabd6b2c3cde16",
+          "match": true
+        },
+        {
+          "source_page": 626,
+          "output_page": 7,
+          "source_png_sha256": "d96f45f5fc0dd024e33a869191682d141e621b61e87c3cc1d110af2304d99ed8",
+          "output_png_sha256": "d96f45f5fc0dd024e33a869191682d141e621b61e87c3cc1d110af2304d99ed8",
+          "match": true
+        },
+        {
+          "source_page": 627,
+          "output_page": 8,
+          "source_png_sha256": "f04bd6bbf92e7d618ecc91f9ab0b30705613ca4008040ec51c2d06690049d0ad",
+          "output_png_sha256": "f04bd6bbf92e7d618ecc91f9ab0b30705613ca4008040ec51c2d06690049d0ad",
+          "match": true
+        },
+        {
+          "source_page": 628,
+          "output_page": 9,
+          "source_png_sha256": "46f7c416eb4b523491ef37dee333ec84185c8c70fb921171940f576b446ec85a",
+          "output_png_sha256": "46f7c416eb4b523491ef37dee333ec84185c8c70fb921171940f576b446ec85a",
+          "match": true
+        },
+        {
+          "source_page": 629,
+          "output_page": 10,
+          "source_png_sha256": "f16779863440d526769c069f6b548a238e88882cc550266a348ab07b16473030",
+          "output_png_sha256": "f16779863440d526769c069f6b548a238e88882cc550266a348ab07b16473030",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 10,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Karnataka",
+    "source_state": "Karnataka",
+    "district": "Bangalore",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Karnataka/1981 Bangalore.pdf",
+    "source_filename": "1981 Bangalore.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 1523,
+    "output": "output/pdf/1981_trimmed/Karnataka/tehsil appendix/1981_Bangalore_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      560,
+      561,
+      562,
+      563
+    ],
+    "printed_page_labels": [
+      "474",
+      "475",
+      "476",
+      "477"
+    ],
+    "status": "Trimmed",
+    "reason": "Village Directory Appendix I, Taluk-wise Abstract of Educational, Medical and Other Amenities; source pages 562-563 carry the end of the appendix with the next appendix material also entering the full source pages, and source page 564 begins Appendix III.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 4,
+      "pages": [
+        {
+          "source_page": 560,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              636.24,
+              868.08
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              636.24,
+              868.08
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 561,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              636.24,
+              868.08
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              636.24,
+              868.08
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 562,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              636.24,
+              868.08
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              636.24,
+              868.08
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 563,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              636.24,
+              868.08
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              636.24,
+              868.08
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 560,
+          "output_page": 1,
+          "source_png_sha256": "784fdab63d23c10df7ae63a0f507d7b0f57fd5c7bb24b2e7e5287c49aadc3ad6",
+          "output_png_sha256": "784fdab63d23c10df7ae63a0f507d7b0f57fd5c7bb24b2e7e5287c49aadc3ad6",
+          "match": true
+        },
+        {
+          "source_page": 561,
+          "output_page": 2,
+          "source_png_sha256": "28965ed1fdb9f9f16e3ead817bf6141d4a953e108deeeef30fd62a0332aaca28",
+          "output_png_sha256": "28965ed1fdb9f9f16e3ead817bf6141d4a953e108deeeef30fd62a0332aaca28",
+          "match": true
+        },
+        {
+          "source_page": 562,
+          "output_page": 3,
+          "source_png_sha256": "ca9043f5d949b368760b6bd77bf3b7c57fa23c7adff2b05873c01e53c63448bc",
+          "output_png_sha256": "ca9043f5d949b368760b6bd77bf3b7c57fa23c7adff2b05873c01e53c63448bc",
+          "match": true
+        },
+        {
+          "source_page": 563,
+          "output_page": 4,
+          "source_png_sha256": "6dc83f4cf1761b4ad5b969c0f8318e9cdadb2380e76c51b6c18877b3c98660bc",
+          "output_png_sha256": "6dc83f4cf1761b4ad5b969c0f8318e9cdadb2380e76c51b6c18877b3c98660bc",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 4,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Karnataka",
+    "source_state": "Karnataka",
+    "district": "Belgaum",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Karnataka/1981 Belgaum.pdf",
+    "source_filename": "1981 Belgaum.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 464,
+    "output": "output/pdf/1981_trimmed/Karnataka/civic amenities/1981_Belgaum_civic_amenities.pdf",
+    "source_pages_selected": [
+      223,
+      224,
+      225,
+      226
+    ],
+    "printed_page_labels": [
+      "210",
+      null,
+      "212",
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement IV Civic and Other Amenities, including both civic and other-amenities continuation pages; source page 227 begins Statement V.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 4,
+      "pages": [
+        {
+          "source_page": 223,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              602.4,
+              850.8
+            ],
+            "cropbox": [
+              0.0,
+              8.9102,
+              595.276,
+              850.8
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 224,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              602.4,
+              850.8
+            ],
+            "cropbox": [
+              0.0,
+              8.9102,
+              595.276,
+              850.8
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 225,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              602.4,
+              850.8
+            ],
+            "cropbox": [
+              0.0,
+              8.9102,
+              595.276,
+              850.8
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 226,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              602.4,
+              850.8
+            ],
+            "cropbox": [
+              0.0,
+              8.9102,
+              595.276,
+              850.8
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 223,
+          "output_page": 1,
+          "source_png_sha256": "9bcfa4ddf0f3dd2c215800eaaff6d2f2c3a31a0f886ecd4af2f5f9dd8da5df5b",
+          "output_png_sha256": "9bcfa4ddf0f3dd2c215800eaaff6d2f2c3a31a0f886ecd4af2f5f9dd8da5df5b",
+          "match": true
+        },
+        {
+          "source_page": 224,
+          "output_page": 2,
+          "source_png_sha256": "a2a8abbe633cf7d7fc0e8c142cc9b4cbf3b442ecb2f73006d011d348711b69ba",
+          "output_png_sha256": "a2a8abbe633cf7d7fc0e8c142cc9b4cbf3b442ecb2f73006d011d348711b69ba",
+          "match": true
+        },
+        {
+          "source_page": 225,
+          "output_page": 3,
+          "source_png_sha256": "139be56e0e5261096b042fe4371ea8de212737570c03e612cac8839759d7af76",
+          "output_png_sha256": "139be56e0e5261096b042fe4371ea8de212737570c03e612cac8839759d7af76",
+          "match": true
+        },
+        {
+          "source_page": 226,
+          "output_page": 4,
+          "source_png_sha256": "d8bfa4b794e60969ca579b218cd9339ade4790e74dadee13ac285f8d9b2e33c6",
+          "output_png_sha256": "d8bfa4b794e60969ca579b218cd9339ade4790e74dadee13ac285f8d9b2e33c6",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 4,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Karnataka",
+    "source_state": "Karnataka",
+    "district": "Belgaum",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Karnataka/1981 Belgaum.pdf",
+    "source_filename": "1981 Belgaum.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 464,
+    "output": "output/pdf/1981_trimmed/Karnataka/mededu/1981_Belgaum_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      227,
+      228,
+      229,
+      230
+    ],
+    "printed_page_labels": [
+      "214",
+      "215",
+      "216",
+      "217"
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement V Medical, Educational, Recreational and Cultural Facilities, including the continuation and conclusion pages; source page 231 begins Statement VI.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 4,
+      "pages": [
+        {
+          "source_page": 227,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              602.4,
+              850.8
+            ],
+            "cropbox": [
+              0.0,
+              8.9102,
+              595.276,
+              850.8
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 228,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              602.4,
+              850.8
+            ],
+            "cropbox": [
+              0.0,
+              8.9102,
+              595.276,
+              850.8
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 229,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              602.4,
+              850.8
+            ],
+            "cropbox": [
+              0.0,
+              8.9102,
+              595.276,
+              850.8
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 230,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              602.4,
+              850.8
+            ],
+            "cropbox": [
+              0.0,
+              8.9102,
+              595.276,
+              850.8
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 227,
+          "output_page": 1,
+          "source_png_sha256": "bf5255011e17755c9ebded559892f0ebc594070cd41a19e47f83f17ed65113fe",
+          "output_png_sha256": "bf5255011e17755c9ebded559892f0ebc594070cd41a19e47f83f17ed65113fe",
+          "match": true
+        },
+        {
+          "source_page": 228,
+          "output_page": 2,
+          "source_png_sha256": "bf173fa18f14f12e67581af6ff29f5f3b4df8d8e15f3857b6cd08447ce7d672f",
+          "output_png_sha256": "bf173fa18f14f12e67581af6ff29f5f3b4df8d8e15f3857b6cd08447ce7d672f",
+          "match": true
+        },
+        {
+          "source_page": 229,
+          "output_page": 3,
+          "source_png_sha256": "19010879a2faa8a863e4ab4057fc5a67c0b923a6d1d4c9c58cdbb55196db439b",
+          "output_png_sha256": "19010879a2faa8a863e4ab4057fc5a67c0b923a6d1d4c9c58cdbb55196db439b",
+          "match": true
+        },
+        {
+          "source_page": 230,
+          "output_page": 4,
+          "source_png_sha256": "41f3dba392594386cf2588378d5adc84a1ea6de77c5b96def2240733d295b573",
+          "output_png_sha256": "41f3dba392594386cf2588378d5adc84a1ea6de77c5b96def2240733d295b573",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 4,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Karnataka",
+    "source_state": "Karnataka",
+    "district": "Belgaum",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Karnataka/1981 Belgaum.pdf",
+    "source_filename": "1981 Belgaum.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 464,
+    "output": "output/pdf/1981_trimmed/Karnataka/tehsil appendix/1981_Belgaum_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      201,
+      202,
+      203,
+      204
+    ],
+    "printed_page_labels": [
+      "188",
+      null,
+      "190",
+      "191"
+    ],
+    "status": "Trimmed",
+    "reason": "Village Directory Appendix I, Taluk-wise Abstract of Educational, Medical and Other Amenities; source pages 203-204 also carry the beginning of Appendix II material on the full source pages, and source page 205 begins Appendix III.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 4,
+      "pages": [
+        {
+          "source_page": 201,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              602.4,
+              850.8
+            ],
+            "cropbox": [
+              0.0,
+              8.9102,
+              595.276,
+              850.8
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 202,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              602.4,
+              850.8
+            ],
+            "cropbox": [
+              0.0,
+              8.9102,
+              595.276,
+              850.8
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 203,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              602.4,
+              850.8
+            ],
+            "cropbox": [
+              0.0,
+              8.9102,
+              595.276,
+              850.8
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 204,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              602.4,
+              850.8
+            ],
+            "cropbox": [
+              0.0,
+              8.9102,
+              595.276,
+              850.8
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 201,
+          "output_page": 1,
+          "source_png_sha256": "9b267311e14ed3dbba1c81e2cc9b119458954e9426dbcee07e239a8d8e6d1234",
+          "output_png_sha256": "9b267311e14ed3dbba1c81e2cc9b119458954e9426dbcee07e239a8d8e6d1234",
+          "match": true
+        },
+        {
+          "source_page": 202,
+          "output_page": 2,
+          "source_png_sha256": "8195fae5db1f694ca9b8114e650f000e833cca33210e248df85ef531bfacbbdb",
+          "output_png_sha256": "8195fae5db1f694ca9b8114e650f000e833cca33210e248df85ef531bfacbbdb",
+          "match": true
+        },
+        {
+          "source_page": 203,
+          "output_page": 3,
+          "source_png_sha256": "f28248a90bd102b94c83eb7d0f1c2836ab4f5e42916aa71d327da20d7cb212cf",
+          "output_png_sha256": "f28248a90bd102b94c83eb7d0f1c2836ab4f5e42916aa71d327da20d7cb212cf",
+          "match": true
+        },
+        {
+          "source_page": 204,
+          "output_page": 4,
+          "source_png_sha256": "c089431d1e13c1d5b2274f0effaab2960b0d66e6d853df53607f6e44b9b4e2bf",
+          "output_png_sha256": "c089431d1e13c1d5b2274f0effaab2960b0d66e6d853df53607f6e44b9b4e2bf",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 4,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Karnataka",
+    "source_state": "Karnataka",
+    "district": "Bellary",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Karnataka/1981 Bellary.pdf",
+    "source_filename": "1981 Bellary.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 377,
+    "output": "output/pdf/1981_trimmed/Karnataka/civic amenities/1981_Bellary_civic_amenities.pdf",
+    "source_pages_selected": [
+      170,
+      171
+    ],
+    "printed_page_labels": [
+      "154",
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement IV Civic and Other Amenities; source page 172 begins the separate Statement IV-A slum table.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 170,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              657.84,
+              912.48
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              657.84,
+              912.48
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 171,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              657.84,
+              912.48
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              657.84,
+              912.48
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 170,
+          "output_page": 1,
+          "source_png_sha256": "96956f60d05e37f5ac736ec75c4f78ff52df689e0360a28647d9c014df3f5f7a",
+          "output_png_sha256": "96956f60d05e37f5ac736ec75c4f78ff52df689e0360a28647d9c014df3f5f7a",
+          "match": true
+        },
+        {
+          "source_page": 171,
+          "output_page": 2,
+          "source_png_sha256": "527f61e9940b6eb47d2516f04f20dd1e404884474e824d294f0a8163e3a3f77d",
+          "output_png_sha256": "527f61e9940b6eb47d2516f04f20dd1e404884474e824d294f0a8163e3a3f77d",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Karnataka",
+    "source_state": "Karnataka",
+    "district": "Bellary",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Karnataka/1981 Bellary.pdf",
+    "source_filename": "1981 Bellary.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 377,
+    "output": "output/pdf/1981_trimmed/Karnataka/mededu/1981_Bellary_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      174,
+      175,
+      176,
+      177
+    ],
+    "printed_page_labels": [
+      "158",
+      "1979",
+      null,
+      "161"
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement V Medical, Educational, Recreational and Cultural Facilities, including all continuation pages; source page 178 begins Statement VI.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 4,
+      "pages": [
+        {
+          "source_page": 174,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              657.84,
+              912.48
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              657.84,
+              912.48
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 175,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              657.84,
+              912.48
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              657.84,
+              912.48
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 176,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              657.84,
+              912.48
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              657.84,
+              912.48
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 177,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              657.84,
+              912.48
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              657.84,
+              912.48
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 174,
+          "output_page": 1,
+          "source_png_sha256": "4352c80d604ea02072bc9c9e7e81f138c14b10ccc8d46a4bad7f31daae44e5c9",
+          "output_png_sha256": "4352c80d604ea02072bc9c9e7e81f138c14b10ccc8d46a4bad7f31daae44e5c9",
+          "match": true
+        },
+        {
+          "source_page": 175,
+          "output_page": 2,
+          "source_png_sha256": "e0a11418af9309a1ab72aa1b4bd9a1063f31577ecfd53d93092cfced488768e0",
+          "output_png_sha256": "e0a11418af9309a1ab72aa1b4bd9a1063f31577ecfd53d93092cfced488768e0",
+          "match": true
+        },
+        {
+          "source_page": 176,
+          "output_page": 3,
+          "source_png_sha256": "1c23e5f15f2b60216a551ffc0082e2abde98b735bca4f9f938cafd1a36f18436",
+          "output_png_sha256": "1c23e5f15f2b60216a551ffc0082e2abde98b735bca4f9f938cafd1a36f18436",
+          "match": true
+        },
+        {
+          "source_page": 177,
+          "output_page": 4,
+          "source_png_sha256": "7c1f20a3eaa6c0ef9d113db29cb0f652c0da19edb1216e93afb5ed7bea0c65f8",
+          "output_png_sha256": "7c1f20a3eaa6c0ef9d113db29cb0f652c0da19edb1216e93afb5ed7bea0c65f8",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 4,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Karnataka",
+    "source_state": "Karnataka",
+    "district": "Bellary",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Karnataka/1981 Bellary.pdf",
+    "source_filename": "1981 Bellary.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 377,
+    "output": "output/pdf/1981_trimmed/Karnataka/tehsil appendix/1981_Bellary_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      148,
+      149,
+      150,
+      151
+    ],
+    "printed_page_labels": [
+      null,
+      null,
+      "134",
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Village Directory Appendix I, Taluk-wise Abstract of Educational, Medical and Other Amenities; source page 150 also begins Appendix II at the page boundary, source page 151 completes the communications continuation, and source page 152 begins Appendix III.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 4,
+      "pages": [
+        {
+          "source_page": 148,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              986.76,
+              1368.72
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              986.76,
+              1368.72
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 149,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              986.76,
+              1368.72
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              986.76,
+              1368.72
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 150,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              986.76,
+              1368.72
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              986.76,
+              1368.72
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 151,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              986.76,
+              1368.72
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              986.76,
+              1368.72
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 148,
+          "output_page": 1,
+          "source_png_sha256": "4e557025cf7ede93fbbcb05b70dca27cbf1700357c89fe550bd55596cc99d164",
+          "output_png_sha256": "4e557025cf7ede93fbbcb05b70dca27cbf1700357c89fe550bd55596cc99d164",
+          "match": true
+        },
+        {
+          "source_page": 149,
+          "output_page": 2,
+          "source_png_sha256": "2a6ae790725cb6b9f02c0c31d72b796f3a1ac469e97228abd626518b0b18c73a",
+          "output_png_sha256": "2a6ae790725cb6b9f02c0c31d72b796f3a1ac469e97228abd626518b0b18c73a",
+          "match": true
+        },
+        {
+          "source_page": 150,
+          "output_page": 3,
+          "source_png_sha256": "518d424cbfd88d97a7e1b83c0c2e7c2a7128f9b3588b0f30d56ff521b22668cf",
+          "output_png_sha256": "518d424cbfd88d97a7e1b83c0c2e7c2a7128f9b3588b0f30d56ff521b22668cf",
+          "match": true
+        },
+        {
+          "source_page": 151,
+          "output_page": 4,
+          "source_png_sha256": "8c8e42cd2372e09c990f18746794eee63013d5e2faa4e0fd50c1d5683fd11101",
+          "output_png_sha256": "8c8e42cd2372e09c990f18746794eee63013d5e2faa4e0fd50c1d5683fd11101",
+          "match": true
+        }
+      ],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 4,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Karnataka",
+    "source_state": "Karnataka",
+    "district": "Bidar",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Karnataka/1981 Bidar.pdf",
+    "source_filename": "1981 Bidar.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 48,
+    "output": null,
+    "source_pages_selected": [],
+    "printed_page_labels": [],
+    "status": "Not trimmed",
+    "reason": "The 48-page volume is a Scheduled Castes and Scheduled Tribes supplement, not the main Village and Town Directory volume; it contains no Civic Statement IV.",
+    "flags": [
+      "manual_absent_or_ineligible"
+    ],
+    "verification": null
+  },
+  {
+    "state": "Karnataka",
+    "source_state": "Karnataka",
+    "district": "Bidar",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Karnataka/1981 Bidar.pdf",
+    "source_filename": "1981 Bidar.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 48,
+    "output": null,
+    "source_pages_selected": [],
+    "printed_page_labels": [],
+    "status": "Not trimmed",
+    "reason": "The 48-page volume is a Scheduled Castes and Scheduled Tribes supplement, not the main Village and Town Directory volume; it contains no Medical, Educational, Recreational and Cultural Statement V.",
+    "flags": [
+      "manual_absent_or_ineligible"
+    ],
+    "verification": null
+  },
+  {
+    "state": "Karnataka",
+    "source_state": "Karnataka",
+    "district": "Bidar",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Karnataka/1981 Bidar.pdf",
+    "source_filename": "1981 Bidar.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 48,
+    "output": null,
+    "source_pages_selected": [],
+    "printed_page_labels": [],
+    "status": "Not trimmed",
+    "reason": "The 48-page volume is a Scheduled Castes and Scheduled Tribes supplement, not the main Village Directory volume; its contents contain no administrative-unit amenities appendix.",
+    "flags": [
+      "manual_absent_or_ineligible"
+    ],
+    "verification": null
+  },
+  {
+    "state": "Karnataka",
+    "source_state": "Karnataka",
+    "district": "Bijapur",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Karnataka/1981 Bijapur.pdf",
+    "source_filename": "1981 Bijapur.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 639,
+    "output": "output/pdf/1981_trimmed/Karnataka/civic amenities/1981_Bijapur_civic_amenities.pdf",
+    "source_pages_selected": [
+      322,
+      323
+    ],
+    "printed_page_labels": [
+      null,
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement IV Civic and Other Amenities; source page 324 begins Statement IV-A.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 322,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              644.64,
+              863.52
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              644.64,
+              863.52
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 323,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              644.64,
+              863.52
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              644.64,
+              863.52
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 322,
+          "output_page": 1,
+          "source_png_sha256": "0ac2a99203a8cf5a97b1a1ce5f935ca2f46b6c9297a2759d61a2c30689f10427",
+          "output_png_sha256": "0ac2a99203a8cf5a97b1a1ce5f935ca2f46b6c9297a2759d61a2c30689f10427",
+          "match": true
+        },
+        {
+          "source_page": 323,
+          "output_page": 2,
+          "source_png_sha256": "cb59772f9a1b13565f109b5e459376131ac418970fd402f8de484b34517f38d0",
+          "output_png_sha256": "cb59772f9a1b13565f109b5e459376131ac418970fd402f8de484b34517f38d0",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Karnataka",
+    "source_state": "Karnataka",
+    "district": "Bijapur",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Karnataka/1981 Bijapur.pdf",
+    "source_filename": "1981 Bijapur.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 639,
+    "output": "output/pdf/1981_trimmed/Karnataka/mededu/1981_Bijapur_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      326,
+      327,
+      328,
+      329
+    ],
+    "printed_page_labels": [
+      null,
+      null,
+      null,
+      "1979"
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement V Medical, Educational, Recreational and Cultural Facilities, including all continuation and conclusion pages; source page 330 begins Statement VI.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 4,
+      "pages": [
+        {
+          "source_page": 326,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              644.64,
+              863.52
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              644.64,
+              863.52
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 327,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              644.64,
+              863.52
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              644.64,
+              863.52
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 328,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              644.64,
+              863.52
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              644.64,
+              863.52
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 329,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              644.64,
+              863.52
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              644.64,
+              863.52
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 326,
+          "output_page": 1,
+          "source_png_sha256": "e8422075d03d8418e19a86969454711a8b33a262d4f03e838b23d2f3b7ed9c2b",
+          "output_png_sha256": "e8422075d03d8418e19a86969454711a8b33a262d4f03e838b23d2f3b7ed9c2b",
+          "match": true
+        },
+        {
+          "source_page": 327,
+          "output_page": 2,
+          "source_png_sha256": "5ae83e4c3cdfde75b948f757b08e0c1176b5badba3e6e59c78f17f5cf3b35cca",
+          "output_png_sha256": "5ae83e4c3cdfde75b948f757b08e0c1176b5badba3e6e59c78f17f5cf3b35cca",
+          "match": true
+        },
+        {
+          "source_page": 328,
+          "output_page": 3,
+          "source_png_sha256": "72a3cfb1c2ea91b3f3d3425761f9259dd553e06e0a1ee92c2adb00f333eb2e3f",
+          "output_png_sha256": "72a3cfb1c2ea91b3f3d3425761f9259dd553e06e0a1ee92c2adb00f333eb2e3f",
+          "match": true
+        },
+        {
+          "source_page": 329,
+          "output_page": 4,
+          "source_png_sha256": "da0536960297f06bfe86fb996a0e592ac39c09363b1be716a94c70b1c94adefd",
+          "output_png_sha256": "da0536960297f06bfe86fb996a0e592ac39c09363b1be716a94c70b1c94adefd",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 4,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Karnataka",
+    "source_state": "Karnataka",
+    "district": "Bijapur",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Karnataka/1981 Bijapur.pdf",
+    "source_filename": "1981 Bijapur.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 639,
+    "output": "output/pdf/1981_trimmed/Karnataka/tehsil appendix/1981_Bijapur_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      298,
+      299,
+      300,
+      301
+    ],
+    "printed_page_labels": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Village Directory Appendix I, Taluk-wise Abstract of Educational, Medical and Other Amenities; source page 302 begins Appendix III.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 4,
+      "pages": [
+        {
+          "source_page": 298,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              644.64,
+              863.52
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              644.64,
+              863.52
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 299,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              644.64,
+              863.52
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              644.64,
+              863.52
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 300,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              644.64,
+              863.52
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              644.64,
+              863.52
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 301,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              644.64,
+              863.52
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              644.64,
+              863.52
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 298,
+          "output_page": 1,
+          "source_png_sha256": "938027efabdc33755f157ef98a7afe6d07909294045c4861d30e89c35362062b",
+          "output_png_sha256": "938027efabdc33755f157ef98a7afe6d07909294045c4861d30e89c35362062b",
+          "match": true
+        },
+        {
+          "source_page": 299,
+          "output_page": 2,
+          "source_png_sha256": "64ca8f3a8c3a28dc954a3a54b32d53d00b3373afd78c0fc2c5482e72956ebe1c",
+          "output_png_sha256": "64ca8f3a8c3a28dc954a3a54b32d53d00b3373afd78c0fc2c5482e72956ebe1c",
+          "match": true
+        },
+        {
+          "source_page": 300,
+          "output_page": 3,
+          "source_png_sha256": "74b12ef1f2e83dbf6d7044ea420caaee259e002f50b8f461805f1444ffcb4a40",
+          "output_png_sha256": "74b12ef1f2e83dbf6d7044ea420caaee259e002f50b8f461805f1444ffcb4a40",
+          "match": true
+        },
+        {
+          "source_page": 301,
+          "output_page": 4,
+          "source_png_sha256": "6f5c31daf333ef9a134ee411e33956bf65ce89693d3fe607634bf1f102d8e505",
+          "output_png_sha256": "6f5c31daf333ef9a134ee411e33956bf65ce89693d3fe607634bf1f102d8e505",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 4,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Karnataka",
+    "source_state": "Karnataka",
+    "district": "Chikmagalur",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Karnataka/1981 Chikmagalur.pdf",
+    "source_filename": "1981 Chikmagalur.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 359,
+    "output": "output/pdf/1981_trimmed/Karnataka/civic amenities/1981_Chikmagalur_civic_amenities.pdf",
+    "source_pages_selected": [
+      198,
+      199
+    ],
+    "printed_page_labels": [
+      "1110",
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement IV Civic and Other Amenities; source page 200 begins Statement IV-A.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 198,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              640.08,
+              859.68
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              640.08,
+              859.68
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 199,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              640.08,
+              859.68
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              640.08,
+              859.68
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 198,
+          "output_page": 1,
+          "source_png_sha256": "1e5c59c476e74c94fa7278024d038259986e354277bae9d06d188dad6c0d9874",
+          "output_png_sha256": "1e5c59c476e74c94fa7278024d038259986e354277bae9d06d188dad6c0d9874",
+          "match": true
+        },
+        {
+          "source_page": 199,
+          "output_page": 2,
+          "source_png_sha256": "3e5db66766d323334570812f6d57970db8abb13e40e74b2dd528e598f33186f5",
+          "output_png_sha256": "3e5db66766d323334570812f6d57970db8abb13e40e74b2dd528e598f33186f5",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Karnataka",
+    "source_state": "Karnataka",
+    "district": "Chikmagalur",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Karnataka/1981 Chikmagalur.pdf",
+    "source_filename": "1981 Chikmagalur.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 359,
+    "output": "output/pdf/1981_trimmed/Karnataka/mededu/1981_Chikmagalur_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      200,
+      201,
+      202,
+      203
+    ],
+    "printed_page_labels": [
+      "192",
+      "183",
+      null,
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement V Medical, Educational, Recreational and Cultural Facilities begins at the foot of source page 200, continues on source pages 201-202, and concludes on source page 203; the same full pages also contain adjacent IV-A or Statement VI material.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 4,
+      "pages": [
+        {
+          "source_page": 200,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              640.08,
+              859.68
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              640.08,
+              859.68
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 201,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              640.08,
+              859.68
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              640.08,
+              859.68
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 202,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              640.08,
+              859.68
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              640.08,
+              859.68
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 203,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              640.08,
+              859.68
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              640.08,
+              859.68
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 200,
+          "output_page": 1,
+          "source_png_sha256": "9cd76c26007d3e85f1da51dbfde5c8424d6267fcee5c84021b7a58f74ef288ae",
+          "output_png_sha256": "9cd76c26007d3e85f1da51dbfde5c8424d6267fcee5c84021b7a58f74ef288ae",
+          "match": true
+        },
+        {
+          "source_page": 201,
+          "output_page": 2,
+          "source_png_sha256": "f9469aba8e6401a47571566f68dc224aa4c1a60291a86dab203f92aadb3e038f",
+          "output_png_sha256": "f9469aba8e6401a47571566f68dc224aa4c1a60291a86dab203f92aadb3e038f",
+          "match": true
+        },
+        {
+          "source_page": 202,
+          "output_page": 3,
+          "source_png_sha256": "adc359323683e83e633bdee49d6b64d159e4b44a6bb8adc96b85a11d8b251d99",
+          "output_png_sha256": "adc359323683e83e633bdee49d6b64d159e4b44a6bb8adc96b85a11d8b251d99",
+          "match": true
+        },
+        {
+          "source_page": 203,
+          "output_page": 4,
+          "source_png_sha256": "0913f9cdf4a83e9ee8de01a3ae3ee50798127cd4fc0feb91f11458a95439c2ea",
+          "output_png_sha256": "0913f9cdf4a83e9ee8de01a3ae3ee50798127cd4fc0feb91f11458a95439c2ea",
+          "match": true
+        }
+      ],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 4,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Karnataka",
+    "source_state": "Karnataka",
+    "district": "Chikmagalur",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Karnataka/1981 Chikmagalur.pdf",
+    "source_filename": "1981 Chikmagalur.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 359,
+    "output": "output/pdf/1981_trimmed/Karnataka/tehsil appendix/1981_Chikmagalur_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      176,
+      177
+    ],
+    "printed_page_labels": [
+      "160",
+      "161"
+    ],
+    "status": "Trimmed",
+    "reason": "Village Directory Appendix I, Taluk-wise Abstract of Educational, Medical and Other Amenities; source page 178 begins Appendix III.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 176,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              640.08,
+              859.68
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              640.08,
+              859.68
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 177,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              640.08,
+              859.68
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              640.08,
+              859.68
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 176,
+          "output_page": 1,
+          "source_png_sha256": "6f38f6eef35db2b96af0e045ab71593df8354c148938c724ab1bc78dc0414ec0",
+          "output_png_sha256": "6f38f6eef35db2b96af0e045ab71593df8354c148938c724ab1bc78dc0414ec0",
+          "match": true
+        },
+        {
+          "source_page": 177,
+          "output_page": 2,
+          "source_png_sha256": "c3c2cad93059fe97b3eaea610438fdb48fd1e4f66250afbf2f3b606c2733d071",
+          "output_png_sha256": "c3c2cad93059fe97b3eaea610438fdb48fd1e4f66250afbf2f3b606c2733d071",
+          "match": true
+        }
+      ],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Karnataka",
+    "source_state": "Karnataka",
+    "district": "Chitradurga",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Karnataka/1981 Chitradurga.pdf",
+    "source_filename": "1981 Chitradurga.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 631,
+    "output": "output/pdf/1981_trimmed/Karnataka/civic amenities/1981_Chitradurga_civic_amenities.pdf",
+    "source_pages_selected": [
+      324,
+      325
+    ],
+    "printed_page_labels": [
+      "304",
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement IV Civic and Other Amenities; source page 325 also carries the beginning of Statement IV-A on the full source page, and source page 326 begins Statement V.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 324,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              631.2,
+              875.04
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              631.2,
+              875.04
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 325,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              631.2,
+              875.04
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              631.2,
+              875.04
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 324,
+          "output_page": 1,
+          "source_png_sha256": "748e9c7db9d914c4c6f2bf8617b8d238e1dfed910aa81b24430156bbe4f09fd8",
+          "output_png_sha256": "748e9c7db9d914c4c6f2bf8617b8d238e1dfed910aa81b24430156bbe4f09fd8",
+          "match": true
+        },
+        {
+          "source_page": 325,
+          "output_page": 2,
+          "source_png_sha256": "8ebce9e70ffcd7f010ffe88beb7ad2e296b89010ff65890a6db7c3b2bcd729c9",
+          "output_png_sha256": "8ebce9e70ffcd7f010ffe88beb7ad2e296b89010ff65890a6db7c3b2bcd729c9",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Karnataka",
+    "source_state": "Karnataka",
+    "district": "Chitradurga",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Karnataka/1981 Chitradurga.pdf",
+    "source_filename": "1981 Chitradurga.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 631,
+    "output": "output/pdf/1981_trimmed/Karnataka/mededu/1981_Chitradurga_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      326,
+      327
+    ],
+    "printed_page_labels": [
+      "306",
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement V Medical, Educational, Recreational and Cultural Facilities; source page 328 begins Statement VI.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 326,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              631.2,
+              875.04
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              631.2,
+              875.04
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 327,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              631.2,
+              875.04
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              631.2,
+              875.04
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 326,
+          "output_page": 1,
+          "source_png_sha256": "8ae33fc46f43313b5308d912ee867629d607ec6c35e36399f2be4bb7e57d9603",
+          "output_png_sha256": "8ae33fc46f43313b5308d912ee867629d607ec6c35e36399f2be4bb7e57d9603",
+          "match": true
+        },
+        {
+          "source_page": 327,
+          "output_page": 2,
+          "source_png_sha256": "b9b1e2e995a509331c730bbe834d6c6bfc0d6a68ba6515aa29ec5eda1eccf3d7",
+          "output_png_sha256": "b9b1e2e995a509331c730bbe834d6c6bfc0d6a68ba6515aa29ec5eda1eccf3d7",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Karnataka",
+    "source_state": "Karnataka",
+    "district": "Chitradurga",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Karnataka/1981 Chitradurga.pdf",
+    "source_filename": "1981 Chitradurga.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 631,
+    "output": "output/pdf/1981_trimmed/Karnataka/tehsil appendix/1981_Chitradurga_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      300,
+      301,
+      302,
+      303
+    ],
+    "printed_page_labels": [
+      "282",
+      "283",
+      "284",
+      "285"
+    ],
+    "status": "Trimmed",
+    "reason": "Village Directory Appendix I, Taluk-wise Abstract of Educational, Medical and Other Amenities; source page 304 begins Appendix III.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 4,
+      "pages": [
+        {
+          "source_page": 300,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              631.2,
+              875.04
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              631.2,
+              875.04
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 301,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              631.2,
+              875.04
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              631.2,
+              875.04
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 302,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              631.2,
+              875.04
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              631.2,
+              875.04
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 303,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              631.2,
+              875.04
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              631.2,
+              875.04
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 300,
+          "output_page": 1,
+          "source_png_sha256": "192c4abdf25045a1709b830430cf902fd5f50c1abe63e0402530efba16f319db",
+          "output_png_sha256": "192c4abdf25045a1709b830430cf902fd5f50c1abe63e0402530efba16f319db",
+          "match": true
+        },
+        {
+          "source_page": 301,
+          "output_page": 2,
+          "source_png_sha256": "8c5e0d628db25685dcaf2b293e4341e6bc4514b7f36221fa10bd45dfb94d2684",
+          "output_png_sha256": "8c5e0d628db25685dcaf2b293e4341e6bc4514b7f36221fa10bd45dfb94d2684",
+          "match": true
+        },
+        {
+          "source_page": 302,
+          "output_page": 3,
+          "source_png_sha256": "0bf98f5c7baba3108195c6d8de3adb8b65af9979fe2de0758e0dddb1867c724b",
+          "output_png_sha256": "0bf98f5c7baba3108195c6d8de3adb8b65af9979fe2de0758e0dddb1867c724b",
+          "match": true
+        },
+        {
+          "source_page": 303,
+          "output_page": 4,
+          "source_png_sha256": "ef6ef099df7016596ffe72c3ceb5b723617bba8f72e28d33743b959af09030e5",
+          "output_png_sha256": "ef6ef099df7016596ffe72c3ceb5b723617bba8f72e28d33743b959af09030e5",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 4,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Karnataka",
+    "source_state": "Karnataka",
+    "district": "Dakshin Kannad",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Karnataka/1981 Dakshin Kannad.pdf",
+    "source_filename": "1981 Dakshin Kannad.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 380,
+    "output": "output/pdf/1981_trimmed/Karnataka/civic amenities/1981_Dakshin Kannad_civic_amenities.pdf",
+    "source_pages_selected": [
+      178,
+      179,
+      180,
+      181,
+      182,
+      183
+    ],
+    "printed_page_labels": [
+      null,
+      "1979",
+      "164",
+      "165",
+      "166",
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement IV Civic and Other Amenities, including the two paired town groups; sources 182-183 also carry the beginning of Statement IV-A on the full pages, and source page 184 begins Statement V.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 6,
+      "pages": [
+        {
+          "source_page": 178,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              637.68,
+              888.24
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              637.68,
+              888.24
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 179,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              637.68,
+              888.24
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              637.68,
+              888.24
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 180,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              637.68,
+              888.24
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              637.68,
+              888.24
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 181,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              637.68,
+              888.24
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              637.68,
+              888.24
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 182,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              637.68,
+              888.24
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              637.68,
+              888.24
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 183,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              637.68,
+              888.24
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              637.68,
+              888.24
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 178,
+          "output_page": 1,
+          "source_png_sha256": "96a9aba95e2ef1fe86fdbf398ec560b1d0080cb1dc4a37acc3859b928d524d19",
+          "output_png_sha256": "96a9aba95e2ef1fe86fdbf398ec560b1d0080cb1dc4a37acc3859b928d524d19",
+          "match": true
+        },
+        {
+          "source_page": 179,
+          "output_page": 2,
+          "source_png_sha256": "300e3928e93bfd6c461b2d6664f3a8b7775fe1827578895fed1926593e2dd95b",
+          "output_png_sha256": "300e3928e93bfd6c461b2d6664f3a8b7775fe1827578895fed1926593e2dd95b",
+          "match": true
+        },
+        {
+          "source_page": 180,
+          "output_page": 3,
+          "source_png_sha256": "85084e1620212eb37d976a3f30ac01962f54b5ed760b98069b6606d799d28095",
+          "output_png_sha256": "85084e1620212eb37d976a3f30ac01962f54b5ed760b98069b6606d799d28095",
+          "match": true
+        },
+        {
+          "source_page": 181,
+          "output_page": 4,
+          "source_png_sha256": "4633d651b57bc6f93aa6cbff95d3db4ca99f48ea0ff837d53f87db9dc1b37daa",
+          "output_png_sha256": "4633d651b57bc6f93aa6cbff95d3db4ca99f48ea0ff837d53f87db9dc1b37daa",
+          "match": true
+        },
+        {
+          "source_page": 182,
+          "output_page": 5,
+          "source_png_sha256": "7df909605afe2c15009f60c6793ab154105fcd1eb0406c6bea24fa6e3875642d",
+          "output_png_sha256": "7df909605afe2c15009f60c6793ab154105fcd1eb0406c6bea24fa6e3875642d",
+          "match": true
+        },
+        {
+          "source_page": 183,
+          "output_page": 6,
+          "source_png_sha256": "389f0145667a731354e49719e74c445e67190bb8b5fe1b9b5c3c6ab2f70d8993",
+          "output_png_sha256": "389f0145667a731354e49719e74c445e67190bb8b5fe1b9b5c3c6ab2f70d8993",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 6,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Karnataka",
+    "source_state": "Karnataka",
+    "district": "Dakshin Kannad",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Karnataka/1981 Dakshin Kannad.pdf",
+    "source_filename": "1981 Dakshin Kannad.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 380,
+    "output": "output/pdf/1981_trimmed/Karnataka/mededu/1981_Dakshin Kannad_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      184,
+      185,
+      186,
+      187,
+      188,
+      189
+    ],
+    "printed_page_labels": [
+      null,
+      null,
+      "170",
+      null,
+      "172",
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement V Medical, Educational, Recreational and Cultural Facilities, including all continuation pages; source page 190 begins Statement VI.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 6,
+      "pages": [
+        {
+          "source_page": 184,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              637.68,
+              888.24
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              637.68,
+              888.24
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 185,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              637.68,
+              888.24
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              637.68,
+              888.24
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 186,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              637.68,
+              888.24
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              637.68,
+              888.24
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 187,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              637.68,
+              888.24
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              637.68,
+              888.24
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 188,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              637.68,
+              888.24
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              637.68,
+              888.24
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 189,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              637.68,
+              888.24
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              637.68,
+              888.24
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 184,
+          "output_page": 1,
+          "source_png_sha256": "42571bbcc1f2b5f107408f574fafc7a67652eaef7985eaefc76f1b9076bf7d1a",
+          "output_png_sha256": "42571bbcc1f2b5f107408f574fafc7a67652eaef7985eaefc76f1b9076bf7d1a",
+          "match": true
+        },
+        {
+          "source_page": 185,
+          "output_page": 2,
+          "source_png_sha256": "e45a685f72f85e43afa13dafe9ed404facdc0c0fac58a4b9bba1019a6e20172b",
+          "output_png_sha256": "e45a685f72f85e43afa13dafe9ed404facdc0c0fac58a4b9bba1019a6e20172b",
+          "match": true
+        },
+        {
+          "source_page": 186,
+          "output_page": 3,
+          "source_png_sha256": "7b4514d393f6bcc2ee291944ff9a55827226d26900ce5bfd5c35e5440e828091",
+          "output_png_sha256": "7b4514d393f6bcc2ee291944ff9a55827226d26900ce5bfd5c35e5440e828091",
+          "match": true
+        },
+        {
+          "source_page": 187,
+          "output_page": 4,
+          "source_png_sha256": "436926744b5fd725dd3a2ca9c1868971219692c3bc46a704c84b8f278b2a5be7",
+          "output_png_sha256": "436926744b5fd725dd3a2ca9c1868971219692c3bc46a704c84b8f278b2a5be7",
+          "match": true
+        },
+        {
+          "source_page": 188,
+          "output_page": 5,
+          "source_png_sha256": "12bb7889b049af3cef384551ceaa00ee953c33390faf17a209eca00e7954ee25",
+          "output_png_sha256": "12bb7889b049af3cef384551ceaa00ee953c33390faf17a209eca00e7954ee25",
+          "match": true
+        },
+        {
+          "source_page": 189,
+          "output_page": 6,
+          "source_png_sha256": "a005a6d27833f2cc83baad818da90245903beba9809c9f456bcc5275dde7d267",
+          "output_png_sha256": "a005a6d27833f2cc83baad818da90245903beba9809c9f456bcc5275dde7d267",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 6,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Karnataka",
+    "source_state": "Karnataka",
+    "district": "Dakshin Kannad",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Karnataka/1981 Dakshin Kannad.pdf",
+    "source_filename": "1981 Dakshin Kannad.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 380,
+    "output": "output/pdf/1981_trimmed/Karnataka/tehsil appendix/1981_Dakshin Kannad_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      152,
+      153,
+      154,
+      155
+    ],
+    "printed_page_labels": [
+      null,
+      "137",
+      "138",
+      "139"
+    ],
+    "status": "Trimmed",
+    "reason": "Village Directory Appendix I, Taluk-wise Abstract of Educational, Medical and Other Amenities; source page 156 begins Appendix III.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 4,
+      "pages": [
+        {
+          "source_page": 152,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              637.68,
+              888.24
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              637.68,
+              888.24
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 153,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              637.68,
+              888.24
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              637.68,
+              888.24
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 154,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              637.68,
+              888.24
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              637.68,
+              888.24
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 155,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              637.68,
+              888.24
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              637.68,
+              888.24
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 152,
+          "output_page": 1,
+          "source_png_sha256": "8b40e57ac35d8ddc18250abfa64d439ccc57227d287ac633cdd7a907f8dd2caa",
+          "output_png_sha256": "8b40e57ac35d8ddc18250abfa64d439ccc57227d287ac633cdd7a907f8dd2caa",
+          "match": true
+        },
+        {
+          "source_page": 153,
+          "output_page": 2,
+          "source_png_sha256": "223ce2aee0703de55608a8c2c37b86d7ce48e5ef83049a1c23951959390dd45c",
+          "output_png_sha256": "223ce2aee0703de55608a8c2c37b86d7ce48e5ef83049a1c23951959390dd45c",
+          "match": true
+        },
+        {
+          "source_page": 154,
+          "output_page": 3,
+          "source_png_sha256": "aa12697e00cdd67a9a14583fd9243a1fab19c885463d599055ad4e17d760184e",
+          "output_png_sha256": "aa12697e00cdd67a9a14583fd9243a1fab19c885463d599055ad4e17d760184e",
+          "match": true
+        },
+        {
+          "source_page": 155,
+          "output_page": 4,
+          "source_png_sha256": "86f64cae14678ce55aa3b2e594fb64061c9e9b77d2e16e1ac76a2c4586e4450f",
+          "output_png_sha256": "86f64cae14678ce55aa3b2e594fb64061c9e9b77d2e16e1ac76a2c4586e4450f",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 4,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Karnataka",
+    "source_state": "Karnataka",
+    "district": "Dharwad",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Karnataka/1981 Dharwad.pdf",
+    "source_filename": "1981 Dharwad.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 633,
+    "output": "output/pdf/1981_trimmed/Karnataka/civic amenities/1981_Dharwad_civic_amenities.pdf",
+    "source_pages_selected": [
+      276,
+      277,
+      278,
+      279
+    ],
+    "printed_page_labels": [
+      null,
+      "261",
+      "262",
+      "263"
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement IV Civic and Other Amenities, including paired civic and other-amenities pages; source page 280 begins Statement IV-A.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 4,
+      "pages": [
+        {
+          "source_page": 276,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              608.64,
+              888.24
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              608.64,
+              888.24
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 277,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              608.64,
+              888.24
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              608.64,
+              888.24
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 278,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              608.64,
+              888.24
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              608.64,
+              888.24
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 279,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              608.64,
+              888.24
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              608.64,
+              888.24
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 276,
+          "output_page": 1,
+          "source_png_sha256": "0407fae36bac0ce4c6500e9d7a7b67f5b3f22aa6eb7001e60a3189dcbb5b6328",
+          "output_png_sha256": "0407fae36bac0ce4c6500e9d7a7b67f5b3f22aa6eb7001e60a3189dcbb5b6328",
+          "match": true
+        },
+        {
+          "source_page": 277,
+          "output_page": 2,
+          "source_png_sha256": "fff7ff9fd5b6f4604be3ee3dcec7ceeefae42c27b6f71e1938057bbbedc128ef",
+          "output_png_sha256": "fff7ff9fd5b6f4604be3ee3dcec7ceeefae42c27b6f71e1938057bbbedc128ef",
+          "match": true
+        },
+        {
+          "source_page": 278,
+          "output_page": 3,
+          "source_png_sha256": "3c07bd05de62935a19198ab12df1fbacde33cd730bf0371676b76a60ded1636d",
+          "output_png_sha256": "3c07bd05de62935a19198ab12df1fbacde33cd730bf0371676b76a60ded1636d",
+          "match": true
+        },
+        {
+          "source_page": 279,
+          "output_page": 4,
+          "source_png_sha256": "6deb68c0b91c1b42decaccb9556c8308b1f6a279abf8316582233cc7d6f191ae",
+          "output_png_sha256": "6deb68c0b91c1b42decaccb9556c8308b1f6a279abf8316582233cc7d6f191ae",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 4,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Karnataka",
+    "source_state": "Karnataka",
+    "district": "Dharwad",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Karnataka/1981 Dharwad.pdf",
+    "source_filename": "1981 Dharwad.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 633,
+    "output": "output/pdf/1981_trimmed/Karnataka/mededu/1981_Dharwad_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      284,
+      285,
+      286,
+      287
+    ],
+    "printed_page_labels": [
+      "268",
+      null,
+      null,
+      "211"
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement V Medical, Educational, Recreational and Cultural Facilities, including all continuation pages; source page 288 begins Statement VI.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 4,
+      "pages": [
+        {
+          "source_page": 284,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              608.64,
+              888.24
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              608.64,
+              888.24
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 285,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              608.64,
+              888.24
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              608.64,
+              888.24
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 286,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              608.64,
+              888.24
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              608.64,
+              888.24
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 287,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              608.64,
+              888.24
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              608.64,
+              888.24
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 284,
+          "output_page": 1,
+          "source_png_sha256": "dad0d4f64c31fa21e0cf754a1e9f36130443b210e63859d8e33d623808e112b4",
+          "output_png_sha256": "dad0d4f64c31fa21e0cf754a1e9f36130443b210e63859d8e33d623808e112b4",
+          "match": true
+        },
+        {
+          "source_page": 285,
+          "output_page": 2,
+          "source_png_sha256": "bc935d668b3207553a5520e341906798ed9afc40f62a72b47b83d7e1c9adbfbf",
+          "output_png_sha256": "bc935d668b3207553a5520e341906798ed9afc40f62a72b47b83d7e1c9adbfbf",
+          "match": true
+        },
+        {
+          "source_page": 286,
+          "output_page": 3,
+          "source_png_sha256": "438baa002d46f34e3fcfdc8b48f12ffd0b67c480bf36e2f821e0ba2fc227416f",
+          "output_png_sha256": "438baa002d46f34e3fcfdc8b48f12ffd0b67c480bf36e2f821e0ba2fc227416f",
+          "match": true
+        },
+        {
+          "source_page": 287,
+          "output_page": 4,
+          "source_png_sha256": "0435851507643a7671b28b59d1ab85b8ee9c57201ba0f9e57df0673f961e9f95",
+          "output_png_sha256": "0435851507643a7671b28b59d1ab85b8ee9c57201ba0f9e57df0673f961e9f95",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 4,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Karnataka",
+    "source_state": "Karnataka",
+    "district": "Dharwad",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Karnataka/1981 Dharwad.pdf",
+    "source_filename": "1981 Dharwad.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 633,
+    "output": "output/pdf/1981_trimmed/Karnataka/tehsil appendix/1981_Dharwad_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      254,
+      255,
+      256,
+      257
+    ],
+    "printed_page_labels": [
+      "238",
+      "239",
+      "240",
+      "241"
+    ],
+    "status": "Trimmed",
+    "reason": "Village Directory Appendix I, Taluk-wise Abstract of Educational, Medical and Other Amenities; source page 258 begins Appendix III.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 4,
+      "pages": [
+        {
+          "source_page": 254,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              608.64,
+              888.24
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              608.64,
+              888.24
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 255,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              608.64,
+              888.24
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              608.64,
+              888.24
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 256,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              608.64,
+              888.24
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              608.64,
+              888.24
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 257,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              608.64,
+              888.24
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              608.64,
+              888.24
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 254,
+          "output_page": 1,
+          "source_png_sha256": "a3aa7026ace827e536aa3806ea165a20c23960e7b5c46878836b21212a265487",
+          "output_png_sha256": "a3aa7026ace827e536aa3806ea165a20c23960e7b5c46878836b21212a265487",
+          "match": true
+        },
+        {
+          "source_page": 255,
+          "output_page": 2,
+          "source_png_sha256": "f12520db029b135cf002d60fb7710090db23c8f285256057a5481991fbf945db",
+          "output_png_sha256": "f12520db029b135cf002d60fb7710090db23c8f285256057a5481991fbf945db",
+          "match": true
+        },
+        {
+          "source_page": 256,
+          "output_page": 3,
+          "source_png_sha256": "7aa373469853b805189875339dbbaff6914231261c56126340658736d13222c7",
+          "output_png_sha256": "7aa373469853b805189875339dbbaff6914231261c56126340658736d13222c7",
+          "match": true
+        },
+        {
+          "source_page": 257,
+          "output_page": 4,
+          "source_png_sha256": "6a1c7eb1899bd9a43db8ba4e898e3dd83cd6c3486cb0a77154e24a0b3d70e710",
+          "output_png_sha256": "6a1c7eb1899bd9a43db8ba4e898e3dd83cd6c3486cb0a77154e24a0b3d70e710",
+          "match": true
+        }
+      ],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 4,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Karnataka",
+    "source_state": "Karnataka",
+    "district": "Gulbarga",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Karnataka/1981 Gulbarga.pdf",
+    "source_filename": "1981 Gulbarga.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 467,
+    "output": "output/pdf/1981_trimmed/Karnataka/civic amenities/1981_Gulbarga_civic_amenities.pdf",
+    "source_pages_selected": [
+      244,
+      245
+    ],
+    "printed_page_labels": [
+      "228",
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement IV Civic and Other Amenities; source page 246 begins Statement IV-A.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 244,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              571.92,
+              838.8
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              571.92,
+              838.8
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 245,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              571.92,
+              838.8
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              571.92,
+              838.8
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 244,
+          "output_page": 1,
+          "source_png_sha256": "a3ca0217d3920849aa042d85b09333bca0ae5080298ade8131212cca56bb2956",
+          "output_png_sha256": "a3ca0217d3920849aa042d85b09333bca0ae5080298ade8131212cca56bb2956",
+          "match": true
+        },
+        {
+          "source_page": 245,
+          "output_page": 2,
+          "source_png_sha256": "f2f99733d4c63990a2eed99d87569f8a4c3b6431e68c51ea7965e0d1010736a5",
+          "output_png_sha256": "f2f99733d4c63990a2eed99d87569f8a4c3b6431e68c51ea7965e0d1010736a5",
+          "match": true
+        }
+      ],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Karnataka",
+    "source_state": "Karnataka",
+    "district": "Gulbarga",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Karnataka/1981 Gulbarga.pdf",
+    "source_filename": "1981 Gulbarga.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 467,
+    "output": "output/pdf/1981_trimmed/Karnataka/mededu/1981_Gulbarga_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      248,
+      249
+    ],
+    "printed_page_labels": [
+      "232",
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement V Medical, Educational, Recreational and Cultural Facilities; source page 250 begins Statement VI.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 248,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              571.92,
+              838.8
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              571.92,
+              838.8
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 249,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              571.92,
+              838.8
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              571.92,
+              838.8
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 248,
+          "output_page": 1,
+          "source_png_sha256": "fc16a89ea34ccae8293fa49fdd1b5ce8b3378152098144f8d755ad16cd55d013",
+          "output_png_sha256": "fc16a89ea34ccae8293fa49fdd1b5ce8b3378152098144f8d755ad16cd55d013",
+          "match": true
+        },
+        {
+          "source_page": 249,
+          "output_page": 2,
+          "source_png_sha256": "0a65672ca2a43dd338cd56419cd8ed5a4e7d8376a63a01bfed910b082f571e5f",
+          "output_png_sha256": "0a65672ca2a43dd338cd56419cd8ed5a4e7d8376a63a01bfed910b082f571e5f",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Karnataka",
+    "source_state": "Karnataka",
+    "district": "Gulbarga",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Karnataka/1981 Gulbarga.pdf",
+    "source_filename": "1981 Gulbarga.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 467,
+    "output": "output/pdf/1981_trimmed/Karnataka/tehsil appendix/1981_Gulbarga_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      222,
+      223,
+      224,
+      225
+    ],
+    "printed_page_labels": [
+      "206",
+      null,
+      "208",
+      "209"
+    ],
+    "status": "Trimmed",
+    "reason": "Village Directory Appendix I, Taluk-wise Abstract of Educational, Medical and Other Amenities; source page 226 begins Appendix III.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 4,
+      "pages": [
+        {
+          "source_page": 222,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              571.92,
+              838.8
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              571.92,
+              838.8
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 223,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              571.92,
+              838.8
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              571.92,
+              838.8
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 224,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              571.92,
+              838.8
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              571.92,
+              838.8
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 225,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              571.92,
+              838.8
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              571.92,
+              838.8
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 222,
+          "output_page": 1,
+          "source_png_sha256": "b56e23b836c45cc06496b27fd6a94e72985bd5c0dd1716219233883a69b15fd0",
+          "output_png_sha256": "b56e23b836c45cc06496b27fd6a94e72985bd5c0dd1716219233883a69b15fd0",
+          "match": true
+        },
+        {
+          "source_page": 223,
+          "output_page": 2,
+          "source_png_sha256": "492643ae402c29af8c634bbf2ec6a254170e08063a20447f358eb2765fbefd48",
+          "output_png_sha256": "492643ae402c29af8c634bbf2ec6a254170e08063a20447f358eb2765fbefd48",
+          "match": true
+        },
+        {
+          "source_page": 224,
+          "output_page": 3,
+          "source_png_sha256": "a7c363bdafda726e56503d0f8b501023ec64339037e3edc09e50dc077123c21b",
+          "output_png_sha256": "a7c363bdafda726e56503d0f8b501023ec64339037e3edc09e50dc077123c21b",
+          "match": true
+        },
+        {
+          "source_page": 225,
+          "output_page": 4,
+          "source_png_sha256": "46ad0410352ace94ae9b50be051b32ed8d76b23e0ea4340873d7f68fbeef0d92",
+          "output_png_sha256": "46ad0410352ace94ae9b50be051b32ed8d76b23e0ea4340873d7f68fbeef0d92",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 4,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Karnataka",
+    "source_state": "Karnataka",
+    "district": "Hassan",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Karnataka/1981 Hassan.pdf",
+    "source_filename": "1981 Hassan.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 652,
+    "output": "output/pdf/1981_trimmed/Karnataka/civic amenities/1981_Hassan_civic_amenities.pdf",
+    "source_pages_selected": [
+      382,
+      383
+    ],
+    "printed_page_labels": [
+      "366",
+      "367"
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement IV Civic and Other Amenities; source page 384 begins Statement V.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 382,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              628.56,
+              831.6
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              628.56,
+              831.6
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 383,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              628.56,
+              831.6
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              628.56,
+              831.6
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 382,
+          "output_page": 1,
+          "source_png_sha256": "e53acf6738ecc64cc29e0572e165b22260fc695e1eccc830a5762198ad8893bf",
+          "output_png_sha256": "e53acf6738ecc64cc29e0572e165b22260fc695e1eccc830a5762198ad8893bf",
+          "match": true
+        },
+        {
+          "source_page": 383,
+          "output_page": 2,
+          "source_png_sha256": "902828d39ceb9a85d8198b97e548fec073db2c74129d1f7bef43267c5f7096bc",
+          "output_png_sha256": "902828d39ceb9a85d8198b97e548fec073db2c74129d1f7bef43267c5f7096bc",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Karnataka",
+    "source_state": "Karnataka",
+    "district": "Hassan",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Karnataka/1981 Hassan.pdf",
+    "source_filename": "1981 Hassan.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 652,
+    "output": "output/pdf/1981_trimmed/Karnataka/mededu/1981_Hassan_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      384,
+      385,
+      386,
+      387
+    ],
+    "printed_page_labels": [
+      "368",
+      "369",
+      "370",
+      "371"
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement V Medical, Educational, Recreational and Cultural Facilities, including all continuation pages; source page 388 begins Statement VI.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 4,
+      "pages": [
+        {
+          "source_page": 384,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              628.56,
+              831.6
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              628.56,
+              831.6
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 385,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              628.56,
+              831.6
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              628.56,
+              831.6
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 386,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              628.56,
+              831.6
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              628.56,
+              831.6
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 387,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              628.56,
+              831.6
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              628.56,
+              831.6
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 384,
+          "output_page": 1,
+          "source_png_sha256": "935cf819897f849492b9a9db786b440158d1c987ca6904ed85b725aa8f223d50",
+          "output_png_sha256": "935cf819897f849492b9a9db786b440158d1c987ca6904ed85b725aa8f223d50",
+          "match": true
+        },
+        {
+          "source_page": 385,
+          "output_page": 2,
+          "source_png_sha256": "03bb13b9305000bb068bdfab2d3d7ff2d77811930f0d93aae0702d58051667ac",
+          "output_png_sha256": "03bb13b9305000bb068bdfab2d3d7ff2d77811930f0d93aae0702d58051667ac",
+          "match": true
+        },
+        {
+          "source_page": 386,
+          "output_page": 3,
+          "source_png_sha256": "ab3a6cef29ebed1f9c4c8e5246f875abe5bf977342df647ef751a126fd28e1e2",
+          "output_png_sha256": "ab3a6cef29ebed1f9c4c8e5246f875abe5bf977342df647ef751a126fd28e1e2",
+          "match": true
+        },
+        {
+          "source_page": 387,
+          "output_page": 4,
+          "source_png_sha256": "40199c8c6be3026a55884f297247550e3629044dbb773618b32fc47361e1acf5",
+          "output_png_sha256": "40199c8c6be3026a55884f297247550e3629044dbb773618b32fc47361e1acf5",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 4,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Karnataka",
+    "source_state": "Karnataka",
+    "district": "Hassan",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Karnataka/1981 Hassan.pdf",
+    "source_filename": "1981 Hassan.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 652,
+    "output": "output/pdf/1981_trimmed/Karnataka/tehsil appendix/1981_Hassan_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      356,
+      357
+    ],
+    "printed_page_labels": [
+      "340",
+      "341"
+    ],
+    "status": "Trimmed",
+    "reason": "Village Directory Appendix I, Taluk-wise Abstract of Educational, Medical and Other Amenities; source page 358 begins Appendix II.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 356,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              628.56,
+              831.6
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              628.56,
+              831.6
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 357,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              628.56,
+              831.6
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              628.56,
+              831.6
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 356,
+          "output_page": 1,
+          "source_png_sha256": "2a70fa73efb61b672927fb8c42a1deaa238bfbf1bc5fc9b3f50c4cedfd683e9b",
+          "output_png_sha256": "2a70fa73efb61b672927fb8c42a1deaa238bfbf1bc5fc9b3f50c4cedfd683e9b",
+          "match": true
+        },
+        {
+          "source_page": 357,
+          "output_page": 2,
+          "source_png_sha256": "f42cbcc58892a3ff6e6d56ebaccb216f20be021ac31471f65dd1813c5843ad92",
+          "output_png_sha256": "f42cbcc58892a3ff6e6d56ebaccb216f20be021ac31471f65dd1813c5843ad92",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Karnataka",
+    "source_state": "Karnataka",
+    "district": "Kodagu",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Karnataka/1981 Kodagu.pdf",
+    "source_filename": "1981 Kodagu.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 250,
+    "output": "output/pdf/1981_trimmed/Karnataka/civic amenities/1981_Kodagu_civic_amenities.pdf",
+    "source_pages_selected": [
+      140,
+      141
+    ],
+    "printed_page_labels": [
+      "124",
+      "125"
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement IV Civic and Other Amenities, including the paired civic and other-amenities pages; source page 142 begins Statement V.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 140,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              627.6,
+              773.76
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              627.6,
+              773.76
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 141,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              627.6,
+              773.76
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              627.6,
+              773.76
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 140,
+          "output_page": 1,
+          "source_png_sha256": "6bef7d002a8f41df0e4d6c9f1910670e3b4d0c7c45ae3882cc90b1c3e2241290",
+          "output_png_sha256": "6bef7d002a8f41df0e4d6c9f1910670e3b4d0c7c45ae3882cc90b1c3e2241290",
+          "match": true
+        },
+        {
+          "source_page": 141,
+          "output_page": 2,
+          "source_png_sha256": "61ea07f30d8d3340ce9d3548c896ebb6b725f553f9ec02a6efe0417c24c8a21f",
+          "output_png_sha256": "61ea07f30d8d3340ce9d3548c896ebb6b725f553f9ec02a6efe0417c24c8a21f",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Karnataka",
+    "source_state": "Karnataka",
+    "district": "Kodagu",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Karnataka/1981 Kodagu.pdf",
+    "source_filename": "1981 Kodagu.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 250,
+    "output": "output/pdf/1981_trimmed/Karnataka/mededu/1981_Kodagu_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      142,
+      143
+    ],
+    "printed_page_labels": [
+      "126",
+      "127"
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement V Medical, Educational, Recreational and Cultural Facilities; source page 144 begins Statement VI.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 142,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              627.6,
+              773.76
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              627.6,
+              773.76
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 143,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              627.6,
+              773.76
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              627.6,
+              773.76
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 142,
+          "output_page": 1,
+          "source_png_sha256": "0a13f53d2f5b07d82c032799f8aa368b911d20821e251ccb3ba02ef5eb84523b",
+          "output_png_sha256": "0a13f53d2f5b07d82c032799f8aa368b911d20821e251ccb3ba02ef5eb84523b",
+          "match": true
+        },
+        {
+          "source_page": 143,
+          "output_page": 2,
+          "source_png_sha256": "df4b38053833aa608ee729593c9993e4c7a0562872d231e73e92a90c5bd3e578",
+          "output_png_sha256": "df4b38053833aa608ee729593c9993e4c7a0562872d231e73e92a90c5bd3e578",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Karnataka",
+    "source_state": "Karnataka",
+    "district": "Kodagu",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Karnataka/1981 Kodagu.pdf",
+    "source_filename": "1981 Kodagu.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 250,
+    "output": "output/pdf/1981_trimmed/Karnataka/tehsil appendix/1981_Kodagu_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      122
+    ],
+    "printed_page_labels": [
+      "106"
+    ],
+    "status": "Trimmed",
+    "reason": "Village Directory Appendix I, Taluk-wise Abstract of Educational, Medical and Other Amenities; source page 123 begins Appendix II.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 1,
+      "pages": [
+        {
+          "source_page": 122,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              627.6,
+              773.76
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              627.6,
+              773.76
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 122,
+          "output_page": 1,
+          "source_png_sha256": "88d5706eac639a598da8d01101e73729718a1210db55bc46e936807fb74dbdce",
+          "output_png_sha256": "88d5706eac639a598da8d01101e73729718a1210db55bc46e936807fb74dbdce",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 1,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Karnataka",
+    "source_state": "Karnataka",
+    "district": "Kolar",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Karnataka/1981 Kolar.pdf",
+    "source_filename": "1981 Kolar.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 1067,
+    "output": "output/pdf/1981_trimmed/Karnataka/civic amenities/1981_Kolar_civic_amenities.pdf",
+    "source_pages_selected": [
+      634,
+      635
+    ],
+    "printed_page_labels": [
+      "618",
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement IV Civic and Other Amenities; source pages 634-635 also carry adjacent Statement IV-A slum content on the full pages, and source page 636 begins Statement V.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 634,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              627.12,
+              864.0
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              627.12,
+              864.0
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 635,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              627.12,
+              864.0
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              627.12,
+              864.0
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 634,
+          "output_page": 1,
+          "source_png_sha256": "e4d71fec14942b2e448c81d8d9fa7260a5a45d67cac370e0242663cdcd156c4e",
+          "output_png_sha256": "e4d71fec14942b2e448c81d8d9fa7260a5a45d67cac370e0242663cdcd156c4e",
+          "match": true
+        },
+        {
+          "source_page": 635,
+          "output_page": 2,
+          "source_png_sha256": "46c04143d846da4a70852fd9030871322903f7a8ef6db59a54785246428f6aac",
+          "output_png_sha256": "46c04143d846da4a70852fd9030871322903f7a8ef6db59a54785246428f6aac",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Karnataka",
+    "source_state": "Karnataka",
+    "district": "Kolar",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Karnataka/1981 Kolar.pdf",
+    "source_filename": "1981 Kolar.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 1067,
+    "output": "output/pdf/1981_trimmed/Karnataka/mededu/1981_Kolar_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      636,
+      637,
+      638,
+      639
+    ],
+    "printed_page_labels": [
+      null,
+      null,
+      "622",
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement V Medical, Educational, Recreational and Cultural Facilities, including all continuation pages; source page 640 begins Statement VI.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 4,
+      "pages": [
+        {
+          "source_page": 636,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              627.12,
+              864.0
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              627.12,
+              864.0
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 637,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              627.12,
+              864.0
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              627.12,
+              864.0
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 638,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              627.12,
+              864.0
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              627.12,
+              864.0
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 639,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              627.12,
+              864.0
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              627.12,
+              864.0
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 636,
+          "output_page": 1,
+          "source_png_sha256": "09baf234fe478e85fba97d2b2fb5c7606dcabe4cbf978f6eab9a5eb7df415cca",
+          "output_png_sha256": "09baf234fe478e85fba97d2b2fb5c7606dcabe4cbf978f6eab9a5eb7df415cca",
+          "match": true
+        },
+        {
+          "source_page": 637,
+          "output_page": 2,
+          "source_png_sha256": "e31dd28d1b5ab688a1036c268d1f0255ef6436f8825eab21ecb597e874b4d66c",
+          "output_png_sha256": "e31dd28d1b5ab688a1036c268d1f0255ef6436f8825eab21ecb597e874b4d66c",
+          "match": true
+        },
+        {
+          "source_page": 638,
+          "output_page": 3,
+          "source_png_sha256": "0c222e7511c2561df8460bf29ddf92a7d2e0e90a84f5a53668ce1763ab0d3d64",
+          "output_png_sha256": "0c222e7511c2561df8460bf29ddf92a7d2e0e90a84f5a53668ce1763ab0d3d64",
+          "match": true
+        },
+        {
+          "source_page": 639,
+          "output_page": 4,
+          "source_png_sha256": "6cb326c1ef3f7dac5a3d82494c215087e4e1fc4a04b8573bed52f2afdb68e60e",
+          "output_png_sha256": "6cb326c1ef3f7dac5a3d82494c215087e4e1fc4a04b8573bed52f2afdb68e60e",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 4,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Karnataka",
+    "source_state": "Karnataka",
+    "district": "Kolar",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Karnataka/1981 Kolar.pdf",
+    "source_filename": "1981 Kolar.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 1067,
+    "output": "output/pdf/1981_trimmed/Karnataka/tehsil appendix/1981_Kolar_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      610,
+      611
+    ],
+    "printed_page_labels": [
+      "594",
+      "595"
+    ],
+    "status": "Trimmed",
+    "reason": "Village Directory Appendix I, Taluk-wise Abstract of Educational, Medical and Other Amenities; source page 611 also carries the beginning of Appendix II on the full page, and source page 612 begins Appendix III.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 610,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              627.12,
+              864.0
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              627.12,
+              864.0
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 611,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              627.12,
+              864.0
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              627.12,
+              864.0
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 610,
+          "output_page": 1,
+          "source_png_sha256": "7e11ff9efecfcda13c267084fa124f4182a12d3a129af6f9f6fe072df7ccbd1f",
+          "output_png_sha256": "7e11ff9efecfcda13c267084fa124f4182a12d3a129af6f9f6fe072df7ccbd1f",
+          "match": true
+        },
+        {
+          "source_page": 611,
+          "output_page": 2,
+          "source_png_sha256": "7d5ddd804094d7d9dbff0603a6a48ff91b35535474d9aec4093b75c038d51bad",
+          "output_png_sha256": "7d5ddd804094d7d9dbff0603a6a48ff91b35535474d9aec4093b75c038d51bad",
+          "match": true
+        }
+      ],
+      "content_flags": [
+        "last_page_contains_next_appendix"
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Karnataka",
+    "source_state": "Karnataka",
+    "district": "Mandya",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Karnataka/1981 Mandya.pdf",
+    "source_filename": "1981 Mandya.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 269,
+    "output": "output/pdf/1981_trimmed/Karnataka/civic amenities/1981_Mandya_civic_amenities.pdf",
+    "source_pages_selected": [
+      183
+    ],
+    "printed_page_labels": [
+      "167"
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement IV Civic and Other Amenities is a single rotated landscape source page; source page 184 is Statement IV-A and source page 185 begins Statement V.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 1,
+      "pages": [
+        {
+          "source_page": 183,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              -1.44,
+              616.08,
+              790.56
+            ],
+            "cropbox": [
+              0.0,
+              -1.44,
+              612.0,
+              790.56
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 183,
+          "output_page": 1,
+          "source_png_sha256": "e4d43aff85bff933fea978ea1438c70e96cb69795e025157f110720f7f044567",
+          "output_png_sha256": "e4d43aff85bff933fea978ea1438c70e96cb69795e025157f110720f7f044567",
+          "match": true
+        }
+      ],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 1,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Karnataka",
+    "source_state": "Karnataka",
+    "district": "Mandya",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Karnataka/1981 Mandya.pdf",
+    "source_filename": "1981 Mandya.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 269,
+    "output": "output/pdf/1981_trimmed/Karnataka/mededu/1981_Mandya_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      185,
+      186
+    ],
+    "printed_page_labels": [
+      "8",
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement V Medical, Educational, Recreational and Cultural Facilities on the rotated continuation pages; source page 187 begins Statement VI.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 185,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              -1.44,
+              616.08,
+              790.56
+            ],
+            "cropbox": [
+              0.0,
+              -1.44,
+              612.0,
+              790.56
+            ]
+          },
+          "rotation": 90
+        },
+        {
+          "source_page": 186,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              -1.44,
+              616.08,
+              790.56
+            ],
+            "cropbox": [
+              0.0,
+              -1.44,
+              612.0,
+              790.56
+            ]
+          },
+          "rotation": 90
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 185,
+          "output_page": 1,
+          "source_png_sha256": "6cab9ba30a97eb8bcd90f6d7dacfa9077df05130b37fa2533630729902188773",
+          "output_png_sha256": "6cab9ba30a97eb8bcd90f6d7dacfa9077df05130b37fa2533630729902188773",
+          "match": true
+        },
+        {
+          "source_page": 186,
+          "output_page": 2,
+          "source_png_sha256": "8ae63513d5654f316389ff91249fe90e835223860cbe040f4fc9c0e43c34f33c",
+          "output_png_sha256": "8ae63513d5654f316389ff91249fe90e835223860cbe040f4fc9c0e43c34f33c",
+          "match": true
+        }
+      ],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Karnataka",
+    "source_state": "Karnataka",
+    "district": "Mandya",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Karnataka/1981 Mandya.pdf",
+    "source_filename": "1981 Mandya.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 269,
+    "output": "output/pdf/1981_trimmed/Karnataka/tehsil appendix/1981_Mandya_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      166,
+      167
+    ],
+    "printed_page_labels": [
+      null,
+      "1"
+    ],
+    "status": "Trimmed",
+    "reason": "Village Directory Appendix I, Taluk-wise Abstract of Educational, Medical and Other Amenities; source page 168 begins Appendix III.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 166,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              -1.44,
+              616.08,
+              790.56
+            ],
+            "cropbox": [
+              0.0,
+              -1.44,
+              612.0,
+              790.56
+            ]
+          },
+          "rotation": 90
+        },
+        {
+          "source_page": 167,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              -1.44,
+              616.08,
+              790.56
+            ],
+            "cropbox": [
+              0.0,
+              -1.44,
+              612.0,
+              790.56
+            ]
+          },
+          "rotation": 90
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 166,
+          "output_page": 1,
+          "source_png_sha256": "e1fc41641a7d135f2d817e6a19345ee7ac73c301908aa844316e34953b3ee531",
+          "output_png_sha256": "e1fc41641a7d135f2d817e6a19345ee7ac73c301908aa844316e34953b3ee531",
+          "match": true
+        },
+        {
+          "source_page": 167,
+          "output_page": 2,
+          "source_png_sha256": "20e4697e24ba3a4fdbeb844662cc1705dbc8e09135d5d2b0a4c9e957043a2c3b",
+          "output_png_sha256": "20e4697e24ba3a4fdbeb844662cc1705dbc8e09135d5d2b0a4c9e957043a2c3b",
+          "match": true
+        }
+      ],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Karnataka",
+    "source_state": "Karnataka",
+    "district": "Raichur",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Karnataka/1981 Raichur.pdf",
+    "source_filename": "1981 Raichur.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 461,
+    "output": "output/pdf/1981_trimmed/Karnataka/civic amenities/1981_Raichur_civic_amenities.pdf",
+    "source_pages_selected": [
+      240,
+      241
+    ],
+    "printed_page_labels": [
+      "224",
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement IV Civic and Other Amenities; source page 242 begins Statement IV-A.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 240,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              549.36,
+              823.2
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              549.36,
+              823.2
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 241,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              549.36,
+              823.2
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              549.36,
+              823.2
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 240,
+          "output_page": 1,
+          "source_png_sha256": "6255d2f311fa760f29416311fa288d95e9dfd2302d87e4df3ba3cfd8dbded9e2",
+          "output_png_sha256": "6255d2f311fa760f29416311fa288d95e9dfd2302d87e4df3ba3cfd8dbded9e2",
+          "match": true
+        },
+        {
+          "source_page": 241,
+          "output_page": 2,
+          "source_png_sha256": "cd9d0a892e92c999d82525d197e2c5f5025c429cbc3fe5e31fc191a891d23a94",
+          "output_png_sha256": "cd9d0a892e92c999d82525d197e2c5f5025c429cbc3fe5e31fc191a891d23a94",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Karnataka",
+    "source_state": "Karnataka",
+    "district": "Raichur",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Karnataka/1981 Raichur.pdf",
+    "source_filename": "1981 Raichur.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 461,
+    "output": "output/pdf/1981_trimmed/Karnataka/mededu/1981_Raichur_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      244,
+      245
+    ],
+    "printed_page_labels": [
+      "228",
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement V Medical, Educational, Recreational and Cultural Facilities; source page 246 begins Statement VI.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 244,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              549.36,
+              823.2
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              549.36,
+              823.2
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 245,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              549.36,
+              823.2
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              549.36,
+              823.2
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 244,
+          "output_page": 1,
+          "source_png_sha256": "3838f18e784f054b371c897b429c108739ea8241f2e750fa28a0c9478eca343c",
+          "output_png_sha256": "3838f18e784f054b371c897b429c108739ea8241f2e750fa28a0c9478eca343c",
+          "match": true
+        },
+        {
+          "source_page": 245,
+          "output_page": 2,
+          "source_png_sha256": "9be773aab905395fd63331855d437f0bbdcb033986f08a84a68df223de43a90d",
+          "output_png_sha256": "9be773aab905395fd63331855d437f0bbdcb033986f08a84a68df223de43a90d",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Karnataka",
+    "source_state": "Karnataka",
+    "district": "Raichur",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Karnataka/1981 Raichur.pdf",
+    "source_filename": "1981 Raichur.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 461,
+    "output": "output/pdf/1981_trimmed/Karnataka/tehsil appendix/1981_Raichur_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      216,
+      217,
+      218,
+      219
+    ],
+    "printed_page_labels": [
+      "200",
+      "201",
+      "202",
+      "203"
+    ],
+    "status": "Trimmed",
+    "reason": "Village Directory Appendix I, Taluk-wise Abstract of Educational, Medical and Other Amenities; source page 219 also carries the beginning of Appendix II on the full page, and source page 220 begins Appendix III.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 4,
+      "pages": [
+        {
+          "source_page": 216,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              549.36,
+              823.2
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              549.36,
+              823.2
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 217,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              549.36,
+              823.2
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              549.36,
+              823.2
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 218,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              549.36,
+              823.2
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              549.36,
+              823.2
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 219,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              549.36,
+              823.2
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              549.36,
+              823.2
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 216,
+          "output_page": 1,
+          "source_png_sha256": "aadf139c69a7873bb1ccf7c2cad2c8c48aac73b83874eb11970805dde259e40d",
+          "output_png_sha256": "aadf139c69a7873bb1ccf7c2cad2c8c48aac73b83874eb11970805dde259e40d",
+          "match": true
+        },
+        {
+          "source_page": 217,
+          "output_page": 2,
+          "source_png_sha256": "73217613d4c5f3ba012f0399c852221e812e789b3202b0aa8e1de6774dbdf632",
+          "output_png_sha256": "73217613d4c5f3ba012f0399c852221e812e789b3202b0aa8e1de6774dbdf632",
+          "match": true
+        },
+        {
+          "source_page": 218,
+          "output_page": 3,
+          "source_png_sha256": "77616d00f9ea83cbf1ffdfa2debdb7bb090eca9153e43979f2231a8327fecce4",
+          "output_png_sha256": "77616d00f9ea83cbf1ffdfa2debdb7bb090eca9153e43979f2231a8327fecce4",
+          "match": true
+        },
+        {
+          "source_page": 219,
+          "output_page": 4,
+          "source_png_sha256": "6e263fed3fcd7222a56f81189a23ffabe446d1acacc6093b6f0c0104ce1d0af9",
+          "output_png_sha256": "6e263fed3fcd7222a56f81189a23ffabe446d1acacc6093b6f0c0104ce1d0af9",
+          "match": true
+        }
+      ],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 4,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Karnataka",
+    "source_state": "Karnataka",
+    "district": "Shimoga",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Karnataka/1981 Shimoga.pdf",
+    "source_filename": "1981 Shimoga.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 679,
+    "output": "output/pdf/1981_trimmed/Karnataka/civic amenities/1981_Shimoga_civic_amenities.pdf",
+    "source_pages_selected": [
+      356,
+      357
+    ],
+    "printed_page_labels": [
+      "338",
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement IV Civic and Other Amenities; source page 357 also carries the Nil Statement IV-A continuation, and source page 358 begins Statement V.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 356,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              631.68,
+              860.4
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              631.68,
+              860.4
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 357,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              631.68,
+              860.4
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              631.68,
+              860.4
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 356,
+          "output_page": 1,
+          "source_png_sha256": "20e0b40f3eba3949f575dfa80f5eb11169b22ad5a4655bb58bcb851c2e6c4fe6",
+          "output_png_sha256": "20e0b40f3eba3949f575dfa80f5eb11169b22ad5a4655bb58bcb851c2e6c4fe6",
+          "match": true
+        },
+        {
+          "source_page": 357,
+          "output_page": 2,
+          "source_png_sha256": "390558a9dcc051ffd48f062276596e1852339bd93506179341967ab50a2c1e55",
+          "output_png_sha256": "390558a9dcc051ffd48f062276596e1852339bd93506179341967ab50a2c1e55",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Karnataka",
+    "source_state": "Karnataka",
+    "district": "Shimoga",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Karnataka/1981 Shimoga.pdf",
+    "source_filename": "1981 Shimoga.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 679,
+    "output": "output/pdf/1981_trimmed/Karnataka/mededu/1981_Shimoga_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      358,
+      359,
+      360,
+      361
+    ],
+    "printed_page_labels": [
+      "340",
+      null,
+      "342",
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement V Medical, Educational, Recreational and Cultural Facilities, including all continuation pages; source page 362 begins Statement VI.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 4,
+      "pages": [
+        {
+          "source_page": 358,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              631.68,
+              860.4
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              631.68,
+              860.4
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 359,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              631.68,
+              860.4
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              631.68,
+              860.4
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 360,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              631.68,
+              860.4
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              631.68,
+              860.4
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 361,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              631.68,
+              860.4
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              631.68,
+              860.4
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 358,
+          "output_page": 1,
+          "source_png_sha256": "01bbe3350ef3c9d0fde6cd31e06c769e899157e1be234ed0496c3215585777bd",
+          "output_png_sha256": "01bbe3350ef3c9d0fde6cd31e06c769e899157e1be234ed0496c3215585777bd",
+          "match": true
+        },
+        {
+          "source_page": 359,
+          "output_page": 2,
+          "source_png_sha256": "830a47a07d5cfc483cf8f52f16c8bd952a2454c3acafcc5bc1755fe99b070c96",
+          "output_png_sha256": "830a47a07d5cfc483cf8f52f16c8bd952a2454c3acafcc5bc1755fe99b070c96",
+          "match": true
+        },
+        {
+          "source_page": 360,
+          "output_page": 3,
+          "source_png_sha256": "8e3093c16a689745380fac338f3bbe9d0d8b9e5e15c01a5e706a663dc655be81",
+          "output_png_sha256": "8e3093c16a689745380fac338f3bbe9d0d8b9e5e15c01a5e706a663dc655be81",
+          "match": true
+        },
+        {
+          "source_page": 361,
+          "output_page": 4,
+          "source_png_sha256": "af526995d74128a74a85c5f6d389fe0f5e876a067a7877b0d35edc2880365d3f",
+          "output_png_sha256": "af526995d74128a74a85c5f6d389fe0f5e876a067a7877b0d35edc2880365d3f",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 4,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Karnataka",
+    "source_state": "Karnataka",
+    "district": "Shimoga",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Karnataka/1981 Shimoga.pdf",
+    "source_filename": "1981 Shimoga.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 679,
+    "output": "output/pdf/1981_trimmed/Karnataka/tehsil appendix/1981_Shimoga_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      330,
+      331,
+      332,
+      333
+    ],
+    "printed_page_labels": [
+      "312",
+      "313",
+      "314",
+      "315"
+    ],
+    "status": "Trimmed",
+    "reason": "Village Directory Appendix I, Taluk-wise Abstract of Educational, Medical and Other Amenities; sources 332-333 also carry the beginning of Appendix II on the full pages, and source page 334 begins Appendix III.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 4,
+      "pages": [
+        {
+          "source_page": 330,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              631.68,
+              860.4
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              631.68,
+              860.4
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 331,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              631.68,
+              860.4
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              631.68,
+              860.4
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 332,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              631.68,
+              860.4
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              631.68,
+              860.4
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 333,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              631.68,
+              860.4
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              631.68,
+              860.4
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 330,
+          "output_page": 1,
+          "source_png_sha256": "3ee8bb9bc7f40ccdded2625fef54212af4e68414620ae4323c2a782f78685145",
+          "output_png_sha256": "3ee8bb9bc7f40ccdded2625fef54212af4e68414620ae4323c2a782f78685145",
+          "match": true
+        },
+        {
+          "source_page": 331,
+          "output_page": 2,
+          "source_png_sha256": "266fbffb7008bc9bc1a031cb4d23cfb4d8ff5381b034c5c42fdf0c66dec81bc2",
+          "output_png_sha256": "266fbffb7008bc9bc1a031cb4d23cfb4d8ff5381b034c5c42fdf0c66dec81bc2",
+          "match": true
+        },
+        {
+          "source_page": 332,
+          "output_page": 3,
+          "source_png_sha256": "03dbad7dabeb0b262a3bcff49517085cf10bb8f1a4f2259f3fadbecee8cf45d7",
+          "output_png_sha256": "03dbad7dabeb0b262a3bcff49517085cf10bb8f1a4f2259f3fadbecee8cf45d7",
+          "match": true
+        },
+        {
+          "source_page": 333,
+          "output_page": 4,
+          "source_png_sha256": "390475e20b7669fd7a1732fcdda04d5abc5ab2c9b82564741c726abfe3d20286",
+          "output_png_sha256": "390475e20b7669fd7a1732fcdda04d5abc5ab2c9b82564741c726abfe3d20286",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 4,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Karnataka",
+    "source_state": "Karnataka",
+    "district": "Uttar Kannad",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Karnataka/1981 Uttar Kannad.pdf",
+    "source_filename": "1981 Uttar Kannad.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 435,
+    "output": "output/pdf/1981_trimmed/Karnataka/civic amenities/1981_Uttar Kannad_civic_amenities.pdf",
+    "source_pages_selected": [
+      230,
+      231
+    ],
+    "printed_page_labels": [
+      "214",
+      "215"
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement IV Civic and Other Amenities; sources 230-231 also carry adjacent Statement IV-A slum content on the full pages, and source page 232 begins Statement V.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 230,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              595.276,
+              842.16
+            ],
+            "cropbox": [
+              0.0,
+              0.2702,
+              595.276,
+              842.16
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 231,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              595.276,
+              842.16
+            ],
+            "cropbox": [
+              0.0,
+              0.2702,
+              595.276,
+              842.16
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 230,
+          "output_page": 1,
+          "source_png_sha256": "ee882ff4095bb17cbf58dda8236ba6f15a2c818d53c70b9413cd8cb02f2ad916",
+          "output_png_sha256": "ee882ff4095bb17cbf58dda8236ba6f15a2c818d53c70b9413cd8cb02f2ad916",
+          "match": true
+        },
+        {
+          "source_page": 231,
+          "output_page": 2,
+          "source_png_sha256": "80413df52d27f9a5df7359acf2382f3edac3ac6ca403efd9d8eb136823ec5f17",
+          "output_png_sha256": "80413df52d27f9a5df7359acf2382f3edac3ac6ca403efd9d8eb136823ec5f17",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Karnataka",
+    "source_state": "Karnataka",
+    "district": "Uttar Kannad",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Karnataka/1981 Uttar Kannad.pdf",
+    "source_filename": "1981 Uttar Kannad.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 435,
+    "output": "output/pdf/1981_trimmed/Karnataka/mededu/1981_Uttar Kannad_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      232,
+      233
+    ],
+    "printed_page_labels": [
+      "216",
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement V Medical, Educational, Recreational and Cultural Facilities; source page 234 begins Statement VI.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 232,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              595.276,
+              842.16
+            ],
+            "cropbox": [
+              0.0,
+              0.2702,
+              595.276,
+              842.16
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 233,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              595.276,
+              842.16
+            ],
+            "cropbox": [
+              0.0,
+              0.2702,
+              595.276,
+              842.16
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 232,
+          "output_page": 1,
+          "source_png_sha256": "460d855b8d8e840e2cd26d7bfd1a02ce495201d95f627b5de69cfa19348cf37d",
+          "output_png_sha256": "460d855b8d8e840e2cd26d7bfd1a02ce495201d95f627b5de69cfa19348cf37d",
+          "match": true
+        },
+        {
+          "source_page": 233,
+          "output_page": 2,
+          "source_png_sha256": "d0aa4469a5694e1cac5f8d9f91eeddbd5fc0b89f259db43e74d45294d6a7cb07",
+          "output_png_sha256": "d0aa4469a5694e1cac5f8d9f91eeddbd5fc0b89f259db43e74d45294d6a7cb07",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Karnataka",
+    "source_state": "Karnataka",
+    "district": "Uttar Kannad",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Karnataka/1981 Uttar Kannad.pdf",
+    "source_filename": "1981 Uttar Kannad.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 435,
+    "output": "output/pdf/1981_trimmed/Karnataka/tehsil appendix/1981_Uttar Kannad_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      206,
+      207,
+      208,
+      209
+    ],
+    "printed_page_labels": [
+      "190",
+      null,
+      "192",
+      "193"
+    ],
+    "status": "Trimmed",
+    "reason": "Village Directory Appendix I, Taluk-wise Abstract of Educational, Medical and Other Amenities; source page 210 begins Appendix III.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 4,
+      "pages": [
+        {
+          "source_page": 206,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              595.276,
+              842.16
+            ],
+            "cropbox": [
+              0.0,
+              0.2702,
+              595.276,
+              842.16
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 207,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              595.276,
+              842.16
+            ],
+            "cropbox": [
+              0.0,
+              0.2702,
+              595.276,
+              842.16
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 208,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              595.276,
+              842.16
+            ],
+            "cropbox": [
+              0.0,
+              0.2702,
+              595.276,
+              842.16
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 209,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              595.276,
+              842.16
+            ],
+            "cropbox": [
+              0.0,
+              0.2702,
+              595.276,
+              842.16
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 206,
+          "output_page": 1,
+          "source_png_sha256": "e66ea09f7ece75bc2fad7325ff2a3d0a6a40fb3443a8228e27c157acb7ab8aec",
+          "output_png_sha256": "e66ea09f7ece75bc2fad7325ff2a3d0a6a40fb3443a8228e27c157acb7ab8aec",
+          "match": true
+        },
+        {
+          "source_page": 207,
+          "output_page": 2,
+          "source_png_sha256": "f425cb4ac42109c5d61ca7f3d572b9c42f3a520c49516d17467501ca50b4ebed",
+          "output_png_sha256": "f425cb4ac42109c5d61ca7f3d572b9c42f3a520c49516d17467501ca50b4ebed",
+          "match": true
+        },
+        {
+          "source_page": 208,
+          "output_page": 3,
+          "source_png_sha256": "e1221470c4735dd13e9b7489f6d02da5ef0c3feea87a8451999d2af3c1bde028",
+          "output_png_sha256": "e1221470c4735dd13e9b7489f6d02da5ef0c3feea87a8451999d2af3c1bde028",
+          "match": true
+        },
+        {
+          "source_page": 209,
+          "output_page": 4,
+          "source_png_sha256": "4b9a67c434771afc03fda8e691c1e9bcc4f063e0b671a3a5a533ec4e6f1a2463",
+          "output_png_sha256": "4b9a67c434771afc03fda8e691c1e9bcc4f063e0b671a3a5a533ec4e6f1a2463",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 4,
+      "audit_flags": []
+    }
+  }
+]

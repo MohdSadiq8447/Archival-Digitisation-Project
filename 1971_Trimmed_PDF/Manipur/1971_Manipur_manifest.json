@@ -1,0 +1,328 @@
+[
+  {
+    "district": "Manipur Central",
+    "table": "civic_amenities",
+    "source": "1971\\Manipur\\1971 Manipur Central.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Manipur\\civic amenities\\Manipur Central_civic_1971.pdf",
+    "source_pages": [
+      36
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 36,
+        "mediabox": [
+          0.0,
+          0.0,
+          612.72,
+          824.64
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          612.72,
+          824.64
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Manipur Central",
+    "table": "medical_educational_amenities",
+    "source": "1971\\Manipur\\1971 Manipur Central.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Manipur\\mededu\\Manipur Central_mededu_1971.pdf",
+    "source_pages": [
+      37,
+      38
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 37,
+        "mediabox": [
+          0.0,
+          0.0,
+          612.72,
+          824.64
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          612.72,
+          824.64
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 38,
+        "mediabox": [
+          0.0,
+          0.0,
+          612.72,
+          824.64
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          612.72,
+          824.64
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Manipur Central",
+    "table": "tehsil_appendix",
+    "source": "1971\\Manipur\\1971 Manipur Central.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Manipur\\tehsil appendix\\Manipur Central_tehsil_1971.pdf",
+    "source_pages": [
+      97,
+      98
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 97,
+        "mediabox": [
+          0.0,
+          0.0,
+          612.72,
+          824.64
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          612.72,
+          824.64
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 98,
+        "mediabox": [
+          0.0,
+          0.0,
+          612.72,
+          824.64
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          612.72,
+          824.64
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Manipur North",
+    "table": "tehsil_appendix",
+    "source": "1971\\Manipur\\1971 Manipur North.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Manipur\\tehsil appendix\\Manipur North_tehsil_1971.pdf",
+    "source_pages": [
+      51,
+      52
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 51,
+        "mediabox": [
+          0.0,
+          0.0,
+          627.84,
+          818.16
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          627.84,
+          818.16
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 52,
+        "mediabox": [
+          0.0,
+          0.0,
+          627.84,
+          818.16
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          627.84,
+          818.16
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Manipur South",
+    "table": "civic_amenities",
+    "source": "1971\\Manipur\\1971 Manipur South.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Manipur\\civic amenities\\Manipur South_civic_1971.pdf",
+    "source_pages": [
+      34
+    ],
+    "output_pages": 1,
+    "page_sizes": [
+      {
+        "source_page": 34,
+        "mediabox": [
+          0.0,
+          0.0,
+          612.0,
+          792.24
+        ],
+        "cropbox": [
+          0.0,
+          0.23999,
+          612.0,
+          792.24
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Manipur South",
+    "table": "medical_educational_amenities",
+    "source": "1971\\Manipur\\1971 Manipur South.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Manipur\\mededu\\Manipur South_mededu_1971.pdf",
+    "source_pages": [
+      35,
+      36
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 35,
+        "mediabox": [
+          0.0,
+          0.0,
+          612.0,
+          792.24
+        ],
+        "cropbox": [
+          0.0,
+          0.23999,
+          612.0,
+          792.24
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 36,
+        "mediabox": [
+          0.0,
+          0.0,
+          612.0,
+          792.24
+        ],
+        "cropbox": [
+          0.0,
+          0.23999,
+          612.0,
+          792.24
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Manipur South",
+    "table": "tehsil_appendix",
+    "source": "1971\\Manipur\\1971 Manipur South.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Manipur\\tehsil appendix\\Manipur South_tehsil_1971.pdf",
+    "source_pages": [
+      67,
+      68
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 67,
+        "mediabox": [
+          0.0,
+          0.0,
+          612.0,
+          792.24
+        ],
+        "cropbox": [
+          0.0,
+          0.23999,
+          612.0,
+          792.24
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 68,
+        "mediabox": [
+          0.0,
+          0.0,
+          612.0,
+          792.24
+        ],
+        "cropbox": [
+          0.0,
+          0.23999,
+          612.0,
+          792.24
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Manipur West",
+    "table": "tehsil_appendix",
+    "source": "1971\\Manipur\\1971 Manipur West.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Manipur\\tehsil appendix\\Manipur West_tehsil_1971.pdf",
+    "source_pages": [
+      43,
+      44
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 43,
+        "mediabox": [
+          0.0,
+          0.0,
+          573.84,
+          804.24
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          573.84,
+          804.24
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 44,
+        "mediabox": [
+          0.0,
+          0.0,
+          573.84,
+          804.24
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          573.84,
+          804.24
+        ],
+        "rotate": 0
+      }
+    ]
+  }
+]

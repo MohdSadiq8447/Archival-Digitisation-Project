@@ -5,6 +5,8 @@ from .column_assigner import ColumnAssigner, ExtractedCell
 from .prompts import (
     FREE_OCR_PROMPT,
     GROUNDING_PROMPT,
+    build_autocorrect_field_prompt,
+    build_autocorrect_minimal_prompt,
     build_cell_free_ocr_prompt,
     build_page_grounding_prompt,
     build_row_grounding_prompt,
@@ -17,6 +19,8 @@ __all__ = [
     "OCRToken",
     "GROUNDING_PROMPT",
     "FREE_OCR_PROMPT",
+    "build_autocorrect_field_prompt",
+    "build_autocorrect_minimal_prompt",
     "build_row_grounding_prompt",
     "build_page_grounding_prompt",
     "build_cell_free_ocr_prompt",

@@ -1,0 +1,272 @@
+[
+  {
+    "state": "Dadra & Nagar Haveli",
+    "source_state": "Dadra & Nagar Haveli",
+    "district": "Dadra & Nagar Haveli",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Dadra & Nagar Haveli/1981 Dadra & Nagar Haveli.pdf",
+    "source_filename": "1981 Dadra & Nagar Haveli.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 85,
+    "output": "output/pdf/1981_trimmed/Dadra & Nagar Haveli/civic amenities/1981_Dadra & Nagar Haveli_civic_amenities.pdf",
+    "source_pages_selected": [
+      58,
+      59
+    ],
+    "printed_page_labels": [
+      null,
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement IV printed pages 44-45; source page 60 begins Part B Primary Census Abstract.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 58,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              642.48,
+              848.88
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              642.48,
+              848.88
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 59,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              642.48,
+              848.88
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              642.48,
+              848.88
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 58,
+          "output_page": 1,
+          "source_png_sha256": "a2935b482057e134dca16de03f870c82bcc009904c4bb0bae50f31d8e9a73b82",
+          "output_png_sha256": "a2935b482057e134dca16de03f870c82bcc009904c4bb0bae50f31d8e9a73b82",
+          "match": true
+        },
+        {
+          "source_page": 59,
+          "output_page": 2,
+          "source_png_sha256": "18506810ceeca217f598dc2c29bfc73976ffd756f683b73fe71083daeaaf0f23",
+          "output_png_sha256": "18506810ceeca217f598dc2c29bfc73976ffd756f683b73fe71083daeaaf0f23",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Dadra & Nagar Haveli",
+    "source_state": "Dadra & Nagar Haveli",
+    "district": "Dadra & Nagar Haveli",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Dadra & Nagar Haveli/1981 Dadra & Nagar Haveli.pdf",
+    "source_filename": "1981 Dadra & Nagar Haveli.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 85,
+    "output": "output/pdf/1981_trimmed/Dadra & Nagar Haveli/mededu/1981_Dadra & Nagar Haveli_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      58,
+      59
+    ],
+    "printed_page_labels": [
+      null,
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement V printed pages 44-45, sharing full source pages with Statement IV; source page 60 begins Part B Primary Census Abstract.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 58,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              642.48,
+              848.88
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              642.48,
+              848.88
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 59,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              642.48,
+              848.88
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              642.48,
+              848.88
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 58,
+          "output_page": 1,
+          "source_png_sha256": "a2935b482057e134dca16de03f870c82bcc009904c4bb0bae50f31d8e9a73b82",
+          "output_png_sha256": "a2935b482057e134dca16de03f870c82bcc009904c4bb0bae50f31d8e9a73b82",
+          "match": true
+        },
+        {
+          "source_page": 59,
+          "output_page": 2,
+          "source_png_sha256": "18506810ceeca217f598dc2c29bfc73976ffd756f683b73fe71083daeaaf0f23",
+          "output_png_sha256": "18506810ceeca217f598dc2c29bfc73976ffd756f683b73fe71083daeaaf0f23",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Dadra & Nagar Haveli",
+    "source_state": "Dadra & Nagar Haveli",
+    "district": "Dadra & Nagar Haveli",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Dadra & Nagar Haveli/1981 Dadra & Nagar Haveli.pdf",
+    "source_filename": "1981 Dadra & Nagar Haveli.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 85,
+    "output": "output/pdf/1981_trimmed/Dadra & Nagar Haveli/tehsil appendix/1981_Dadra & Nagar Haveli_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      48,
+      49
+    ],
+    "printed_page_labels": [
+      null,
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Appendix I to Village Directory, administrative-unit abstract of educational, medical and other amenities, printed pages 34-35; source page 50 begins Appendix II.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 48,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              642.48,
+              848.88
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              642.48,
+              848.88
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 49,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              642.48,
+              848.88
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              642.48,
+              848.88
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 48,
+          "output_page": 1,
+          "source_png_sha256": "93dd8c84fb139730c8db31fcfcf70529b8fee2ca02ab4f523a0ba70de7ca95a2",
+          "output_png_sha256": "93dd8c84fb139730c8db31fcfcf70529b8fee2ca02ab4f523a0ba70de7ca95a2",
+          "match": true
+        },
+        {
+          "source_page": 49,
+          "output_page": 2,
+          "source_png_sha256": "bff3f043ad6f0443fe040a56a58d658b4f31f121b1dd5dd8e846ebc38a12e1b4",
+          "output_png_sha256": "bff3f043ad6f0443fe040a56a58d658b4f31f121b1dd5dd8e846ebc38a12e1b4",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  }
+]

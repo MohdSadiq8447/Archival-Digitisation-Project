@@ -1,0 +1,195 @@
+format_id: format_003
+name: Tehsil Appendix
+category: Tehsil Appendix
+pdfs:
+- 1981_Adilabad_tehsil_appendix.pdf
+- 1981_Anantapur_tehsil_appendix.pdf
+- 1981_Chittoor_tehsil_appendix.pdf
+- 1981_Cuddapah_tehsil_appendix.pdf
+- 1981_East Godavari_tehsil_appendix.pdf
+- 1981_Guntur_tehsil_appendix.pdf
+- 1981_Karimnagar_tehsil_appendix.pdf
+- 1981_Khammam_tehsil_appendix.pdf
+- 1981_Krishna_tehsil_appendix.pdf
+- 1981_Kurnool_tehsil_appendix.pdf
+- 1981_Mahbubnagar_tehsil_appendix.pdf
+- 1981_Medak_tehsil_appendix.pdf
+- 1981_Nalgonda_tehsil_appendix.pdf
+- 1981_Nellore_tehsil_appendix.pdf
+- 1981_Nizamabad_tehsil_appendix.pdf
+- 1981_Prakasam_tehsil_appendix.pdf
+- 1981_Rangareddi_tehsil_appendix.pdf
+- 1981_Srikakulam_tehsil_appendix.pdf
+- 1981_Warangal_tehsil_appendix.pdf
+- 1981_West Godavari_tehsil_appendix.pdf
+columns:
+- number: 1
+  name: Sl. No.
+  variable_name: sl_no
+- number: 2
+  name: Name of Taluk
+  variable_name: taluk_name
+- number: 3
+  name: EDUCATIONAL - Primary school - Villages
+  variable_name: primary_school_villages
+- number: 4
+  name: EDUCATIONAL - Primary school - Institutions
+  variable_name: primary_school_institutions
+- number: 5
+  name: EDUCATIONAL - Middle school - Villages
+  variable_name: middle_school_villages
+- number: 6
+  name: EDUCATIONAL - Middle school - Institutions
+  variable_name: middle_school_institutions
+- number: 7
+  name: EDUCATIONAL - Matriculation/ secondary school - Villages
+  variable_name: matriculation_secondary_school_villages
+- number: 8
+  name: EDUCATIONAL - Matriculation/ secondary school - Institutions
+  variable_name: matriculation_secondary_school_institutions
+- number: 9
+  name: EDUCATIONAL - Higher Secondary/PUC/ Intermediate/ Junior College - Villages
+  variable_name: higher_secondary_college_villages
+- number: 10
+  name: EDUCATIONAL - Higher Secondary/PUC/ Intermediate/ Junior College - Institutions
+  variable_name: higher_secondary_college_institutions
+- number: 11
+  name: EDUCATIONAL - College (graduate and above) - Villages
+  variable_name: college_graduate_villages
+- number: 12
+  name: EDUCATIONAL - College (graduate and above) - Institutions
+  variable_name: college_graduate_institutions
+- number: 13
+  name: EDUCATIONAL - Adult literacy classes/centres - Villages
+  variable_name: adult_literacy_villages
+- number: 14
+  name: EDUCATIONAL - Adult literacy classes/centres - Institutions
+  variable_name: adult_literacy_institutions
+- number: 15
+  name: EDUCATIONAL - Others - Villages
+  variable_name: educational_others_villages
+- number: 16
+  name: EDUCATIONAL - Others - Institutions
+  variable_name: educational_others_institutions
+- number: 17
+  name: EDUCATIONAL - Villages with no educational facilities
+  variable_name: villages_no_educational_facilities
+- number: 18
+  name: MEDICAL - Dispensary - Villages
+  variable_name: dispensary_villages
+- number: 19
+  name: MEDICAL - Dispensary - Institutions
+  variable_name: dispensary_institutions
+- number: 20
+  name: MEDICAL - Hospital - Villages
+  variable_name: hospital_villages
+- number: 21
+  name: MEDICAL - Hospital - Institutions
+  variable_name: hospital_institutions
+- number: 22
+  name: MEDICAL - Maternity and Child Welfare centre/Maternity home/Child Welfare
+    Centre - Villages
+  variable_name: maternity_child_welfare_villages
+- number: 23
+  name: MEDICAL - Maternity and Child Welfare centre/Maternity home/Child Welfare
+    Centre - Institutions
+  variable_name: maternity_child_welfare_institutions
+- number: 24
+  name: MEDICAL - Primary Health Centre/Health Centre - Villages
+  variable_name: primary_health_centre_villages
+- number: 25
+  name: MEDICAL - Primary Health Centre/Health Centre - Institutions
+  variable_name: primary_health_centre_institutions
+- number: 26
+  name: MEDICAL - Family Planning Centre - Villages
+  variable_name: family_planning_centre_villages
+- number: 27
+  name: MEDICAL - Family Planning Centre - Institutions
+  variable_name: family_planning_centre_institutions
+- number: 28
+  name: MEDICAL - Primary Health Sub-centre - Villages
+  variable_name: primary_health_subcentre_villages
+- number: 29
+  name: MEDICAL - Primary Health Sub-centre - Institutions
+  variable_name: primary_health_subcentre_institutions
+- number: 30
+  name: MEDICAL - Community Health Worker - Villages
+  variable_name: community_health_worker_villages
+- number: 31
+  name: MEDICAL - Community Health Worker - Numbers
+  variable_name: community_health_worker_numbers
+- number: 32
+  name: MEDICAL - Others - Villages
+  variable_name: medical_others_villages
+- number: 33
+  name: MEDICAL - Others - Institutions
+  variable_name: medical_others_institutions
+- number: 34
+  name: MEDICAL - Villages with no medical facility
+  variable_name: villages_no_medical_facility
+- number: 35
+  name: DRINKING WATER - Tap
+  variable_name: drinking_water_tap
+- number: 36
+  name: DRINKING WATER - Well
+  variable_name: drinking_water_well
+- number: 37
+  name: DRINKING WATER - Tank
+  variable_name: drinking_water_tank
+- number: 38
+  name: DRINKING WATER - Tube-well
+  variable_name: drinking_water_tubewell
+- number: 39
+  name: DRINKING WATER - River
+  variable_name: drinking_water_river
+- number: 40
+  name: DRINKING WATER - Fountain
+  variable_name: drinking_water_fountain
+- number: 41
+  name: DRINKING WATER - Canal
+  variable_name: drinking_water_canal
+- number: 42
+  name: DRINKING WATER - Others
+  variable_name: drinking_water_others
+- number: 43
+  name: DRINKING WATER - More than one source
+  variable_name: drinking_water_more_than_one_source
+- number: 44
+  name: DRINKING WATER - Villages with no drinking water facility of any type
+  variable_name: villages_no_drinking_water_facility
+- number: 45
+  name: POST AND TELEGRAPH - P.O.
+  variable_name: post_telegraph_po
+- number: 46
+  name: POST AND TELEGRAPH - T.O.
+  variable_name: post_telegraph_to
+- number: 47
+  name: POST AND TELEGRAPH - P.T.O.
+  variable_name: post_telegraph_pto
+- number: 48
+  name: POST AND TELEGRAPH - P.O. & Phone
+  variable_name: post_telegraph_po_phone
+- number: 49
+  name: POST AND TELEGRAPH - T.O. & Phone
+  variable_name: post_telegraph_to_phone
+- number: 50
+  name: POST AND TELEGRAPH - P.T.O. & Phone
+  variable_name: post_telegraph_pto_phone
+- number: 51
+  name: POST AND TELEGRAPH - Phone
+  variable_name: post_telegraph_phone
+- number: 52
+  name: COMMUNICATIONS - Bus Stop
+  variable_name: communications_bus_stop
+- number: 53
+  name: COMMUNICATIONS - Railway Station
+  variable_name: communications_railway_station
+- number: 54
+  name: COMMUNICATIONS - Navigable waterway
+  variable_name: communications_navigable_waterway
+- number: 55
+  name: POWER SUPPLY - Available
+  variable_name: power_supply_available
+- number: 56
+  name: POWER SUPPLY - Not available
+  variable_name: power_supply_not_available

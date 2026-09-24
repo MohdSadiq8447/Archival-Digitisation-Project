@@ -1,0 +1,87 @@
+format_id: format_001
+name: Civic Amenities
+category: Civic Amenities
+pdfs:
+- filenames:
+  - 1981_Kohima_civic_amenities.pdf
+  pagination:
+    page_1_columns:
+    - - 1
+      - 19
+- filenames:
+  - 1981_Mokokchung_civic_amenities.pdf
+  - 1981_Zunhebota_civic_amenities.pdf
+  pagination:
+    page_1_columns:
+    - - 1
+      - 10
+    page_2_columns:
+    - - 11
+      - 19
+- filenames:
+  - 1981_Tuensang_civic_amenities.pdf
+  pagination:
+    page_1_columns:
+    - - 1
+      - 10
+    page_2_columns:
+    - - 11
+      - 19
+columns:
+- number: 1
+  name: Sl. No
+  variable_name: sl_no
+- number: 2
+  name: Class and Name of town
+  variable_name: town_class_name
+- number: 3
+  name: Civic administration Status (In 1980)
+  variable_name: civic_admin_status
+- number: 4
+  name: Population
+  variable_name: population
+- number: 5
+  name: Scheduled Caste and Scheduled Tribe population
+  variable_name: sc_st_population
+- number: 6
+  name: Road length (in Kms.)
+  variable_name: road_length
+- number: 7
+  name: System of Sewerage
+  variable_name: sewerage_system
+- number: 8
+  name: Number of Latrines - Water borne
+  variable_name: latrines_water_borne
+- number: 9
+  name: Number of Latrines - Service
+  variable_name: latrines_service
+- number: 10
+  name: Number of Latrines - Others
+  variable_name: latrines_others
+- number: 11
+  name: Method of disposal of night soil
+  variable_name: night_soil_disposal
+- number: 12
+  name: Protected water supply - Source of supply
+  variable_name: water_supply_source
+- number: 13
+  name: Protected water supply - System of storage with Capacity (in 1,000 Litres)
+  variable_name: water_supply_storage_capacity
+- number: 14
+  name: Fire fighting service
+  variable_name: fire_fighting_service
+- number: 15
+  name: Electrification (Number of Connections) - Domestic
+  variable_name: electrification_domestic
+- number: 16
+  name: Electrification (Number of Connections) - Industrial
+  variable_name: electrification_industrial
+- number: 17
+  name: Electrification (Number of Connections) - Commercial
+  variable_name: electrification_commercial
+- number: 18
+  name: Electrification (Number of Connections) - Road Lighting (Points)
+  variable_name: electrification_road_lighting
+- number: 19
+  name: Electrification (Number of Connections) - Others
+  variable_name: electrification_others

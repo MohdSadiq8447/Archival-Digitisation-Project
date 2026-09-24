@@ -1,0 +1,129 @@
+format_id: format_003
+name: Tehsil Appendix
+category: Tehsil Appendix
+pdfs:
+- filenames:
+  - Balaghat_tehsil_1971.pdf
+  - Bastar_tehsil_1971.pdf
+  - Chhatarpur_tehsil_1971.pdf
+  - Chhindwara_tehsil_1971.pdf
+  - Damoh_tehsil_1971.pdf
+  - Datia_tehsil_1971.pdf
+  - Morena_tehsil_1971.pdf
+  - Narsimhapur_tehsil_1971.pdf
+  - Panna_tehsil_1971.pdf
+  - Raigarh_tehsil_1971.pdf
+  - Raipur_tehsil_1971.pdf
+  - Raisen_tehsil_1971.pdf
+  - Rajgarh_tehsil_1971.pdf
+  - Ratlam_tehsil_1971.pdf
+  - Rewa_tehsil_1971.pdf
+  - Sagar_tehsil_1971.pdf
+  - Sehore_tehsil_1971.pdf
+  - Shahdol_tehsil_1971.pdf
+  - Shajapur_tehsil_1971.pdf
+  - Sidhi_tehsil_1971.pdf
+  - Tikamgarh_tehsil_1971.pdf
+  - Ujjain_tehsil_1971.pdf
+  - Vidisha_tehsil_1971.pdf
+  pagination:
+    page_1_columns:
+    - 1
+    - 18
+    page_2_columns:
+    - 19
+    - 31
+columns:
+- number: 1
+  name: Sl. No.
+  variable_name: sl_no
+- number: 2
+  name: Name of Tahsil
+  variable_name: tahsil_name
+- number: 3
+  name: No. of villages having Primary Schools
+  variable_name: primary_schools_villages
+- number: 4
+  name: No. of Primary Schools
+  variable_name: primary_schools
+- number: 5
+  name: No. of villages having Middle Schools
+  variable_name: middle_schools_villages
+- number: 6
+  name: No. of Middle Schools
+  variable_name: middle_schools
+- number: 7
+  name: No. of villages having Higher Secondary Schools
+  variable_name: higher_secondary_schools_villages
+- number: 8
+  name: No. of Higher Secondary Schools
+  variable_name: higher_secondary_schools
+- number: 9
+  name: No. of villages having Colleges
+  variable_name: colleges_villages
+- number: 10
+  name: No. of Colleges
+  variable_name: colleges
+- number: 11
+  name: No. of villages having other Educational Institutions
+  variable_name: other_educational_institutions_villages
+- number: 12
+  name: No. of other Educational Institutions
+  variable_name: other_educational_institutions
+- number: 13
+  name: No. of villages having Dispensaries
+  variable_name: dispensaries_villages
+- number: 14
+  name: No. of Dispensaries
+  variable_name: dispensaries
+- number: 15
+  name: No. of villages having Hospitals
+  variable_name: hospitals_villages
+- number: 16
+  name: No. of Hospitals
+  variable_name: hospitals
+- number: 17
+  name: No. of villages having other medical Institutions
+  variable_name: other_medical_institutions_villages
+- number: 18
+  name: No. of other medical Institutions
+  variable_name: other_medical_institutions
+- number: 19
+  name: Power Supply - Number of Villages where power supply is Available
+  variable_name: power_available_villages
+- number: 20
+  name: Power Supply - Number of Villages where power supply is Not Available
+  variable_name: power_not_available_villages
+- number: 21
+  name: Drinking Water - Number of Villages having Tap
+  variable_name: tap_water_villages
+- number: 22
+  name: Drinking Water - Number of Villages having Well
+  variable_name: well_water_villages
+- number: 23
+  name: Drinking Water - Number of Villages having Others
+  variable_name: other_water_villages
+- number: 24
+  name: Communications - Number of Villages having Pucca Road
+  variable_name: pucca_road_villages
+- number: 25
+  name: Communications - Number of Villages having Kutcha Road
+  variable_name: kutcha_road_villages
+- number: 26
+  name: Number of Villages having Post Offices
+  variable_name: post_office_villages
+- number: 27
+  name: Number of Post Offices
+  variable_name: post_offices
+- number: 28
+  name: Number of Villages having Telegraph Offices
+  variable_name: telegraph_office_villages
+- number: 29
+  name: Number of Telegraph Offices
+  variable_name: telegraph_offices
+- number: 30
+  name: Others - Number of Villages
+  variable_name: other_amenity_villages
+- number: 31
+  name: Others - Number of Offices
+  variable_name: other_amenity_offices

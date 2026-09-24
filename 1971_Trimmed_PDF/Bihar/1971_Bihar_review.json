@@ -1,0 +1,20 @@
+[
+  {
+    "source": "41313_1971_SHA.pdf",
+    "table": "civic_amenities",
+    "status": "review",
+    "reason": "The supplied Shahabad volume is Part X-C Administrative Statistics and District Census Tables, not the Part X-A Town & Village Directory; the requested Statement IV, Statement V, and equivalent Village Directory amenities appendix are absent."
+  },
+  {
+    "source": "41313_1971_SHA.pdf",
+    "table": "medical_educational_amenities",
+    "status": "review",
+    "reason": "The supplied Shahabad volume is Part X-C Administrative Statistics and District Census Tables, not the Part X-A Town & Village Directory; the requested Statement IV, Statement V, and equivalent Village Directory amenities appendix are absent."
+  },
+  {
+    "source": "41313_1971_SHA.pdf",
+    "table": "tehsil_appendix",
+    "status": "review",
+    "reason": "The supplied Shahabad volume is Part X-C Administrative Statistics and District Census Tables, not the Part X-A Town & Village Directory; the requested Statement IV, Statement V, and equivalent Village Directory amenities appendix are absent."
+  }
+]

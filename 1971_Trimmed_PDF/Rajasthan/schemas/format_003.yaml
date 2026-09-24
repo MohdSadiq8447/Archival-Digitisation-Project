@@ -1,0 +1,164 @@
+format_id: format_003
+name: Tehsil Appendix
+category: Tehsil Appendix
+pdfs:
+- filenames:
+  - Ajmer_tehsil_1971.pdf
+  - Alwar_tehsil_1971.pdf
+  - Banswara_tehsil_1971.pdf
+  - Barmer_tehsil_1971.pdf
+  - Bharatpur_tehsil_1971.pdf
+  - Bikaner_tehsil_1971.pdf
+  - Bundi_tehsil_1971.pdf
+  - Churu_tehsil_1971.pdf
+  - Dungarpur_tehsil_1971.pdf
+  - Jaisalmer_tehsil_1971.pdf
+  - Jhalawar_tehsil_1971.pdf
+  - Jhunjhunun_tehsil_1971.pdf
+  - Jodhpur_tehsil_1971.pdf
+  - Kota_tehsil_1971.pdf
+  - Nagaur_tehsil_1971.pdf
+  - Pali_tehsil_1971.pdf
+  - Sikar_tehsil_1971.pdf
+  - Sirohi_tehsil_1971.pdf
+  - Tonk_tehsil_1971.pdf
+  pagination:
+    page_1_columns:
+    - 1
+    - 9
+    - 20
+    - 30
+    page_2_columns:
+    - 10
+    - 19
+    - 31
+    - 36
+- filenames:
+  - Bhilwara_tehsil_1971.pdf
+  - Chittaurgarh_tehsil_1971.pdf
+  - Ganganagar_tehsil_1971.pdf
+  - Jaipur_tehsil_1971.pdf
+  - Sawai Madhopur_tehsil_1971.pdf
+  - Udaipur_tehsil_1971.pdf
+  pagination:
+    page_1_columns:
+    - 1
+    - 9
+    page_2_columns:
+    - 10
+    - 19
+    page_3_columns:
+    - 20
+    - 30
+    page_4_columns:
+    - 31
+    - 36
+columns:
+- number: 1
+  name: District/Tehsil
+  variable_name: district_tehsil
+- number: 2
+  name: No. of villages having Primary Schools
+  variable_name: primary_schools_villages
+- number: 3
+  name: No. of Primary Schools
+  variable_name: primary_schools
+- number: 4
+  name: No. of villages having Middle Schools
+  variable_name: middle_schools_villages
+- number: 5
+  name: No. of Middle Schools
+  variable_name: middle_schools
+- number: 6
+  name: No. of villages having Secondary/Higher Secondary Schools
+  variable_name: secondary_higher_secondary_schools_villages
+- number: 7
+  name: No. of Secondary/Higher Secondary Schools
+  variable_name: secondary_higher_secondary_schools
+- number: 8
+  name: No. of villages having Colleges
+  variable_name: colleges_villages
+- number: 9
+  name: No. of Colleges
+  variable_name: colleges
+- number: 10
+  name: No. of villages having Dispensaries
+  variable_name: dispensaries_villages
+- number: 11
+  name: No. of Dispensaries
+  variable_name: dispensaries
+- number: 12
+  name: No. of villages having Hospitals
+  variable_name: hospitals_villages
+- number: 13
+  name: No. of Hospitals
+  variable_name: hospitals
+- number: 14
+  name: No. of villages having Health Centres
+  variable_name: health_centres_villages
+- number: 15
+  name: No. of Health Centres
+  variable_name: health_centres
+- number: 16
+  name: No. of villages having Maternity & Child Welfare Centres
+  variable_name: maternity_child_welfare_centres_villages
+- number: 17
+  name: No. of Maternity & Child Welfare Centres
+  variable_name: maternity_child_welfare_centres
+- number: 18
+  name: No. of villages having Family Planning Centres
+  variable_name: family_planning_centres_villages
+- number: 19
+  name: No. of Family Planning Centres
+  variable_name: family_planning_centres
+- number: 20
+  name: Power supply - Available villages
+  variable_name: power_available_villages
+- number: 21
+  name: Power supply - Not Available villages
+  variable_name: power_not_available_villages
+- number: 22
+  name: Number of villages having Tap drinking water
+  variable_name: tap_water_villages
+- number: 23
+  name: Number of villages having Well drinking water
+  variable_name: well_water_villages
+- number: 24
+  name: Number of villages having Tank drinking water
+  variable_name: tank_water_villages
+- number: 25
+  name: Number of villages having River drinking water
+  variable_name: river_water_villages
+- number: 26
+  name: Number of villages having Tube-well drinking water
+  variable_name: tube_well_water_villages
+- number: 27
+  name: Number of villages having Others drinking water
+  variable_name: other_water_villages
+- number: 28
+  name: Number of villages having Pucca Road
+  variable_name: pucca_road_villages
+- number: 29
+  name: Number of villages having Kucha Road
+  variable_name: kucha_road_villages
+- number: 30
+  name: Number of villages having Railway Station
+  variable_name: railway_station_villages
+- number: 31
+  name: No. of villages having Post Offices
+  variable_name: post_offices_villages
+- number: 32
+  name: No. of Post Offices
+  variable_name: post_offices
+- number: 33
+  name: No. of villages having Post & Telegraphs Offices
+  variable_name: post_telegraph_offices_villages
+- number: 34
+  name: No. of Post & Telegraphs Offices
+  variable_name: post_telegraph_offices
+- number: 35
+  name: No. of villages having Telephone Centres
+  variable_name: telephone_centres_villages
+- number: 36
+  name: No. of Telephone Centres
+  variable_name: telephone_centres

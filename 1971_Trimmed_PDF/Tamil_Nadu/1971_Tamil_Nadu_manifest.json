@@ -1,0 +1,4617 @@
+[
+  {
+    "district": "Chengalpattu",
+    "table": "civic_amenities",
+    "source": "1971\\Tamil Nadu\\1971 Chengalpattu.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Tamil Nadu\\civic amenities\\Chengalpattu_civic_1971.pdf",
+    "source_pages": [
+      377,
+      378,
+      379,
+      380,
+      381,
+      382,
+      383,
+      384,
+      385,
+      386,
+      387,
+      388,
+      389,
+      390,
+      391,
+      392
+    ],
+    "output_pages": 16,
+    "page_sizes": [
+      {
+        "source_page": 377,
+        "mediabox": [
+          0.0,
+          0.0,
+          612.72,
+          803.76
+        ],
+        "cropbox": [
+          0.0,
+          11.76,
+          612.0,
+          803.76
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 378,
+        "mediabox": [
+          0.0,
+          0.0,
+          612.72,
+          803.76
+        ],
+        "cropbox": [
+          0.0,
+          11.76,
+          612.0,
+          803.76
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 379,
+        "mediabox": [
+          0.0,
+          0.0,
+          612.72,
+          803.76
+        ],
+        "cropbox": [
+          0.0,
+          11.76,
+          612.0,
+          803.76
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 380,
+        "mediabox": [
+          0.0,
+          0.0,
+          612.72,
+          803.76
+        ],
+        "cropbox": [
+          0.0,
+          11.76,
+          612.0,
+          803.76
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 381,
+        "mediabox": [
+          0.0,
+          0.0,
+          612.72,
+          803.76
+        ],
+        "cropbox": [
+          0.0,
+          11.76,
+          612.0,
+          803.76
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 382,
+        "mediabox": [
+          0.0,
+          0.0,
+          612.72,
+          803.76
+        ],
+        "cropbox": [
+          0.0,
+          11.76,
+          612.0,
+          803.76
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 383,
+        "mediabox": [
+          0.0,
+          0.0,
+          612.72,
+          803.76
+        ],
+        "cropbox": [
+          0.0,
+          11.76,
+          612.0,
+          803.76
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 384,
+        "mediabox": [
+          0.0,
+          0.0,
+          612.72,
+          803.76
+        ],
+        "cropbox": [
+          0.0,
+          11.76,
+          612.0,
+          803.76
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 385,
+        "mediabox": [
+          0.0,
+          0.0,
+          612.72,
+          803.76
+        ],
+        "cropbox": [
+          0.0,
+          11.76,
+          612.0,
+          803.76
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 386,
+        "mediabox": [
+          0.0,
+          0.0,
+          612.72,
+          803.76
+        ],
+        "cropbox": [
+          0.0,
+          11.76,
+          612.0,
+          803.76
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 387,
+        "mediabox": [
+          0.0,
+          0.0,
+          612.72,
+          803.76
+        ],
+        "cropbox": [
+          0.0,
+          11.76,
+          612.0,
+          803.76
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 388,
+        "mediabox": [
+          0.0,
+          0.0,
+          612.72,
+          803.76
+        ],
+        "cropbox": [
+          0.0,
+          11.76,
+          612.0,
+          803.76
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 389,
+        "mediabox": [
+          0.0,
+          0.0,
+          612.72,
+          803.76
+        ],
+        "cropbox": [
+          0.0,
+          11.76,
+          612.0,
+          803.76
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 390,
+        "mediabox": [
+          0.0,
+          0.0,
+          612.72,
+          803.76
+        ],
+        "cropbox": [
+          0.0,
+          11.76,
+          612.0,
+          803.76
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 391,
+        "mediabox": [
+          0.0,
+          0.0,
+          612.72,
+          803.76
+        ],
+        "cropbox": [
+          0.0,
+          11.76,
+          612.0,
+          803.76
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 392,
+        "mediabox": [
+          0.0,
+          0.0,
+          612.72,
+          803.76
+        ],
+        "cropbox": [
+          0.0,
+          11.76,
+          612.0,
+          803.76
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Chengalpattu",
+    "table": "medical_educational_amenities",
+    "source": "1971\\Tamil Nadu\\1971 Chengalpattu.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Tamil Nadu\\mededu\\Chengalpattu_mededu_1971.pdf",
+    "source_pages": [
+      393,
+      394,
+      395,
+      396,
+      397,
+      398,
+      399,
+      400,
+      401,
+      402,
+      403,
+      404,
+      405,
+      406,
+      407,
+      408,
+      409,
+      410,
+      411,
+      412
+    ],
+    "output_pages": 20,
+    "page_sizes": [
+      {
+        "source_page": 393,
+        "mediabox": [
+          0.0,
+          0.0,
+          612.72,
+          803.76
+        ],
+        "cropbox": [
+          0.0,
+          11.76,
+          612.0,
+          803.76
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 394,
+        "mediabox": [
+          0.0,
+          0.0,
+          612.72,
+          803.76
+        ],
+        "cropbox": [
+          0.0,
+          11.76,
+          612.0,
+          803.76
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 395,
+        "mediabox": [
+          0.0,
+          0.0,
+          612.72,
+          803.76
+        ],
+        "cropbox": [
+          0.0,
+          11.76,
+          612.0,
+          803.76
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 396,
+        "mediabox": [
+          0.0,
+          0.0,
+          612.72,
+          803.76
+        ],
+        "cropbox": [
+          0.0,
+          11.76,
+          612.0,
+          803.76
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 397,
+        "mediabox": [
+          0.0,
+          0.0,
+          612.72,
+          803.76
+        ],
+        "cropbox": [
+          0.0,
+          11.76,
+          612.0,
+          803.76
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 398,
+        "mediabox": [
+          0.0,
+          0.0,
+          612.72,
+          803.76
+        ],
+        "cropbox": [
+          0.0,
+          11.76,
+          612.0,
+          803.76
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 399,
+        "mediabox": [
+          0.0,
+          0.0,
+          612.72,
+          803.76
+        ],
+        "cropbox": [
+          0.0,
+          11.76,
+          612.0,
+          803.76
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 400,
+        "mediabox": [
+          0.0,
+          0.0,
+          612.72,
+          803.76
+        ],
+        "cropbox": [
+          0.0,
+          11.76,
+          612.0,
+          803.76
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 401,
+        "mediabox": [
+          0.0,
+          0.0,
+          612.72,
+          803.76
+        ],
+        "cropbox": [
+          0.0,
+          11.76,
+          612.0,
+          803.76
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 402,
+        "mediabox": [
+          0.0,
+          0.0,
+          612.72,
+          803.76
+        ],
+        "cropbox": [
+          0.0,
+          11.76,
+          612.0,
+          803.76
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 403,
+        "mediabox": [
+          0.0,
+          0.0,
+          612.72,
+          803.76
+        ],
+        "cropbox": [
+          0.0,
+          11.76,
+          612.0,
+          803.76
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 404,
+        "mediabox": [
+          0.0,
+          0.0,
+          612.72,
+          803.76
+        ],
+        "cropbox": [
+          0.0,
+          11.76,
+          612.0,
+          803.76
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 405,
+        "mediabox": [
+          0.0,
+          0.0,
+          612.72,
+          803.76
+        ],
+        "cropbox": [
+          0.0,
+          11.76,
+          612.0,
+          803.76
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 406,
+        "mediabox": [
+          0.0,
+          0.0,
+          612.72,
+          803.76
+        ],
+        "cropbox": [
+          0.0,
+          11.76,
+          612.0,
+          803.76
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 407,
+        "mediabox": [
+          0.0,
+          0.0,
+          612.72,
+          803.76
+        ],
+        "cropbox": [
+          0.0,
+          11.76,
+          612.0,
+          803.76
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 408,
+        "mediabox": [
+          0.0,
+          0.0,
+          612.72,
+          803.76
+        ],
+        "cropbox": [
+          0.0,
+          11.76,
+          612.0,
+          803.76
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 409,
+        "mediabox": [
+          0.0,
+          0.0,
+          612.72,
+          803.76
+        ],
+        "cropbox": [
+          0.0,
+          11.76,
+          612.0,
+          803.76
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 410,
+        "mediabox": [
+          0.0,
+          0.0,
+          612.72,
+          803.76
+        ],
+        "cropbox": [
+          0.0,
+          11.76,
+          612.0,
+          803.76
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 411,
+        "mediabox": [
+          0.0,
+          0.0,
+          612.72,
+          803.76
+        ],
+        "cropbox": [
+          0.0,
+          11.76,
+          612.0,
+          803.76
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 412,
+        "mediabox": [
+          0.0,
+          0.0,
+          612.72,
+          803.76
+        ],
+        "cropbox": [
+          0.0,
+          11.76,
+          612.0,
+          803.76
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Chengalpattu",
+    "table": "tehsil_appendix",
+    "source": "1971\\Tamil Nadu\\1971 Chengalpattu.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Tamil Nadu\\tehsil appendix\\Chengalpattu_tehsil_1971.pdf",
+    "source_pages": [
+      48,
+      74,
+      90,
+      116,
+      130,
+      142,
+      169,
+      190,
+      226,
+      254,
+      274,
+      318
+    ],
+    "output_pages": 12,
+    "page_sizes": [
+      {
+        "source_page": 48,
+        "mediabox": [
+          0.0,
+          0.0,
+          612.72,
+          803.76
+        ],
+        "cropbox": [
+          0.0,
+          11.76,
+          612.0,
+          803.76
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 74,
+        "mediabox": [
+          0.0,
+          0.0,
+          612.72,
+          803.76
+        ],
+        "cropbox": [
+          0.0,
+          11.76,
+          612.0,
+          803.76
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 90,
+        "mediabox": [
+          0.0,
+          0.0,
+          612.72,
+          803.76
+        ],
+        "cropbox": [
+          0.0,
+          11.76,
+          612.0,
+          803.76
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 116,
+        "mediabox": [
+          0.0,
+          0.0,
+          612.72,
+          803.76
+        ],
+        "cropbox": [
+          0.0,
+          11.76,
+          612.0,
+          803.76
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 130,
+        "mediabox": [
+          0.0,
+          0.0,
+          612.72,
+          803.76
+        ],
+        "cropbox": [
+          0.0,
+          11.76,
+          612.0,
+          803.76
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 142,
+        "mediabox": [
+          0.0,
+          0.0,
+          612.72,
+          803.76
+        ],
+        "cropbox": [
+          0.0,
+          11.76,
+          612.0,
+          803.76
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 169,
+        "mediabox": [
+          0.0,
+          0.0,
+          612.72,
+          803.76
+        ],
+        "cropbox": [
+          0.0,
+          11.76,
+          612.0,
+          803.76
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 190,
+        "mediabox": [
+          0.0,
+          0.0,
+          612.72,
+          803.76
+        ],
+        "cropbox": [
+          0.0,
+          11.76,
+          612.0,
+          803.76
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 226,
+        "mediabox": [
+          0.0,
+          0.0,
+          612.72,
+          803.76
+        ],
+        "cropbox": [
+          0.0,
+          11.76,
+          612.0,
+          803.76
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 254,
+        "mediabox": [
+          0.0,
+          0.0,
+          612.72,
+          803.76
+        ],
+        "cropbox": [
+          0.0,
+          11.76,
+          612.0,
+          803.76
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 274,
+        "mediabox": [
+          0.0,
+          0.0,
+          612.72,
+          803.76
+        ],
+        "cropbox": [
+          0.0,
+          11.76,
+          612.0,
+          803.76
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 318,
+        "mediabox": [
+          0.0,
+          0.0,
+          612.72,
+          803.76
+        ],
+        "cropbox": [
+          0.0,
+          11.76,
+          612.0,
+          803.76
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Coimbatore",
+    "table": "civic_amenities",
+    "source": "1971\\Tamil Nadu\\1971 Coimbatore.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Tamil Nadu\\civic amenities\\Coimbatore_civic_1971.pdf",
+    "source_pages": [
+      209,
+      210,
+      211,
+      212,
+      213,
+      214,
+      215,
+      216,
+      217,
+      218,
+      219,
+      220
+    ],
+    "output_pages": 12,
+    "page_sizes": [
+      {
+        "source_page": 209,
+        "mediabox": [
+          0.0,
+          0.0,
+          540.24,
+          798.0
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          540.24,
+          798.0
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 210,
+        "mediabox": [
+          0.0,
+          0.0,
+          540.24,
+          798.0
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          540.24,
+          798.0
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 211,
+        "mediabox": [
+          0.0,
+          0.0,
+          540.24,
+          798.0
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          540.24,
+          798.0
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 212,
+        "mediabox": [
+          0.0,
+          0.0,
+          540.24,
+          798.0
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          540.24,
+          798.0
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 213,
+        "mediabox": [
+          0.0,
+          0.0,
+          540.24,
+          798.0
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          540.24,
+          798.0
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 214,
+        "mediabox": [
+          0.0,
+          0.0,
+          540.24,
+          798.0
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          540.24,
+          798.0
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 215,
+        "mediabox": [
+          0.0,
+          0.0,
+          540.24,
+          798.0
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          540.24,
+          798.0
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 216,
+        "mediabox": [
+          0.0,
+          0.0,
+          540.24,
+          798.0
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          540.24,
+          798.0
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 217,
+        "mediabox": [
+          0.0,
+          0.0,
+          540.24,
+          798.0
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          540.24,
+          798.0
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 218,
+        "mediabox": [
+          0.0,
+          0.0,
+          540.24,
+          798.0
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          540.24,
+          798.0
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 219,
+        "mediabox": [
+          0.0,
+          0.0,
+          540.24,
+          798.0
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          540.24,
+          798.0
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 220,
+        "mediabox": [
+          0.0,
+          0.0,
+          540.24,
+          798.0
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          540.24,
+          798.0
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Coimbatore",
+    "table": "medical_educational_amenities",
+    "source": "1971\\Tamil Nadu\\1971 Coimbatore.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Tamil Nadu\\mededu\\Coimbatore_mededu_1971.pdf",
+    "source_pages": [
+      221,
+      222,
+      223,
+      224,
+      225,
+      226,
+      227,
+      228,
+      229,
+      230,
+      231,
+      232
+    ],
+    "output_pages": 12,
+    "page_sizes": [
+      {
+        "source_page": 221,
+        "mediabox": [
+          0.0,
+          0.0,
+          540.24,
+          798.0
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          540.24,
+          798.0
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 222,
+        "mediabox": [
+          0.0,
+          0.0,
+          540.24,
+          798.0
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          540.24,
+          798.0
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 223,
+        "mediabox": [
+          0.0,
+          0.0,
+          540.24,
+          798.0
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          540.24,
+          798.0
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 224,
+        "mediabox": [
+          0.0,
+          0.0,
+          540.24,
+          798.0
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          540.24,
+          798.0
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 225,
+        "mediabox": [
+          0.0,
+          0.0,
+          540.24,
+          798.0
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          540.24,
+          798.0
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 226,
+        "mediabox": [
+          0.0,
+          0.0,
+          540.24,
+          798.0
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          540.24,
+          798.0
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 227,
+        "mediabox": [
+          0.0,
+          0.0,
+          540.24,
+          798.0
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          540.24,
+          798.0
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 228,
+        "mediabox": [
+          0.0,
+          0.0,
+          540.24,
+          798.0
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          540.24,
+          798.0
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 229,
+        "mediabox": [
+          0.0,
+          0.0,
+          540.24,
+          798.0
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          540.24,
+          798.0
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 230,
+        "mediabox": [
+          0.0,
+          0.0,
+          540.24,
+          798.0
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          540.24,
+          798.0
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 231,
+        "mediabox": [
+          0.0,
+          0.0,
+          540.24,
+          798.0
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          540.24,
+          798.0
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 232,
+        "mediabox": [
+          0.0,
+          0.0,
+          540.24,
+          798.0
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          540.24,
+          798.0
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Coimbatore",
+    "table": "tehsil_appendix",
+    "source": "1971\\Tamil Nadu\\1971 Coimbatore.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Tamil Nadu\\tehsil appendix\\Coimbatore_tehsil_1971.pdf",
+    "source_pages": [
+      34,
+      52,
+      78,
+      94,
+      110,
+      122,
+      134,
+      150,
+      168
+    ],
+    "output_pages": 9,
+    "page_sizes": [
+      {
+        "source_page": 34,
+        "mediabox": [
+          0.0,
+          0.0,
+          540.24,
+          798.0
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          540.24,
+          798.0
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 52,
+        "mediabox": [
+          0.0,
+          0.0,
+          540.24,
+          798.0
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          540.24,
+          798.0
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 78,
+        "mediabox": [
+          0.0,
+          0.0,
+          540.24,
+          798.0
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          540.24,
+          798.0
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 94,
+        "mediabox": [
+          0.0,
+          0.0,
+          540.24,
+          798.0
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          540.24,
+          798.0
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 110,
+        "mediabox": [
+          0.0,
+          0.0,
+          540.24,
+          798.0
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          540.24,
+          798.0
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 122,
+        "mediabox": [
+          0.0,
+          0.0,
+          540.24,
+          798.0
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          540.24,
+          798.0
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 134,
+        "mediabox": [
+          0.0,
+          0.0,
+          540.24,
+          798.0
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          540.24,
+          798.0
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 150,
+        "mediabox": [
+          0.0,
+          0.0,
+          540.24,
+          798.0
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          540.24,
+          798.0
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 168,
+        "mediabox": [
+          0.0,
+          0.0,
+          540.24,
+          798.0
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          540.24,
+          798.0
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Dharmapuri",
+    "table": "civic_amenities",
+    "source": "1971\\Tamil Nadu\\1971 Dharmapuri.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Tamil Nadu\\civic amenities\\Dharmapuri_civic_1971.pdf",
+    "source_pages": [
+      217,
+      218
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 217,
+        "mediabox": [
+          0.0,
+          0.0,
+          627.36,
+          846.72
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          627.36,
+          846.72
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 218,
+        "mediabox": [
+          0.0,
+          0.0,
+          627.36,
+          846.72
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          627.36,
+          846.72
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Dharmapuri",
+    "table": "medical_educational_amenities",
+    "source": "1971\\Tamil Nadu\\1971 Dharmapuri.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Tamil Nadu\\mededu\\Dharmapuri_mededu_1971.pdf",
+    "source_pages": [
+      219,
+      220
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 219,
+        "mediabox": [
+          0.0,
+          0.0,
+          627.36,
+          846.72
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          627.36,
+          846.72
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 220,
+        "mediabox": [
+          0.0,
+          0.0,
+          627.36,
+          846.72
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          627.36,
+          846.72
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Dharmapuri",
+    "table": "tehsil_appendix",
+    "source": "1971\\Tamil Nadu\\1971 Dharmapuri.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Tamil Nadu\\tehsil appendix\\Dharmapuri_tehsil_1971.pdf",
+    "source_pages": [
+      48,
+      64,
+      90,
+      124,
+      170,
+      186,
+      206
+    ],
+    "output_pages": 7,
+    "page_sizes": [
+      {
+        "source_page": 48,
+        "mediabox": [
+          0.0,
+          0.0,
+          627.36,
+          846.72
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          627.36,
+          846.72
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 64,
+        "mediabox": [
+          0.0,
+          0.0,
+          627.36,
+          846.72
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          627.36,
+          846.72
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 90,
+        "mediabox": [
+          0.0,
+          0.0,
+          627.36,
+          846.72
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          627.36,
+          846.72
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 124,
+        "mediabox": [
+          0.0,
+          0.0,
+          627.36,
+          846.72
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          627.36,
+          846.72
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 170,
+        "mediabox": [
+          0.0,
+          0.0,
+          627.36,
+          846.72
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          627.36,
+          846.72
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 186,
+        "mediabox": [
+          0.0,
+          0.0,
+          627.36,
+          846.72
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          627.36,
+          846.72
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 206,
+        "mediabox": [
+          0.0,
+          0.0,
+          627.36,
+          846.72
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          627.36,
+          846.72
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "North Arcot",
+    "table": "civic_amenities",
+    "source": "1971\\Tamil Nadu\\1971 North Arcot.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Tamil Nadu\\civic amenities\\North Arcot_civic_1971.pdf",
+    "source_pages": [
+      346,
+      347,
+      348,
+      349,
+      350,
+      351
+    ],
+    "output_pages": 6,
+    "page_sizes": [
+      {
+        "source_page": 346,
+        "mediabox": [
+          0.0,
+          0.0,
+          610.32,
+          811.92
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          610.32,
+          811.92
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 347,
+        "mediabox": [
+          0.0,
+          0.0,
+          610.32,
+          811.92
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          610.32,
+          811.92
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 348,
+        "mediabox": [
+          0.0,
+          0.0,
+          610.32,
+          811.92
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          610.32,
+          811.92
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 349,
+        "mediabox": [
+          0.0,
+          0.0,
+          610.32,
+          811.92
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          610.32,
+          811.92
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 350,
+        "mediabox": [
+          0.0,
+          0.0,
+          610.32,
+          811.92
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          610.32,
+          811.92
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 351,
+        "mediabox": [
+          0.0,
+          0.0,
+          610.32,
+          811.92
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          610.32,
+          811.92
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "North Arcot",
+    "table": "medical_educational_amenities",
+    "source": "1971\\Tamil Nadu\\1971 North Arcot.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Tamil Nadu\\mededu\\North Arcot_mededu_1971.pdf",
+    "source_pages": [
+      352,
+      353,
+      354,
+      355,
+      356,
+      357,
+      358
+    ],
+    "output_pages": 7,
+    "page_sizes": [
+      {
+        "source_page": 352,
+        "mediabox": [
+          0.0,
+          0.0,
+          610.32,
+          811.92
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          610.32,
+          811.92
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 353,
+        "mediabox": [
+          0.0,
+          0.0,
+          610.32,
+          811.92
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          610.32,
+          811.92
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 354,
+        "mediabox": [
+          0.0,
+          0.0,
+          610.32,
+          811.92
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          610.32,
+          811.92
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 355,
+        "mediabox": [
+          0.0,
+          0.0,
+          610.32,
+          811.92
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          610.32,
+          811.92
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 356,
+        "mediabox": [
+          0.0,
+          0.0,
+          610.32,
+          811.92
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          610.32,
+          811.92
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 357,
+        "mediabox": [
+          0.0,
+          0.0,
+          610.32,
+          811.92
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          610.32,
+          811.92
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 358,
+        "mediabox": [
+          0.0,
+          0.0,
+          610.32,
+          811.92
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          610.32,
+          811.92
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "North Arcot",
+    "table": "tehsil_appendix",
+    "source": "1971\\Tamil Nadu\\1971 North Arcot.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Tamil Nadu\\tehsil appendix\\North Arcot_tehsil_1971.pdf",
+    "source_pages": [
+      37,
+      57,
+      79,
+      97,
+      115,
+      137,
+      149,
+      175,
+      203,
+      235,
+      267,
+      301,
+      321
+    ],
+    "output_pages": 13,
+    "page_sizes": [
+      {
+        "source_page": 37,
+        "mediabox": [
+          0.0,
+          0.0,
+          610.32,
+          811.92
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          610.32,
+          811.92
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 57,
+        "mediabox": [
+          0.0,
+          0.0,
+          610.32,
+          811.92
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          610.32,
+          811.92
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 79,
+        "mediabox": [
+          0.0,
+          0.0,
+          610.32,
+          811.92
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          610.32,
+          811.92
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 97,
+        "mediabox": [
+          0.0,
+          0.0,
+          610.32,
+          811.92
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          610.32,
+          811.92
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 115,
+        "mediabox": [
+          0.0,
+          0.0,
+          610.32,
+          811.92
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          610.32,
+          811.92
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 137,
+        "mediabox": [
+          0.0,
+          0.0,
+          610.32,
+          811.92
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          610.32,
+          811.92
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 149,
+        "mediabox": [
+          0.0,
+          0.0,
+          610.32,
+          811.92
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          610.32,
+          811.92
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 175,
+        "mediabox": [
+          0.0,
+          0.0,
+          610.32,
+          811.92
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          610.32,
+          811.92
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 203,
+        "mediabox": [
+          0.0,
+          0.0,
+          610.32,
+          811.92
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          610.32,
+          811.92
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 235,
+        "mediabox": [
+          0.0,
+          0.0,
+          610.32,
+          811.92
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          610.32,
+          811.92
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 267,
+        "mediabox": [
+          0.0,
+          0.0,
+          610.32,
+          811.92
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          610.32,
+          811.92
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 301,
+        "mediabox": [
+          0.0,
+          0.0,
+          610.32,
+          811.92
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          610.32,
+          811.92
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 321,
+        "mediabox": [
+          0.0,
+          0.0,
+          610.32,
+          811.92
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          610.32,
+          811.92
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Ramanathapuram",
+    "table": "civic_amenities",
+    "source": "1971\\Tamil Nadu\\1971 Ramanathapuram.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Tamil Nadu\\civic amenities\\Ramanathapuram_civic_1971.pdf",
+    "source_pages": [
+      287,
+      288,
+      289,
+      290,
+      291,
+      292
+    ],
+    "output_pages": 6,
+    "page_sizes": [
+      {
+        "source_page": 287,
+        "mediabox": [
+          0.0,
+          0.0,
+          633.84,
+          825.12
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          633.84,
+          825.12
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 288,
+        "mediabox": [
+          0.0,
+          0.0,
+          633.84,
+          825.12
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          633.84,
+          825.12
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 289,
+        "mediabox": [
+          0.0,
+          0.0,
+          633.84,
+          825.12
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          633.84,
+          825.12
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 290,
+        "mediabox": [
+          0.0,
+          0.0,
+          633.84,
+          825.12
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          633.84,
+          825.12
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 291,
+        "mediabox": [
+          0.0,
+          0.0,
+          633.84,
+          825.12
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          633.84,
+          825.12
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 292,
+        "mediabox": [
+          0.0,
+          0.0,
+          633.84,
+          825.12
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          633.84,
+          825.12
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Ramanathapuram",
+    "table": "medical_educational_amenities",
+    "source": "1971\\Tamil Nadu\\1971 Ramanathapuram.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Tamil Nadu\\mededu\\Ramanathapuram_mededu_1971.pdf",
+    "source_pages": [
+      293,
+      294,
+      295,
+      296,
+      297,
+      298,
+      299
+    ],
+    "output_pages": 7,
+    "page_sizes": [
+      {
+        "source_page": 293,
+        "mediabox": [
+          0.0,
+          0.0,
+          633.84,
+          825.12
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          633.84,
+          825.12
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 294,
+        "mediabox": [
+          0.0,
+          0.0,
+          633.84,
+          825.12
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          633.84,
+          825.12
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 295,
+        "mediabox": [
+          0.0,
+          0.0,
+          633.84,
+          825.12
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          633.84,
+          825.12
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 296,
+        "mediabox": [
+          0.0,
+          0.0,
+          633.84,
+          825.12
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          633.84,
+          825.12
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 297,
+        "mediabox": [
+          0.0,
+          0.0,
+          633.84,
+          825.12
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          633.84,
+          825.12
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 298,
+        "mediabox": [
+          0.0,
+          0.0,
+          633.84,
+          825.12
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          633.84,
+          825.12
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 299,
+        "mediabox": [
+          0.0,
+          0.0,
+          633.84,
+          825.12
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          633.84,
+          825.12
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Ramanathapuram",
+    "table": "tehsil_appendix",
+    "source": "1971\\Tamil Nadu\\1971 Ramanathapuram.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Tamil Nadu\\tehsil appendix\\Ramanathapuram_tehsil_1971.pdf",
+    "source_pages": [
+      36,
+      46,
+      66,
+      78,
+      90,
+      108,
+      120,
+      134,
+      146,
+      156,
+      170,
+      190,
+      216,
+      230,
+      246,
+      256,
+      264
+    ],
+    "output_pages": 17,
+    "page_sizes": [
+      {
+        "source_page": 36,
+        "mediabox": [
+          0.0,
+          0.0,
+          633.84,
+          825.12
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          633.84,
+          825.12
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 46,
+        "mediabox": [
+          0.0,
+          0.0,
+          633.84,
+          825.12
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          633.84,
+          825.12
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 66,
+        "mediabox": [
+          0.0,
+          0.0,
+          633.84,
+          825.12
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          633.84,
+          825.12
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 78,
+        "mediabox": [
+          0.0,
+          0.0,
+          633.84,
+          825.12
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          633.84,
+          825.12
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 90,
+        "mediabox": [
+          0.0,
+          0.0,
+          633.84,
+          825.12
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          633.84,
+          825.12
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 108,
+        "mediabox": [
+          0.0,
+          0.0,
+          633.84,
+          825.12
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          633.84,
+          825.12
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 120,
+        "mediabox": [
+          0.0,
+          0.0,
+          633.84,
+          825.12
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          633.84,
+          825.12
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 134,
+        "mediabox": [
+          0.0,
+          0.0,
+          633.84,
+          825.12
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          633.84,
+          825.12
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 146,
+        "mediabox": [
+          0.0,
+          0.0,
+          633.84,
+          825.12
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          633.84,
+          825.12
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 156,
+        "mediabox": [
+          0.0,
+          0.0,
+          633.84,
+          825.12
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          633.84,
+          825.12
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 170,
+        "mediabox": [
+          0.0,
+          0.0,
+          633.84,
+          825.12
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          633.84,
+          825.12
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 190,
+        "mediabox": [
+          0.0,
+          0.0,
+          633.84,
+          825.12
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          633.84,
+          825.12
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 216,
+        "mediabox": [
+          0.0,
+          0.0,
+          633.84,
+          825.12
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          633.84,
+          825.12
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 230,
+        "mediabox": [
+          0.0,
+          0.0,
+          633.84,
+          825.12
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          633.84,
+          825.12
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 246,
+        "mediabox": [
+          0.0,
+          0.0,
+          633.84,
+          825.12
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          633.84,
+          825.12
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 256,
+        "mediabox": [
+          0.0,
+          0.0,
+          633.84,
+          825.12
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          633.84,
+          825.12
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 264,
+        "mediabox": [
+          0.0,
+          0.0,
+          633.84,
+          825.12
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          633.84,
+          825.12
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Salem",
+    "table": "civic_amenities",
+    "source": "1971\\Tamil Nadu\\1971 Salem.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Tamil Nadu\\civic amenities\\Salem_civic_1971.pdf",
+    "source_pages": [
+      182,
+      183,
+      184,
+      185,
+      186,
+      187,
+      188,
+      189
+    ],
+    "output_pages": 8,
+    "page_sizes": [
+      {
+        "source_page": 182,
+        "mediabox": [
+          0.0,
+          0.0,
+          627.36,
+          846.72
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          627.36,
+          846.72
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 183,
+        "mediabox": [
+          0.0,
+          0.0,
+          627.36,
+          846.72
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          627.36,
+          846.72
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 184,
+        "mediabox": [
+          0.0,
+          0.0,
+          627.36,
+          846.72
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          627.36,
+          846.72
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 185,
+        "mediabox": [
+          0.0,
+          0.0,
+          627.36,
+          846.72
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          627.36,
+          846.72
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 186,
+        "mediabox": [
+          0.0,
+          0.0,
+          627.36,
+          846.72
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          627.36,
+          846.72
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 187,
+        "mediabox": [
+          0.0,
+          0.0,
+          627.36,
+          846.72
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          627.36,
+          846.72
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 188,
+        "mediabox": [
+          0.0,
+          0.0,
+          627.36,
+          846.72
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          627.36,
+          846.72
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 189,
+        "mediabox": [
+          0.0,
+          0.0,
+          627.36,
+          846.72
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          627.36,
+          846.72
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Salem",
+    "table": "medical_educational_amenities",
+    "source": "1971\\Tamil Nadu\\1971 Salem.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Tamil Nadu\\mededu\\Salem_mededu_1971.pdf",
+    "source_pages": [
+      190,
+      191,
+      192,
+      193,
+      194,
+      195
+    ],
+    "output_pages": 6,
+    "page_sizes": [
+      {
+        "source_page": 190,
+        "mediabox": [
+          0.0,
+          0.0,
+          627.36,
+          846.72
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          627.36,
+          846.72
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 191,
+        "mediabox": [
+          0.0,
+          0.0,
+          627.36,
+          846.72
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          627.36,
+          846.72
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 192,
+        "mediabox": [
+          0.0,
+          0.0,
+          627.36,
+          846.72
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          627.36,
+          846.72
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 193,
+        "mediabox": [
+          0.0,
+          0.0,
+          627.36,
+          846.72
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          627.36,
+          846.72
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 194,
+        "mediabox": [
+          0.0,
+          0.0,
+          627.36,
+          846.72
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          627.36,
+          846.72
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 195,
+        "mediabox": [
+          0.0,
+          0.0,
+          627.36,
+          846.72
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          627.36,
+          846.72
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Salem",
+    "table": "tehsil_appendix",
+    "source": "1971\\Tamil Nadu\\1971 Salem.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Tamil Nadu\\tehsil appendix\\Salem_tehsil_1971.pdf",
+    "source_pages": [
+      29,
+      43,
+      53,
+      71,
+      83,
+      95,
+      111,
+      131,
+      155
+    ],
+    "output_pages": 9,
+    "page_sizes": [
+      {
+        "source_page": 29,
+        "mediabox": [
+          0.0,
+          0.0,
+          627.36,
+          846.72
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          627.36,
+          846.72
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 43,
+        "mediabox": [
+          0.0,
+          0.0,
+          627.36,
+          846.72
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          627.36,
+          846.72
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 53,
+        "mediabox": [
+          0.0,
+          0.0,
+          627.36,
+          846.72
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          627.36,
+          846.72
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 71,
+        "mediabox": [
+          0.0,
+          0.0,
+          627.36,
+          846.72
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          627.36,
+          846.72
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 83,
+        "mediabox": [
+          0.0,
+          0.0,
+          627.36,
+          846.72
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          627.36,
+          846.72
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 95,
+        "mediabox": [
+          0.0,
+          0.0,
+          627.36,
+          846.72
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          627.36,
+          846.72
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 111,
+        "mediabox": [
+          0.0,
+          0.0,
+          627.36,
+          846.72
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          627.36,
+          846.72
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 131,
+        "mediabox": [
+          0.0,
+          0.0,
+          627.36,
+          846.72
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          627.36,
+          846.72
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 155,
+        "mediabox": [
+          0.0,
+          0.0,
+          627.36,
+          846.72
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          627.36,
+          846.72
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Thanjavur",
+    "table": "civic_amenities",
+    "source": "1971\\Tamil Nadu\\1971 Thanjavur.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Tamil Nadu\\civic amenities\\Thanjavur_civic_1971.pdf",
+    "source_pages": [
+      329,
+      330,
+      331,
+      332,
+      333,
+      334
+    ],
+    "output_pages": 6,
+    "page_sizes": [
+      {
+        "source_page": 329,
+        "mediabox": [
+          0.0,
+          0.0,
+          597.84,
+          858.0
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          597.84,
+          858.0
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 330,
+        "mediabox": [
+          0.0,
+          0.0,
+          597.84,
+          858.0
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          597.84,
+          858.0
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 331,
+        "mediabox": [
+          0.0,
+          0.0,
+          597.84,
+          858.0
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          597.84,
+          858.0
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 332,
+        "mediabox": [
+          0.0,
+          0.0,
+          597.84,
+          858.0
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          597.84,
+          858.0
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 333,
+        "mediabox": [
+          0.0,
+          0.0,
+          597.84,
+          858.0
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          597.84,
+          858.0
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 334,
+        "mediabox": [
+          0.0,
+          0.0,
+          597.84,
+          858.0
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          597.84,
+          858.0
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Thanjavur",
+    "table": "medical_educational_amenities",
+    "source": "1971\\Tamil Nadu\\1971 Thanjavur.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Tamil Nadu\\mededu\\Thanjavur_mededu_1971.pdf",
+    "source_pages": [
+      335,
+      336,
+      337,
+      338,
+      339,
+      340
+    ],
+    "output_pages": 6,
+    "page_sizes": [
+      {
+        "source_page": 335,
+        "mediabox": [
+          0.0,
+          0.0,
+          597.84,
+          858.0
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          597.84,
+          858.0
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 336,
+        "mediabox": [
+          0.0,
+          0.0,
+          597.84,
+          858.0
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          597.84,
+          858.0
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 337,
+        "mediabox": [
+          0.0,
+          0.0,
+          597.84,
+          858.0
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          597.84,
+          858.0
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 338,
+        "mediabox": [
+          0.0,
+          0.0,
+          597.84,
+          858.0
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          597.84,
+          858.0
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 339,
+        "mediabox": [
+          0.0,
+          0.0,
+          597.84,
+          858.0
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          597.84,
+          858.0
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 340,
+        "mediabox": [
+          0.0,
+          0.0,
+          597.84,
+          858.0
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          597.84,
+          858.0
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Thanjavur",
+    "table": "tehsil_appendix",
+    "source": "1971\\Tamil Nadu\\1971 Thanjavur.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Tamil Nadu\\tehsil appendix\\Thanjavur_tehsil_1971.pdf",
+    "source_pages": [
+      32,
+      52,
+      72,
+      100,
+      126,
+      152,
+      170,
+      190,
+      208,
+      228,
+      252,
+      270,
+      298
+    ],
+    "output_pages": 13,
+    "page_sizes": [
+      {
+        "source_page": 32,
+        "mediabox": [
+          0.0,
+          0.0,
+          597.84,
+          858.0
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          597.84,
+          858.0
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 52,
+        "mediabox": [
+          0.0,
+          0.0,
+          597.84,
+          858.0
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          597.84,
+          858.0
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 72,
+        "mediabox": [
+          0.0,
+          0.0,
+          597.84,
+          858.0
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          597.84,
+          858.0
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 100,
+        "mediabox": [
+          0.0,
+          0.0,
+          597.84,
+          858.0
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          597.84,
+          858.0
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 126,
+        "mediabox": [
+          0.0,
+          0.0,
+          597.84,
+          858.0
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          597.84,
+          858.0
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 152,
+        "mediabox": [
+          0.0,
+          0.0,
+          597.84,
+          858.0
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          597.84,
+          858.0
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 170,
+        "mediabox": [
+          0.0,
+          0.0,
+          597.84,
+          858.0
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          597.84,
+          858.0
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 190,
+        "mediabox": [
+          0.0,
+          0.0,
+          597.84,
+          858.0
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          597.84,
+          858.0
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 208,
+        "mediabox": [
+          0.0,
+          0.0,
+          597.84,
+          858.0
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          597.84,
+          858.0
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 228,
+        "mediabox": [
+          0.0,
+          0.0,
+          597.84,
+          858.0
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          597.84,
+          858.0
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 252,
+        "mediabox": [
+          0.0,
+          0.0,
+          597.84,
+          858.0
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          597.84,
+          858.0
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 270,
+        "mediabox": [
+          0.0,
+          0.0,
+          597.84,
+          858.0
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          597.84,
+          858.0
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 298,
+        "mediabox": [
+          0.0,
+          0.0,
+          597.84,
+          858.0
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          597.84,
+          858.0
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Tiruchchirappalli",
+    "table": "civic_amenities",
+    "source": "1971\\Tamil Nadu\\1971 Tiruchchirappalli.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Tamil Nadu\\civic amenities\\Tiruchchirappalli_civic_1971.pdf",
+    "source_pages": [
+      310,
+      311,
+      312,
+      313,
+      314,
+      315
+    ],
+    "output_pages": 6,
+    "page_sizes": [
+      {
+        "source_page": 310,
+        "mediabox": [
+          0.0,
+          0.0,
+          562.56,
+          799.68
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          562.56,
+          799.68
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 311,
+        "mediabox": [
+          0.0,
+          0.0,
+          562.56,
+          799.68
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          562.56,
+          799.68
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 312,
+        "mediabox": [
+          0.0,
+          0.0,
+          562.56,
+          799.68
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          562.56,
+          799.68
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 313,
+        "mediabox": [
+          0.0,
+          0.0,
+          562.56,
+          799.68
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          562.56,
+          799.68
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 314,
+        "mediabox": [
+          0.0,
+          0.0,
+          562.56,
+          799.68
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          562.56,
+          799.68
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 315,
+        "mediabox": [
+          0.0,
+          0.0,
+          562.56,
+          799.68
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          562.56,
+          799.68
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Tiruchchirappalli",
+    "table": "medical_educational_amenities",
+    "source": "1971\\Tamil Nadu\\1971 Tiruchchirappalli.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Tamil Nadu\\mededu\\Tiruchchirappalli_mededu_1971.pdf",
+    "source_pages": [
+      316,
+      317,
+      318,
+      319,
+      320,
+      321
+    ],
+    "output_pages": 6,
+    "page_sizes": [
+      {
+        "source_page": 316,
+        "mediabox": [
+          0.0,
+          0.0,
+          562.56,
+          799.68
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          562.56,
+          799.68
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 317,
+        "mediabox": [
+          0.0,
+          0.0,
+          562.56,
+          799.68
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          562.56,
+          799.68
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 318,
+        "mediabox": [
+          0.0,
+          0.0,
+          562.56,
+          799.68
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          562.56,
+          799.68
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 319,
+        "mediabox": [
+          0.0,
+          0.0,
+          562.56,
+          799.68
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          562.56,
+          799.68
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 320,
+        "mediabox": [
+          0.0,
+          0.0,
+          562.56,
+          799.68
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          562.56,
+          799.68
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 321,
+        "mediabox": [
+          0.0,
+          0.0,
+          562.56,
+          799.68
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          562.56,
+          799.68
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Tiruchchirappalli",
+    "table": "tehsil_appendix",
+    "source": "1971\\Tamil Nadu\\1971 Tiruchchirappalli.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Tamil Nadu\\tehsil appendix\\Tiruchchirappalli_tehsil_1971.pdf",
+    "source_pages": [
+      41,
+      61,
+      81,
+      105,
+      119,
+      135,
+      151,
+      167,
+      183,
+      195,
+      225,
+      253,
+      281
+    ],
+    "output_pages": 13,
+    "page_sizes": [
+      {
+        "source_page": 41,
+        "mediabox": [
+          0.0,
+          0.0,
+          562.56,
+          799.68
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          562.56,
+          799.68
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 61,
+        "mediabox": [
+          0.0,
+          0.0,
+          562.56,
+          799.68
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          562.56,
+          799.68
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 81,
+        "mediabox": [
+          0.0,
+          0.0,
+          562.56,
+          799.68
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          562.56,
+          799.68
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 105,
+        "mediabox": [
+          0.0,
+          0.0,
+          562.56,
+          799.68
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          562.56,
+          799.68
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 119,
+        "mediabox": [
+          0.0,
+          0.0,
+          562.56,
+          799.68
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          562.56,
+          799.68
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 135,
+        "mediabox": [
+          0.0,
+          0.0,
+          562.56,
+          799.68
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          562.56,
+          799.68
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 151,
+        "mediabox": [
+          0.0,
+          0.0,
+          562.56,
+          799.68
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          562.56,
+          799.68
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 167,
+        "mediabox": [
+          0.0,
+          0.0,
+          562.56,
+          799.68
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          562.56,
+          799.68
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 183,
+        "mediabox": [
+          0.0,
+          0.0,
+          562.56,
+          799.68
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          562.56,
+          799.68
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 195,
+        "mediabox": [
+          0.0,
+          0.0,
+          562.56,
+          799.68
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          562.56,
+          799.68
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 225,
+        "mediabox": [
+          0.0,
+          0.0,
+          562.56,
+          799.68
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          562.56,
+          799.68
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 253,
+        "mediabox": [
+          0.0,
+          0.0,
+          562.56,
+          799.68
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          562.56,
+          799.68
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 281,
+        "mediabox": [
+          0.0,
+          0.0,
+          562.56,
+          799.68
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          562.56,
+          799.68
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Tirunelveli",
+    "table": "civic_amenities",
+    "source": "1971\\Tamil Nadu\\1971 Tirunelveli.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Tamil Nadu\\civic amenities\\Tirunelveli_civic_1971.pdf",
+    "source_pages": [
+      253,
+      254,
+      255,
+      256,
+      257,
+      258,
+      259,
+      260,
+      261,
+      262
+    ],
+    "output_pages": 10,
+    "page_sizes": [
+      {
+        "source_page": 253,
+        "mediabox": [
+          0.0,
+          0.0,
+          586.32,
+          801.12
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          586.32,
+          801.12
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 254,
+        "mediabox": [
+          0.0,
+          0.0,
+          586.32,
+          801.12
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          586.32,
+          801.12
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 255,
+        "mediabox": [
+          0.0,
+          0.0,
+          586.32,
+          801.12
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          586.32,
+          801.12
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 256,
+        "mediabox": [
+          0.0,
+          0.0,
+          586.32,
+          801.12
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          586.32,
+          801.12
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 257,
+        "mediabox": [
+          0.0,
+          0.0,
+          586.32,
+          801.12
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          586.32,
+          801.12
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 258,
+        "mediabox": [
+          0.0,
+          0.0,
+          586.32,
+          801.12
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          586.32,
+          801.12
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 259,
+        "mediabox": [
+          0.0,
+          0.0,
+          586.32,
+          801.12
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          586.32,
+          801.12
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 260,
+        "mediabox": [
+          0.0,
+          0.0,
+          586.32,
+          801.12
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          586.32,
+          801.12
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 261,
+        "mediabox": [
+          0.0,
+          0.0,
+          586.32,
+          801.12
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          586.32,
+          801.12
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 262,
+        "mediabox": [
+          0.0,
+          0.0,
+          586.32,
+          801.12
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          586.32,
+          801.12
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Tirunelveli",
+    "table": "medical_educational_amenities",
+    "source": "1971\\Tamil Nadu\\1971 Tirunelveli.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Tamil Nadu\\mededu\\Tirunelveli_mededu_1971.pdf",
+    "source_pages": [
+      263,
+      264,
+      265,
+      266,
+      267,
+      268,
+      269,
+      270,
+      271,
+      272
+    ],
+    "output_pages": 10,
+    "page_sizes": [
+      {
+        "source_page": 263,
+        "mediabox": [
+          0.0,
+          0.0,
+          586.32,
+          801.12
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          586.32,
+          801.12
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 264,
+        "mediabox": [
+          0.0,
+          0.0,
+          586.32,
+          801.12
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          586.32,
+          801.12
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 265,
+        "mediabox": [
+          0.0,
+          0.0,
+          586.32,
+          801.12
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          586.32,
+          801.12
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 266,
+        "mediabox": [
+          0.0,
+          0.0,
+          586.32,
+          801.12
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          586.32,
+          801.12
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 267,
+        "mediabox": [
+          0.0,
+          0.0,
+          586.32,
+          801.12
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          586.32,
+          801.12
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 268,
+        "mediabox": [
+          0.0,
+          0.0,
+          586.32,
+          801.12
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          586.32,
+          801.12
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 269,
+        "mediabox": [
+          0.0,
+          0.0,
+          586.32,
+          801.12
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          586.32,
+          801.12
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 270,
+        "mediabox": [
+          0.0,
+          0.0,
+          586.32,
+          801.12
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          586.32,
+          801.12
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 271,
+        "mediabox": [
+          0.0,
+          0.0,
+          586.32,
+          801.12
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          586.32,
+          801.12
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 272,
+        "mediabox": [
+          0.0,
+          0.0,
+          586.32,
+          801.12
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          586.32,
+          801.12
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Tirunelveli",
+    "table": "tehsil_appendix",
+    "source": "1971\\Tamil Nadu\\1971 Tirunelveli.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Tamil Nadu\\tehsil appendix\\Tirunelveli_tehsil_1971.pdf",
+    "source_pages": [
+      34,
+      52,
+      66,
+      74,
+      88,
+      110,
+      128,
+      134,
+      152,
+      176,
+      192,
+      210,
+      220
+    ],
+    "output_pages": 13,
+    "page_sizes": [
+      {
+        "source_page": 34,
+        "mediabox": [
+          0.0,
+          0.0,
+          586.32,
+          801.12
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          586.32,
+          801.12
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 52,
+        "mediabox": [
+          0.0,
+          0.0,
+          586.32,
+          801.12
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          586.32,
+          801.12
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 66,
+        "mediabox": [
+          0.0,
+          0.0,
+          586.32,
+          801.12
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          586.32,
+          801.12
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 74,
+        "mediabox": [
+          0.0,
+          0.0,
+          586.32,
+          801.12
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          586.32,
+          801.12
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 88,
+        "mediabox": [
+          0.0,
+          0.0,
+          586.32,
+          801.12
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          586.32,
+          801.12
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 110,
+        "mediabox": [
+          0.0,
+          0.0,
+          586.32,
+          801.12
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          586.32,
+          801.12
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 128,
+        "mediabox": [
+          0.0,
+          0.0,
+          586.32,
+          801.12
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          586.32,
+          801.12
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 134,
+        "mediabox": [
+          0.0,
+          0.0,
+          586.32,
+          801.12
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          586.32,
+          801.12
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 152,
+        "mediabox": [
+          0.0,
+          0.0,
+          586.32,
+          801.12
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          586.32,
+          801.12
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 176,
+        "mediabox": [
+          0.0,
+          0.0,
+          586.32,
+          801.12
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          586.32,
+          801.12
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 192,
+        "mediabox": [
+          0.0,
+          0.0,
+          586.32,
+          801.12
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          586.32,
+          801.12
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 210,
+        "mediabox": [
+          0.0,
+          0.0,
+          586.32,
+          801.12
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          586.32,
+          801.12
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 220,
+        "mediabox": [
+          0.0,
+          0.0,
+          586.32,
+          801.12
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          586.32,
+          801.12
+        ],
+        "rotate": 0
+      }
+    ]
+  }
+]

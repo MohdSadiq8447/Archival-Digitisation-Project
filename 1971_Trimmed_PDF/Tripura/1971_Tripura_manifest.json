@@ -1,0 +1,137 @@
+[
+  {
+    "district": "Tripura",
+    "table": "civic_amenities",
+    "source": "1971\\Tripura\\1971 Tripura.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Tripura\\civic amenities\\Tripura_civic_1971.pdf",
+    "source_pages": [
+      130,
+      131
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 130,
+        "mediabox": [
+          0.0,
+          0.0,
+          612.0,
+          794.16
+        ],
+        "cropbox": [
+          0.0,
+          2.15997,
+          612.0,
+          794.16
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 131,
+        "mediabox": [
+          0.0,
+          0.0,
+          612.0,
+          794.16
+        ],
+        "cropbox": [
+          0.0,
+          2.15997,
+          612.0,
+          794.16
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Tripura",
+    "table": "medical_educational_amenities",
+    "source": "1971\\Tripura\\1971 Tripura.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Tripura\\mededu\\Tripura_mededu_1971.pdf",
+    "source_pages": [
+      132,
+      133
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 132,
+        "mediabox": [
+          0.0,
+          0.0,
+          612.0,
+          794.16
+        ],
+        "cropbox": [
+          0.0,
+          2.15997,
+          612.0,
+          794.16
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 133,
+        "mediabox": [
+          0.0,
+          0.0,
+          612.0,
+          794.16
+        ],
+        "cropbox": [
+          0.0,
+          2.15997,
+          612.0,
+          794.16
+        ],
+        "rotate": 0
+      }
+    ]
+  },
+  {
+    "district": "Tripura",
+    "table": "tehsil_appendix",
+    "source": "1971\\Tripura\\1971 Tripura.pdf",
+    "output": "output\\pdf\\1971_trimmed\\Tripura\\tehsil appendix\\Tripura_tehsil_1971.pdf",
+    "source_pages": [
+      116,
+      117
+    ],
+    "output_pages": 2,
+    "page_sizes": [
+      {
+        "source_page": 116,
+        "mediabox": [
+          0.0,
+          0.0,
+          612.0,
+          794.16
+        ],
+        "cropbox": [
+          0.0,
+          2.15997,
+          612.0,
+          794.16
+        ],
+        "rotate": 0
+      },
+      {
+        "source_page": 117,
+        "mediabox": [
+          0.0,
+          0.0,
+          612.0,
+          794.16
+        ],
+        "cropbox": [
+          0.0,
+          2.15997,
+          612.0,
+          794.16
+        ],
+        "rotate": 0
+      }
+    ]
+  }
+]

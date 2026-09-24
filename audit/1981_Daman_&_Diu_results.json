@@ -1,0 +1,326 @@
+[
+  {
+    "state": "Daman & Diu",
+    "source_state": "Darman & Diu",
+    "district": "Daman & Diu",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Darman & Diu/1981 Daman & Diu.pdf",
+    "source_filename": "1981 Daman & Diu.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 305,
+    "output": "output/pdf/1981_trimmed/Daman & Diu/civic amenities/1981_Daman & Diu_civic_amenities.pdf",
+    "source_pages_selected": [
+      184,
+      185
+    ],
+    "printed_page_labels": [
+      null,
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement IV printed pages 148-149; source pages 186-187 are the separate Statement IV-A slum table and are excluded.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 184,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              591.12,
+              814.8
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              591.12,
+              814.8
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 185,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              591.12,
+              814.8
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              591.12,
+              814.8
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 184,
+          "output_page": 1,
+          "source_png_sha256": "138133d01028ff8dbdf3e735a34c682c4361aeb8f6c59b28f344bde875720ba9",
+          "output_png_sha256": "138133d01028ff8dbdf3e735a34c682c4361aeb8f6c59b28f344bde875720ba9",
+          "match": true
+        },
+        {
+          "source_page": 185,
+          "output_page": 2,
+          "source_png_sha256": "756447bb416c7d1b522bebb4380b370ffe612a83cadca5b9367114a402de263b",
+          "output_png_sha256": "756447bb416c7d1b522bebb4380b370ffe612a83cadca5b9367114a402de263b",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Daman & Diu",
+    "source_state": "Darman & Diu",
+    "district": "Daman & Diu",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Darman & Diu/1981 Daman & Diu.pdf",
+    "source_filename": "1981 Daman & Diu.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 305,
+    "output": "output/pdf/1981_trimmed/Daman & Diu/mededu/1981_Daman & Diu_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      188,
+      189
+    ],
+    "printed_page_labels": [
+      null,
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement V printed pages 152-153; source page 190 begins Statement VI.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 188,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              591.12,
+              814.8
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              591.12,
+              814.8
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 189,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              591.12,
+              814.8
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              591.12,
+              814.8
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 188,
+          "output_page": 1,
+          "source_png_sha256": "6ea9f992d5aa7721586518f4c73feb12ab2c381ac9326fa193fd4da93e3e4a16",
+          "output_png_sha256": "6ea9f992d5aa7721586518f4c73feb12ab2c381ac9326fa193fd4da93e3e4a16",
+          "match": true
+        },
+        {
+          "source_page": 189,
+          "output_page": 2,
+          "source_png_sha256": "faff723233fc262f16f845cd1587a4fe28ac77bf8f063a3b9004b9a9a3423bdf",
+          "output_png_sha256": "faff723233fc262f16f845cd1587a4fe28ac77bf8f063a3b9004b9a9a3423bdf",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Daman & Diu",
+    "source_state": "Darman & Diu",
+    "district": "Daman & Diu",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Darman & Diu/1981 Daman & Diu.pdf",
+    "source_filename": "1981 Daman & Diu.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 305,
+    "output": "output/pdf/1981_trimmed/Daman & Diu/tehsil appendix/1981_Daman & Diu_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      163,
+      164,
+      165,
+      166
+    ],
+    "printed_page_labels": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Appendix I, Talukawise Abstract of Educational, Medical and Other Amenities, printed pages 128-131; source page 167 begins Appendix II.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 4,
+      "pages": [
+        {
+          "source_page": 163,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              591.12,
+              814.8
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              591.12,
+              814.8
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 164,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              591.12,
+              814.8
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              591.12,
+              814.8
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 165,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              591.12,
+              814.8
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              591.12,
+              814.8
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 166,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              591.12,
+              814.8
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              591.12,
+              814.8
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 163,
+          "output_page": 1,
+          "source_png_sha256": "1d5bcaf38b69cef52fd57997ad37335f83ecacc84eede895df30efc13ded59a4",
+          "output_png_sha256": "1d5bcaf38b69cef52fd57997ad37335f83ecacc84eede895df30efc13ded59a4",
+          "match": true
+        },
+        {
+          "source_page": 164,
+          "output_page": 2,
+          "source_png_sha256": "34114584d516d60125ff9064bf48dacbde4cc6bec3fa53f5e4ef5bb2480b570d",
+          "output_png_sha256": "34114584d516d60125ff9064bf48dacbde4cc6bec3fa53f5e4ef5bb2480b570d",
+          "match": true
+        },
+        {
+          "source_page": 165,
+          "output_page": 3,
+          "source_png_sha256": "76c5237f565a472dee72e3359a40180746a83aa63de2b12a2ef62a0b5e580d6c",
+          "output_png_sha256": "76c5237f565a472dee72e3359a40180746a83aa63de2b12a2ef62a0b5e580d6c",
+          "match": true
+        },
+        {
+          "source_page": 166,
+          "output_page": 4,
+          "source_png_sha256": "f552db81fdadba43cb374d4bd5be054cd955b777a49e1f73791af4e6a6df225f",
+          "output_png_sha256": "f552db81fdadba43cb374d4bd5be054cd955b777a49e1f73791af4e6a6df225f",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 4,
+      "audit_flags": []
+    }
+  }
+]

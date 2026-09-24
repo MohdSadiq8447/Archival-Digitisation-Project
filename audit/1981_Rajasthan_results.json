@@ -1,0 +1,2524 @@
+[
+  {
+    "state": "Rajasthan",
+    "source_state": "Rajasthan",
+    "district": "Bhilwara",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Rajasthan/1981 Bhilwara.pdf",
+    "source_filename": "1981 Bhilwara.pdf",
+    "volume_type": "unclassified 1981 volume",
+    "eligible": false,
+    "eligibility_reason": "Cover and opening pages do not establish an eligible directory volume.",
+    "language_status": "English scan or image-only text",
+    "language_reason": "Opening pages contain no extractable text; visual table review remains required.",
+    "source_page_count": 595,
+    "output": null,
+    "source_pages_selected": [],
+    "printed_page_labels": [],
+    "status": "Not trimmed",
+    "reason": "Cover and opening pages do not establish an eligible directory volume.",
+    "flags": [],
+    "verification": null
+  },
+  {
+    "state": "Rajasthan",
+    "source_state": "Rajasthan",
+    "district": "Bhilwara",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Rajasthan/1981 Bhilwara.pdf",
+    "source_filename": "1981 Bhilwara.pdf",
+    "volume_type": "unclassified 1981 volume",
+    "eligible": false,
+    "eligibility_reason": "Cover and opening pages do not establish an eligible directory volume.",
+    "language_status": "English scan or image-only text",
+    "language_reason": "Opening pages contain no extractable text; visual table review remains required.",
+    "source_page_count": 595,
+    "output": null,
+    "source_pages_selected": [],
+    "printed_page_labels": [],
+    "status": "Not trimmed",
+    "reason": "Cover and opening pages do not establish an eligible directory volume.",
+    "flags": [],
+    "verification": null
+  },
+  {
+    "state": "Rajasthan",
+    "source_state": "Rajasthan",
+    "district": "Bhilwara",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Rajasthan/1981 Bhilwara.pdf",
+    "source_filename": "1981 Bhilwara.pdf",
+    "volume_type": "unclassified 1981 volume",
+    "eligible": false,
+    "eligibility_reason": "Cover and opening pages do not establish an eligible directory volume.",
+    "language_status": "English scan or image-only text",
+    "language_reason": "Opening pages contain no extractable text; visual table review remains required.",
+    "source_page_count": 595,
+    "output": null,
+    "source_pages_selected": [],
+    "printed_page_labels": [],
+    "status": "Not trimmed",
+    "reason": "Cover and opening pages do not establish an eligible directory volume.",
+    "flags": [],
+    "verification": null
+  },
+  {
+    "state": "Rajasthan",
+    "source_state": "Rajasthan",
+    "district": "Bikaner",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Rajasthan/1981 Bikaner.pdf",
+    "source_filename": "1981 Bikaner.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 337,
+    "output": "output/pdf/1981_trimmed/Rajasthan/civic amenities/1981_Bikaner_civic_amenities.pdf",
+    "source_pages_selected": [
+      230,
+      231
+    ],
+    "printed_page_labels": [
+      "104",
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement IV Civic and Other Amenities, 1979; source page 232 begins Statement V.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 230,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              -1.44,
+              612.0,
+              790.56
+            ],
+            "cropbox": [
+              0.0,
+              -1.44,
+              612.0,
+              790.56
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 231,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              -1.44,
+              612.0,
+              790.56
+            ],
+            "cropbox": [
+              0.0,
+              -1.44,
+              612.0,
+              790.56
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 230,
+          "output_page": 1,
+          "source_png_sha256": "1a1bec7df6c0278e09f8ee702419de22fb0f18381f41f5a52ddf7185d19b5473",
+          "output_png_sha256": "1a1bec7df6c0278e09f8ee702419de22fb0f18381f41f5a52ddf7185d19b5473",
+          "match": true
+        },
+        {
+          "source_page": 231,
+          "output_page": 2,
+          "source_png_sha256": "d266382cc453f448019bb11bd0b783c7572210033d48093ff3a79f9021263124",
+          "output_png_sha256": "d266382cc453f448019bb11bd0b783c7572210033d48093ff3a79f9021263124",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Rajasthan",
+    "source_state": "Rajasthan",
+    "district": "Bikaner",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Rajasthan/1981 Bikaner.pdf",
+    "source_filename": "1981 Bikaner.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 337,
+    "output": "output/pdf/1981_trimmed/Rajasthan/mededu/1981_Bikaner_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      232,
+      233
+    ],
+    "printed_page_labels": [
+      "106",
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement V Medical, Educational, Recreational and Cultural Facilities, 1979; source page 234 begins Statement VI.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 232,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              -1.44,
+              612.0,
+              790.56
+            ],
+            "cropbox": [
+              0.0,
+              -1.44,
+              612.0,
+              790.56
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 233,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              -1.44,
+              612.0,
+              790.56
+            ],
+            "cropbox": [
+              0.0,
+              -1.44,
+              612.0,
+              790.56
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 232,
+          "output_page": 1,
+          "source_png_sha256": "71819f4d5b90f06de4712f485dd20beb337d1e8a2ec80ec3f348c4f815d9680d",
+          "output_png_sha256": "71819f4d5b90f06de4712f485dd20beb337d1e8a2ec80ec3f348c4f815d9680d",
+          "match": true
+        },
+        {
+          "source_page": 233,
+          "output_page": 2,
+          "source_png_sha256": "8f57bf755b274dd6653c7ce920a5cfeddc4602fe168f246bf71e0071adc1b866",
+          "output_png_sha256": "8f57bf755b274dd6653c7ce920a5cfeddc4602fe168f246bf71e0071adc1b866",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Rajasthan",
+    "source_state": "Rajasthan",
+    "district": "Bikaner",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Rajasthan/1981 Bikaner.pdf",
+    "source_filename": "1981 Bikaner.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 337,
+    "output": "output/pdf/1981_trimmed/Rajasthan/tehsil appendix/1981_Bikaner_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      206,
+      207,
+      208,
+      209
+    ],
+    "printed_page_labels": [
+      "80",
+      null,
+      "82",
+      "83"
+    ],
+    "status": "Trimmed",
+    "reason": "Village Directory Appendix-I Tehsilwise abstract of Educational, Medical and other Amenities; source page 205 is the appendices separator and source page 210 begins Appendix-II.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 4,
+      "pages": [
+        {
+          "source_page": 206,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              -1.44,
+              612.0,
+              790.56
+            ],
+            "cropbox": [
+              0.0,
+              -1.44,
+              612.0,
+              790.56
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 207,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              -1.44,
+              612.0,
+              790.56
+            ],
+            "cropbox": [
+              0.0,
+              -1.44,
+              612.0,
+              790.56
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 208,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              -1.44,
+              612.0,
+              790.56
+            ],
+            "cropbox": [
+              0.0,
+              -1.44,
+              612.0,
+              790.56
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 209,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              -1.44,
+              612.0,
+              790.56
+            ],
+            "cropbox": [
+              0.0,
+              -1.44,
+              612.0,
+              790.56
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 206,
+          "output_page": 1,
+          "source_png_sha256": "e4cd7ea6593a53e6b4fcb47375a2386c34924afa821fcee37ea7f8f5306db8be",
+          "output_png_sha256": "e4cd7ea6593a53e6b4fcb47375a2386c34924afa821fcee37ea7f8f5306db8be",
+          "match": true
+        },
+        {
+          "source_page": 207,
+          "output_page": 2,
+          "source_png_sha256": "2340fb62f5d69eec2394258474b24f9518ec7115b9515b62cb3d426016937a53",
+          "output_png_sha256": "2340fb62f5d69eec2394258474b24f9518ec7115b9515b62cb3d426016937a53",
+          "match": true
+        },
+        {
+          "source_page": 208,
+          "output_page": 3,
+          "source_png_sha256": "b74357aabc14bbaf6d89ec0701e68ef120e1f5bb352100b0dff799f15e7819b6",
+          "output_png_sha256": "b74357aabc14bbaf6d89ec0701e68ef120e1f5bb352100b0dff799f15e7819b6",
+          "match": true
+        },
+        {
+          "source_page": 209,
+          "output_page": 4,
+          "source_png_sha256": "5c2f65bdf0579a49be72f1e8cc73d3824ff1c5c1859162f7a80fdbd6cdbe19ca",
+          "output_png_sha256": "5c2f65bdf0579a49be72f1e8cc73d3824ff1c5c1859162f7a80fdbd6cdbe19ca",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 4,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Rajasthan",
+    "source_state": "Rajasthan",
+    "district": "Bundi",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Rajasthan/1981 Bundi.pdf",
+    "source_filename": "1981 Bundi.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 330,
+    "output": "output/pdf/1981_trimmed/Rajasthan/civic amenities/1981_Bundi_civic_amenities.pdf",
+    "source_pages_selected": [
+      231,
+      232
+    ],
+    "printed_page_labels": [
+      "112",
+      "113"
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement IV Civic and other Amenities, 1979; source page 233 begins Statement V.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 231,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              612.0,
+              794.88
+            ],
+            "cropbox": [
+              0.0,
+              2.88,
+              612.0,
+              794.88
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 232,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              612.0,
+              794.88
+            ],
+            "cropbox": [
+              0.0,
+              2.88,
+              612.0,
+              794.88
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 231,
+          "output_page": 1,
+          "source_png_sha256": "1bd8dda44047476288e0085064095e12792f929a19cf9e4ffd3a1c5ab58c6392",
+          "output_png_sha256": "1bd8dda44047476288e0085064095e12792f929a19cf9e4ffd3a1c5ab58c6392",
+          "match": true
+        },
+        {
+          "source_page": 232,
+          "output_page": 2,
+          "source_png_sha256": "f1bf080cf7041baeeca208dc5ad9cfec1048af6082fc3c48b843dd1d46a72a7b",
+          "output_png_sha256": "f1bf080cf7041baeeca208dc5ad9cfec1048af6082fc3c48b843dd1d46a72a7b",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Rajasthan",
+    "source_state": "Rajasthan",
+    "district": "Bundi",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Rajasthan/1981 Bundi.pdf",
+    "source_filename": "1981 Bundi.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 330,
+    "output": "output/pdf/1981_trimmed/Rajasthan/mededu/1981_Bundi_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      233,
+      234
+    ],
+    "printed_page_labels": [
+      "114",
+      "115"
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement V Medical, Educational, Recreational and Cultural Facilities, 1979; source page 235 begins Statement VI.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 233,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              612.0,
+              794.88
+            ],
+            "cropbox": [
+              0.0,
+              2.88,
+              612.0,
+              794.88
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 234,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              612.0,
+              794.88
+            ],
+            "cropbox": [
+              0.0,
+              2.88,
+              612.0,
+              794.88
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 233,
+          "output_page": 1,
+          "source_png_sha256": "eebef8c9156f733af504f705fdb17a776b21a5887478cd67405cbda7e72ea597",
+          "output_png_sha256": "eebef8c9156f733af504f705fdb17a776b21a5887478cd67405cbda7e72ea597",
+          "match": true
+        },
+        {
+          "source_page": 234,
+          "output_page": 2,
+          "source_png_sha256": "265a096de5a86819de5047ad24d96cf1cbdb76edd7844caaa1c750dc07e1631a",
+          "output_png_sha256": "265a096de5a86819de5047ad24d96cf1cbdb76edd7844caaa1c750dc07e1631a",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Rajasthan",
+    "source_state": "Rajasthan",
+    "district": "Bundi",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Rajasthan/1981 Bundi.pdf",
+    "source_filename": "1981 Bundi.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 330,
+    "output": "output/pdf/1981_trimmed/Rajasthan/tehsil appendix/1981_Bundi_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      201,
+      202,
+      203,
+      204
+    ],
+    "printed_page_labels": [
+      "82",
+      null,
+      "84",
+      "85"
+    ],
+    "status": "Trimmed",
+    "reason": "Village Directory Appendix-I Tehsil wise Abstract of Educational, Medical and other Amenities; source page 200 is the appendices separator and source page 205 begins Appendix-II.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 4,
+      "pages": [
+        {
+          "source_page": 201,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              612.0,
+              794.88
+            ],
+            "cropbox": [
+              0.0,
+              2.88,
+              612.0,
+              794.88
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 202,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              612.0,
+              794.88
+            ],
+            "cropbox": [
+              0.0,
+              2.88,
+              612.0,
+              794.88
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 203,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              612.0,
+              794.88
+            ],
+            "cropbox": [
+              0.0,
+              2.88,
+              612.0,
+              794.88
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 204,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              612.0,
+              794.88
+            ],
+            "cropbox": [
+              0.0,
+              2.88,
+              612.0,
+              794.88
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 201,
+          "output_page": 1,
+          "source_png_sha256": "8c3319e6885b43e51ce6c14fc46f11a1e6c31affd99d29ae14fdad0253d93c6a",
+          "output_png_sha256": "8c3319e6885b43e51ce6c14fc46f11a1e6c31affd99d29ae14fdad0253d93c6a",
+          "match": true
+        },
+        {
+          "source_page": 202,
+          "output_page": 2,
+          "source_png_sha256": "530418027193646c6179047cdbe09609d9e7ea4916c41b4ef062c478b9380b97",
+          "output_png_sha256": "530418027193646c6179047cdbe09609d9e7ea4916c41b4ef062c478b9380b97",
+          "match": true
+        },
+        {
+          "source_page": 203,
+          "output_page": 3,
+          "source_png_sha256": "8aa436735b06c622ac2a77d63957b7c148b3e53bbcb0d1b621b4553e0263bec8",
+          "output_png_sha256": "8aa436735b06c622ac2a77d63957b7c148b3e53bbcb0d1b621b4553e0263bec8",
+          "match": true
+        },
+        {
+          "source_page": 204,
+          "output_page": 4,
+          "source_png_sha256": "fd289265a78b7cf61e8a74425dc09c1ac01495c392e1f61027994fbd6041182a",
+          "output_png_sha256": "fd289265a78b7cf61e8a74425dc09c1ac01495c392e1f61027994fbd6041182a",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 4,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Rajasthan",
+    "source_state": "Rajasthan",
+    "district": "Churu",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Rajasthan/1981 Churu.pdf",
+    "source_filename": "1981 Churu.pdf",
+    "volume_type": "unclassified 1981 volume",
+    "eligible": false,
+    "eligibility_reason": "Cover and opening pages do not establish an eligible directory volume.",
+    "language_status": "English scan or image-only text",
+    "language_reason": "Opening pages contain no extractable text; visual table review remains required.",
+    "source_page_count": 411,
+    "output": null,
+    "source_pages_selected": [],
+    "printed_page_labels": [],
+    "status": "Not trimmed",
+    "reason": "Cover and opening pages do not establish an eligible directory volume.",
+    "flags": [],
+    "verification": null
+  },
+  {
+    "state": "Rajasthan",
+    "source_state": "Rajasthan",
+    "district": "Churu",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Rajasthan/1981 Churu.pdf",
+    "source_filename": "1981 Churu.pdf",
+    "volume_type": "unclassified 1981 volume",
+    "eligible": false,
+    "eligibility_reason": "Cover and opening pages do not establish an eligible directory volume.",
+    "language_status": "English scan or image-only text",
+    "language_reason": "Opening pages contain no extractable text; visual table review remains required.",
+    "source_page_count": 411,
+    "output": null,
+    "source_pages_selected": [],
+    "printed_page_labels": [],
+    "status": "Not trimmed",
+    "reason": "Cover and opening pages do not establish an eligible directory volume.",
+    "flags": [],
+    "verification": null
+  },
+  {
+    "state": "Rajasthan",
+    "source_state": "Rajasthan",
+    "district": "Churu",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Rajasthan/1981 Churu.pdf",
+    "source_filename": "1981 Churu.pdf",
+    "volume_type": "unclassified 1981 volume",
+    "eligible": false,
+    "eligibility_reason": "Cover and opening pages do not establish an eligible directory volume.",
+    "language_status": "English scan or image-only text",
+    "language_reason": "Opening pages contain no extractable text; visual table review remains required.",
+    "source_page_count": 411,
+    "output": null,
+    "source_pages_selected": [],
+    "printed_page_labels": [],
+    "status": "Not trimmed",
+    "reason": "Cover and opening pages do not establish an eligible directory volume.",
+    "flags": [],
+    "verification": null
+  },
+  {
+    "state": "Rajasthan",
+    "source_state": "Rajasthan",
+    "district": "Dungarpur",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Rajasthan/1981 Dungarpur.pdf",
+    "source_filename": "1981 Dungarpur.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 336,
+    "output": "output/pdf/1981_trimmed/Rajasthan/civic amenities/1981_Dungarpur_civic_amenities.pdf",
+    "source_pages_selected": [
+      231,
+      232
+    ],
+    "printed_page_labels": [
+      "120",
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement IV Civic and Other Amenities, 1979; source page 233 begins Statement V.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 231,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              616.08,
+              806.64
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              616.08,
+              806.64
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 232,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              616.08,
+              806.64
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              616.08,
+              806.64
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 231,
+          "output_page": 1,
+          "source_png_sha256": "d7dc68580a7d5b81562354e42fdf717461912d7cbaac1b466e54de4a9a09e412",
+          "output_png_sha256": "d7dc68580a7d5b81562354e42fdf717461912d7cbaac1b466e54de4a9a09e412",
+          "match": true
+        },
+        {
+          "source_page": 232,
+          "output_page": 2,
+          "source_png_sha256": "cf21ba39166a87bdc555385fb241ceeca0a78145be9b2953622db0d474fe5fb3",
+          "output_png_sha256": "cf21ba39166a87bdc555385fb241ceeca0a78145be9b2953622db0d474fe5fb3",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Rajasthan",
+    "source_state": "Rajasthan",
+    "district": "Dungarpur",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Rajasthan/1981 Dungarpur.pdf",
+    "source_filename": "1981 Dungarpur.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 336,
+    "output": "output/pdf/1981_trimmed/Rajasthan/mededu/1981_Dungarpur_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      233,
+      234
+    ],
+    "printed_page_labels": [
+      "122",
+      "123"
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement V Medical, Educational, Recreational and Cultural Facilities, 1979; source page 235 begins Statement VI.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 233,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              616.08,
+              806.64
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              616.08,
+              806.64
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 234,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              616.08,
+              806.64
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              616.08,
+              806.64
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 233,
+          "output_page": 1,
+          "source_png_sha256": "2a3d006d5c21e503495773249e9130263ec49e71fb0ae0a6a841d91e8d900979",
+          "output_png_sha256": "2a3d006d5c21e503495773249e9130263ec49e71fb0ae0a6a841d91e8d900979",
+          "match": true
+        },
+        {
+          "source_page": 234,
+          "output_page": 2,
+          "source_png_sha256": "0e7166daa1b4ddf79569de4f1a270938f2300899ea523eb662d27b43e81471da",
+          "output_png_sha256": "0e7166daa1b4ddf79569de4f1a270938f2300899ea523eb662d27b43e81471da",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Rajasthan",
+    "source_state": "Rajasthan",
+    "district": "Dungarpur",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Rajasthan/1981 Dungarpur.pdf",
+    "source_filename": "1981 Dungarpur.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 336,
+    "output": "output/pdf/1981_trimmed/Rajasthan/tehsil appendix/1981_Dungarpur_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      201,
+      202,
+      203,
+      204
+    ],
+    "printed_page_labels": [
+      "90",
+      "91",
+      "92",
+      "93"
+    ],
+    "status": "Trimmed",
+    "reason": "Village Directory Appendix-1 Tehsilwise abstract of Educational, Medical and other Amenities; source page 200 is the appendices separator and source page 205 begins Appendix-2.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 4,
+      "pages": [
+        {
+          "source_page": 201,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              616.08,
+              806.64
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              616.08,
+              806.64
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 202,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              616.08,
+              806.64
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              616.08,
+              806.64
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 203,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              616.08,
+              806.64
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              616.08,
+              806.64
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 204,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              616.08,
+              806.64
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              616.08,
+              806.64
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 201,
+          "output_page": 1,
+          "source_png_sha256": "d072a4f0e970c57f4b0e194fde28202ac0b41a6c1098f6ad129ef4e0bfe30523",
+          "output_png_sha256": "d072a4f0e970c57f4b0e194fde28202ac0b41a6c1098f6ad129ef4e0bfe30523",
+          "match": true
+        },
+        {
+          "source_page": 202,
+          "output_page": 2,
+          "source_png_sha256": "0171220f657719af311e1d71aa4e20714ef6eb04d06ed07d28c658a35592434b",
+          "output_png_sha256": "0171220f657719af311e1d71aa4e20714ef6eb04d06ed07d28c658a35592434b",
+          "match": true
+        },
+        {
+          "source_page": 203,
+          "output_page": 3,
+          "source_png_sha256": "156e9d98291e495999b8c6820e9efa91a6b7d9c9fee11a8f149662ec8a5665eb",
+          "output_png_sha256": "156e9d98291e495999b8c6820e9efa91a6b7d9c9fee11a8f149662ec8a5665eb",
+          "match": true
+        },
+        {
+          "source_page": 204,
+          "output_page": 4,
+          "source_png_sha256": "54069036be8b3ab9c31d354b9b2a774b2a85955977b860f006993b2bdad789f8",
+          "output_png_sha256": "54069036be8b3ab9c31d354b9b2a774b2a85955977b860f006993b2bdad789f8",
+          "match": true
+        }
+      ],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 4,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Rajasthan",
+    "source_state": "Rajasthan",
+    "district": "Jaisalmer",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Rajasthan/1981 Jalsalmer.pdf",
+    "source_filename": "1981 Jalsalmer.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 291,
+    "output": "output/pdf/1981_trimmed/Rajasthan/civic amenities/1981_Jaisalmer_civic_amenities.pdf",
+    "source_pages_selected": [
+      208,
+      209
+    ],
+    "printed_page_labels": [
+      "88",
+      "89"
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement IV Civic and Other Amenities, 1979; source page 210 begins Statement V.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 208,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              613.68,
+              801.12
+            ],
+            "cropbox": [
+              0.0,
+              9.12,
+              612.0,
+              801.12
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 209,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              613.68,
+              801.12
+            ],
+            "cropbox": [
+              0.0,
+              9.12,
+              612.0,
+              801.12
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 208,
+          "output_page": 1,
+          "source_png_sha256": "6d5e734f2df35e9c1391853683d4e55adcda0cdc4e6ae638d9723497ef604c85",
+          "output_png_sha256": "6d5e734f2df35e9c1391853683d4e55adcda0cdc4e6ae638d9723497ef604c85",
+          "match": true
+        },
+        {
+          "source_page": 209,
+          "output_page": 2,
+          "source_png_sha256": "1acd241d7fd6f32b01dc8e01e9dc17b2554e1293f0a2e2db2220d9f16f32c0e6",
+          "output_png_sha256": "1acd241d7fd6f32b01dc8e01e9dc17b2554e1293f0a2e2db2220d9f16f32c0e6",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Rajasthan",
+    "source_state": "Rajasthan",
+    "district": "Jaisalmer",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Rajasthan/1981 Jalsalmer.pdf",
+    "source_filename": "1981 Jalsalmer.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 291,
+    "output": "output/pdf/1981_trimmed/Rajasthan/mededu/1981_Jaisalmer_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      210,
+      211
+    ],
+    "printed_page_labels": [
+      "90",
+      "91"
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement V Medical, Educational, Recreational and Cultural Facilities, 1979; source page 212 begins Statement VI.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 210,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              613.68,
+              801.12
+            ],
+            "cropbox": [
+              0.0,
+              9.12,
+              612.0,
+              801.12
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 211,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              613.68,
+              801.12
+            ],
+            "cropbox": [
+              0.0,
+              9.12,
+              612.0,
+              801.12
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 210,
+          "output_page": 1,
+          "source_png_sha256": "d151397dce85b1d07bda12258fa68a1873630dd39b72a72a6d0b742cecd970ca",
+          "output_png_sha256": "d151397dce85b1d07bda12258fa68a1873630dd39b72a72a6d0b742cecd970ca",
+          "match": true
+        },
+        {
+          "source_page": 211,
+          "output_page": 2,
+          "source_png_sha256": "2b92b0125dd5ceeb8ea786058fb0ef4bc60f3b2439dffc547a498233ea56cdb6",
+          "output_png_sha256": "2b92b0125dd5ceeb8ea786058fb0ef4bc60f3b2439dffc547a498233ea56cdb6",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Rajasthan",
+    "source_state": "Rajasthan",
+    "district": "Jaisalmer",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Rajasthan/1981 Jalsalmer.pdf",
+    "source_filename": "1981 Jalsalmer.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 291,
+    "output": "output/pdf/1981_trimmed/Rajasthan/tehsil appendix/1981_Jaisalmer_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      186,
+      187,
+      188,
+      189
+    ],
+    "printed_page_labels": [
+      "66",
+      "67",
+      "68",
+      "69"
+    ],
+    "status": "Trimmed",
+    "reason": "Village Directory Appendix-I Tehsilwise abstract of Educational, Medical and other Amenities; source page 185 is the appendices separator and source page 190 begins Appendix-II.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 4,
+      "pages": [
+        {
+          "source_page": 186,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              613.68,
+              801.12
+            ],
+            "cropbox": [
+              0.0,
+              9.12,
+              612.0,
+              801.12
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 187,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              613.68,
+              801.12
+            ],
+            "cropbox": [
+              0.0,
+              9.12,
+              612.0,
+              801.12
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 188,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              613.68,
+              801.12
+            ],
+            "cropbox": [
+              0.0,
+              9.12,
+              612.0,
+              801.12
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 189,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              613.68,
+              801.12
+            ],
+            "cropbox": [
+              0.0,
+              9.12,
+              612.0,
+              801.12
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 186,
+          "output_page": 1,
+          "source_png_sha256": "8ab1475b66509a7e9f7f38894199340d9f555be2a4b58b0b4e0845d1e6261895",
+          "output_png_sha256": "8ab1475b66509a7e9f7f38894199340d9f555be2a4b58b0b4e0845d1e6261895",
+          "match": true
+        },
+        {
+          "source_page": 187,
+          "output_page": 2,
+          "source_png_sha256": "4c3a60529c72ea07216432d9864e1cacd3bdc89a263338e856ba22f2c3f87d8a",
+          "output_png_sha256": "4c3a60529c72ea07216432d9864e1cacd3bdc89a263338e856ba22f2c3f87d8a",
+          "match": true
+        },
+        {
+          "source_page": 188,
+          "output_page": 3,
+          "source_png_sha256": "ab0494f32a7582b8bead04adc3ee7b0f927aa72a3089d54672a243259794a7a4",
+          "output_png_sha256": "ab0494f32a7582b8bead04adc3ee7b0f927aa72a3089d54672a243259794a7a4",
+          "match": true
+        },
+        {
+          "source_page": 189,
+          "output_page": 4,
+          "source_png_sha256": "930f0ec0e1a2d3dd0aa0412f57ea9e0e8e445d3a75fd65ba7466a49ea0b55cf7",
+          "output_png_sha256": "930f0ec0e1a2d3dd0aa0412f57ea9e0e8e445d3a75fd65ba7466a49ea0b55cf7",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 4,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Rajasthan",
+    "source_state": "Rajasthan",
+    "district": "Jalor",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Rajasthan/1981 Jalor.pdf",
+    "source_filename": "1981 Jalor.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 332,
+    "output": "output/pdf/1981_trimmed/Rajasthan/civic amenities/1981_Jalor_civic_amenities.pdf",
+    "source_pages_selected": [
+      241,
+      242
+    ],
+    "printed_page_labels": [
+      "114",
+      "115"
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement IV Civic and Other Amenities, 1979; source page 243 begins Statement V.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 241,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              617.28,
+              801.12
+            ],
+            "cropbox": [
+              0.0,
+              9.12,
+              612.0,
+              801.12
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 242,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              617.28,
+              801.12
+            ],
+            "cropbox": [
+              0.0,
+              9.12,
+              612.0,
+              801.12
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 241,
+          "output_page": 1,
+          "source_png_sha256": "e25f674cfc83a195ba52e20e8c4405bf63c7862fbe5c6fdcaf65f1d0b10e962d",
+          "output_png_sha256": "e25f674cfc83a195ba52e20e8c4405bf63c7862fbe5c6fdcaf65f1d0b10e962d",
+          "match": true
+        },
+        {
+          "source_page": 242,
+          "output_page": 2,
+          "source_png_sha256": "ddf1402ccafbba64100e545ac46242409213710b9b72dd075db6a249e07825b6",
+          "output_png_sha256": "ddf1402ccafbba64100e545ac46242409213710b9b72dd075db6a249e07825b6",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Rajasthan",
+    "source_state": "Rajasthan",
+    "district": "Jalor",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Rajasthan/1981 Jalor.pdf",
+    "source_filename": "1981 Jalor.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 332,
+    "output": "output/pdf/1981_trimmed/Rajasthan/mededu/1981_Jalor_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      243,
+      244
+    ],
+    "printed_page_labels": [
+      "116",
+      "117"
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement V Medical, Educational, Recreational and Cultural Facilities, 1979; source page 245 begins Statement VI.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 243,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              617.28,
+              801.12
+            ],
+            "cropbox": [
+              0.0,
+              9.12,
+              612.0,
+              801.12
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 244,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              617.28,
+              801.12
+            ],
+            "cropbox": [
+              0.0,
+              9.12,
+              612.0,
+              801.12
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 243,
+          "output_page": 1,
+          "source_png_sha256": "81e9ad9f0ae0569860670377104aa8e62afe0e20bf745ac82fd74d5a2a8491c6",
+          "output_png_sha256": "81e9ad9f0ae0569860670377104aa8e62afe0e20bf745ac82fd74d5a2a8491c6",
+          "match": true
+        },
+        {
+          "source_page": 244,
+          "output_page": 2,
+          "source_png_sha256": "cd3508f4fdeb32e6edf81f68c4a553a6323bca8f2c9b126f0e61c48820c062d2",
+          "output_png_sha256": "cd3508f4fdeb32e6edf81f68c4a553a6323bca8f2c9b126f0e61c48820c062d2",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Rajasthan",
+    "source_state": "Rajasthan",
+    "district": "Jalor",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Rajasthan/1981 Jalor.pdf",
+    "source_filename": "1981 Jalor.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 332,
+    "output": "output/pdf/1981_trimmed/Rajasthan/tehsil appendix/1981_Jalor_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      211,
+      212,
+      213,
+      214
+    ],
+    "printed_page_labels": [
+      "84",
+      "85",
+      null,
+      "81"
+    ],
+    "status": "Trimmed",
+    "reason": "Village Directory Appendix-I Tehsilwise abstract of Educational, Medical and other Amenities; source page 210 is the appendices separator and source page 215 begins Appendix-II.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 4,
+      "pages": [
+        {
+          "source_page": 211,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              617.28,
+              801.12
+            ],
+            "cropbox": [
+              0.0,
+              9.12,
+              612.0,
+              801.12
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 212,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              617.28,
+              801.12
+            ],
+            "cropbox": [
+              0.0,
+              9.12,
+              612.0,
+              801.12
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 213,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              617.28,
+              801.12
+            ],
+            "cropbox": [
+              0.0,
+              9.12,
+              612.0,
+              801.12
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 214,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              617.28,
+              801.12
+            ],
+            "cropbox": [
+              0.0,
+              9.12,
+              612.0,
+              801.12
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 211,
+          "output_page": 1,
+          "source_png_sha256": "bcd5589a4926b995534d1646019dff8a8901bea5ef0859ebb2164f0eb9c88452",
+          "output_png_sha256": "bcd5589a4926b995534d1646019dff8a8901bea5ef0859ebb2164f0eb9c88452",
+          "match": true
+        },
+        {
+          "source_page": 212,
+          "output_page": 2,
+          "source_png_sha256": "55c367aeeea1266a7787b1c835442fcead2779df65b422b831dea0cb4fd1257d",
+          "output_png_sha256": "55c367aeeea1266a7787b1c835442fcead2779df65b422b831dea0cb4fd1257d",
+          "match": true
+        },
+        {
+          "source_page": 213,
+          "output_page": 3,
+          "source_png_sha256": "8e2d472f5b366c2372bce15242667619e48329d87de2d37b4bed58d38c0a580e",
+          "output_png_sha256": "8e2d472f5b366c2372bce15242667619e48329d87de2d37b4bed58d38c0a580e",
+          "match": true
+        },
+        {
+          "source_page": 214,
+          "output_page": 4,
+          "source_png_sha256": "a1a13a076f5b05163b2ea9f284227482bb72869922355441130d318e2c97b4be",
+          "output_png_sha256": "a1a13a076f5b05163b2ea9f284227482bb72869922355441130d318e2c97b4be",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 4,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Rajasthan",
+    "source_state": "Rajasthan",
+    "district": "Jhunjhunun",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Rajasthan/1981 Jhunjhunun.pdf",
+    "source_filename": "1981 Jhunjhunun.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 390,
+    "output": "output/pdf/1981_trimmed/Rajasthan/civic amenities/1981_Jhunjhunun_civic_amenities.pdf",
+    "source_pages_selected": [
+      259,
+      260
+    ],
+    "printed_page_labels": [
+      "124",
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement IV Civic and Other Amenities, 1979; source page 261 begins Statement V.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 259,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              -4.08,
+              617.04,
+              787.92
+            ],
+            "cropbox": [
+              0.0,
+              -4.08,
+              612.0,
+              787.92
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 260,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              -4.08,
+              617.04,
+              787.92
+            ],
+            "cropbox": [
+              0.0,
+              -4.08,
+              612.0,
+              787.92
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 259,
+          "output_page": 1,
+          "source_png_sha256": "f6050d7b78fc8d8f25dbff600f2b6f0c1a74b27a4340fdad74b8be166d801fdd",
+          "output_png_sha256": "f6050d7b78fc8d8f25dbff600f2b6f0c1a74b27a4340fdad74b8be166d801fdd",
+          "match": true
+        },
+        {
+          "source_page": 260,
+          "output_page": 2,
+          "source_png_sha256": "34713b687166213d3824e8c4d1dcdd352dfded659ee73541ed3ec8617e271555",
+          "output_png_sha256": "34713b687166213d3824e8c4d1dcdd352dfded659ee73541ed3ec8617e271555",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Rajasthan",
+    "source_state": "Rajasthan",
+    "district": "Jhunjhunun",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Rajasthan/1981 Jhunjhunun.pdf",
+    "source_filename": "1981 Jhunjhunun.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 390,
+    "output": "output/pdf/1981_trimmed/Rajasthan/mededu/1981_Jhunjhunun_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      261,
+      262,
+      263,
+      264
+    ],
+    "printed_page_labels": [
+      "126",
+      "1979",
+      "128",
+      "129"
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement V Medical, Educational, Recreational and Cultural Facilities, 1979; source page 265 begins Statement VI.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 4,
+      "pages": [
+        {
+          "source_page": 261,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              -4.08,
+              617.04,
+              787.92
+            ],
+            "cropbox": [
+              0.0,
+              -4.08,
+              612.0,
+              787.92
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 262,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              -4.08,
+              617.04,
+              787.92
+            ],
+            "cropbox": [
+              0.0,
+              -4.08,
+              612.0,
+              787.92
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 263,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              -4.08,
+              617.04,
+              787.92
+            ],
+            "cropbox": [
+              0.0,
+              -4.08,
+              612.0,
+              787.92
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 264,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              -4.08,
+              617.04,
+              787.92
+            ],
+            "cropbox": [
+              0.0,
+              -4.08,
+              612.0,
+              787.92
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 261,
+          "output_page": 1,
+          "source_png_sha256": "cb0045e48f74e81fec7a039164038c2ca74bc4b934a8543e28ede266fead4575",
+          "output_png_sha256": "cb0045e48f74e81fec7a039164038c2ca74bc4b934a8543e28ede266fead4575",
+          "match": true
+        },
+        {
+          "source_page": 262,
+          "output_page": 2,
+          "source_png_sha256": "d22b9b71fe4d96d0057d3a488e5f51c3d6e6841d65a2d8ca825313c2cfe1b10e",
+          "output_png_sha256": "d22b9b71fe4d96d0057d3a488e5f51c3d6e6841d65a2d8ca825313c2cfe1b10e",
+          "match": true
+        },
+        {
+          "source_page": 263,
+          "output_page": 3,
+          "source_png_sha256": "3d79f65412cd5736630f6e8e876d37977378efd6ec501af0585a885e13d8ab07",
+          "output_png_sha256": "3d79f65412cd5736630f6e8e876d37977378efd6ec501af0585a885e13d8ab07",
+          "match": true
+        },
+        {
+          "source_page": 264,
+          "output_page": 4,
+          "source_png_sha256": "29b35d6398deef1cd8be3d0dd79556c34005703ac83c64596f2c429677aef475",
+          "output_png_sha256": "29b35d6398deef1cd8be3d0dd79556c34005703ac83c64596f2c429677aef475",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 4,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Rajasthan",
+    "source_state": "Rajasthan",
+    "district": "Jhunjhunun",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Rajasthan/1981 Jhunjhunun.pdf",
+    "source_filename": "1981 Jhunjhunun.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 390,
+    "output": "output/pdf/1981_trimmed/Rajasthan/tehsil appendix/1981_Jhunjhunun_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      231,
+      232,
+      233,
+      234
+    ],
+    "printed_page_labels": [
+      "96",
+      "97",
+      "98",
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Village Directory Appendix-I Tehsilwise abstract of Educational, Medical and other Amenities; source page 230 is the appendices separator and source page 235 begins Appendix-II.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 4,
+      "pages": [
+        {
+          "source_page": 231,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              -4.08,
+              617.04,
+              787.92
+            ],
+            "cropbox": [
+              0.0,
+              -4.08,
+              612.0,
+              787.92
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 232,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              -4.08,
+              617.04,
+              787.92
+            ],
+            "cropbox": [
+              0.0,
+              -4.08,
+              612.0,
+              787.92
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 233,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              -4.08,
+              617.04,
+              787.92
+            ],
+            "cropbox": [
+              0.0,
+              -4.08,
+              612.0,
+              787.92
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 234,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              -4.08,
+              617.04,
+              787.92
+            ],
+            "cropbox": [
+              0.0,
+              -4.08,
+              612.0,
+              787.92
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 231,
+          "output_page": 1,
+          "source_png_sha256": "2dbdcd51e4338085318094a01de462b505bc6a3f6e1e874e4eaf56cfd5056855",
+          "output_png_sha256": "2dbdcd51e4338085318094a01de462b505bc6a3f6e1e874e4eaf56cfd5056855",
+          "match": true
+        },
+        {
+          "source_page": 232,
+          "output_page": 2,
+          "source_png_sha256": "ea7d90509ae4587a1d5844e2f3ec7d3f892de0612a325e3d3ec09fe91f0f5fee",
+          "output_png_sha256": "ea7d90509ae4587a1d5844e2f3ec7d3f892de0612a325e3d3ec09fe91f0f5fee",
+          "match": true
+        },
+        {
+          "source_page": 233,
+          "output_page": 3,
+          "source_png_sha256": "0f219a0038260a8c1fa0bdb6e34701d94181cf115f76504b856c3f39dc7f50a0",
+          "output_png_sha256": "0f219a0038260a8c1fa0bdb6e34701d94181cf115f76504b856c3f39dc7f50a0",
+          "match": true
+        },
+        {
+          "source_page": 234,
+          "output_page": 4,
+          "source_png_sha256": "c074a20aefda538b35910050b58ddf39d998b3ead5bbbcbf46ce3f293a5cb54b",
+          "output_png_sha256": "c074a20aefda538b35910050b58ddf39d998b3ead5bbbcbf46ce3f293a5cb54b",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 4,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Rajasthan",
+    "source_state": "Rajasthan",
+    "district": "Nagaur",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Rajasthan/1981 Nagaur.pdf",
+    "source_filename": "1981 Nagaur.pdf",
+    "volume_type": "unclassified 1981 volume",
+    "eligible": false,
+    "eligibility_reason": "Cover and opening pages do not establish an eligible directory volume.",
+    "language_status": "English scan or image-only text",
+    "language_reason": "Opening pages contain no extractable text; visual table review remains required.",
+    "source_page_count": 498,
+    "output": null,
+    "source_pages_selected": [],
+    "printed_page_labels": [],
+    "status": "Not trimmed",
+    "reason": "Cover and opening pages do not establish an eligible directory volume.",
+    "flags": [],
+    "verification": null
+  },
+  {
+    "state": "Rajasthan",
+    "source_state": "Rajasthan",
+    "district": "Nagaur",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Rajasthan/1981 Nagaur.pdf",
+    "source_filename": "1981 Nagaur.pdf",
+    "volume_type": "unclassified 1981 volume",
+    "eligible": false,
+    "eligibility_reason": "Cover and opening pages do not establish an eligible directory volume.",
+    "language_status": "English scan or image-only text",
+    "language_reason": "Opening pages contain no extractable text; visual table review remains required.",
+    "source_page_count": 498,
+    "output": null,
+    "source_pages_selected": [],
+    "printed_page_labels": [],
+    "status": "Not trimmed",
+    "reason": "Cover and opening pages do not establish an eligible directory volume.",
+    "flags": [],
+    "verification": null
+  },
+  {
+    "state": "Rajasthan",
+    "source_state": "Rajasthan",
+    "district": "Nagaur",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Rajasthan/1981 Nagaur.pdf",
+    "source_filename": "1981 Nagaur.pdf",
+    "volume_type": "unclassified 1981 volume",
+    "eligible": false,
+    "eligibility_reason": "Cover and opening pages do not establish an eligible directory volume.",
+    "language_status": "English scan or image-only text",
+    "language_reason": "Opening pages contain no extractable text; visual table review remains required.",
+    "source_page_count": 498,
+    "output": null,
+    "source_pages_selected": [],
+    "printed_page_labels": [],
+    "status": "Not trimmed",
+    "reason": "Cover and opening pages do not establish an eligible directory volume.",
+    "flags": [],
+    "verification": null
+  },
+  {
+    "state": "Rajasthan",
+    "source_state": "Rajasthan",
+    "district": "Sirohi",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Rajasthan/1981 Sirohi.pdf",
+    "source_filename": "1981 Sirohi.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 324,
+    "output": "output/pdf/1981_trimmed/Rajasthan/civic amenities/1981_Sirohi_civic_amenities.pdf",
+    "source_pages_selected": [
+      242,
+      243
+    ],
+    "printed_page_labels": [
+      "102",
+      "103"
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement IV Civic and Other Amenities, 1979; source page 244 begins Statement V.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 242,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              614.16,
+              711.36
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              614.16,
+              711.36
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 243,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              614.16,
+              711.36
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              614.16,
+              711.36
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 242,
+          "output_page": 1,
+          "source_png_sha256": "ca92605c81fa6c8c639830e564cb75ca12e8bca566f16b0da90da058e0422c86",
+          "output_png_sha256": "ca92605c81fa6c8c639830e564cb75ca12e8bca566f16b0da90da058e0422c86",
+          "match": true
+        },
+        {
+          "source_page": 243,
+          "output_page": 2,
+          "source_png_sha256": "ea29785b6e0e0842be67036b7c880137425241cd7b64e601963ce64740f44c4f",
+          "output_png_sha256": "ea29785b6e0e0842be67036b7c880137425241cd7b64e601963ce64740f44c4f",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Rajasthan",
+    "source_state": "Rajasthan",
+    "district": "Sirohi",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Rajasthan/1981 Sirohi.pdf",
+    "source_filename": "1981 Sirohi.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 324,
+    "output": "output/pdf/1981_trimmed/Rajasthan/mededu/1981_Sirohi_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      244,
+      245
+    ],
+    "printed_page_labels": [
+      "104",
+      "105"
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement V Medical, Educational, Recreational and Cultural Facilities, 1979; source page 246 begins Statement VI.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 244,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              614.16,
+              711.36
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              614.16,
+              711.36
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 245,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              614.16,
+              711.36
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              614.16,
+              711.36
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 244,
+          "output_page": 1,
+          "source_png_sha256": "d744fe7334a35bd2293d1ffa3bf2d6ebd2003c142872234a848f4dfee68f6ee6",
+          "output_png_sha256": "d744fe7334a35bd2293d1ffa3bf2d6ebd2003c142872234a848f4dfee68f6ee6",
+          "match": true
+        },
+        {
+          "source_page": 245,
+          "output_page": 2,
+          "source_png_sha256": "8b97f8f22b5296320d127ad53b36258e5eeec16c26f1f792f9b4405cffd7bf2b",
+          "output_png_sha256": "8b97f8f22b5296320d127ad53b36258e5eeec16c26f1f792f9b4405cffd7bf2b",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Rajasthan",
+    "source_state": "Rajasthan",
+    "district": "Sirohi",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Rajasthan/1981 Sirohi.pdf",
+    "source_filename": "1981 Sirohi.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 324,
+    "output": "output/pdf/1981_trimmed/Rajasthan/tehsil appendix/1981_Sirohi_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      216,
+      217,
+      218,
+      219
+    ],
+    "printed_page_labels": [
+      "76",
+      "77",
+      "18",
+      "79"
+    ],
+    "status": "Trimmed",
+    "reason": "Village Directory Appendix-I Tehsilwise abstract of Educational, Medical and other Amenities; source page 215 is the appendices separator and source page 220 begins Appendix-II.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 4,
+      "pages": [
+        {
+          "source_page": 216,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              614.16,
+              711.36
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              614.16,
+              711.36
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 217,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              614.16,
+              711.36
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              614.16,
+              711.36
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 218,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              614.16,
+              711.36
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              614.16,
+              711.36
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 219,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              614.16,
+              711.36
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              614.16,
+              711.36
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 216,
+          "output_page": 1,
+          "source_png_sha256": "39f5862e49e3044cd608e42d31a55cf1ad93d7bbff1f099de72624b6b09d5004",
+          "output_png_sha256": "39f5862e49e3044cd608e42d31a55cf1ad93d7bbff1f099de72624b6b09d5004",
+          "match": true
+        },
+        {
+          "source_page": 217,
+          "output_page": 2,
+          "source_png_sha256": "be7428922fcede7f70c1bddf8d90bbf47bef1fc294b94f917cc6e538f937a21f",
+          "output_png_sha256": "be7428922fcede7f70c1bddf8d90bbf47bef1fc294b94f917cc6e538f937a21f",
+          "match": true
+        },
+        {
+          "source_page": 218,
+          "output_page": 3,
+          "source_png_sha256": "b204327e334d33ecc364896ffabb7d0e065a63311237f2c7219ba20d39597587",
+          "output_png_sha256": "b204327e334d33ecc364896ffabb7d0e065a63311237f2c7219ba20d39597587",
+          "match": true
+        },
+        {
+          "source_page": 219,
+          "output_page": 4,
+          "source_png_sha256": "a864ffd1ba0f385a36e19ea05c3546d26c06cda557bdb1f4a697c75760bbb6c8",
+          "output_png_sha256": "a864ffd1ba0f385a36e19ea05c3546d26c06cda557bdb1f4a697c75760bbb6c8",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 4,
+      "audit_flags": []
+    }
+  }
+]

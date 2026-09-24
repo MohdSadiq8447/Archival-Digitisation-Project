@@ -1,0 +1,1406 @@
+[
+  {
+    "state": "Nagaland",
+    "source_state": "Nagaland",
+    "district": "Kohima",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Nagaland/1981 Kohima.pdf",
+    "source_filename": "1981 Kohima.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 233,
+    "output": "output/pdf/1981_trimmed/Nagaland/civic amenities/1981_Kohima_civic_amenities.pdf",
+    "source_pages_selected": [
+      171
+    ],
+    "printed_page_labels": [
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement IV Civic and Other Amenities, printed page 155; source page 172 begins Statement V.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 1,
+      "pages": [
+        {
+          "source_page": 171,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              564.96,
+              818.4
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              564.96,
+              818.4
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 171,
+          "output_page": 1,
+          "source_png_sha256": "8424e03394c819eb13628581841c372f7a8b3c3cf65369dcc86baa199a319e8b",
+          "output_png_sha256": "8424e03394c819eb13628581841c372f7a8b3c3cf65369dcc86baa199a319e8b",
+          "match": true
+        }
+      ],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 1,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Nagaland",
+    "source_state": "Nagaland",
+    "district": "Kohima",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Nagaland/1981 Kohima.pdf",
+    "source_filename": "1981 Kohima.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 233,
+    "output": "output/pdf/1981_trimmed/Nagaland/mededu/1981_Kohima_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      172,
+      173
+    ],
+    "printed_page_labels": [
+      null,
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement V Medical, Educational, Recreational and Cultural Facilities, printed pages 156-157; source page 174 begins Statement VI.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 172,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              564.96,
+              818.4
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              564.96,
+              818.4
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 173,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              564.96,
+              818.4
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              564.96,
+              818.4
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 172,
+          "output_page": 1,
+          "source_png_sha256": "3da72f9c73d403ad5c69d4726071e8f3f4d62ca5135b0d589e339b46bd2f6d35",
+          "output_png_sha256": "3da72f9c73d403ad5c69d4726071e8f3f4d62ca5135b0d589e339b46bd2f6d35",
+          "match": true
+        },
+        {
+          "source_page": 173,
+          "output_page": 2,
+          "source_png_sha256": "c593f16f415c42f2a8ffbbee42039f678357e6672d935b05a6cb2d98e43a8582",
+          "output_png_sha256": "c593f16f415c42f2a8ffbbee42039f678357e6672d935b05a6cb2d98e43a8582",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Nagaland",
+    "source_state": "Nagaland",
+    "district": "Kohima",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Nagaland/1981 Kohima.pdf",
+    "source_filename": "1981 Kohima.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 233,
+    "output": "output/pdf/1981_trimmed/Nagaland/tehsil appendix/1981_Kohima_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      152,
+      153,
+      154,
+      155
+    ],
+    "printed_page_labels": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Village Directory Appendix I Circle-wise abstract of educational, medical and other amenities, printed pages 136-139; source page 156 begins Appendix II.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 4,
+      "pages": [
+        {
+          "source_page": 152,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              564.96,
+              818.4
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              564.96,
+              818.4
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 153,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              564.96,
+              818.4
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              564.96,
+              818.4
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 154,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              564.96,
+              818.4
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              564.96,
+              818.4
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 155,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              564.96,
+              818.4
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              564.96,
+              818.4
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 152,
+          "output_page": 1,
+          "source_png_sha256": "806e24dd689496bdbacfcf45ead20c96b14c46be24f78dad1cacf4836ecbec69",
+          "output_png_sha256": "806e24dd689496bdbacfcf45ead20c96b14c46be24f78dad1cacf4836ecbec69",
+          "match": true
+        },
+        {
+          "source_page": 153,
+          "output_page": 2,
+          "source_png_sha256": "f6d42daf10592d51eb1783f7cd839e97ccb1085dc98a4a7209f6cfc87a6db8da",
+          "output_png_sha256": "f6d42daf10592d51eb1783f7cd839e97ccb1085dc98a4a7209f6cfc87a6db8da",
+          "match": true
+        },
+        {
+          "source_page": 154,
+          "output_page": 3,
+          "source_png_sha256": "a79ca6e4ea26c1d5ee14db5a836fdc6b5a7232fc813451145227881166363c0b",
+          "output_png_sha256": "a79ca6e4ea26c1d5ee14db5a836fdc6b5a7232fc813451145227881166363c0b",
+          "match": true
+        },
+        {
+          "source_page": 155,
+          "output_page": 4,
+          "source_png_sha256": "e6bcbda0b94b9929ebb50f04c79b3899a81bf30437e439b55bd7fd1e2e39b916",
+          "output_png_sha256": "e6bcbda0b94b9929ebb50f04c79b3899a81bf30437e439b55bd7fd1e2e39b916",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 4,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Nagaland",
+    "source_state": "Nagaland",
+    "district": "Mokokchung",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Nagaland/1981 Mokokchung.pdf",
+    "source_filename": "1981 Mokokchung.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 141,
+    "output": "output/pdf/1981_trimmed/Nagaland/civic amenities/1981_Mokokchung_civic_amenities.pdf",
+    "source_pages_selected": [
+      112,
+      113
+    ],
+    "printed_page_labels": [
+      null,
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement IV Civic and Other Amenities, printed pages 96-97; complete table spans source pages 112-113.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 112,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              567.6,
+              774.0
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              567.6,
+              774.0
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 113,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              567.6,
+              774.0
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              567.6,
+              774.0
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 112,
+          "output_page": 1,
+          "source_png_sha256": "6ebca96c7d2d57819c54129e52c863310e61ba9fd7f998891284311d59e3b041",
+          "output_png_sha256": "6ebca96c7d2d57819c54129e52c863310e61ba9fd7f998891284311d59e3b041",
+          "match": true
+        },
+        {
+          "source_page": 113,
+          "output_page": 2,
+          "source_png_sha256": "bddf9d355c6a639f5c91b94e6a77f4106bd93a6cbd4b479a8fa2dca15f7139ab",
+          "output_png_sha256": "bddf9d355c6a639f5c91b94e6a77f4106bd93a6cbd4b479a8fa2dca15f7139ab",
+          "match": true
+        }
+      ],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Nagaland",
+    "source_state": "Nagaland",
+    "district": "Mokokchung",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Nagaland/1981 Mokokchung.pdf",
+    "source_filename": "1981 Mokokchung.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 141,
+    "output": "output/pdf/1981_trimmed/Nagaland/mededu/1981_Mokokchung_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      112,
+      113
+    ],
+    "printed_page_labels": [
+      null,
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement V Medical, Educational, Recreational and Cultural Facilities, printed pages 96-97; complete table spans source pages 112-113.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 112,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              567.6,
+              774.0
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              567.6,
+              774.0
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 113,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              567.6,
+              774.0
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              567.6,
+              774.0
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 112,
+          "output_page": 1,
+          "source_png_sha256": "6ebca96c7d2d57819c54129e52c863310e61ba9fd7f998891284311d59e3b041",
+          "output_png_sha256": "6ebca96c7d2d57819c54129e52c863310e61ba9fd7f998891284311d59e3b041",
+          "match": true
+        },
+        {
+          "source_page": 113,
+          "output_page": 2,
+          "source_png_sha256": "bddf9d355c6a639f5c91b94e6a77f4106bd93a6cbd4b479a8fa2dca15f7139ab",
+          "output_png_sha256": "bddf9d355c6a639f5c91b94e6a77f4106bd93a6cbd4b479a8fa2dca15f7139ab",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Nagaland",
+    "source_state": "Nagaland",
+    "district": "Mokokchung",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Nagaland/1981 Mokokchung.pdf",
+    "source_filename": "1981 Mokokchung.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 141,
+    "output": "output/pdf/1981_trimmed/Nagaland/tehsil appendix/1981_Mokokchung_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      98,
+      99,
+      100,
+      101
+    ],
+    "printed_page_labels": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Village Directory Appendix I Circle-wise abstract of educational, medical and other amenities, printed pages 82-85; source page 102 begins Appendices II-III.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 4,
+      "pages": [
+        {
+          "source_page": 98,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              567.6,
+              774.0
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              567.6,
+              774.0
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 99,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              567.6,
+              774.0
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              567.6,
+              774.0
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 100,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              567.6,
+              774.0
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              567.6,
+              774.0
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 101,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              567.6,
+              774.0
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              567.6,
+              774.0
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 98,
+          "output_page": 1,
+          "source_png_sha256": "325950f830d2e4cc55312a9a73daad04547a0bbde1809347c4a4bec07f3e5fb0",
+          "output_png_sha256": "325950f830d2e4cc55312a9a73daad04547a0bbde1809347c4a4bec07f3e5fb0",
+          "match": true
+        },
+        {
+          "source_page": 99,
+          "output_page": 2,
+          "source_png_sha256": "9a37a07016d7c92ff32b8c791f2c9efdae8d5f2bd1537c1133813af22306c5d8",
+          "output_png_sha256": "9a37a07016d7c92ff32b8c791f2c9efdae8d5f2bd1537c1133813af22306c5d8",
+          "match": true
+        },
+        {
+          "source_page": 100,
+          "output_page": 3,
+          "source_png_sha256": "1b22e16e4f888c3b00b97702f44997c865f081155cdeca0784b1cb60c254d377",
+          "output_png_sha256": "1b22e16e4f888c3b00b97702f44997c865f081155cdeca0784b1cb60c254d377",
+          "match": true
+        },
+        {
+          "source_page": 101,
+          "output_page": 4,
+          "source_png_sha256": "17a36f8dcd9a667273f3108b7e9d0a3dec191f3f02ca489b404b46e2919799ae",
+          "output_png_sha256": "17a36f8dcd9a667273f3108b7e9d0a3dec191f3f02ca489b404b46e2919799ae",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 4,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Nagaland",
+    "source_state": "Nagaland",
+    "district": "Mon",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Nagaland/1981 Mon.pdf",
+    "source_filename": "1981 Mon.pdf",
+    "volume_type": "Part XIII-B primary census abstract",
+    "eligible": false,
+    "eligibility_reason": "PCA-only volume; the requested town statements and amenities appendix are absent.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 123,
+    "output": null,
+    "source_pages_selected": [],
+    "printed_page_labels": [],
+    "status": "Not trimmed",
+    "reason": "Part XIII-B Primary Census Abstract-only volume; no Village/Town Directory tables.",
+    "flags": [
+      "manual_absent_or_ineligible"
+    ],
+    "verification": null
+  },
+  {
+    "state": "Nagaland",
+    "source_state": "Nagaland",
+    "district": "Mon",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Nagaland/1981 Mon.pdf",
+    "source_filename": "1981 Mon.pdf",
+    "volume_type": "Part XIII-B primary census abstract",
+    "eligible": false,
+    "eligibility_reason": "PCA-only volume; the requested town statements and amenities appendix are absent.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 123,
+    "output": null,
+    "source_pages_selected": [],
+    "printed_page_labels": [],
+    "status": "Not trimmed",
+    "reason": "Part XIII-B Primary Census Abstract-only volume; no Village/Town Directory tables.",
+    "flags": [
+      "manual_absent_or_ineligible"
+    ],
+    "verification": null
+  },
+  {
+    "state": "Nagaland",
+    "source_state": "Nagaland",
+    "district": "Mon",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Nagaland/1981 Mon.pdf",
+    "source_filename": "1981 Mon.pdf",
+    "volume_type": "Part XIII-B primary census abstract",
+    "eligible": false,
+    "eligibility_reason": "PCA-only volume; the requested town statements and amenities appendix are absent.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 123,
+    "output": null,
+    "source_pages_selected": [],
+    "printed_page_labels": [],
+    "status": "Not trimmed",
+    "reason": "Part XIII-B Primary Census Abstract-only volume; no Village Directory Appendix I.",
+    "flags": [
+      "manual_absent_or_ineligible"
+    ],
+    "verification": null
+  },
+  {
+    "state": "Nagaland",
+    "source_state": "Nagaland",
+    "district": "Phek",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Nagaland/1981 Phek.pdf",
+    "source_filename": "1981 Phek.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 113,
+    "output": null,
+    "source_pages_selected": [],
+    "printed_page_labels": [],
+    "status": "Not trimmed",
+    "reason": "Village Directory states that the district has no town; therefore no Town Directory Statement IV Civic and Other Amenities.",
+    "flags": [
+      "manual_absent_or_ineligible"
+    ],
+    "verification": null
+  },
+  {
+    "state": "Nagaland",
+    "source_state": "Nagaland",
+    "district": "Phek",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Nagaland/1981 Phek.pdf",
+    "source_filename": "1981 Phek.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 113,
+    "output": null,
+    "source_pages_selected": [],
+    "printed_page_labels": [],
+    "status": "Not trimmed",
+    "reason": "Village Directory states that the district has no town; therefore no Town Directory Statement V Medical, Educational, Recreational and Cultural Facilities.",
+    "flags": [
+      "manual_absent_or_ineligible"
+    ],
+    "verification": null
+  },
+  {
+    "state": "Nagaland",
+    "source_state": "Nagaland",
+    "district": "Phek",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Nagaland/1981 Phek.pdf",
+    "source_filename": "1981 Phek.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 113,
+    "output": "output/pdf/1981_trimmed/Nagaland/tehsil appendix/1981_Phek_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      84,
+      85,
+      86,
+      87
+    ],
+    "printed_page_labels": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Village Directory Appendix I Circle-wise abstract of educational, medical and other amenities, printed pages 66-69; source page 88 begins Appendix III.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 4,
+      "pages": [
+        {
+          "source_page": 84,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              567.6,
+              774.0
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              567.6,
+              774.0
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 85,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              567.6,
+              774.0
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              567.6,
+              774.0
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 86,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              567.6,
+              774.0
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              567.6,
+              774.0
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 87,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              567.6,
+              774.0
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              567.6,
+              774.0
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 84,
+          "output_page": 1,
+          "source_png_sha256": "6a6cf9dbce2921c2611d3597fbb90b80ea5623793252638ecabe1bc19a099a07",
+          "output_png_sha256": "6a6cf9dbce2921c2611d3597fbb90b80ea5623793252638ecabe1bc19a099a07",
+          "match": true
+        },
+        {
+          "source_page": 85,
+          "output_page": 2,
+          "source_png_sha256": "57dee2f2dbf43c35f0042b937db3ff1271c62cadd57e91c2764bac0dec06c0a4",
+          "output_png_sha256": "57dee2f2dbf43c35f0042b937db3ff1271c62cadd57e91c2764bac0dec06c0a4",
+          "match": true
+        },
+        {
+          "source_page": 86,
+          "output_page": 3,
+          "source_png_sha256": "c90715046adbab1710d76b8ff501bb4dc3599dbcdd7384e642a2585d6330b677",
+          "output_png_sha256": "c90715046adbab1710d76b8ff501bb4dc3599dbcdd7384e642a2585d6330b677",
+          "match": true
+        },
+        {
+          "source_page": 87,
+          "output_page": 4,
+          "source_png_sha256": "ae050e7191c30c0bfb93e1a50f56c0e1d56e3201585978fdccae1f7cb174c5cb",
+          "output_png_sha256": "ae050e7191c30c0bfb93e1a50f56c0e1d56e3201585978fdccae1f7cb174c5cb",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 4,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Nagaland",
+    "source_state": "Nagaland",
+    "district": "Tuensang",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Nagaland/1981 Tuensang.pdf",
+    "source_filename": "1981 Tuensang.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 222,
+    "output": "output/pdf/1981_trimmed/Nagaland/civic amenities/1981_Tuensang_civic_amenities.pdf",
+    "source_pages_selected": [
+      174
+    ],
+    "printed_page_labels": [
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement IV Civic and Other Amenities, printed page 153; source page 175 begins Statement V.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 1,
+      "pages": [
+        {
+          "source_page": 174,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              643.2,
+              793.44
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              643.2,
+              793.44
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 174,
+          "output_page": 1,
+          "source_png_sha256": "221575287d63c1cf8fab1c6c715d6d212acde0c9124fde85668ad3d3a61ce057",
+          "output_png_sha256": "221575287d63c1cf8fab1c6c715d6d212acde0c9124fde85668ad3d3a61ce057",
+          "match": true
+        }
+      ],
+      "content_flags": [
+        "first_page_heading_not_confirmed"
+      ],
+      "audit_status": "pass",
+      "rendered_pages": 1,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Nagaland",
+    "source_state": "Nagaland",
+    "district": "Tuensang",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Nagaland/1981 Tuensang.pdf",
+    "source_filename": "1981 Tuensang.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 222,
+    "output": "output/pdf/1981_trimmed/Nagaland/mededu/1981_Tuensang_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      175,
+      176
+    ],
+    "printed_page_labels": [
+      null,
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement V Medical, Educational, Recreational and Cultural Facilities, printed pages 154-155; source page 176 also begins Statement VI and is retained whole.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 175,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              643.2,
+              793.44
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              643.2,
+              793.44
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 176,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              643.2,
+              793.44
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              643.2,
+              793.44
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 175,
+          "output_page": 1,
+          "source_png_sha256": "8206db9182ca01837b567493b2c03c08e202f9620a8cadfbd9501365afe6821f",
+          "output_png_sha256": "8206db9182ca01837b567493b2c03c08e202f9620a8cadfbd9501365afe6821f",
+          "match": true
+        },
+        {
+          "source_page": 176,
+          "output_page": 2,
+          "source_png_sha256": "063364a7918dbc9c7adc18f1cbca93e89073a175f9360d74195e55b0482ee0c8",
+          "output_png_sha256": "063364a7918dbc9c7adc18f1cbca93e89073a175f9360d74195e55b0482ee0c8",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Nagaland",
+    "source_state": "Nagaland",
+    "district": "Tuensang",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Nagaland/1981 Tuensang.pdf",
+    "source_filename": "1981 Tuensang.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 222,
+    "output": "output/pdf/1981_trimmed/Nagaland/tehsil appendix/1981_Tuensang_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      161,
+      162
+    ],
+    "printed_page_labels": [
+      null,
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Village Directory Appendix I Tahsil-wise abstract of educational, medical and other amenities, printed pages 141-142; source page 163 begins Appendix II.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 161,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              643.2,
+              793.44
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              643.2,
+              793.44
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 162,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              643.2,
+              793.44
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              643.2,
+              793.44
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 161,
+          "output_page": 1,
+          "source_png_sha256": "114ec64812a1bc0cd9c6304f47cd0c1bb665da91aa99225cde2bb59f95ebcd33",
+          "output_png_sha256": "114ec64812a1bc0cd9c6304f47cd0c1bb665da91aa99225cde2bb59f95ebcd33",
+          "match": true
+        },
+        {
+          "source_page": 162,
+          "output_page": 2,
+          "source_png_sha256": "47edad225f9ca0297efbfbb2b73d137055ed89d2df30b971d01349b550bb0ad2",
+          "output_png_sha256": "47edad225f9ca0297efbfbb2b73d137055ed89d2df30b971d01349b550bb0ad2",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Nagaland",
+    "source_state": "Nagaland",
+    "district": "Zunhebota",
+    "table": "civic_amenities",
+    "table_label": "Civic Amenities",
+    "source": "1981/Nagaland/1981 Zunhebota.pdf",
+    "source_filename": "1981 Zunhebota.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 153,
+    "output": "output/pdf/1981_trimmed/Nagaland/civic amenities/1981_Zunhebota_civic_amenities.pdf",
+    "source_pages_selected": [
+      118,
+      119
+    ],
+    "printed_page_labels": [
+      null,
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement IV Civic and Other Amenities, printed pages 100-101; complete table spans source pages 118-119.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 118,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              647.76,
+              803.76
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              647.76,
+              803.76
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 119,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              647.76,
+              803.76
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              647.76,
+              803.76
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 118,
+          "output_page": 1,
+          "source_png_sha256": "958bfc4699ff5a99a54c682e6f7980de53c501290b29b3ffa14c74ce96828ef8",
+          "output_png_sha256": "958bfc4699ff5a99a54c682e6f7980de53c501290b29b3ffa14c74ce96828ef8",
+          "match": true
+        },
+        {
+          "source_page": 119,
+          "output_page": 2,
+          "source_png_sha256": "ed5f9d632bdaf6ad1ab2a74ba7c681110fbf82be25a52c729c3adba9587c9e6c",
+          "output_png_sha256": "ed5f9d632bdaf6ad1ab2a74ba7c681110fbf82be25a52c729c3adba9587c9e6c",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Nagaland",
+    "source_state": "Nagaland",
+    "district": "Zunhebota",
+    "table": "medical_educational_amenities",
+    "table_label": "Medical and Educational Amenities",
+    "source": "1981/Nagaland/1981 Zunhebota.pdf",
+    "source_filename": "1981 Zunhebota.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 153,
+    "output": "output/pdf/1981_trimmed/Nagaland/mededu/1981_Zunhebota_medical_educational_amenities.pdf",
+    "source_pages_selected": [
+      120,
+      121
+    ],
+    "printed_page_labels": [
+      null,
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Town Directory Statement V Medical, Educational, Recreational and Cultural Facilities, printed pages 102-103; source page 121 also begins Statement VI and is retained whole.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 120,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              647.76,
+              803.76
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              647.76,
+              803.76
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 121,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              647.76,
+              803.76
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              647.76,
+              803.76
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 120,
+          "output_page": 1,
+          "source_png_sha256": "bac07c6c97c0ddf1117b9f576a6c4b1627e75acf262b93622c8040caf5d16f31",
+          "output_png_sha256": "bac07c6c97c0ddf1117b9f576a6c4b1627e75acf262b93622c8040caf5d16f31",
+          "match": true
+        },
+        {
+          "source_page": 121,
+          "output_page": 2,
+          "source_png_sha256": "559621c006130b4fcb4c63504efa196271758635c7bc409030dad4699161921c",
+          "output_png_sha256": "559621c006130b4fcb4c63504efa196271758635c7bc409030dad4699161921c",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  },
+  {
+    "state": "Nagaland",
+    "source_state": "Nagaland",
+    "district": "Zunhebota",
+    "table": "tehsil_appendix",
+    "table_label": "Tehsil Appendix",
+    "source": "1981/Nagaland/1981 Zunhebota.pdf",
+    "source_filename": "1981 Zunhebota.pdf",
+    "volume_type": "Village/Town Directory volume",
+    "eligible": true,
+    "eligibility_reason": "Directory volume contains or may contain the requested table groups.",
+    "language_status": "English or bilingual",
+    "language_reason": "Opening pages contain English directory or publication signals.",
+    "source_page_count": 153,
+    "output": "output/pdf/1981_trimmed/Nagaland/tehsil appendix/1981_Zunhebota_tehsil_appendix.pdf",
+    "source_pages_selected": [
+      108,
+      109
+    ],
+    "printed_page_labels": [
+      null,
+      null
+    ],
+    "status": "Trimmed",
+    "reason": "Village Directory Appendix I Circle-wise abstract of educational, medical and other amenities, printed pages 90-91; source page 110 begins Appendix II.",
+    "flags": [
+      "manual_verified"
+    ],
+    "verification": {
+      "output_pages": 2,
+      "pages": [
+        {
+          "source_page": 108,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              647.76,
+              803.76
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              647.76,
+              803.76
+            ]
+          },
+          "rotation": 0
+        },
+        {
+          "source_page": 109,
+          "boxes": {
+            "mediabox": [
+              0.0,
+              0.0,
+              647.76,
+              803.76
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              647.76,
+              803.76
+            ]
+          },
+          "rotation": 0
+        }
+      ],
+      "render_checks": [
+        {
+          "source_page": 108,
+          "output_page": 1,
+          "source_png_sha256": "fed8ad0415d17f0d5e4bdae64916be5a2fdfd5b52c602ddbff89fa9ec883aeb0",
+          "output_png_sha256": "fed8ad0415d17f0d5e4bdae64916be5a2fdfd5b52c602ddbff89fa9ec883aeb0",
+          "match": true
+        },
+        {
+          "source_page": 109,
+          "output_page": 2,
+          "source_png_sha256": "7049816951ff550fbf37169561f2d670ad97ca269eeb3e8e9d796dc096194c5e",
+          "output_png_sha256": "7049816951ff550fbf37169561f2d670ad97ca269eeb3e8e9d796dc096194c5e",
+          "match": true
+        }
+      ],
+      "content_flags": [],
+      "audit_status": "pass",
+      "rendered_pages": 2,
+      "audit_flags": []
+    }
+  }
+]
